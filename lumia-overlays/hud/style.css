@@ -1,0 +1,227 @@
+/* TCSGO HUD Overlay - CSS */
+/* ======================== */
+
+:root {
+    --bg-panel: rgba(22, 33, 62, 0.95);
+    --bg-item: rgba(26, 26, 46, 0.8);
+    --border-color: rgba(255, 255, 255, 0.1);
+    --text-primary: #ffffff;
+    --text-secondary: #b0b0b0;
+    --accent-gold: #ffd700;
+    
+    --rarity-blue: #4b69ff;
+    --rarity-purple: #8847ff;
+    --rarity-pink: #d32ce6;
+    --rarity-red: #eb4b4b;
+    --rarity-gold: #ffd700;
+    --rarity-consumer: #b0c3d9;
+    --rarity-industrial: #5e98d9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: transparent;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    overflow: hidden;
+}
+
+#tcsgo-hud {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 320px;
+}
+
+.hud-panel {
+    background: var(--bg-panel);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.panel-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.panel-icon {
+    font-size: 18px;
+}
+
+.panel-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Recent Pulls */
+#recent-pulls-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.pull-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border-color);
+    transition: background 0.2s;
+}
+
+.pull-item:last-child {
+    border-bottom: none;
+}
+
+.pull-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.pull-image {
+    width: 50px;
+    height: 38px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.pull-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.pull-name {
+    font-size: 12px;
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 2px;
+}
+
+.pull-meta {
+    display: flex;
+    gap: 8px;
+    font-size: 10px;
+    color: var(--text-secondary);
+}
+
+.pull-user {
+    color: var(--accent-gold);
+}
+
+.pull-rarity {
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.pull-rarity.rarity-blue { background: var(--rarity-blue); color: white; }
+.pull-rarity.rarity-purple { background: var(--rarity-purple); color: white; }
+.pull-rarity.rarity-pink { background: var(--rarity-pink); color: white; }
+.pull-rarity.rarity-red { background: var(--rarity-red); color: white; }
+.pull-rarity.rarity-gold { background: var(--rarity-gold); color: black; }
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 1px;
+    background: var(--border-color);
+}
+
+.stat-item {
+    background: var(--bg-panel);
+    padding: 12px;
+    text-align: center;
+}
+
+.stat-label {
+    font-size: 10px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.stat-value {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+.stat-value.highlight {
+    color: var(--accent-gold);
+}
+
+/* Prices List */
+#prices-list {
+    padding: 12px 16px;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.price-row:last-child {
+    border-bottom: none;
+}
+
+.price-label {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.price-value {
+    font-size: 12px;
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
+/* Scrollbar */
+#recent-pulls-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+#recent-pulls-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#recent-pulls-list::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+/* Animation for new items */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.pull-item.new {
+    animation: slideIn 0.3s ease-out;
+}

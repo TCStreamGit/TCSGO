@@ -1,0 +1,45 @@
+{
+    "name": "TCSGO Case Opening Animation",
+    "version": "1.0.0",
+    "description": "CS:GO/CS2 style case opening reel animation with reveal panel",
+    
+    "lumia": {
+        "eventSubscriptions": [
+            {
+                "type": "custom",
+                "codeId": "tcsgocaseopen"
+            }
+        ]
+    },
+    
+    "messageSchema": {
+        "type": "caseopen",
+        "codeId": "tcsgocaseopen",
+        "required": ["username", "winnerItem"],
+        "optional": ["containerId", "containerData", "statTrak", "wear", "priceCoins", "priceCAD"],
+        "example": {
+            "type": "caseopen",
+            "codeId": "tcsgocaseopen",
+            "username": "ViewerName",
+            "containerId": "chroma-2-case",
+            "winnerItem": {
+                "itemId": "m4a1-s-hyper-beast",
+                "displayName": "M4A1-S | Hyper Beast",
+                "tier": "red",
+                "category": "weapon",
+                "rarity": "covert"
+            },
+            "statTrak": true,
+            "wear": "Factory New",
+            "priceCoins": 15000,
+            "priceCAD": 45.50
+        }
+    },
+    
+    "notes": [
+        "This overlay receives messages from the Lumia !open command.",
+        "The winnerItem object must include at minimum: itemId, displayName, tier.",
+        "Set baseRawUrl in configs to your GitHub repository raw URL.",
+        "Test with window.TCSGOTest() in browser console."
+    ]
+}

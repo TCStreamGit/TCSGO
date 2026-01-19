@@ -1,0 +1,499 @@
+/* TCSGO Case Opening Overlay - CSS */
+/* ================================ */
+
+:root {
+    /* Standard Case Rarity Colors */
+    --rarity-blue: #4b69ff;
+    --rarity-purple: #8847ff;
+    --rarity-pink: #d32ce6;
+    --rarity-red: #eb4b4b;
+    --rarity-gold: #ffd700;
+    
+    /* Collection/Souvenir Rarity Colors */
+    --rarity-consumer: #b0c3d9;
+    --rarity-industrial: #5e98d9;
+    --rarity-milspec: #4b69ff;
+    --rarity-restricted: #8847ff;
+    --rarity-classified: #d32ce6;
+    --rarity-covert: #eb4b4b;
+    
+    /* UI Colors */
+    --bg-dark: #1a1a2e;
+    --bg-card: #16213e;
+    --text-primary: #ffffff;
+    --text-secondary: #b0b0b0;
+    --stattrak-orange: #cf6a32;
+    
+    /* Animation Timing */
+    --spin-duration: 6s;
+    --reveal-duration: 0.5s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: transparent;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#tcsgo-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =========================== */
+/* REEL VIEWPORT               */
+/* =========================== */
+
+#reel-viewport {
+    position: relative;
+    width: 1200px;
+    height: 220px;
+    background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-card) 100%);
+    border: 3px solid #333;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+#reel-marker {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, #ffd700 0%, #ff8c00 100%);
+    z-index: 100;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+}
+
+#reel-marker::before,
+#reel-marker::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+}
+
+#reel-marker::before {
+    top: -2px;
+    border-top: 16px solid #ffd700;
+}
+
+#reel-marker::after {
+    bottom: -2px;
+    border-bottom: 16px solid #ffd700;
+}
+
+#reel-track {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 200px;
+    display: flex;
+    gap: 8px;
+    will-change: transform;
+}
+
+/* =========================== */
+/* REEL CARDS                  */
+/* =========================== */
+
+.reel-card {
+    flex-shrink: 0;
+    width: 160px;
+    height: 200px;
+    background: var(--bg-card);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.reel-card::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+}
+
+/* Rarity-specific card styles */
+.reel-card.rarity-blue::before { background: var(--rarity-blue); }
+.reel-card.rarity-purple::before { background: var(--rarity-purple); }
+.reel-card.rarity-pink::before { background: var(--rarity-pink); }
+.reel-card.rarity-red::before { background: var(--rarity-red); }
+.reel-card.rarity-gold::before { background: var(--rarity-gold); }
+.reel-card.rarity-consumer::before { background: var(--rarity-consumer); }
+.reel-card.rarity-industrial::before { background: var(--rarity-industrial); }
+.reel-card.rarity-milspec::before { background: var(--rarity-milspec); }
+.reel-card.rarity-restricted::before { background: var(--rarity-restricted); }
+.reel-card.rarity-classified::before { background: var(--rarity-classified); }
+.reel-card.rarity-covert::before { background: var(--rarity-covert); }
+
+.reel-card.rarity-blue { border: 2px solid var(--rarity-blue); }
+.reel-card.rarity-purple { border: 2px solid var(--rarity-purple); }
+.reel-card.rarity-pink { border: 2px solid var(--rarity-pink); }
+.reel-card.rarity-red { border: 2px solid var(--rarity-red); }
+.reel-card.rarity-gold { border: 2px solid var(--rarity-gold); }
+.reel-card.rarity-consumer { border: 2px solid var(--rarity-consumer); }
+.reel-card.rarity-industrial { border: 2px solid var(--rarity-industrial); }
+.reel-card.rarity-milspec { border: 2px solid var(--rarity-milspec); }
+.reel-card.rarity-restricted { border: 2px solid var(--rarity-restricted); }
+.reel-card.rarity-classified { border: 2px solid var(--rarity-classified); }
+.reel-card.rarity-covert { border: 2px solid var(--rarity-covert); }
+
+.reel-card-image {
+    width: 140px;
+    height: 105px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.reel-card-name {
+    font-size: 11px;
+    color: var(--text-primary);
+    text-align: center;
+    padding: 0 8px;
+    line-height: 1.2;
+    max-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* =========================== */
+/* REVEAL PANEL                */
+/* =========================== */
+
+#reveal-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    animation: fadeIn var(--reveal-duration) ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#reveal-glow {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.6;
+    z-index: -1;
+    animation: pulseGlow 2s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+    0%, 100% { transform: scale(1); opacity: 0.6; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+/* Glow colors by rarity */
+#reveal-panel.rarity-blue #reveal-glow { background: var(--rarity-blue); }
+#reveal-panel.rarity-purple #reveal-glow { background: var(--rarity-purple); }
+#reveal-panel.rarity-pink #reveal-glow { background: var(--rarity-pink); }
+#reveal-panel.rarity-red #reveal-glow { background: var(--rarity-red); }
+#reveal-panel.rarity-gold #reveal-glow { background: var(--rarity-gold); }
+#reveal-panel.rarity-consumer #reveal-glow { background: var(--rarity-consumer); }
+#reveal-panel.rarity-industrial #reveal-glow { background: var(--rarity-industrial); }
+#reveal-panel.rarity-milspec #reveal-glow { background: var(--rarity-milspec); }
+#reveal-panel.rarity-restricted #reveal-glow { background: var(--rarity-restricted); }
+#reveal-panel.rarity-classified #reveal-glow { background: var(--rarity-classified); }
+#reveal-panel.rarity-covert #reveal-glow { background: var(--rarity-covert); }
+
+#reveal-particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.particle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: particleFall 3s linear forwards;
+}
+
+@keyframes particleFall {
+    0% {
+        transform: translateY(-100vh) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+#reveal-card {
+    background: var(--bg-card);
+    border-radius: 16px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    animation: cardPopIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+}
+
+@keyframes cardPopIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Card border colors by rarity */
+#reveal-panel.rarity-blue #reveal-card { border: 4px solid var(--rarity-blue); }
+#reveal-panel.rarity-purple #reveal-card { border: 4px solid var(--rarity-purple); }
+#reveal-panel.rarity-pink #reveal-card { border: 4px solid var(--rarity-pink); }
+#reveal-panel.rarity-red #reveal-card { border: 4px solid var(--rarity-red); }
+#reveal-panel.rarity-gold #reveal-card { border: 4px solid var(--rarity-gold); }
+#reveal-panel.rarity-consumer #reveal-card { border: 4px solid var(--rarity-consumer); }
+#reveal-panel.rarity-industrial #reveal-card { border: 4px solid var(--rarity-industrial); }
+#reveal-panel.rarity-milspec #reveal-card { border: 4px solid var(--rarity-milspec); }
+#reveal-panel.rarity-restricted #reveal-card { border: 4px solid var(--rarity-restricted); }
+#reveal-panel.rarity-classified #reveal-card { border: 4px solid var(--rarity-classified); }
+#reveal-panel.rarity-covert #reveal-card { border: 4px solid var(--rarity-covert); }
+
+#reveal-image-wrapper {
+    width: 300px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#reveal-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 30px rgba(0,0,0,0.5));
+}
+
+#reveal-info {
+    text-align: center;
+}
+
+#reveal-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-bottom: 12px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+/* Reveal name colors by rarity */
+#reveal-panel.rarity-blue #reveal-name { color: var(--rarity-blue); }
+#reveal-panel.rarity-purple #reveal-name { color: var(--rarity-purple); }
+#reveal-panel.rarity-pink #reveal-name { color: var(--rarity-pink); }
+#reveal-panel.rarity-red #reveal-name { color: var(--rarity-red); }
+#reveal-panel.rarity-gold #reveal-name { color: var(--rarity-gold); }
+#reveal-panel.rarity-consumer #reveal-name { color: var(--rarity-consumer); }
+#reveal-panel.rarity-industrial #reveal-name { color: var(--rarity-industrial); }
+#reveal-panel.rarity-milspec #reveal-name { color: var(--rarity-milspec); }
+#reveal-panel.rarity-restricted #reveal-name { color: var(--rarity-restricted); }
+#reveal-panel.rarity-classified #reveal-name { color: var(--rarity-classified); }
+#reveal-panel.rarity-covert #reveal-name { color: var(--rarity-covert); }
+
+#reveal-badges {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.badge {
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#reveal-stattrak {
+    background: linear-gradient(135deg, var(--stattrak-orange) 0%, #e67e22 100%);
+    color: white;
+    animation: stattrakPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes stattrakPulse {
+    0%, 100% { box-shadow: 0 0 10px rgba(207, 106, 50, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(207, 106, 50, 0.8); }
+}
+
+#reveal-wear {
+    background: rgba(255,255,255,0.1);
+    color: var(--text-secondary);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+#reveal-price {
+    font-size: 18px;
+    color: var(--text-secondary);
+}
+
+#reveal-price .coins {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+#reveal-price .cad {
+    color: #4ade80;
+    margin-left: 10px;
+}
+
+#reveal-username {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--text-primary);
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+/* =========================== */
+/* GOLD TIER SPECIAL EFFECTS   */
+/* =========================== */
+
+#reveal-panel.rarity-gold #reveal-card {
+    animation: cardPopIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+               goldShine 2s ease-in-out infinite;
+}
+
+@keyframes goldShine {
+    0%, 100% {
+        box-shadow: 0 0 30px rgba(255, 215, 0, 0.3),
+                    0 0 60px rgba(255, 215, 0, 0.2),
+                    0 20px 60px rgba(0,0,0,0.5);
+    }
+    50% {
+        box-shadow: 0 0 50px rgba(255, 215, 0, 0.5),
+                    0 0 100px rgba(255, 215, 0, 0.3),
+                    0 20px 60px rgba(0,0,0,0.5);
+    }
+}
+
+#reveal-panel.rarity-gold #reveal-glow {
+    animation: goldPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes goldPulse {
+    0%, 100% { transform: scale(1); opacity: 0.7; }
+    50% { transform: scale(1.2); opacity: 0.9; }
+}
+
+/* =========================== */
+/* PINK/RED SHIMMER EFFECT     */
+/* =========================== */
+
+#reveal-panel.rarity-pink #reveal-card::after,
+#reveal-panel.rarity-red #reveal-card::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent 30%,
+        rgba(255,255,255,0.1) 50%,
+        transparent 70%
+    );
+    animation: shimmer 3s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%) rotate(45deg); }
+    100% { transform: translateX(100%) rotate(45deg); }
+}
+
+/* =========================== */
+/* RESPONSIVE ADJUSTMENTS      */
+/* =========================== */
+
+@media (max-width: 1280px) {
+    #reel-viewport {
+        width: 900px;
+    }
+    
+    .reel-card {
+        width: 130px;
+        height: 170px;
+    }
+    
+    .reel-card-image {
+        width: 110px;
+        height: 85px;
+    }
+}
+
+@media (max-width: 960px) {
+    #reel-viewport {
+        width: 700px;
+        height: 180px;
+    }
+    
+    .reel-card {
+        width: 110px;
+        height: 150px;
+    }
+    
+    .reel-card-image {
+        width: 90px;
+        height: 70px;
+    }
+    
+    .reel-card-name {
+        font-size: 10px;
+    }
+    
+    #reveal-image-wrapper {
+        width: 220px;
+        height: 165px;
+    }
+    
+    #reveal-name {
+        font-size: 20px;
+    }
+}

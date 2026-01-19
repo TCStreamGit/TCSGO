@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0-asset-manifest",
+  "generatedAt": "2026-01-18T00:00:00Z",
+  "baseRawUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/TCSGO/main",
+  "sounds": {
+    "tick": "assets/sounds/tick.mp3",
+    "reveal": "assets/sounds/reveal.mp3",
+    "rare": "assets/sounds/rare.mp3",
+    "goldReveal": "assets/sounds/gold-reveal.mp3"
+  },
+  "caseFolderMap": {
+    "chroma-2-case": "Assets/Chroma-2-Case",
+    "chroma-3-case": "Assets/Chroma-3-Case",
+    "chroma-case": "Assets/Chroma-Case",
+    "clutch-case": "Assets/Clutch-Case",
+    "cs20-case": "Assets/CS20-Case",
+    "csgo-weapon-case": "Assets/CS-GO-Weapon-Case",
+    "csgo-weapon-case-2": "Assets/CS-GO-Weapon-Case-2",
+    "csgo-weapon-case-3": "Assets/CS-GO-Weapon-Case-3",
+    "danger-zone-case": "Assets/Danger-Zone-Case",
+    "dreams-nightmares-case": "Assets/Dreams-&-Nightmares-Case",
+    "esports-2013-case": "Assets/eSports-2013-Case",
+    "esports-2013-winter-case": "Assets/eSports-2013-Winter-Case",
+    "esports-2014-summer-case": "Assets/eSports-2014-Summer-Case",
+    "falchion-case": "Assets/Falchion-Case",
+    "fracture-case": "Assets/Fracture-Case",
+    "gamma-2-case": "Assets/Gamma-2-Case",
+    "gamma-case": "Assets/Gamma-Case",
+    "glove-case": "Assets/Glove-Case",
+    "horizon-case": "Assets/Horizon-Case",
+    "huntsman-weapon-case": "Assets/Huntsman-Weapon-Case",
+    "operation-bravo-case": "Assets/Operation-Bravo-Case",
+    "operation-breakout-weapon-case": "Assets/Operation-Breakout-Weapon-Case",
+    "operation-broken-fang-case": "Assets/Operation-Broken-Fang-Case",
+    "operation-hydra-case": "Assets/Operation-Hydra-Case",
+    "operation-phoenix-weapon-case": "Assets/Operation-Phoenix-Weapon-Case",
+    "operation-riptide-case": "Assets/Operation-Riptide-Case",
+    "operation-vanguard-weapon-case": "Assets/Operation-Vanguard-Weapon-Case",
+    "operation-wildfire-case": "Assets/Operation-Wildfire-Case",
+    "prisma-2-case": "Assets/Prisma-2-Case",
+    "prisma-case": "Assets/Prisma-Case",
+    "recoil-case": "Assets/Recoil-Case",
+    "revolution-case": "Assets/Revolution-Case",
+    "revolver-case": "Assets/Revolver-Case",
+    "shadow-case": "Assets/Shadow-Case",
+    "shattered-web-case": "Assets/Shattered-Web-Case",
+    "snakebite-case": "Assets/Snakebite-Case",
+    "spectrum-2-case": "Assets/Spectrum-2-Case",
+    "spectrum-case": "Assets/Spectrum-Case",
+    "winter-offensive-weapon-case": "Assets/Winter-Offensive-Weapon-Case",
+    "anubis-collection-package": "Assets/Anubis-Collection-Package",
+    "x-ray-p250-package": "Assets/X-Ray-P250-Package"
+  },
+  "imageResolutionRules": {
+    "weapons": {
+      "subfolder": "Weapons",
+      "extension": ".png",
+      "nameTransform": "displayNameToFilename"
+    },
+    "knives": {
+      "subfolder": "Knives",
+      "extension": ".png",
+      "nameTransform": "displayNameToFilename"
+    },
+    "gloves": {
+      "subfolder": "Weapons",
+      "extension": ".png",
+      "nameTransform": "gloveHashLookup"
+    }
+  },
+  "dopplerPhaseMap": {
+    "Phase 1": "-001",
+    "Phase 2": "-002",
+    "Phase 3": "-003",
+    "Phase 4": "-004",
+    "Ruby": "-005",
+    "Sapphire": "-006",
+    "Black Pearl": "-007",
+    "Emerald": "-008"
+  },
+  "gloveImageMap": {
+    "moto-gloves-spearmint": "motorcycle_gloves_motorcycle_mint_triangle_light_large.db023ffa169740fdcdfed112bdde.png",
+    "moto-gloves-boom": "motorcycle_gloves_motorcycle_mono_boom_light_large.eff642bda7ceca11d5783b495442.png",
+    "moto-gloves-eclipse": "motorcycle_gloves_motorcycle_basic_black_light_large.9a849bc145404258c8961449980d.png",
+    "moto-gloves-polygon": "motorcycle_gloves_motorcycle_triangle_blue_light_large.0fd19089bab85024b9458d7865e2.png",
+    "specialist-gloves-crimson-kimono": "specialist_gloves_specialist_kimono_diamonds_red_light_large.902d894626b290f6f0ae3867e216.png",
+    "specialist-gloves-emerald-web": "specialist_gloves_specialist_emerald_web_light_large.0ac5fb6e5faf01860ba42d0c3378.png",
+    "specialist-gloves-foundation": "specialist_gloves_specialist_orange_white_light_large.7eeb02d84b30e312f32d56add0dc.png",
+    "specialist-gloves-forest-ddpat": "specialist_gloves_specialist_ddpat_green_camo_light_large.d9d3da7700117b222fd713f7f3bc.png",
+    "sport-gloves-hedge-maze": "sporty_gloves_sporty_green_light_large.356ff62954a4dc34cd1fe2e39e70.png",
+    "sport-gloves-superconductor": "sporty_gloves_sporty_light_blue_light_large.ad70bb6b45be4dd9fefb19dea281.png",
+    "sport-gloves-arid": "sporty_gloves_sporty_military_light_large.416a571deb198035e693ca74de17.png",
+    "sport-gloves-pandoras-box": "sporty_gloves_sporty_purple_light_large.56ae5ad710e069f040d86caa5fac.png",
+    "driver-gloves-lunar-weave": "slick_gloves_slick_black_light_large.1a38e5968c549d49e791cf55bc4f.png",
+    "driver-gloves-convoy": "slick_gloves_slick_military_light_large.8da6c198b3bfb8a70f63bbd99a02.png",
+    "driver-gloves-crimson-weave": "slick_gloves_slick_red_light_large.137455fd6486c53fef15a523f86e.png",
+    "driver-gloves-diamondback": "slick_gloves_slick_snakeskin_yellow_light_large.017f2c7fab2cecceb4444c05c80f.png",
+    "hand-wraps-badlands": "leather_handwraps_handwrap_camo_grey_light_large.04557b1a8d68bccdd60b18521346.png",
+    "hand-wraps-slaughter": "leather_handwraps_handwrap_red_slaughter_light_large.98f0b6ff0cb2fa356b57fe42d317.png",
+    "hand-wraps-leather": "leather_handwraps_handwrap_leathery_light_large.a5f11c43b3d6f4958dc880a4f998.png",
+    "hand-wraps-spruce-ddpat": "leather_handwraps_handwrap_fabric_orange_camo_light_large.f8453c60f74a846bd3c05310de4f.png",
+    "bloodhound-gloves-guerrilla": "studded_bloodhound_gloves_bloodhound_guerrilla_light_large.3afeaecd54a38013c2efd2ff3086.png",
+    "bloodhound-gloves-bronzed": "studded_bloodhound_gloves_bloodhound_metallic_light_large.5a09f347d9be3d3552bd3dd6abba.png",
+    "bloodhound-gloves-charred": "studded_bloodhound_gloves_bloodhound_black_silver_light_large.36a1f3b18c240487ae6aba735429.png",
+    "bloodhound-gloves-snakebite": "studded_bloodhound_gloves_bloodhound_snakeskin_brass_light_large.7e478dfcfe8c89cf4f4651ee547b.png"
+  },
+  "fallbackImage": "assets/images/fallback-item.png",
+  "caseImages": {
+    "default": "assets/images/case-generic.png"
+  },
+  "notes": [
+    "baseRawUrl should be updated to match your GitHub repository.",
+    "Weapons use displayName with spaces as filename, e.g., 'AK-47 Elite Build.png'",
+    "Knives follow same pattern, with Doppler variants using suffix codes.",
+    "Gloves require explicit hash-based filename mapping in gloveImageMap."
+  ]
+}

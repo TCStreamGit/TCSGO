@@ -1,0 +1,11 @@
+{
+    "baseRawUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/TCSGO/main",
+    "maxRecentPulls": 10,
+    "codeId": "tcsgohud",
+    "showPanels": {
+        "recentPulls": true,
+        "sessionStats": true,
+        "marketStats": true,
+        "prices": true
+    }
+}

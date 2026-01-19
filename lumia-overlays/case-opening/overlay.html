@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCSGO Case Opening</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tcsgo-container" class="hidden">
+        <!-- Reel Container -->
+        <div id="reel-viewport">
+            <div id="reel-marker"></div>
+            <div id="reel-track"></div>
+        </div>
+        
+        <!-- Reveal Panel -->
+        <div id="reveal-panel" class="hidden">
+            <div id="reveal-glow"></div>
+            <div id="reveal-particles"></div>
+            <div id="reveal-card">
+                <div id="reveal-image-wrapper">
+                    <img id="reveal-image" src="" alt="">
+                </div>
+                <div id="reveal-info">
+                    <div id="reveal-name"></div>
+                    <div id="reveal-badges">
+                        <span id="reveal-stattrak" class="badge hidden">StatTrak™</span>
+                        <span id="reveal-wear" class="badge"></span>
+                    </div>
+                    <div id="reveal-price"></div>
+                </div>
+            </div>
+            <div id="reveal-username"></div>
+        </div>
+        
+        <!-- Audio Pool (hidden) -->
+        <div id="audio-pool" style="display:none;"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+    "name": "TCSGO HUD Display",
+    "version": "1.0.0",
+    "description": "Shows recent pulls, session stats, and market info",
+    
+    "lumia": {
+        "eventSubscriptions": [
+            {
+                "type": "custom",
+                "codeId": "tcsgohud"
+            }
+        ]
+    },
+    
+    "messageTypes": {
+        "newpull": {
+            "description": "Add a new pull to recent pulls list",
+            "example": {
+                "type": "newpull",
+                "codeId": "tcsgohud",
+                "pull": {
+                    "username": "ViewerName",
+                    "displayName": "M4A1-S | Hyper Beast",
+                    "rarity": "red",
+                    "imageUrl": "https://..."
+                },
+                "stats": {
+                    "opens": 25,
+                    "spent": 50000
+                }
+            }
+        },
+        "fullstate": {
+            "description": "Update all HUD data at once",
+            "example": {
+                "type": "fullstate",
+                "codeId": "tcsgohud",
+                "recentPulls": [],
+                "sessionStats": { "opens": 0, "spent": 0, "bestPull": null },
+                "marketStats": { "listings": 0, "lastSale": null },
+                "prices": { "casePrice": 1500, "keyPrice": 3500, "totalOpenCost": 5000 }
+            }
+        }
+    }
+}

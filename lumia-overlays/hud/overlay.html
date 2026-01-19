@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCSGO HUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tcsgo-hud">
+        <!-- Recent Pulls Panel -->
+        <div id="recent-pulls-panel" class="hud-panel">
+            <div class="panel-header">
+                <span class="panel-icon">🎰</span>
+                <span class="panel-title">Recent Pulls</span>
+            </div>
+            <div id="recent-pulls-list"></div>
+        </div>
+        
+        <!-- Session Stats Panel -->
+        <div id="session-stats-panel" class="hud-panel">
+            <div class="panel-header">
+                <span class="panel-icon">📊</span>
+                <span class="panel-title">Session Stats</span>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-label">Opens</div>
+                    <div class="stat-value" id="stat-opens">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Coins Spent</div>
+                    <div class="stat-value" id="stat-spent">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Best Pull</div>
+                    <div class="stat-value" id="stat-best">-</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Market Stats Panel -->
+        <div id="market-stats-panel" class="hud-panel">
+            <div class="panel-header">
+                <span class="panel-icon">💰</span>
+                <span class="panel-title">Market</span>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-label">Listings</div>
+                    <div class="stat-value" id="stat-listings">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Last Sale</div>
+                    <div class="stat-value" id="stat-lastsale">-</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Prices Panel -->
+        <div id="prices-panel" class="hud-panel">
+            <div class="panel-header">
+                <span class="panel-icon">🏷️</span>
+                <span class="panel-title">Session Prices</span>
+            </div>
+            <div id="prices-list"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
