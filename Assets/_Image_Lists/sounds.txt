@@ -1,6 +1,0 @@
-﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
-MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\sounds
-RelativeFolder: sounds
-TotalImagesUnderMainFolder: 0
-
-No Images Found Under This Folder (Including Subfolders).

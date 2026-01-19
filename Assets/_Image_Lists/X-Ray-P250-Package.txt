@@ -1,8 +1,0 @@
-﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
-MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\X-Ray-P250-Package
-RelativeFolder: X-Ray-P250-Package
-TotalImagesUnderMainFolder: 1
-
-Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\X-Ray-P250-Package\Weapons
-  - P250 X-Ray.png
-

@@ -1,8 +1,0 @@
-﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
-MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Blacksite-Collection
-RelativeFolder: Collections\The-Blacksite-Collection
-TotalImagesUnderMainFolder: 1
-
-Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Blacksite-Collection
-  - MP5-SD Lab Rats.png
-
