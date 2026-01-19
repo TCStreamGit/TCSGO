@@ -1,0 +1,467 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "budapest-2025-overpass-souvenir-package",
+    "name": "Budapest 2025 Overpass Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Budapest%202025%20Overpass%20Souvenir%20Package",
+      "https://csgoskins.gg/containers/budapest-2025-overpass-souvenir-package",
+      "https://wiki.cs.money/collections/collection-set-overpass-2024"
+    ],
+    "notes": [
+      "Souvenir Package Associated With The StarLadder Budapest 2025 CS2 Major Championship.",
+      "Contents Are Souvenir Skins From The Overpass 2024 Collection. Sticker Permutations Are Not Enumerated (Ignored).",
+      "This Collection Has No Consumer-Grade Items; Consumer Tier Is Included With Zero Weight And Zero Items."
+    ],
+    "souvenir": {
+      "tournament": "StarLadder Budapest 2025 CS2 Major Championship",
+      "year": "2025",
+      "map": "Overpass",
+      "collection": "The Overpass 2024 Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://steamcommunity.com/market/listings/730/Budapest%202025%20Overpass%20Souvenir%20Package",
+        "https://csgoskins.gg/items/budapest-2025-overpass-souvenir-package",
+        "https://csgoskins.gg/containers/budapest-2025-overpass-souvenir-package",
+        "https://wiki.cs.money/collections/collection-set-overpass-2024"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 0,
+      "industrial": 799200000000,
+      "milspec": 159800000000,
+      "restricted": 32000000000,
+      "classified": 6400000000,
+      "covert": 2600000000
+    },
+    "tiers": {
+      "consumer": [],
+      "industrial": [
+        {
+          "itemId": "desert-eagle-tilted-souvenir",
+          "displayName": "Souvenir Desert Eagle | Tilted",
+          "category": "pistol",
+          "weapon": "Desert Eagle",
+          "skin": "Tilted",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "m4a1-s-wash-me-plz-souvenir",
+          "displayName": "Souvenir M4A1-S | Wash me plz",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Wash me plz",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "five-seve-n-midnight-paintover-souvenir",
+          "displayName": "Souvenir Five-SeveN | Midnight Paintover",
+          "category": "pistol",
+          "weapon": "Five-SeveN",
+          "skin": "Midnight Paintover",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp5-sd-neon-squeezer-souvenir",
+          "displayName": "Souvenir MP5-SD | Neon Squeezer",
+          "category": "smg",
+          "weapon": "MP5-SD",
+          "skin": "Neon Squeezer",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "negev-wall-bang-souvenir",
+          "displayName": "Souvenir Negev | Wall Bang",
+          "category": "machinegun",
+          "weapon": "Negev",
+          "skin": "Wall Bang",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p90-wash-me-souvenir",
+          "displayName": "Souvenir P90 | Wash me",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Wash me",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "mac-10-pipsqueak-souvenir",
+          "displayName": "Souvenir MAC-10 | Pipsqueak",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Pipsqueak",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "glock-18-teal-graf-souvenir",
+          "displayName": "Souvenir Glock-18 | Teal Graf",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Teal Graf",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "galil-ar-metallic-squeezer-souvenir",
+          "displayName": "Souvenir Galil AR | Metallic Squeezer",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "Metallic Squeezer",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "nova-wurst-holle-souvenir",
+          "displayName": "Souvenir Nova | Wurst Hölle",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Wurst Hölle",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "aug-eye-of-zapems-souvenir",
+          "displayName": "Souvenir AUG | Eye of Zapems",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Eye of Zapems",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 10666666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.010666666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-sweet-little-angels-souvenir",
+          "displayName": "Souvenir Dual Berettas | Sweet Little Angels",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Sweet Little Angels",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 10666666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.010666666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-monster-melt-souvenir",
+          "displayName": "Souvenir XM1014 | Monster Melt",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Monster Melt",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 10666666666,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.010666666666000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "awp-crakow-souvenir",
+          "displayName": "Souvenir AWP | Crakow!",
+          "category": "sniper-rifle",
+          "weapon": "AWP",
+          "skin": "Crakow!",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 3200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.003200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "zeus-x27-dragon-snore-souvenir",
+          "displayName": "Souvenir Zeus x27 | Dragon Snore",
+          "category": "pistol",
+          "weapon": "Zeus x27",
+          "skin": "Dragon Snore",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 3200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.003200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": [
+        {
+          "itemId": "ak-47-b-the-monster-souvenir",
+          "displayName": "Souvenir AK-47 | B the Monster",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "B the Monster",
+          "variant": "Souvenir",
+          "rarity": "covert",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Budapest 2025 Overpass Souvenir Package And Part Of The Overpass 2024 Collection.",
+          "weights": {
+            "base": 2600000000,
+            "nonStatTrak": 2600000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002600000000000000",
+            "nonStatTrak": "0.002600000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 0,
+      "industrial": 6,
+      "milspec": 4,
+      "restricted": 3,
+      "classified": 2,
+      "covert": 1
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Consumer Tier Not Present In The Overpass 2024 Collection; Consumer Weight Set To 0 With Remaining Probability Mass Assigned To Existing Tiers Using Shifted Defaults.",
+      "Default Collection Odds Provided Do Not Sum To 1.0; Final Tier Weight Was Adjusted By Remainder To Ensure Exact 1e12 Total Weight."
+    ]
+  }
+}

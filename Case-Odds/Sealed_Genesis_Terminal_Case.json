@@ -1,0 +1,470 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "sealed-genesis-terminal",
+    "name": "Sealed Genesis Terminal",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://totalcsgo.com/skins/cases/sealed-genesis-terminal",
+      "https://www.csgodatabase.com/cases/sealed-genesis-terminal/",
+      "https://steamcommunity.com/market/listings/730/Sealed%20Genesis%20Terminal",
+      "https://csgoskins.gg/containers/sealed-genesis-terminal"
+    ],
+    "notes": [
+      "This Export Treats The Sealed Genesis Terminal As A Weapon Case With Standard Tiered Odds For Simulator Purposes.",
+      "Special Items Are Listed As None On TotalCS, So The Gold Tier Is Disabled (Gold Weight = 0) And Remaining Tier Odds Are Renormalized Across Blue/Purple/Pink/Red."
+    ],
+    "oddsWeights": {
+      "blue": 801283336675,
+      "purple": 160216563064,
+      "pink": 32083416884,
+      "red": 6416683377,
+      "gold": 0
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "scar-20-caged",
+          "displayName": "SCAR-20 | Caged",
+          "category": "sniper_rifle",
+          "weapon": "SCAR-20",
+          "skin": "Caged",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 114469048097,
+            "nonStatTrak": 103022143288,
+            "statTrak": 11446904809
+          },
+          "probs": {
+            "base": "0.114469048097000000",
+            "nonStatTrak": "0.103022143288000000",
+            "statTrak": "0.011446904809000000"
+          }
+        },
+        {
+          "itemId": "aug-trigger-discipline",
+          "displayName": "AUG | Trigger Discipline",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Trigger Discipline",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 114469048097,
+            "nonStatTrak": 103022143288,
+            "statTrak": 11446904809
+          },
+          "probs": {
+            "base": "0.114469048097000000",
+            "nonStatTrak": "0.103022143288000000",
+            "statTrak": "0.011446904809000000"
+          }
+        },
+        {
+          "itemId": "p2000-red-wing",
+          "displayName": "P2000 | Red Wing",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Red Wing",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 114469048097,
+            "nonStatTrak": 103022143288,
+            "statTrak": 11446904809
+          },
+          "probs": {
+            "base": "0.114469048097000000",
+            "nonStatTrak": "0.103022143288000000",
+            "statTrak": "0.011446904809000000"
+          }
+        },
+        {
+          "itemId": "mp9-broken-record",
+          "displayName": "MP9 | Broken Record",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Broken Record",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 114469048096,
+            "nonStatTrak": 103022143287,
+            "statTrak": 11446904809
+          },
+          "probs": {
+            "base": "0.114469048096000000",
+            "nonStatTrak": "0.103022143287000000",
+            "statTrak": "0.011446904809000000"
+          }
+        },
+        {
+          "itemId": "p250-bullfrog",
+          "displayName": "P250 | Bullfrog",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Bullfrog",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 114469048096,
+            "nonStatTrak": 103022143287,
+            "statTrak": 11446904809
+          },
+          "probs": {
+            "base": "0.114469048096000000",
+            "nonStatTrak": "0.103022143287000000",
+            "statTrak": "0.011446904809000000"
+          }
+        },
+        {
+          "itemId": "mag-7-magnitude",
+          "displayName": "MAG-7 | MAGnitude",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "MAGnitude",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 114469048096,
+            "nonStatTrak": 103022143287,
+            "statTrak": 11446904809
+          },
+          "probs": {
+            "base": "0.114469048096000000",
+            "nonStatTrak": "0.103022143287000000",
+            "statTrak": "0.011446904809000000"
+          }
+        },
+        {
+          "itemId": "mp5-sd-focus",
+          "displayName": "MP5-SD | Focus",
+          "category": "smg",
+          "weapon": "MP5-SD",
+          "skin": "Focus",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 114469048096,
+            "nonStatTrak": 103022143287,
+            "statTrak": 11446904809
+          },
+          "probs": {
+            "base": "0.114469048096000000",
+            "nonStatTrak": "0.103022143287000000",
+            "statTrak": "0.011446904809000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "nova-ocular",
+          "displayName": "Nova | Ocular",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Ocular",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 32043312613,
+            "nonStatTrak": 28838981352,
+            "statTrak": 3204331261
+          },
+          "probs": {
+            "base": "0.032043312613000000",
+            "nonStatTrak": "0.028838981352000000",
+            "statTrak": "0.003204331261000000"
+          }
+        },
+        {
+          "itemId": "m4a1-s-liquidation",
+          "displayName": "M4A1-S | Liquidation",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Liquidation",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 32043312613,
+            "nonStatTrak": 28838981352,
+            "statTrak": 3204331261
+          },
+          "probs": {
+            "base": "0.032043312613000000",
+            "nonStatTrak": "0.028838981352000000",
+            "statTrak": "0.003204331261000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-angel-eyes",
+          "displayName": "Dual Berettas | Angel Eyes",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Angel Eyes",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 32043312613,
+            "nonStatTrak": 28838981352,
+            "statTrak": 3204331261
+          },
+          "probs": {
+            "base": "0.032043312613000000",
+            "nonStatTrak": "0.028838981352000000",
+            "statTrak": "0.003204331261000000"
+          }
+        },
+        {
+          "itemId": "mac-10-cat-fight",
+          "displayName": "MAC-10 | Cat Fight",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Cat Fight",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 32043312613,
+            "nonStatTrak": 28838981352,
+            "statTrak": 3204331261
+          },
+          "probs": {
+            "base": "0.032043312613000000",
+            "nonStatTrak": "0.028838981352000000",
+            "statTrak": "0.003204331261000000"
+          }
+        },
+        {
+          "itemId": "ump-45-continuum",
+          "displayName": "UMP-45 | Continuum",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Continuum",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 32043312612,
+            "nonStatTrak": 28838981351,
+            "statTrak": 3204331261
+          },
+          "probs": {
+            "base": "0.032043312612000000",
+            "nonStatTrak": "0.028838981351000000",
+            "statTrak": "0.003204331261000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "awp-ice-coaled",
+          "displayName": "AWP | Ice Coaled",
+          "category": "sniper_rifle",
+          "weapon": "AWP",
+          "skin": "Ice Coaled",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 10694472295,
+            "nonStatTrak": 9625025066,
+            "statTrak": 1069447229
+          },
+          "probs": {
+            "base": "0.010694472295000000",
+            "nonStatTrak": "0.009625025066000000",
+            "statTrak": "0.001069447229000000"
+          }
+        },
+        {
+          "itemId": "mp7-smoking-kills",
+          "displayName": "MP7 | Smoking Kills",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Smoking Kills",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 10694472295,
+            "nonStatTrak": 9625025066,
+            "statTrak": 1069447229
+          },
+          "probs": {
+            "base": "0.010694472295000000",
+            "nonStatTrak": "0.009625025066000000",
+            "statTrak": "0.001069447229000000"
+          }
+        },
+        {
+          "itemId": "glock-18-mirror-mosaic",
+          "displayName": "Glock-18 | Mirror Mosaic",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Mirror Mosaic",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 10694472294,
+            "nonStatTrak": 9625025065,
+            "statTrak": 1069447229
+          },
+          "probs": {
+            "base": "0.010694472294000000",
+            "nonStatTrak": "0.009625025065000000",
+            "statTrak": "0.001069447229000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "m4a4-full-throttle",
+          "displayName": "M4A4 | Full Throttle",
+          "category": "rifle",
+          "weapon": "M4A4",
+          "skin": "Full Throttle",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 3208341689,
+            "nonStatTrak": 2887507521,
+            "statTrak": 320834168
+          },
+          "probs": {
+            "base": "0.003208341689000000",
+            "nonStatTrak": "0.002887507521000000",
+            "statTrak": "0.000320834168000000"
+          }
+        },
+        {
+          "itemId": "ak-47-the-oligarch",
+          "displayName": "AK-47 | The Oligarch",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "The Oligarch",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Sealed Genesis Terminal Contents On TotalCSGO And CSGODatabase.",
+          "weights": {
+            "base": 3208341688,
+            "nonStatTrak": 2887507520,
+            "statTrak": 320834168
+          },
+          "probs": {
+            "base": "0.003208341688000000",
+            "nonStatTrak": "0.002887507520000000",
+            "statTrak": "0.000320834168000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "sealed-genesis-terminal-gold-pool-none",
+      "name": "None",
+      "category": "knife_pool",
+      "sources": [
+        "https://totalcsgo.com/skins/cases/sealed-genesis-terminal"
+      ],
+      "items": []
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Gold Tier Disabled Because TotalCS Lists Special Items As None For This Container.",
+      "Tier Odds Renormalized Across Blue/Purple/Pink/Red To Sum Exactly To Unit.Scale With Gold=0."
+    ]
+  }
+}

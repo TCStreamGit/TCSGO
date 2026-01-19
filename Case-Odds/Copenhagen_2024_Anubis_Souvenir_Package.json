@@ -1,0 +1,534 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "copenhagen-2024-anubis-souvenir-package",
+    "name": "Copenhagen 2024 Anubis Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Copenhagen%202024%20Anubis%20Souvenir%20Package",
+      "https://csgoskins.gg/items/copenhagen-2024-anubis-souvenir-package",
+      "https://csgoskins.gg/containers/copenhagen-2024-anubis-souvenir-package",
+      "https://csgoskins.gg/containers/anubis-collection-package",
+      "https://wiki.cs.money/collections/the-anubis-collection"
+    ],
+    "notes": [
+      "Souvenir Sticker Permutations Are Not Enumerated; stickersMode Is Set To ignored. Odds Use The Provided Default Collection Probabilities, With Any Remainder Applied To The Last Tier To Preserve Exact Weight Sums."
+    ],
+    "souvenir": {
+      "tournament": "PGL Copenhagen 2024",
+      "year": "2024",
+      "map": "Anubis",
+      "collection": "The Anubis Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://csgoskins.gg/items/copenhagen-2024-anubis-souvenir-package",
+        "https://steamcommunity.com/market/listings/730/Copenhagen%202024%20Anubis%20Souvenir%20Package"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 1280000000,
+      "covert": 1320000000
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-aug-snake-pit",
+          "displayName": "Souvenir AUG | Snake Pit",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Snake Pit",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-r8-revolver-inlay",
+          "displayName": "Souvenir R8 Revolver | Inlay",
+          "category": "pistol",
+          "weapon": "R8 Revolver",
+          "skin": "Inlay",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp7-sunbaked",
+          "displayName": "Souvenir MP7 | Sunbaked",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Sunbaked",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-m249-submerged",
+          "displayName": "Souvenir M249 | Submerged",
+          "category": "machinegun",
+          "weapon": "M249",
+          "skin": "Submerged",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-xm1014-hieroglyph",
+          "displayName": "Souvenir XM1014 | Hieroglyph",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Hieroglyph",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-m4a1-s-mud-spec",
+          "displayName": "Souvenir M4A1-S | Mud-Spec",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Mud-Spec",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-usp-s-desert-tactical",
+          "displayName": "Souvenir USP-S | Desert Tactical",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Desert Tactical",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ssg-08-azure-glyph",
+          "displayName": "Souvenir SSG 08 | Azure Glyph",
+          "category": "sniper-rifle",
+          "weapon": "SSG 08",
+          "skin": "Azure Glyph",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mac-10-echoing-sands",
+          "displayName": "Souvenir MAC-10 | Echoing Sands",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Echoing Sands",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-awp-black-nile",
+          "displayName": "Souvenir AWP | Black Nile",
+          "category": "sniper-rifle",
+          "weapon": "AWP",
+          "skin": "Black Nile",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ak-47-steel-delta",
+          "displayName": "Souvenir AK-47 | Steel Delta",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Steel Delta",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-tec-9-mummys-rot",
+          "displayName": "Souvenir Tec-9 | Mummy's Rot",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Mummy's Rot",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mag-7-copper-coated",
+          "displayName": "Souvenir MAG-7 | Copper Coated",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Copper Coated",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-glock-18-rameses-reach",
+          "displayName": "Souvenir Glock-18 | Ramese's Reach",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Ramese's Reach",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 2133333334,
+            "nonStatTrak": 2133333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333334000000",
+            "nonStatTrak": "0.002133333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-nova-sobeks-bite",
+          "displayName": "Souvenir Nova | Sobek's Bite",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Sobek's Bite",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-scarab-rush",
+          "displayName": "Souvenir P90 | ScaraB Rush",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "ScaraB Rush",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "souvenir-p250-apeps-curse",
+          "displayName": "Souvenir P250 | Apep's Curse",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Apep's Curse",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 640000000,
+            "nonStatTrak": 640000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000640000000000000",
+            "nonStatTrak": "0.000640000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-famas-waters-of-nephthys",
+          "displayName": "Souvenir FAMAS | Waters of Nephthys",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Waters of Nephthys",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 640000000,
+            "nonStatTrak": 640000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000640000000000000",
+            "nonStatTrak": "0.000640000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": [
+        {
+          "itemId": "souvenir-m4a4-eye-of-horus",
+          "displayName": "Souvenir M4A4 | Eye of Horus",
+          "category": "rifle",
+          "weapon": "M4A4",
+          "skin": "Eye of Horus",
+          "variant": "Souvenir",
+          "rarity": "covert",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under The Copenhagen 2024 Anubis Souvenir Package / The Anubis Collection On Public Item Databases And The Steam Community Market Listing.",
+          "weights": {
+            "base": 1320000000,
+            "nonStatTrak": 1320000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001320000000000000",
+            "nonStatTrak": "0.001320000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 4,
+      "restricted": 3,
+      "classified": 2,
+      "covert": 1
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Souvenir Sticker Permutations Not Enumerated; stickersMode=ignored. Default Collection Odds Used, With Remainder Applied To The Last Tier To Preserve Exact Integer Weight Sums."
+    ]
+  }
+}

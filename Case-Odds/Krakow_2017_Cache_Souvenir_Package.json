@@ -1,0 +1,387 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00.000Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "krakow-2017-cache-souvenir-package",
+    "name": "Krakow 2017 Cache Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Krakow%202017%20Cache%20Souvenir%20Package",
+      "https://csgoskins.gg/items/krakow-2017-cache-souvenir-package",
+      "https://counterstrike.fandom.com/wiki/PGL_Krakow_2017_Souvenir_Packages",
+      "https://wiki.cs.money/collections/the-cache-collection"
+    ],
+    "notes": [
+      "Underlying Map Collection Is The Cache Collection; All Listed Outcomes Are Souvenir Variants.",
+      "Sticker Permutations Are Not Enumerated; souvenirs.stickersMode Is Set To \"ignored\".",
+      "Collection Rarity Tiers Present In The Cache Collection Are Industrial, MilSpec, And Restricted Only."
+    ],
+    "souvenir": {
+      "tournament": "PGL Krakow 2017",
+      "year": "2017",
+      "map": "Cache",
+      "collection": "The Cache Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://steamcommunity.com/market/listings/730/Krakow%202017%20Cache%20Souvenir%20Package",
+        "https://counterstrike.fandom.com/wiki/PGL_Krakow_2017_Souvenir_Packages",
+        "https://wiki.cs.money/collections/the-cache-collection"
+      ]
+    },
+    "oddsWeights": {
+      "industrial": 799200000000,
+      "milspec": 159800000000,
+      "restricted": 41000000000
+    },
+    "tiers": {
+      "industrial": [
+        {
+          "itemId": "five-seven-hot-shot-souvenir",
+          "displayName": "Souvenir Five-SeveN | Hot Shot",
+          "category": "pistol",
+          "weapon": "Five-SeveN",
+          "skin": "Hot Shot",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Industrial Grade Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sg-553-fallout-warning-souvenir",
+          "displayName": "Souvenir SG 553 | Fallout Warning",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Fallout Warning",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Industrial Grade Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "aug-radiation-hazard-souvenir",
+          "displayName": "Souvenir AUG | Radiation Hazard",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Radiation Hazard",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Industrial Grade Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "negev-nuclear-waste-souvenir",
+          "displayName": "Souvenir Negev | Nuclear Waste",
+          "category": "machine-gun",
+          "weapon": "Negev",
+          "skin": "Nuclear Waste",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Industrial Grade Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p250-contamination-souvenir",
+          "displayName": "Souvenir P250 | Contamination",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Contamination",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Industrial Grade Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-chemical-green-souvenir",
+          "displayName": "Souvenir PP-Bizon | Chemical Green",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Chemical Green",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Industrial Grade Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "glock-18-reactor-souvenir",
+          "displayName": "Souvenir Glock-18 | Reactor",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Reactor",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A MilSpec Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "tec-9-toxic-souvenir",
+          "displayName": "Souvenir Tec-9 | Toxic",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Toxic",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A MilSpec Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-setting-sun-souvenir",
+          "displayName": "Souvenir MP9 | Setting Sun",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Setting Sun",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A MilSpec Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-nuclear-garden-souvenir",
+          "displayName": "Souvenir MAC-10 | Nuclear Garden",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Nuclear Garden",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A MilSpec Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-bone-machine-souvenir",
+          "displayName": "Souvenir XM1014 | Bone Machine",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Bone Machine",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A MilSpec Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "galil-ar-cerberus-souvenir",
+          "displayName": "Souvenir Galil AR | Cerberus",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "Cerberus",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Restricted Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 20500000000,
+            "nonStatTrak": 20500000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.020500000000000000",
+            "nonStatTrak": "0.020500000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "famas-styx-souvenir",
+          "displayName": "Souvenir FAMAS | Styx",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Styx",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Restricted Skin In The Cache Collection Across Multiple Collection References.",
+          "weights": {
+            "base": 20500000000,
+            "nonStatTrak": 20500000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.020500000000000000",
+            "nonStatTrak": "0.020500000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "industrial": 6,
+      "milspec": 5,
+      "restricted": 2
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "The Cache Collection Has No Consumer, Classified, Or Covert Items In Common References; Odds Weights Use A Shifted Default Distribution (Industrial<-Consumer, MilSpec<-Industrial, Restricted<-MilSpec) With Remaining Probability Absorbed Into Restricted To Sum Exactly To Unit.Scale.",
+      "Souvenir Sticker Permutations Are Ignored By Design (stickersMode=\"ignored\")."
+    ]
+  }
+}

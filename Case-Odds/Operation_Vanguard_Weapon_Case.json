@@ -1,0 +1,1896 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "operation-vanguard-weapon-case",
+    "name": "Operation Vanguard Weapon Case",
+    "caseType": "operation_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/Operation_Vanguard_Weapon_Case",
+      "https://csgoskins.gg/containers/operation-vanguard-weapon-case",
+      "https://steamcommunity.com/market/listings/730/Operation%20Vanguard%20Weapon%20Case"
+    ],
+    "notes": [
+      "Tier Weights Use Default Case Odds (Mil-Spec 79.92%, Restricted 15.98%, Classified 3.20%, Covert 0.64%, Special 0.26%) And Equal Probability Within Each Tier.",
+      "Gold Pool Expanded To 65 Outcomes: 5 Original Knife Types (Bayonet, Flip Knife, Gut Knife, Karambit, M9 Bayonet) Each With Vanilla Plus 12 Original Finishes."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "five-seven-urban-hazard",
+          "displayName": "Five-SeveN | Urban Hazard",
+          "category": "weapon",
+          "weapon": "Five-SeveN",
+          "skin": "Urban Hazard",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 143856000000,
+            "statTrak": 15984000000
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.143856000000000000",
+            "statTrak": "0.015984000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-dart",
+          "displayName": "MP9 | Dart",
+          "category": "weapon",
+          "weapon": "MP9",
+          "skin": "Dart",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 143856000000,
+            "statTrak": 15984000000
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.143856000000000000",
+            "statTrak": "0.015984000000000000"
+          }
+        },
+        {
+          "itemId": "mag-7-firestarter",
+          "displayName": "MAG-7 | Firestarter",
+          "category": "weapon",
+          "weapon": "MAG-7",
+          "skin": "Firestarter",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 143856000000,
+            "statTrak": 15984000000
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.143856000000000000",
+            "statTrak": "0.015984000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-delusion",
+          "displayName": "UMP-45 | Delusion",
+          "category": "weapon",
+          "weapon": "UMP-45",
+          "skin": "Delusion",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 143856000000,
+            "statTrak": 15984000000
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.143856000000000000",
+            "statTrak": "0.015984000000000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-murky",
+          "displayName": "G3SG1 | Murky",
+          "category": "weapon",
+          "weapon": "G3SG1",
+          "skin": "Murky",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 143856000000,
+            "statTrak": 15984000000
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.143856000000000000",
+            "statTrak": "0.015984000000000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "m4a1-s-basilisk",
+          "displayName": "M4A1-S | Basilisk",
+          "category": "weapon",
+          "weapon": "M4A1-S",
+          "skin": "Basilisk",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        },
+        {
+          "itemId": "m4a4-griffin",
+          "displayName": "M4A4 | Griffin",
+          "category": "weapon",
+          "weapon": "M4A4",
+          "skin": "Griffin",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        },
+        {
+          "itemId": "glock-18-grinder",
+          "displayName": "Glock-18 | Grinder",
+          "category": "weapon",
+          "weapon": "Glock-18",
+          "skin": "Grinder",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-highwayman",
+          "displayName": "Sawed-Off | Highwayman",
+          "category": "weapon",
+          "weapon": "Sawed-Off",
+          "skin": "Highwayman",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "p250-cartel",
+          "displayName": "P250 | Cartel",
+          "category": "weapon",
+          "weapon": "P250",
+          "skin": "Cartel",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "xm1014-tranquility",
+          "displayName": "XM1014 | Tranquility",
+          "category": "weapon",
+          "weapon": "XM1014",
+          "skin": "Tranquility",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "scar-20-cardiac",
+          "displayName": "SCAR-20 | Cardiac",
+          "category": "weapon",
+          "weapon": "SCAR-20",
+          "skin": "Cardiac",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "ak-47-wasteland-rebel",
+          "displayName": "AK-47 | Wasteland Rebel",
+          "category": "weapon",
+          "weapon": "AK-47",
+          "skin": "Wasteland Rebel",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "p2000-fire-elemental",
+          "displayName": "P2000 | Fire Elemental",
+          "category": "weapon",
+          "weapon": "P2000",
+          "skin": "Fire Elemental",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple References.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "operation-vanguard-weapon-case-knife-pool",
+      "name": "Operation Vanguard Weapon Case Knife Pool",
+      "category": "knife_pool",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/Operation_Vanguard_Weapon_Case",
+        "https://csgoskins.gg/containers/operation-vanguard-weapon-case/specials"
+      ],
+      "items": [
+        {
+          "itemId": "bayonet-vanilla",
+          "displayName": "★ Bayonet",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-blue-steel",
+          "displayName": "★ Bayonet | Blue Steel",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-boreal-forest",
+          "displayName": "★ Bayonet | Boreal Forest",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-case-hardened",
+          "displayName": "★ Bayonet | Case Hardened",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-crimson-web",
+          "displayName": "★ Bayonet | Crimson Web",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-fade",
+          "displayName": "★ Bayonet | Fade",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-forest-ddpat",
+          "displayName": "★ Bayonet | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-night",
+          "displayName": "★ Bayonet | Night",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Night",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-safari-mesh",
+          "displayName": "★ Bayonet | Safari Mesh",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-scorched",
+          "displayName": "★ Bayonet | Scorched",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-slaughter",
+          "displayName": "★ Bayonet | Slaughter",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-stained",
+          "displayName": "★ Bayonet | Stained",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-urban-masked",
+          "displayName": "★ Bayonet | Urban Masked",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-vanilla",
+          "displayName": "★ Flip Knife",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-blue-steel",
+          "displayName": "★ Flip Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-boreal-forest",
+          "displayName": "★ Flip Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-case-hardened",
+          "displayName": "★ Flip Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-crimson-web",
+          "displayName": "★ Flip Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-fade",
+          "displayName": "★ Flip Knife | Fade",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-forest-ddpat",
+          "displayName": "★ Flip Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-night",
+          "displayName": "★ Flip Knife | Night",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Night",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-safari-mesh",
+          "displayName": "★ Flip Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-scorched",
+          "displayName": "★ Flip Knife | Scorched",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-slaughter",
+          "displayName": "★ Flip Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-stained",
+          "displayName": "★ Flip Knife | Stained",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-urban-masked",
+          "displayName": "★ Flip Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-vanilla",
+          "displayName": "★ Gut Knife",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-blue-steel",
+          "displayName": "★ Gut Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-boreal-forest",
+          "displayName": "★ Gut Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-case-hardened",
+          "displayName": "★ Gut Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-crimson-web",
+          "displayName": "★ Gut Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-fade",
+          "displayName": "★ Gut Knife | Fade",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-forest-ddpat",
+          "displayName": "★ Gut Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-night",
+          "displayName": "★ Gut Knife | Night",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Night",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-safari-mesh",
+          "displayName": "★ Gut Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-scorched",
+          "displayName": "★ Gut Knife | Scorched",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-slaughter",
+          "displayName": "★ Gut Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-stained",
+          "displayName": "★ Gut Knife | Stained",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-urban-masked",
+          "displayName": "★ Gut Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-vanilla",
+          "displayName": "★ Karambit",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-blue-steel",
+          "displayName": "★ Karambit | Blue Steel",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-boreal-forest",
+          "displayName": "★ Karambit | Boreal Forest",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-case-hardened",
+          "displayName": "★ Karambit | Case Hardened",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-crimson-web",
+          "displayName": "★ Karambit | Crimson Web",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-fade",
+          "displayName": "★ Karambit | Fade",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-forest-ddpat",
+          "displayName": "★ Karambit | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-night",
+          "displayName": "★ Karambit | Night",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Night",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-safari-mesh",
+          "displayName": "★ Karambit | Safari Mesh",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-scorched",
+          "displayName": "★ Karambit | Scorched",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-slaughter",
+          "displayName": "★ Karambit | Slaughter",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-stained",
+          "displayName": "★ Karambit | Stained",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-urban-masked",
+          "displayName": "★ Karambit | Urban Masked",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-vanilla",
+          "displayName": "★ M9 Bayonet",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-blue-steel",
+          "displayName": "★ M9 Bayonet | Blue Steel",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-boreal-forest",
+          "displayName": "★ M9 Bayonet | Boreal Forest",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-case-hardened",
+          "displayName": "★ M9 Bayonet | Case Hardened",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-crimson-web",
+          "displayName": "★ M9 Bayonet | Crimson Web",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-fade",
+          "displayName": "★ M9 Bayonet | Fade",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-forest-ddpat",
+          "displayName": "★ M9 Bayonet | Forest DDPAT",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-night",
+          "displayName": "★ M9 Bayonet | Night",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Night",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-safari-mesh",
+          "displayName": "★ M9 Bayonet | Safari Mesh",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-scorched",
+          "displayName": "★ M9 Bayonet | Scorched",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-slaughter",
+          "displayName": "★ M9 Bayonet | Slaughter",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-stained",
+          "displayName": "★ M9 Bayonet | Stained",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-urban-masked",
+          "displayName": "★ M9 Bayonet | Urban Masked",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Original Knife Finishes) For This Case.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 5,
+      "purple": 4,
+      "pink": 3,
+      "red": 2,
+      "gold": 65
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Default Tier Odds And Equal-Within-Tier Weighting Used; No Case-Specific Odds Override Source Applied."
+    ]
+  }
+}

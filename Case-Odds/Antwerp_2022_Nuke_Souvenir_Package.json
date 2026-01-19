@@ -1,0 +1,511 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "antwerp-2022-nuke-souvenir-package",
+    "name": "Antwerp 2022 Nuke Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://blog.counter-strike.net/2022/05/37849/",
+      "https://steamcommunity.com/market/listings/730/Antwerp%202022%20Nuke%20Souvenir%20Package",
+      "https://csgoskins.gg/containers/antwerp-2022-nuke-souvenir-package"
+    ],
+    "notes": [
+      "Souvenir Package: No Knives/Gloves, No StatTrak, Sticker Permutations Ignored (stickersMode=ignored).",
+      "Underlying Map Collection Used For Drops: The 2018 Nuke Collection.",
+      "The 2018 Nuke Collection Has No Covert-Grade Items; Covert Odds Weight Set To 0 And Reallocated Into Classified To Preserve Total Weight=1e12."
+    ],
+    "souvenir": {
+      "tournament": "PGL Antwerp 2022",
+      "year": "2022",
+      "map": "Nuke",
+      "collection": "The 2018 Nuke Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://blog.counter-strike.net/2022/05/37849/",
+        "https://blog.counter-strike.net/2018/09/21005/"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 2600000000,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-p250-facility-draft",
+          "displayName": "Souvenir P250 | Facility Draft",
+          "category": "Pistol",
+          "weapon": "P250",
+          "skin": "Facility Draft",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ump-45-facility-dark",
+          "displayName": "Souvenir UMP-45 | Facility Dark",
+          "category": "SMG",
+          "weapon": "UMP-45",
+          "skin": "Facility Dark",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-five-seven-n-coolant",
+          "displayName": "Souvenir Five-SeveN | Coolant",
+          "category": "Pistol",
+          "weapon": "Five-SeveN",
+          "skin": "Coolant",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-pp-bizon-facility-sketch",
+          "displayName": "Souvenir PP-Bizon | Facility Sketch",
+          "category": "SMG",
+          "weapon": "PP-Bizon",
+          "skin": "Facility Sketch",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-nova-mandrel",
+          "displayName": "Souvenir Nova | Mandrel",
+          "category": "Shotgun",
+          "weapon": "Nova",
+          "skin": "Mandrel",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-galil-ar-cold-fusion",
+          "displayName": "Souvenir Galil AR | Cold Fusion",
+          "category": "Rifle",
+          "weapon": "Galil AR",
+          "skin": "Cold Fusion",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-m4a4-mainframe",
+          "displayName": "Souvenir M4A4 | Mainframe",
+          "category": "Rifle",
+          "weapon": "M4A4",
+          "skin": "Mainframe",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp7-motherboard",
+          "displayName": "Souvenir MP7 | Motherboard",
+          "category": "SMG",
+          "weapon": "MP7",
+          "skin": "Motherboard",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-negev-bulkhead",
+          "displayName": "Souvenir Negev | Bulkhead",
+          "category": "Machinegun",
+          "weapon": "Negev",
+          "skin": "Bulkhead",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-awp-acheron",
+          "displayName": "Souvenir AWP | Acheron",
+          "category": "Sniper Rifle",
+          "weapon": "AWP",
+          "skin": "Acheron",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p250-exchanger",
+          "displayName": "Souvenir P250 | Exchanger",
+          "category": "Pistol",
+          "weapon": "P250",
+          "skin": "Exchanger",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp5-sd-co-processor",
+          "displayName": "Souvenir MP5-SD | Co-Processor",
+          "category": "SMG",
+          "weapon": "MP5-SD",
+          "skin": "Co-Processor",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-facility-negative",
+          "displayName": "Souvenir P90 | Facility Negative",
+          "category": "SMG",
+          "weapon": "P90",
+          "skin": "Facility Negative",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-glock-18-nuclear-garden",
+          "displayName": "Souvenir Glock-18 | Nuclear Garden",
+          "category": "Pistol",
+          "weapon": "Glock-18",
+          "skin": "Nuclear Garden",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 2133333334,
+            "nonStatTrak": 2133333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333334000000",
+            "nonStatTrak": "0.002133333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-aug-random-access",
+          "displayName": "Souvenir AUG | Random Access",
+          "category": "Rifle",
+          "weapon": "AUG",
+          "skin": "Random Access",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mag-7-core-breach",
+          "displayName": "Souvenir MAG-7 | Core Breach",
+          "category": "Shotgun",
+          "weapon": "MAG-7",
+          "skin": "Core Breach",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "souvenir-m4a1-s-control-panel",
+          "displayName": "Souvenir M4A1-S | Control Panel",
+          "category": "Rifle",
+          "weapon": "M4A1-S",
+          "skin": "Control Panel",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 1300000000,
+            "nonStatTrak": 1300000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001300000000000000",
+            "nonStatTrak": "0.001300000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-tec-9-remote-control",
+          "displayName": "Souvenir Tec-9 | Remote Control",
+          "category": "Pistol",
+          "weapon": "Tec-9",
+          "skin": "Remote Control",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The 2018 Nuke Collection And Available As A Souvenir Drop From Antwerp 2022 Nuke Souvenir Packages.",
+          "weights": {
+            "base": 1300000000,
+            "nonStatTrak": 1300000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001300000000000000",
+            "nonStatTrak": "0.001300000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 4,
+      "restricted": 3,
+      "classified": 2,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Covert Tier Not Present In The 2018 Nuke Collection; Covert Odds Weight Set To 0 And Reallocated Into Classified.",
+      "Souvenir Sticker Permutations Are Intentionally Not Enumerated (stickersMode=ignored)."
+    ]
+  }
+}

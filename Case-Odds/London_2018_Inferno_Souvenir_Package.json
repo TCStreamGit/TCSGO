@@ -1,0 +1,509 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T06:58:12Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "london-2018-inferno-souvenir-package",
+    "name": "London 2018 Inferno Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://wiki.cs.money/cases/london-2018-inferno-souvenir-package",
+      "https://csgoskins.gg/containers/london-2018-inferno-souvenir-package",
+      "https://steamcommunity.com/market/listings/730/London%202018%20Inferno%20Souvenir%20Package"
+    ],
+    "notes": [
+      "Underlying Collection Is The 2018 Inferno Collection; Sticker Permutations Are Not Enumerated (stickersMode=ignored).",
+      "This Collection Has No Covert Rarity Tier; Covert Weight Is Set To 0 And Classified Absorbs The Remainder So Total Weight Equals 1e12."
+    ],
+    "souvenir": {
+      "tournament": "London 2018",
+      "year": "2018",
+      "map": "Inferno",
+      "collection": "The 2018 Inferno Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://wiki.cs.money/cases/london-2018-inferno-souvenir-package",
+        "https://csgoskins.gg/containers/london-2018-inferno-souvenir-package"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 2600000000,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "mag-7-rust-coat-souvenir",
+          "displayName": "Souvenir MAG-7 | Rust Coat",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Rust Coat",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "aug-sweeper-souvenir",
+          "displayName": "Souvenir AUG | Sweeper",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Sweeper",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-slide-souvenir",
+          "displayName": "Souvenir MP9 | Slide",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Slide",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp5-sd-dirt-drop-souvenir",
+          "displayName": "Souvenir MP5-SD | Dirt Drop",
+          "category": "smg",
+          "weapon": "MP5-SD",
+          "skin": "Dirt Drop",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-mudder-souvenir",
+          "displayName": "Souvenir UMP-45 | Mudder",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Mudder",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "glock-18-high-beam-souvenir",
+          "displayName": "Souvenir Glock-18 | High Beam",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "High Beam",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-candy-apple-souvenir",
+          "displayName": "Souvenir PP-Bizon | Candy Apple",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Candy Apple",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-calf-skin-souvenir",
+          "displayName": "Souvenir MAC-10 | Calf Skin",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Calf Skin",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "r8-revolver-nitro-souvenir",
+          "displayName": "Souvenir R8 Revolver | Nitro",
+          "category": "pistol",
+          "weapon": "R8 Revolver",
+          "skin": "Nitro",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "usp-s-check-engine-souvenir",
+          "displayName": "Souvenir USP-S | Check Engine",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Check Engine",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "m4a4-converter-souvenir",
+          "displayName": "Souvenir M4A4 | Converter",
+          "category": "rifle",
+          "weapon": "M4A4",
+          "skin": "Converter",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-brake-light-souvenir",
+          "displayName": "Souvenir Sawed-Off | Brake Light",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Brake Light",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-hand-brake-souvenir",
+          "displayName": "Souvenir SSG 08 | Hand Brake",
+          "category": "sniper-rifle",
+          "weapon": "SSG 08",
+          "skin": "Hand Brake",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "ak-47-safety-net-souvenir",
+          "displayName": "Souvenir AK-47 | Safety Net",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Safety Net",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 2133333334,
+            "nonStatTrak": 2133333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333334000000",
+            "nonStatTrak": "0.002133333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-fade-souvenir",
+          "displayName": "Souvenir MP7 | Fade",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Fade",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p250-vino-primo-souvenir",
+          "displayName": "Souvenir P250 | Vino Primo",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Vino Primo",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "sg-553-integrale-souvenir",
+          "displayName": "Souvenir SG 553 | Integrale",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Integrale",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 1300000000,
+            "nonStatTrak": 1300000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001300000000000000",
+            "nonStatTrak": "0.001300000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-twin-turbo-souvenir",
+          "displayName": "Souvenir Dual Berettas | Twin Turbo",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Twin Turbo",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The London 2018 Inferno Souvenir Package (The 2018 Inferno Collection) Contents On CS.MONEY And CSGOSKINS.GG.",
+          "weights": {
+            "base": 1300000000,
+            "nonStatTrak": 1300000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001300000000000000",
+            "nonStatTrak": "0.001300000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 4,
+      "restricted": 3,
+      "classified": 2,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Covert Rarity Tier Is Not Present In The 2018 Inferno Collection; oddsWeights.covert Is Set To 0 And oddsWeights.classified Is Increased To Preserve Total Weight."
+    ]
+  }
+}

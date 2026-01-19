@@ -1,0 +1,1234 @@
+{
+  "SchemaVersion": 1,
+  "GeneratedAtUtc": "2026-01-18T19:51:07.616Z",
+  "OutputDirectory": "csgo_containers",
+  "Containers": [
+    {
+      "Name": "Antwerp 2022 Ancient Souvenir Package",
+      "File": "Antwerp_2022_Ancient_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Antwerp 2022 Ancient"
+      ]
+    },
+    {
+      "Name": "Antwerp 2022 Dust II Souvenir Package",
+      "File": "Antwerp_2022_Dust_II_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Antwerp 2022 Dust II"
+      ]
+    },
+    {
+      "Name": "Antwerp 2022 Inferno Souvenir Package",
+      "File": "Antwerp_2022_Inferno_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Antwerp 2022 Inferno"
+      ]
+    },
+    {
+      "Name": "Antwerp 2022 Nuke Souvenir Package",
+      "File": "Antwerp_2022_Nuke_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Antwerp 2022 Nuke"
+      ]
+    },
+    {
+      "Name": "Antwerp 2022 Vertigo Souvenir Package",
+      "File": "Antwerp_2022_Vertigo_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Antwerp 2022 Vertigo"
+      ]
+    },
+    {
+      "Name": "Anubis Collection Package",
+      "File": "Anubis_Collection_Package.json",
+      "Type": "Case",
+      "Categories": [
+        "Special Containers"
+      ]
+    },
+    {
+      "Name": "Atlanta 2017 Cache Souvenir Package",
+      "File": "Atlanta_2017_Cache_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Atlanta 2017 Cache"
+      ]
+    },
+    {
+      "Name": "Atlanta 2017 Cobblestone Souvenir Package",
+      "File": "Atlanta_2017_Cobblestone_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Atlanta 2017 Cobblestone"
+      ]
+    },
+    {
+      "Name": "Atlanta 2017 Dust II Souvenir Package",
+      "File": "Atlanta_2017_Dust_II_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Atlanta 2017 Dust II"
+      ]
+    },
+    {
+      "Name": "Atlanta 2017 Mirage Souvenir Package",
+      "File": "Atlanta_2017_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Atlanta 2017 Mirage"
+      ]
+    },
+    {
+      "Name": "Atlanta 2017 Nuke Souvenir Package",
+      "File": "Atlanta_2017_Nuke_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Atlanta 2017 Nuke"
+      ]
+    },
+    {
+      "Name": "Atlanta 2017 Overpass Souvenir Package",
+      "File": "Atlanta_2017_Overpass_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Atlanta 2017 Overpass"
+      ]
+    },
+    {
+      "Name": "Atlanta 2017 Train Souvenir Package",
+      "File": "Atlanta_2017_Train_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Atlanta 2017 Train"
+      ]
+    },
+    {
+      "Name": "Austin 2025 Dust II Souvenir Package",
+      "File": "Austin_2025_Dust_II_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Austin 2025 Dust II"
+      ]
+    },
+    {
+      "Name": "Austin 2025 Inferno Souvenir Package",
+      "File": "Austin_2025_Inferno_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Austin 2025 Inferno"
+      ]
+    },
+    {
+      "Name": "Austin 2025 Train Souvenir Package",
+      "File": "Austin_2025_Train_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Austin 2025 Train"
+      ]
+    },
+    {
+      "Name": "Berlin 2019 Dust II Souvenir Package",
+      "File": "Berlin_2019_Dust_II_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Berlin 2019 Dust II"
+      ]
+    },
+    {
+      "Name": "Berlin 2019 Inferno Souvenir Package",
+      "File": "Berlin_2019_Inferno_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Berlin 2019 Inferno"
+      ]
+    },
+    {
+      "Name": "Berlin 2019 Mirage Souvenir Package",
+      "File": "Berlin_2019_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Berlin 2019 Mirage"
+      ]
+    },
+    {
+      "Name": "Berlin 2019 Nuke Souvenir Package",
+      "File": "Berlin_2019_Nuke_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Berlin 2019 Nuke"
+      ]
+    },
+    {
+      "Name": "Berlin 2019 Overpass Souvenir Package",
+      "File": "Berlin_2019_Overpass_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Berlin 2019 Overpass"
+      ]
+    },
+    {
+      "Name": "Berlin 2019 Train Souvenir Package",
+      "File": "Berlin_2019_Train_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Berlin 2019 Train"
+      ]
+    },
+    {
+      "Name": "Berlin 2019 Vertigo Souvenir Package",
+      "File": "Berlin_2019_Vertigo_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Berlin 2019 Vertigo"
+      ]
+    },
+    {
+      "Name": "Boston 2018 Cache Souvenir Package",
+      "File": "Boston_2018_Cache_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Boston 2018 Cache"
+      ]
+    },
+    {
+      "Name": "Boston 2018 Cobblestone Souvenir Package",
+      "File": "Boston_2018_Cobblestone_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Boston 2018 Cobblestone"
+      ]
+    },
+    {
+      "Name": "Boston 2018 Mirage Souvenir Package",
+      "File": "Boston_2018_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Boston 2018 Mirage"
+      ]
+    },
+    {
+      "Name": "Boston 2018 Nuke Souvenir Package",
+      "File": "Boston_2018_Nuke_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Boston 2018 Nuke"
+      ]
+    },
+    {
+      "Name": "Boston 2018 Overpass Souvenir Package",
+      "File": "Boston_2018_Overpass_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Boston 2018 Overpass"
+      ]
+    },
+    {
+      "Name": "Boston 2018 Train Souvenir Package",
+      "File": "Boston_2018_Train_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Boston 2018 Train"
+      ]
+    },
+    {
+      "Name": "Budapest 2025 Ancient Souvenir Package",
+      "File": "Budapest_2025_Ancient_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Budapest 2025 Ancient"
+      ]
+    },
+    {
+      "Name": "Budapest 2025 Dust II Souvenir Package",
+      "File": "Budapest_2025_Dust_II_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Budapest 2025 Dust II"
+      ]
+    },
+    {
+      "Name": "Budapest 2025 Inferno Souvenir Package",
+      "File": "Budapest_2025_Inferno_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Budapest 2025 Inferno"
+      ]
+    },
+    {
+      "Name": "Budapest 2025 Mirage Souvenir Package",
+      "File": "Budapest_2025_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Budapest 2025 Mirage"
+      ]
+    },
+    {
+      "Name": "Budapest 2025 Nuke Souvenir Package",
+      "File": "Budapest_2025_Nuke_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Budapest 2025 Nuke"
+      ]
+    },
+    {
+      "Name": "Budapest 2025 Overpass Souvenir Package",
+      "File": "Budapest_2025_Overpass_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Budapest 2025 Overpass"
+      ]
+    },
+    {
+      "Name": "Chroma 2 Case",
+      "File": "Chroma_2_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Chroma 3 Case",
+      "File": "Chroma_3_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Chroma Case",
+      "File": "Chroma_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Clutch Case",
+      "File": "Clutch_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Cologne 2016 Cache Souvenir Package",
+      "File": "Cologne_2016_Cache_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Cologne 2016 Cache"
+      ]
+    },
+    {
+      "Name": "Cologne 2016 Cobblestone Souvenir Package",
+      "File": "Cologne_2016_Cobblestone_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Cologne 2016 Cobblestone"
+      ]
+    },
+    {
+      "Name": "Cologne 2016 Nuke Souvenir Package",
+      "File": "Cologne_2016_Nuke_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Cologne 2016 Nuke"
+      ]
+    },
+    {
+      "Name": "Cologne 2016 Train Souvenir Package",
+      "File": "Cologne_2016_Train_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Cologne 2016 Train"
+      ]
+    },
+    {
+      "Name": "Copenhagen 2024 Ancient Souvenir Package",
+      "File": "Copenhagen_2024_Ancient_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Copenhagen 2024 Ancient"
+      ]
+    },
+    {
+      "Name": "Copenhagen 2024 Anubis Souvenir Package",
+      "File": "Copenhagen_2024_Anubis_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Copenhagen 2024 Anubis"
+      ]
+    },
+    {
+      "Name": "Copenhagen 2024 Inferno Souvenir Package",
+      "File": "Copenhagen_2024_Inferno_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Copenhagen 2024 Inferno"
+      ]
+    },
+    {
+      "Name": "Copenhagen 2024 Overpass Souvenir Package",
+      "File": "Copenhagen_2024_Overpass_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Copenhagen 2024 Overpass"
+      ]
+    },
+    {
+      "Name": "CS:GO Weapon Case",
+      "File": "CS_GO_Weapon_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "CS:GO Weapon Case 2",
+      "File": "CS_GO_Weapon_Case_2.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "CS:GO Weapon Case 3",
+      "File": "CS_GO_Weapon_Case_3.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "CS20 Case",
+      "File": "CS20_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Anniversary Cases",
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Danger Zone Case",
+      "File": "Danger_Zone_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "DreamHack 2013 Souvenir Package",
+      "File": "DreamHack_2013_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: DreamHack 2013"
+      ]
+    },
+    {
+      "Name": "DreamHack 2014 Dust II Souvenir Package",
+      "File": "DreamHack_2014_Dust_II_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: DreamHack 2014 Dust II"
+      ]
+    },
+    {
+      "Name": "DreamHack Cluj-Napoca 2015 Overpass Souvenir Package",
+      "File": "DreamHack_Cluj_Napoca_2015_Overpass_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: DreamHack Cluj-Napoca 2015 Overpass"
+      ]
+    },
+    {
+      "Name": "Dreams & Nightmares Case",
+      "File": "Dreams_Nightmares_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "EMS One 2014 Souvenir Package",
+      "File": "EMS_One_2014_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: EMS One 2014"
+      ]
+    },
+    {
+      "Name": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+      "File": "ESL_One_Cologne_2014_Cobblestone_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: ESL One Cologne 2014 Cobblestone"
+      ]
+    },
+    {
+      "Name": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+      "File": "ESL_One_Cologne_2015_Cobblestone_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: ESL One Cologne 2015 Cobblestone"
+      ]
+    },
+    {
+      "Name": "ESL One Katowice 2015 Cache Souvenir Package",
+      "File": "ESL_One_Katowice_2015_Cache_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: ESL One Katowice 2015 Cache"
+      ]
+    },
+    {
+      "Name": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+      "File": "ESL_One_Katowice_2015_Cobblestone_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: ESL One Katowice 2015 Cobblestone"
+      ]
+    },
+    {
+      "Name": "ESL One Katowice 2015 Dust II Souvenir Package",
+      "File": "ESL_One_Katowice_2015_Dust_II_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: ESL One Katowice 2015 Dust II"
+      ]
+    },
+    {
+      "Name": "ESL One Katowice 2015 Mirage Souvenir Package",
+      "File": "ESL_One_Katowice_2015_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: ESL One Katowice 2015 Mirage"
+      ]
+    },
+    {
+      "Name": "eSports 2013 Case",
+      "File": "eSports_2013_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Esports Cases",
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "eSports 2013 Winter Case",
+      "File": "eSports_2013_Winter_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Esports Cases",
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "eSports 2014 Summer Case",
+      "File": "eSports_2014_Summer_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Esports Cases",
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Falchion Case",
+      "File": "Falchion_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Fever Case",
+      "File": "Fever_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Fracture Case",
+      "File": "Fracture_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Gallery Case",
+      "File": "Gallery_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Gamma 2 Case",
+      "File": "Gamma_2_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Gamma Case",
+      "File": "Gamma_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Glove Case",
+      "File": "Glove_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Horizon Case",
+      "File": "Horizon_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Huntsman Weapon Case",
+      "File": "Huntsman_Weapon_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Katowice 2019 Cache Souvenir Package",
+      "File": "Katowice_2019_Cache_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Katowice 2019 Cache"
+      ]
+    },
+    {
+      "Name": "Katowice 2019 Dust II Souvenir Package",
+      "File": "Katowice_2019_Dust_II_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Katowice 2019 Dust II"
+      ]
+    },
+    {
+      "Name": "Katowice 2019 Inferno Souvenir Package",
+      "File": "Katowice_2019_Inferno_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Katowice 2019 Inferno"
+      ]
+    },
+    {
+      "Name": "Katowice 2019 Mirage Souvenir Package",
+      "File": "Katowice_2019_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Katowice 2019 Mirage"
+      ]
+    },
+    {
+      "Name": "Katowice 2019 Nuke Souvenir Package",
+      "File": "Katowice_2019_Nuke_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Katowice 2019 Nuke"
+      ]
+    },
+    {
+      "Name": "Katowice 2019 Overpass Souvenir Package",
+      "File": "Katowice_2019_Overpass_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Katowice 2019 Overpass"
+      ]
+    },
+    {
+      "Name": "Katowice 2019 Train Souvenir Package",
+      "File": "Katowice_2019_Train_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Katowice 2019 Train"
+      ]
+    },
+    {
+      "Name": "Kilowatt Case",
+      "File": "Kilowatt_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Krakow 2017 Cache Souvenir Package",
+      "File": "Krakow_2017_Cache_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Krakow 2017 Cache"
+      ]
+    },
+    {
+      "Name": "Krakow 2017 Cobblestone Souvenir Package",
+      "File": "Krakow_2017_Cobblestone_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Krakow 2017 Cobblestone"
+      ]
+    },
+    {
+      "Name": "Krakow 2017 Inferno Souvenir Package",
+      "File": "Krakow_2017_Inferno_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Krakow 2017 Inferno"
+      ]
+    },
+    {
+      "Name": "Krakow 2017 Mirage Souvenir Package",
+      "File": "Krakow_2017_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Krakow 2017 Mirage"
+      ]
+    },
+    {
+      "Name": "Krakow 2017 Nuke Souvenir Package",
+      "File": "Krakow_2017_Nuke_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Krakow 2017 Nuke"
+      ]
+    },
+    {
+      "Name": "Krakow 2017 Overpass Souvenir Package",
+      "File": "Krakow_2017_Overpass_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Krakow 2017 Overpass"
+      ]
+    },
+    {
+      "Name": "Krakow 2017 Train Souvenir Package",
+      "File": "Krakow_2017_Train_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Krakow 2017 Train"
+      ]
+    },
+    {
+      "Name": "London 2018 Cache Souvenir Package",
+      "File": "London_2018_Cache_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: London 2018 Cache"
+      ]
+    },
+    {
+      "Name": "London 2018 Dust II Souvenir Package",
+      "File": "London_2018_Dust_II_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: London 2018 Dust II"
+      ]
+    },
+    {
+      "Name": "London 2018 Inferno Souvenir Package",
+      "File": "London_2018_Inferno_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: London 2018 Inferno"
+      ]
+    },
+    {
+      "Name": "London 2018 Mirage Souvenir Package",
+      "File": "London_2018_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: London 2018 Mirage"
+      ]
+    },
+    {
+      "Name": "London 2018 Nuke Souvenir Package",
+      "File": "London_2018_Nuke_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: London 2018 Nuke"
+      ]
+    },
+    {
+      "Name": "London 2018 Overpass Souvenir Package",
+      "File": "London_2018_Overpass_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: London 2018 Overpass"
+      ]
+    },
+    {
+      "Name": "London 2018 Train Souvenir Package",
+      "File": "London_2018_Train_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: London 2018 Train"
+      ]
+    },
+    {
+      "Name": "MLG Columbus 2016 Cache Souvenir Package",
+      "File": "MLG_Columbus_2016_Cache_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: MLG Columbus 2016 Cache"
+      ]
+    },
+    {
+      "Name": "MLG Columbus 2016 Inferno Souvenir Package",
+      "File": "MLG_Columbus_2016_Inferno_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: MLG Columbus 2016 Inferno"
+      ]
+    },
+    {
+      "Name": "MLG Columbus 2016 Mirage Souvenir Package",
+      "File": "MLG_Columbus_2016_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: MLG Columbus 2016 Mirage"
+      ]
+    },
+    {
+      "Name": "Operation Bravo Case",
+      "File": "Operation_Bravo_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Operation Cases",
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Operation Breakout Weapon Case",
+      "File": "Operation_Breakout_Weapon_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Operation Cases",
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Operation Broken Fang Case",
+      "File": "Operation_Broken_Fang_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Operation Cases",
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Operation Hydra Case",
+      "File": "Operation_Hydra_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Operation Cases",
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Operation Phoenix Weapon Case",
+      "File": "Operation_Phoenix_Weapon_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Operation Cases",
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Operation Riptide Case",
+      "File": "Operation_Riptide_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Operation Cases",
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Operation Vanguard Weapon Case",
+      "File": "Operation_Vanguard_Weapon_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Operation Cases",
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Operation Wildfire Case",
+      "File": "Operation_Wildfire_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Operation Cases",
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Paris 2023 Ancient Souvenir Package",
+      "File": "Paris_2023_Ancient_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Paris 2023 Ancient"
+      ]
+    },
+    {
+      "Name": "Paris 2023 Anubis Souvenir Package",
+      "File": "Paris_2023_Anubis_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Paris 2023 Anubis"
+      ]
+    },
+    {
+      "Name": "Paris 2023 Inferno Souvenir Package",
+      "File": "Paris_2023_Inferno_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Paris 2023 Inferno"
+      ]
+    },
+    {
+      "Name": "Paris 2023 Mirage Souvenir Package",
+      "File": "Paris_2023_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Paris 2023 Mirage"
+      ]
+    },
+    {
+      "Name": "Paris 2023 Nuke Souvenir Package",
+      "File": "Paris_2023_Nuke_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Paris 2023 Nuke"
+      ]
+    },
+    {
+      "Name": "Paris 2023 Overpass Souvenir Package",
+      "File": "Paris_2023_Overpass_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Paris 2023 Overpass"
+      ]
+    },
+    {
+      "Name": "Paris 2023 Vertigo Souvenir Package",
+      "File": "Paris_2023_Vertigo_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Paris 2023 Vertigo"
+      ]
+    },
+    {
+      "Name": "Prisma 2 Case",
+      "File": "Prisma_2_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Prisma Case",
+      "File": "Prisma_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Recoil Case",
+      "File": "Recoil_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Revolution Case",
+      "File": "Revolution_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Revolver Case",
+      "File": "Revolver_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Rio 2022 Dust II Souvenir Package",
+      "File": "Rio_2022_Dust_II_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Rio 2022 Dust II"
+      ]
+    },
+    {
+      "Name": "Rio 2022 Mirage Souvenir Package",
+      "File": "Rio_2022_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Rio 2022 Mirage"
+      ]
+    },
+    {
+      "Name": "Rio 2022 Vertigo Souvenir Package",
+      "File": "Rio_2022_Vertigo_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Rio 2022 Vertigo"
+      ]
+    },
+    {
+      "Name": "Sealed Genesis Terminal Case",
+      "File": "Sealed_Genesis_Terminal_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Shadow Case",
+      "File": "Shadow_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Shanghai 2024 Anubis Souvenir Package",
+      "File": "Shanghai_2024_Anubis_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Shanghai 2024 Anubis"
+      ]
+    },
+    {
+      "Name": "Shanghai 2024 Mirage Souvenir Package",
+      "File": "Shanghai_2024_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Shanghai 2024 Mirage"
+      ]
+    },
+    {
+      "Name": "Shattered Web Case",
+      "File": "Shattered_Web_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Snakebite Case",
+      "File": "Snakebite_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Spectrum 2 Case",
+      "File": "Spectrum_2_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Spectrum Case",
+      "File": "Spectrum_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "Stockholm 2021 Ancient Souvenir Package",
+      "File": "Stockholm_2021_Ancient_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Stockholm 2021 Ancient"
+      ]
+    },
+    {
+      "Name": "Stockholm 2021 Dust II Souvenir Package",
+      "File": "Stockholm_2021_Dust_II_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Stockholm 2021 Dust II"
+      ]
+    },
+    {
+      "Name": "Stockholm 2021 Inferno Souvenir Package",
+      "File": "Stockholm_2021_Inferno_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Stockholm 2021 Inferno"
+      ]
+    },
+    {
+      "Name": "Stockholm 2021 Mirage Souvenir Package",
+      "File": "Stockholm_2021_Mirage_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Stockholm 2021 Mirage"
+      ]
+    },
+    {
+      "Name": "Stockholm 2021 Nuke Souvenir Package",
+      "File": "Stockholm_2021_Nuke_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Stockholm 2021 Nuke"
+      ]
+    },
+    {
+      "Name": "Stockholm 2021 Overpass Souvenir Package",
+      "File": "Stockholm_2021_Overpass_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Stockholm 2021 Overpass"
+      ]
+    },
+    {
+      "Name": "Stockholm 2021 Vertigo Souvenir Package",
+      "File": "Stockholm_2021_Vertigo_Souvenir_Package.json",
+      "Type": "SouvenirPackage",
+      "Categories": [
+        "Souvenir Packages",
+        "Souvenir Event: Stockholm 2021 Vertigo"
+      ]
+    },
+    {
+      "Name": "Winter Offensive Weapon Case",
+      "File": "Winter_Offensive_Weapon_Case.json",
+      "Type": "Case",
+      "Categories": [
+        "Weapon Cases"
+      ]
+    },
+    {
+      "Name": "X-Ray P250 Package",
+      "File": "X_Ray_P250_Package.json",
+      "Type": "Case",
+      "Categories": [
+        "Special Containers"
+      ]
+    }
+  ]
+}

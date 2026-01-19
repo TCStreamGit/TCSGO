@@ -1,0 +1,1852 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "spectrum-2-case",
+    "name": "Spectrum 2 Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/Spectrum_2_Case",
+      "https://www.csgodatabase.com/cases/spectrum-2-case/",
+      "https://blog.counter-strike.net/index.php/2017/09/19197/"
+    ],
+    "notes": [
+      "Weapon Contents Are From The Spectrum 2 Collection; Rare Special Items Are Spectrum Knife Types With Chroma Finishes.",
+      "Drop Weights Use The Default Tier Odds Provided By The Export Schema."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "sawed-off-morris",
+          "displayName": "Sawed-Off | Morris",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Morris",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "aug-triqua",
+          "displayName": "AUG | Triqua",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Triqua",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-hunter",
+          "displayName": "G3SG1 | Hunter",
+          "category": "sniper",
+          "weapon": "G3SG1",
+          "skin": "Hunter",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "glock-18-off-world",
+          "displayName": "Glock-18 | Off World",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Off World",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mac-10-oceanic",
+          "displayName": "MAC-10 | Oceanic",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Oceanic",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "tec-9-cracked-opal",
+          "displayName": "Tec-9 | Cracked Opal",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Cracked Opal",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "scar-20-jungle-slipstream",
+          "displayName": "SCAR-20 | Jungle Slipstream",
+          "category": "sniper",
+          "weapon": "SCAR-20",
+          "skin": "Jungle Slipstream",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "mp9-goo",
+          "displayName": "MP9 | Goo",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Goo",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "sg-553-phantom",
+          "displayName": "SG 553 | Phantom",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Phantom",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "cz75-auto-tacticat",
+          "displayName": "CZ75-Auto | Tacticat",
+          "category": "pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Tacticat",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-exposure",
+          "displayName": "UMP-45 | Exposure",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Exposure",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-ziggy",
+          "displayName": "XM1014 | Ziggy",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Ziggy",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "m4a1-s-leaded-glass",
+          "displayName": "M4A1-S | Leaded Glass",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Leaded Glass",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-high-roller",
+          "displayName": "PP-Bizon | High Roller",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "High Roller",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "r8-revolver-llama-cannon",
+          "displayName": "R8 Revolver | Llama Cannon",
+          "category": "pistol",
+          "weapon": "R8 Revolver",
+          "skin": "Llama Cannon",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "ak-47-the-empress",
+          "displayName": "AK-47 | The Empress",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "The Empress",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "p250-see-ya-later",
+          "displayName": "P250 | See Ya Later",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "See Ya Later",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Listed In Spectrum 2 Case Weapon Contents Sources.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "spectrum-2-case-knife-pool",
+      "name": "Spectrum 2 Case Rare Special Items",
+      "category": "knife_pool",
+      "sources": [
+        "https://stash.clash.gg/case/220/Spectrum-2-Case?Knives=1",
+        "https://tradeit.gg/blog/doppler-phases/",
+        "https://counterstrike.fandom.com/wiki/Chroma_Case"
+      ],
+      "items": [
+        {
+          "itemId": "bowie-knife-doppler-phase-1",
+          "displayName": "★ Bowie Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-phase-2",
+          "displayName": "★ Bowie Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-phase-3",
+          "displayName": "★ Bowie Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-phase-4",
+          "displayName": "★ Bowie Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-ruby",
+          "displayName": "★ Bowie Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-sapphire",
+          "displayName": "★ Bowie Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-black-pearl",
+          "displayName": "★ Bowie Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-marble-fade",
+          "displayName": "★ Bowie Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-tiger-tooth",
+          "displayName": "★ Bowie Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-damascus-steel",
+          "displayName": "★ Bowie Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-ultraviolet",
+          "displayName": "★ Bowie Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-rust-coat",
+          "displayName": "★ Bowie Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-phase-1",
+          "displayName": "★ Butterfly Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-phase-2",
+          "displayName": "★ Butterfly Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-phase-3",
+          "displayName": "★ Butterfly Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-phase-4",
+          "displayName": "★ Butterfly Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-ruby",
+          "displayName": "★ Butterfly Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-sapphire",
+          "displayName": "★ Butterfly Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-black-pearl",
+          "displayName": "★ Butterfly Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-marble-fade",
+          "displayName": "★ Butterfly Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-tiger-tooth",
+          "displayName": "★ Butterfly Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-damascus-steel",
+          "displayName": "★ Butterfly Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-ultraviolet",
+          "displayName": "★ Butterfly Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-rust-coat",
+          "displayName": "★ Butterfly Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-phase-1",
+          "displayName": "★ Falchion Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-phase-2",
+          "displayName": "★ Falchion Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-phase-3",
+          "displayName": "★ Falchion Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-phase-4",
+          "displayName": "★ Falchion Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-ruby",
+          "displayName": "★ Falchion Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-sapphire",
+          "displayName": "★ Falchion Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-black-pearl",
+          "displayName": "★ Falchion Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-marble-fade",
+          "displayName": "★ Falchion Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-tiger-tooth",
+          "displayName": "★ Falchion Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-damascus-steel",
+          "displayName": "★ Falchion Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-ultraviolet",
+          "displayName": "★ Falchion Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-rust-coat",
+          "displayName": "★ Falchion Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-phase-1",
+          "displayName": "★ Huntsman Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-phase-2",
+          "displayName": "★ Huntsman Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-phase-3",
+          "displayName": "★ Huntsman Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-phase-4",
+          "displayName": "★ Huntsman Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-ruby",
+          "displayName": "★ Huntsman Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-sapphire",
+          "displayName": "★ Huntsman Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-black-pearl",
+          "displayName": "★ Huntsman Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-marble-fade",
+          "displayName": "★ Huntsman Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-tiger-tooth",
+          "displayName": "★ Huntsman Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-damascus-steel",
+          "displayName": "★ Huntsman Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-ultraviolet",
+          "displayName": "★ Huntsman Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-rust-coat",
+          "displayName": "★ Huntsman Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-phase-1",
+          "displayName": "★ Shadow Daggers | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-phase-2",
+          "displayName": "★ Shadow Daggers | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-phase-3",
+          "displayName": "★ Shadow Daggers | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-phase-4",
+          "displayName": "★ Shadow Daggers | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-ruby",
+          "displayName": "★ Shadow Daggers | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-sapphire",
+          "displayName": "★ Shadow Daggers | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-black-pearl",
+          "displayName": "★ Shadow Daggers | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": false,
+          "confidence": "Medium",
+          "rationale": "Case Sources List Doppler As A Rare Special Item Finish; Doppler Is Commonly Split Into Phases And Gem Variants. This Export Expands Doppler Into Standard Phases And Gem Variants For Simulator Completeness.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-marble-fade",
+          "displayName": "★ Shadow Daggers | Marble Fade",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-tiger-tooth",
+          "displayName": "★ Shadow Daggers | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-damascus-steel",
+          "displayName": "★ Shadow Daggers | Damascus Steel",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-ultraviolet",
+          "displayName": "★ Shadow Daggers | Ultraviolet",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-rust-coat",
+          "displayName": "★ Shadow Daggers | Rust Coat",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item Finish For Spectrum 2 Case In Knife Pool Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 60
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Doppler Finish Is Expanded Into Phase And Gem Variants For Simulator Completeness; Individual Phase Availability Is Not Explicitly Enumerated By Some Case Listing Sites.",
+      "StatTrak Weights Use A Per-Item 10% Split With Half-Up Rounding."
+    ]
+  }
+}

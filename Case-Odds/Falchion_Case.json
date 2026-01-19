@@ -1,0 +1,746 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T03:26:36Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "falchion-case",
+    "name": "Falchion Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/Falchion_Case",
+      "https://csgoskins.gg/containers/falchion-case",
+      "https://steamcommunity.com/market/listings/730/Falchion%20Case"
+    ],
+    "notes": [
+      "Tier Weights Use Default Case Odds And Are Split Evenly Within Each Tier; Any Remainder Is Assigned To The First Items In That Tier.",
+      "StatTrak Weights Use A 10% Rate (Rounded Half-Up) For StatTrak-Eligible Items."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "usp-s-torque",
+          "displayName": "USP-S | Torque",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Torque",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 119880000000,
+            "statTrak": 13320000000
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.119880000000000000",
+            "statTrak": "0.013320000000000000"
+          }
+        },
+        {
+          "itemId": "galil-ar-rocket-pop",
+          "displayName": "Galil AR | Rocket Pop",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "Rocket Pop",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 119880000000,
+            "statTrak": 13320000000
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.119880000000000000",
+            "statTrak": "0.013320000000000000"
+          }
+        },
+        {
+          "itemId": "glock-18-bunsen-burner",
+          "displayName": "Glock-18 | Bunsen Burner",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Bunsen Burner",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 119880000000,
+            "statTrak": 13320000000
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.119880000000000000",
+            "statTrak": "0.013320000000000000"
+          }
+        },
+        {
+          "itemId": "p90-elite-build",
+          "displayName": "P90 | Elite Build",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Elite Build",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 119880000000,
+            "statTrak": 13320000000
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.119880000000000000",
+            "statTrak": "0.013320000000000000"
+          }
+        },
+        {
+          "itemId": "nova-ranger",
+          "displayName": "Nova | Ranger",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Ranger",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 119880000000,
+            "statTrak": 13320000000
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.119880000000000000",
+            "statTrak": "0.013320000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-riot",
+          "displayName": "UMP-45 | Riot",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Riot",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 119880000000,
+            "statTrak": 13320000000
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.119880000000000000",
+            "statTrak": "0.013320000000000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "m4a4-evil-daimyo",
+          "displayName": "M4A4 | Evil Daimyo",
+          "category": "rifle",
+          "weapon": "M4A4",
+          "skin": "Evil Daimyo",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-ruby-poison-dart",
+          "displayName": "MP9 | Ruby Poison Dart",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Ruby Poison Dart",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "famas-neural-net",
+          "displayName": "FAMAS | Neural Net",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Neural Net",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "p2000-handgun",
+          "displayName": "P2000 | Handgun",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Handgun",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "negev-loudmouth",
+          "displayName": "Negev | Loudmouth",
+          "category": "machinegun",
+          "weapon": "Negev",
+          "skin": "Loudmouth",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "sg-553-cyrex",
+          "displayName": "SG 553 | Cyrex",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Cyrex",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "mp7-nemesis",
+          "displayName": "MP7 | Nemesis",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Nemesis",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "cz75-auto-yellow-jacket",
+          "displayName": "CZ75-Auto | Yellow Jacket",
+          "category": "pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Yellow Jacket",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "awp-hyper-beast",
+          "displayName": "AWP | Hyper Beast",
+          "category": "sniper-rifle",
+          "weapon": "AWP",
+          "skin": "Hyper Beast",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "ak-47-aquamarine-revenge",
+          "displayName": "AK-47 | Aquamarine Revenge",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Aquamarine Revenge",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "falchion-knife-pool",
+      "name": "Falchion Knife Rare Special Items",
+      "category": "knife_pool",
+      "sources": [
+        "https://csgoskins.gg/containers/falchion-case/specials",
+        "https://counterstrike.fandom.com/wiki/Falchion_Knife"
+      ],
+      "items": [
+        {
+          "itemId": "falchion-knife-night",
+          "displayName": "Falchion Knife | Night",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Night",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-safari-mesh",
+          "displayName": "Falchion Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-vanilla",
+          "displayName": "Falchion Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-case-hardened",
+          "displayName": "Falchion Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-forest-ddpat",
+          "displayName": "Falchion Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-slaughter",
+          "displayName": "Falchion Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-urban-masked",
+          "displayName": "Falchion Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-stained",
+          "displayName": "Falchion Knife | Stained",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-crimson-web",
+          "displayName": "Falchion Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-blue-steel",
+          "displayName": "Falchion Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-scorched",
+          "displayName": "Falchion Knife | Scorched",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-boreal-forest",
+          "displayName": "Falchion Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-fade",
+          "displayName": "Falchion Knife | Fade",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Case On CSGOSKINS.GG.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 6,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 13
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Per-Item Weights Are Derived From Default Tier Odds And An Equal Split Within Each Tier; Valve Does Not Publish Exact Per-Skin Drop Chances."
+    ]
+  }
+}

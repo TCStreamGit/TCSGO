@@ -1,0 +1,441 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "cologne-2016-train-souvenir-package",
+    "name": "Cologne 2016 Train Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Cologne%202016%20Train%20Souvenir%20Package",
+      "https://csgoskins.gg/containers/cologne-2016-train-souvenir-package",
+      "https://counterstrike.fandom.com/wiki/ESL_One_Cologne_2016_Souvenir_Packages",
+      "https://csgoskins.gg/collections/the-train-collection"
+    ],
+    "notes": [
+      "Souvenir Package Drops A Souvenir-Quality Skin From The Train Collection.",
+      "Sticker Permutations Are Not Enumerated; souvenir.stickersMode Is Set To 'ignored'.",
+      "The Train Collection Has No Classified Or Covert Skins; Their Odds Weights Are Set To 0 And Remaining Default Collection Odds Are Renormalized Across Existing Rarities."
+    ],
+    "souvenir": {
+      "tournament": "ESL One Cologne",
+      "year": "2016",
+      "map": "Train",
+      "collection": "Train Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/ESL_One_Cologne_2016_Souvenir_Packages",
+        "https://steamcommunity.com/market/listings/730/Cologne%202016%20Train%20Souvenir%20Package"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 801283336675,
+      "industrial": 160216563064,
+      "milspec": 32083416884,
+      "restricted": 6416683377,
+      "classified": 0,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-five-seven-forest-night",
+          "displayName": "Souvenir Five-SeveN | Forest Night",
+          "category": "pistol",
+          "weapon": "Five-SeveN",
+          "skin": "Forest Night",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 133547222780,
+            "nonStatTrak": 133547222780,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133547222780000000000000",
+            "nonStatTrak": "0.133547222780000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-dual-berettas-colony",
+          "displayName": "Souvenir Dual Berettas | Colony",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Colony",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 133547222779,
+            "nonStatTrak": 133547222779,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133547222779000000000000",
+            "nonStatTrak": "0.133547222779000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-g3sg1-polar-camo",
+          "displayName": "Souvenir G3SG1 | Polar Camo",
+          "category": "sniper-rifle",
+          "weapon": "G3SG1",
+          "skin": "Polar Camo",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 133547222779,
+            "nonStatTrak": 133547222779,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133547222779000000000000",
+            "nonStatTrak": "0.133547222779000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-nova-polar-mesh",
+          "displayName": "Souvenir Nova | Polar Mesh",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Polar Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 133547222779,
+            "nonStatTrak": 133547222779,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133547222779000000000000",
+            "nonStatTrak": "0.133547222779000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-pp-bizon-urban-dashed",
+          "displayName": "Souvenir PP-Bizon | Urban Dashed",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Urban Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 133547222779,
+            "nonStatTrak": 133547222779,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133547222779000000000000",
+            "nonStatTrak": "0.133547222779000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ump-45-urban-ddpat",
+          "displayName": "Souvenir UMP-45 | Urban DDPAT",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Urban DDPAT",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 133547222779,
+            "nonStatTrak": 133547222779,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133547222779000000000000",
+            "nonStatTrak": "0.133547222779000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-m4a4-urban-ddpat",
+          "displayName": "Souvenir M4A4 | Urban DDPAT",
+          "category": "rifle",
+          "weapon": "M4A4",
+          "skin": "Urban DDPAT",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 26702760511,
+            "nonStatTrak": 26702760511,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.026702760511000000000000",
+            "nonStatTrak": "0.026702760511000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mac-10-candy-apple",
+          "displayName": "Souvenir MAC-10 | Candy Apple",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Candy Apple",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 26702760511,
+            "nonStatTrak": 26702760511,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.026702760511000000000000",
+            "nonStatTrak": "0.026702760511000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p250-metallic-ddpat",
+          "displayName": "Souvenir P250 | Metallic DDPAT",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Metallic DDPAT",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 26702760511,
+            "nonStatTrak": 26702760511,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.026702760511000000000000",
+            "nonStatTrak": "0.026702760511000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mag-7-metallic-ddpat",
+          "displayName": "Souvenir MAG-7 | Metallic DDPAT",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Metallic DDPAT",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 26702760511,
+            "nonStatTrak": 26702760511,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.026702760511000000000000",
+            "nonStatTrak": "0.026702760511000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-ash-wood",
+          "displayName": "Souvenir P90 | Ash Wood",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Ash Wood",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 26702760510,
+            "nonStatTrak": 26702760510,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.026702760510000000000000",
+            "nonStatTrak": "0.026702760510000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-scar-20-carbon-fiber",
+          "displayName": "Souvenir SCAR-20 | Carbon Fiber",
+          "category": "sniper-rifle",
+          "weapon": "SCAR-20",
+          "skin": "Carbon Fiber",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 26702760510,
+            "nonStatTrak": 26702760510,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.026702760510000000000000",
+            "nonStatTrak": "0.026702760510000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-sawed-off-amber-fade",
+          "displayName": "Souvenir Sawed-Off | Amber Fade",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 16041708442,
+            "nonStatTrak": 16041708442,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016041708442000000000000",
+            "nonStatTrak": "0.016041708442000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-desert-eagle-urban-rubble",
+          "displayName": "Souvenir Desert Eagle | Urban Rubble",
+          "category": "pistol",
+          "weapon": "Desert Eagle",
+          "skin": "Urban Rubble",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 16041708442,
+            "nonStatTrak": 16041708442,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016041708442000000000000",
+            "nonStatTrak": "0.016041708442000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-tec-9-red-quartz",
+          "displayName": "Souvenir Tec-9 | Red Quartz",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Red Quartz",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In The Train Collection And In The Cologne 2016 Train Souvenir Package Sources; Weights Estimated Using Renormalized Default Collection Odds.",
+          "weights": {
+            "base": 6416683377,
+            "nonStatTrak": 6416683377,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.006416683377000000000000",
+            "nonStatTrak": "0.006416683377000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        }
+      ],
+      "classified": [],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 6,
+      "industrial": 6,
+      "milspec": 2,
+      "restricted": 1,
+      "classified": 0,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Odds Weights Are Estimated: The Train Collection Contains No Classified Or Covert Skins, So Default Collection Odds Were Renormalized Across Consumer/Industrial/Mil-Spec/Restricted Rarities."
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00-07:00",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "x-ray-p250-package",
+    "name": "X-Ray P250 Package",
+    "caseType": "other",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/X-Ray_Collection",
+      "https://counterstrike.fandom.com/wiki/Counter-Strike%3A_Global_Offensive_patches/October_2%2C_2019",
+      "https://steamcommunity.com/market/listings/730/X-Ray%20P250%20Package"
+    ],
+    "notes": [
+      "This Package Contains A Single Weapon Skin (P250 | X-Ray) And Does Not Include Any Rare Special Items Pool; Odds Are Overridden To 100% Restricted For The Single Outcome."
+    ],
+    "oddsWeights": {
+      "blue": 0,
+      "purple": 1000000000000,
+      "pink": 0,
+      "red": 0,
+      "gold": 0
+    },
+    "tiers": {
+      "blue": [],
+      "purple": [
+        {
+          "itemId": "p250-x-ray",
+          "displayName": "P250 | X-Ray",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "X-Ray",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As The Only Item In The X-Ray Collection/Package, And Documented As Available In StatTrak Variant At A 10% Chance.",
+          "weights": {
+            "base": 1000000000000,
+            "nonStatTrak": 900000000000,
+            "statTrak": 100000000000
+          },
+          "probs": {
+            "base": "1.000000000000000000",
+            "nonStatTrak": "0.900000000000000000",
+            "statTrak": "0.100000000000000000"
+          }
+        }
+      ],
+      "pink": [],
+      "red": []
+    },
+    "goldPool": {
+      "poolId": "x-ray-p250-package-gold",
+      "name": "Rare Special Items (None)",
+      "category": "knife_pool",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/Counter-Strike%3A_Global_Offensive_patches/October_2%2C_2019"
+      ],
+      "items": []
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 0,
+      "purple": 1,
+      "pink": 0,
+      "red": 0,
+      "gold": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Odds Weights Are Overridden Because This Package Contains Exactly One Outcome (P250 | X-Ray).",
+      "Gold Pool Is Intentionally Empty Because This Package Does Not Include Any Rare Special Items (Knives/Gloves)."
+    ]
+  }
+}

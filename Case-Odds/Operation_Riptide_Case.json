@@ -1,0 +1,1622 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "operation-riptide-case",
+    "name": "Operation Riptide Case",
+    "caseType": "operation_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://www.counter-strike.net/operationriptide/",
+      "https://counterstrike.fandom.com/wiki/Operation_Riptide_Case",
+      "https://csgoskins.gg/containers/operation-riptide-case",
+      "https://www.csgodatabase.com/cases/operation-riptide-case/"
+    ],
+    "notes": [
+      "Default Tier Odds Applied. Intra-Tier Item Odds Are Equal Per Project Rules.",
+      "Rare Special Items Are Spectrum Knife Types In Gamma Finishes; Gamma Doppler Outcomes Expanded Into Phase 1-4 And Emerald."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "usp-s-black-lotus",
+          "displayName": "USP-S | Black Lotus",
+          "category": "weapon_skin",
+          "weapon": "USP-S",
+          "skin": "Black Lotus",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "xm1014-watchdog",
+          "displayName": "XM1014 | Watchdog",
+          "category": "weapon_skin",
+          "weapon": "XM1014",
+          "skin": "Watchdog",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-tread",
+          "displayName": "Dual Berettas | Tread",
+          "category": "weapon_skin",
+          "weapon": "Dual Berettas",
+          "skin": "Tread",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-keeping-tabs",
+          "displayName": "G3SG1 | Keeping Tabs",
+          "category": "weapon_skin",
+          "weapon": "G3SG1",
+          "skin": "Keeping Tabs",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "aug-plague",
+          "displayName": "AUG | Plague",
+          "category": "weapon_skin",
+          "weapon": "AUG",
+          "skin": "Plague",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-lumen",
+          "displayName": "PP-Bizon | Lumen",
+          "category": "weapon_skin",
+          "weapon": "PP-Bizon",
+          "skin": "Lumen",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mp7-guerrilla",
+          "displayName": "MP7 | Guerrilla",
+          "category": "weapon_skin",
+          "weapon": "MP7",
+          "skin": "Guerrilla",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "m4a4-spider-lily",
+          "displayName": "M4A4 | Spider Lily",
+          "category": "weapon_skin",
+          "weapon": "M4A4",
+          "skin": "Spider Lily",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-mount-fuji",
+          "displayName": "MP9 | Mount Fuji",
+          "category": "weapon_skin",
+          "weapon": "MP9",
+          "skin": "Mount Fuji",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "five-seven-boost-protocol",
+          "displayName": "Five-SeveN | Boost Protocol",
+          "category": "weapon_skin",
+          "weapon": "Five-SeveN",
+          "skin": "Boost Protocol",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "famas-zx-spectron",
+          "displayName": "FAMAS | ZX Spectron",
+          "category": "weapon_skin",
+          "weapon": "FAMAS",
+          "skin": "ZX Spectron",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "mag-7-bi83-spectrum",
+          "displayName": "MAG-7 | BI83 Spectrum",
+          "category": "weapon_skin",
+          "weapon": "MAG-7",
+          "skin": "BI83 Spectrum",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "ssg-08-turbo-peek",
+          "displayName": "SSG 08 | Turbo Peek",
+          "category": "weapon_skin",
+          "weapon": "SSG 08",
+          "skin": "Turbo Peek",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "glock-18-snack-attack",
+          "displayName": "Glock-18 | Snack Attack",
+          "category": "weapon_skin",
+          "weapon": "Glock-18",
+          "skin": "Snack Attack",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "mac-10-toybox",
+          "displayName": "MAC-10 | Toybox",
+          "category": "weapon_skin",
+          "weapon": "MAC-10",
+          "skin": "Toybox",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "desert-eagle-ocean-drive",
+          "displayName": "Desert Eagle | Ocean Drive",
+          "category": "weapon_skin",
+          "weapon": "Desert Eagle",
+          "skin": "Ocean Drive",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "ak-47-leet-museo",
+          "displayName": "AK-47 | Leet Museo",
+          "category": "weapon_skin",
+          "weapon": "AK-47",
+          "skin": "Leet Museo",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Operation Riptide Case On Counter-Strike.net And Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "operation-riptide-knife-pool",
+      "name": "Operation Riptide Gamma Knife Pool",
+      "category": "knife_pool",
+      "sources": [
+        "https://www.counter-strike.net/operationriptide/",
+        "https://counterstrike.fandom.com/wiki/Operation_Riptide_Case",
+        "https://csgoskins.gg/containers/operation-riptide-case/specials"
+      ],
+      "items": [
+        {
+          "itemId": "butterfly-knife-autotronic",
+          "displayName": "Butterfly Knife | Autotronic",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Autotronic",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-black-laminate",
+          "displayName": "Butterfly Knife | Black Laminate",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Black Laminate",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-bright-water",
+          "displayName": "Butterfly Knife | Bright Water",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Bright Water",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-freehand",
+          "displayName": "Butterfly Knife | Freehand",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Freehand",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-lore",
+          "displayName": "Butterfly Knife | Lore",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Lore",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-gamma-doppler-phase-1",
+          "displayName": "Butterfly Knife | Gamma Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-gamma-doppler-phase-2",
+          "displayName": "Butterfly Knife | Gamma Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-gamma-doppler-phase-3",
+          "displayName": "Butterfly Knife | Gamma Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-gamma-doppler-phase-4",
+          "displayName": "Butterfly Knife | Gamma Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-gamma-doppler-emerald",
+          "displayName": "Butterfly Knife | Gamma Doppler (Emerald)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Emerald",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-autotronic",
+          "displayName": "Huntsman Knife | Autotronic",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Autotronic",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-black-laminate",
+          "displayName": "Huntsman Knife | Black Laminate",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Black Laminate",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-bright-water",
+          "displayName": "Huntsman Knife | Bright Water",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Bright Water",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-freehand",
+          "displayName": "Huntsman Knife | Freehand",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Freehand",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-lore",
+          "displayName": "Huntsman Knife | Lore",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Lore",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-gamma-doppler-phase-1",
+          "displayName": "Huntsman Knife | Gamma Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-gamma-doppler-phase-2",
+          "displayName": "Huntsman Knife | Gamma Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-gamma-doppler-phase-3",
+          "displayName": "Huntsman Knife | Gamma Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-gamma-doppler-phase-4",
+          "displayName": "Huntsman Knife | Gamma Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-gamma-doppler-emerald",
+          "displayName": "Huntsman Knife | Gamma Doppler (Emerald)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Emerald",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-autotronic",
+          "displayName": "Falchion Knife | Autotronic",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Autotronic",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-black-laminate",
+          "displayName": "Falchion Knife | Black Laminate",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Black Laminate",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-bright-water",
+          "displayName": "Falchion Knife | Bright Water",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Bright Water",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-freehand",
+          "displayName": "Falchion Knife | Freehand",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Freehand",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-lore",
+          "displayName": "Falchion Knife | Lore",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Lore",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-gamma-doppler-phase-1",
+          "displayName": "Falchion Knife | Gamma Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-gamma-doppler-phase-2",
+          "displayName": "Falchion Knife | Gamma Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-gamma-doppler-phase-3",
+          "displayName": "Falchion Knife | Gamma Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-gamma-doppler-phase-4",
+          "displayName": "Falchion Knife | Gamma Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-gamma-doppler-emerald",
+          "displayName": "Falchion Knife | Gamma Doppler (Emerald)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Emerald",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-autotronic",
+          "displayName": "Shadow Daggers | Autotronic",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Autotronic",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-black-laminate",
+          "displayName": "Shadow Daggers | Black Laminate",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Black Laminate",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-bright-water",
+          "displayName": "Shadow Daggers | Bright Water",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Bright Water",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-freehand",
+          "displayName": "Shadow Daggers | Freehand",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Freehand",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-lore",
+          "displayName": "Shadow Daggers | Lore",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Lore",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-gamma-doppler-phase-1",
+          "displayName": "Shadow Daggers | Gamma Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-gamma-doppler-phase-2",
+          "displayName": "Shadow Daggers | Gamma Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-gamma-doppler-phase-3",
+          "displayName": "Shadow Daggers | Gamma Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-gamma-doppler-phase-4",
+          "displayName": "Shadow Daggers | Gamma Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-gamma-doppler-emerald",
+          "displayName": "Shadow Daggers | Gamma Doppler (Emerald)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Gamma Doppler",
+          "variant": "Emerald",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-autotronic",
+          "displayName": "Bowie Knife | Autotronic",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Autotronic",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-black-laminate",
+          "displayName": "Bowie Knife | Black Laminate",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Black Laminate",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-bright-water",
+          "displayName": "Bowie Knife | Bright Water",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Bright Water",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-freehand",
+          "displayName": "Bowie Knife | Freehand",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Freehand",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-lore",
+          "displayName": "Bowie Knife | Lore",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Lore",
+          "variant": "None",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-gamma-doppler-phase-1",
+          "displayName": "Bowie Knife | Gamma Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-gamma-doppler-phase-2",
+          "displayName": "Bowie Knife | Gamma Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-gamma-doppler-phase-3",
+          "displayName": "Bowie Knife | Gamma Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-gamma-doppler-phase-4",
+          "displayName": "Bowie Knife | Gamma Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-gamma-doppler-emerald",
+          "displayName": "Bowie Knife | Gamma Doppler (Emerald)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Emerald",
+          "rarity": "rare_special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For The Operation Riptide Case (Gamma Finishes); Gamma Doppler Variants Expanded Into Phase 1-4 And Emerald Per Community Databases; Weights Use Project Default Odds And Equal Intra-Tier Distribution.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 50
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Gamma Doppler Phase And Emerald Odds Are Approximated As Equal Within The Gold Pool (Actual Pattern Distribution Is Not Publicly Specified)."
+    ]
+  }
+}

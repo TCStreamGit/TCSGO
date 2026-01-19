@@ -1,0 +1,508 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00-07:00",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "paris-2023-nuke-souvenir-package",
+    "name": "Paris 2023 Nuke Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://www.csgodatabase.com/souvenir-packages/paris-2023-nuke-souvenir-package/",
+      "https://steamcommunity.com/market/listings/730/Paris%202023%20Nuke%20Souvenir%20Package",
+      "https://counterstrike.fandom.com/wiki/BLAST_Paris_2023_Souvenir_Packages"
+    ],
+    "notes": [
+      "Contains Souvenir Skins From The 2018 Nuke Collection (Map: Nuke). Sticker Permutations Are Not Enumerated (stickersMode=ignored). StatTrak Is Not Possible For Souvenir Packages."
+    ],
+    "souvenir": {
+      "tournament": "BLAST.tv Paris 2023 CS:GO Championship",
+      "year": "2023",
+      "map": "Nuke",
+      "collection": "The 2018 Nuke Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://www.csgodatabase.com/souvenir-packages/paris-2023-nuke-souvenir-package/",
+        "https://counterstrike.fandom.com/wiki/BLAST_Paris_2023_Souvenir_Packages"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 2600000000,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "nova-mandrel-souvenir",
+          "displayName": "Souvenir Nova | Mandrel",
+          "category": "weapon",
+          "weapon": "Nova",
+          "skin": "Mandrel",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000000000",
+            "nonStatTrak": "0.159840000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "five-seven-coolant-souvenir",
+          "displayName": "Souvenir Five-SeveN | Coolant",
+          "category": "weapon",
+          "weapon": "Five-SeveN",
+          "skin": "Coolant",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000000000",
+            "nonStatTrak": "0.159840000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-facility-dark-souvenir",
+          "displayName": "Souvenir UMP-45 | Facility Dark",
+          "category": "weapon",
+          "weapon": "UMP-45",
+          "skin": "Facility Dark",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000000000",
+            "nonStatTrak": "0.159840000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "p250-facility-draft-souvenir",
+          "displayName": "Souvenir P250 | Facility Draft",
+          "category": "weapon",
+          "weapon": "P250",
+          "skin": "Facility Draft",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000000000",
+            "nonStatTrak": "0.159840000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-facility-sketch-souvenir",
+          "displayName": "Souvenir PP-Bizon | Facility Sketch",
+          "category": "weapon",
+          "weapon": "PP-Bizon",
+          "skin": "Facility Sketch",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000000000",
+            "nonStatTrak": "0.159840000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "galil-ar-cold-fusion-souvenir",
+          "displayName": "Souvenir Galil AR | Cold Fusion",
+          "category": "weapon",
+          "weapon": "Galil AR",
+          "skin": "Cold Fusion",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000000000",
+            "nonStatTrak": "0.039950000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "negev-bulkhead-souvenir",
+          "displayName": "Souvenir Negev | Bulkhead",
+          "category": "weapon",
+          "weapon": "Negev",
+          "skin": "Bulkhead",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000000000",
+            "nonStatTrak": "0.039950000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-motherboard-souvenir",
+          "displayName": "Souvenir MP7 | Motherboard",
+          "category": "weapon",
+          "weapon": "MP7",
+          "skin": "Motherboard",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000000000",
+            "nonStatTrak": "0.039950000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "m4a4-mainframe-souvenir",
+          "displayName": "Souvenir M4A4 | Mainframe",
+          "category": "weapon",
+          "weapon": "M4A4",
+          "skin": "Mainframe",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000000000",
+            "nonStatTrak": "0.039950000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "awp-acheron-souvenir",
+          "displayName": "Souvenir AWP | Acheron",
+          "category": "weapon",
+          "weapon": "AWP",
+          "skin": "Acheron",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000000000",
+            "nonStatTrak": "0.008000000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "p250-exchanger-souvenir",
+          "displayName": "Souvenir P250 | Exchanger",
+          "category": "weapon",
+          "weapon": "P250",
+          "skin": "Exchanger",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000000000",
+            "nonStatTrak": "0.008000000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp5-sd-co-processor-souvenir",
+          "displayName": "Souvenir MP5-SD | Co-Processor",
+          "category": "weapon",
+          "weapon": "MP5-SD",
+          "skin": "Co-Processor",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000000000",
+            "nonStatTrak": "0.008000000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "p90-facility-negative-souvenir",
+          "displayName": "Souvenir P90 | Facility Negative",
+          "category": "weapon",
+          "weapon": "P90",
+          "skin": "Facility Negative",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000000000",
+            "nonStatTrak": "0.008000000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "glock-18-nuclear-garden-souvenir",
+          "displayName": "Souvenir Glock-18 | Nuclear Garden",
+          "category": "weapon",
+          "weapon": "Glock-18",
+          "skin": "Nuclear Garden",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 2133333334,
+            "nonStatTrak": 2133333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333334000000000000",
+            "nonStatTrak": "0.002133333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "mag-7-core-breach-souvenir",
+          "displayName": "Souvenir MAG-7 | Core Breach",
+          "category": "weapon",
+          "weapon": "MAG-7",
+          "skin": "Core Breach",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000000000",
+            "nonStatTrak": "0.002133333333000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "aug-random-access-souvenir",
+          "displayName": "Souvenir AUG | Random Access",
+          "category": "weapon",
+          "weapon": "AUG",
+          "skin": "Random Access",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000000000",
+            "nonStatTrak": "0.002133333333000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "m4a1-s-control-panel-souvenir",
+          "displayName": "Souvenir M4A1-S | Control Panel",
+          "category": "weapon",
+          "weapon": "M4A1-S",
+          "skin": "Control Panel",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 1300000000,
+            "nonStatTrak": 1300000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001300000000000000000000",
+            "nonStatTrak": "0.001300000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "tec-9-remote-control-souvenir",
+          "displayName": "Souvenir Tec-9 | Remote Control",
+          "category": "weapon",
+          "weapon": "Tec-9",
+          "skin": "Remote Control",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Paris 2023 Nuke Souvenir Package Contents (The 2018 Nuke Collection).",
+          "weights": {
+            "base": 1300000000,
+            "nonStatTrak": 1300000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001300000000000000000000",
+            "nonStatTrak": "0.001300000000000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        }
+      ],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 4,
+      "restricted": 3,
+      "classified": 2,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "The 2018 Nuke Collection Has No Covert Skins; Covert Weight Was Set To 0 And Reallocated To Classified To Preserve Total Weight."
+    ]
+  }
+}

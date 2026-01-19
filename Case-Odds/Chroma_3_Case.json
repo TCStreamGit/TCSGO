@@ -1,0 +1,1849 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "chroma-3-case",
+    "name": "Chroma 3 Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/Chroma_3_Case",
+      "https://csgoskins.gg/containers/chroma-3-case"
+    ],
+    "notes": [
+      "Tier Weights Use Default CS Case Odds; Item Weights Are Evenly Distributed Within Each Tier With Deterministic Remainders.",
+      "Gold Pool Uses Phase-Level Doppler Outcomes (Phase 1-4, Ruby, Sapphire, Black Pearl) Plus Chroma Finishes (Damascus Steel, Marble Fade, Tiger Tooth, Rust Coat, Ultraviolet)."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "dual-berettas-ventilators",
+          "displayName": "Dual Berettas | Ventilators",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Ventilators",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-orange-crash",
+          "displayName": "G3SG1 | Orange Crash",
+          "category": "sniper_rifle",
+          "weapon": "G3SG1",
+          "skin": "Orange Crash",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "m249-spectre",
+          "displayName": "M249 | Spectre",
+          "category": "machine_gun",
+          "weapon": "M249",
+          "skin": "Spectre",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mp9-bioleak",
+          "displayName": "MP9 | Bioleak",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Bioleak",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "p2000-oceanic",
+          "displayName": "P2000 | Oceanic",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Oceanic",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "sg-553-atlas",
+          "displayName": "SG 553 | Atlas",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Atlas",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-fubar",
+          "displayName": "Sawed-Off | Fubar",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Fubar",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "galil-ar-firefight",
+          "displayName": "Galil AR | Firefight",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "Firefight",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "cz75-auto-red-astor",
+          "displayName": "CZ75-Auto | Red Astor",
+          "category": "pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Red Astor",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-black-tie",
+          "displayName": "XM1014 | Black Tie",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Black Tie",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-ghost-crusader",
+          "displayName": "SSG 08 | Ghost Crusader",
+          "category": "sniper_rifle",
+          "weapon": "SSG 08",
+          "skin": "Ghost Crusader",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "tec-9-re-entry",
+          "displayName": "Tec-9 | Re-Entry",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Re-Entry",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "ump-45-primal-saber",
+          "displayName": "UMP-45 | Primal Saber",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Primal Saber",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "p250-asiimov",
+          "displayName": "P250 | Asiimov",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Asiimov",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "aug-fleet-flock",
+          "displayName": "AUG | Fleet Flock",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Fleet Flock",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "m4a1-s-chantico-s-fire",
+          "displayName": "M4A1-S | Chantico's Fire",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Chantico's Fire",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-judgement-of-anubis",
+          "displayName": "PP-Bizon | Judgement of Anubis",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Judgement of Anubis",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Chroma 3 Case Contents",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "chroma-3-knife-pool",
+      "name": "Chroma Finish Knife Pool",
+      "category": "knife_pool",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/Chroma_3_Case",
+        "https://csgoskins.gg/containers/chroma-3-case/specials"
+      ],
+      "items": [
+        {
+          "itemId": "bayonet-doppler-phase-1",
+          "displayName": "★ Bayonet | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-doppler-phase-2",
+          "displayName": "★ Bayonet | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-doppler-phase-3",
+          "displayName": "★ Bayonet | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-doppler-phase-4",
+          "displayName": "★ Bayonet | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-doppler-black-pearl",
+          "displayName": "★ Bayonet | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-doppler-ruby",
+          "displayName": "★ Bayonet | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-doppler-sapphire",
+          "displayName": "★ Bayonet | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-damascus-steel",
+          "displayName": "★ Bayonet | Damascus Steel",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-marble-fade",
+          "displayName": "★ Bayonet | Marble Fade",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-tiger-tooth",
+          "displayName": "★ Bayonet | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-rust-coat",
+          "displayName": "★ Bayonet | Rust Coat",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-ultraviolet",
+          "displayName": "★ Bayonet | Ultraviolet",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-phase-1",
+          "displayName": "★ Flip Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-phase-2",
+          "displayName": "★ Flip Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-phase-3",
+          "displayName": "★ Flip Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-phase-4",
+          "displayName": "★ Flip Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-black-pearl",
+          "displayName": "★ Flip Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-ruby",
+          "displayName": "★ Flip Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-sapphire",
+          "displayName": "★ Flip Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-damascus-steel",
+          "displayName": "★ Flip Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-marble-fade",
+          "displayName": "★ Flip Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-tiger-tooth",
+          "displayName": "★ Flip Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-rust-coat",
+          "displayName": "★ Flip Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-ultraviolet",
+          "displayName": "★ Flip Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-phase-1",
+          "displayName": "★ Gut Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-phase-2",
+          "displayName": "★ Gut Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-phase-3",
+          "displayName": "★ Gut Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-phase-4",
+          "displayName": "★ Gut Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-black-pearl",
+          "displayName": "★ Gut Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-ruby",
+          "displayName": "★ Gut Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-sapphire",
+          "displayName": "★ Gut Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-damascus-steel",
+          "displayName": "★ Gut Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-marble-fade",
+          "displayName": "★ Gut Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-tiger-tooth",
+          "displayName": "★ Gut Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-rust-coat",
+          "displayName": "★ Gut Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-ultraviolet",
+          "displayName": "★ Gut Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-phase-1",
+          "displayName": "★ Karambit | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-phase-2",
+          "displayName": "★ Karambit | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-phase-3",
+          "displayName": "★ Karambit | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-phase-4",
+          "displayName": "★ Karambit | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-black-pearl",
+          "displayName": "★ Karambit | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-ruby",
+          "displayName": "★ Karambit | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-sapphire",
+          "displayName": "★ Karambit | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-damascus-steel",
+          "displayName": "★ Karambit | Damascus Steel",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-marble-fade",
+          "displayName": "★ Karambit | Marble Fade",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-tiger-tooth",
+          "displayName": "★ Karambit | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-rust-coat",
+          "displayName": "★ Karambit | Rust Coat",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-ultraviolet",
+          "displayName": "★ Karambit | Ultraviolet",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-phase-1",
+          "displayName": "★ M9 Bayonet | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-phase-2",
+          "displayName": "★ M9 Bayonet | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-phase-3",
+          "displayName": "★ M9 Bayonet | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-phase-4",
+          "displayName": "★ M9 Bayonet | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-black-pearl",
+          "displayName": "★ M9 Bayonet | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-ruby",
+          "displayName": "★ M9 Bayonet | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-sapphire",
+          "displayName": "★ M9 Bayonet | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-damascus-steel",
+          "displayName": "★ M9 Bayonet | Damascus Steel",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-marble-fade",
+          "displayName": "★ M9 Bayonet | Marble Fade",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-tiger-tooth",
+          "displayName": "★ M9 Bayonet | Tiger Tooth",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-rust-coat",
+          "displayName": "★ M9 Bayonet | Rust Coat",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-ultraviolet",
+          "displayName": "★ M9 Bayonet | Ultraviolet",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For Chroma 3 Case",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 60
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Some Third-Party Lists Count A Generic 'Doppler' Entry In Addition To Phase/Gem Variants; This Export Uses Only Distinct Outcomes Per Phase/Gem Naming."
+    ]
+  }
+}

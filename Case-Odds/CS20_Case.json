@@ -1,0 +1,769 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "cs20-case",
+    "name": "CS20 Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://csgoskins.gg/containers/cs20-case",
+      "https://counterstrike.fandom.com/wiki/CS20_Case",
+      "https://totalcsgo.com/skins/cases/cs20-case"
+    ],
+    "notes": [
+      "Contains 17 Community-Made Weapon Skins Released For Counter-Strike's 20th Anniversary (October 18, 2019).",
+      "Rare Special Item: Classic Knife In 13 Different Finishes."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "glock-18-sacrifice",
+          "displayName": "Glock-18 | Sacrifice",
+          "category": "weapon_skin",
+          "weapon": "Glock-18",
+          "skin": "Sacrifice",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "famas-decommissioned",
+          "displayName": "FAMAS | Decommissioned",
+          "category": "weapon_skin",
+          "weapon": "FAMAS",
+          "skin": "Decommissioned",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-elite-1-6",
+          "displayName": "Dual Berettas | Elite 1.6",
+          "category": "weapon_skin",
+          "weapon": "Dual Berettas",
+          "skin": "Elite 1.6",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mac-10-classic-crate",
+          "displayName": "MAC-10 | Classic Crate",
+          "category": "weapon_skin",
+          "weapon": "MAC-10",
+          "skin": "Classic Crate",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mag-7-popdog",
+          "displayName": "MAG-7 | Popdog",
+          "category": "weapon_skin",
+          "weapon": "MAG-7",
+          "skin": "Popdog",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "tec-9-flash-out",
+          "displayName": "Tec-9 | Flash Out",
+          "category": "weapon_skin",
+          "weapon": "Tec-9",
+          "skin": "Flash Out",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "scar-20-assault",
+          "displayName": "SCAR-20 | Assault",
+          "category": "weapon_skin",
+          "weapon": "SCAR-20",
+          "skin": "Assault",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "mp5-sd-agent",
+          "displayName": "MP5-SD | Agent",
+          "category": "weapon_skin",
+          "weapon": "MP5-SD",
+          "skin": "Agent",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-plastique",
+          "displayName": "UMP-45 | Plastique",
+          "category": "weapon_skin",
+          "weapon": "UMP-45",
+          "skin": "Plastique",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "p250-inferno",
+          "displayName": "P250 | Inferno",
+          "category": "weapon_skin",
+          "weapon": "P250",
+          "skin": "Inferno",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "five-seven-buddy",
+          "displayName": "Five-SeveN | Buddy",
+          "category": "weapon_skin",
+          "weapon": "Five-SeveN",
+          "skin": "Buddy",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "m249-aztec",
+          "displayName": "M249 | Aztec",
+          "category": "weapon_skin",
+          "weapon": "M249",
+          "skin": "Aztec",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "mp9-hydra",
+          "displayName": "MP9 | Hydra",
+          "category": "weapon_skin",
+          "weapon": "MP9",
+          "skin": "Hydra",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "aug-death-by-puppy",
+          "displayName": "AUG | Death by Puppy",
+          "category": "weapon_skin",
+          "weapon": "AUG",
+          "skin": "Death by Puppy",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "p90-nostalgia",
+          "displayName": "P90 | Nostalgia",
+          "category": "weapon_skin",
+          "weapon": "P90",
+          "skin": "Nostalgia",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666666000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "awp-wildfire",
+          "displayName": "AWP | Wildfire",
+          "category": "weapon_skin",
+          "weapon": "AWP",
+          "skin": "Wildfire",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "famas-commemoration",
+          "displayName": "FAMAS | Commemoration",
+          "category": "weapon_skin",
+          "weapon": "FAMAS",
+          "skin": "Commemoration",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public CS2 Case Listings For The CS20 Case.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "cs20-case-classic-knife-pool",
+      "name": "Classic Knife Finishes",
+      "category": "knife_pool",
+      "sources": [
+        "https://csgoskins.gg/containers/cs20-case/specials",
+        "https://pattern.wiki/special_group/cs20/"
+      ],
+      "items": [
+        {
+          "itemId": "classic-knife-blue-steel",
+          "displayName": "★ Classic Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "classic-knife-boreal-forest",
+          "displayName": "★ Classic Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "classic-knife-case-hardened",
+          "displayName": "★ Classic Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "classic-knife-crimson-web",
+          "displayName": "★ Classic Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "classic-knife-fade",
+          "displayName": "★ Classic Knife | Fade",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "classic-knife-forest-ddpat",
+          "displayName": "★ Classic Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "classic-knife-night-stripe",
+          "displayName": "★ Classic Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "classic-knife-safari-mesh",
+          "displayName": "★ Classic Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "classic-knife-scorched",
+          "displayName": "★ Classic Knife | Scorched",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "classic-knife-slaughter",
+          "displayName": "★ Classic Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "classic-knife-stained",
+          "displayName": "★ Classic Knife | Stained",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "classic-knife-urban-masked",
+          "displayName": "★ Classic Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "classic-knife-vanilla",
+          "displayName": "★ Classic Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Classic Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A CS20 Case Rare Special Item Finish In Public Knife Drop Listings.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 13
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "None"
+    ]
+  }
+}

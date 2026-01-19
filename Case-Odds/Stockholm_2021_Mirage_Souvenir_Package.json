@@ -1,0 +1,531 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "stockholm-2021-mirage-souvenir-package",
+    "name": "Stockholm 2021 Mirage Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://totalcsgo.com/skins/souvenir-packages/stockholm-2021-mirage-souvenir-package",
+      "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Mirage%20Souvenir%20Package"
+    ],
+    "notes": [
+      "Souvenir Package Drops Items From The 2021 Mirage Collection; Sticker Permutations Are Ignored For This Export."
+    ],
+    "souvenir": {
+      "tournament": "PGL Stockholm 2021",
+      "year": "2021",
+      "map": "Mirage",
+      "collection": "The 2021 Mirage Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://csgoskins.gg/containers/stockholm-2021-mirage-souvenir-package",
+        "https://stash.clash.gg/collection/The-2021-Mirage-Collection"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 1280000000,
+      "covert": 1320000000
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-p250-drought",
+          "displayName": "Souvenir P250 | Drought",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Drought",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-pp-bizon-anolis",
+          "displayName": "Souvenir PP-Bizon | Anolis",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Anolis",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mag-7-navy-sheen",
+          "displayName": "Souvenir MAG-7 | Navy Sheen",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Navy Sheen",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mac-10-sienna-damask",
+          "displayName": "Souvenir MAC-10 | Sienna Damask",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Sienna Damask",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ssg-08-prey",
+          "displayName": "Souvenir SSG 08 | Prey",
+          "category": "sniper-rifle",
+          "weapon": "SSG 08",
+          "skin": "Prey",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-dual-berettas-drift-wood",
+          "displayName": "Souvenir Dual Berettas | Drift Wood",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Drift Wood",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-famas-calicamo",
+          "displayName": "Souvenir FAMAS | CaliCamo",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "CaliCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-cz75-auto-midnight-palm",
+          "displayName": "Souvenir CZ75-Auto | Midnight Palm",
+          "category": "pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Midnight Palm",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-verdant-growth",
+          "displayName": "Souvenir P90 | Verdant Growth",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Verdant Growth",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-usp-s-purple-ddpat",
+          "displayName": "Souvenir USP-S | Purple DDPAT",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Purple DDPAT",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp9-music-box",
+          "displayName": "Souvenir MP9 | Music Box",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Music Box",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-m249-humidor",
+          "displayName": "Souvenir M249 | Humidor",
+          "category": "machine-gun",
+          "weapon": "M249",
+          "skin": "Humidor",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sg-553-desert-blossom",
+          "displayName": "Souvenir SG 553 | Desert Blossom",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Desert Blossom",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-xm1014-elegant-vines",
+          "displayName": "Souvenir XM1014 | Elegant Vines",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Elegant Vines",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 2133333334,
+            "nonStatTrak": 2133333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333334000000",
+            "nonStatTrak": "0.002133333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-glock-18-pink-ddpat",
+          "displayName": "Souvenir Glock-18 | Pink DDPAT",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Pink DDPAT",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-aug-sand-storm",
+          "displayName": "Souvenir AUG | Sand Storm",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Sand Storm",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "souvenir-mp5-sd-oxide-oasis",
+          "displayName": "Souvenir MP5-SD | Oxide Oasis",
+          "category": "smg",
+          "weapon": "MP5-SD",
+          "skin": "Oxide Oasis",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 640000000,
+            "nonStatTrak": 640000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000640000000000000",
+            "nonStatTrak": "0.000640000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-desert-eagle-fennec-fox",
+          "displayName": "Souvenir Desert Eagle | Fennec Fox",
+          "category": "pistol",
+          "weapon": "Desert Eagle",
+          "skin": "Fennec Fox",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 640000000,
+            "nonStatTrak": 640000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000640000000000000",
+            "nonStatTrak": "0.000640000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": [
+        {
+          "itemId": "souvenir-awp-desert-hydra",
+          "displayName": "Souvenir AWP | Desert Hydra",
+          "category": "sniper-rifle",
+          "weapon": "AWP",
+          "skin": "Desert Hydra",
+          "variant": "Souvenir",
+          "rarity": "covert",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Stockholm 2021 Mirage Souvenir Package And The 2021 Mirage Collection.",
+          "weights": {
+            "base": 1320000000,
+            "nonStatTrak": 1320000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001320000000000000",
+            "nonStatTrak": "0.001320000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 4,
+      "restricted": 3,
+      "classified": 2,
+      "covert": 1
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Default Collection Odds Sum To 0.998936; Remainder Added To Covert Tier Weight Per Export Rules."
+    ]
+  }
+}

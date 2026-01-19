@@ -1,0 +1,1804 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T04:33:08.086390Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "chroma-2-case",
+    "name": "Chroma 2 Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/Chroma_2_Case",
+      "https://csgoskins.gg/containers/chroma-2-case",
+      "https://dmarket.com/cs2-wiki/containers/chroma-2-case/"
+    ],
+    "notes": [
+      "Tier Weights Use Project Default Odds; Items Are Evenly Weighted Within Each Rarity Tier; StatTrak Split Assumes 10% For Eligible Items."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "ak-47-elite-build",
+          "displayName": "AK-47 | Elite Build",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Elite Build",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 119880000000,
+            "statTrak": 13320000000
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.119880000000000000",
+            "statTrak": "0.013320000000000000"
+          }
+        },
+        {
+          "itemId": "desert-eagle-bronze-deco",
+          "displayName": "Desert Eagle | Bronze Deco",
+          "category": "pistol",
+          "weapon": "Desert Eagle",
+          "skin": "Bronze Deco",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 119880000000,
+            "statTrak": 13320000000
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.119880000000000000",
+            "statTrak": "0.013320000000000000"
+          }
+        },
+        {
+          "itemId": "p250-valence",
+          "displayName": "P250 | Valence",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Valence",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 119880000000,
+            "statTrak": 13320000000
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.119880000000000000",
+            "statTrak": "0.013320000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-armor-core",
+          "displayName": "MP7 | Armor Core",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Armor Core",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 119880000000,
+            "statTrak": 13320000000
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.119880000000000000",
+            "statTrak": "0.013320000000000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-origami",
+          "displayName": "Sawed-Off | Origami",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Origami",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 119880000000,
+            "statTrak": 13320000000
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.119880000000000000",
+            "statTrak": "0.013320000000000000"
+          }
+        },
+        {
+          "itemId": "negev-man-o-war",
+          "displayName": "Negev | Man-o'-war",
+          "category": "machine-gun",
+          "weapon": "Negev",
+          "skin": "Man-o'-war",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 119880000000,
+            "statTrak": 13320000000
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.119880000000000000",
+            "statTrak": "0.013320000000000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "awp-worm-god",
+          "displayName": "AWP | Worm God",
+          "category": "sniper-rifle",
+          "weapon": "AWP",
+          "skin": "Worm God",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        },
+        {
+          "itemId": "mag-7-heat",
+          "displayName": "MAG-7 | Heat",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Heat",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        },
+        {
+          "itemId": "cz75-auto-pole-position",
+          "displayName": "CZ75-Auto | Pole Position",
+          "category": "pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Pole Position",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-grand-prix",
+          "displayName": "UMP-45 | Grand Prix",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Grand Prix",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "five-seve-n-monkey-business",
+          "displayName": "Five-SeveN | Monkey Business",
+          "category": "pistol",
+          "weapon": "Five-SeveN",
+          "skin": "Monkey Business",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "galil-ar-eco",
+          "displayName": "Galil AR | Eco",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "Eco",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "famas-djinn",
+          "displayName": "FAMAS | Djinn",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Djinn",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666666000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "m4a1-s-hyper-beast",
+          "displayName": "M4A1-S | Hyper Beast",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Hyper Beast",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-neon-rider",
+          "displayName": "MAC-10 | Neon Rider",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Neon Rider",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Skin Lists (CSGOSKINS.GG And DMarket/CS Wiki).",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "chroma-2-knife-pool",
+      "name": "Chroma 2 Rare Special Knives (Chroma Finishes)",
+      "category": "knife_pool",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/Chroma_2_Case",
+        "https://csgoskins.gg/containers/chroma-2-case/specials"
+      ],
+      "items": [
+        {
+          "itemId": "bayonet-doppler-phase-1",
+          "displayName": "\u2605 Bayonet | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-doppler-phase-2",
+          "displayName": "\u2605 Bayonet | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-doppler-phase-3",
+          "displayName": "\u2605 Bayonet | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-doppler-phase-4",
+          "displayName": "\u2605 Bayonet | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-doppler-black-pearl",
+          "displayName": "\u2605 Bayonet | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-doppler-ruby",
+          "displayName": "\u2605 Bayonet | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-doppler-sapphire",
+          "displayName": "\u2605 Bayonet | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-damascus-steel",
+          "displayName": "\u2605 Bayonet | Damascus Steel",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-marble-fade",
+          "displayName": "\u2605 Bayonet | Marble Fade",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-tiger-tooth",
+          "displayName": "\u2605 Bayonet | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-rust-coat",
+          "displayName": "\u2605 Bayonet | Rust Coat",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "bayonet-ultraviolet",
+          "displayName": "\u2605 Bayonet | Ultraviolet",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-phase-1",
+          "displayName": "\u2605 Flip Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-phase-2",
+          "displayName": "\u2605 Flip Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-phase-3",
+          "displayName": "\u2605 Flip Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-phase-4",
+          "displayName": "\u2605 Flip Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-black-pearl",
+          "displayName": "\u2605 Flip Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-ruby",
+          "displayName": "\u2605 Flip Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-doppler-sapphire",
+          "displayName": "\u2605 Flip Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-damascus-steel",
+          "displayName": "\u2605 Flip Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-marble-fade",
+          "displayName": "\u2605 Flip Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-tiger-tooth",
+          "displayName": "\u2605 Flip Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-rust-coat",
+          "displayName": "\u2605 Flip Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-ultraviolet",
+          "displayName": "\u2605 Flip Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-phase-1",
+          "displayName": "\u2605 Gut Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-phase-2",
+          "displayName": "\u2605 Gut Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-phase-3",
+          "displayName": "\u2605 Gut Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-phase-4",
+          "displayName": "\u2605 Gut Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-black-pearl",
+          "displayName": "\u2605 Gut Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-ruby",
+          "displayName": "\u2605 Gut Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-doppler-sapphire",
+          "displayName": "\u2605 Gut Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000",
+            "nonStatTrak": "0.000039000001000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-damascus-steel",
+          "displayName": "\u2605 Gut Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-marble-fade",
+          "displayName": "\u2605 Gut Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-tiger-tooth",
+          "displayName": "\u2605 Gut Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-rust-coat",
+          "displayName": "\u2605 Gut Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-ultraviolet",
+          "displayName": "\u2605 Gut Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-phase-1",
+          "displayName": "\u2605 Karambit | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-phase-2",
+          "displayName": "\u2605 Karambit | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-phase-3",
+          "displayName": "\u2605 Karambit | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-phase-4",
+          "displayName": "\u2605 Karambit | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-black-pearl",
+          "displayName": "\u2605 Karambit | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-ruby",
+          "displayName": "\u2605 Karambit | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-doppler-sapphire",
+          "displayName": "\u2605 Karambit | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-damascus-steel",
+          "displayName": "\u2605 Karambit | Damascus Steel",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-marble-fade",
+          "displayName": "\u2605 Karambit | Marble Fade",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-tiger-tooth",
+          "displayName": "\u2605 Karambit | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-rust-coat",
+          "displayName": "\u2605 Karambit | Rust Coat",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "karambit-ultraviolet",
+          "displayName": "\u2605 Karambit | Ultraviolet",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-phase-1",
+          "displayName": "\u2605 M9 Bayonet | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-phase-2",
+          "displayName": "\u2605 M9 Bayonet | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-phase-3",
+          "displayName": "\u2605 M9 Bayonet | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-phase-4",
+          "displayName": "\u2605 M9 Bayonet | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-black-pearl",
+          "displayName": "\u2605 M9 Bayonet | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-ruby",
+          "displayName": "\u2605 M9 Bayonet | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-doppler-sapphire",
+          "displayName": "\u2605 M9 Bayonet | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-damascus-steel",
+          "displayName": "\u2605 M9 Bayonet | Damascus Steel",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-marble-fade",
+          "displayName": "\u2605 M9 Bayonet | Marble Fade",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-tiger-tooth",
+          "displayName": "\u2605 M9 Bayonet | Tiger Tooth",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-rust-coat",
+          "displayName": "\u2605 M9 Bayonet | Rust Coat",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-ultraviolet",
+          "displayName": "\u2605 M9 Bayonet | Ultraviolet",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Chroma 2 Case Knife Lists (Counter-Strike Wiki - Fandom).",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000",
+            "nonStatTrak": "0.000039000000000000",
+            "statTrak": "0.000004333333000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 6,
+      "purple": 4,
+      "pink": 3,
+      "red": 2,
+      "gold": 60
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Default Tier Odds Applied (Not Case-Specific Valve-Published Odds).",
+      "StatTrak Split Uses Floor(10% Of Each Item Base Weight) For Deterministic Integers."
+    ]
+  }
+}

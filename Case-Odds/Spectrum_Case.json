@@ -1,0 +1,1852 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "spectrum-case",
+    "name": "Spectrum Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/Spectrum_Case",
+      "https://stash.clash.gg/case/207/Spectrum-Case",
+      "https://dmarket.com/cs2-wiki/containers/spectrum-case/"
+    ],
+    "notes": [
+      "Tier Weights Use Default Odds And unit.scale=1000000000000.",
+      "Within Each Tier, Item Base Weights Are Distributed Evenly With Any Remainder Assigned To The First Items In Listed Order.",
+      "Gold Pool Is Fully Expanded Into Doppler Phases And Gem Variants (Ruby, Sapphire, Black Pearl) As Separate Outcomes."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "pp-bizon-jungle-slipstream",
+          "displayName": "PP-Bizon | Jungle Slipstream",
+          "category": "weapon",
+          "weapon": "PP-Bizon",
+          "skin": "Jungle Slipstream",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000000000",
+            "nonStatTrak": "0.102754285715000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        },
+        {
+          "itemId": "scar-20-blueprint",
+          "displayName": "SCAR-20 | Blueprint",
+          "category": "weapon",
+          "weapon": "SCAR-20",
+          "skin": "Blueprint",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000000000",
+            "nonStatTrak": "0.102754285715000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        },
+        {
+          "itemId": "desert-eagle-oxide-blaze",
+          "displayName": "Desert Eagle | Oxide Blaze",
+          "category": "weapon",
+          "weapon": "Desert Eagle",
+          "skin": "Oxide Blaze",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000000000",
+            "nonStatTrak": "0.102754285715000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        },
+        {
+          "itemId": "five-seven-capillary",
+          "displayName": "Five-SeveN | Capillary",
+          "category": "weapon",
+          "weapon": "Five-SeveN",
+          "skin": "Capillary",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000000000",
+            "nonStatTrak": "0.102754285714000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-akoben",
+          "displayName": "MP7 | Akoben",
+          "category": "weapon",
+          "weapon": "MP7",
+          "skin": "Akoben",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000000000",
+            "nonStatTrak": "0.102754285714000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        },
+        {
+          "itemId": "p250-ripple",
+          "displayName": "P250 | Ripple",
+          "category": "weapon",
+          "weapon": "P250",
+          "skin": "Ripple",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000000000",
+            "nonStatTrak": "0.102754285714000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-zander",
+          "displayName": "Sawed-Off | Zander",
+          "category": "weapon",
+          "weapon": "Sawed-Off",
+          "skin": "Zander",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000000000",
+            "nonStatTrak": "0.102754285714000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "galil-ar-crimson-tsunami",
+          "displayName": "Galil AR | Crimson Tsunami",
+          "category": "weapon",
+          "weapon": "Galil AR",
+          "skin": "Crimson Tsunami",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000000000",
+            "nonStatTrak": "0.028764000000000000000000",
+            "statTrak": "0.003196000000000000000000"
+          }
+        },
+        {
+          "itemId": "m249-emerald-poison-dart",
+          "displayName": "M249 | Emerald Poison Dart",
+          "category": "weapon",
+          "weapon": "M249",
+          "skin": "Emerald Poison Dart",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000000000",
+            "nonStatTrak": "0.028764000000000000000000",
+            "statTrak": "0.003196000000000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-last-dive",
+          "displayName": "MAC-10 | Last Dive",
+          "category": "weapon",
+          "weapon": "MAC-10",
+          "skin": "Last Dive",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000000000",
+            "nonStatTrak": "0.028764000000000000000000",
+            "statTrak": "0.003196000000000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-scaffold",
+          "displayName": "UMP-45 | Scaffold",
+          "category": "weapon",
+          "weapon": "UMP-45",
+          "skin": "Scaffold",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000000000",
+            "nonStatTrak": "0.028764000000000000000000",
+            "statTrak": "0.003196000000000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-seasons",
+          "displayName": "XM1014 | Seasons",
+          "category": "weapon",
+          "weapon": "XM1014",
+          "skin": "Seasons",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000000000",
+            "nonStatTrak": "0.028764000000000000000000",
+            "statTrak": "0.003196000000000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "awp-fever-dream",
+          "displayName": "AWP | Fever Dream",
+          "category": "weapon",
+          "weapon": "AWP",
+          "skin": "Fever Dream",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000000000",
+            "nonStatTrak": "0.009600000000000000000000",
+            "statTrak": "0.001066666667000000000000"
+          }
+        },
+        {
+          "itemId": "cz75-auto-xiangliu",
+          "displayName": "CZ75-Auto | Xiangliu",
+          "category": "weapon",
+          "weapon": "CZ75-Auto",
+          "skin": "Xiangliu",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000000000",
+            "nonStatTrak": "0.009600000000000000000000",
+            "statTrak": "0.001066666667000000000000"
+          }
+        },
+        {
+          "itemId": "m4a1-s-decimator",
+          "displayName": "M4A1-S | Decimator",
+          "category": "weapon",
+          "weapon": "M4A1-S",
+          "skin": "Decimator",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666666000000000000",
+            "nonStatTrak": "0.009600000000000000000000",
+            "statTrak": "0.001066666666000000000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "ak-47-bloodsport",
+          "displayName": "AK-47 | Bloodsport",
+          "category": "weapon",
+          "weapon": "AK-47",
+          "skin": "Bloodsport",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000000000",
+            "nonStatTrak": "0.002880000000000000000000",
+            "statTrak": "0.000320000000000000000000"
+          }
+        },
+        {
+          "itemId": "usp-s-neo-noir",
+          "displayName": "USP-S | Neo-Noir",
+          "category": "weapon",
+          "weapon": "USP-S",
+          "skin": "Neo-Noir",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Spectrum Case Content In Sources.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000000000",
+            "nonStatTrak": "0.002880000000000000000000",
+            "statTrak": "0.000320000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "spectrum-case-knife-pool",
+      "name": "Spectrum Case Knives",
+      "category": "knife_pool",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/Spectrum_Case",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2075918027"
+      ],
+      "items": [
+        {
+          "itemId": "butterfly-knife-doppler-phase-1",
+          "displayName": "★ Butterfly Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-phase-2",
+          "displayName": "★ Butterfly Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-phase-3",
+          "displayName": "★ Butterfly Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-phase-4",
+          "displayName": "★ Butterfly Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-black-pearl",
+          "displayName": "★ Butterfly Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-ruby",
+          "displayName": "★ Butterfly Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-doppler-sapphire",
+          "displayName": "★ Butterfly Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-damascus-steel",
+          "displayName": "★ Butterfly Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-marble-fade",
+          "displayName": "★ Butterfly Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-tiger-tooth",
+          "displayName": "★ Butterfly Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-rust-coat",
+          "displayName": "★ Butterfly Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-ultraviolet",
+          "displayName": "★ Butterfly Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-phase-1",
+          "displayName": "★ Huntsman Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-phase-2",
+          "displayName": "★ Huntsman Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-phase-3",
+          "displayName": "★ Huntsman Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-phase-4",
+          "displayName": "★ Huntsman Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-black-pearl",
+          "displayName": "★ Huntsman Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-ruby",
+          "displayName": "★ Huntsman Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-doppler-sapphire",
+          "displayName": "★ Huntsman Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333334,
+            "nonStatTrak": 39000001,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333334000000000000",
+            "nonStatTrak": "0.000039000001000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-damascus-steel",
+          "displayName": "★ Huntsman Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-marble-fade",
+          "displayName": "★ Huntsman Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-tiger-tooth",
+          "displayName": "★ Huntsman Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-rust-coat",
+          "displayName": "★ Huntsman Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-ultraviolet",
+          "displayName": "★ Huntsman Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-phase-1",
+          "displayName": "★ Falchion Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-phase-2",
+          "displayName": "★ Falchion Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-phase-3",
+          "displayName": "★ Falchion Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-phase-4",
+          "displayName": "★ Falchion Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-black-pearl",
+          "displayName": "★ Falchion Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-ruby",
+          "displayName": "★ Falchion Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-doppler-sapphire",
+          "displayName": "★ Falchion Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-damascus-steel",
+          "displayName": "★ Falchion Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-marble-fade",
+          "displayName": "★ Falchion Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-tiger-tooth",
+          "displayName": "★ Falchion Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-rust-coat",
+          "displayName": "★ Falchion Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-ultraviolet",
+          "displayName": "★ Falchion Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-phase-1",
+          "displayName": "★ Shadow Daggers | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-phase-2",
+          "displayName": "★ Shadow Daggers | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-phase-3",
+          "displayName": "★ Shadow Daggers | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-phase-4",
+          "displayName": "★ Shadow Daggers | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-black-pearl",
+          "displayName": "★ Shadow Daggers | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-ruby",
+          "displayName": "★ Shadow Daggers | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-doppler-sapphire",
+          "displayName": "★ Shadow Daggers | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-damascus-steel",
+          "displayName": "★ Shadow Daggers | Damascus Steel",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-marble-fade",
+          "displayName": "★ Shadow Daggers | Marble Fade",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-tiger-tooth",
+          "displayName": "★ Shadow Daggers | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-rust-coat",
+          "displayName": "★ Shadow Daggers | Rust Coat",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-ultraviolet",
+          "displayName": "★ Shadow Daggers | Ultraviolet",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-phase-1",
+          "displayName": "★ Bowie Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-phase-2",
+          "displayName": "★ Bowie Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-phase-3",
+          "displayName": "★ Bowie Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-phase-4",
+          "displayName": "★ Bowie Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-black-pearl",
+          "displayName": "★ Bowie Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-ruby",
+          "displayName": "★ Bowie Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-doppler-sapphire",
+          "displayName": "★ Bowie Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-damascus-steel",
+          "displayName": "★ Bowie Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-marble-fade",
+          "displayName": "★ Bowie Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-tiger-tooth",
+          "displayName": "★ Bowie Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-rust-coat",
+          "displayName": "★ Bowie Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-ultraviolet",
+          "displayName": "★ Bowie Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Variant Listed For Spectrum Case Rare Special Item Pool In Sources.",
+          "weights": {
+            "base": 43333333,
+            "nonStatTrak": 39000000,
+            "statTrak": 4333333
+          },
+          "probs": {
+            "base": "0.000043333333000000000000",
+            "nonStatTrak": "0.000039000000000000000000",
+            "statTrak": "0.000004333333000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 60
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Item Probabilities Within Each Tier Assume Equal Chances Per Item (Default Modelling).",
+      "StatTrak Weights Use A 10% Split Per Item With Standard Rounding; Minimum StatTrak Weight Safeguard Not Triggered Here."
+    ]
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "london-2018-dust-ii-souvenir-package",
+    "name": "London 2018 Dust II Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/FACEIT_London_2018_Souvenir_Packages",
+      "https://counterstrike.fandom.com/wiki/Skins/List",
+      "https://csgoskins.gg/items/london-2018-dust-ii-souvenir-package",
+      "https://wiki.cs.money/cases/london-2018-dust-ii-souvenir-package"
+    ],
+    "notes": [
+      "Souvenir Package Uses The Dust II Collection; Sticker Permutations Are Ignored For This Simulator.",
+      "The Dust II Collection Contains No Covert Items; Covert Odds Weight Is Set To 0 And The Remainder Is Assigned To Classified To Preserve Total Weight Of 1e12."
+    ],
+    "souvenir": {
+      "tournament": "FACEIT London 2018 CS:GO Major Championship",
+      "year": "2018",
+      "map": "Dust II",
+      "collection": "The Dust II Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/FACEIT_London_2018_Souvenir_Packages",
+        "https://counterstrike.fandom.com/wiki/Skins/List"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "covert": 0,
+      "classified": 2600000000
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-nova-predator",
+          "displayName": "Souvenir Nova | Predator",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Predator",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp9-sand-dashed",
+          "displayName": "Souvenir MP9 | Sand Dashed",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Sand Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-sand-spray",
+          "displayName": "Souvenir P90 | Sand Spray",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Sand Spray",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-scar-20-sand-mesh",
+          "displayName": "Souvenir SCAR-20 | Sand Mesh",
+          "category": "sniper-rifle",
+          "weapon": "SCAR-20",
+          "skin": "Sand Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p250-sand-dune",
+          "displayName": "Souvenir P250 | Sand Dune",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Sand Dune",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-g3sg1-desert-storm",
+          "displayName": "Souvenir G3SG1 | Desert Storm",
+          "category": "sniper-rifle",
+          "weapon": "G3SG1",
+          "skin": "Desert Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-tec-9-varicamo",
+          "displayName": "Souvenir Tec-9 | VariCamo",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "VariCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mac-10-palm",
+          "displayName": "Souvenir MAC-10 | Palm",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Palm",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-five-seven-orange-peel",
+          "displayName": "Souvenir Five-SeveN | Orange Peel",
+          "category": "pistol",
+          "weapon": "Five-SeveN",
+          "skin": "Orange Peel",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ak-47-safari-mesh",
+          "displayName": "Souvenir AK-47 | Safari Mesh",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Safari Mesh",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sawed-off-snake-camo",
+          "displayName": "Souvenir Sawed-Off | Snake Camo",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Snake Camo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-m4a1-s-varicamo",
+          "displayName": "Souvenir M4A1-S | VariCamo",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "VariCamo",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 10666666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.010666666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-pp-bizon-brass",
+          "displayName": "Souvenir PP-Bizon | Brass",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Brass",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 10666666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.010666666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sg-553-damascus-steel",
+          "displayName": "Souvenir SG 553 | Damascus Steel",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Damascus Steel",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 10666666666,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.010666666666000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-p2000-amber-fade",
+          "displayName": "Souvenir P2000 | Amber Fade",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 6400000000,
+            "nonStatTrak": 6400000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.006400000000000000",
+            "nonStatTrak": "0.006400000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "souvenir-r8-revolver-amber-fade",
+          "displayName": "Souvenir R8 Revolver | Amber Fade",
+          "category": "pistol",
+          "weapon": "R8 Revolver",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust II Collection Used By The London 2018 Dust II Souvenir Package.",
+          "weights": {
+            "base": 2600000000,
+            "nonStatTrak": 2600000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002600000000000000",
+            "nonStatTrak": "0.002600000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 6,
+      "industrial": 5,
+      "milspec": 3,
+      "restricted": 1,
+      "classified": 1,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Covert Tier Has 0 Items In The Dust II Collection; OddsWeights Were Adjusted By Setting Covert Weight To 0 And Assigning The Remainder To Classified."
+    ]
+  }
+}

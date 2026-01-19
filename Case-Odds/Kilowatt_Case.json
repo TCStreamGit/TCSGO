@@ -1,0 +1,767 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "kilowatt-case",
+    "name": "Kilowatt Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://csgoskins.gg/containers/kilowatt-case",
+      "https://counterstrike.fandom.com/wiki/Kilowatt_Case"
+    ],
+    "notes": [
+      "Tier Odds Use Default Case Odds; Item And Knife Lists Sourced From CSGOSKINS.GG; StatTrak Split Assumed 10% For Eligible Items."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "mac-10-light-box",
+          "displayName": "MAC-10 | Light Box",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Light Box",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-dezastre",
+          "displayName": "SSG 08 | Dezastre",
+          "category": "sniper-rifle",
+          "weapon": "SSG 08",
+          "skin": "Dezastre",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-hideout",
+          "displayName": "Dual Berettas | Hideout",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Hideout",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "ump-45-motorized",
+          "displayName": "UMP-45 | Motorized",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Motorized",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142856
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142856000000"
+          }
+        },
+        {
+          "itemId": "nova-dark-sigil",
+          "displayName": "Nova | Dark Sigil",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Dark Sigil",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142856
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142856000000"
+          }
+        },
+        {
+          "itemId": "xm1014-irezumi",
+          "displayName": "XM1014 | Irezumi",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Irezumi",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142856
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142856000000"
+          }
+        },
+        {
+          "itemId": "tec-9-slag",
+          "displayName": "Tec-9 | Slag",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Slag",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142856
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142856000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "glock-18-block-18",
+          "displayName": "Glock-18 | Block-18",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Block-18",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "m4a4-etch-lord",
+          "displayName": "M4A4 | Etch Lord",
+          "category": "rifle",
+          "weapon": "M4A4",
+          "skin": "Etch Lord",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-analog-input",
+          "displayName": "Sawed-Off | Analog Input",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Analog Input",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-just-smile",
+          "displayName": "MP7 | Just Smile",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Just Smile",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "five-seven-hybrid",
+          "displayName": "Five-SeveN | Hybrid",
+          "category": "pistol",
+          "weapon": "Five-SeveN",
+          "skin": "Hybrid",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "m4a1-s-black-lotus",
+          "displayName": "M4A1-S | Black Lotus",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Black Lotus",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "usp-s-jawbreaker",
+          "displayName": "USP-S | Jawbreaker",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Jawbreaker",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "zeus-x27-olympus",
+          "displayName": "Zeus x27 | Olympus",
+          "category": "pistol",
+          "weapon": "Zeus x27",
+          "skin": "Olympus",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666666000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "ak-47-inheritance",
+          "displayName": "AK-47 | Inheritance",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Inheritance",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "awp-chrome-cannon",
+          "displayName": "AWP | Chrome Cannon",
+          "category": "sniper-rifle",
+          "weapon": "AWP",
+          "skin": "Chrome Cannon",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "kilowatt-case-kukri-knife-pool",
+      "name": "Kukri Knife Finishes",
+      "category": "knife_pool",
+      "sources": [
+        "https://csgoskins.gg/containers/kilowatt-case/specials",
+        "https://swap.gg/blog/every-skin-in-the-new-cs2-killowatt-case"
+      ],
+      "items": [
+        {
+          "itemId": "kukri-knife-fade",
+          "displayName": "Kukri Knife | Fade",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-case-hardened",
+          "displayName": "Kukri Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-slaughter",
+          "displayName": "Kukri Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-crimson-web",
+          "displayName": "Kukri Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-stained",
+          "displayName": "Kukri Knife | Stained",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-urban-masked",
+          "displayName": "Kukri Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-scorched",
+          "displayName": "Kukri Knife | Scorched",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-night-stripe",
+          "displayName": "Kukri Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-boreal-forest",
+          "displayName": "Kukri Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-blue-steel",
+          "displayName": "Kukri Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-forest-ddpat",
+          "displayName": "Kukri Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-safari-mesh",
+          "displayName": "Kukri Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-vanilla",
+          "displayName": "Kukri Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Kilowatt Case On CSGOSKINS.GG With StatTrak Available.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 13
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "StatTrak Weights Are Computed As floor(itemBaseWeight * 0.10) Per Item; This May Differ Slightly From Valve Internal Roll Mechanics But Preserves Exact Base Weights Per Item."
+    ]
+  }
+}

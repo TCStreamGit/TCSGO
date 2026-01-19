@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": { "scale": 1000000000000, "name": "ppt" },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T21:38:27.198169Z",
+    "defaultOdds": {
+      "case": { "blue": 0.7992, "purple": 0.1598, "pink": 0.032, "red": 0.0064, "gold": 0.0026 },
+      "collection": { "consumer": 0.7992, "industrial": 0.1598, "milspec": 0.032, "restricted": 0.0064, "classified": 0.00128, "covert": 0.000256 }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "atlanta-2017-nuke-souvenir-package",
+    "name": "Atlanta 2017 Nuke Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Atlanta%202017%20Nuke%20Souvenir%20Package",
+      "https://totalcsgo.com/skins/souvenir-packages/atlanta-2017-nuke-souvenir-package",
+      "https://csgoskins.gg/containers/atlanta-2017-nuke-souvenir-package"
+    ],
+    "notes": [
+      "Contains Souvenir Versions Of Skins From The Nuke Collection (Stickers Not Enumerated; stickersMode=ignored).",
+      "The Nuke Collection Has No Classified Or Covert Skins; This Export Renormalizes Default Collection Odds Across Existing Tiers And Sets Missing Tiers To Weight 0."
+    ],
+    "souvenir": {
+      "tournament": "ELEAGUE Atlanta",
+      "year": "2017",
+      "map": "Nuke",
+      "collection": "The Nuke Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/ELEAGUE_Atlanta_2017_Souvenir_Packages",
+        "https://csgoskins.gg/collections/the-nuke-collection",
+        "https://totalcsgo.com/skins/souvenir-packages/atlanta-2017-nuke-souvenir-package"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 801283336675,
+      "industrial": 160216563064,
+      "milspec": 32083416884,
+      "restricted": 6416683377,
+      "classified": 0,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-mag-7-irradiated-alert",
+          "displayName": "Souvenir MAG-7 | Irradiated Alert",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Irradiated Alert",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Consumer Grade).",
+          "weights": { "base": 267094445559, "nonStatTrak": 267094445559, "statTrak": 0 },
+          "probs": { "base": "0.267094445559000000", "nonStatTrak": "0.267094445559000000", "statTrak": "0.000000000000000000" }
+        },
+        {
+          "itemId": "souvenir-pp-bizon-irradiated-alert",
+          "displayName": "Souvenir PP-Bizon | Irradiated Alert",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Irradiated Alert",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Consumer Grade).",
+          "weights": { "base": 267094445558, "nonStatTrak": 267094445558, "statTrak": 0 },
+          "probs": { "base": "0.267094445558000000", "nonStatTrak": "0.267094445558000000", "statTrak": "0.000000000000000000" }
+        },
+        {
+          "itemId": "souvenir-sawed-off-irradiated-alert",
+          "displayName": "Souvenir Sawed-Off | Irradiated Alert",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Irradiated Alert",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Consumer Grade).",
+          "weights": { "base": 267094445558, "nonStatTrak": 267094445558, "statTrak": 0 },
+          "probs": { "base": "0.267094445558000000", "nonStatTrak": "0.267094445558000000", "statTrak": "0.000000000000000000" }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-p90-fallout-warning",
+          "displayName": "Souvenir P90 | Fallout Warning",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Fallout Warning",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Industrial Grade).",
+          "weights": { "base": 53405521022, "nonStatTrak": 53405521022, "statTrak": 0 },
+          "probs": { "base": "0.053405521022000000", "nonStatTrak": "0.053405521022000000", "statTrak": "0.000000000000000000" }
+        },
+        {
+          "itemId": "souvenir-ump-45-fallout-warning",
+          "displayName": "Souvenir UMP-45 | Fallout Warning",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Fallout Warning",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Industrial Grade).",
+          "weights": { "base": 53405521021, "nonStatTrak": 53405521021, "statTrak": 0 },
+          "probs": { "base": "0.053405521021000000", "nonStatTrak": "0.053405521021000000", "statTrak": "0.000000000000000000" }
+        },
+        {
+          "itemId": "souvenir-xm1014-fallout-warning",
+          "displayName": "Souvenir XM1014 | Fallout Warning",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Fallout Warning",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Industrial Grade).",
+          "weights": { "base": 53405521021, "nonStatTrak": 53405521021, "statTrak": 0 },
+          "probs": { "base": "0.053405521021000000", "nonStatTrak": "0.053405521021000000", "statTrak": "0.000000000000000000" }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-m4a4-radiation-hazard",
+          "displayName": "Souvenir M4A4 | Radiation Hazard",
+          "category": "rifle",
+          "weapon": "M4A4",
+          "skin": "Radiation Hazard",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Mil-Spec Grade).",
+          "weights": { "base": 32083416884, "nonStatTrak": 32083416884, "statTrak": 0 },
+          "probs": { "base": "0.032083416884000000", "nonStatTrak": "0.032083416884000000", "statTrak": "0.000000000000000000" }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-p250-nuclear-threat",
+          "displayName": "Souvenir P250 | Nuclear Threat",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Nuclear Threat",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Restricted).",
+          "weights": { "base": 3208341689, "nonStatTrak": 3208341689, "statTrak": 0 },
+          "probs": { "base": "0.003208341689000000", "nonStatTrak": "0.003208341689000000", "statTrak": "0.000000000000000000" }
+        },
+        {
+          "itemId": "souvenir-tec-9-nuclear-threat",
+          "displayName": "Souvenir Tec-9 | Nuclear Threat",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Nuclear Threat",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Restricted).",
+          "weights": { "base": 3208341688, "nonStatTrak": 3208341688, "statTrak": 0 },
+          "probs": { "base": "0.003208341688000000", "nonStatTrak": "0.003208341688000000", "statTrak": "0.000000000000000000" }
+        }
+      ],
+      "classified": [],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 3,
+      "industrial": 3,
+      "milspec": 1,
+      "restricted": 2,
+      "classified": 0,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "StickersMode Is Set To Ignored; Sticker Permutations Are Not Enumerated.",
+      "The Nuke Collection Lacks Classified/Covert Items; OddsWeights Were Renormalized Across Existing Tiers As A Best-Fit Estimate."
+    ]
+  }
+}

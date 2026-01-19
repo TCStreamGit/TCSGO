@@ -1,0 +1,534 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "rio-2022-dust-ii-souvenir-package",
+    "name": "Rio 2022 Dust II Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://www.csgodatabase.com/souvenir-packages/rio-2022-dust-ii-souvenir-package/",
+      "https://steamcommunity.com/market/listings/730/Rio%202022%20Dust%20II%20Souvenir%20Package",
+      "https://counterstrike.fandom.com/wiki/IEM_Rio_2022_Souvenir_Packages"
+    ],
+    "notes": [
+      "Souvenir Package For Dust II Map Drops During IEM Rio 2022; Contains Only The 2021 Dust 2 Collection; Sticker Permutations Ignored."
+    ],
+    "souvenir": {
+      "tournament": "IEM Rio 2022 CS:GO Championship",
+      "year": "2022",
+      "map": "Dust II",
+      "collection": "The 2021 Dust 2 Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://steamcommunity.com/market/listings/730/Rio%202022%20Dust%20II%20Souvenir%20Package",
+        "https://www.csgodatabase.com/souvenir-packages/rio-2022-dust-ii-souvenir-package/",
+        "https://www.csgodatabase.com/collections/the-2021-dust-2-collection/"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 1280000000,
+      "covert": 1320000000
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-sg-553-bleached",
+          "displayName": "Souvenir SG 553 | Bleached",
+          "category": "weapon",
+          "weapon": "SG 553",
+          "skin": "Bleached",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp7-prey",
+          "displayName": "Souvenir MP7 | Prey",
+          "category": "weapon",
+          "weapon": "MP7",
+          "skin": "Prey",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-desert-ddpat",
+          "displayName": "Souvenir P90 | Desert DDPAT",
+          "category": "weapon",
+          "weapon": "P90",
+          "skin": "Desert DDPAT",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sawed-off-parched",
+          "displayName": "Souvenir Sawed-Off | Parched",
+          "category": "weapon",
+          "weapon": "Sawed-Off",
+          "skin": "Parched",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-r8-revolver-desert-brush",
+          "displayName": "Souvenir R8 Revolver | Desert Brush",
+          "category": "weapon",
+          "weapon": "R8 Revolver",
+          "skin": "Desert Brush",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-m249-midnight-palm",
+          "displayName": "Souvenir M249 | Midnight Palm",
+          "category": "weapon",
+          "weapon": "M249",
+          "skin": "Midnight Palm",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp9-old-roots",
+          "displayName": "Souvenir MP9 | Old Roots",
+          "category": "weapon",
+          "weapon": "MP9",
+          "skin": "Old Roots",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-aug-spalted-wood",
+          "displayName": "Souvenir AUG | Spalted Wood",
+          "category": "weapon",
+          "weapon": "AUG",
+          "skin": "Spalted Wood",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-five-seven-withered-vine",
+          "displayName": "Souvenir Five-SeveN | Withered Vine",
+          "category": "weapon",
+          "weapon": "Five-SeveN",
+          "skin": "Withered Vine",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-galil-ar-amber-fade",
+          "displayName": "Souvenir Galil AR | Amber Fade",
+          "category": "weapon",
+          "weapon": "Galil AR",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-g3sg1-new-roots",
+          "displayName": "Souvenir G3SG1 | New Roots",
+          "category": "weapon",
+          "weapon": "G3SG1",
+          "skin": "New Roots",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p250-black-tan",
+          "displayName": "Souvenir P250 | Black & Tan",
+          "category": "weapon",
+          "weapon": "P250",
+          "skin": "Black & Tan",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-nova-quick-sand",
+          "displayName": "Souvenir Nova | Quick Sand",
+          "category": "weapon",
+          "weapon": "Nova",
+          "skin": "Quick Sand",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-mac-10-case-hardened",
+          "displayName": "Souvenir MAC-10 | Case Hardened",
+          "category": "weapon",
+          "weapon": "MAC-10",
+          "skin": "Case Hardened",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 2133333334,
+            "nonStatTrak": 2133333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333334000000",
+            "nonStatTrak": "0.002133333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-usp-s-orange-anolis",
+          "displayName": "Souvenir USP-S | Orange Anolis",
+          "category": "weapon",
+          "weapon": "USP-S",
+          "skin": "Orange Anolis",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-m4a4-red-ddpat",
+          "displayName": "Souvenir M4A4 | Red DDPAT",
+          "category": "weapon",
+          "weapon": "M4A4",
+          "skin": "Red DDPAT",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "souvenir-ump-45-fade",
+          "displayName": "Souvenir UMP-45 | Fade",
+          "category": "weapon",
+          "weapon": "UMP-45",
+          "skin": "Fade",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 640000000,
+            "nonStatTrak": 640000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000640000000000000",
+            "nonStatTrak": "0.000640000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ssg-08-death-strike",
+          "displayName": "Souvenir SSG 08 | Death Strike",
+          "category": "weapon",
+          "weapon": "SSG 08",
+          "skin": "Death Strike",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 640000000,
+            "nonStatTrak": 640000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000640000000000000",
+            "nonStatTrak": "0.000640000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": [
+        {
+          "itemId": "souvenir-ak-47-gold-arabesque",
+          "displayName": "Souvenir AK-47 | Gold Arabesque",
+          "category": "weapon",
+          "weapon": "AK-47",
+          "skin": "Gold Arabesque",
+          "variant": "Souvenir",
+          "rarity": "covert",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The 2021 Dust 2 Collection Used By The Rio 2022 Dust II Souvenir Package (Sources: CSGO Database Collection And Package Pages).",
+          "weights": {
+            "base": 1320000000,
+            "nonStatTrak": 1320000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001320000000000000",
+            "nonStatTrak": "0.001320000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 4,
+      "restricted": 3,
+      "classified": 2,
+      "covert": 1
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "StickersMode Set To Ignored; Sticker Permutations Not Enumerated.",
+      "Default Collection Odds Used; Remainder Added To Covert Tier To Match Unit.Scale Exactly."
+    ]
+  }
+}

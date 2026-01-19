@@ -1,0 +1,1664 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T03:43:39Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "horizon-case",
+    "name": "Horizon Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://totalcsgo.com/skins/cases/horizon-case",
+      "https://counterstrike.fandom.com/wiki/Horizon_Case"
+    ],
+    "notes": [
+      "Tier Weights Use The Project Default Odds; Item Weights Are Evenly Distributed Within Each Tier. Gold Pool Expanded To All 52 Knife Outcomes (4 Knife Types × 13 Finishes)."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "aug-amber-slipstream",
+          "displayName": "AUG | Amber Slipstream",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Amber Slipstream",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Horizon Case Contents.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-shred",
+          "displayName": "Dual Berettas | Shred",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Shred",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Horizon Case Contents.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "glock-18-warhawk",
+          "displayName": "Glock-18 | Warhawk",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Warhawk",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Horizon Case Contents.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mp9-capillary",
+          "displayName": "MP9 | Capillary",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Capillary",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Horizon Case Contents.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "p90-traction",
+          "displayName": "P90 | Traction",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Traction",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Horizon Case Contents.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "r8-revolver-survivalist",
+          "displayName": "R8 Revolver | Survivalist",
+          "category": "pistol",
+          "weapon": "R8 Revolver",
+          "skin": "Survivalist",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Horizon Case Contents.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "tec-9-snek-9",
+          "displayName": "Tec-9 | Snek-9",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Snek-9",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Horizon Case Contents.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "cz75-auto-eco",
+          "displayName": "CZ75-Auto | Eco",
+          "category": "pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Eco",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Restricted In Horizon Case Contents.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-high-seas",
+          "displayName": "G3SG1 | High Seas",
+          "category": "sniper_rifle",
+          "weapon": "G3SG1",
+          "skin": "High Seas",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Restricted In Horizon Case Contents.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "nova-toy-soldier",
+          "displayName": "Nova | Toy Soldier",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Toy Soldier",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Restricted In Horizon Case Contents.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "awp-paw",
+          "displayName": "AWP | PAW",
+          "category": "sniper_rifle",
+          "weapon": "AWP",
+          "skin": "PAW",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Restricted In Horizon Case Contents.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-powercore",
+          "displayName": "MP7 | Powercore",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Powercore",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Restricted In Horizon Case Contents.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "m4a1-s-nightmare",
+          "displayName": "M4A1-S | Nightmare",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Nightmare",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Classified In Horizon Case Contents.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-devourer",
+          "displayName": "Sawed-Off | Devourer",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Devourer",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Classified In Horizon Case Contents.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "famas-eye-of-athena",
+          "displayName": "FAMAS | Eye Of Athena",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Eye of Athena",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Classified In Horizon Case Contents.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666666000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "ak-47-neon-rider",
+          "displayName": "AK-47 | Neon Rider",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Neon Rider",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Covert In Horizon Case Contents.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "desert-eagle-code-red",
+          "displayName": "Desert Eagle | Code Red",
+          "category": "pistol",
+          "weapon": "Desert Eagle",
+          "skin": "Code Red",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Covert In Horizon Case Contents.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "horizon-case-knife-pool",
+      "name": "Horizon Case Rare Special Items",
+      "category": "knife_pool",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/Horizon_Case",
+        "https://csgoskins.gg/containers/horizon-case/specials"
+      ],
+      "items": [
+        {
+          "itemId": "talon-knife",
+          "displayName": "★ Talon Knife",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-blue-steel",
+          "displayName": "★ Talon Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-boreal-forest",
+          "displayName": "★ Talon Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-case-hardened",
+          "displayName": "★ Talon Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-crimson-web",
+          "displayName": "★ Talon Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-fade",
+          "displayName": "★ Talon Knife | Fade",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-forest-ddpat",
+          "displayName": "★ Talon Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-night-stripe",
+          "displayName": "★ Talon Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-safari-mesh",
+          "displayName": "★ Talon Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-scorched",
+          "displayName": "★ Talon Knife | Scorched",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-slaughter",
+          "displayName": "★ Talon Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-stained",
+          "displayName": "★ Talon Knife | Stained",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-urban-masked",
+          "displayName": "★ Talon Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife",
+          "displayName": "★ Navaja Knife",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-blue-steel",
+          "displayName": "★ Navaja Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-boreal-forest",
+          "displayName": "★ Navaja Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-case-hardened",
+          "displayName": "★ Navaja Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-crimson-web",
+          "displayName": "★ Navaja Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-fade",
+          "displayName": "★ Navaja Knife | Fade",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-forest-ddpat",
+          "displayName": "★ Navaja Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-night-stripe",
+          "displayName": "★ Navaja Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-safari-mesh",
+          "displayName": "★ Navaja Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-scorched",
+          "displayName": "★ Navaja Knife | Scorched",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-slaughter",
+          "displayName": "★ Navaja Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-stained",
+          "displayName": "★ Navaja Knife | Stained",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-urban-masked",
+          "displayName": "★ Navaja Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife",
+          "displayName": "★ Stiletto Knife",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-blue-steel",
+          "displayName": "★ Stiletto Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-boreal-forest",
+          "displayName": "★ Stiletto Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-case-hardened",
+          "displayName": "★ Stiletto Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-crimson-web",
+          "displayName": "★ Stiletto Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-fade",
+          "displayName": "★ Stiletto Knife | Fade",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-forest-ddpat",
+          "displayName": "★ Stiletto Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-night-stripe",
+          "displayName": "★ Stiletto Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-safari-mesh",
+          "displayName": "★ Stiletto Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-scorched",
+          "displayName": "★ Stiletto Knife | Scorched",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-slaughter",
+          "displayName": "★ Stiletto Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-stained",
+          "displayName": "★ Stiletto Knife | Stained",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-urban-masked",
+          "displayName": "★ Stiletto Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife",
+          "displayName": "★ Ursus Knife",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-blue-steel",
+          "displayName": "★ Ursus Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-boreal-forest",
+          "displayName": "★ Ursus Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-case-hardened",
+          "displayName": "★ Ursus Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-crimson-web",
+          "displayName": "★ Ursus Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-fade",
+          "displayName": "★ Ursus Knife | Fade",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-forest-ddpat",
+          "displayName": "★ Ursus Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-night-stripe",
+          "displayName": "★ Ursus Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-safari-mesh",
+          "displayName": "★ Ursus Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-scorched",
+          "displayName": "★ Ursus Knife | Scorched",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-slaughter",
+          "displayName": "★ Ursus Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-stained",
+          "displayName": "★ Ursus Knife | Stained",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-urban-masked",
+          "displayName": "★ Ursus Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed Under Horizon Case Knives / Rare Special Items.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 52
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "None"
+    ]
+  }
+}

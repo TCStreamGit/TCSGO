@@ -1,0 +1,444 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "london-2018-overpass-souvenir-package",
+    "name": "London 2018 Overpass Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://wiki.cs.money/cases/london-2018-overpass-souvenir-package",
+      "https://counterstrike.fandom.com/wiki/FACEIT_London_2018_Souvenir_Packages",
+      "https://totalcsgo.com/skins/souvenir-packages/london-2018-overpass-souvenir-package",
+      "https://stash.clash.gg/collection/The-Overpass-Collection"
+    ],
+    "notes": [
+      "Souvenir Package For Overpass From FACEIT London 2018; Contains Souvenir Skins From The Overpass Collection.",
+      "Stickers Are Not Enumerated (souvenir.stickersMode=ignored).",
+      "The Overpass Collection Has No Covert Skin; The Covert Probability Mass Is Reallocated To Classified To Keep Total Weight At 1e12."
+    ],
+    "souvenir": {
+      "tournament": "FACEIT London 2018",
+      "year": "2018",
+      "map": "Overpass",
+      "collection": "The Overpass Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/FACEIT_London_2018_Souvenir_Packages",
+        "https://wiki.cs.money/cases/london-2018-overpass-souvenir-package"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 2600000000,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-mp9-storm",
+          "displayName": "Souvenir MP9 | Storm",
+          "category": "weapon_skin",
+          "weapon": "MP9",
+          "skin": "Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mag-7-storm",
+          "displayName": "Souvenir MAG-7 | Storm",
+          "category": "weapon_skin",
+          "weapon": "MAG-7",
+          "skin": "Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sawed-off-sage-spray",
+          "displayName": "Souvenir Sawed-Off | Sage Spray",
+          "category": "weapon_skin",
+          "weapon": "Sawed-Off",
+          "skin": "Sage Spray",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ump-45-scorched",
+          "displayName": "Souvenir UMP-45 | Scorched",
+          "category": "weapon_skin",
+          "weapon": "UMP-45",
+          "skin": "Scorched",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-m249-contrast-spray",
+          "displayName": "Souvenir M249 | Contrast Spray",
+          "category": "weapon_skin",
+          "weapon": "M249",
+          "skin": "Contrast Spray",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-glock-18-night",
+          "displayName": "Souvenir Glock-18 | Night",
+          "category": "weapon_skin",
+          "weapon": "Glock-18",
+          "skin": "Night",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-desert-eagle-urban-ddpat",
+          "displayName": "Souvenir Desert Eagle | Urban DDPAT",
+          "category": "weapon_skin",
+          "weapon": "Desert Eagle",
+          "skin": "Urban DDPAT",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p2000-grassland",
+          "displayName": "Souvenir P2000 | Grassland",
+          "category": "weapon_skin",
+          "weapon": "P2000",
+          "skin": "Grassland",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp7-gunsmoke",
+          "displayName": "Souvenir MP7 | Gunsmoke",
+          "category": "weapon_skin",
+          "weapon": "MP7",
+          "skin": "Gunsmoke",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-ssg-08-detour",
+          "displayName": "Souvenir SSG 08 | Detour",
+          "category": "weapon_skin",
+          "weapon": "SSG 08",
+          "skin": "Detour",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 10666666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.010666666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-cz75-auto-nitro",
+          "displayName": "Souvenir CZ75-Auto | Nitro",
+          "category": "weapon_skin",
+          "weapon": "CZ75-Auto",
+          "skin": "Nitro",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 10666666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.010666666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-xm1014-vari-camo-blue",
+          "displayName": "Souvenir XM1014 | VariCamo Blue",
+          "category": "weapon_skin",
+          "weapon": "XM1014",
+          "skin": "VariCamo Blue",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 10666666666,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.010666666666000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-awp-pink-ddpat",
+          "displayName": "Souvenir AWP | Pink DDPAT",
+          "category": "weapon_skin",
+          "weapon": "AWP",
+          "skin": "Pink DDPAT",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 3200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.003200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-usp-s-road-rash",
+          "displayName": "Souvenir USP-S | Road Rash",
+          "category": "weapon_skin",
+          "weapon": "USP-S",
+          "skin": "Road Rash",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 3200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.003200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "souvenir-m4a1-s-master-piece",
+          "displayName": "Souvenir M4A1-S | Master Piece",
+          "category": "weapon_skin",
+          "weapon": "M4A1-S",
+          "skin": "Master Piece",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Part Of The Overpass Collection And As A Possible Drop From The London 2018 Overpass Souvenir Package In Multiple Public Item Databases.",
+          "weights": {
+            "base": 2600000000,
+            "nonStatTrak": 2600000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002600000000000000",
+            "nonStatTrak": "0.002600000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 3,
+      "restricted": 2,
+      "classified": 1,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Covert Tier Not Present In The Overpass Collection; Covert Odds Weight Reallocated To Classified Tier.",
+      "Souvenir Sticker Permutations Ignored (souvenir.stickersMode=ignored).",
+      "Tier Odds Use Project Default Estimates; Valve Does Not Publish Exact Souvenir Drop Odds."
+    ]
+  }
+}

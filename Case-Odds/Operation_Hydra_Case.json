@@ -1,0 +1,1021 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "operation-hydra-case",
+    "name": "Operation Hydra Case",
+    "caseType": "operation_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://totalcsgo.com/skins/cases/operation-hydra-case",
+      "https://totalcsgo.com/skins/cases/operation-hydra-case/gloves",
+      "https://steamcommunity.com/market/listings/730/Operation%20Hydra%20Case"
+    ],
+    "notes": [
+      "Tier Odds Use The Project Defaults; Items Within Each Rarity Tier Are Assumed Equal Probability; StatTrak Split Assumed 10% For Eligible Weapon Drops; Gloves Are Rare Special Items With No StatTrak."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "usp-s-blueprint",
+          "displayName": "USP-S | Blueprint",
+          "category": "weapon",
+          "weapon": "USP-S",
+          "skin": "Blueprint",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "famas-macabre",
+          "displayName": "FAMAS | Macabre",
+          "category": "weapon",
+          "weapon": "FAMAS",
+          "skin": "Macabre",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "m4a1-s-briefing",
+          "displayName": "M4A1-S | Briefing",
+          "category": "weapon",
+          "weapon": "M4A1-S",
+          "skin": "Briefing",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mac-10-aloha",
+          "displayName": "MAC-10 | Aloha",
+          "category": "weapon",
+          "weapon": "MAC-10",
+          "skin": "Aloha",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mag-7-hard-water",
+          "displayName": "MAG-7 | Hard Water",
+          "category": "weapon",
+          "weapon": "MAG-7",
+          "skin": "Hard Water",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "tec-9-cut-out",
+          "displayName": "Tec-9 | Cut Out",
+          "category": "weapon",
+          "weapon": "Tec-9",
+          "skin": "Cut Out",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "ump-45-metal-flowers",
+          "displayName": "UMP-45 | Metal Flowers",
+          "category": "weapon",
+          "weapon": "UMP-45",
+          "skin": "Metal Flowers",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "ak-47-orbit-mk01",
+          "displayName": "AK-47 | Orbit Mk01",
+          "category": "weapon",
+          "weapon": "AK-47",
+          "skin": "Orbit Mk01",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "p2000-woodsman",
+          "displayName": "P2000 | Woodsman",
+          "category": "weapon",
+          "weapon": "P2000",
+          "skin": "Woodsman",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "p250-red-rock",
+          "displayName": "P250 | Red Rock",
+          "category": "weapon",
+          "weapon": "P250",
+          "skin": "Red Rock",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "p90-death-grip",
+          "displayName": "P90 | Death Grip",
+          "category": "weapon",
+          "weapon": "P90",
+          "skin": "Death Grip",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-deaths-head",
+          "displayName": "SSG 08 | Death's Head",
+          "category": "weapon",
+          "weapon": "SSG 08",
+          "skin": "Death's Head",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "dual-berettas-cobra-strike",
+          "displayName": "Dual Berettas | Cobra Strike",
+          "category": "weapon",
+          "weapon": "Dual Berettas",
+          "skin": "Cobra Strike",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "galil-ar-sugar-rush",
+          "displayName": "Galil AR | Sugar Rush",
+          "category": "weapon",
+          "weapon": "Galil AR",
+          "skin": "Sugar Rush",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "m4a4-hellfire",
+          "displayName": "M4A4 | Hellfire",
+          "category": "weapon",
+          "weapon": "M4A4",
+          "skin": "Hellfire",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "five-seven-hyper-beast",
+          "displayName": "Five-SeveN | Hyper Beast",
+          "category": "weapon",
+          "weapon": "Five-SeveN",
+          "skin": "Hyper Beast",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "awp-oni-taiji",
+          "displayName": "AWP | Oni Taiji",
+          "category": "weapon",
+          "weapon": "AWP",
+          "skin": "Oni Taiji",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Operation Hydra Case Drop On TotalCS (Weapon Skins Page).",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "operation-hydra-case-glove-pool",
+      "name": "Operation Hydra Case Gloves",
+      "category": "glove_pool",
+      "sources": [
+        "https://totalcsgo.com/skins/cases/operation-hydra-case/gloves",
+        "https://csgoskins.gg/containers/operation-hydra-case/specials"
+      ],
+      "items": [
+        {
+          "itemId": "moto-gloves-spearmint",
+          "displayName": "Moto Gloves | Spearmint",
+          "category": "gloves",
+          "weapon": "Moto Gloves",
+          "skin": "Spearmint",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-crimson-kimono",
+          "displayName": "Specialist Gloves | Crimson Kimono",
+          "category": "gloves",
+          "weapon": "Specialist Gloves",
+          "skin": "Crimson Kimono",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-hedge-maze",
+          "displayName": "Sport Gloves | Hedge Maze",
+          "category": "gloves",
+          "weapon": "Sport Gloves",
+          "skin": "Hedge Maze",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-cool-mint",
+          "displayName": "Moto Gloves | Cool Mint",
+          "category": "gloves",
+          "weapon": "Moto Gloves",
+          "skin": "Cool Mint",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-lunar-weave",
+          "displayName": "Driver Gloves | Lunar Weave",
+          "category": "gloves",
+          "weapon": "Driver Gloves",
+          "skin": "Lunar Weave",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-emerald-web",
+          "displayName": "Specialist Gloves | Emerald Web",
+          "category": "gloves",
+          "weapon": "Specialist Gloves",
+          "skin": "Emerald Web",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-superconductor",
+          "displayName": "Sport Gloves | Superconductor",
+          "category": "gloves",
+          "weapon": "Sport Gloves",
+          "skin": "Superconductor",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-arid",
+          "displayName": "Sport Gloves | Arid",
+          "category": "gloves",
+          "weapon": "Sport Gloves",
+          "skin": "Arid",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-pandoras-box",
+          "displayName": "Sport Gloves | Pandora's Box",
+          "category": "gloves",
+          "weapon": "Sport Gloves",
+          "skin": "Pandora's Box",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-leather",
+          "displayName": "Hand Wraps | Leather",
+          "category": "gloves",
+          "weapon": "Hand Wraps",
+          "skin": "Leather",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-eclipse",
+          "displayName": "Moto Gloves | Eclipse",
+          "category": "gloves",
+          "weapon": "Moto Gloves",
+          "skin": "Eclipse",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-boom",
+          "displayName": "Moto Gloves | Boom!",
+          "category": "gloves",
+          "weapon": "Moto Gloves",
+          "skin": "Boom!",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-crimson-weave",
+          "displayName": "Driver Gloves | Crimson Weave",
+          "category": "gloves",
+          "weapon": "Driver Gloves",
+          "skin": "Crimson Weave",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-foundation",
+          "displayName": "Specialist Gloves | Foundation",
+          "category": "gloves",
+          "weapon": "Specialist Gloves",
+          "skin": "Foundation",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-badlands",
+          "displayName": "Hand Wraps | Badlands",
+          "category": "gloves",
+          "weapon": "Hand Wraps",
+          "skin": "Badlands",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-slaughter",
+          "displayName": "Hand Wraps | Slaughter",
+          "category": "gloves",
+          "weapon": "Hand Wraps",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-convoy",
+          "displayName": "Driver Gloves | Convoy",
+          "category": "gloves",
+          "weapon": "Driver Gloves",
+          "skin": "Convoy",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-diamondback",
+          "displayName": "Driver Gloves | Diamondback",
+          "category": "gloves",
+          "weapon": "Driver Gloves",
+          "skin": "Diamondback",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-forest-ddpat",
+          "displayName": "Specialist Gloves | Forest DDPAT",
+          "category": "gloves",
+          "weapon": "Specialist Gloves",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "bloodhound-gloves-charred",
+          "displayName": "Bloodhound Gloves | Charred",
+          "category": "gloves",
+          "weapon": "Bloodhound Gloves",
+          "skin": "Charred",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "bloodhound-gloves-bronzed",
+          "displayName": "Bloodhound Gloves | Bronzed",
+          "category": "gloves",
+          "weapon": "Bloodhound Gloves",
+          "skin": "Bronzed",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "bloodhound-gloves-snakebite",
+          "displayName": "Bloodhound Gloves | Snakebite",
+          "category": "gloves",
+          "weapon": "Bloodhound Gloves",
+          "skin": "Snakebite",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "bloodhound-gloves-guerrilla",
+          "displayName": "Bloodhound Gloves | Guerrilla",
+          "category": "gloves",
+          "weapon": "Bloodhound Gloves",
+          "skin": "Guerrilla",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-spruce-ddpat",
+          "displayName": "Hand Wraps | Spruce DDPAT",
+          "category": "gloves",
+          "weapon": "Hand Wraps",
+          "skin": "Spruce DDPAT",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item (Gloves) For Operation Hydra Case On TotalCS (Gloves Page).",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 24
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Default Tier Odds And Equal-Per-Item Distribution Were Applied; StatTrak Split Uses 10% Of Each Eligible Item Weight (Rounded Half-Up)."
+    ]
+  }
+}

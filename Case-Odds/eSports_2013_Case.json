@@ -1,0 +1,1785 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00.000Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "esports-2013-case",
+    "name": "eSports 2013 Case",
+    "caseType": "esports_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://csgoskins.gg/containers/esports-2013-case",
+      "https://csgoskins.gg/containers/esports-2013-case/specials",
+      "https://stash.clash.gg/case/2/eSports-2013-Case",
+      "https://counterstrike.fandom.com/wiki/ESports_2013_Case"
+    ],
+    "notes": [
+      "Regular Items: 9 Skins (3 Mil-Spec, 3 Restricted, 2 Classified, 1 Covert).",
+      "Rare Special Items: Original Knife Pool (5 Knife Types x 13 Finishes = 65 Outcomes).",
+      "Tier Odds Use Default Probabilities; Within-Tier Item Odds Are Equal; StatTrak Split Uses 10% With Integer Rounding."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "m4a4-faded-zebra",
+          "displayName": "M4A4 | Faded Zebra",
+          "category": "weapon-skin",
+          "weapon": "M4A4",
+          "skin": "Faded Zebra",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Contents.",
+          "weights": {
+            "base": 266400000000,
+            "nonStatTrak": 239760000000,
+            "statTrak": 26640000000
+          },
+          "probs": {
+            "base": "0.266400000000000000",
+            "nonStatTrak": "0.239760000000000000",
+            "statTrak": "0.026640000000000000"
+          }
+        },
+        {
+          "itemId": "mag-7-memento",
+          "displayName": "MAG-7 | Memento",
+          "category": "weapon-skin",
+          "weapon": "MAG-7",
+          "skin": "Memento",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Contents.",
+          "weights": {
+            "base": 266400000000,
+            "nonStatTrak": 239760000000,
+            "statTrak": 26640000000
+          },
+          "probs": {
+            "base": "0.266400000000000000",
+            "nonStatTrak": "0.239760000000000000",
+            "statTrak": "0.026640000000000000"
+          }
+        },
+        {
+          "itemId": "famas-doomkitty",
+          "displayName": "FAMAS | Doomkitty",
+          "category": "weapon-skin",
+          "weapon": "FAMAS",
+          "skin": "Doomkitty",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Contents.",
+          "weights": {
+            "base": 266400000000,
+            "nonStatTrak": 239760000000,
+            "statTrak": 26640000000
+          },
+          "probs": {
+            "base": "0.266400000000000000",
+            "nonStatTrak": "0.239760000000000000",
+            "statTrak": "0.026640000000000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "galil-ar-orange-ddpat",
+          "displayName": "Galil AR | Orange DDPAT",
+          "category": "weapon-skin",
+          "weapon": "Galil AR",
+          "skin": "Orange DDPAT",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Contents.",
+          "weights": {
+            "base": 53266666667,
+            "nonStatTrak": 47940000000,
+            "statTrak": 5326666667
+          },
+          "probs": {
+            "base": "0.053266666667000000",
+            "nonStatTrak": "0.047940000000000000",
+            "statTrak": "0.005326666667000000"
+          }
+        },
+        {
+          "itemId": "p250-splash",
+          "displayName": "P250 | Splash",
+          "category": "weapon-skin",
+          "weapon": "P250",
+          "skin": "Splash",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Contents.",
+          "weights": {
+            "base": 53266666667,
+            "nonStatTrak": 47940000000,
+            "statTrak": 5326666667
+          },
+          "probs": {
+            "base": "0.053266666667000000",
+            "nonStatTrak": "0.047940000000000000",
+            "statTrak": "0.005326666667000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-orange-ddpat",
+          "displayName": "Sawed-Off | Orange DDPAT",
+          "category": "weapon-skin",
+          "weapon": "Sawed-Off",
+          "skin": "Orange DDPAT",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Contents.",
+          "weights": {
+            "base": 53266666666,
+            "nonStatTrak": 47939999999,
+            "statTrak": 5326666667
+          },
+          "probs": {
+            "base": "0.053266666666000000",
+            "nonStatTrak": "0.047939999999000000",
+            "statTrak": "0.005326666667000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "awp-boom",
+          "displayName": "AWP | BOOM",
+          "category": "weapon-skin",
+          "weapon": "AWP",
+          "skin": "BOOM",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Contents.",
+          "weights": {
+            "base": 16000000000,
+            "nonStatTrak": 14400000000,
+            "statTrak": 1600000000
+          },
+          "probs": {
+            "base": "0.016000000000000000",
+            "nonStatTrak": "0.014400000000000000",
+            "statTrak": "0.001600000000000000"
+          }
+        },
+        {
+          "itemId": "ak-47-red-laminate",
+          "displayName": "AK-47 | Red Laminate",
+          "category": "weapon-skin",
+          "weapon": "AK-47",
+          "skin": "Red Laminate",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Contents.",
+          "weights": {
+            "base": 16000000000,
+            "nonStatTrak": 14400000000,
+            "statTrak": 1600000000
+          },
+          "probs": {
+            "base": "0.016000000000000000",
+            "nonStatTrak": "0.014400000000000000",
+            "statTrak": "0.001600000000000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "p90-death-by-kitty",
+          "displayName": "P90 | Death by Kitty",
+          "category": "weapon-skin",
+          "weapon": "P90",
+          "skin": "Death by Kitty",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Contents.",
+          "weights": {
+            "base": 6400000000,
+            "nonStatTrak": 5760000000,
+            "statTrak": 640000000
+          },
+          "probs": {
+            "base": "0.006400000000000000",
+            "nonStatTrak": "0.005760000000000000",
+            "statTrak": "0.000640000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "esports-2013-case-knife-pool",
+      "name": "eSports 2013 Case Rare Special Items",
+      "category": "knife_pool",
+      "sources": [
+        "https://csgoskins.gg/containers/esports-2013-case/specials",
+        "https://stash.clash.gg/case/2/eSports-2013-Case?Knives=1",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2075918027"
+      ],
+      "items": [
+        {
+          "itemId": "bayonet-vanilla",
+          "displayName": "★ Bayonet | Vanilla",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-fade",
+          "displayName": "★ Bayonet | Fade",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-slaughter",
+          "displayName": "★ Bayonet | Slaughter",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-case-hardened",
+          "displayName": "★ Bayonet | Case Hardened",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-crimson-web",
+          "displayName": "★ Bayonet | Crimson Web",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-blue-steel",
+          "displayName": "★ Bayonet | Blue Steel",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-stained",
+          "displayName": "★ Bayonet | Stained",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-night",
+          "displayName": "★ Bayonet | Night",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Night",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-urban-masked",
+          "displayName": "★ Bayonet | Urban Masked",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-scorched",
+          "displayName": "★ Bayonet | Scorched",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-safari-mesh",
+          "displayName": "★ Bayonet | Safari Mesh",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-boreal-forest",
+          "displayName": "★ Bayonet | Boreal Forest",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "bayonet-forest-ddpat",
+          "displayName": "★ Bayonet | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Bayonet",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-vanilla",
+          "displayName": "★ Flip Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-fade",
+          "displayName": "★ Flip Knife | Fade",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-slaughter",
+          "displayName": "★ Flip Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-case-hardened",
+          "displayName": "★ Flip Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-crimson-web",
+          "displayName": "★ Flip Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-blue-steel",
+          "displayName": "★ Flip Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-stained",
+          "displayName": "★ Flip Knife | Stained",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-night",
+          "displayName": "★ Flip Knife | Night",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Night",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-urban-masked",
+          "displayName": "★ Flip Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-scorched",
+          "displayName": "★ Flip Knife | Scorched",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-safari-mesh",
+          "displayName": "★ Flip Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-boreal-forest",
+          "displayName": "★ Flip Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "flip-knife-forest-ddpat",
+          "displayName": "★ Flip Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Flip Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-vanilla",
+          "displayName": "★ Gut Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-fade",
+          "displayName": "★ Gut Knife | Fade",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-slaughter",
+          "displayName": "★ Gut Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-case-hardened",
+          "displayName": "★ Gut Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-crimson-web",
+          "displayName": "★ Gut Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-blue-steel",
+          "displayName": "★ Gut Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-stained",
+          "displayName": "★ Gut Knife | Stained",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-night",
+          "displayName": "★ Gut Knife | Night",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Night",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-urban-masked",
+          "displayName": "★ Gut Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-scorched",
+          "displayName": "★ Gut Knife | Scorched",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-safari-mesh",
+          "displayName": "★ Gut Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-boreal-forest",
+          "displayName": "★ Gut Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "gut-knife-forest-ddpat",
+          "displayName": "★ Gut Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Gut Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-vanilla",
+          "displayName": "★ Karambit | Vanilla",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-fade",
+          "displayName": "★ Karambit | Fade",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-slaughter",
+          "displayName": "★ Karambit | Slaughter",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-case-hardened",
+          "displayName": "★ Karambit | Case Hardened",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-crimson-web",
+          "displayName": "★ Karambit | Crimson Web",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-blue-steel",
+          "displayName": "★ Karambit | Blue Steel",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-stained",
+          "displayName": "★ Karambit | Stained",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-night",
+          "displayName": "★ Karambit | Night",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Night",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-urban-masked",
+          "displayName": "★ Karambit | Urban Masked",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-scorched",
+          "displayName": "★ Karambit | Scorched",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-safari-mesh",
+          "displayName": "★ Karambit | Safari Mesh",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-boreal-forest",
+          "displayName": "★ Karambit | Boreal Forest",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "karambit-forest-ddpat",
+          "displayName": "★ Karambit | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Karambit",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-vanilla",
+          "displayName": "★ M9 Bayonet | Vanilla",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-fade",
+          "displayName": "★ M9 Bayonet | Fade",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-slaughter",
+          "displayName": "★ M9 Bayonet | Slaughter",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-case-hardened",
+          "displayName": "★ M9 Bayonet | Case Hardened",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-crimson-web",
+          "displayName": "★ M9 Bayonet | Crimson Web",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-blue-steel",
+          "displayName": "★ M9 Bayonet | Blue Steel",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-stained",
+          "displayName": "★ M9 Bayonet | Stained",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-night",
+          "displayName": "★ M9 Bayonet | Night",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Night",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-urban-masked",
+          "displayName": "★ M9 Bayonet | Urban Masked",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-scorched",
+          "displayName": "★ M9 Bayonet | Scorched",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-safari-mesh",
+          "displayName": "★ M9 Bayonet | Safari Mesh",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-boreal-forest",
+          "displayName": "★ M9 Bayonet | Boreal Forest",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        },
+        {
+          "itemId": "m9-bayonet-forest-ddpat",
+          "displayName": "★ M9 Bayonet | Forest DDPAT",
+          "category": "knife",
+          "weapon": "M9 Bayonet",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In eSports 2013 Case Specials.",
+          "weights": {
+            "base": 40000000,
+            "nonStatTrak": 36000000,
+            "statTrak": 4000000
+          },
+          "probs": {
+            "base": "0.000040000000000000",
+            "nonStatTrak": "0.000036000000000000",
+            "statTrak": "0.000004000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 3,
+      "purple": 3,
+      "pink": 2,
+      "red": 1,
+      "gold": 65
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Default Tier Odds Applied (No Case-Specific Odds Override Used).",
+      "StatTrak Weight Split Uses 10% Rate With ROUND_HALF_UP To Integers; This May Differ Slightly From Valve Internal RNG Implementation."
+    ]
+  }
+}

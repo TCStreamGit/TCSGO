@@ -1,0 +1,1574 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T03:11:10Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "prisma-2-case",
+    "name": "Prisma 2 Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/Prisma_2_Case",
+      "https://csgoskins.gg/containers/prisma-2-case",
+      "https://steamcommunity.com/market/listings/730/Prisma%202%20Case"
+    ],
+    "notes": [
+      "Tier Contents And Rarities Pulled From CSGOSKINS.GG Prisma 2 Case Listing; Knife Set Confirmed By Counter-Strike Wiki.",
+      "Tier Odds Use Project Default Weights; Within-Tier And Within-Gold Assumed Evenly Distributed Per Project Rules."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "awp-capillary",
+          "displayName": "AWP | Capillary",
+          "category": "sniper-rifle",
+          "weapon": "AWP",
+          "skin": "Capillary",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "desert-eagle-blue-ply",
+          "displayName": "Desert Eagle | Blue Ply",
+          "category": "pistol",
+          "weapon": "Desert Eagle",
+          "skin": "Blue Ply",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "aug-tom-cat",
+          "displayName": "AUG | Tom Cat",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Tom Cat",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "r8-revolver-bone-forged",
+          "displayName": "R8 Revolver | Bone Forged",
+          "category": "pistol",
+          "weapon": "R8 Revolver",
+          "skin": "Bone Forged",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "negev-prototype",
+          "displayName": "Negev | Prototype",
+          "category": "machinegun",
+          "weapon": "Negev",
+          "skin": "Prototype",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "cz75-auto-distressed",
+          "displayName": "CZ75-Auto | Distressed",
+          "category": "pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Distressed",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mp5-sd-desert-strike",
+          "displayName": "MP5-SD | Desert Strike",
+          "category": "smg",
+          "weapon": "MP5-SD",
+          "skin": "Desert Strike",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "ssg-08-fever-dream",
+          "displayName": "SSG 08 | Fever Dream",
+          "category": "sniper-rifle",
+          "weapon": "SSG 08",
+          "skin": "Fever Dream",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "sg-553-darkwing",
+          "displayName": "SG 553 | Darkwing",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Darkwing",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "p2000-acid-etched",
+          "displayName": "P2000 | Acid Etched",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Acid Etched",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-apocalypto",
+          "displayName": "Sawed-Off | Apocalypto",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Apocalypto",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "scar-20-enforcer",
+          "displayName": "SCAR-20 | Enforcer",
+          "category": "sniper-rifle",
+          "weapon": "SCAR-20",
+          "skin": "Enforcer",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "ak-47-phantom-disruptor",
+          "displayName": "AK-47 | Phantom Disruptor",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Phantom Disruptor",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "mac-10-disco-tech",
+          "displayName": "MAC-10 | Disco Tech",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Disco Tech",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "mag-7-justice",
+          "displayName": "MAG-7 | Justice",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Justice",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666666000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "glock-18-bullet-queen",
+          "displayName": "Glock-18 | Bullet Queen",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Bullet Queen",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "m4a1-s-player-two",
+          "displayName": "M4A1-S | Player Two",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Player Two",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Rarity And Name Listed On CSGOSKINS.GG Prisma 2 Case Page",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "prisma-2-rare-special-items",
+      "name": "Prisma 2 Case Rare Special Items",
+      "category": "knife_pool",
+      "sources": [
+        "https://csgoskins.gg/containers/prisma-2-case/specials",
+        "https://counterstrike.fandom.com/wiki/Prisma_2_Case"
+      ],
+      "items": [
+        {
+          "itemId": "talon-knife-doppler-phase-1",
+          "displayName": "★ Talon Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-doppler-phase-2",
+          "displayName": "★ Talon Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-doppler-phase-3",
+          "displayName": "★ Talon Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-doppler-phase-4",
+          "displayName": "★ Talon Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-doppler-ruby",
+          "displayName": "★ Talon Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-doppler-sapphire",
+          "displayName": "★ Talon Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-doppler-black-pearl",
+          "displayName": "★ Talon Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-marble-fade-none",
+          "displayName": "★ Talon Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-tiger-tooth-none",
+          "displayName": "★ Talon Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-damascus-steel-none",
+          "displayName": "★ Talon Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-rust-coat-none",
+          "displayName": "★ Talon Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "talon-knife-ultraviolet-none",
+          "displayName": "★ Talon Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Talon Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-doppler-phase-1",
+          "displayName": "★ Ursus Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-doppler-phase-2",
+          "displayName": "★ Ursus Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-doppler-phase-3",
+          "displayName": "★ Ursus Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-doppler-phase-4",
+          "displayName": "★ Ursus Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-doppler-ruby",
+          "displayName": "★ Ursus Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-doppler-sapphire",
+          "displayName": "★ Ursus Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-doppler-black-pearl",
+          "displayName": "★ Ursus Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-marble-fade-none",
+          "displayName": "★ Ursus Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-tiger-tooth-none",
+          "displayName": "★ Ursus Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166667,
+            "nonStatTrak": 48750001,
+            "statTrak": 5416666
+          },
+          "probs": {
+            "base": "0.000054166667000000",
+            "nonStatTrak": "0.000048750001000000",
+            "statTrak": "0.000005416666000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-damascus-steel-none",
+          "displayName": "★ Ursus Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-rust-coat-none",
+          "displayName": "★ Ursus Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "ursus-knife-ultraviolet-none",
+          "displayName": "★ Ursus Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Ursus Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-doppler-phase-1",
+          "displayName": "★ Stiletto Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-doppler-phase-2",
+          "displayName": "★ Stiletto Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-doppler-phase-3",
+          "displayName": "★ Stiletto Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-doppler-phase-4",
+          "displayName": "★ Stiletto Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-doppler-ruby",
+          "displayName": "★ Stiletto Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-doppler-sapphire",
+          "displayName": "★ Stiletto Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-doppler-black-pearl",
+          "displayName": "★ Stiletto Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-marble-fade-none",
+          "displayName": "★ Stiletto Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-tiger-tooth-none",
+          "displayName": "★ Stiletto Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-damascus-steel-none",
+          "displayName": "★ Stiletto Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-rust-coat-none",
+          "displayName": "★ Stiletto Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "stiletto-knife-ultraviolet-none",
+          "displayName": "★ Stiletto Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Stiletto Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-doppler-phase-1",
+          "displayName": "★ Navaja Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-doppler-phase-2",
+          "displayName": "★ Navaja Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-doppler-phase-3",
+          "displayName": "★ Navaja Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-doppler-phase-4",
+          "displayName": "★ Navaja Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-doppler-ruby",
+          "displayName": "★ Navaja Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-doppler-sapphire",
+          "displayName": "★ Navaja Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-doppler-black-pearl",
+          "displayName": "★ Navaja Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-marble-fade-none",
+          "displayName": "★ Navaja Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-tiger-tooth-none",
+          "displayName": "★ Navaja Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-damascus-steel-none",
+          "displayName": "★ Navaja Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-rust-coat-none",
+          "displayName": "★ Navaja Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        },
+        {
+          "itemId": "navaja-knife-ultraviolet-none",
+          "displayName": "★ Navaja Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Navaja Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Type And Finish Variants Listed On CSGOSKINS.GG Prisma 2 Case Knives Page; Case Knife Types Listed On CS Wiki",
+          "weights": {
+            "base": 54166666,
+            "nonStatTrak": 48749999,
+            "statTrak": 5416667
+          },
+          "probs": {
+            "base": "0.000054166666000000",
+            "nonStatTrak": "0.000048749999000000",
+            "statTrak": "0.000005416667000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 48
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Gold Pool Enumerates Doppler Phases And Gem Variants As Distinct Outcomes; Some Market Listings Group Doppler Together Without Phase Labels."
+    ]
+  }
+}

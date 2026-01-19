@@ -1,0 +1,1665 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T12:00:00-07:00",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "fever-case",
+    "name": "Fever Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://csgodatabase.com/cases/fever-case",
+      "https://csgoskins.gg/containers/fever-case"
+    ],
+    "notes": [
+      "Regular Item List Sourced From CSGODATABASE/CSGOSKINS.GG; Rare Special Items Sourced From CSGOSKINS.GG Specials List.",
+      "Tier Odds Use Project Default Probabilities; Within-Tier Item Odds Assume Equal Weighting."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "xm1014-mockingbird-none",
+          "displayName": "XM1014 | Mockingbird",
+          "category": "weapon",
+          "weapon": "XM1014",
+          "skin": "Mockingbird",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "usp-s-pc-grn-none",
+          "displayName": "USP-S | PC-GRN",
+          "category": "weapon",
+          "weapon": "USP-S",
+          "skin": "PC-GRN",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-memorial-none",
+          "displayName": "SSG 08 | Memorial",
+          "category": "weapon",
+          "weapon": "SSG 08",
+          "skin": "Memorial",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "p2000-sure-grip-none",
+          "displayName": "P2000 | Sure Grip",
+          "category": "weapon",
+          "weapon": "P2000",
+          "skin": "Sure Grip",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mp9-nexus-none",
+          "displayName": "MP9 | Nexus",
+          "category": "weapon",
+          "weapon": "MP9",
+          "skin": "Nexus",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mag-7-resupply-none",
+          "displayName": "MAG-7 | Resupply",
+          "category": "weapon",
+          "weapon": "MAG-7",
+          "skin": "Resupply",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "m4a4-choppa-none",
+          "displayName": "M4A4 | Choppa",
+          "category": "weapon",
+          "weapon": "M4A4",
+          "skin": "Choppa",
+          "variant": "None",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "zeus-x27-tosai-none",
+          "displayName": "Zeus x27 | Tosai",
+          "category": "weapon",
+          "weapon": "Zeus x27",
+          "skin": "Tosai",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "p90-wave-breaker-none",
+          "displayName": "P90 | Wave Breaker",
+          "category": "weapon",
+          "weapon": "P90",
+          "skin": "Wave Breaker",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "nova-rising-sun-none",
+          "displayName": "Nova | Rising Sun",
+          "category": "weapon",
+          "weapon": "Nova",
+          "skin": "Rising Sun",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "galil-ar-control-none",
+          "displayName": "Galil AR | Control",
+          "category": "weapon",
+          "weapon": "Galil AR",
+          "skin": "Control",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "desert-eagle-serpent-strike-none",
+          "displayName": "Desert Eagle | Serpent Strike",
+          "category": "weapon",
+          "weapon": "Desert Eagle",
+          "skin": "Serpent Strike",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "ump-45-k-o-factory-none",
+          "displayName": "UMP-45 | K.O. Factory",
+          "category": "weapon",
+          "weapon": "UMP-45",
+          "skin": "K.O. Factory",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "glock-18-shinobu-none",
+          "displayName": "Glock-18 | Shinobu",
+          "category": "weapon",
+          "weapon": "Glock-18",
+          "skin": "Shinobu",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "ak-47-searing-rage-none",
+          "displayName": "AK-47 | Searing Rage",
+          "category": "weapon",
+          "weapon": "AK-47",
+          "skin": "Searing Rage",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "awp-printstream-none",
+          "displayName": "AWP | Printstream",
+          "category": "weapon",
+          "weapon": "AWP",
+          "skin": "Printstream",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "famas-bad-trip-none",
+          "displayName": "FAMAS | Bad Trip",
+          "category": "weapon",
+          "weapon": "FAMAS",
+          "skin": "Bad Trip",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In Fever Case Contents By CSGODATABASE And CSGOSKINS.GG.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "fever-case-knife-pool",
+      "name": "Fever Case Rare Special Items",
+      "category": "knife_pool",
+      "sources": [
+        "https://csgoskins.gg/containers/fever-case/specials",
+        "https://csgoskins.gg/containers/fever-case/specials?page=2"
+      ],
+      "items": [
+        {
+          "itemId": "nomad-knife-damascus-steel-none",
+          "displayName": "★ Nomad Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-marble-fade-none",
+          "displayName": "★ Nomad Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-tiger-tooth-none",
+          "displayName": "★ Nomad Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-ultraviolet-none",
+          "displayName": "★ Nomad Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-rust-coat-none",
+          "displayName": "★ Nomad Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-doppler-none",
+          "displayName": "★ Nomad Knife | Doppler",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Doppler",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-doppler-phase-1",
+          "displayName": "★ Nomad Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-doppler-phase-2",
+          "displayName": "★ Nomad Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-doppler-phase-3",
+          "displayName": "★ Nomad Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-doppler-phase-4",
+          "displayName": "★ Nomad Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-doppler-ruby",
+          "displayName": "★ Nomad Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-doppler-sapphire",
+          "displayName": "★ Nomad Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-doppler-black-pearl",
+          "displayName": "★ Nomad Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-damascus-steel-none",
+          "displayName": "★ Paracord Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-marble-fade-none",
+          "displayName": "★ Paracord Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-tiger-tooth-none",
+          "displayName": "★ Paracord Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-ultraviolet-none",
+          "displayName": "★ Paracord Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-rust-coat-none",
+          "displayName": "★ Paracord Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-doppler-none",
+          "displayName": "★ Paracord Knife | Doppler",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Doppler",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-doppler-phase-1",
+          "displayName": "★ Paracord Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-doppler-phase-2",
+          "displayName": "★ Paracord Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-doppler-phase-3",
+          "displayName": "★ Paracord Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-doppler-phase-4",
+          "displayName": "★ Paracord Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-doppler-ruby",
+          "displayName": "★ Paracord Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-doppler-sapphire",
+          "displayName": "★ Paracord Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-doppler-black-pearl",
+          "displayName": "★ Paracord Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-damascus-steel-none",
+          "displayName": "★ Skeleton Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-marble-fade-none",
+          "displayName": "★ Skeleton Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-tiger-tooth-none",
+          "displayName": "★ Skeleton Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-ultraviolet-none",
+          "displayName": "★ Skeleton Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-rust-coat-none",
+          "displayName": "★ Skeleton Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-doppler-none",
+          "displayName": "★ Skeleton Knife | Doppler",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Doppler",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-doppler-phase-1",
+          "displayName": "★ Skeleton Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-doppler-phase-2",
+          "displayName": "★ Skeleton Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-doppler-phase-3",
+          "displayName": "★ Skeleton Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-doppler-phase-4",
+          "displayName": "★ Skeleton Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-doppler-ruby",
+          "displayName": "★ Skeleton Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-doppler-sapphire",
+          "displayName": "★ Skeleton Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-doppler-black-pearl",
+          "displayName": "★ Skeleton Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-damascus-steel-none",
+          "displayName": "★ Survival Knife | Damascus Steel",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Damascus Steel",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-marble-fade-none",
+          "displayName": "★ Survival Knife | Marble Fade",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-tiger-tooth-none",
+          "displayName": "★ Survival Knife | Tiger Tooth",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Tiger Tooth",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-ultraviolet-none",
+          "displayName": "★ Survival Knife | Ultraviolet",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Ultraviolet",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-rust-coat-none",
+          "displayName": "★ Survival Knife | Rust Coat",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Rust Coat",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-doppler-none",
+          "displayName": "★ Survival Knife | Doppler",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Doppler",
+          "variant": "None",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-doppler-phase-1",
+          "displayName": "★ Survival Knife | Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Doppler",
+          "variant": "Phase 1",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-doppler-phase-2",
+          "displayName": "★ Survival Knife | Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Doppler",
+          "variant": "Phase 2",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-doppler-phase-3",
+          "displayName": "★ Survival Knife | Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Doppler",
+          "variant": "Phase 3",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-doppler-phase-4",
+          "displayName": "★ Survival Knife | Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Doppler",
+          "variant": "Phase 4",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-doppler-ruby",
+          "displayName": "★ Survival Knife | Doppler (Ruby)",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Doppler",
+          "variant": "Ruby",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-doppler-sapphire",
+          "displayName": "★ Survival Knife | Doppler (Sapphire)",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Doppler",
+          "variant": "Sapphire",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-doppler-black-pearl",
+          "displayName": "★ Survival Knife | Doppler (Black Pearl)",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Doppler",
+          "variant": "Black Pearl",
+          "rarity": "Covert Knife",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Fever Case Rare Special Item On CSGOSKINS.GG (Includes Doppler Phases And Gem Variants).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 52
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Doppler Is Expanded Into Pattern Variants (Phase 1-4, Ruby, Sapphire, Black Pearl) As Separate Outcomes For Simulator Purposes."
+    ]
+  }
+}

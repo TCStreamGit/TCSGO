@@ -1,0 +1,440 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00-07:00",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "boston-2018-mirage-souvenir-package",
+    "name": "Boston 2018 Mirage Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Boston%202018%20Mirage%20Souvenir%20Package",
+      "https://totalcsgo.com/skins/souvenir-packages/boston-2018-mirage-souvenir-package",
+      "https://counterstrike.fandom.com/wiki/ELEAGUE_Boston_2018_Souvenir_Packages"
+    ],
+    "notes": [
+      "Contains Souvenir Versions Of Skins From The Mirage Collection.",
+      "Sticker Permutations Are Not Enumerated; souvenirs.stickersMode Is Set To Ignored."
+    ],
+    "souvenir": {
+      "tournament": "ELEAGUE Boston 2018",
+      "year": "2018",
+      "map": "Mirage",
+      "collection": "The Mirage Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/ELEAGUE_Boston_2018_Souvenir_Packages",
+        "https://totalcsgo.com/skins/souvenir-packages/boston-2018-mirage-souvenir-package"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 9000000000,
+      "classified": 0,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "p250-bone-mask-souvenir",
+          "displayName": "Souvenir P250 | Bone Mask",
+          "category": "weapon_skin",
+          "weapon": "P250",
+          "skin": "Bone Mask",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "five-seven-contractor-souvenir",
+          "displayName": "Souvenir Five-SeveN | Contractor",
+          "category": "weapon_skin",
+          "weapon": "Five-SeveN",
+          "skin": "Contractor",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "aug-colony-souvenir",
+          "displayName": "Souvenir AUG | Colony",
+          "category": "weapon_skin",
+          "weapon": "AUG",
+          "skin": "Colony",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-safari-mesh-souvenir",
+          "displayName": "Souvenir G3SG1 | Safari Mesh",
+          "category": "weapon_skin",
+          "weapon": "G3SG1",
+          "skin": "Safari Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p90-scorched-souvenir",
+          "displayName": "Souvenir P90 | Scorched",
+          "category": "weapon_skin",
+          "weapon": "P90",
+          "skin": "Scorched",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "galil-ar-hunting-blind-souvenir",
+          "displayName": "Souvenir Galil AR | Hunting Blind",
+          "category": "weapon_skin",
+          "weapon": "Galil AR",
+          "skin": "Hunting Blind",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "glock-18-groundwater-souvenir",
+          "displayName": "Souvenir Glock-18 | Groundwater",
+          "category": "weapon_skin",
+          "weapon": "Glock-18",
+          "skin": "Groundwater",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-orange-peel-souvenir",
+          "displayName": "Souvenir MP7 | Orange Peel",
+          "category": "weapon_skin",
+          "weapon": "MP7",
+          "skin": "Orange Peel",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-tropical-storm-souvenir",
+          "displayName": "Souvenir SSG 08 | Tropical Storm",
+          "category": "weapon_skin",
+          "weapon": "SSG 08",
+          "skin": "Tropical Storm",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "negev-calicamo-souvenir",
+          "displayName": "Souvenir Negev | CaliCamo",
+          "category": "weapon_skin",
+          "weapon": "Negev",
+          "skin": "CaliCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sg-553-gator-mesh-souvenir",
+          "displayName": "Souvenir SG 553 | Gator Mesh",
+          "category": "weapon_skin",
+          "weapon": "SG 553",
+          "skin": "Gator Mesh",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "mp9-hot-rod-souvenir",
+          "displayName": "Souvenir MP9 | Hot Rod",
+          "category": "weapon_skin",
+          "weapon": "MP9",
+          "skin": "Hot Rod",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 10666666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.010666666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-blaze-souvenir",
+          "displayName": "Souvenir UMP-45 | Blaze",
+          "category": "weapon_skin",
+          "weapon": "UMP-45",
+          "skin": "Blaze",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 10666666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.010666666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-amber-fade-souvenir",
+          "displayName": "Souvenir MAC-10 | Amber Fade",
+          "category": "weapon_skin",
+          "weapon": "MAC-10",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 10666666666,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.010666666666000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "mag-7-bulldozer-souvenir",
+          "displayName": "Souvenir MAG-7 | Bulldozer",
+          "category": "weapon_skin",
+          "weapon": "MAG-7",
+          "skin": "Bulldozer",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Public Skin/Package Listings.",
+          "weights": {
+            "base": 9000000000,
+            "nonStatTrak": 9000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.009000000000000000",
+            "nonStatTrak": "0.009000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 6,
+      "industrial": 5,
+      "milspec": 3,
+      "restricted": 1,
+      "classified": 0,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Legacy Mirage Collection Contains No Classified Or Covert Skins; Those Tiers Are Included With Weight 0, And The Remainder Mass Was Added To Restricted So Total Weight Equals 1e12.",
+      "Souvenir Stickers Are Ignored (Not Enumerated)."
+    ]
+  }
+}

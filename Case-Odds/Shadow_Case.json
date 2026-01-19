@@ -1,0 +1,746 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "shadow-case",
+    "name": "Shadow Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://wiki.cs.money/cases/shadow-case",
+      "https://counterstrike.fandom.com/wiki/Shadow_Case",
+      "https://steamcommunity.com/market/listings/730/Shadow%20Case"
+    ],
+    "notes": [
+      "Tier Odds Use Project Default Odds; Item Weights Distributed Equally Within Each Rarity Tier.",
+      "StatTrak Split Estimated At 10% Of Each Item Weight For Eligible Items."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "glock-18-wraiths-none",
+          "displayName": "Glock-18 | Wraiths",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Wraiths",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Mil-Spec Items (The Shadow Collection).",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-dualing-dragons-none",
+          "displayName": "Dual Berettas | Dualing Dragons",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Dualing Dragons",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Mil-Spec Items (The Shadow Collection).",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "xm1014-scumbria-none",
+          "displayName": "XM1014 | Scumbria",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Scumbria",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Mil-Spec Items (The Shadow Collection).",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "famas-survivor-z-none",
+          "displayName": "FAMAS | Survivor Z",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Survivor Z",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Mil-Spec Items (The Shadow Collection).",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "scar-20-green-marine-none",
+          "displayName": "SCAR-20 | Green Marine",
+          "category": "sniper-rifle",
+          "weapon": "SCAR-20",
+          "skin": "Green Marine",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Mil-Spec Items (The Shadow Collection).",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mag-7-cobalt-core-none",
+          "displayName": "MAG-7 | Cobalt Core",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Cobalt Core",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Mil-Spec Items (The Shadow Collection).",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mac-10-rangeen-none",
+          "displayName": "MAC-10 | Rangeen",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Rangeen",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Mil-Spec Items (The Shadow Collection).",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "galil-ar-stone-cold-none",
+          "displayName": "Galil AR | Stone Cold",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "Stone Cold",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Restricted Items (The Shadow Collection).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        },
+        {
+          "itemId": "p250-wingshot-none",
+          "displayName": "P250 | Wingshot",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Wingshot",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Restricted Items (The Shadow Collection).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        },
+        {
+          "itemId": "m249-nebula-crusader-none",
+          "displayName": "M249 | Nebula Crusader",
+          "category": "machinegun",
+          "weapon": "M249",
+          "skin": "Nebula Crusader",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Restricted Items (The Shadow Collection).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-special-delivery-none",
+          "displayName": "MP7 | Special Delivery",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Special Delivery",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Restricted Items (The Shadow Collection).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "ak-47-frontside-misty-none",
+          "displayName": "AK-47 | Frontside Misty",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Frontside Misty",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Classified Items (The Shadow Collection).",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-big-iron-none",
+          "displayName": "SSG 08 | Big Iron",
+          "category": "sniper-rifle",
+          "weapon": "SSG 08",
+          "skin": "Big Iron",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Classified Items (The Shadow Collection).",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-flux-none",
+          "displayName": "G3SG1 | Flux",
+          "category": "sniper-rifle",
+          "weapon": "G3SG1",
+          "skin": "Flux",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Classified Items (The Shadow Collection).",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666666000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "m4a1-s-golden-coil-none",
+          "displayName": "M4A1-S | Golden Coil",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Golden Coil",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Covert Items (The Shadow Collection).",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "usp-s-kill-confirmed-none",
+          "displayName": "USP-S | Kill Confirmed",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Kill Confirmed",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Page Under Covert Items (The Shadow Collection).",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "shadow-case-shadow-daggers-pool",
+      "name": "Shadow Daggers Rare Special Item Pool",
+      "category": "knife_pool",
+      "sources": [
+        "https://wiki.cs.money/cases/shadow-case/knives",
+        "https://wiki.cs.money/cases/shadow-case"
+      ],
+      "items": [
+        {
+          "itemId": "shadow-daggers-none-case-hardened",
+          "displayName": "★ Shadow Daggers | Case Hardened",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Case Hardened",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-none-fade",
+          "displayName": "★ Shadow Daggers | Fade",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Fade",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-none-stained",
+          "displayName": "★ Shadow Daggers | Stained",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Stained",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-none-slaughter",
+          "displayName": "★ Shadow Daggers | Slaughter",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Slaughter",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-none-blue-steel",
+          "displayName": "★ Shadow Daggers | Blue Steel",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Blue Steel",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-none-crimson-web",
+          "displayName": "★ Shadow Daggers | Crimson Web",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Crimson Web",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-none-vanilla",
+          "displayName": "★ Shadow Daggers | Vanilla",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Vanilla",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-none-urban-masked",
+          "displayName": "★ Shadow Daggers | Urban Masked",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Urban Masked",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-none-scorched",
+          "displayName": "★ Shadow Daggers | Scorched",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Scorched",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-none-night",
+          "displayName": "★ Shadow Daggers | Night",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Night",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-none-safari-mesh",
+          "displayName": "★ Shadow Daggers | Safari Mesh",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Safari Mesh",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-none-boreal-forest",
+          "displayName": "★ Shadow Daggers | Boreal Forest",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Boreal Forest",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-none-forest-ddpat",
+          "displayName": "★ Shadow Daggers | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "None",
+          "variant": "Forest DDPAT",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In CS.MONEY Shadow Case Knives Page As A Rare Special Item Variant.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 4,
+      "pink": 3,
+      "red": 2,
+      "gold": 13
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "None"
+    ]
+  }
+}

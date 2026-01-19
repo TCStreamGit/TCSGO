@@ -1,0 +1,444 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "esl-one-katowice-2015-cobblestone-souvenir-package",
+    "name": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/ESL%20One%20Katowice%202015%20Cobblestone%20Souvenir%20Package",
+      "https://stash.clash.gg/collection/The-Cobblestone-Collection",
+      "https://counterstrike.fandom.com/wiki/ESL_One_Katowice_2015_Souvenir_Packages",
+      "https://wiki.cs.money/cases/esl-one-katowice-2015-cobblestone-souvenir-package"
+    ],
+    "notes": [
+      "Souvenir Package Uses The Cobblestone Collection; Sticker Permutations Are Not Enumerated (stickersMode=ignored).",
+      "Collection Default Odds Do Not Sum To 1.0; Final Tier Adjusted By Remainder Per Export Rules."
+    ],
+    "souvenir": {
+      "tournament": "ESL One Katowice",
+      "year": "2015",
+      "map": "Cobblestone",
+      "collection": "The Cobblestone Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://steamcommunity.com/market/listings/730/ESL%20One%20Katowice%202015%20Cobblestone%20Souvenir%20Package",
+        "https://counterstrike.fandom.com/wiki/ESL_One_Katowice_2015_Souvenir_Packages",
+        "https://stash.clash.gg/collection/The-Cobblestone-Collection"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 1280000000,
+      "covert": 1320000000
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "mac-10-indigo-souvenir",
+          "displayName": "Souvenir MAC-10 | Indigo",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Indigo",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Consumer-Grade Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p90-storm-souvenir",
+          "displayName": "Souvenir P90 | Storm",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Consumer-Grade Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-indigo-souvenir",
+          "displayName": "Souvenir UMP-45 | Indigo",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Indigo",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Consumer-Grade Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "scar-20-storm-souvenir",
+          "displayName": "Souvenir SCAR-20 | Storm",
+          "category": "sniper_rifle",
+          "weapon": "SCAR-20",
+          "skin": "Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Consumer-Grade Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-briar-souvenir",
+          "displayName": "Souvenir Dual Berettas | Briar",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Briar",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Consumer-Grade Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "usp-s-royal-blue-souvenir",
+          "displayName": "Souvenir USP-S | Royal Blue",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Royal Blue",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Industrial-Grade Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mag-7-silver-souvenir",
+          "displayName": "Souvenir MAG-7 | Silver",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Silver",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Industrial-Grade Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-rust-coat-souvenir",
+          "displayName": "Souvenir Sawed-Off | Rust Coat",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Rust Coat",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Industrial-Grade Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "nova-green-apple-souvenir",
+          "displayName": "Souvenir Nova | Green Apple",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Green Apple",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As An Industrial-Grade Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "mp9-dark-age-souvenir",
+          "displayName": "Souvenir MP9 | Dark Age",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Dark Age",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Mil-Spec Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 16000000000,
+            "nonStatTrak": 16000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016000000000000000",
+            "nonStatTrak": "0.016000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p2000-chainmail-souvenir",
+          "displayName": "Souvenir P2000 | Chainmail",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Chainmail",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Mil-Spec Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 16000000000,
+            "nonStatTrak": 16000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016000000000000000",
+            "nonStatTrak": "0.016000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "desert-eagle-hand-cannon-souvenir",
+          "displayName": "Souvenir Desert Eagle | Hand Cannon",
+          "category": "pistol",
+          "weapon": "Desert Eagle",
+          "skin": "Hand Cannon",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Restricted Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 3200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.003200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "cz75-auto-chalice-souvenir",
+          "displayName": "Souvenir CZ75-Auto | Chalice",
+          "category": "pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Chalice",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Restricted Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 3200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.003200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "m4a1-s-knight-souvenir",
+          "displayName": "Souvenir M4A1-S | Knight",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Knight",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Classified Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 1280000000,
+            "nonStatTrak": 1280000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001280000000000000",
+            "nonStatTrak": "0.001280000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": [
+        {
+          "itemId": "awp-dragon-lore-souvenir",
+          "displayName": "Souvenir AWP | Dragon Lore",
+          "category": "sniper_rifle",
+          "weapon": "AWP",
+          "skin": "Dragon Lore",
+          "variant": "Souvenir",
+          "rarity": "covert",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Covert Souvenir-Available Skin In The Cobblestone Collection Sources.",
+          "weights": {
+            "base": 1320000000,
+            "nonStatTrak": 1320000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001320000000000000",
+            "nonStatTrak": "0.001320000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 2,
+      "restricted": 2,
+      "classified": 1,
+      "covert": 1
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Collection Default Odds Sum To 0.998936; Covert Tier Weight Increased By The 1064000000 Remainder To Preserve Total Weight Integrity.",
+      "Souvenir Sticker Permutations Are Intentionally Ignored (stickersMode=ignored) Per Export Rules."
+    ]
+  }
+}

@@ -1,0 +1,1020 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00-07:00",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "operation-broken-fang-case",
+    "name": "Operation Broken Fang Case",
+    "caseType": "operation_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://www.counter-strike.net/brokenfang",
+      "https://totalcsgo.com/skins/cases/operation-broken-fang-case"
+    ],
+    "notes": [
+      "Default Tier Odds Used; Within-Tier Weights Evenly Distributed With Deterministic Remainder; Gold Pool Treated As 24 Equal-Weight Glove Outcomes; StatTrak Split Uses 10% Half-Up Rounding."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "cz75-auto-vendetta",
+          "displayName": "CZ75-Auto | Vendetta",
+          "category": "weapon",
+          "weapon": "CZ75-Auto",
+          "skin": "Vendetta",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "galil-ar-vandal",
+          "displayName": "Galil AR | Vandal",
+          "category": "weapon",
+          "weapon": "Galil AR",
+          "skin": "Vandal",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mp5-sd-condition-zero",
+          "displayName": "MP5-SD | Condition Zero",
+          "category": "weapon",
+          "weapon": "MP5-SD",
+          "skin": "Condition Zero",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "p250-contaminant",
+          "displayName": "P250 | Contaminant",
+          "category": "weapon",
+          "weapon": "P250",
+          "skin": "Contaminant",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "m249-deep-relief",
+          "displayName": "M249 | Deep Relief",
+          "category": "weapon",
+          "weapon": "M249",
+          "skin": "Deep Relief",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-digital-mesh",
+          "displayName": "G3SG1 | Digital Mesh",
+          "category": "weapon",
+          "weapon": "G3SG1",
+          "skin": "Digital Mesh",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "p90-cocoa-rampage",
+          "displayName": "P90 | Cocoa Rampage",
+          "category": "weapon",
+          "weapon": "P90",
+          "skin": "Cocoa Rampage",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Mil-Spec Grade In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "awp-exoskeleton",
+          "displayName": "AWP | Exoskeleton",
+          "category": "weapon",
+          "weapon": "AWP",
+          "skin": "Exoskeleton",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Restricted In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-dezastre",
+          "displayName": "Dual Berettas | Dezastre",
+          "category": "weapon",
+          "weapon": "Dual Berettas",
+          "skin": "Dezastre",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Restricted In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "nova-clear-polymer",
+          "displayName": "Nova | Clear Polymer",
+          "category": "weapon",
+          "weapon": "Nova",
+          "skin": "Clear Polymer",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Restricted In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-parallax",
+          "displayName": "SSG 08 | Parallax",
+          "category": "weapon",
+          "weapon": "SSG 08",
+          "skin": "Parallax",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Restricted In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-gold-bismuth",
+          "displayName": "UMP-45 | Gold Bismuth",
+          "category": "weapon",
+          "weapon": "UMP-45",
+          "skin": "Gold Bismuth",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Restricted In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "m4a4-cyber-security",
+          "displayName": "M4A4 | Cyber Security",
+          "category": "weapon",
+          "weapon": "M4A4",
+          "skin": "Cyber Security",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Classified In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "usp-s-monster-mashup",
+          "displayName": "USP-S | Monster Mashup",
+          "category": "weapon",
+          "weapon": "USP-S",
+          "skin": "Monster Mashup",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Classified In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "five-seven-fairy-tale",
+          "displayName": "Five-SeveN | Fairy Tale",
+          "category": "weapon",
+          "weapon": "Five-SeveN",
+          "skin": "Fairy Tale",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Classified In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "m4a1-s-printstream",
+          "displayName": "M4A1-S | Printstream",
+          "category": "weapon",
+          "weapon": "M4A1-S",
+          "skin": "Printstream",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Covert In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "glock-18-neo-noir",
+          "displayName": "Glock-18 | Neo-Noir",
+          "category": "weapon",
+          "weapon": "Glock-18",
+          "skin": "Neo-Noir",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Covert In Operation Broken Fang Case Contents.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "operation-broken-fang-gloves",
+      "name": "Rare Special Items (Operation Broken Fang Gloves)",
+      "category": "glove_pool",
+      "sources": [
+        "https://wiki.cs.money/cases/operation-broken-fang-case/gloves",
+        "https://totalcsgo.com/skins/cases/operation-broken-fang-case"
+      ],
+      "items": [
+        {
+          "itemId": "sport-gloves-slingshot",
+          "displayName": "★ Sport Gloves | Slingshot",
+          "category": "glove",
+          "weapon": "Sport Gloves",
+          "skin": "Slingshot",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-nocts",
+          "displayName": "★ Sport Gloves | Nocts",
+          "category": "glove",
+          "weapon": "Sport Gloves",
+          "skin": "Nocts",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-snow-leopard",
+          "displayName": "★ Driver Gloves | Snow Leopard",
+          "category": "glove",
+          "weapon": "Driver Gloves",
+          "skin": "Snow Leopard",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-marble-fade",
+          "displayName": "★ Specialist Gloves | Marble Fade",
+          "category": "glove",
+          "weapon": "Specialist Gloves",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-black-tie",
+          "displayName": "★ Driver Gloves | Black Tie",
+          "category": "glove",
+          "weapon": "Driver Gloves",
+          "skin": "Black Tie",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-tiger-strike",
+          "displayName": "★ Specialist Gloves | Tiger Strike",
+          "category": "glove",
+          "weapon": "Specialist Gloves",
+          "skin": "Tiger Strike",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-scarlet-shamagh",
+          "displayName": "★ Sport Gloves | Scarlet Shamagh",
+          "category": "glove",
+          "weapon": "Sport Gloves",
+          "skin": "Scarlet Shamagh",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-field-agent",
+          "displayName": "★ Specialist Gloves | Field Agent",
+          "category": "glove",
+          "weapon": "Specialist Gloves",
+          "skin": "Field Agent",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-lt-commander",
+          "displayName": "★ Specialist Gloves | Lt. Commander",
+          "category": "glove",
+          "weapon": "Specialist Gloves",
+          "skin": "Lt. Commander",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-caution",
+          "displayName": "★ Hand Wraps | CAUTION!",
+          "category": "glove",
+          "weapon": "Hand Wraps",
+          "skin": "CAUTION!",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-big-game",
+          "displayName": "★ Sport Gloves | Big Game",
+          "category": "glove",
+          "weapon": "Sport Gloves",
+          "skin": "Big Game",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-smoke-out",
+          "displayName": "★ Moto Gloves | Smoke Out",
+          "category": "glove",
+          "weapon": "Moto Gloves",
+          "skin": "Smoke Out",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-blood-pressure",
+          "displayName": "★ Moto Gloves | Blood Pressure",
+          "category": "glove",
+          "weapon": "Moto Gloves",
+          "skin": "Blood Pressure",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "broken-fang-gloves-jade",
+          "displayName": "★ Broken Fang Gloves | Jade",
+          "category": "glove",
+          "weapon": "Broken Fang Gloves",
+          "skin": "Jade",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-rezan-the-red",
+          "displayName": "★ Driver Gloves | Rezan the Red",
+          "category": "glove",
+          "weapon": "Driver Gloves",
+          "skin": "Rezan the Red",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-finish-line",
+          "displayName": "★ Moto Gloves | Finish Line",
+          "category": "glove",
+          "weapon": "Moto Gloves",
+          "skin": "Finish Line",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-queen-jaguar",
+          "displayName": "★ Driver Gloves | Queen Jaguar",
+          "category": "glove",
+          "weapon": "Driver Gloves",
+          "skin": "Queen Jaguar",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "broken-fang-gloves-yellow-banded",
+          "displayName": "★ Broken Fang Gloves | Yellow-banded",
+          "category": "glove",
+          "weapon": "Broken Fang Gloves",
+          "skin": "Yellow-banded",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-3rd-commando-company",
+          "displayName": "★ Moto Gloves | 3rd Commando Company",
+          "category": "glove",
+          "weapon": "Moto Gloves",
+          "skin": "3rd Commando Company",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-giraffe",
+          "displayName": "★ Hand Wraps | Giraffe",
+          "category": "glove",
+          "weapon": "Hand Wraps",
+          "skin": "Giraffe",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "broken-fang-gloves-unhinged",
+          "displayName": "★ Broken Fang Gloves | Unhinged",
+          "category": "glove",
+          "weapon": "Broken Fang Gloves",
+          "skin": "Unhinged",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-constrictor",
+          "displayName": "★ Hand Wraps | Constrictor",
+          "category": "glove",
+          "weapon": "Hand Wraps",
+          "skin": "Constrictor",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "broken-fang-gloves-needle-point",
+          "displayName": "★ Broken Fang Gloves | Needle Point",
+          "category": "glove",
+          "weapon": "Broken Fang Gloves",
+          "skin": "Needle Point",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-desert-shamagh",
+          "displayName": "★ Hand Wraps | Desert Shamagh",
+          "category": "glove",
+          "weapon": "Hand Wraps",
+          "skin": "Desert Shamagh",
+          "variant": "None",
+          "rarity": "Extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As Rare Special Item Gloves In Operation Broken Fang Case Gloves List.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 24
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "None"
+    ]
+  }
+}

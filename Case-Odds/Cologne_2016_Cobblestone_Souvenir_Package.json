@@ -1,0 +1,442 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T21:40:29Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "cologne-2016-cobblestone-souvenir-package",
+    "name": "Cologne 2016 Cobblestone Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Cologne%202016%20Cobblestone%20Souvenir%20Package",
+      "https://www.csgodatabase.com/souvenir-packages/cologne-2016-cobblestone-souvenir-package/",
+      "https://stash.clash.gg/collection/The-Cobblestone-Collection"
+    ],
+    "notes": [
+      "Contains Souvenir Skins From The Cobblestone Collection Dropped During ESL One Cologne 2016 Matches.",
+      "Uses Default Collection Tier Odds With Equal Chances Within Each Rarity Tier."
+    ],
+    "souvenir": {
+      "tournament": "ESL One Cologne",
+      "year": "2016",
+      "map": "Cobblestone",
+      "collection": "The Cobblestone Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/ESL_One_Cologne_2016_Souvenir_Packages",
+        "https://www.csgodatabase.com/souvenir-packages/cologne-2016-cobblestone-souvenir-package/"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 1280000000,
+      "covert": 1320000000
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-ump-45-indigo",
+          "displayName": "Souvenir UMP-45 | Indigo",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Indigo",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mac-10-indigo",
+          "displayName": "Souvenir MAC-10 | Indigo",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Indigo",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-scar-20-storm",
+          "displayName": "Souvenir SCAR-20 | Storm",
+          "category": "sniper-rifle",
+          "weapon": "SCAR-20",
+          "skin": "Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-dual-berettas-briar",
+          "displayName": "Souvenir Dual Berettas | Briar",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Briar",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-storm",
+          "displayName": "Souvenir P90 | Storm",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-usp-s-royal-blue",
+          "displayName": "Souvenir USP-S | Royal Blue",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Royal Blue",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-nova-green-apple",
+          "displayName": "Souvenir Nova | Green Apple",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Green Apple",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mag-7-silver",
+          "displayName": "Souvenir MAG-7 | Silver",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Silver",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sawed-off-rust-coat",
+          "displayName": "Souvenir Sawed-Off | Rust Coat",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Rust Coat",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-p2000-chainmail",
+          "displayName": "Souvenir P2000 | Chainmail",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Chainmail",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 16000000000,
+            "nonStatTrak": 16000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016000000000000000",
+            "nonStatTrak": "0.016000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp9-dark-age",
+          "displayName": "Souvenir MP9 | Dark Age",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Dark Age",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 16000000000,
+            "nonStatTrak": 16000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016000000000000000",
+            "nonStatTrak": "0.016000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-desert-eagle-hand-cannon",
+          "displayName": "Souvenir Desert Eagle | Hand Cannon",
+          "category": "pistol",
+          "weapon": "Desert Eagle",
+          "skin": "Hand Cannon",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 3200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.003200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-cz75-auto-chalice",
+          "displayName": "Souvenir CZ75-Auto | Chalice",
+          "category": "pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Chalice",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 3200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.003200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "souvenir-m4a1-s-knight",
+          "displayName": "Souvenir M4A1-S | Knight",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Knight",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 1280000000,
+            "nonStatTrak": 1280000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001280000000000000",
+            "nonStatTrak": "0.001280000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": [
+        {
+          "itemId": "souvenir-awp-dragon-lore",
+          "displayName": "Souvenir AWP | Dragon Lore",
+          "category": "sniper-rifle",
+          "weapon": "AWP",
+          "skin": "Dragon Lore",
+          "variant": "Souvenir",
+          "rarity": "covert",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed In Public Cobblestone Collection Listings For The Cologne 2016 Cobblestone Souvenir Package.",
+          "weights": {
+            "base": 1320000000,
+            "nonStatTrak": 1320000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001320000000000000",
+            "nonStatTrak": "0.001320000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 2,
+      "restricted": 2,
+      "classified": 1,
+      "covert": 1
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Souvenir Sticker Permutations Are Not Enumerated; StickersMode Is Set To Ignored.",
+      "Default Collection Tier Odds Were Used; The Final Tier Was Adjusted By Remainder To Match The Exact Unit Scale."
+    ]
+  }
+}

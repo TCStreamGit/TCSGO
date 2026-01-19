@@ -1,0 +1,2213 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T23:51:40Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "dreamhack-2013-souvenir-package",
+    "name": "DreamHack 2013 Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://totalcsgo.com/skins/souvenir-packages/dreamhack-2013-souvenir-package",
+      "https://counterstrike.fandom.com/wiki/DreamHack_2013_Souvenir_Package",
+      "https://case.oki.gg/souvenir/dreamhack-2013-souvenir-package"
+    ],
+    "notes": [
+      "Uses Collection-Rarity Tiers And Produces Only Souvenir-Quality Weapon Skins (No StatTrak, No Knives/Gloves).",
+      "Public References Indicate This Package Has Dropped Items From Multiple Collections Since Release (Dust II, Safehouse, Lake, Italy, Train, Mirage).",
+      "Known Historical Bug: R8 Revolver | Bone Mask From The Bank Collection Can Appear In The Drop Pool."
+    ],
+    "souvenir": {
+      "tournament": "DreamHack",
+      "year": "2013",
+      "map": "None",
+      "collection": "Multiple Collections",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/DreamHack_2013_Souvenir_Package",
+        "https://totalcsgo.com/skins/souvenir-packages/dreamhack-2013-souvenir-package"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 2600000000,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "g3sg1-desert-storm-souvenir",
+          "displayName": "Souvenir G3SG1 | Desert Storm",
+          "category": "weapon_skin",
+          "weapon": "G3SG1",
+          "skin": "Desert Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p250-sand-dune-souvenir",
+          "displayName": "Souvenir P250 | Sand Dune",
+          "category": "weapon_skin",
+          "weapon": "P250",
+          "skin": "Sand Dune",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "scar-20-sand-mesh-souvenir",
+          "displayName": "Souvenir SCAR-20 | Sand Mesh",
+          "category": "weapon_skin",
+          "weapon": "SCAR-20",
+          "skin": "Sand Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p90-sand-spray-souvenir",
+          "displayName": "Souvenir P90 | Sand Spray",
+          "category": "weapon_skin",
+          "weapon": "P90",
+          "skin": "Sand Spray",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-sand-dashed-souvenir",
+          "displayName": "Souvenir MP9 | Sand Dashed",
+          "category": "weapon_skin",
+          "weapon": "MP9",
+          "skin": "Sand Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "nova-predator-souvenir",
+          "displayName": "Souvenir Nova | Predator",
+          "category": "weapon_skin",
+          "weapon": "Nova",
+          "skin": "Predator",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-contractor-souvenir",
+          "displayName": "Souvenir Dual Berettas | Contractor",
+          "category": "weapon_skin",
+          "weapon": "Dual Berettas",
+          "skin": "Contractor",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "scar-20-contractor-souvenir",
+          "displayName": "Souvenir SCAR-20 | Contractor",
+          "category": "weapon_skin",
+          "weapon": "SCAR-20",
+          "skin": "Contractor",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-blue-spruce-souvenir",
+          "displayName": "Souvenir SSG 08 | Blue Spruce",
+          "category": "weapon_skin",
+          "weapon": "SSG 08",
+          "skin": "Blue Spruce",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "tec-9-army-mesh-souvenir",
+          "displayName": "Souvenir Tec-9 | Army Mesh",
+          "category": "weapon_skin",
+          "weapon": "Tec-9",
+          "skin": "Army Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-army-recon-souvenir",
+          "displayName": "Souvenir MP7 | Army Recon",
+          "category": "weapon_skin",
+          "weapon": "MP7",
+          "skin": "Army Recon",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "tec-9-groundwater-souvenir",
+          "displayName": "Souvenir Tec-9 | Groundwater",
+          "category": "weapon_skin",
+          "weapon": "Tec-9",
+          "skin": "Groundwater",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "aug-contractor-souvenir",
+          "displayName": "Souvenir AUG | Contractor",
+          "category": "weapon_skin",
+          "weapon": "AUG",
+          "skin": "Contractor",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "famas-colony-souvenir",
+          "displayName": "Souvenir FAMAS | Colony",
+          "category": "weapon_skin",
+          "weapon": "FAMAS",
+          "skin": "Colony",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "nova-sand-dune-souvenir",
+          "displayName": "Souvenir Nova | Sand Dune",
+          "category": "weapon_skin",
+          "weapon": "Nova",
+          "skin": "Sand Dune",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285715,
+            "nonStatTrak": 22834285715,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285715000000",
+            "nonStatTrak": "0.022834285715000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-sand-dashed-souvenir",
+          "displayName": "Souvenir PP-Bizon | Sand Dashed",
+          "category": "weapon_skin",
+          "weapon": "PP-Bizon",
+          "skin": "Sand Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p250-boreal-forest-souvenir",
+          "displayName": "Souvenir P250 | Boreal Forest",
+          "category": "weapon_skin",
+          "weapon": "P250",
+          "skin": "Boreal Forest",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-blue-spruce-souvenir",
+          "displayName": "Souvenir XM1014 | Blue Spruce",
+          "category": "weapon_skin",
+          "weapon": "XM1014",
+          "skin": "Blue Spruce",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "aug-storm-souvenir",
+          "displayName": "Souvenir AUG | Storm",
+          "category": "weapon_skin",
+          "weapon": "AUG",
+          "skin": "Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "galil-ar-sage-spray-souvenir",
+          "displayName": "Souvenir Galil AR | Sage Spray",
+          "category": "weapon_skin",
+          "weapon": "Galil AR",
+          "skin": "Sage Spray",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sg-553-waves-perforated-souvenir",
+          "displayName": "Souvenir SG 553 | Waves Perforated",
+          "category": "weapon_skin",
+          "weapon": "SG 553",
+          "skin": "Waves Perforated",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-jungle-dashed-souvenir",
+          "displayName": "Souvenir G3SG1 | Jungle Dashed",
+          "category": "weapon_skin",
+          "weapon": "G3SG1",
+          "skin": "Jungle Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-urban-ddpat-souvenir",
+          "displayName": "Souvenir UMP-45 | Urban DDPAT",
+          "category": "weapon_skin",
+          "weapon": "UMP-45",
+          "skin": "Urban DDPAT",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-colony-souvenir",
+          "displayName": "Souvenir Dual Berettas | Colony",
+          "category": "weapon_skin",
+          "weapon": "Dual Berettas",
+          "skin": "Colony",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-polar-camo-souvenir",
+          "displayName": "Souvenir G3SG1 | Polar Camo",
+          "category": "weapon_skin",
+          "weapon": "G3SG1",
+          "skin": "Polar Camo",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "five-seven-forest-night-souvenir",
+          "displayName": "Souvenir Five-SeveN | Forest Night",
+          "category": "weapon_skin",
+          "weapon": "Five-SeveN",
+          "skin": "Forest Night",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "nova-polar-mesh-souvenir",
+          "displayName": "Souvenir Nova | Polar Mesh",
+          "category": "weapon_skin",
+          "weapon": "Nova",
+          "skin": "Polar Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-urban-dashed-souvenir",
+          "displayName": "Souvenir PP-Bizon | Urban Dashed",
+          "category": "weapon_skin",
+          "weapon": "PP-Bizon",
+          "skin": "Urban Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p250-bone-mask-souvenir",
+          "displayName": "Souvenir P250 | Bone Mask",
+          "category": "weapon_skin",
+          "weapon": "P250",
+          "skin": "Bone Mask",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "five-seven-contractor-souvenir",
+          "displayName": "Souvenir Five-SeveN | Contractor",
+          "category": "weapon_skin",
+          "weapon": "Five-SeveN",
+          "skin": "Contractor",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "aug-colony-souvenir",
+          "displayName": "Souvenir AUG | Colony",
+          "category": "weapon_skin",
+          "weapon": "AUG",
+          "skin": "Colony",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-safari-mesh-souvenir",
+          "displayName": "Souvenir G3SG1 | Safari Mesh",
+          "category": "weapon_skin",
+          "weapon": "G3SG1",
+          "skin": "Safari Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p90-scorched-souvenir",
+          "displayName": "Souvenir P90 | Scorched",
+          "category": "weapon_skin",
+          "weapon": "P90",
+          "skin": "Scorched",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "galil-ar-hunting-blind-souvenir",
+          "displayName": "Souvenir Galil AR | Hunting Blind",
+          "category": "weapon_skin",
+          "weapon": "Galil AR",
+          "skin": "Hunting Blind",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "r8-revolver-bone-mask-souvenir",
+          "displayName": "Souvenir R8 Revolver | Bone Mask",
+          "category": "weapon_skin",
+          "weapon": "R8 Revolver",
+          "skin": "Bone Mask",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 22834285714,
+            "nonStatTrak": 22834285714,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.022834285714000000",
+            "nonStatTrak": "0.022834285714000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "sawed-off-snake-camo-souvenir",
+          "displayName": "Souvenir Sawed-Off | Snake Camo",
+          "category": "weapon_skin",
+          "weapon": "Sawed-Off",
+          "skin": "Snake Camo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ak-47-safari-mesh-souvenir",
+          "displayName": "Souvenir AK-47 | Safari Mesh",
+          "category": "weapon_skin",
+          "weapon": "AK-47",
+          "skin": "Safari Mesh",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "five-seven-orange-peel-souvenir",
+          "displayName": "Souvenir Five-SeveN | Orange Peel",
+          "category": "weapon_skin",
+          "weapon": "Five-SeveN",
+          "skin": "Orange Peel",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-palm-souvenir",
+          "displayName": "Souvenir MAC-10 | Palm",
+          "category": "weapon_skin",
+          "weapon": "MAC-10",
+          "skin": "Palm",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "tec-9-varicamo-souvenir",
+          "displayName": "Souvenir Tec-9 | VariCamo",
+          "category": "weapon_skin",
+          "weapon": "Tec-9",
+          "skin": "VariCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "usp-s-forest-leaves-souvenir",
+          "displayName": "Souvenir USP-S | Forest Leaves",
+          "category": "weapon_skin",
+          "weapon": "USP-S",
+          "skin": "Forest Leaves",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "aug-condemned-souvenir",
+          "displayName": "Souvenir AUG | Condemned",
+          "category": "weapon_skin",
+          "weapon": "AUG",
+          "skin": "Condemned",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-orange-peel-souvenir",
+          "displayName": "Souvenir MP9 | Orange Peel",
+          "category": "weapon_skin",
+          "weapon": "MP9",
+          "skin": "Orange Peel",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-varicamo-souvenir",
+          "displayName": "Souvenir G3SG1 | VariCamo",
+          "category": "weapon_skin",
+          "weapon": "G3SG1",
+          "skin": "VariCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "galil-ar-varicamo-souvenir",
+          "displayName": "Souvenir Galil AR | VariCamo",
+          "category": "weapon_skin",
+          "weapon": "Galil AR",
+          "skin": "VariCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "m249-gator-mesh-souvenir",
+          "displayName": "Souvenir M249 | Gator Mesh",
+          "category": "weapon_skin",
+          "weapon": "M249",
+          "skin": "Gator Mesh",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "nova-candy-apple-souvenir",
+          "displayName": "Souvenir Nova | Candy Apple",
+          "category": "weapon_skin",
+          "weapon": "Nova",
+          "skin": "Candy Apple",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-gunsmoke-souvenir",
+          "displayName": "Souvenir UMP-45 | Gunsmoke",
+          "category": "weapon_skin",
+          "weapon": "UMP-45",
+          "skin": "Gunsmoke",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p2000-granite-marbleized-souvenir",
+          "displayName": "Souvenir P2000 | Granite Marbleized",
+          "category": "weapon_skin",
+          "weapon": "P2000",
+          "skin": "Granite Marbleized",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-stained-souvenir",
+          "displayName": "Souvenir Dual Berettas | Stained",
+          "category": "weapon_skin",
+          "weapon": "Dual Berettas",
+          "skin": "Stained",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "m4a1-s-boreal-forest-souvenir",
+          "displayName": "Souvenir M4A1-S | Boreal Forest",
+          "category": "weapon_skin",
+          "weapon": "M4A1-S",
+          "skin": "Boreal Forest",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-calicamo-souvenir",
+          "displayName": "Souvenir XM1014 | CaliCamo",
+          "category": "weapon_skin",
+          "weapon": "XM1014",
+          "skin": "CaliCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-blue-steel-souvenir",
+          "displayName": "Souvenir XM1014 | Blue Steel",
+          "category": "weapon_skin",
+          "weapon": "XM1014",
+          "skin": "Blue Steel",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "awp-safari-mesh-souvenir",
+          "displayName": "Souvenir AWP | Safari Mesh",
+          "category": "weapon_skin",
+          "weapon": "AWP",
+          "skin": "Safari Mesh",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "desert-eagle-mudder-souvenir",
+          "displayName": "Souvenir Desert Eagle | Mudder",
+          "category": "weapon_skin",
+          "weapon": "Desert Eagle",
+          "skin": "Mudder",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "famas-cyanospatter-souvenir",
+          "displayName": "Souvenir FAMAS | Cyanospatter",
+          "category": "weapon_skin",
+          "weapon": "FAMAS",
+          "skin": "Cyanospatter",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-night-ops-souvenir",
+          "displayName": "Souvenir PP-Bizon | Night Ops",
+          "category": "weapon_skin",
+          "weapon": "PP-Bizon",
+          "skin": "Night Ops",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-candy-apple-souvenir",
+          "displayName": "Souvenir MAC-10 | Candy Apple",
+          "category": "weapon_skin",
+          "weapon": "MAC-10",
+          "skin": "Candy Apple",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "m4a4-urban-ddpat-souvenir",
+          "displayName": "Souvenir M4A4 | Urban DDPAT",
+          "category": "weapon_skin",
+          "weapon": "M4A4",
+          "skin": "Urban DDPAT",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mag-7-metallic-ddpat-souvenir",
+          "displayName": "Souvenir MAG-7 | Metallic DDPAT",
+          "category": "weapon_skin",
+          "weapon": "MAG-7",
+          "skin": "Metallic DDPAT",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p250-metallic-ddpat-souvenir",
+          "displayName": "Souvenir P250 | Metallic DDPAT",
+          "category": "weapon_skin",
+          "weapon": "P250",
+          "skin": "Metallic DDPAT",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "scar-20-carbon-fiber-souvenir",
+          "displayName": "Souvenir SCAR-20 | Carbon Fiber",
+          "category": "weapon_skin",
+          "weapon": "SCAR-20",
+          "skin": "Carbon Fiber",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p90-ash-wood-souvenir",
+          "displayName": "Souvenir P90 | Ash Wood",
+          "category": "weapon_skin",
+          "weapon": "P90",
+          "skin": "Ash Wood",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "glock-18-groundwater-souvenir",
+          "displayName": "Souvenir Glock-18 | Groundwater",
+          "category": "weapon_skin",
+          "weapon": "Glock-18",
+          "skin": "Groundwater",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-orange-peel-souvenir",
+          "displayName": "Souvenir MP7 | Orange Peel",
+          "category": "weapon_skin",
+          "weapon": "MP7",
+          "skin": "Orange Peel",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-tropical-storm-souvenir",
+          "displayName": "Souvenir SSG 08 | Tropical Storm",
+          "category": "weapon_skin",
+          "weapon": "SSG 08",
+          "skin": "Tropical Storm",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "negev-calicamo-souvenir",
+          "displayName": "Souvenir Negev | CaliCamo",
+          "category": "weapon_skin",
+          "weapon": "Negev",
+          "skin": "CaliCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sg-553-gator-mesh-souvenir",
+          "displayName": "Souvenir SG 553 | Gator Mesh",
+          "category": "weapon_skin",
+          "weapon": "SG 553",
+          "skin": "Gator Mesh",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "pp-bizon-brass-souvenir",
+          "displayName": "Souvenir PP-Bizon | Brass",
+          "category": "weapon_skin",
+          "weapon": "PP-Bizon",
+          "skin": "Brass",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352942,
+            "nonStatTrak": 1882352942,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352942000000",
+            "nonStatTrak": "0.001882352942000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "m4a1-s-varicamo-souvenir",
+          "displayName": "Souvenir M4A1-S | VariCamo",
+          "category": "weapon_skin",
+          "weapon": "M4A1-S",
+          "skin": "VariCamo",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352942,
+            "nonStatTrak": 1882352942,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352942000000",
+            "nonStatTrak": "0.001882352942000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sg-553-damascus-steel-souvenir",
+          "displayName": "Souvenir SG 553 | Damascus Steel",
+          "category": "weapon_skin",
+          "weapon": "SG 553",
+          "skin": "Damascus Steel",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352942,
+            "nonStatTrak": 1882352942,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352942000000",
+            "nonStatTrak": "0.001882352942000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "famas-teardown-souvenir",
+          "displayName": "Souvenir FAMAS | Teardown",
+          "category": "weapon_skin",
+          "weapon": "FAMAS",
+          "skin": "Teardown",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352942,
+            "nonStatTrak": 1882352942,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352942000000",
+            "nonStatTrak": "0.001882352942000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "five-seven-silver-quartz-souvenir",
+          "displayName": "Souvenir Five-SeveN | Silver Quartz",
+          "category": "weapon_skin",
+          "weapon": "Five-SeveN",
+          "skin": "Silver Quartz",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-acid-fade-souvenir",
+          "displayName": "Souvenir SSG 08 | Acid Fade",
+          "category": "weapon_skin",
+          "weapon": "SSG 08",
+          "skin": "Acid Fade",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "glock-18-candy-apple-souvenir",
+          "displayName": "Souvenir Glock-18 | Candy Apple",
+          "category": "weapon_skin",
+          "weapon": "Glock-18",
+          "skin": "Candy Apple",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-anodized-navy-souvenir",
+          "displayName": "Souvenir MP7 | Anodized Navy",
+          "category": "weapon_skin",
+          "weapon": "MP7",
+          "skin": "Anodized Navy",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-full-stop-souvenir",
+          "displayName": "Souvenir Sawed-Off | Full Stop",
+          "category": "weapon_skin",
+          "weapon": "Sawed-Off",
+          "skin": "Full Stop",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sg-553-anodized-navy-souvenir",
+          "displayName": "Souvenir SG 553 | Anodized Navy",
+          "category": "weapon_skin",
+          "weapon": "SG 553",
+          "skin": "Anodized Navy",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "usp-s-night-ops-souvenir",
+          "displayName": "Souvenir USP-S | Night Ops",
+          "category": "weapon_skin",
+          "weapon": "USP-S",
+          "skin": "Night Ops",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p90-teardown-souvenir",
+          "displayName": "Souvenir P90 | Teardown",
+          "category": "weapon_skin",
+          "weapon": "P90",
+          "skin": "Teardown",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "desert-eagle-urban-rubble-souvenir",
+          "displayName": "Souvenir Desert Eagle | Urban Rubble",
+          "category": "weapon_skin",
+          "weapon": "Desert Eagle",
+          "skin": "Urban Rubble",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-amber-fade-souvenir",
+          "displayName": "Souvenir Sawed-Off | Amber Fade",
+          "category": "weapon_skin",
+          "weapon": "Sawed-Off",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-hot-rod-souvenir",
+          "displayName": "Souvenir MP9 | Hot Rod",
+          "category": "weapon_skin",
+          "weapon": "MP9",
+          "skin": "Hot Rod",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-blaze-souvenir",
+          "displayName": "Souvenir UMP-45 | Blaze",
+          "category": "weapon_skin",
+          "weapon": "UMP-45",
+          "skin": "Blaze",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-amber-fade-souvenir",
+          "displayName": "Souvenir MAC-10 | Amber Fade",
+          "category": "weapon_skin",
+          "weapon": "MAC-10",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "p2000-amber-fade-souvenir",
+          "displayName": "Souvenir P2000 | Amber Fade",
+          "category": "weapon_skin",
+          "weapon": "P2000",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1066666667,
+            "nonStatTrak": 1066666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001066666667000000",
+            "nonStatTrak": "0.001066666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "m4a1-s-nitro-souvenir",
+          "displayName": "Souvenir M4A1-S | Nitro",
+          "category": "weapon_skin",
+          "weapon": "M4A1-S",
+          "skin": "Nitro",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1066666667,
+            "nonStatTrak": 1066666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001066666667000000",
+            "nonStatTrak": "0.001066666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "awp-pit-viper-souvenir",
+          "displayName": "Souvenir AWP | Pit Viper",
+          "category": "weapon_skin",
+          "weapon": "AWP",
+          "skin": "Pit Viper",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1066666667,
+            "nonStatTrak": 1066666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001066666667000000",
+            "nonStatTrak": "0.001066666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-cobalt-quartz-souvenir",
+          "displayName": "Souvenir Dual Berettas | Cobalt Quartz",
+          "category": "weapon_skin",
+          "weapon": "Dual Berettas",
+          "skin": "Cobalt Quartz",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1066666667,
+            "nonStatTrak": 1066666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001066666667000000",
+            "nonStatTrak": "0.001066666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "tec-9-red-quartz-souvenir",
+          "displayName": "Souvenir Tec-9 | Red Quartz",
+          "category": "weapon_skin",
+          "weapon": "Tec-9",
+          "skin": "Red Quartz",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1066666666,
+            "nonStatTrak": 1066666666,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001066666666000000",
+            "nonStatTrak": "0.001066666666000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mag-7-bulldozer-souvenir",
+          "displayName": "Souvenir MAG-7 | Bulldozer",
+          "category": "weapon_skin",
+          "weapon": "MAG-7",
+          "skin": "Bulldozer",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 1066666666,
+            "nonStatTrak": 1066666666,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001066666666000000",
+            "nonStatTrak": "0.001066666666000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "r8-revolver-amber-fade-souvenir",
+          "displayName": "Souvenir R8 Revolver | Amber Fade",
+          "category": "weapon_skin",
+          "weapon": "R8 Revolver",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For This Souvenir Package In Public Item Lists.",
+          "weights": {
+            "base": 2600000000,
+            "nonStatTrak": 2600000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002600000000000000",
+            "nonStatTrak": "0.002600000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 35,
+      "industrial": 33,
+      "milspec": 17,
+      "restricted": 6,
+      "classified": 1,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Covert Tier Has 0 Items For This Container; Covert OddsWeight Was Set To 0 And The Remainder Was Added To Classified To Preserve Sum Integrity.",
+      "Package Has Historically Included Bugged R8 Revolver | Bone Mask Drops In Addition To The Intended Pool."
+    ]
+  }
+}

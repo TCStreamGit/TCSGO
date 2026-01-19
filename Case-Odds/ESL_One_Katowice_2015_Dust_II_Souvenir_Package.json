@@ -1,0 +1,464 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00.000Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "esl-one-katowice-2015-dust-ii-souvenir-package",
+    "name": "ESL One Katowice 2015 Dust II Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/ESL%20One%20Katowice%202015%20Dust%20II%20Souvenir%20Package",
+      "https://wiki.cs.money/cases/esl-one-katowice-2015-dust-ii-souvenir-package",
+      "https://csgoskins.gg/items/esl-one-katowice-2015-dust-ii-souvenir-package"
+    ],
+    "notes": [
+      "Contains Souvenir-Quality Skins From The Dust 2 Collection (16 Total).",
+      "Sticker Permutations Are Not Enumerated; Souvenir StickersMode Is Set To Ignored."
+    ],
+    "souvenir": {
+      "tournament": "ESL One Katowice",
+      "year": "2015",
+      "map": "Dust II",
+      "collection": "The Dust 2 Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/ESL_One_Katowice_2015_Souvenir_Packages",
+        "https://wiki.skin.land/collections/the-dust-2-collection/",
+        "https://steamcommunity.com/market/listings/730/ESL%20One%20Katowice%202015%20Dust%20II%20Souvenir%20Package"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 2600000000,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "p250-sand-dune-souvenir",
+          "displayName": "Souvenir P250 | Sand Dune",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Sand Dune",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-sand-dashed-souvenir",
+          "displayName": "Souvenir MP9 | Sand Dashed",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Sand Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "nova-predator-souvenir",
+          "displayName": "Souvenir Nova | Predator",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Predator",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "scar-20-sand-mesh-souvenir",
+          "displayName": "Souvenir SCAR-20 | Sand Mesh",
+          "category": "sniper-rifle",
+          "weapon": "SCAR-20",
+          "skin": "Sand Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-desert-storm-souvenir",
+          "displayName": "Souvenir G3SG1 | Desert Storm",
+          "category": "sniper-rifle",
+          "weapon": "G3SG1",
+          "skin": "Desert Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p90-sand-spray-souvenir",
+          "displayName": "Souvenir P90 | Sand Spray",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Sand Spray",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 133200000000,
+            "nonStatTrak": 133200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.133200000000000000",
+            "nonStatTrak": "0.133200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "ak-47-safari-mesh-souvenir",
+          "displayName": "Souvenir AK-47 | Safari Mesh",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Safari Mesh",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "five-seven-orange-peel-souvenir",
+          "displayName": "Souvenir Five-SeveN | Orange Peel",
+          "category": "pistol",
+          "weapon": "Five-SeveN",
+          "skin": "Orange Peel",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-palm-souvenir",
+          "displayName": "Souvenir MAC-10 | Palm",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Palm",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-snake-camo-souvenir",
+          "displayName": "Souvenir Sawed-Off | Snake Camo",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Snake Camo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "tec-9-varicamo-souvenir",
+          "displayName": "Souvenir Tec-9 | VariCamo",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "VariCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 31960000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.031960000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "m4a1-s-varicamo-souvenir",
+          "displayName": "Souvenir M4A1-S | VariCamo",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "VariCamo",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 10666666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.010666666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-brass-souvenir",
+          "displayName": "Souvenir PP-Bizon | Brass",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Brass",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 10666666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.010666666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sg-553-damascus-steel-souvenir",
+          "displayName": "Souvenir SG 553 | Damascus Steel",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Damascus Steel",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 10666666666,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.010666666666000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "p2000-amber-fade-souvenir",
+          "displayName": "Souvenir P2000 | Amber Fade",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 6400000000,
+            "nonStatTrak": 6400000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.006400000000000000",
+            "nonStatTrak": "0.006400000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "r8-revolver-amber-fade-souvenir",
+          "displayName": "Souvenir R8 Revolver | Amber Fade",
+          "category": "pistol",
+          "weapon": "R8 Revolver",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Dust 2 Collection And Listed For This Souvenir Package By Multiple Public Databases.",
+          "weights": {
+            "base": 2600000000,
+            "nonStatTrak": 2600000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002600000000000000",
+            "nonStatTrak": "0.002600000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 6,
+      "industrial": 5,
+      "milspec": 3,
+      "restricted": 1,
+      "classified": 1,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "The Dust 2 Collection Has No Covert-Grade Skins; The Default Covert Probability Mass Was Reallocated Into Classified To Preserve A 1e12 Total Weight."
+    ]
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "budapest-2025-ancient-souvenir-package",
+    "name": "Budapest 2025 Ancient Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Budapest%202025%20Ancient%20Souvenir%20Package",
+      "https://totalcsgo.com/skins/souvenir-packages/budapest-2025-ancient-souvenir-package",
+      "https://csgoskins.gg/maps/ancient/souvenir-package"
+    ],
+    "notes": [
+      "Souvenir Package: Drops One Souvenir Skin From The Ancient Collection; No Knives/Gloves; No StatTrak; Sticker Permutations Ignored By Design.",
+      "Weights Use Default Collection Odds And Equal Split Within Each Rarity Tier; Covert Tier Weight Includes Remainder Adjustment So All Weights Sum Exactly To 1e12."
+    ],
+    "souvenir": {
+      "tournament": "StarLadder Budapest Major",
+      "year": "2025",
+      "map": "Ancient",
+      "collection": "The Ancient Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://cs.money/blog/esports/budapest-major-2025-souvenir-packages-complete-guide/",
+        "https://csgoskins.gg/maps/ancient/souvenir-package",
+        "https://cs2locker.com/collections/the-ancient-collection"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 1280000000,
+      "covert": 1320000000
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "nova-army-sheen-souvenir",
+          "displayName": "Souvenir Nova | Army Sheen",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Army Sheen",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p90-ancient-earth-souvenir",
+          "displayName": "Souvenir P90 | Ancient Earth",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Ancient Earth",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-jungle-dashed-souvenir",
+          "displayName": "Souvenir SSG 08 | Jungle Dashed",
+          "category": "sniper-rifle",
+          "weapon": "SSG 08",
+          "skin": "Jungle Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "r8-revolver-night-souvenir",
+          "displayName": "Souvenir R8 Revolver | Night",
+          "category": "pistol",
+          "weapon": "R8 Revolver",
+          "skin": "Night",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sg-553-lush-ruins-souvenir",
+          "displayName": "Souvenir SG 553 | Lush Ruins",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Lush Ruins",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "p2000-panther-camo-souvenir",
+          "displayName": "Souvenir P2000 | Panther Camo",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Panther Camo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-tall-grass-souvenir",
+          "displayName": "Souvenir MP7 | Tall Grass",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Tall Grass",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "cz75-auto-silver-souvenir",
+          "displayName": "Souvenir CZ75-Auto | Silver",
+          "category": "pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Silver",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-ancient-ritual-souvenir",
+          "displayName": "Souvenir G3SG1 | Ancient Ritual",
+          "category": "sniper-rifle",
+          "weapon": "G3SG1",
+          "skin": "Ancient Ritual",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "aug-carved-jade-souvenir",
+          "displayName": "Souvenir AUG | Carved Jade",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Carved Jade",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "famas-dark-water-souvenir",
+          "displayName": "Souvenir FAMAS | Dark Water",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Dark Water",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "tec-9-blast-from-the-past-souvenir",
+          "displayName": "Souvenir Tec-9 | Blast From the Past",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Blast From the Past",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "galil-ar-dusk-ruins-souvenir",
+          "displayName": "Souvenir Galil AR | Dusk Ruins",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "Dusk Ruins",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "mac-10-gold-brick-souvenir",
+          "displayName": "Souvenir MAC-10 | Gold Brick",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Gold Brick",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 2133333334,
+            "nonStatTrak": 2133333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333334000000",
+            "nonStatTrak": "0.002133333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "usp-s-ancient-visions-souvenir",
+          "displayName": "Souvenir USP-S | Ancient Visions",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Ancient Visions",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-ancient-lore-souvenir",
+          "displayName": "Souvenir XM1014 | Ancient Lore",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Ancient Lore",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "p90-run-and-hide-souvenir",
+          "displayName": "Souvenir P90 | Run and Hide",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Run and Hide",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 640000000,
+            "nonStatTrak": 640000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000640000000000000",
+            "nonStatTrak": "0.000640000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ak-47-panthera-onca-souvenir",
+          "displayName": "Souvenir AK-47 | Panthera onca",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Panthera onca",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 640000000,
+            "nonStatTrak": 640000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000640000000000000",
+            "nonStatTrak": "0.000640000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": [
+        {
+          "itemId": "m4a1-s-welcome-to-the-jungle-souvenir",
+          "displayName": "Souvenir M4A1-S | Welcome to the Jungle",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Welcome to the Jungle",
+          "variant": "Souvenir",
+          "rarity": "covert",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item And Rarity Confirmed By Multiple Third-Party CS2 Item Databases Listing The Ancient Collection And Budapest 2025 Ancient Souvenir Package Contents.",
+          "weights": {
+            "base": 1320000000,
+            "nonStatTrak": 1320000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001320000000000000",
+            "nonStatTrak": "0.001320000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 4,
+      "restricted": 3,
+      "classified": 2,
+      "covert": 1
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Default Collection Odds Provided Sum To 0.998936, So The Covert Tier Weight Was Increased By The Remainder To Force An Exact 1e12 Total As Required.",
+      "StickersMode Is Set To Ignored; Sticker Permutations Are Not Enumerated.",
+      "Item Weights Assume Equal Probability Within Each Collection Rarity Tier."
+    ]
+  }
+}

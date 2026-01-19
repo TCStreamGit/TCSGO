@@ -1,0 +1,1021 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "snakebite-case",
+    "name": "Snakebite Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/Snakebite_Case",
+      "https://totalcsgo.com/skins/cases/snakebite-case",
+      "https://csgoskins.gg/containers/snakebite-case"
+    ],
+    "notes": [
+      "Tier Odds Use Default Community Estimates; Items Are Evenly Split Within Each Rarity Tier; StatTrak Is Modelled As A Flat 10% For Eligible Weapons."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "glock-18-clear-polymer",
+          "displayName": "Glock-18 | Clear Polymer",
+          "category": "weapon",
+          "weapon": "glock-18",
+          "skin": "Clear Polymer",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000000000",
+            "nonStatTrak": "0.102754285715000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        },
+        {
+          "itemId": "nova-windblown",
+          "displayName": "Nova | Windblown",
+          "category": "weapon",
+          "weapon": "nova",
+          "skin": "Windblown",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000000000",
+            "nonStatTrak": "0.102754285714000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-oscillator",
+          "displayName": "UMP-45 | Oscillator",
+          "category": "weapon",
+          "weapon": "ump-45",
+          "skin": "Oscillator",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000000000",
+            "nonStatTrak": "0.102754285714000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        },
+        {
+          "itemId": "m249-o-s-i-p-r",
+          "displayName": "M249 | O.S.I.P.R.",
+          "category": "weapon",
+          "weapon": "m249",
+          "skin": "O.S.I.P.R.",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000000000",
+            "nonStatTrak": "0.102754285714000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        },
+        {
+          "itemId": "cz75-auto-circaetus",
+          "displayName": "CZ75-Auto | Circaetus",
+          "category": "weapon",
+          "weapon": "cz75-auto",
+          "skin": "Circaetus",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000000000",
+            "nonStatTrak": "0.102754285714000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        },
+        {
+          "itemId": "sg-553-heavy-metal",
+          "displayName": "SG 553 | Heavy Metal",
+          "category": "weapon",
+          "weapon": "sg-553",
+          "skin": "Heavy Metal",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000000000",
+            "nonStatTrak": "0.102754285714000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        },
+        {
+          "itemId": "r8-revolver-junk-yard",
+          "displayName": "R8 Revolver | Junk Yard",
+          "category": "weapon",
+          "weapon": "r8-revolver",
+          "skin": "Junk Yard",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000000000",
+            "nonStatTrak": "0.102754285714000000000000",
+            "statTrak": "0.011417142857000000000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "ak-47-slate",
+          "displayName": "AK-47 | Slate",
+          "category": "weapon",
+          "weapon": "ak-47",
+          "skin": "Slate",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000000000",
+            "nonStatTrak": "0.028764000000000000000000",
+            "statTrak": "0.003196000000000000000000"
+          }
+        },
+        {
+          "itemId": "desert-eagle-trigger-discipline",
+          "displayName": "Desert Eagle | Trigger Discipline",
+          "category": "weapon",
+          "weapon": "desert-eagle",
+          "skin": "Trigger Discipline",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000000000",
+            "nonStatTrak": "0.028764000000000000000000",
+            "statTrak": "0.003196000000000000000000"
+          }
+        },
+        {
+          "itemId": "p250-cyber-shell",
+          "displayName": "P250 | Cyber Shell",
+          "category": "weapon",
+          "weapon": "p250",
+          "skin": "Cyber Shell",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000000000",
+            "nonStatTrak": "0.028764000000000000000000",
+            "statTrak": "0.003196000000000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-button-masher",
+          "displayName": "MAC-10 | Button Masher",
+          "category": "weapon",
+          "weapon": "mac-10",
+          "skin": "Button Masher",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000000000",
+            "nonStatTrak": "0.028764000000000000000000",
+            "statTrak": "0.003196000000000000000000"
+          }
+        },
+        {
+          "itemId": "negev-dev-texture",
+          "displayName": "Negev | dev_texture",
+          "category": "weapon",
+          "weapon": "negev",
+          "skin": "dev_texture",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000000000",
+            "nonStatTrak": "0.028764000000000000000000",
+            "statTrak": "0.003196000000000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "galil-ar-chromatic-aberration",
+          "displayName": "Galil AR | Chromatic Aberration",
+          "category": "weapon",
+          "weapon": "galil-ar",
+          "skin": "Chromatic Aberration",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000000000",
+            "nonStatTrak": "0.009600000000000000000000",
+            "statTrak": "0.001066666667000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-food-chain",
+          "displayName": "MP9 | Food Chain",
+          "category": "weapon",
+          "weapon": "mp9",
+          "skin": "Food Chain",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000000000",
+            "nonStatTrak": "0.009600000000000000000000",
+            "statTrak": "0.001066666667000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-xoxo",
+          "displayName": "XM1014 | XOXO",
+          "category": "weapon",
+          "weapon": "xm1014",
+          "skin": "XOXO",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000000000",
+            "nonStatTrak": "0.009599999999000000000000",
+            "statTrak": "0.001066666667000000000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "usp-s-the-traitor",
+          "displayName": "USP-S | The Traitor",
+          "category": "weapon",
+          "weapon": "usp-s",
+          "skin": "The Traitor",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000000000",
+            "nonStatTrak": "0.002880000000000000000000",
+            "statTrak": "0.000320000000000000000000"
+          }
+        },
+        {
+          "itemId": "m4a4-in-living-color",
+          "displayName": "M4A4 | In Living Color",
+          "category": "weapon",
+          "weapon": "m4a4",
+          "skin": "In Living Color",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Multiple Public Case Content Listings.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000000000",
+            "nonStatTrak": "0.002880000000000000000000",
+            "statTrak": "0.000320000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "snakebite-case-glove-pool",
+      "name": "Rare Special Items (Broken Fang Gloves Set)",
+      "category": "glove_pool",
+      "sources": [
+        "https://totalcsgo.com/skins/cases/snakebite-case/gloves",
+        "https://counterstrike.fandom.com/wiki/Snakebite_Case"
+      ],
+      "items": [
+        {
+          "itemId": "moto-gloves-blood-pressure",
+          "displayName": "Moto Gloves | Blood Pressure",
+          "category": "glove",
+          "weapon": "moto-gloves",
+          "skin": "Blood Pressure",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-smoke-out",
+          "displayName": "Moto Gloves | Smoke Out",
+          "category": "glove",
+          "weapon": "moto-gloves",
+          "skin": "Smoke Out",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-snow-leopard",
+          "displayName": "Driver Gloves | Snow Leopard",
+          "category": "glove",
+          "weapon": "driver-gloves",
+          "skin": "Snow Leopard",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-black-tie",
+          "displayName": "Driver Gloves | Black Tie",
+          "category": "glove",
+          "weapon": "driver-gloves",
+          "skin": "Black Tie",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-marble-fade",
+          "displayName": "Specialist Gloves | Marble Fade",
+          "category": "glove",
+          "weapon": "specialist-gloves",
+          "skin": "Marble Fade",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-tiger-strike",
+          "displayName": "Specialist Gloves | Tiger Strike",
+          "category": "glove",
+          "weapon": "specialist-gloves",
+          "skin": "Tiger Strike",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-scarlet-shamagh",
+          "displayName": "Sport Gloves | Scarlet Shamagh",
+          "category": "glove",
+          "weapon": "sport-gloves",
+          "skin": "Scarlet Shamagh",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-nocts",
+          "displayName": "Sport Gloves | Nocts",
+          "category": "glove",
+          "weapon": "sport-gloves",
+          "skin": "Nocts",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-slingshot",
+          "displayName": "Sport Gloves | Slingshot",
+          "category": "glove",
+          "weapon": "sport-gloves",
+          "skin": "Slingshot",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-caution",
+          "displayName": "Hand Wraps | CAUTION!",
+          "category": "glove",
+          "weapon": "hand-wraps",
+          "skin": "CAUTION!",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-finish-line",
+          "displayName": "Moto Gloves | Finish Line",
+          "category": "glove",
+          "weapon": "moto-gloves",
+          "skin": "Finish Line",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-queen-jaguar",
+          "displayName": "Driver Gloves | Queen Jaguar",
+          "category": "glove",
+          "weapon": "driver-gloves",
+          "skin": "Queen Jaguar",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-rezan-the-red",
+          "displayName": "Driver Gloves | Rezan the Red",
+          "category": "glove",
+          "weapon": "driver-gloves",
+          "skin": "Rezan the Red",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-field-agent",
+          "displayName": "Specialist Gloves | Field Agent",
+          "category": "glove",
+          "weapon": "specialist-gloves",
+          "skin": "Field Agent",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-lt-commander",
+          "displayName": "Specialist Gloves | Lt. Commander",
+          "category": "glove",
+          "weapon": "specialist-gloves",
+          "skin": "Lt. Commander",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-big-game",
+          "displayName": "Sport Gloves | Big Game",
+          "category": "glove",
+          "weapon": "sport-gloves",
+          "skin": "Big Game",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "broken-fang-gloves-needle-point",
+          "displayName": "Broken Fang Gloves | Needle Point",
+          "category": "glove",
+          "weapon": "broken-fang-gloves",
+          "skin": "Needle Point",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000000000",
+            "nonStatTrak": "0.000108333334000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "broken-fang-gloves-jade",
+          "displayName": "Broken Fang Gloves | Jade",
+          "category": "glove",
+          "weapon": "broken-fang-gloves",
+          "skin": "Jade",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000000000",
+            "nonStatTrak": "0.000108333333000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "broken-fang-gloves-unhinged",
+          "displayName": "Broken Fang Gloves | Unhinged",
+          "category": "glove",
+          "weapon": "broken-fang-gloves",
+          "skin": "Unhinged",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000000000",
+            "nonStatTrak": "0.000108333333000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-desert-shamagh",
+          "displayName": "Hand Wraps | Desert Shamagh",
+          "category": "glove",
+          "weapon": "hand-wraps",
+          "skin": "Desert Shamagh",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000000000",
+            "nonStatTrak": "0.000108333333000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-3rd-commando-company",
+          "displayName": "Moto Gloves | 3rd Commando Company",
+          "category": "glove",
+          "weapon": "moto-gloves",
+          "skin": "3rd Commando Company",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000000000",
+            "nonStatTrak": "0.000108333333000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-constrictor",
+          "displayName": "Hand Wraps | Constrictor",
+          "category": "glove",
+          "weapon": "hand-wraps",
+          "skin": "Constrictor",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000000000",
+            "nonStatTrak": "0.000108333333000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "broken-fang-gloves-yellow-banded",
+          "displayName": "Broken Fang Gloves | Yellow-banded",
+          "category": "glove",
+          "weapon": "broken-fang-gloves",
+          "skin": "Yellow-banded",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000000000",
+            "nonStatTrak": "0.000108333333000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-giraffe",
+          "displayName": "Hand Wraps | Giraffe",
+          "category": "glove",
+          "weapon": "hand-wraps",
+          "skin": "Giraffe",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed Against Public Rare Special Item Listings For This Case.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000000000",
+            "nonStatTrak": "0.000108333333000000000000",
+            "statTrak": "0.000000000000000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 24
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Valve Does Not Publish Official Per-Item Odds; Default Tier Odds Were Used, With Equal Split Within Each Tier."
+    ]
+  }
+}

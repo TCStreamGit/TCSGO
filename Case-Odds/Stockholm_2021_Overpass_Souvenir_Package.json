@@ -1,0 +1,441 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T20:48:26Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "stockholm-2021-overpass-souvenir-package",
+    "name": "Stockholm 2021 Overpass Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Overpass%20Souvenir%20Package",
+      "https://totalcsgo.com/skins/souvenir-packages/stockholm-2021-overpass-souvenir-package",
+      "https://csgoskins.gg/containers/stockholm-2021-overpass-souvenir-package"
+    ],
+    "notes": [
+      "Souvenir Package: Uses The Overpass Collection (No Knives/Gloves; No StatTrak).",
+      "Underlying Collection Has No Covert Items; Covert Tier Weight Set To 0 And Remaining Weight Applied To Classified Tier."
+    ],
+    "souvenir": {
+      "tournament": "PGL Stockholm 2021",
+      "year": "2021",
+      "map": "Overpass",
+      "collection": "The Overpass Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/PGL_Stockholm_2021_Souvenir_Packages",
+        "https://totalcsgo.com/skins/souvenir-packages/stockholm-2021-overpass-souvenir-package"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 2600000000,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-m249-contrast-spray",
+          "displayName": "Souvenir M249 | Contrast Spray",
+          "category": "Machine Gun",
+          "weapon": "M249",
+          "skin": "Contrast Spray",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mag-7-storm",
+          "displayName": "Souvenir MAG-7 | Storm",
+          "category": "Shotgun",
+          "weapon": "MAG-7",
+          "skin": "Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp9-storm",
+          "displayName": "Souvenir MP9 | Storm",
+          "category": "SMG",
+          "weapon": "MP9",
+          "skin": "Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sawed-off-sage-spray",
+          "displayName": "Souvenir Sawed-Off | Sage Spray",
+          "category": "Shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Sage Spray",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ump-45-scorched",
+          "displayName": "Souvenir UMP-45 | Scorched",
+          "category": "SMG",
+          "weapon": "UMP-45",
+          "skin": "Scorched",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-mp7-gunsmoke",
+          "displayName": "Souvenir MP7 | Gunsmoke",
+          "category": "SMG",
+          "weapon": "MP7",
+          "skin": "Gunsmoke",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-desert-eagle-urban-ddpat",
+          "displayName": "Souvenir Desert Eagle | Urban DDPAT",
+          "category": "Pistol",
+          "weapon": "Desert Eagle",
+          "skin": "Urban DDPAT",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-glock-18-night",
+          "displayName": "Souvenir Glock-18 | Night",
+          "category": "Pistol",
+          "weapon": "Glock-18",
+          "skin": "Night",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p2000-grassland",
+          "displayName": "Souvenir P2000 | Grassland",
+          "category": "Pistol",
+          "weapon": "P2000",
+          "skin": "Grassland",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-xm1014-varicamo-blue",
+          "displayName": "Souvenir XM1014 | VariCamo Blue",
+          "category": "Shotgun",
+          "weapon": "XM1014",
+          "skin": "VariCamo Blue",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 10666666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.010666666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ssg-08-detour",
+          "displayName": "Souvenir SSG 08 | Detour",
+          "category": "Sniper Rifle",
+          "weapon": "SSG 08",
+          "skin": "Detour",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 10666666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.010666666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-cz75-auto-nitro",
+          "displayName": "Souvenir CZ75-Auto | Nitro",
+          "category": "Pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Nitro",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 10666666666,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.010666666666000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-awp-pink-ddpat",
+          "displayName": "Souvenir AWP | Pink DDPAT",
+          "category": "Sniper Rifle",
+          "weapon": "AWP",
+          "skin": "Pink DDPAT",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 3200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.003200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-usp-s-road-rash",
+          "displayName": "Souvenir USP-S | Road Rash",
+          "category": "Pistol",
+          "weapon": "USP-S",
+          "skin": "Road Rash",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 3200000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.003200000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "souvenir-m4a1-s-master-piece",
+          "displayName": "Souvenir M4A1-S | Master Piece",
+          "category": "Rifle",
+          "weapon": "M4A1-S",
+          "skin": "Master Piece",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Souvenir Drop From The Stockholm 2021 Overpass Souvenir Package (The Overpass Collection).",
+          "weights": {
+            "base": 2600000000,
+            "nonStatTrak": 2600000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002600000000000000",
+            "nonStatTrak": "0.002600000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 3,
+      "restricted": 2,
+      "classified": 1,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "This Is A Souvenir Package Export: StatTrak Disabled And goldPool Set To None.",
+      "The Overpass Collection Contains No Covert-Grade Skin; Covert Tier Kept As Empty With 0 Weight."
+    ]
+  }
+}

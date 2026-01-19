@@ -1,0 +1,542 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00-07:00",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "anubis-collection-package",
+    "name": "Anubis Collection Package",
+    "caseType": "other",
+    "supportsStatTrak": false,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://skinport.com/blog/anubis-collection-package",
+      "https://steamcommunity.com/market/listings/730/Anubis%20Collection%20Package",
+      "https://csgoskins.gg/containers/anubis-collection-package"
+    ],
+    "notes": [
+      "This Is A Collection Package (No Key Required) That Drops One Item From The Anubis Collection.",
+      "No Knives/Gloves Are In This Package; A Gold Placeholder Item Is Included For Schema Compatibility.",
+      "Consumer Grade And Industrial Grade Items Are Included In The Blue Tier Due To The 4-Tier Schema Constraint."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "ak-47-steel-delta",
+          "displayName": "AK-47 | Steel Delta",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Steel Delta",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923077,
+            "nonStatTrak": 61476923077,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923077000000",
+            "nonStatTrak": "0.061476923077000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "awp-black-nile",
+          "displayName": "AWP | Black Nile",
+          "category": "sniper-rifle",
+          "weapon": "AWP",
+          "skin": "Black Nile",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923077,
+            "nonStatTrak": 61476923077,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923077000000",
+            "nonStatTrak": "0.061476923077000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mag-7-copper-coated",
+          "displayName": "MAG-7 | Copper Coated",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Copper Coated",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923077,
+            "nonStatTrak": 61476923077,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923077000000",
+            "nonStatTrak": "0.061476923077000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "tec-9-mummys-rot",
+          "displayName": "Tec-9 | Mummy's Rot",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Mummy's Rot",
+          "variant": "None",
+          "rarity": "Mil-Spec Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923077,
+            "nonStatTrak": 61476923077,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923077000000",
+            "nonStatTrak": "0.061476923077000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-echoing-sands",
+          "displayName": "MAC-10 | Echoing Sands",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Echoing Sands",
+          "variant": "None",
+          "rarity": "Industrial Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923077,
+            "nonStatTrak": 61476923077,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923077000000",
+            "nonStatTrak": "0.061476923077000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "m4a1-s-mud-spec",
+          "displayName": "M4A1-S | Mud-Spec",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Mud-Spec",
+          "variant": "None",
+          "rarity": "Industrial Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923077,
+            "nonStatTrak": 61476923077,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923077000000",
+            "nonStatTrak": "0.061476923077000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-azure-glyph",
+          "displayName": "SSG 08 | Azure Glyph",
+          "category": "sniper-rifle",
+          "weapon": "SSG 08",
+          "skin": "Azure Glyph",
+          "variant": "None",
+          "rarity": "Industrial Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923077,
+            "nonStatTrak": 61476923077,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923077000000",
+            "nonStatTrak": "0.061476923077000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "usp-s-desert-tactical",
+          "displayName": "USP-S | Desert Tactical",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Desert Tactical",
+          "variant": "None",
+          "rarity": "Industrial Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923077,
+            "nonStatTrak": 61476923077,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923077000000",
+            "nonStatTrak": "0.061476923077000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "aug-snake-pit",
+          "displayName": "AUG | Snake Pit",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Snake Pit",
+          "variant": "None",
+          "rarity": "Consumer Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923077,
+            "nonStatTrak": 61476923077,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923077000000",
+            "nonStatTrak": "0.061476923077000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "m249-submerged",
+          "displayName": "M249 | Submerged",
+          "category": "machinegun",
+          "weapon": "M249",
+          "skin": "Submerged",
+          "variant": "None",
+          "rarity": "Consumer Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923077,
+            "nonStatTrak": 61476923077,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923077000000",
+            "nonStatTrak": "0.061476923077000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-sunbaked",
+          "displayName": "MP7 | Sunbaked",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Sunbaked",
+          "variant": "None",
+          "rarity": "Consumer Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923077,
+            "nonStatTrak": 61476923077,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923077000000",
+            "nonStatTrak": "0.061476923077000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "r8-revolver-inlay",
+          "displayName": "R8 Revolver | Inlay",
+          "category": "pistol",
+          "weapon": "R8 Revolver",
+          "skin": "Inlay",
+          "variant": "None",
+          "rarity": "Consumer Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923077,
+            "nonStatTrak": 61476923077,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923077000000",
+            "nonStatTrak": "0.061476923077000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-hieroglyph",
+          "displayName": "XM1014 | Hieroglyph",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Hieroglyph",
+          "variant": "None",
+          "rarity": "Consumer Grade",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 61476923076,
+            "nonStatTrak": 61476923076,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.061476923076000000",
+            "nonStatTrak": "0.061476923076000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "glock-18-rameses-reach",
+          "displayName": "Glock-18 | Ramese's Reach",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Ramese's Reach",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 53266666667,
+            "nonStatTrak": 53266666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.053266666667000000",
+            "nonStatTrak": "0.053266666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "nova-sobeks-bite",
+          "displayName": "Nova | Sobek's Bite",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Sobek's Bite",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 53266666667,
+            "nonStatTrak": 53266666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.053266666667000000",
+            "nonStatTrak": "0.053266666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p90-scarab-rush",
+          "displayName": "P90 | ScaraB Rush",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "ScaraB Rush",
+          "variant": "None",
+          "rarity": "Restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 53266666666,
+            "nonStatTrak": 53266666666,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.053266666666000000",
+            "nonStatTrak": "0.053266666666000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "famas-waters-of-nephthys",
+          "displayName": "FAMAS | Waters of Nephthys",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Waters of Nephthys",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 16000000000,
+            "nonStatTrak": 16000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016000000000000000",
+            "nonStatTrak": "0.016000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p250-apeps-curse",
+          "displayName": "P250 | Apep's Curse",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Apep's Curse",
+          "variant": "None",
+          "rarity": "Classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 16000000000,
+            "nonStatTrak": 16000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016000000000000000",
+            "nonStatTrak": "0.016000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "m4a4-eye-of-horus",
+          "displayName": "M4A4 | Eye of Horus",
+          "category": "rifle",
+          "weapon": "M4A4",
+          "skin": "Eye of Horus",
+          "variant": "None",
+          "rarity": "Covert",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Item Listed In Multiple Public CS2 Skin Databases For This Package; StatTrak Not Available For This Package.",
+          "weights": {
+            "base": 6400000000,
+            "nonStatTrak": 6400000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.006400000000000000",
+            "nonStatTrak": "0.006400000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "anubis-collection-package-gold-placeholder",
+      "name": "No Rare Special Item",
+      "category": "knife_pool",
+      "sources": [
+        "https://skinport.com/blog/anubis-collection-package",
+        "https://pricempire.com/cs2-items/collection-package/anubis-collection-package"
+      ],
+      "items": [
+        {
+          "itemId": "no-rare-special-item",
+          "displayName": "No Rare Special Item",
+          "category": "special",
+          "weapon": "None",
+          "skin": "None",
+          "variant": "None",
+          "rarity": "Rare Special Item",
+          "statTrakEligible": false,
+          "verified": false,
+          "confidence": "High",
+          "rationale": "Anubis Collection Package Does Not Contain Knives Or Gloves; This Placeholder Represents A Disabled Gold Outcome For Schema Compatibility.",
+          "weights": {
+            "base": 2600000000,
+            "nonStatTrak": 2600000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002600000000000000",
+            "nonStatTrak": "0.002600000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 13,
+      "purple": 3,
+      "pink": 2,
+      "red": 1,
+      "gold": 1
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Package Uses Collection Rarities (Consumer/Industrial) That Are Mapped Into The Blue Tier For Schema Compatibility.",
+      "Package Has No Rare Special Items; Gold Pool Contains A Placeholder Outcome.",
+      "Tier Odds Use The Default Case Odds Model Because Valve Does Not Publish Official Drop Rates For This Package."
+    ]
+  }
+}

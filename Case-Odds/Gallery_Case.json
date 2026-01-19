@@ -1,0 +1,769 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "gallery-case",
+    "name": "Gallery Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/Gallery_Case",
+      "https://totalcsgo.com/skins/cases/gallery-case",
+      "https://wiki.cs.money/cases/gallery-case/knives",
+      "https://steamcommunity.com/market/listings/730/Gallery%20Case"
+    ],
+    "notes": [
+      "Tier Odds Use Default Case Odds; Items Assumed Equally Likely Within Each Tier; StatTrak Split Applied At 10% For Eligible Items."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "usp-s-27",
+          "displayName": "USP-S | 27",
+          "category": "weapon_skin",
+          "weapon": "USP-S",
+          "skin": "27",
+          "variant": "None",
+          "rarity": "blue",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "desert-eagle-calligraffiti",
+          "displayName": "Desert Eagle | Calligraffiti",
+          "category": "weapon_skin",
+          "weapon": "Desert Eagle",
+          "skin": "Calligraffiti",
+          "variant": "None",
+          "rarity": "blue",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mp5-sd-statics",
+          "displayName": "MP5-SD | Statics",
+          "category": "weapon_skin",
+          "weapon": "MP5-SD",
+          "skin": "Statics",
+          "variant": "None",
+          "rarity": "blue",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "aug-luxe-trim",
+          "displayName": "AUG | Luxe Trim",
+          "category": "weapon_skin",
+          "weapon": "AUG",
+          "skin": "Luxe Trim",
+          "variant": "None",
+          "rarity": "blue",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "m249-hypnosis",
+          "displayName": "M249 | Hypnosis",
+          "category": "weapon_skin",
+          "weapon": "M249",
+          "skin": "Hypnosis",
+          "variant": "None",
+          "rarity": "blue",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "r8-revolver-tango",
+          "displayName": "R8 Revolver | Tango",
+          "category": "weapon_skin",
+          "weapon": "R8 Revolver",
+          "skin": "Tango",
+          "variant": "None",
+          "rarity": "blue",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "scar-20-trail-blazer",
+          "displayName": "SCAR-20 | Trail Blazer",
+          "category": "weapon_skin",
+          "weapon": "SCAR-20",
+          "skin": "Trail Blazer",
+          "variant": "None",
+          "rarity": "blue",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "m4a4-turbine",
+          "displayName": "M4A4 | Turbine",
+          "category": "weapon_skin",
+          "weapon": "M4A4",
+          "skin": "Turbine",
+          "variant": "None",
+          "rarity": "purple",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-hydro-strike",
+          "displayName": "Dual Berettas | Hydro Strike",
+          "category": "weapon_skin",
+          "weapon": "Dual Berettas",
+          "skin": "Hydro Strike",
+          "variant": "None",
+          "rarity": "purple",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-saiba-oni",
+          "displayName": "MAC-10 | Saibā Oni",
+          "category": "weapon_skin",
+          "weapon": "MAC-10",
+          "skin": "Saibā Oni",
+          "variant": "None",
+          "rarity": "purple",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "p90-randy-rush",
+          "displayName": "P90 | Randy Rush",
+          "category": "weapon_skin",
+          "weapon": "P90",
+          "skin": "Randy Rush",
+          "variant": "None",
+          "rarity": "purple",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-rapid-transit",
+          "displayName": "SSG 08 | Rapid Transit",
+          "category": "weapon_skin",
+          "weapon": "SSG 08",
+          "skin": "Rapid Transit",
+          "variant": "None",
+          "rarity": "purple",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "ak-47-the-outsiders",
+          "displayName": "AK-47 | The Outsiders",
+          "category": "weapon_skin",
+          "weapon": "AK-47",
+          "skin": "The Outsiders",
+          "variant": "None",
+          "rarity": "pink",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "p250-epicenter",
+          "displayName": "P250 | Epicenter",
+          "category": "weapon_skin",
+          "weapon": "P250",
+          "skin": "Epicenter",
+          "variant": "None",
+          "rarity": "pink",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "ump-45-neo-noir",
+          "displayName": "UMP-45 | Neo-Noir",
+          "category": "weapon_skin",
+          "weapon": "UMP-45",
+          "skin": "Neo-Noir",
+          "variant": "None",
+          "rarity": "pink",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "glock-18-gold-toof",
+          "displayName": "Glock-18 | Gold Toof",
+          "category": "weapon_skin",
+          "weapon": "Glock-18",
+          "skin": "Gold Toof",
+          "variant": "None",
+          "rarity": "red",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "m4a1-s-vaporwave",
+          "displayName": "M4A1-S | Vaporwave",
+          "category": "weapon_skin",
+          "weapon": "M4A1-S",
+          "skin": "Vaporwave",
+          "variant": "None",
+          "rarity": "red",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Content Lists.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "gallery-case-kukri-knife-pool",
+      "name": "Kukri Knife Finishes",
+      "category": "knife_pool",
+      "sources": [
+        "https://wiki.cs.money/cases/gallery-case/knives",
+        "https://csgoskins.gg/containers/gallery-case/specials"
+      ],
+      "items": [
+        {
+          "itemId": "kukri-knife-crimson-web",
+          "displayName": "★ Kukri Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-fade",
+          "displayName": "★ Kukri Knife | Fade",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-slaughter",
+          "displayName": "★ Kukri Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-case-hardened",
+          "displayName": "★ Kukri Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-blue-steel",
+          "displayName": "★ Kukri Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-stained",
+          "displayName": "★ Kukri Knife | Stained",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-vanilla",
+          "displayName": "★ Kukri Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-urban-masked",
+          "displayName": "★ Kukri Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-night-stripe",
+          "displayName": "★ Kukri Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-scorched",
+          "displayName": "★ Kukri Knife | Scorched",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-forest-ddpat",
+          "displayName": "★ Kukri Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-boreal-forest",
+          "displayName": "★ Kukri Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "kukri-knife-safari-mesh",
+          "displayName": "★ Kukri Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Kukri Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "gold",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Multiple Public Case Knife Pool Lists.",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 13
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Default Tier Odds Used; Equal-Within-Tier Assumption Applied; No Float Or Wear Modelling."
+    ]
+  }
+}

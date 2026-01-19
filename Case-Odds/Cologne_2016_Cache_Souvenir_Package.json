@@ -1,0 +1,392 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "cologne-2016-cache-souvenir-package",
+    "name": "Cologne 2016 Cache Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/ESL_One_Cologne_2016_Souvenir_Packages",
+      "https://counterstrike.fandom.com/wiki/Skins/List",
+      "https://csgoskins.gg/containers/cologne-2016-cache-souvenir-package"
+    ],
+    "notes": [
+      "Souvenir Package For ESL One Cologne 2016 (Cache). Sticker Permutations Are Ignored (stickersMode=ignored).",
+      "The Cache Collection (Used By This Package) Contains Only Industrial, Mil-Spec, And Restricted Skins In This Era; Consumer, Classified, And Covert Tiers Are Not Present, So Odds Were Renormalized Across Existing Tiers To Preserve Total Weight."
+    ],
+    "souvenir": {
+      "tournament": "ESL One Cologne",
+      "year": "2016",
+      "map": "Cache",
+      "collection": "Cache Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/ESL_One_Cologne_2016_Souvenir_Packages",
+        "https://counterstrike.fandom.com/wiki/Skins/List"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 0,
+      "industrial": 806256306761,
+      "milspec": 161453077699,
+      "restricted": 32290615540,
+      "classified": 0,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [],
+      "industrial": [
+        {
+          "itemId": "negev-nuclear-waste-souvenir",
+          "displayName": "Souvenir Negev | Nuclear Waste",
+          "category": "weapon_skin",
+          "weapon": "Negev",
+          "skin": "Nuclear Waste",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 134376051127,
+            "nonStatTrak": 134376051127,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.134376051127000000",
+            "nonStatTrak": "0.134376051127000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p250-contamination-souvenir",
+          "displayName": "Souvenir P250 | Contamination",
+          "category": "weapon_skin",
+          "weapon": "P250",
+          "skin": "Contamination",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 134376051127,
+            "nonStatTrak": 134376051127,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.134376051127000000",
+            "nonStatTrak": "0.134376051127000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "aug-radiation-hazard-souvenir",
+          "displayName": "Souvenir AUG | Radiation Hazard",
+          "category": "weapon_skin",
+          "weapon": "AUG",
+          "skin": "Radiation Hazard",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 134376051127,
+            "nonStatTrak": 134376051127,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.134376051127000000",
+            "nonStatTrak": "0.134376051127000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-chemical-green-souvenir",
+          "displayName": "Souvenir PP-Bizon | Chemical Green",
+          "category": "weapon_skin",
+          "weapon": "PP-Bizon",
+          "skin": "Chemical Green",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 134376051127,
+            "nonStatTrak": 134376051127,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.134376051127000000",
+            "nonStatTrak": "0.134376051127000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sg-553-fallout-warning-souvenir",
+          "displayName": "Souvenir SG 553 | Fallout Warning",
+          "category": "weapon_skin",
+          "weapon": "SG 553",
+          "skin": "Fallout Warning",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 134376051127,
+            "nonStatTrak": 134376051127,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.134376051127000000",
+            "nonStatTrak": "0.134376051127000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "five-seve-n-hot-shot-souvenir",
+          "displayName": "Souvenir Five-SeveN | Hot Shot",
+          "category": "weapon_skin",
+          "weapon": "Five-SeveN",
+          "skin": "Hot Shot",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 134376051126,
+            "nonStatTrak": 134376051126,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.134376051126000000",
+            "nonStatTrak": "0.134376051126000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "glock-18-reactor-souvenir",
+          "displayName": "Souvenir Glock-18 | Reactor",
+          "category": "weapon_skin",
+          "weapon": "Glock-18",
+          "skin": "Reactor",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 32290615540,
+            "nonStatTrak": 32290615540,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.032290615540000000",
+            "nonStatTrak": "0.032290615540000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-setting-sun-souvenir",
+          "displayName": "Souvenir MP9 | Setting Sun",
+          "category": "weapon_skin",
+          "weapon": "MP9",
+          "skin": "Setting Sun",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 32290615540,
+            "nonStatTrak": 32290615540,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.032290615540000000",
+            "nonStatTrak": "0.032290615540000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-bone-machine-souvenir",
+          "displayName": "Souvenir XM1014 | Bone Machine",
+          "category": "weapon_skin",
+          "weapon": "XM1014",
+          "skin": "Bone Machine",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 32290615540,
+            "nonStatTrak": 32290615540,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.032290615540000000",
+            "nonStatTrak": "0.032290615540000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-nuclear-garden-souvenir",
+          "displayName": "Souvenir MAC-10 | Nuclear Garden",
+          "category": "weapon_skin",
+          "weapon": "MAC-10",
+          "skin": "Nuclear Garden",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 32290615540,
+            "nonStatTrak": 32290615540,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.032290615540000000",
+            "nonStatTrak": "0.032290615540000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "tec-9-toxic-souvenir",
+          "displayName": "Souvenir Tec-9 | Toxic",
+          "category": "weapon_skin",
+          "weapon": "Tec-9",
+          "skin": "Toxic",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 32290615539,
+            "nonStatTrak": 32290615539,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.032290615539000000",
+            "nonStatTrak": "0.032290615539000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "famas-styx-souvenir",
+          "displayName": "Souvenir FAMAS | Styx",
+          "category": "weapon_skin",
+          "weapon": "FAMAS",
+          "skin": "Styx",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 16145307770,
+            "nonStatTrak": 16145307770,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016145307770000000",
+            "nonStatTrak": "0.016145307770000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "galil-ar-cerberus-souvenir",
+          "displayName": "Souvenir Galil AR | Cerberus",
+          "category": "weapon_skin",
+          "weapon": "Galil AR",
+          "skin": "Cerberus",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed By Counter-Strike Wiki (Skins/List -> Cache Collection) And csgoskins.gg Container Contents.",
+          "weights": {
+            "base": 16145307770,
+            "nonStatTrak": 16145307770,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016145307770000000",
+            "nonStatTrak": "0.016145307770000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 0,
+      "industrial": 6,
+      "milspec": 5,
+      "restricted": 2,
+      "classified": 0,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Collection Rarity Tiers consumer/classified/covert Have No Items In The Cache Collection Used By This Package; Default Collection Odds Were Renormalized Across industrial/milspec/restricted To Avoid Zero-Item Tier Weights."
+    ]
+  }
+}

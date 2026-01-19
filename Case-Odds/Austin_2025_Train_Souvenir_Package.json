@@ -1,0 +1,461 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "austin-2025-train-souvenir-package",
+    "name": "Austin 2025 Train Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Austin%202025%20Train%20Souvenir%20Package",
+      "https://csgoskins.gg/containers/austin-2025-train-souvenir-package"
+    ],
+    "notes": [
+      "Souvenir Package For The BLAST.tv Austin 2025 CS2 Major Championship (Map: Train).",
+      "Contains Skins From The Train 2025 Collection Only; Sticker Permutations Are Not Enumerated (stickersMode=ignored).",
+      "The Train 2025 Collection Has No Consumer-Grade Skins; The Default Consumer Probability Mass Was Reassigned To Industrial For Weighting."
+    ],
+    "souvenir": {
+      "tournament": "BLAST.tv Austin 2025 CS2 Major Championship",
+      "year": "2025",
+      "map": "Train",
+      "collection": "The Train 2025 Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://csgoskins.gg/containers/austin-2025-train-souvenir-package",
+        "https://csgoskins.gg/tournaments/2025-blast-austin/souvenir-package",
+        "https://steamcommunity.com/market/listings/730/Austin%202025%20Train%20Souvenir%20Package"
+      ]
+    },
+    "oddsWeights": {
+      "industrial": 959000000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 1280000000,
+      "covert": 1320000000
+    },
+    "tiers": {
+      "industrial": [
+        {
+          "itemId": "galil-ar-green-apple-souvenir",
+          "displayName": "Souvenir Galil AR | Green Apple",
+          "category": "Rifle",
+          "weapon": "Galil AR",
+          "skin": "Green Apple",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 159833333334,
+            "nonStatTrak": 159833333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159833333334000000",
+            "nonStatTrak": "0.159833333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "aug-steel-sentinel-souvenir",
+          "displayName": "Souvenir AUG | Steel Sentinel",
+          "category": "Rifle",
+          "weapon": "AUG",
+          "skin": "Steel Sentinel",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 159833333334,
+            "nonStatTrak": 159833333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159833333334000000",
+            "nonStatTrak": "0.159833333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p90-straight-dimes-souvenir",
+          "displayName": "Souvenir P90 | Straight Dimes",
+          "category": "SMG",
+          "weapon": "P90",
+          "skin": "Straight Dimes",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 159833333333,
+            "nonStatTrak": 159833333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159833333333000000",
+            "nonStatTrak": "0.159833333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "nova-rain-station-souvenir",
+          "displayName": "Souvenir Nova | Rain Station",
+          "category": "Shotgun",
+          "weapon": "Nova",
+          "skin": "Rain Station",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 159833333333,
+            "nonStatTrak": 159833333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159833333333000000",
+            "nonStatTrak": "0.159833333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "p250-constructivist-souvenir",
+          "displayName": "Souvenir P250 | Constructivist",
+          "category": "Pistol",
+          "weapon": "P250",
+          "skin": "Constructivist",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 159833333333,
+            "nonStatTrak": 159833333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159833333333000000",
+            "nonStatTrak": "0.159833333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "cz75-auto-copper-fiber-souvenir",
+          "displayName": "Souvenir CZ75-Auto | Copper Fiber",
+          "category": "Pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Copper Fiber",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 159833333333,
+            "nonStatTrak": 159833333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159833333333000000",
+            "nonStatTrak": "0.159833333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "glock-18-green-line-souvenir",
+          "displayName": "Souvenir Glock-18 | Green Line",
+          "category": "Pistol",
+          "weapon": "Glock-18",
+          "skin": "Green Line",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "famas-2a2f-souvenir",
+          "displayName": "Souvenir FAMAS | 2A2F",
+          "category": "Rifle",
+          "weapon": "FAMAS",
+          "skin": "2A2F",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-late-night-transit-souvenir",
+          "displayName": "Souvenir UMP-45 | Late Night Transit",
+          "category": "SMG",
+          "weapon": "UMP-45",
+          "skin": "Late Night Transit",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-run-run-run-souvenir",
+          "displayName": "Souvenir XM1014 | Run Run Run",
+          "category": "Shotgun",
+          "weapon": "XM1014",
+          "skin": "Run Run Run",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "tec-9-whiteout-souvenir",
+          "displayName": "Souvenir Tec-9 | Whiteout",
+          "category": "Pistol",
+          "weapon": "Tec-9",
+          "skin": "Whiteout",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 2133333334,
+            "nonStatTrak": 2133333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333334000000",
+            "nonStatTrak": "0.002133333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "zeus-x27-charged-up-souvenir",
+          "displayName": "Souvenir Zeus x27 | Charged Up",
+          "category": "Equipment",
+          "weapon": "Zeus x27",
+          "skin": "Charged Up",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-derailment-souvenir",
+          "displayName": "Souvenir MAC-10 | Derailment",
+          "category": "SMG",
+          "weapon": "MAC-10",
+          "skin": "Derailment",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "m4a4-hellish-souvenir",
+          "displayName": "Souvenir M4A4 | Hellish",
+          "category": "Rifle",
+          "weapon": "M4A4",
+          "skin": "Hellish",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 640000000,
+            "nonStatTrak": 640000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000640000000000000",
+            "nonStatTrak": "0.000640000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-latte-rush-souvenir",
+          "displayName": "Souvenir MP9 | Latte Rush",
+          "category": "SMG",
+          "weapon": "MP9",
+          "skin": "Latte Rush",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 640000000,
+            "nonStatTrak": 640000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000640000000000000",
+            "nonStatTrak": "0.000640000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": [
+        {
+          "itemId": "awp-longdog-souvenir",
+          "displayName": "Souvenir AWP | LongDog",
+          "category": "Sniper Rifle",
+          "weapon": "AWP",
+          "skin": "LongDog",
+          "variant": "Souvenir",
+          "rarity": "covert",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Train 2025 Collection For Austin 2025 Train Souvenir Package.",
+          "weights": {
+            "base": 1320000000,
+            "nonStatTrak": 1320000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001320000000000000",
+            "nonStatTrak": "0.001320000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "industrial": 6,
+      "milspec": 4,
+      "restricted": 3,
+      "classified": 2,
+      "covert": 1
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "The Train 2025 Collection Does Not Include Any Consumer-Grade Skins; Default Consumer Probability Mass Was Reassigned To Industrial For Weighting So Totals Match unit.scale."
+    ]
+  }
+}

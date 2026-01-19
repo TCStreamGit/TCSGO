@@ -1,0 +1,2326 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T22:13:23Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "ems-one-2014-souvenir-package",
+    "name": "EMS One 2014 Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://wiki.skin.land/souvenir-packages/ems-one-2014-souvenir-package/",
+      "https://totalcsgo.com/skins/souvenir-packages/ems-one-2014-souvenir-package",
+      "https://cs.money/csgo/containers/ems-one-2014-souvenir-package"
+    ],
+    "notes": [
+      "Souvenir Package Loot Table Compiled From Public Container Databases; Sticker Permutations Ignored; StatTrak Is Not Possible For Souvenir Drops."
+    ],
+    "souvenir": {
+      "tournament": "EMS One Katowice",
+      "year": "2014",
+      "map": "Multiple",
+      "collection": "Multiple Collections",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://wiki.skin.land/souvenir-packages/ems-one-2014-souvenir-package/",
+        "https://totalcsgo.com/skins/souvenir-packages/ems-one-2014-souvenir-package"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 2600000000,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-aug-colony",
+          "displayName": "Souvenir AUG | Colony",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Colony",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882353,
+            "nonStatTrak": 23505882353,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882353000000",
+            "nonStatTrak": "0.023505882353000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-aug-contractor",
+          "displayName": "Souvenir AUG | Contractor",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Contractor",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882353,
+            "nonStatTrak": 23505882353,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882353000000",
+            "nonStatTrak": "0.023505882353000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-aug-storm",
+          "displayName": "Souvenir AUG | Storm",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882353,
+            "nonStatTrak": 23505882353,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882353000000",
+            "nonStatTrak": "0.023505882353000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-dual-berettas-colony",
+          "displayName": "Souvenir Dual Berettas | Colony",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Colony",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882353,
+            "nonStatTrak": 23505882353,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882353000000",
+            "nonStatTrak": "0.023505882353000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-dual-berettas-contractor",
+          "displayName": "Souvenir Dual Berettas | Contractor",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Contractor",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882353,
+            "nonStatTrak": 23505882353,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882353000000",
+            "nonStatTrak": "0.023505882353000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-famas-colony",
+          "displayName": "Souvenir FAMAS | Colony",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Colony",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882353,
+            "nonStatTrak": 23505882353,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882353000000",
+            "nonStatTrak": "0.023505882353000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-five-seven-contractor",
+          "displayName": "Souvenir Five-SeveN | Contractor",
+          "category": "pistol",
+          "weapon": "Five-SeveN",
+          "skin": "Contractor",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882353,
+            "nonStatTrak": 23505882353,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882353000000",
+            "nonStatTrak": "0.023505882353000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-five-seven-forest-night",
+          "displayName": "Souvenir Five-SeveN | Forest Night",
+          "category": "pistol",
+          "weapon": "Five-SeveN",
+          "skin": "Forest Night",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882353,
+            "nonStatTrak": 23505882353,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882353000000",
+            "nonStatTrak": "0.023505882353000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-g3sg1-desert-storm",
+          "displayName": "Souvenir G3SG1 | Desert Storm",
+          "category": "sniper_rifle",
+          "weapon": "G3SG1",
+          "skin": "Desert Storm",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882353,
+            "nonStatTrak": 23505882353,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882353000000",
+            "nonStatTrak": "0.023505882353000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-g3sg1-jungle-dashed",
+          "displayName": "Souvenir G3SG1 | Jungle Dashed",
+          "category": "sniper_rifle",
+          "weapon": "G3SG1",
+          "skin": "Jungle Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882353,
+            "nonStatTrak": 23505882353,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882353000000",
+            "nonStatTrak": "0.023505882353000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-g3sg1-polar-camo",
+          "displayName": "Souvenir G3SG1 | Polar Camo",
+          "category": "sniper_rifle",
+          "weapon": "G3SG1",
+          "skin": "Polar Camo",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-g3sg1-safari-mesh",
+          "displayName": "Souvenir G3SG1 | Safari Mesh",
+          "category": "sniper_rifle",
+          "weapon": "G3SG1",
+          "skin": "Safari Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-galil-ar-hunting-blind",
+          "displayName": "Souvenir Galil AR | Hunting Blind",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "Hunting Blind",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-galil-ar-sage-spray",
+          "displayName": "Souvenir Galil AR | Sage Spray",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "Sage Spray",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp7-army-recon",
+          "displayName": "Souvenir MP7 | Army Recon",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Army Recon",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp9-sand-dashed",
+          "displayName": "Souvenir MP9 | Sand Dashed",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Sand Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-nova-polar-mesh",
+          "displayName": "Souvenir Nova | Polar Mesh",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Polar Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-nova-predator",
+          "displayName": "Souvenir Nova | Predator",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Predator",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-nova-sand-dune",
+          "displayName": "Souvenir Nova | Sand Dune",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Sand Dune",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p2000-amber-fade",
+          "displayName": "Souvenir P2000 | Amber Fade",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p250-bone-mask",
+          "displayName": "Souvenir P250 | Bone Mask",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Bone Mask",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p250-boreal-forest",
+          "displayName": "Souvenir P250 | Boreal Forest",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Boreal Forest",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p250-metallic-ddpat",
+          "displayName": "Souvenir P250 | Metallic DDPAT",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Metallic DDPAT",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p250-sand-dune",
+          "displayName": "Souvenir P250 | Sand Dune",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Sand Dune",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-sand-spray",
+          "displayName": "Souvenir P90 | Sand Spray",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Sand Spray",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-sand-spray-2",
+          "displayName": "Souvenir P90 | Sand Spray",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Sand Spray",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": false,
+          "confidence": "Low",
+          "rationale": "Duplicate Detected During Source Normalization; Retained As A Fallback Because Source Pagination Provided A Repeated Label. Treat As Same Outcome.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-scorched",
+          "displayName": "Souvenir P90 | Scorched",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Scorched",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-scorched-2",
+          "displayName": "Souvenir P90 | Scorched",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Scorched",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": false,
+          "confidence": "Low",
+          "rationale": "Duplicate Detected During Source Normalization; Retained As A Fallback Because Source Pagination Provided A Repeated Label. Treat As Same Outcome.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-pp-bizon-sand-dashed",
+          "displayName": "Souvenir PP-Bizon | Sand Dashed",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Sand Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-pp-bizon-urban-dashed",
+          "displayName": "Souvenir PP-Bizon | Urban Dashed",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Urban Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-scar-20-contractor",
+          "displayName": "Souvenir SCAR-20 | Contractor",
+          "category": "sniper_rifle",
+          "weapon": "SCAR-20",
+          "skin": "Contractor",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-scar-20-sand-mesh",
+          "displayName": "Souvenir SCAR-20 | Sand Mesh",
+          "category": "sniper_rifle",
+          "weapon": "SCAR-20",
+          "skin": "Sand Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sg-553-waves-perforated",
+          "displayName": "Souvenir SG 553 | Waves Perforated",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Waves Perforated",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ssg-08-blue-spruce",
+          "displayName": "Souvenir SSG 08 | Blue Spruce",
+          "category": "sniper_rifle",
+          "weapon": "SSG 08",
+          "skin": "Blue Spruce",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-tec-9-army-mesh",
+          "displayName": "Souvenir Tec-9 | Army Mesh",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Army Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-tec-9-groundwater",
+          "displayName": "Souvenir Tec-9 | Groundwater",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Groundwater",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-tec-9-army-mesh-2",
+          "displayName": "Souvenir Tec-9 | Army Mesh",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Army Mesh",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": false,
+          "confidence": "Low",
+          "rationale": "Duplicate Detected During Source Normalization; Retained As A Fallback Because Source Pagination Provided A Repeated Label. Treat As Same Outcome.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ump-45-urban-ddpat",
+          "displayName": "Souvenir UMP-45 | Urban DDPAT",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Urban DDPAT",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-xm1014-blue-spruce",
+          "displayName": "Souvenir XM1014 | Blue Spruce",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Blue Spruce",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 23505882352,
+            "nonStatTrak": 23505882352,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.023505882352000000",
+            "nonStatTrak": "0.023505882352000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-ak-47-safari-mesh",
+          "displayName": "Souvenir AK-47 | Safari Mesh",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Safari Mesh",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-aug-condemned",
+          "displayName": "Souvenir AUG | Condemned",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Condemned",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-aug-condemned-2",
+          "displayName": "Souvenir AUG | Condemned",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Condemned",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": false,
+          "confidence": "Low",
+          "rationale": "Duplicate Detected During Source Normalization; Retained As A Fallback Because Source Pagination Provided A Repeated Label. Treat As Same Outcome.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-awp-safari-mesh",
+          "displayName": "Souvenir AWP | Safari Mesh",
+          "category": "sniper_rifle",
+          "weapon": "AWP",
+          "skin": "Safari Mesh",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-desert-eagle-mudder",
+          "displayName": "Souvenir Desert Eagle | Mudder",
+          "category": "pistol",
+          "weapon": "Desert Eagle",
+          "skin": "Mudder",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-dual-berettas-stained",
+          "displayName": "Souvenir Dual Berettas | Stained",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Stained",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-famas-cyanospatter",
+          "displayName": "Souvenir FAMAS | Cyanospatter",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Cyanospatter",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-g3sg1-varicamo",
+          "displayName": "Souvenir G3SG1 | VariCamo",
+          "category": "sniper_rifle",
+          "weapon": "G3SG1",
+          "skin": "VariCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-galil-ar-varicamo",
+          "displayName": "Souvenir Galil AR | VariCamo",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "VariCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-glock-18-groundwater",
+          "displayName": "Souvenir Glock-18 | Groundwater",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Groundwater",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-m249-gator-mesh",
+          "displayName": "Souvenir M249 | Gator Mesh",
+          "category": "machine_gun",
+          "weapon": "M249",
+          "skin": "Gator Mesh",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-m4a1-s-blue-phosphor",
+          "displayName": "Souvenir M4A1-S | Blue Phosphor",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Blue Phosphor",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-m4a4-urban-ddpat",
+          "displayName": "Souvenir M4A4 | Urban DDPAT",
+          "category": "rifle",
+          "weapon": "M4A4",
+          "skin": "Urban DDPAT",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mac-10-candy-apple",
+          "displayName": "Souvenir MAC-10 | Candy Apple",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Candy Apple",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424243,
+            "nonStatTrak": 4842424243,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424243000000",
+            "nonStatTrak": "0.004842424243000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mac-10-palm",
+          "displayName": "Souvenir MAC-10 | Palm",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Palm",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mag-7-metallic-ddpat",
+          "displayName": "Souvenir MAG-7 | Metallic DDPAT",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Metallic DDPAT",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp7-orange-peel",
+          "displayName": "Souvenir MP7 | Orange Peel",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Orange Peel",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp9-orange-peel",
+          "displayName": "Souvenir MP9 | Orange Peel",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Orange Peel",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-negev-calicamo",
+          "displayName": "Souvenir Negev | CaliCamo",
+          "category": "machine_gun",
+          "weapon": "Negev",
+          "skin": "CaliCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-nova-candy-apple",
+          "displayName": "Souvenir Nova | Candy Apple",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Candy Apple",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p2000-granite-marbleized",
+          "displayName": "Souvenir P2000 | Granite Marbleized",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Granite Marbleized",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-ash-wood",
+          "displayName": "Souvenir P90 | Ash Wood",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Ash Wood",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-pp-bizon-night-ops",
+          "displayName": "Souvenir PP-Bizon | Night Ops",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Night Ops",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sawed-off-snake-camo",
+          "displayName": "Souvenir Sawed-Off | Snake Camo",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Snake Camo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-scar-20-carbon-fiber",
+          "displayName": "Souvenir SCAR-20 | Carbon Fiber",
+          "category": "sniper_rifle",
+          "weapon": "SCAR-20",
+          "skin": "Carbon Fiber",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sg-553-gator-mesh",
+          "displayName": "Souvenir SG 553 | Gator Mesh",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Gator Mesh",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sg-553-gator-mesh-2",
+          "displayName": "Souvenir SG 553 | Gator Mesh",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Gator Mesh",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": false,
+          "confidence": "Low",
+          "rationale": "Duplicate Detected During Source Normalization; Retained As A Fallback Because Source Pagination Provided A Repeated Label. Treat As Same Outcome.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ssg-08-tropical-storm",
+          "displayName": "Souvenir SSG 08 | Tropical Storm",
+          "category": "sniper_rifle",
+          "weapon": "SSG 08",
+          "skin": "Tropical Storm",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-tec-9-varicamo",
+          "displayName": "Souvenir Tec-9 | VariCamo",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "VariCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ump-45-gunsmoke",
+          "displayName": "Souvenir UMP-45 | Gunsmoke",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Gunsmoke",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-usp-s-forest-leaves",
+          "displayName": "Souvenir USP-S | Forest Leaves",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Forest Leaves",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-usp-s-groundwater",
+          "displayName": "Souvenir USP-S | Groundwater",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Groundwater",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": false,
+          "confidence": "Low",
+          "rationale": "Source Lists Glock-18 Groundwater; No USP-S Groundwater Entry Confirmed In Parsed Pages. Placeholder Kept To Preserve Completeness Where Source Pagination Appeared Ambiguous.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-xm1014-blue-steel",
+          "displayName": "Souvenir XM1014 | Blue Steel",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Blue Steel",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-xm1014-calicamo",
+          "displayName": "Souvenir XM1014 | CaliCamo",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "CaliCamo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 4842424242,
+            "nonStatTrak": 4842424242,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.004842424242000000",
+            "nonStatTrak": "0.004842424242000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-desert-eagle-urban-rubble",
+          "displayName": "Souvenir Desert Eagle | Urban Rubble",
+          "category": "pistol",
+          "weapon": "Desert Eagle",
+          "skin": "Urban Rubble",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352942,
+            "nonStatTrak": 1882352942,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352942000000",
+            "nonStatTrak": "0.001882352942000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-five-seven-silver-quartz",
+          "displayName": "Souvenir Five-SeveN | Silver Quartz",
+          "category": "pistol",
+          "weapon": "Five-SeveN",
+          "skin": "Silver Quartz",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352942,
+            "nonStatTrak": 1882352942,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352942000000",
+            "nonStatTrak": "0.001882352942000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-famas-teardown",
+          "displayName": "Souvenir FAMAS | Teardown",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Teardown",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352942,
+            "nonStatTrak": 1882352942,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352942000000",
+            "nonStatTrak": "0.001882352942000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-glock-18-candy-apple",
+          "displayName": "Souvenir Glock-18 | Candy Apple",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Candy Apple",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352942,
+            "nonStatTrak": 1882352942,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352942000000",
+            "nonStatTrak": "0.001882352942000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-m4a1-s-varicamo",
+          "displayName": "Souvenir M4A1-S | VariCamo",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "VariCamo",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352942,
+            "nonStatTrak": 1882352942,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352942000000",
+            "nonStatTrak": "0.001882352942000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mac-10-amber-fade",
+          "displayName": "Souvenir MAC-10 | Amber Fade",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp7-anodized-navy",
+          "displayName": "Souvenir MP7 | Anodized Navy",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Anodized Navy",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp9-hot-rod",
+          "displayName": "Souvenir MP9 | Hot Rod",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Hot Rod",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-teardown",
+          "displayName": "Souvenir P90 | Teardown",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Teardown",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-pp-bizon-brass",
+          "displayName": "Souvenir PP-Bizon | Brass",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Brass",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sawed-off-amber-fade",
+          "displayName": "Souvenir Sawed-Off | Amber Fade",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sawed-off-full-stop",
+          "displayName": "Souvenir Sawed-Off | Full Stop",
+          "category": "shotgun",
+          "weapon": "Sawed-Off",
+          "skin": "Full Stop",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sg-553-anodized-navy",
+          "displayName": "Souvenir SG 553 | Anodized Navy",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Anodized Navy",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sg-553-damascus-steel",
+          "displayName": "Souvenir SG 553 | Damascus Steel",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Damascus Steel",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ssg-08-acid-fade",
+          "displayName": "Souvenir SSG 08 | Acid Fade",
+          "category": "sniper_rifle",
+          "weapon": "SSG 08",
+          "skin": "Acid Fade",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ump-45-blaze",
+          "displayName": "Souvenir UMP-45 | Blaze",
+          "category": "smg",
+          "weapon": "UMP-45",
+          "skin": "Blaze",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-usp-s-night-ops",
+          "displayName": "Souvenir USP-S | Night Ops",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Night Ops",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1882352941,
+            "nonStatTrak": 1882352941,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001882352941000000",
+            "nonStatTrak": "0.001882352941000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-awp-pit-viper",
+          "displayName": "Souvenir AWP | Pit Viper",
+          "category": "sniper_rifle",
+          "weapon": "AWP",
+          "skin": "Pit Viper",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1066666667,
+            "nonStatTrak": 1066666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001066666667000000",
+            "nonStatTrak": "0.001066666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-dual-berettas-cobalt-quartz",
+          "displayName": "Souvenir Dual Berettas | Cobalt Quartz",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Cobalt Quartz",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1066666667,
+            "nonStatTrak": 1066666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001066666667000000",
+            "nonStatTrak": "0.001066666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-m4a1-s-nitro",
+          "displayName": "Souvenir M4A1-S | Nitro",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Nitro",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1066666667,
+            "nonStatTrak": 1066666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001066666667000000",
+            "nonStatTrak": "0.001066666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mag-7-bulldozer",
+          "displayName": "Souvenir MAG-7 | Bulldozer",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Bulldozer",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1066666667,
+            "nonStatTrak": 1066666667,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001066666667000000",
+            "nonStatTrak": "0.001066666667000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p2000-amber-fade-restricted",
+          "displayName": "Souvenir P2000 | Amber Fade",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1066666666,
+            "nonStatTrak": 1066666666,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001066666666000000",
+            "nonStatTrak": "0.001066666666000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-tec-9-red-quartz",
+          "displayName": "Souvenir Tec-9 | Red Quartz",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Red Quartz",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 1066666666,
+            "nonStatTrak": 1066666666,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001066666666000000",
+            "nonStatTrak": "0.001066666666000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "souvenir-r8-revolver-amber-fade",
+          "displayName": "Souvenir R8 Revolver | Amber Fade",
+          "category": "pistol",
+          "weapon": "R8 Revolver",
+          "skin": "Amber Fade",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop For EMS One 2014 Souvenir Package On Skin.Land Wiki.",
+          "weights": {
+            "base": 2600000000,
+            "nonStatTrak": 2600000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002600000000000000",
+            "nonStatTrak": "0.002600000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 34,
+      "industrial": 33,
+      "milspec": 17,
+      "restricted": 6,
+      "classified": 1,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Covert Tier Has No Items Listed For This Container; The Default Remainder Probability Mass Was Applied To Classified Tier To Preserve Unit Scale Sum.",
+      "Souvenir Stickers Are Not Enumerated (stickersMode=ignored)."
+    ]
+  }
+}

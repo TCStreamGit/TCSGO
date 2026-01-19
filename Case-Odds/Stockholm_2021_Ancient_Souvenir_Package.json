@@ -1,0 +1,535 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "stockholm-2021-ancient-souvenir-package",
+    "name": "Stockholm 2021 Ancient Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Ancient%20Souvenir%20Package",
+      "https://totalcsgo.com/skins/souvenir-packages/stockholm-2021-ancient-souvenir-package",
+      "https://stash.clash.gg/item/19088/Stockholm-2021-Ancient-Souvenir-Package",
+      "https://csgoskins.gg/containers/stockholm-2021-ancient-souvenir-package"
+    ],
+    "notes": [
+      "Souvenir Package For PGL Stockholm 2021 (Map: Ancient). Contains Souvenir Skins From The Ancient Collection Only.",
+      "Sticker Permutations Are Not Enumerated; StickersMode Is Set To Ignored."
+    ],
+    "souvenir": {
+      "tournament": "PGL Stockholm 2021",
+      "year": "2021",
+      "map": "Ancient",
+      "collection": "The Ancient Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Ancient%20Souvenir%20Package",
+        "https://stash.clash.gg/item/19088/Stockholm-2021-Ancient-Souvenir-Package"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 1280000000,
+      "covert": 1320000000
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-p90-ancient-earth",
+          "displayName": "Souvenir P90 | Ancient Earth",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Ancient Earth",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Consumer Grade).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sg-553-lush-ruins",
+          "displayName": "Souvenir SG 553 | Lush Ruins",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Lush Ruins",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Consumer Grade).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-nova-army-sheen",
+          "displayName": "Souvenir Nova | Army Sheen",
+          "category": "shotgun",
+          "weapon": "Nova",
+          "skin": "Army Sheen",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Consumer Grade).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ssg-08-jungle-dashed",
+          "displayName": "Souvenir SSG 08 | Jungle Dashed",
+          "category": "sniper_rifle",
+          "weapon": "SSG 08",
+          "skin": "Jungle Dashed",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Consumer Grade).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-r8-revolver-night",
+          "displayName": "Souvenir R8 Revolver | Night",
+          "category": "pistol",
+          "weapon": "R8 Revolver",
+          "skin": "Night",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Consumer Grade).",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-p2000-panther-camo",
+          "displayName": "Souvenir P2000 | Panther Camo",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Panther Camo",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Industrial Grade).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp7-tall-grass",
+          "displayName": "Souvenir MP7 | Tall Grass",
+          "category": "smg",
+          "weapon": "MP7",
+          "skin": "Tall Grass",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Industrial Grade).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-g3sg1-ancient-ritual",
+          "displayName": "Souvenir G3SG1 | Ancient Ritual",
+          "category": "sniper_rifle",
+          "weapon": "G3SG1",
+          "skin": "Ancient Ritual",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Industrial Grade).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-cz75-auto-silver",
+          "displayName": "Souvenir CZ75-Auto | Silver",
+          "category": "pistol",
+          "weapon": "CZ75-Auto",
+          "skin": "Silver",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Industrial Grade).",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-tec-9-blast-from-the-past",
+          "displayName": "Souvenir Tec-9 | Blast From the Past",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Blast From the Past",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Mil-Spec Grade).",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-aug-carved-jade",
+          "displayName": "Souvenir AUG | Carved Jade",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Carved Jade",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Mil-Spec Grade).",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-galil-ar-dusk-ruins",
+          "displayName": "Souvenir Galil AR | Dusk Ruins",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "Dusk Ruins",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Mil-Spec Grade).",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-famas-dark-water",
+          "displayName": "Souvenir FAMAS | Dark Water",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Dark Water",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Mil-Spec Grade).",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-xm1014-ancient-lore",
+          "displayName": "Souvenir XM1014 | Ancient Lore",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Ancient Lore",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Restricted).",
+          "weights": {
+            "base": 2133333334,
+            "nonStatTrak": 2133333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333334000000",
+            "nonStatTrak": "0.002133333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mac-10-gold-brick",
+          "displayName": "Souvenir MAC-10 | Gold Brick",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Gold Brick",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Restricted).",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-usp-s-ancient-visions",
+          "displayName": "Souvenir USP-S | Ancient Visions",
+          "category": "pistol",
+          "weapon": "USP-S",
+          "skin": "Ancient Visions",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Restricted).",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "souvenir-p90-run-and-hide",
+          "displayName": "Souvenir P90 | Run and Hide",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Run and Hide",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Classified).",
+          "weights": {
+            "base": 640000000,
+            "nonStatTrak": 640000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000640000000000000",
+            "nonStatTrak": "0.000640000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ak-47-panthera-onca",
+          "displayName": "Souvenir AK-47 | Panthera onca",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Panthera onca",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Classified).",
+          "weights": {
+            "base": 640000000,
+            "nonStatTrak": 640000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000640000000000000",
+            "nonStatTrak": "0.000640000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "covert": [
+        {
+          "itemId": "souvenir-m4a1-s-welcome-to-the-jungle",
+          "displayName": "Souvenir M4A1-S | Welcome to the Jungle",
+          "category": "rifle",
+          "weapon": "M4A1-S",
+          "skin": "Welcome to the Jungle",
+          "variant": "Souvenir",
+          "rarity": "covert",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed In Stockholm 2021 Ancient Souvenir Package Contents Lists (Covert).",
+          "weights": {
+            "base": 1320000000,
+            "nonStatTrak": 1320000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001320000000000000",
+            "nonStatTrak": "0.001320000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 4,
+      "restricted": 3,
+      "classified": 2,
+      "covert": 1
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Collection Default Odds Do Not Sum To 1.0; Per Export Rules, The Remainder Was Added To The Last Tier (Covert) To Force oddsWeights Sum == unit.scale.",
+      "Souvenir Sticker Permutations Are Not Enumerated (stickersMode=ignored)."
+    ]
+  }
+}

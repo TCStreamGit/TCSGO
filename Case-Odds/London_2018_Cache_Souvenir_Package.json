@@ -1,0 +1,391 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T14:33:46-07:00",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "london-2018-cache-souvenir-package",
+    "name": "London 2018 Cache Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/London%202018%20Cache%20Souvenir%20Package",
+      "https://csgoskins.gg/containers/london-2018-cache-souvenir-package"
+    ],
+    "notes": [
+      "Contains Souvenir Skins From The Cache Collection; Stickers Are Not Enumerated (stickersMode=ignored).",
+      "The Cache Collection Only Contains Industrial/Mil-Spec/Restricted Grades; Tier Odds Were Normalized Across Those Existing Grades For Weighting."
+    ],
+    "souvenir": {
+      "tournament": "FACEIT London",
+      "year": "2018",
+      "map": "Cache",
+      "collection": "The Cache Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/FACEIT_London_2018_Souvenir_Packages",
+        "https://csgoskins.gg/collections/the-cache-collection"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 0,
+      "industrial": 806458123108,
+      "milspec": 161251261352,
+      "restricted": 32290615540,
+      "classified": 0,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [],
+      "industrial": [
+        {
+          "itemId": "souvenir-aug-radiation-hazard",
+          "displayName": "Souvenir AUG | Radiation Hazard",
+          "category": "rifle",
+          "weapon": "AUG",
+          "skin": "Radiation Hazard",
+          "variant": "Souvenir",
+          "rarity": "Industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 134409687185,
+            "nonStatTrak": 134409687185,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.134409687185000000",
+            "nonStatTrak": "0.134409687185000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-sg-553-fallout-warning",
+          "displayName": "Souvenir SG 553 | Fallout Warning",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Fallout Warning",
+          "variant": "Souvenir",
+          "rarity": "Industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 134409687185,
+            "nonStatTrak": 134409687185,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.134409687185000000",
+            "nonStatTrak": "0.134409687185000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-five-seven-hot-shot",
+          "displayName": "Souvenir Five-SeveN | Hot Shot",
+          "category": "pistol",
+          "weapon": "Five-SeveN",
+          "skin": "Hot Shot",
+          "variant": "Souvenir",
+          "rarity": "Industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 134409687185,
+            "nonStatTrak": 134409687185,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.134409687185000000",
+            "nonStatTrak": "0.134409687185000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-pp-bizon-chemical-green",
+          "displayName": "Souvenir PP-Bizon | Chemical Green",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Chemical Green",
+          "variant": "Souvenir",
+          "rarity": "Industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 134409687185,
+            "nonStatTrak": 134409687185,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.134409687185000000",
+            "nonStatTrak": "0.134409687185000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p250-contamination",
+          "displayName": "Souvenir P250 | Contamination",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Contamination",
+          "variant": "Souvenir",
+          "rarity": "Industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 134409687184,
+            "nonStatTrak": 134409687184,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.134409687184000000",
+            "nonStatTrak": "0.134409687184000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-negev-nuclear-waste",
+          "displayName": "Souvenir Negev | Nuclear Waste",
+          "category": "machinegun",
+          "weapon": "Negev",
+          "skin": "Nuclear Waste",
+          "variant": "Souvenir",
+          "rarity": "Industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 134409687184,
+            "nonStatTrak": 134409687184,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.134409687184000000",
+            "nonStatTrak": "0.134409687184000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-mp9-setting-sun",
+          "displayName": "Souvenir MP9 | Setting Sun",
+          "category": "smg",
+          "weapon": "MP9",
+          "skin": "Setting Sun",
+          "variant": "Souvenir",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 32250252271,
+            "nonStatTrak": 32250252271,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.032250252271000000",
+            "nonStatTrak": "0.032250252271000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-glock-18-reactor",
+          "displayName": "Souvenir Glock-18 | Reactor",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Reactor",
+          "variant": "Souvenir",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 32250252271,
+            "nonStatTrak": 32250252271,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.032250252271000000",
+            "nonStatTrak": "0.032250252271000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mac-10-nuclear-garden",
+          "displayName": "Souvenir MAC-10 | Nuclear Garden",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Nuclear Garden",
+          "variant": "Souvenir",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 32250252270,
+            "nonStatTrak": 32250252270,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.032250252270000000",
+            "nonStatTrak": "0.032250252270000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-tec-9-toxic",
+          "displayName": "Souvenir Tec-9 | Toxic",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Toxic",
+          "variant": "Souvenir",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 32250252270,
+            "nonStatTrak": 32250252270,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.032250252270000000",
+            "nonStatTrak": "0.032250252270000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-xm1014-bone-machine",
+          "displayName": "Souvenir XM1014 | Bone Machine",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Bone Machine",
+          "variant": "Souvenir",
+          "rarity": "Mil-Spec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 32250252270,
+            "nonStatTrak": 32250252270,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.032250252270000000",
+            "nonStatTrak": "0.032250252270000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-galil-ar-cerberus",
+          "displayName": "Souvenir Galil AR | Cerberus",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "Cerberus",
+          "variant": "Souvenir",
+          "rarity": "Restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 16145307770,
+            "nonStatTrak": 16145307770,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016145307770000000",
+            "nonStatTrak": "0.016145307770000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-famas-styx",
+          "displayName": "Souvenir FAMAS | Styx",
+          "category": "rifle",
+          "weapon": "FAMAS",
+          "skin": "Styx",
+          "variant": "Souvenir",
+          "rarity": "Restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed In The Cache Collection And Marked Souvenir Available In Sources.",
+          "weights": {
+            "base": 16145307770,
+            "nonStatTrak": 16145307770,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016145307770000000",
+            "nonStatTrak": "0.016145307770000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 0,
+      "industrial": 6,
+      "milspec": 5,
+      "restricted": 2,
+      "classified": 0,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Default Collection Odds Include Consumer/Classified/Covert, But The Cache Collection Has No Skins In Those Grades; Odds Were Normalized Across Industrial/Mil-Spec/Restricted For This Export."
+    ]
+  }
+}

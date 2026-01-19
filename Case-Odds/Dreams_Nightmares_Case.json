@@ -1,0 +1,1618 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "dreams-and-nightmares-case",
+    "name": "Dreams & Nightmares Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://csgoskins.gg/containers/dreams-nightmares-case",
+      "https://wiki.cs.money/cases/dreams-nightmares-case"
+    ],
+    "notes": [
+      "Tier Odds Use Default Probabilities; Within-Tier Odds Are Equal Per Item. Gold Pool Is Expanded To Individual Gamma Doppler Phases And Emerald."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "five-seven-scrawl",
+          "displayName": "Five-SeveN | Scrawl",
+          "category": "weapon",
+          "weapon": "Five-SeveN",
+          "skin": "Scrawl",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "scar-20-poultrygeist",
+          "displayName": "SCAR-20 | Poultrygeist",
+          "category": "weapon",
+          "weapon": "SCAR-20",
+          "skin": "Poultrygeist",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mac-10-ensnared",
+          "displayName": "MAC-10 | Ensnared",
+          "category": "weapon",
+          "weapon": "MAC-10",
+          "skin": "Ensnared",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mag-7-foresight",
+          "displayName": "MAG-7 | Foresight",
+          "category": "weapon",
+          "weapon": "MAG-7",
+          "skin": "Foresight",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mp5-sd-necro-jr",
+          "displayName": "MP5-SD | Necro Jr.",
+          "category": "weapon",
+          "weapon": "MP5-SD",
+          "skin": "Necro Jr.",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "p2000-lifted-spirits",
+          "displayName": "P2000 | Lifted Spirits",
+          "category": "weapon",
+          "weapon": "P2000",
+          "skin": "Lifted Spirits",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "sawed-off-spirit-board",
+          "displayName": "Sawed-Off | Spirit Board",
+          "category": "weapon",
+          "weapon": "Sawed-Off",
+          "skin": "Spirit Board",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "m4a1-s-night-terror",
+          "displayName": "M4A1-S | Night Terror",
+          "category": "weapon",
+          "weapon": "M4A1-S",
+          "skin": "Night Terror",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "usp-s-ticket-to-hell",
+          "displayName": "USP-S | Ticket to Hell",
+          "category": "weapon",
+          "weapon": "USP-S",
+          "skin": "Ticket to Hell",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-dream-glade",
+          "displayName": "G3SG1 | Dream Glade",
+          "category": "weapon",
+          "weapon": "G3SG1",
+          "skin": "Dream Glade",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "xm1014-zombie-offensive",
+          "displayName": "XM1014 | Zombie Offensive",
+          "category": "weapon",
+          "weapon": "XM1014",
+          "skin": "Zombie Offensive",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-space-cat",
+          "displayName": "PP-Bizon | Space Cat",
+          "category": "weapon",
+          "weapon": "PP-Bizon",
+          "skin": "Space Cat",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "famas-rapid-eye-movement",
+          "displayName": "FAMAS | Rapid Eye Movement",
+          "category": "weapon",
+          "weapon": "FAMAS",
+          "skin": "Rapid Eye Movement",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666668
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666668000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-melondrama",
+          "displayName": "Dual Berettas | Melondrama",
+          "category": "weapon",
+          "weapon": "Dual Berettas",
+          "skin": "Melondrama",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666668
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666668000000"
+          }
+        },
+        {
+          "itemId": "mp7-abyssal-apparition",
+          "displayName": "MP7 | Abyssal Apparition",
+          "category": "weapon",
+          "weapon": "MP7",
+          "skin": "Abyssal Apparition",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "ak-47-nightwish",
+          "displayName": "AK-47 | Nightwish",
+          "category": "weapon",
+          "weapon": "AK-47",
+          "skin": "Nightwish",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "mp9-starlight-protector",
+          "displayName": "MP9 | Starlight Protector",
+          "category": "weapon",
+          "weapon": "MP9",
+          "skin": "Starlight Protector",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "dreams-and-nightmares-case-knife-pool",
+      "name": "Dreams & Nightmares Case Rare Special Items",
+      "category": "knife_pool",
+      "sources": [
+        "https://csgoskins.gg/containers/dreams-nightmares-case/specials",
+        "https://wiki.cs.money/cases/dreams-nightmares-case"
+      ],
+      "items": [
+        {
+          "itemId": "butterfly-knife-lore",
+          "displayName": "\u2605 Butterfly Knife | Lore",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Lore",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-autotronic",
+          "displayName": "\u2605 Butterfly Knife | Autotronic",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Autotronic",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-black-laminate",
+          "displayName": "\u2605 Butterfly Knife | Black Laminate",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Black Laminate",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-freehand",
+          "displayName": "\u2605 Butterfly Knife | Freehand",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Freehand",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-bright-water",
+          "displayName": "\u2605 Butterfly Knife | Bright Water",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Bright Water",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-gamma-doppler-phase-1",
+          "displayName": "\u2605 Butterfly Knife | Gamma Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-gamma-doppler-phase-2",
+          "displayName": "\u2605 Butterfly Knife | Gamma Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-gamma-doppler-phase-3",
+          "displayName": "\u2605 Butterfly Knife | Gamma Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-gamma-doppler-phase-4",
+          "displayName": "\u2605 Butterfly Knife | Gamma Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-gamma-doppler-emerald",
+          "displayName": "\u2605 Butterfly Knife | Gamma Doppler (Emerald)",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Emerald",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-lore",
+          "displayName": "\u2605 Bowie Knife | Lore",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Lore",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-autotronic",
+          "displayName": "\u2605 Bowie Knife | Autotronic",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Autotronic",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-black-laminate",
+          "displayName": "\u2605 Bowie Knife | Black Laminate",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Black Laminate",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-freehand",
+          "displayName": "\u2605 Bowie Knife | Freehand",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Freehand",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-bright-water",
+          "displayName": "\u2605 Bowie Knife | Bright Water",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Bright Water",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-gamma-doppler-phase-1",
+          "displayName": "\u2605 Bowie Knife | Gamma Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-gamma-doppler-phase-2",
+          "displayName": "\u2605 Bowie Knife | Gamma Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-gamma-doppler-phase-3",
+          "displayName": "\u2605 Bowie Knife | Gamma Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-gamma-doppler-phase-4",
+          "displayName": "\u2605 Bowie Knife | Gamma Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "bowie-knife-gamma-doppler-emerald",
+          "displayName": "\u2605 Bowie Knife | Gamma Doppler (Emerald)",
+          "category": "knife",
+          "weapon": "Bowie Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Emerald",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-lore",
+          "displayName": "\u2605 Falchion Knife | Lore",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Lore",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-autotronic",
+          "displayName": "\u2605 Falchion Knife | Autotronic",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Autotronic",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-black-laminate",
+          "displayName": "\u2605 Falchion Knife | Black Laminate",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Black Laminate",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-freehand",
+          "displayName": "\u2605 Falchion Knife | Freehand",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Freehand",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-bright-water",
+          "displayName": "\u2605 Falchion Knife | Bright Water",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Bright Water",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-gamma-doppler-phase-1",
+          "displayName": "\u2605 Falchion Knife | Gamma Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-gamma-doppler-phase-2",
+          "displayName": "\u2605 Falchion Knife | Gamma Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-gamma-doppler-phase-3",
+          "displayName": "\u2605 Falchion Knife | Gamma Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-gamma-doppler-phase-4",
+          "displayName": "\u2605 Falchion Knife | Gamma Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "falchion-knife-gamma-doppler-emerald",
+          "displayName": "\u2605 Falchion Knife | Gamma Doppler (Emerald)",
+          "category": "knife",
+          "weapon": "Falchion Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Emerald",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-lore",
+          "displayName": "\u2605 Huntsman Knife | Lore",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Lore",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-autotronic",
+          "displayName": "\u2605 Huntsman Knife | Autotronic",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Autotronic",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-black-laminate",
+          "displayName": "\u2605 Huntsman Knife | Black Laminate",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Black Laminate",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-freehand",
+          "displayName": "\u2605 Huntsman Knife | Freehand",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Freehand",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-bright-water",
+          "displayName": "\u2605 Huntsman Knife | Bright Water",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Bright Water",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-gamma-doppler-phase-1",
+          "displayName": "\u2605 Huntsman Knife | Gamma Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-gamma-doppler-phase-2",
+          "displayName": "\u2605 Huntsman Knife | Gamma Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-gamma-doppler-phase-3",
+          "displayName": "\u2605 Huntsman Knife | Gamma Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-gamma-doppler-phase-4",
+          "displayName": "\u2605 Huntsman Knife | Gamma Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "huntsman-knife-gamma-doppler-emerald",
+          "displayName": "\u2605 Huntsman Knife | Gamma Doppler (Emerald)",
+          "category": "knife",
+          "weapon": "Huntsman Knife",
+          "skin": "Gamma Doppler",
+          "variant": "Emerald",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-lore",
+          "displayName": "\u2605 Shadow Daggers | Lore",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Lore",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-autotronic",
+          "displayName": "\u2605 Shadow Daggers | Autotronic",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Autotronic",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-black-laminate",
+          "displayName": "\u2605 Shadow Daggers | Black Laminate",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Black Laminate",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-freehand",
+          "displayName": "\u2605 Shadow Daggers | Freehand",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Freehand",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-bright-water",
+          "displayName": "\u2605 Shadow Daggers | Bright Water",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Bright Water",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-gamma-doppler-phase-1",
+          "displayName": "\u2605 Shadow Daggers | Gamma Doppler (Phase 1)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 1",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-gamma-doppler-phase-2",
+          "displayName": "\u2605 Shadow Daggers | Gamma Doppler (Phase 2)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 2",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-gamma-doppler-phase-3",
+          "displayName": "\u2605 Shadow Daggers | Gamma Doppler (Phase 3)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 3",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-gamma-doppler-phase-4",
+          "displayName": "\u2605 Shadow Daggers | Gamma Doppler (Phase 4)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Gamma Doppler",
+          "variant": "Phase 4",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        },
+        {
+          "itemId": "shadow-daggers-gamma-doppler-emerald",
+          "displayName": "\u2605 Shadow Daggers | Gamma Doppler (Emerald)",
+          "category": "knife",
+          "weapon": "Shadow Daggers",
+          "skin": "Gamma Doppler",
+          "variant": "Emerald",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Rare Special Knife Drop In The Dreams & Nightmares Case.",
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 50
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "None"
+    ]
+  }
+}

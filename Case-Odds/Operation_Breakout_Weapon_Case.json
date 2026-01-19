@@ -1,0 +1,701 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "operation-breakout-weapon-case",
+    "name": "Operation Breakout Weapon Case",
+    "caseType": "operation_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/Operation_Breakout_Weapon_Case",
+      "https://csgoskins.gg/containers/operation-breakout-weapon-case",
+      "https://steamcommunity.com/market/listings/730/Operation%20Breakout%20Weapon%20Case"
+    ],
+    "notes": [
+      "Rarity Tier Odds Use Valve’s Official Published Weapon Case Odds (Mil-Spec 79.92%, Restricted 15.98%, Classified 3.2%, Covert 0.64%, Gold 0.26%); Item Odds Are Assumed Equal Within Each Tier.",
+      "Rare Special Items For This Case Are The Butterfly Knife With Original Finishes (13 Outcomes)."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "ssg-08-abyss",
+          "displayName": "SSG 08 | Abyss",
+          "category": "weapon",
+          "weapon": "SSG 08",
+          "skin": "Abyss",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 143856000000,
+            "statTrak": 15984000000
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.143856000000000000",
+            "statTrak": "0.015984000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-urban-hazard",
+          "displayName": "MP7 | Urban Hazard",
+          "category": "weapon",
+          "weapon": "MP7",
+          "skin": "Urban Hazard",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 143856000000,
+            "statTrak": 15984000000
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.143856000000000000",
+            "statTrak": "0.015984000000000000"
+          }
+        },
+        {
+          "itemId": "ump-45-labyrinth",
+          "displayName": "UMP-45 | Labyrinth",
+          "category": "weapon",
+          "weapon": "UMP-45",
+          "skin": "Labyrinth",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 143856000000,
+            "statTrak": 15984000000
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.143856000000000000",
+            "statTrak": "0.015984000000000000"
+          }
+        },
+        {
+          "itemId": "p2000-ivory",
+          "displayName": "P2000 | Ivory",
+          "category": "weapon",
+          "weapon": "P2000",
+          "skin": "Ivory",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 143856000000,
+            "statTrak": 15984000000
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.143856000000000000",
+            "statTrak": "0.015984000000000000"
+          }
+        },
+        {
+          "itemId": "negev-desert-strike",
+          "displayName": "Negev | Desert-Strike",
+          "category": "weapon",
+          "weapon": "Negev",
+          "skin": "Desert-Strike",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 143856000000,
+            "statTrak": 15984000000
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.143856000000000000",
+            "statTrak": "0.015984000000000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "p250-supernova",
+          "displayName": "P250 | Supernova",
+          "category": "weapon",
+          "weapon": "P250",
+          "skin": "Supernova",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-osiris",
+          "displayName": "PP-Bizon | Osiris",
+          "category": "weapon",
+          "weapon": "PP-Bizon",
+          "skin": "Osiris",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        },
+        {
+          "itemId": "cz75-auto-tigris",
+          "displayName": "CZ75-Auto | Tigris",
+          "category": "weapon",
+          "weapon": "CZ75-Auto",
+          "skin": "Tigris",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        },
+        {
+          "itemId": "nova-koi",
+          "displayName": "Nova | Koi",
+          "category": "weapon",
+          "weapon": "Nova",
+          "skin": "Koi",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 35955000000,
+            "statTrak": 3995000000
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.035955000000000000",
+            "statTrak": "0.003995000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "glock-18-water-elemental",
+          "displayName": "Glock-18 | Water Elemental",
+          "category": "weapon",
+          "weapon": "Glock-18",
+          "skin": "Water Elemental",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "desert-eagle-conspiracy",
+          "displayName": "Desert Eagle | Conspiracy",
+          "category": "weapon",
+          "weapon": "Desert Eagle",
+          "skin": "Conspiracy",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "five-seven-fowl-play",
+          "displayName": "Five-SeveN | Fowl Play",
+          "category": "weapon",
+          "weapon": "Five-SeveN",
+          "skin": "Fowl Play",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "p90-asiimov",
+          "displayName": "P90 | Asiimov",
+          "category": "weapon",
+          "weapon": "P90",
+          "skin": "Asiimov",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "m4a1-s-cyrex",
+          "displayName": "M4A1-S | Cyrex",
+          "category": "weapon",
+          "weapon": "M4A1-S",
+          "skin": "Cyrex",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Case In Multiple Public Container Databases.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "operation-breakout-weapon-case-knife-pool",
+      "name": "Operation Breakout Rare Special Items",
+      "category": "knife_pool",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/Operation_Breakout_Weapon_Case",
+        "https://csgoskins.gg/containers/operation-breakout-weapon-case/specials"
+      ],
+      "items": [
+        {
+          "itemId": "butterfly-knife-vanilla",
+          "displayName": "★ Butterfly Knife",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-blue-steel",
+          "displayName": "★ Butterfly Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-boreal-forest",
+          "displayName": "★ Butterfly Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-case-hardened",
+          "displayName": "★ Butterfly Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-crimson-web",
+          "displayName": "★ Butterfly Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-fade",
+          "displayName": "★ Butterfly Knife | Fade",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-forest-ddpat",
+          "displayName": "★ Butterfly Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-night",
+          "displayName": "★ Butterfly Knife | Night",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Night",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-safari-mesh",
+          "displayName": "★ Butterfly Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-scorched",
+          "displayName": "★ Butterfly Knife | Scorched",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-slaughter",
+          "displayName": "★ Butterfly Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-stained",
+          "displayName": "★ Butterfly Knife | Stained",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        },
+        {
+          "itemId": "butterfly-knife-urban-masked",
+          "displayName": "★ Butterfly Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Butterfly Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Rare Special Item For This Case (Butterfly Knife With Original Finishes).",
+          "weights": {
+            "base": 200000000,
+            "nonStatTrak": 180000000,
+            "statTrak": 20000000
+          },
+          "probs": {
+            "base": "0.000200000000000000",
+            "nonStatTrak": "0.000180000000000000",
+            "statTrak": "0.000020000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 5,
+      "purple": 4,
+      "pink": 3,
+      "red": 2,
+      "gold": 13
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Equal-Weight Assumption Applied Within Each Rarity Tier To Allocate Tier Odds Across Items.",
+      "StatTrak Split Uses A 10% Rate Per Item (Rounded To Nearest Integer, Half-Up)."
+    ]
+  }
+}

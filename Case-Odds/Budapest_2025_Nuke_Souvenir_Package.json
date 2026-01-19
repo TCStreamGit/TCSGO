@@ -1,0 +1,508 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T20:47:22Z",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "budapest-2025-nuke-souvenir-package",
+    "name": "Budapest 2025 Nuke Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Budapest%202025%20Nuke%20Souvenir%20Package",
+      "https://totalcsgo.com/skins/souvenir-packages/budapest-2025-nuke-souvenir-package",
+      "https://counterstrike.fandom.com/wiki/Skins/List"
+    ],
+    "notes": [
+      "Souvenir Package For Nuke That Drops Souvenir Skins From The 2018 Nuke Collection; Sticker Permutations Are Ignored In This Export.",
+      "The 2018 Nuke Collection Has No Covert Items; The Default Covert Weight Was Reallocated Into The Highest Present Tier (Classified) To Preserve Total Probability Mass."
+    ],
+    "souvenir": {
+      "tournament": "StarLadder Budapest 2025 CS2 Major Championship",
+      "year": "2025",
+      "map": "Nuke",
+      "collection": "The 2018 Nuke Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://steamcommunity.com/market/listings/730/Budapest%202025%20Nuke%20Souvenir%20Package",
+        "https://totalcsgo.com/skins/souvenir-packages/budapest-2025-nuke-souvenir-package",
+        "https://stash.clash.gg/collection/The-2018-Nuke-Collection"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 799200000000,
+      "industrial": 159800000000,
+      "milspec": 32000000000,
+      "restricted": 6400000000,
+      "classified": 2600000000
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-nova-mandrel",
+          "displayName": "Souvenir Nova | Mandrel",
+          "category": "weapon",
+          "weapon": "Nova",
+          "skin": "Mandrel",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-pp-bizon-facility-sketch",
+          "displayName": "Souvenir PP-Bizon | Facility Sketch",
+          "category": "weapon",
+          "weapon": "PP-Bizon",
+          "skin": "Facility Sketch",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-ump-45-facility-dark",
+          "displayName": "Souvenir UMP-45 | Facility Dark",
+          "category": "weapon",
+          "weapon": "UMP-45",
+          "skin": "Facility Dark",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-five-seven-coolant",
+          "displayName": "Souvenir Five-SeveN | Coolant",
+          "category": "weapon",
+          "weapon": "Five-SeveN",
+          "skin": "Coolant",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p250-facility-draft",
+          "displayName": "Souvenir P250 | Facility Draft",
+          "category": "weapon",
+          "weapon": "P250",
+          "skin": "Facility Draft",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 159840000000,
+            "nonStatTrak": 159840000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.159840000000000000",
+            "nonStatTrak": "0.159840000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-mp7-motherboard",
+          "displayName": "Souvenir MP7 | Motherboard",
+          "category": "weapon",
+          "weapon": "MP7",
+          "skin": "Motherboard",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-negev-bulkhead",
+          "displayName": "Souvenir Negev | Bulkhead",
+          "category": "weapon",
+          "weapon": "Negev",
+          "skin": "Bulkhead",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-galil-ar-cold-fusion",
+          "displayName": "Souvenir Galil AR | Cold Fusion",
+          "category": "weapon",
+          "weapon": "Galil AR",
+          "skin": "Cold Fusion",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-m4a4-mainframe",
+          "displayName": "Souvenir M4A4 | Mainframe",
+          "category": "weapon",
+          "weapon": "M4A4",
+          "skin": "Mainframe",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 39950000000,
+            "nonStatTrak": 39950000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.039950000000000000",
+            "nonStatTrak": "0.039950000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-p250-exchanger",
+          "displayName": "Souvenir P250 | Exchanger",
+          "category": "weapon",
+          "weapon": "P250",
+          "skin": "Exchanger",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-facility-negative",
+          "displayName": "Souvenir P90 | Facility Negative",
+          "category": "weapon",
+          "weapon": "P90",
+          "skin": "Facility Negative",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mp5-sd-co-processor",
+          "displayName": "Souvenir MP5-SD | Co-Processor",
+          "category": "weapon",
+          "weapon": "MP5-SD",
+          "skin": "Co-Processor",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-awp-acheron",
+          "displayName": "Souvenir AWP | Acheron",
+          "category": "weapon",
+          "weapon": "AWP",
+          "skin": "Acheron",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 8000000000,
+            "nonStatTrak": 8000000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.008000000000000000",
+            "nonStatTrak": "0.008000000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-glock-18-nuclear-garden",
+          "displayName": "Souvenir Glock-18 | Nuclear Garden",
+          "category": "weapon",
+          "weapon": "Glock-18",
+          "skin": "Nuclear Garden",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 2133333334,
+            "nonStatTrak": 2133333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333334000000",
+            "nonStatTrak": "0.002133333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-aug-random-access",
+          "displayName": "Souvenir AUG | Random Access",
+          "category": "weapon",
+          "weapon": "AUG",
+          "skin": "Random Access",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-mag-7-core-breach",
+          "displayName": "Souvenir MAG-7 | Core Breach",
+          "category": "weapon",
+          "weapon": "MAG-7",
+          "skin": "Core Breach",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 2133333333,
+            "nonStatTrak": 2133333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.002133333333000000",
+            "nonStatTrak": "0.002133333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [
+        {
+          "itemId": "souvenir-tec-9-remote-control",
+          "displayName": "Souvenir Tec-9 | Remote Control",
+          "category": "weapon",
+          "weapon": "Tec-9",
+          "skin": "Remote Control",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 1300000000,
+            "nonStatTrak": 1300000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001300000000000000",
+            "nonStatTrak": "0.001300000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-m4a1-s-control-panel",
+          "displayName": "Souvenir M4A1-S | Control Panel",
+          "category": "weapon",
+          "weapon": "M4A1-S",
+          "skin": "Control Panel",
+          "variant": "Souvenir",
+          "rarity": "classified",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Possible Drop From This Souvenir Package And From The 2018 Nuke Collection Item List In The Provided Sources.",
+          "weights": {
+            "base": 1300000000,
+            "nonStatTrak": 1300000000,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.001300000000000000",
+            "nonStatTrak": "0.001300000000000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 5,
+      "industrial": 4,
+      "milspec": 4,
+      "restricted": 3,
+      "classified": 2
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Default Collection Odds Were Used; Valve Does Not Publicly Confirm Exact Souvenir Drop Odds.",
+      "Covert Tier Is Absent In The 2018 Nuke Collection; Covert Weight Was Added To Classified In This Export."
+    ]
+  }
+}

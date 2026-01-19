@@ -1,0 +1,45 @@
+{
+  "SchemaVersion": 1,
+  "Name": "Revolver Case",
+  "Type": "Case",
+  "Categories": [
+    "Core Weapon Cases"
+  ],
+  "Sources": [],
+  "Notes": "",
+  "DropTable": {
+    "Items": [],
+    "RareSpecialItems": [],
+    "OddsRules": {
+      "RoundingDecimals": 6,
+      "TotalPercent": 100,
+      "StatTrakChance": null,
+      "WearBins": {
+        "FactoryNew": [
+          0,
+          0.07
+        ],
+        "MinimalWear": [
+          0.07,
+          0.15
+        ],
+        "FieldTested": [
+          0.15,
+          0.38
+        ],
+        "WellWorn": [
+          0.38,
+          0.45
+        ],
+        "BattleScarred": [
+          0.45,
+          1
+        ]
+      }
+    }
+  },
+  "Meta": {
+    "GeneratedBy": "make_csgo_container_json_files.js",
+    "GeneratedAtUtc": "2026-01-18T00:47:19.606Z"
+  }
+}

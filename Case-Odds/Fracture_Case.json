@@ -1,0 +1,1667 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-17T00:00:00Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "fracture-case",
+    "name": "Fracture Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/Fracture_Case",
+      "https://csgoskins.gg/containers/fracture-case",
+      "https://wiki.cs.money/cases/fracture-case"
+    ],
+    "notes": [
+      "Tier Weights Use The Default 79.92/15.98/3.20/0.64/0.26 Distribution Converted To A 1e12 Weight Scale.",
+      "Rare Special Items Are The Shattered Web Knife Set In 13 Standard Finishes (52 Total Knife Outcomes)."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "p250-cassette",
+          "displayName": "P250 | Cassette",
+          "category": "pistol",
+          "weapon": "P250",
+          "skin": "Cassette",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Mil-Spec Drop In The Fracture Case.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-mainframe-001",
+          "displayName": "SSG 08 | Mainframe 001",
+          "category": "sniper-rifle",
+          "weapon": "SSG 08",
+          "skin": "Mainframe 001",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Mil-Spec Drop In The Fracture Case.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "p2000-gnarled",
+          "displayName": "P2000 | Gnarled",
+          "category": "pistol",
+          "weapon": "P2000",
+          "skin": "Gnarled",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Mil-Spec Drop In The Fracture Case.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "p90-freight",
+          "displayName": "P90 | Freight",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Freight",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Mil-Spec Drop In The Fracture Case.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "sg-553-ol-rusty",
+          "displayName": "SG 553 | Ol Rusty",
+          "category": "rifle",
+          "weapon": "SG 553",
+          "skin": "Ol' Rusty",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Mil-Spec Drop In The Fracture Case.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "negev-ultralight",
+          "displayName": "Negev | Ultralight",
+          "category": "machinegun",
+          "weapon": "Negev",
+          "skin": "Ultralight",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Mil-Spec Drop In The Fracture Case.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "pp-bizon-runic",
+          "displayName": "PP-Bizon | Runic",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Runic",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Mil-Spec Drop In The Fracture Case.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "galil-ar-connexion",
+          "displayName": "Galil AR | Connexion",
+          "category": "rifle",
+          "weapon": "Galil AR",
+          "skin": "Connexion",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Restricted Drop In The Fracture Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "mag-7-monster-call",
+          "displayName": "MAG-7 | Monster Call",
+          "category": "shotgun",
+          "weapon": "MAG-7",
+          "skin": "Monster Call",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Restricted Drop In The Fracture Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "mp5-sd-kitbash",
+          "displayName": "MP5-SD | Kitbash",
+          "category": "smg",
+          "weapon": "MP5-SD",
+          "skin": "Kitbash",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Restricted Drop In The Fracture Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "tec-9-brother",
+          "displayName": "Tec-9 | Brother",
+          "category": "pistol",
+          "weapon": "Tec-9",
+          "skin": "Brother",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Restricted Drop In The Fracture Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-allure",
+          "displayName": "MAC-10 | Allure",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Allure",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Restricted Drop In The Fracture Case.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "m4a4-tooth-fairy",
+          "displayName": "M4A4 | Tooth Fairy",
+          "category": "rifle",
+          "weapon": "M4A4",
+          "skin": "Tooth Fairy",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Classified Drop In The Fracture Case.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "glock-18-vogue",
+          "displayName": "Glock-18 | Vogue",
+          "category": "pistol",
+          "weapon": "Glock-18",
+          "skin": "Vogue",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Classified Drop In The Fracture Case.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "xm1014-entombed",
+          "displayName": "XM1014 | Entombed",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Entombed",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Classified Drop In The Fracture Case.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "ak-47-legion-of-anubis",
+          "displayName": "AK-47 | Legion of Anubis",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Legion of Anubis",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Covert Drop In The Fracture Case.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "desert-eagle-printstream",
+          "displayName": "Desert Eagle | Printstream",
+          "category": "pistol",
+          "weapon": "Desert Eagle",
+          "skin": "Printstream",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As A Covert Drop In The Fracture Case.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "fracture-case-rare-special-items",
+      "name": "Rare Special Items",
+      "category": "knife_pool",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/Fracture_Case",
+        "https://counterstrike.fandom.com/wiki/Shattered_Web_Case",
+        "https://csgoskins.gg/containers/shattered-web-case/specials"
+      ],
+      "items": [
+        {
+          "itemId": "nomad-knife-vanilla",
+          "displayName": "★ Nomad Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-blue-steel",
+          "displayName": "★ Nomad Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-boreal-forest",
+          "displayName": "★ Nomad Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-case-hardened",
+          "displayName": "★ Nomad Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-crimson-web",
+          "displayName": "★ Nomad Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-fade",
+          "displayName": "★ Nomad Knife | Fade",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-forest-ddpat",
+          "displayName": "★ Nomad Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-night-stripe",
+          "displayName": "★ Nomad Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-safari-mesh",
+          "displayName": "★ Nomad Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-scorched",
+          "displayName": "★ Nomad Knife | Scorched",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-slaughter",
+          "displayName": "★ Nomad Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-stained",
+          "displayName": "★ Nomad Knife | Stained",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-urban-masked",
+          "displayName": "★ Nomad Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-vanilla",
+          "displayName": "★ Skeleton Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-blue-steel",
+          "displayName": "★ Skeleton Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-boreal-forest",
+          "displayName": "★ Skeleton Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-case-hardened",
+          "displayName": "★ Skeleton Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-crimson-web",
+          "displayName": "★ Skeleton Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-fade",
+          "displayName": "★ Skeleton Knife | Fade",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-forest-ddpat",
+          "displayName": "★ Skeleton Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-night-stripe",
+          "displayName": "★ Skeleton Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-safari-mesh",
+          "displayName": "★ Skeleton Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-scorched",
+          "displayName": "★ Skeleton Knife | Scorched",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-slaughter",
+          "displayName": "★ Skeleton Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-stained",
+          "displayName": "★ Skeleton Knife | Stained",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-urban-masked",
+          "displayName": "★ Skeleton Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-vanilla",
+          "displayName": "★ Paracord Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-blue-steel",
+          "displayName": "★ Paracord Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-boreal-forest",
+          "displayName": "★ Paracord Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-case-hardened",
+          "displayName": "★ Paracord Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-crimson-web",
+          "displayName": "★ Paracord Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-fade",
+          "displayName": "★ Paracord Knife | Fade",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-forest-ddpat",
+          "displayName": "★ Paracord Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-night-stripe",
+          "displayName": "★ Paracord Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-safari-mesh",
+          "displayName": "★ Paracord Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-scorched",
+          "displayName": "★ Paracord Knife | Scorched",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-slaughter",
+          "displayName": "★ Paracord Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-stained",
+          "displayName": "★ Paracord Knife | Stained",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-urban-masked",
+          "displayName": "★ Paracord Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-vanilla",
+          "displayName": "★ Survival Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-blue-steel",
+          "displayName": "★ Survival Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-boreal-forest",
+          "displayName": "★ Survival Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-case-hardened",
+          "displayName": "★ Survival Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-crimson-web",
+          "displayName": "★ Survival Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-fade",
+          "displayName": "★ Survival Knife | Fade",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-forest-ddpat",
+          "displayName": "★ Survival Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-night-stripe",
+          "displayName": "★ Survival Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-safari-mesh",
+          "displayName": "★ Survival Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-scorched",
+          "displayName": "★ Survival Knife | Scorched",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-slaughter",
+          "displayName": "★ Survival Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-stained",
+          "displayName": "★ Survival Knife | Stained",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-urban-masked",
+          "displayName": "★ Survival Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Fracture Case Uses The Shattered Web Knife Set (Nomad, Skeleton, Paracord, Survival) In 13 Standard Finishes, Yielding 52 Total Knife Outcomes.",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 52
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "None"
+    ]
+  }
+}

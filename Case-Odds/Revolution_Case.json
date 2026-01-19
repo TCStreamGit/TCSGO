@@ -1,0 +1,1023 @@
+{
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T19:29:15Z",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "revolution-case",
+    "name": "Revolution Case",
+    "caseType": "weapon_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://counterstrike.fandom.com/wiki/Revolution_Case",
+      "https://steamcommunity.com/market/listings/730/Revolution%20Case"
+    ],
+    "notes": [
+      "Tier Weights Use Default Case Odds; Items Are Evenly Weighted Within Each Tier.",
+      "Rare Special Item Pool Is Clutch Gloves (No StatTrak).",
+      "AWP Duality Replaced AWP Doodle Lore On February 15, 2023 Per Counter-Strike Wiki."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "mp9-featherweight",
+          "displayName": "MP9 | Featherweight",
+          "category": "weapon",
+          "weapon": "mp9",
+          "skin": "Featherweight",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mag-7-insomnia",
+          "displayName": "MAG-7 | Insomnia",
+          "category": "weapon",
+          "weapon": "mag-7",
+          "skin": "Insomnia",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "scar-20-fragments",
+          "displayName": "SCAR-20 | Fragments",
+          "category": "weapon",
+          "weapon": "scar-20",
+          "skin": "Fragments",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "p250-re-built",
+          "displayName": "P250 | Re.built",
+          "category": "weapon",
+          "weapon": "p250",
+          "skin": "Re.built",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "mp5-sd-liquidation",
+          "displayName": "MP5-SD | Liquidation",
+          "category": "weapon",
+          "weapon": "mp5-sd",
+          "skin": "Liquidation",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "sg-553-cyberforce",
+          "displayName": "SG 553 | Cyberforce",
+          "category": "weapon",
+          "weapon": "sg-553",
+          "skin": "Cyberforce",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "tec-9-rebel",
+          "displayName": "TEC-9 | Rebel",
+          "category": "weapon",
+          "weapon": "tec-9",
+          "skin": "Rebel",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "m4a1-s-emphorosaur-s",
+          "displayName": "M4A1-S | Emphorosaur-S",
+          "category": "weapon",
+          "weapon": "m4a1-s",
+          "skin": "Emphorosaur-S",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "glock-18-umbral-rabbit",
+          "displayName": "GLOCK-18 | Umbral Rabbit",
+          "category": "weapon",
+          "weapon": "glock-18",
+          "skin": "Umbral Rabbit",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-sakkaku",
+          "displayName": "MAC-10 | Sakkaku",
+          "category": "weapon",
+          "weapon": "mac-10",
+          "skin": "Sakkaku",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "r8-revolver-banana-cannon",
+          "displayName": "R8 Revolver | Banana Cannon",
+          "category": "weapon",
+          "weapon": "r8-revolver",
+          "skin": "Banana Cannon",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "p90-neon-queen",
+          "displayName": "P90 | Neon Queen",
+          "category": "weapon",
+          "weapon": "p90",
+          "skin": "Neon Queen",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "awp-duality",
+          "displayName": "AWP | Duality",
+          "category": "weapon",
+          "weapon": "awp",
+          "skin": "Duality",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "ump-45-wild-child",
+          "displayName": "UMP-45 | Wild Child",
+          "category": "weapon",
+          "weapon": "ump-45",
+          "skin": "Wild Child",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666667000000"
+          }
+        },
+        {
+          "itemId": "p2000-wicked-sick",
+          "displayName": "P2000 | Wicked Sick",
+          "category": "weapon",
+          "weapon": "p2000",
+          "skin": "Wicked Sick",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9599999999,
+            "statTrak": 1066666667
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009599999999000000",
+            "statTrak": "0.001066666667000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "ak-47-head-shot",
+          "displayName": "AK-47 | Head Shot",
+          "category": "weapon",
+          "weapon": "ak-47",
+          "skin": "Head Shot",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "m4a4-temukau",
+          "displayName": "M4A4 | Temukau",
+          "category": "weapon",
+          "weapon": "m4a4",
+          "skin": "Temukau",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Revolution Case Weapon Finish On Counter-Strike Wiki And Multiple Market Trackers.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "revolution-case-clutch-gloves",
+      "name": "Clutch Gloves",
+      "category": "glove_pool",
+      "sources": [
+        "https://counterstrike.fandom.com/wiki/Revolution_Case",
+        "https://wiki.cs.money/cases/revolution-case/gloves"
+      ],
+      "items": [
+        {
+          "itemId": "driver-gloves-king-snake",
+          "displayName": "★ Driver Gloves | King Snake",
+          "category": "gloves",
+          "weapon": "driver-gloves",
+          "skin": "King Snake",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-amphibious",
+          "displayName": "★ Sport Gloves | Amphibious",
+          "category": "gloves",
+          "weapon": "sport-gloves",
+          "skin": "Amphibious",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-fade",
+          "displayName": "★ Specialist Gloves | Fade",
+          "category": "gloves",
+          "weapon": "specialist-gloves",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-omega",
+          "displayName": "★ Sport Gloves | Omega",
+          "category": "gloves",
+          "weapon": "sport-gloves",
+          "skin": "Omega",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-vice",
+          "displayName": "★ Sport Gloves | Vice",
+          "category": "gloves",
+          "weapon": "sport-gloves",
+          "skin": "Vice",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-cobalt-skulls",
+          "displayName": "★ Hand Wraps | Cobalt Skulls",
+          "category": "gloves",
+          "weapon": "hand-wraps",
+          "skin": "Cobalt Skulls",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-crimson-web",
+          "displayName": "★ Specialist Gloves | Crimson Web",
+          "category": "gloves",
+          "weapon": "specialist-gloves",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-imperial-plaid",
+          "displayName": "★ Driver Gloves | Imperial Plaid",
+          "category": "gloves",
+          "weapon": "driver-gloves",
+          "skin": "Imperial Plaid",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333334,
+            "nonStatTrak": 108333334,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333334000000",
+            "nonStatTrak": "0.000108333334000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-pow",
+          "displayName": "★ Moto Gloves | POW!",
+          "category": "gloves",
+          "weapon": "moto-gloves",
+          "skin": "POW!",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "sport-gloves-bronze-morph",
+          "displayName": "★ Sport Gloves | Bronze Morph",
+          "category": "gloves",
+          "weapon": "sport-gloves",
+          "skin": "Bronze Morph",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-turtle",
+          "displayName": "★ Moto Gloves | Turtle",
+          "category": "gloves",
+          "weapon": "moto-gloves",
+          "skin": "Turtle",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-mogul",
+          "displayName": "★ Specialist Gloves | Mogul",
+          "category": "gloves",
+          "weapon": "specialist-gloves",
+          "skin": "Mogul",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-polygon",
+          "displayName": "★ Moto Gloves | Polygon",
+          "category": "gloves",
+          "weapon": "moto-gloves",
+          "skin": "Polygon",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-overprint",
+          "displayName": "★ Hand Wraps | Overprint",
+          "category": "gloves",
+          "weapon": "hand-wraps",
+          "skin": "Overprint",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-overtake",
+          "displayName": "★ Driver Gloves | Overtake",
+          "category": "gloves",
+          "weapon": "driver-gloves",
+          "skin": "Overtake",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hydra-gloves-case-hardened",
+          "displayName": "★ Hydra Gloves | Case Hardened",
+          "category": "gloves",
+          "weapon": "hydra-gloves",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "moto-gloves-transport",
+          "displayName": "★ Moto Gloves | Transport",
+          "category": "gloves",
+          "weapon": "moto-gloves",
+          "skin": "Transport",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "specialist-gloves-buckshot",
+          "displayName": "★ Specialist Gloves | Buckshot",
+          "category": "gloves",
+          "weapon": "specialist-gloves",
+          "skin": "Buckshot",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "driver-gloves-racing-green",
+          "displayName": "★ Driver Gloves | Racing Green",
+          "category": "gloves",
+          "weapon": "driver-gloves",
+          "skin": "Racing Green",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-arboreal",
+          "displayName": "★ Hand Wraps | Arboreal",
+          "category": "gloves",
+          "weapon": "hand-wraps",
+          "skin": "Arboreal",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hydra-gloves-mangrove",
+          "displayName": "★ Hydra Gloves | Mangrove",
+          "category": "gloves",
+          "weapon": "hydra-gloves",
+          "skin": "Mangrove",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hydra-gloves-emerald",
+          "displayName": "★ Hydra Gloves | Emerald",
+          "category": "gloves",
+          "weapon": "hydra-gloves",
+          "skin": "Emerald",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hydra-gloves-rattler",
+          "displayName": "★ Hydra Gloves | Rattler",
+          "category": "gloves",
+          "weapon": "hydra-gloves",
+          "skin": "Rattler",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "hand-wraps-duct-tape",
+          "displayName": "★ Hand Wraps | Duct Tape",
+          "category": "gloves",
+          "weapon": "hand-wraps",
+          "skin": "Duct Tape",
+          "variant": "None",
+          "rarity": "extraordinary",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Listed As A Clutch Gloves Rare Special Item For The Revolution Case On Counter-Strike Wiki And CS.MONEY Wiki.",
+          "weights": {
+            "base": 108333333,
+            "nonStatTrak": 108333333,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.000108333333000000",
+            "nonStatTrak": "0.000108333333000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ]
+    }
+  },
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 24
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "StatTrak Split Uses 10% With Half-Up Rounding Per Item; This Can Slightly Deviate From Exactly 10% Within A Tier.",
+      "Gloves Are Not StatTrak Eligible; StatTrak Weight Is Always 0 For Gold Pool Items."
+    ]
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "schemaVersion": "3.1-container-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T14:22:22-07:00",
+    "defaultOdds": {
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "berlin-2019-vertigo-souvenir-package",
+    "name": "Berlin 2019 Vertigo Souvenir Package",
+    "caseType": "souvenir_package",
+    "supportsStatTrak": false,
+    "statTrakRate": 0,
+    "sources": [
+      "https://csgoskins.gg/containers/berlin-2019-vertigo-souvenir-package",
+      "https://steamcommunity.com/market/listings/730/Berlin%202019%20Vertigo%20Souvenir%20Package",
+      "https://stash.clash.gg/collection/The-Vertigo-Collection"
+    ],
+    "notes": [
+      "This Is A Souvenir Package Using The Vertigo Collection; Sticker Permutations Are Ignored (stickersMode=ignored).",
+      "The Vertigo Collection Contains No Classified Or Covert Skins; Those Tier Weights Are Set To 0 And Remaining Tiers Are Renormalized To Sum To Unit.Scale."
+    ],
+    "souvenir": {
+      "tournament": "Berlin",
+      "year": "2019",
+      "map": "Vertigo",
+      "collection": "The Vertigo Collection",
+      "stickersMode": "ignored",
+      "sources": [
+        "https://csgoskins.gg/containers/berlin-2019-vertigo-souvenir-package",
+        "https://stash.clash.gg/collection/The-Vertigo-Collection"
+      ]
+    },
+    "oddsWeights": {
+      "consumer": 801283336675,
+      "industrial": 160216563064,
+      "milspec": 32083416884,
+      "restricted": 6416683377,
+      "classified": 0,
+      "covert": 0
+    },
+    "tiers": {
+      "consumer": [
+        {
+          "itemId": "souvenir-mac-10-urban-ddpat",
+          "displayName": "Souvenir MAC-10 | Urban DDPAT",
+          "category": "smg",
+          "weapon": "MAC-10",
+          "skin": "Urban DDPAT",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Vertigo Collection And Listed Under The Berlin 2019 Vertigo Souvenir Package.",
+          "weights": {
+            "base": 400641668338,
+            "nonStatTrak": 400641668338,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.400641668338000000",
+            "nonStatTrak": "0.400641668338000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-xm1014-urban-perforated",
+          "displayName": "Souvenir XM1014 | Urban Perforated",
+          "category": "shotgun",
+          "weapon": "XM1014",
+          "skin": "Urban Perforated",
+          "variant": "Souvenir",
+          "rarity": "consumer",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Vertigo Collection And Listed Under The Berlin 2019 Vertigo Souvenir Package.",
+          "weights": {
+            "base": 400641668337,
+            "nonStatTrak": 400641668337,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.400641668337000000",
+            "nonStatTrak": "0.400641668337000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "industrial": [
+        {
+          "itemId": "souvenir-pp-bizon-carbon-fiber",
+          "displayName": "Souvenir PP-Bizon | Carbon Fiber",
+          "category": "smg",
+          "weapon": "PP-Bizon",
+          "skin": "Carbon Fiber",
+          "variant": "Souvenir",
+          "rarity": "industrial",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Vertigo Collection And Listed Under The Berlin 2019 Vertigo Souvenir Package.",
+          "weights": {
+            "base": 160216563064,
+            "nonStatTrak": 160216563064,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.160216563064000000",
+            "nonStatTrak": "0.160216563064000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "milspec": [
+        {
+          "itemId": "souvenir-ak-47-black-laminate",
+          "displayName": "Souvenir AK-47 | Black Laminate",
+          "category": "rifle",
+          "weapon": "AK-47",
+          "skin": "Black Laminate",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Vertigo Collection And Listed Under The Berlin 2019 Vertigo Souvenir Package.",
+          "weights": {
+            "base": 16041708442,
+            "nonStatTrak": 16041708442,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016041708442000000",
+            "nonStatTrak": "0.016041708442000000",
+            "statTrak": "0.000000000000000000"
+          }
+        },
+        {
+          "itemId": "souvenir-p90-glacier-mesh",
+          "displayName": "Souvenir P90 | Glacier Mesh",
+          "category": "smg",
+          "weapon": "P90",
+          "skin": "Glacier Mesh",
+          "variant": "Souvenir",
+          "rarity": "milspec",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Vertigo Collection And Listed Under The Berlin 2019 Vertigo Souvenir Package.",
+          "weights": {
+            "base": 16041708442,
+            "nonStatTrak": 16041708442,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.016041708442000000",
+            "nonStatTrak": "0.016041708442000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "itemId": "souvenir-dual-berettas-demolition",
+          "displayName": "Souvenir Dual Berettas | Demolition",
+          "category": "pistol",
+          "weapon": "Dual Berettas",
+          "skin": "Demolition",
+          "variant": "Souvenir",
+          "rarity": "restricted",
+          "statTrakEligible": false,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Confirmed As Part Of The Vertigo Collection And Listed Under The Berlin 2019 Vertigo Souvenir Package.",
+          "weights": {
+            "base": 6416683377,
+            "nonStatTrak": 6416683377,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.006416683377000000",
+            "nonStatTrak": "0.006416683377000000",
+            "statTrak": "0.000000000000000000"
+          }
+        }
+      ],
+      "classified": [],
+      "covert": []
+    },
+    "goldPool": "None"
+  },
+  "audit": {
+    "tierCounts": {
+      "consumer": 2,
+      "industrial": 1,
+      "milspec": 2,
+      "restricted": 1,
+      "classified": 0,
+      "covert": 0
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "The Vertigo Collection Has No Classified Or Covert Skins; Classified/Covert OddsWeights Are Set To 0 And Remaining Tiers Are Renormalized."
+    ]
+  }
+}
