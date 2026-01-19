@@ -1,45 +1,1670 @@
 {
-  "SchemaVersion": 1,
-  "Name": "Shattered Web Case",
-  "Type": "Case",
-  "Categories": [
-    "Special Event / Standalone Cases"
-  ],
-  "Sources": [],
-  "Notes": "",
-  "DropTable": {
-    "Items": [],
-    "RareSpecialItems": [],
-    "OddsRules": {
-      "RoundingDecimals": 6,
-      "TotalPercent": 100,
-      "StatTrakChance": null,
-      "WearBins": {
-        "FactoryNew": [
-          0,
-          0.07
-        ],
-        "MinimalWear": [
-          0.07,
-          0.15
-        ],
-        "FieldTested": [
-          0.15,
-          0.38
-        ],
-        "WellWorn": [
-          0.38,
-          0.45
-        ],
-        "BattleScarred": [
-          0.45,
-          1
-        ]
-      }
+  "schemaVersion": "3.0-case-export",
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
+  "meta": {
+    "game": "CSGO/CS2",
+    "generatedAt": "2026-01-18T00:00:00-07:00",
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
+    "defaultStatTrakRate": 0.1
+  },
+  "case": {
+    "id": "shattered-web-case",
+    "name": "Shattered Web Case",
+    "caseType": "operation_case",
+    "supportsStatTrak": true,
+    "statTrakRate": 0.1,
+    "sources": [
+      "https://steamcommunity.com/market/listings/730/Shattered%20Web%20Case",
+      "https://totalcsgo.com/skins/cases/shattered-web-case",
+      "https://counterstrike.fandom.com/wiki/Shattered_Web_Case",
+      "https://csgoskins.gg/containers/shattered-web-case"
+    ],
+    "notes": [
+      "Tier Odds Use Default Valve Case Odds; Tier Item Weights Assume Equal Split Within Each Tier With Deterministic Remainder Distribution To First Items.",
+      "StatTrak Weights Use Floor(0.10 * BaseWeight) Per Item (With Minimum 1 When Eligible).",
+      "Gold Pool Expanded As 4 Knife Types With 13 Original Finishes Each (52 Total Outcomes)."
+    ],
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
+    "tiers": {
+      "blue": [
+        {
+          "itemId": "mp5-sd-acid-wash",
+          "displayName": "MP5-SD | Acid Wash",
+          "category": "weapon",
+          "weapon": "MP5-SD",
+          "skin": "Acid Wash",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "nova-plume",
+          "displayName": "Nova | Plume",
+          "category": "weapon",
+          "weapon": "Nova",
+          "skin": "Plume",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "g3sg1-black-sand",
+          "displayName": "G3SG1 | Black Sand",
+          "category": "weapon",
+          "weapon": "G3SG1",
+          "skin": "Black Sand",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "r8-revolver-memento",
+          "displayName": "R8 Revolver | Memento",
+          "category": "weapon",
+          "weapon": "R8 Revolver",
+          "skin": "Memento",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "dual-berettas-balance",
+          "displayName": "Dual Berettas | Balance",
+          "category": "weapon",
+          "weapon": "Dual Berettas",
+          "skin": "Balance",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "scar-20-torn",
+          "displayName": "SCAR-20 | Torn",
+          "category": "weapon",
+          "weapon": "SCAR-20",
+          "skin": "Torn",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        },
+        {
+          "itemId": "m249-warbird",
+          "displayName": "M249 | Warbird",
+          "category": "weapon",
+          "weapon": "M249",
+          "skin": "Warbird",
+          "variant": "None",
+          "rarity": "mil-spec",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "itemId": "pp-bizon-embargo",
+          "displayName": "PP-Bizon | Embargo",
+          "category": "weapon",
+          "weapon": "PP-Bizon",
+          "skin": "Embargo",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "ak-47-rat-rod",
+          "displayName": "AK-47 | Rat Rod",
+          "category": "weapon",
+          "weapon": "AK-47",
+          "skin": "Rat Rod",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "aug-arctic-wolf",
+          "displayName": "AUG | Arctic Wolf",
+          "category": "weapon",
+          "weapon": "AUG",
+          "skin": "Arctic Wolf",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "mp7-neon-ply",
+          "displayName": "MP7 | Neon Ply",
+          "category": "weapon",
+          "weapon": "MP7",
+          "skin": "Neon Ply",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        },
+        {
+          "itemId": "p2000-obsidian",
+          "displayName": "P2000 | Obsidian",
+          "category": "weapon",
+          "weapon": "P2000",
+          "skin": "Obsidian",
+          "variant": "None",
+          "rarity": "restricted",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "itemId": "tec-9-decimator",
+          "displayName": "Tec-9 | Decimator",
+          "category": "weapon",
+          "weapon": "Tec-9",
+          "skin": "Decimator",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "sg-553-colony-iv",
+          "displayName": "SG 553 | Colony IV",
+          "category": "weapon",
+          "weapon": "SG 553",
+          "skin": "Colony IV",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          }
+        },
+        {
+          "itemId": "ssg-08-bloodshot",
+          "displayName": "SSG 08 | Bloodshot",
+          "category": "weapon",
+          "weapon": "SSG 08",
+          "skin": "Bloodshot",
+          "variant": "None",
+          "rarity": "classified",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666666000000"
+          }
+        }
+      ],
+      "red": [
+        {
+          "itemId": "awp-containment-breach",
+          "displayName": "AWP | Containment Breach",
+          "category": "weapon",
+          "weapon": "AWP",
+          "skin": "Containment Breach",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        },
+        {
+          "itemId": "mac-10-stalker",
+          "displayName": "MAC-10 | Stalker",
+          "category": "weapon",
+          "weapon": "MAC-10",
+          "skin": "Stalker",
+          "variant": "None",
+          "rarity": "covert",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Contents Verified Against TotalCSGO And Counter-Strike Wiki (Fandom) Listings.",
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          }
+        }
+      ]
+    },
+    "goldPool": {
+      "poolId": "shattered-web-case-knife-pool",
+      "name": "Rare Special Items (Shattered Web Knives)",
+      "category": "knife_pool",
+      "sources": [
+        "https://csgoskins.gg/containers/shattered-web-case/specials",
+        "https://counterstrike.fandom.com/wiki/Shattered_Web_Case"
+      ],
+      "items": [
+        {
+          "itemId": "nomad-knife-vanilla",
+          "displayName": "★ Nomad Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-blue-steel",
+          "displayName": "★ Nomad Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-boreal-forest",
+          "displayName": "★ Nomad Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-case-hardened",
+          "displayName": "★ Nomad Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-crimson-web",
+          "displayName": "★ Nomad Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-fade",
+          "displayName": "★ Nomad Knife | Fade",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-forest-ddpat",
+          "displayName": "★ Nomad Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-night-stripe",
+          "displayName": "★ Nomad Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-safari-mesh",
+          "displayName": "★ Nomad Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-scorched",
+          "displayName": "★ Nomad Knife | Scorched",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-slaughter",
+          "displayName": "★ Nomad Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-stained",
+          "displayName": "★ Nomad Knife | Stained",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "nomad-knife-urban-masked",
+          "displayName": "★ Nomad Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Nomad Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-vanilla",
+          "displayName": "★ Skeleton Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-blue-steel",
+          "displayName": "★ Skeleton Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-boreal-forest",
+          "displayName": "★ Skeleton Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-case-hardened",
+          "displayName": "★ Skeleton Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-crimson-web",
+          "displayName": "★ Skeleton Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-fade",
+          "displayName": "★ Skeleton Knife | Fade",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-forest-ddpat",
+          "displayName": "★ Skeleton Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-night-stripe",
+          "displayName": "★ Skeleton Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-safari-mesh",
+          "displayName": "★ Skeleton Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-scorched",
+          "displayName": "★ Skeleton Knife | Scorched",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-slaughter",
+          "displayName": "★ Skeleton Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-stained",
+          "displayName": "★ Skeleton Knife | Stained",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "skeleton-knife-urban-masked",
+          "displayName": "★ Skeleton Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Skeleton Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-vanilla",
+          "displayName": "★ Paracord Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-blue-steel",
+          "displayName": "★ Paracord Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-boreal-forest",
+          "displayName": "★ Paracord Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-case-hardened",
+          "displayName": "★ Paracord Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-crimson-web",
+          "displayName": "★ Paracord Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-fade",
+          "displayName": "★ Paracord Knife | Fade",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-forest-ddpat",
+          "displayName": "★ Paracord Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-night-stripe",
+          "displayName": "★ Paracord Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-safari-mesh",
+          "displayName": "★ Paracord Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-scorched",
+          "displayName": "★ Paracord Knife | Scorched",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-slaughter",
+          "displayName": "★ Paracord Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-stained",
+          "displayName": "★ Paracord Knife | Stained",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "paracord-knife-urban-masked",
+          "displayName": "★ Paracord Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Paracord Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-vanilla",
+          "displayName": "★ Survival Knife | Vanilla",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Vanilla",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-blue-steel",
+          "displayName": "★ Survival Knife | Blue Steel",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Blue Steel",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-boreal-forest",
+          "displayName": "★ Survival Knife | Boreal Forest",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Boreal Forest",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-case-hardened",
+          "displayName": "★ Survival Knife | Case Hardened",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Case Hardened",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-crimson-web",
+          "displayName": "★ Survival Knife | Crimson Web",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Crimson Web",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-fade",
+          "displayName": "★ Survival Knife | Fade",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Fade",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-forest-ddpat",
+          "displayName": "★ Survival Knife | Forest DDPAT",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Forest DDPAT",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-night-stripe",
+          "displayName": "★ Survival Knife | Night Stripe",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Night Stripe",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-safari-mesh",
+          "displayName": "★ Survival Knife | Safari Mesh",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Safari Mesh",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-scorched",
+          "displayName": "★ Survival Knife | Scorched",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Scorched",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-slaughter",
+          "displayName": "★ Survival Knife | Slaughter",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Slaughter",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-stained",
+          "displayName": "★ Survival Knife | Stained",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Stained",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        },
+        {
+          "itemId": "survival-knife-urban-masked",
+          "displayName": "★ Survival Knife | Urban Masked",
+          "category": "knife",
+          "weapon": "Survival Knife",
+          "skin": "Urban Masked",
+          "variant": "None",
+          "rarity": "rare-special",
+          "statTrakEligible": true,
+          "verified": true,
+          "confidence": "High",
+          "rationale": "Knife Pool Verified Against CSGOSKINS.GG Specials Listing And Counter-Strike Wiki (Fandom) Summary (4 Knife Types, 13 Finishes Each).",
+          "weights": {
+            "base": 50000000,
+            "nonStatTrak": 45000000,
+            "statTrak": 5000000
+          },
+          "probs": {
+            "base": "0.000050000000000000",
+            "nonStatTrak": "0.000045000000000000",
+            "statTrak": "0.000005000000000000"
+          }
+        }
+      ]
     }
   },
-  "Meta": {
-    "GeneratedBy": "make_csgo_container_json_files.js",
-    "GeneratedAtUtc": "2026-01-18T00:47:19.606Z"
+  "audit": {
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 52
+    },
+    "weightSums": {
+      "totalCaseWeight": 1000000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
+    "warnings": [
+      "Default Tier Odds Used (No Case-Specific Odds Override Applied).",
+      "Per-Tier Equal-Split Weighting Assumed (Valve Does Not Publicly Provide Exact Per-Item Weights).",
+      "StatTrak Split Uses Floor(10%) Which Slightly Under-Allocates StatTrak Versus Exact 10% On Non-Multiples Of 10."
+    ]
   }
 }
