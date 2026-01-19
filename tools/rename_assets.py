@@ -1,14 +1,16 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 rename_assets.py - CS:GO/CS2 Asset Renaming and Organization Tool
 
 A deterministic 2-phase tool for scanning, renaming, organizing PNG images
 for CS:GO/CS2 cases/souvenir packages, and updating case-export JSON files.
 
-KEY CONCEPTS:
+KEY FEATURES:
 - Uses item's actual "rarity" field for filenames (mil-spec, restricted, etc.)
-- Souvenirs reference collections; images from collection folders are copied to each souvenir folder
-- Each souvenir package gets its own copy of collection images
+- Copies images from collection folders to souvenir package folders
+- Creates souvenir folders if they don't exist
+- Links Icons folder images to JSON case.icon field
+- Handles multiple collections for early souvenirs
 """
 
 import argparse
@@ -31,7 +33,6 @@ SCHEMA_CASE_EXPORT = "3.0-case-export"
 SCHEMA_CONTAINER_EXPORT = "3.1-container-export"
 SUPPORTED_SCHEMAS = [SCHEMA_CASE_EXPORT, SCHEMA_CONTAINER_EXPORT]
 
-# Tier keys in JSONs (these are bucket names, NOT the rarity values for filenames)
 CASE_TIER_KEYS = ["blue", "purple", "pink", "red"]
 COLLECTION_TIER_KEYS = ["consumer", "industrial", "milspec", "restricted", "classified", "covert"]
 GOLD_KEY = "gold"
@@ -40,12 +41,54 @@ CATEGORY_FOLDERS = {
     "weapon": "Weapons", "knife": "Knives", "glove": "Gloves",
     "rifle": "Weapons", "smg": "Weapons", "pistol": "Weapons",
     "shotgun": "Weapons", "machinegun": "Weapons", "sniper": "Weapons",
+    "weapon_skin": "Weapons",
 }
 
 GLOVE_TOKENS = [
     "bloodhound gloves", "driver gloves", "hand wraps", "hydra gloves",
     "moto gloves", "specialist gloves", "sport gloves", "broken fang gloves",
 ]
+
+# Map collection names to folder names
+COLLECTION_FOLDER_MAP = {
+    "the 2018 inferno collection": "The-2018-Inferno-Collection",
+    "the 2018 nuke collection": "The-2018-Nuke-Collection",
+    "the 2021 dust 2 collection": "The-2021-Dust-2-Collection",
+    "the 2021 mirage collection": "The-2021-Mirage-Collection",
+    "the 2021 train collection": "The-2021-Train-Collection",
+    "the 2021 vertigo collection": "The-2021-Vertigo-Collection",
+    "the alpha collection": "The-Alpha-Collection",
+    "the ancient collection": "The-Ancient-Collection",
+    "the assault collection": "The-Assault-Collection",
+    "the aztec collection": "The-Aztec-Collection",
+    "the baggage collection": "The-Baggage-Collection",
+    "the bank collection": "The-Bank-Collection",
+    "the blacksite collection": "The-Blacksite-Collection",
+    "the cache collection": "The-Cache-Collection",
+    "the canals collection": "The-Canals-Collection",
+    "the chop shop collection": "The-Chop-Shop-Collection",
+    "the cobblestone collection": "The-Cobblestone-Collection",
+    "the control collection": "The-Control-Collection",
+    "the dust 2 collection": "The-Dust-2-Collection",
+    "the dust collection": "The-Dust-Collection",
+    "the gods and monsters collection": "The-Gods-and-Monsters-Collection",
+    "the havoc collection": "The-Havoc-Collection",
+    "the inferno collection": "The-Inferno-Collection",
+    "the italy collection": "The-Italy-Collection",
+    "the lake collection": "The-Lake-Collection",
+    "the militia collection": "The-Militia-Collection",
+    "the mirage collection": "The-Mirage-Collection",
+    "the norse collection": "The-Norse-Collection",
+    "the nuke collection": "The-Nuke-Collection",
+    "the office collection": "The-Office-Collection",
+    "the overpass collection": "The-Overpass-Collection",
+    "the rising sun collection": "The-Rising-Sun-Collection",
+    "the safehouse collection": "The-Safehouse-Collection",
+    "the st. marc collection": "The-St.-Marc-Collection",
+    "the train collection": "The-Train-Collection",
+    "the vertigo collection": "The-Vertigo-Collection",
+    "the anubis collection": "The-Anubis-Collection",
+}
 
 PLAN_COLUMNS = [
     "FullPath", "CaseId", "CaseName", "CollectionName", "OriginalFolder", "OriginalName",
@@ -65,6 +108,7 @@ def normalize_text(text: str) -> str:
     if not text:
         return ""
     result = text.lower()
+    result = result.replace("&", " and ")  # Dreams & Nightmares -> Dreams and Nightmares
     result = result.replace("★", "").replace("|", " ")
     result = re.sub(r'[\[\](){}]', ' ', result)
     result = re.sub(r"[^\w\s\-]", "", result)
@@ -83,18 +127,19 @@ def to_kebab_case(text: str) -> str:
 def normalize_rarity_for_filename(rarity: str) -> str:
     """Normalize rarity for use in filename."""
     r = rarity.lower().strip()
-    # Keep the actual rarity names as-is (mil-spec, restricted, classified, covert, extraordinary)
-    # Also handle consumer, industrial, milspec for collections
     return r.replace("_", "-")
 
 
 def strip_souvenir_prefix(text: str) -> str:
-    """Remove 'souvenir-' or 'Souvenir ' prefix."""
-    if text.lower().startswith("souvenir-"):
-        return text[9:]
-    if text.lower().startswith("souvenir "):
-        return text[9:]
-    return text
+    """Remove 'souvenir-' or 'Souvenir ' prefix and '-souvenir' suffix."""
+    t = text
+    if t.lower().startswith("souvenir-"):
+        t = t[9:]
+    if t.lower().startswith("souvenir "):
+        t = t[9:]
+    if t.lower().endswith("-souvenir"):
+        t = t[:-9]
+    return t
 
 
 def normalize_filename_for_matching(filename: str) -> tuple:
@@ -138,6 +183,14 @@ def infer_category(item: dict, context: str = "") -> str:
     return "weapon"
 
 
+def get_collection_folder(collection_name: str) -> Optional[str]:
+    """Get folder name for a collection."""
+    if not collection_name:
+        return None
+    coll_lower = collection_name.lower().strip()
+    return COLLECTION_FOLDER_MAP.get(coll_lower)
+
+
 # =============================================================================
 # JSON HANDLING
 # =============================================================================
@@ -175,7 +228,6 @@ def extract_items_from_json(data: dict) -> list:
     souvenir_info = case_data.get("souvenir", {})
     collection_name = souvenir_info.get("collection", "")
     
-    # Determine tier keys based on type
     is_souvenir = "souvenir" in case_type.lower() or schema == SCHEMA_CONTAINER_EXPORT
     tier_keys = COLLECTION_TIER_KEYS if is_souvenir else CASE_TIER_KEYS
     
@@ -183,7 +235,6 @@ def extract_items_from_json(data: dict) -> list:
     for tier_key in tier_keys:
         for item in tiers.get(tier_key, []):
             item_copy = dict(item)
-            # USE THE ITEM'S ACTUAL RARITY FIELD - this is the key fix
             item_copy["_rarity"] = item.get("rarity", tier_key)
             item_copy["_tierKey"] = tier_key
             item_copy["_context"] = "tiers"
@@ -221,12 +272,12 @@ def build_item_index(json_files: list) -> dict:
     index = {
         "by_case": defaultdict(list),
         "by_collection": defaultdict(list),
-        "by_item_normalized": defaultdict(list),
-        "by_base_item": defaultdict(list),  # weapon+skin without souvenir prefix
+        "by_base_item": defaultdict(list),
         "json_paths": {},
         "json_data": {},
         "collection_to_cases": defaultdict(list),
         "case_to_collection": {},
+        "case_info": {},  # case_id -> {name, type, collection, etc.}
     }
     
     for json_path in json_files:
@@ -242,13 +293,20 @@ def build_item_index(json_files: list) -> dict:
         index["json_paths"][case_id] = json_path
         index["json_data"][case_id] = data
         
+        souvenir_info = case_data.get("souvenir", {})
+        collection_name = souvenir_info.get("collection", "")
+        
+        index["case_info"][case_id] = {
+            "name": case_data.get("name", ""),
+            "type": case_data.get("caseType", ""),
+            "collection": collection_name,
+            "is_souvenir": "souvenir" in case_data.get("caseType", "").lower(),
+        }
+        
         items = extract_items_from_json(data)
         index["by_case"][case_id].extend(items)
         
-        # Track collection relationships
-        souvenir_info = case_data.get("souvenir", {})
-        collection_name = souvenir_info.get("collection", "")
-        if collection_name:
+        if collection_name and collection_name.lower() != "multiple collections":
             index["collection_to_cases"][collection_name].append(case_id)
             index["case_to_collection"][case_id] = collection_name
             for item in items:
@@ -256,16 +314,10 @@ def build_item_index(json_files: list) -> dict:
         
         for item in items:
             item_id = item.get("itemId", "")
-            normalized = normalize_text(item_id)
-            if normalized:
-                index["by_item_normalized"][normalized].append(item)
-            
-            # Also index by base item (without souvenir prefix) for cross-matching
             base_normalized = normalize_text(strip_souvenir_prefix(item_id))
             if base_normalized:
                 index["by_base_item"][base_normalized].append(item)
             
-            # Index by weapon+skin combo
             weapon = item.get("weapon", "")
             skin = item.get("skin", "")
             if weapon and skin:
@@ -288,11 +340,10 @@ def discover_all_folders(assets_root: Path) -> list:
     for item in sorted(assets_root.iterdir()):
         if item.is_dir() and not item.name.startswith('.') and "_remove" not in item.name:
             if item.name == "Collections":
-                # Add each collection subfolder
                 for sub in sorted(item.iterdir()):
                     if sub.is_dir():
                         folders.append(sub)
-            else:
+            elif item.name != "Icons":
                 folders.append(item)
     return folders
 
@@ -306,8 +357,44 @@ def discover_png_files(folder: Path) -> list:
     return sorted(pngs)
 
 
+def discover_collection_images(assets_root: Path) -> dict:
+    """Build index of all images in collection folders."""
+    images = {}  # normalized_name -> {path, folder_name}
+    collections_root = assets_root / "Collections"
+    if not collections_root.exists():
+        return images
+    
+    for coll_folder in collections_root.iterdir():
+        if not coll_folder.is_dir():
+            continue
+        for png in coll_folder.rglob("*.png"):
+            if "_remove" not in str(png):
+                norm_name, _ = normalize_filename_for_matching(png.name)
+                images[norm_name] = {
+                    "path": png,
+                    "folder": coll_folder.name,
+                    "original_name": png.name
+                }
+    return images
+
+
+def discover_icons(assets_root: Path) -> dict:
+    """Build index of all icons."""
+    icons = {}  # normalized_case_name -> path
+    icons_folder = assets_root / "Icons"
+    if not icons_folder.exists():
+        return icons
+    
+    for png in icons_folder.glob("*.png"):
+        # Normalize icon name to match case names
+        name = png.stem
+        norm = normalize_text(name)
+        icons[norm] = png
+    return icons
+
+
 def map_folder(folder_path: Path, item_index: dict) -> dict:
-    """Map a folder to case(s) or collection. Returns mapping info."""
+    """Map a folder to case(s) or collection."""
     folder_name = folder_path.name
     folder_norm = to_kebab_case(folder_name)
     folder_no_hyphen = folder_norm.replace("-", "")
@@ -323,7 +410,6 @@ def map_folder(folder_path: Path, item_index: dict) -> dict:
     }
     
     if is_collection_folder:
-        # Match against collection names
         for coll_name in item_index["by_collection"].keys():
             coll_norm = to_kebab_case(coll_name)
             coll_no_hyphen = coll_norm.replace("-", "")
@@ -386,19 +472,15 @@ def map_folder(folder_path: Path, item_index: dict) -> dict:
 # =============================================================================
 
 def match_png_to_item(png_path: Path, folder_mapping: dict, item_index: dict) -> Optional[dict]:
-    """Match a PNG to an item. Works for both case folders and collection folders."""
+    """Match a PNG to an item."""
     filename = png_path.name
     norm_filename, variant_suffix = normalize_filename_for_matching(filename)
     
-    # Get candidate items based on folder mapping
     candidates = []
-    
     if folder_mapping["is_collection"] and folder_mapping["matched_collection"]:
-        # Collection folder: get items from all cases using this collection
         coll = folder_mapping["matched_collection"]
         candidates = item_index["by_collection"].get(coll, [])
     elif folder_mapping["matched_cases"]:
-        # Case folder: get items from the matched case
         for case_id in folder_mapping["matched_cases"]:
             candidates.extend(item_index["by_case"].get(case_id, []))
     
@@ -415,12 +497,10 @@ def match_png_to_item(png_path: Path, folder_mapping: dict, item_index: dict) ->
         weapon = item.get("weapon", "")
         skin = item.get("skin", "")
         
-        # Normalize item identifiers, stripping souvenir prefix
         norm_item_id = normalize_text(strip_souvenir_prefix(item_id))
         norm_display = normalize_text(strip_souvenir_prefix(display_name))
         weapon_skin = normalize_text(f"{weapon} {skin}")
         
-        # Exact matches
         if norm_filename == norm_item_id:
             return {"item": item, "confidence": 100, "method": "exact_itemId", "variant": variant_suffix}
         
@@ -432,14 +512,12 @@ def match_png_to_item(png_path: Path, folder_mapping: dict, item_index: dict) ->
             if best_confidence < 96:
                 best_match, best_confidence, best_method = item, 96, "exact_weapon_skin"
         
-        # Doppler handling
         if "doppler" in norm_item_id and "doppler" in norm_filename:
             base_id = re.sub(r'-phase-\d+$', '', norm_item_id)
             base_id = re.sub(r'-(ruby|sapphire|black-pearl|emerald)$', '', base_id)
             if norm_filename == base_id and best_confidence < 88:
                 best_match, best_confidence, best_method = item, 88, "doppler_base"
         
-        # Partial matches
         if norm_item_id and (norm_item_id in norm_filename or norm_filename in norm_item_id):
             ratio = min(len(norm_item_id), len(norm_filename)) / max(len(norm_item_id), len(norm_filename), 1)
             score = ratio * 82
@@ -454,6 +532,25 @@ def match_png_to_item(png_path: Path, folder_mapping: dict, item_index: dict) ->
     
     if best_match and best_confidence >= 50:
         return {"item": best_match, "confidence": int(best_confidence), "method": best_method, "variant": variant_suffix}
+    
+    return None
+
+
+def match_item_to_collection_image(item: dict, collection_images: dict) -> Optional[dict]:
+    """Try to find a collection image for an item."""
+    item_id = item.get("itemId", "")
+    weapon = item.get("weapon", "")
+    skin = item.get("skin", "")
+    
+    # Try various normalizations
+    searches = [
+        normalize_text(strip_souvenir_prefix(item_id)),
+        normalize_text(f"{weapon} {skin}"),
+    ]
+    
+    for search in searches:
+        if search and search in collection_images:
+            return collection_images[search]
     
     return None
 
@@ -480,6 +577,13 @@ def get_category_folder(category: str) -> str:
     return CATEGORY_FOLDERS.get(category.lower(), "Weapons")
 
 
+def case_id_to_folder_name(case_id: str) -> str:
+    """Convert case ID to a folder name format."""
+    # Convert kebab-case to Title-Case-With-Hyphens
+    parts = case_id.split('-')
+    return '-'.join(p.capitalize() for p in parts)
+
+
 class PlanGenerator:
     def __init__(self, root: Path, assets_root: Path, item_index: dict):
         self.root = root
@@ -488,16 +592,18 @@ class PlanGenerator:
         self.plan_rows = []
         self.unmatched = []
         self.missing_items = []
-        self.used_filenames = defaultdict(set)  # container -> set of filenames
-        self.matched_items = defaultdict(set)   # case_id -> set of norm_item_ids
-        self.collection_images = defaultdict(dict)  # collection -> {norm_item_id -> png_info}
+        self.used_filenames = defaultdict(set)
+        self.matched_items = defaultdict(set)
+        self.collection_images = discover_collection_images(assets_root)
+        self.icons = discover_icons(assets_root)
         self.remove_counters = defaultdict(int)
+        self.folders_to_create = set()
     
     def generate(self):
         """Generate the complete plan."""
         folders = discover_all_folders(self.assets_root)
         
-        # Phase 1: Process all folders and match PNGs
+        # Phase 1: Process existing folders
         for folder in folders:
             mapping = map_folder(folder, self.item_index)
             pngs = discover_png_files(folder)
@@ -505,22 +611,21 @@ class PlanGenerator:
             for png in pngs:
                 self._process_png(png, folder, mapping)
         
-        # Phase 2: For collection folders, generate copy actions for souvenir packages
+        # Phase 2: Generate copy actions for souvenir packages from collection images
         self._generate_souvenir_copies()
         
         # Phase 3: Find missing items
         self._find_missing()
         
         # Sort for determinism
-        self.plan_rows.sort(key=lambda x: x["FullPath"])
+        self.plan_rows.sort(key=lambda x: (x["Action"], x["FullPath"]))
 
     def _process_png(self, png: Path, folder: Path, mapping: dict):
         """Process a single PNG file."""
         row = {
-            "FullPath": str(png),
-            "CaseId": "None", "CaseName": "None", "CollectionName": "None",
-            "OriginalFolder": str(png.parent), "OriginalName": png.name,
-            "NewFolder": "None", "NewName": "None",
+            "FullPath": str(png), "CaseId": "None", "CaseName": "None",
+            "CollectionName": "None", "OriginalFolder": str(png.parent),
+            "OriginalName": png.name, "NewFolder": "None", "NewName": "None",
             "Rarity": "None", "ItemId": "None", "Category": "None",
             "MatchedBy": "None", "Verified": "False", "Confidence": "0",
             "Rationale": "None", "Action": "unmatched", "CopiedFrom": "None"
@@ -530,10 +635,6 @@ class PlanGenerator:
         
         if match:
             item = match["item"]
-            confidence = match["confidence"]
-            method = match["method"]
-            variant = match["variant"]
-            
             case_id = item["_caseId"]
             case_name = item["_caseName"]
             coll_name = item.get("_collectionName", "")
@@ -547,20 +648,18 @@ class PlanGenerator:
             row["ItemId"] = item_id
             row["Rarity"] = rarity
             row["Category"] = category
-            row["MatchedBy"] = method
-            row["Confidence"] = str(confidence)
-            row["Verified"] = "True" if confidence >= 80 else "False"
-            row["Rationale"] = f"Matched via {method} ({confidence}%)"
+            row["MatchedBy"] = match["method"]
+            row["Confidence"] = str(match["confidence"])
+            row["Verified"] = "True" if match["confidence"] >= 80 else "False"
+            row["Rationale"] = f"Matched via {match['method']} ({match['confidence']}%)"
             
-            # Determine new location
             cat_folder = get_category_folder(category)
             new_folder = folder / cat_folder
-            new_name = self._resolve_filename(folder.name, case_id, rarity, item_id, variant)
+            new_name = self._resolve_filename(folder.name, case_id, rarity, item_id, match["variant"])
             
             row["NewFolder"] = str(new_folder)
             row["NewName"] = new_name
             
-            # Determine action
             if png.parent.name == cat_folder and png.name == new_name:
                 row["Action"] = "skip"
             elif png.parent.name != cat_folder:
@@ -568,20 +667,9 @@ class PlanGenerator:
             else:
                 row["Action"] = "rename"
             
-            # Track matched items
             norm_item = normalize_text(strip_souvenir_prefix(item_id))
             self.matched_items[case_id].add(norm_item)
-            
-            # Track for souvenir copy resolution
-            if mapping["is_collection"] and mapping["matched_collection"]:
-                coll = mapping["matched_collection"]
-                self.collection_images[coll][norm_item] = {
-                    "path": png, "rarity": rarity, "category": category,
-                    "new_folder": new_folder, "new_name": new_name,
-                    "item_id": item_id
-                }
         else:
-            # Unmatched - move to _remove folder
             remove_folder = folder.parent / f"{folder.name}_remove"
             self.remove_counters[folder.name] += 1
             counter = self.remove_counters[folder.name]
@@ -590,7 +678,7 @@ class PlanGenerator:
             row["NewFolder"] = str(remove_folder)
             row["NewName"] = new_name
             row["Action"] = "remove"
-            row["Rationale"] = f"No match found (folder type: {mapping['match_type']})"
+            row["Rationale"] = f"No match (folder: {mapping['match_type']})"
             
             self.unmatched.append({
                 "FullPath": str(png), "Reason": "No match",
@@ -602,63 +690,59 @@ class PlanGenerator:
 
     def _generate_souvenir_copies(self):
         """Generate copy actions for souvenir packages from collection images."""
-        for coll_name, images in self.collection_images.items():
-            # Get all souvenir packages using this collection
-            souvenir_cases = self.item_index["collection_to_cases"].get(coll_name, [])
+        # For each souvenir package, find missing items and look for them in collections
+        for case_id, case_info in self.item_index["case_info"].items():
+            if not case_info["is_souvenir"]:
+                continue
             
-            for case_id in souvenir_cases:
-                case_items = self.item_index["by_case"].get(case_id, [])
-                case_data = self.item_index["json_data"].get(case_id, {})
-                case_info = case_data.get("case", {})
-                case_name = case_info.get("name", "")
+            case_name = case_info["name"]
+            items = self.item_index["by_case"].get(case_id, [])
+            matched = self.matched_items.get(case_id, set())
+            
+            # Determine target folder for this souvenir
+            target_folder = self._find_or_create_case_folder(case_id)
+            
+            for item in items:
+                item_id = item.get("itemId", "")
+                norm_item = normalize_text(strip_souvenir_prefix(item_id))
                 
-                # Find the asset folder for this souvenir package
-                target_folder = self._find_case_folder(case_id)
-                if not target_folder:
+                if norm_item in matched:
                     continue
                 
-                # For each item in this souvenir, check if we have the image from collection
-                for item in case_items:
-                    item_id = item.get("itemId", "")
-                    norm_item = normalize_text(strip_souvenir_prefix(item_id))
+                # Try to find this item in collection images
+                img_info = match_item_to_collection_image(item, self.collection_images)
+                
+                if img_info:
+                    rarity = item["_rarity"]
+                    category = item["_category"]
+                    cat_folder = get_category_folder(category)
+                    new_folder = target_folder / cat_folder
+                    new_name = self._resolve_filename(target_folder.name, case_id, rarity, item_id, None)
                     
-                    # Skip if already matched directly in this case folder
-                    if norm_item in self.matched_items.get(case_id, set()):
-                        continue
-                    
-                    # Check if collection has this image
-                    if norm_item in images:
-                        src = images[norm_item]
-                        rarity = item["_rarity"]
-                        category = item["_category"]
-                        
-                        cat_folder = get_category_folder(category)
-                        new_folder = target_folder / cat_folder
-                        new_name = self._resolve_filename(target_folder.name, case_id, rarity, item_id, None)
-                        
-                        row = {
-                            "FullPath": "COPY",
-                            "CaseId": case_id, "CaseName": case_name,
-                            "CollectionName": coll_name,
-                            "OriginalFolder": str(src["path"].parent),
-                            "OriginalName": src["path"].name,
-                            "NewFolder": str(new_folder), "NewName": new_name,
-                            "Rarity": rarity, "ItemId": item_id,
-                            "Category": category, "MatchedBy": "collection_copy",
-                            "Verified": "True", "Confidence": "100",
-                            "Rationale": f"Copied from collection {coll_name}",
-                            "Action": "copy", "CopiedFrom": str(src["path"])
-                        }
-                        self.plan_rows.append(row)
-                        self.matched_items[case_id].add(norm_item)
+                    row = {
+                        "FullPath": "COPY",
+                        "CaseId": case_id, "CaseName": case_name,
+                        "CollectionName": img_info["folder"],
+                        "OriginalFolder": str(img_info["path"].parent),
+                        "OriginalName": img_info["original_name"],
+                        "NewFolder": str(new_folder), "NewName": new_name,
+                        "Rarity": rarity, "ItemId": item_id,
+                        "Category": category, "MatchedBy": "collection_copy",
+                        "Verified": "True", "Confidence": "100",
+                        "Rationale": f"Copied from {img_info['folder']}",
+                        "Action": "copy", "CopiedFrom": str(img_info["path"])
+                    }
+                    self.plan_rows.append(row)
+                    self.matched_items[case_id].add(norm_item)
+                    self.folders_to_create.add(target_folder)
     
-    def _find_case_folder(self, case_id: str) -> Optional[Path]:
-        """Find the asset folder for a case."""
+    def _find_or_create_case_folder(self, case_id: str) -> Path:
+        """Find existing folder for case or determine new folder path."""
         case_norm = to_kebab_case(case_id)
         case_no_hyphen = case_norm.replace("-", "")
         
         for item in self.assets_root.iterdir():
-            if not item.is_dir() or item.name == "Collections":
+            if not item.is_dir() or item.name in ["Collections", "Icons"]:
                 continue
             folder_norm = to_kebab_case(item.name)
             folder_no_hyphen = folder_norm.replace("-", "")
@@ -667,7 +751,10 @@ class PlanGenerator:
                 return item
             if case_norm in folder_norm or folder_norm in case_norm:
                 return item
-        return None
+        
+        # Create new folder name from case_id
+        folder_name = case_id_to_folder_name(case_id)
+        return self.assets_root / folder_name
 
     def _find_missing(self):
         """Find expected items without images."""
@@ -703,7 +790,6 @@ class PlanGenerator:
             self.used_filenames[container].add(base)
             return base
         
-        # Add sequential suffix
         counter = 1
         while True:
             suf_name = make_filename(case_id, rarity, item_id, f"-{counter:02d}")
@@ -711,6 +797,24 @@ class PlanGenerator:
                 self.used_filenames[container].add(suf_name)
                 return suf_name
             counter += 1
+    
+    def get_icon_mappings(self) -> dict:
+        """Get mappings of case_id -> icon relative path."""
+        mappings = {}
+        for case_id in self.item_index["by_case"].keys():
+            case_info = self.item_index["case_info"].get(case_id, {})
+            case_name = case_info.get("name", "")
+            
+            # Try to find matching icon
+            case_norm = normalize_text(case_name)
+            if case_norm in self.icons:
+                icon_path = self.icons[case_norm]
+                try:
+                    rel = icon_path.relative_to(self.root)
+                    mappings[case_id] = str(rel).replace("\\", "/")
+                except ValueError:
+                    pass
+        return mappings
 
 
 # =============================================================================
@@ -718,15 +822,25 @@ class PlanGenerator:
 # =============================================================================
 
 class PlanExecutor:
-    def __init__(self, root: Path, assets_root: Path, plan_path: Path, item_index: dict):
+    def __init__(self, root: Path, assets_root: Path, plan_path: Path, item_index: dict, icon_mappings: dict):
         self.root = root
         self.assets_root = assets_root
         self.plan_path = plan_path
         self.item_index = item_index
+        self.icon_mappings = icon_mappings
         self.results = []
     
     def execute(self):
         rows = self._load_plan()
+        
+        # Create any needed folders first
+        folders_created = set()
+        for row in rows:
+            if row["Action"] in ["copy", "move+rename"]:
+                folder = Path(row["NewFolder"])
+                if folder not in folders_created and not folder.exists():
+                    folder.mkdir(parents=True, exist_ok=True)
+                    folders_created.add(folder)
         
         for row in rows:
             result = dict(row)
@@ -757,6 +871,7 @@ class PlanExecutor:
             
             self.results.append(result)
         
+        # Patch JSONs with image paths and icons
         self._patch_jsons()
     
     def _load_plan(self) -> list:
@@ -792,7 +907,7 @@ class PlanExecutor:
         shutil.copy2(str(src), str(dst))
 
     def _patch_jsons(self):
-        """Patch JSONs with image paths."""
+        """Patch JSONs with icon and image paths."""
         # Build map of (case_id, norm_item) -> relative_path
         image_map = defaultdict(dict)
         
@@ -827,6 +942,13 @@ class PlanExecutor:
             modified = False
             case_data = data.get("case", {})
             
+            # Add icon at case level (at the top)
+            if case_id in self.icon_mappings:
+                icon_path = self.icon_mappings[case_id]
+                if case_data.get("icon") != icon_path:
+                    case_data["icon"] = icon_path
+                    modified = True
+            
             # Get tier keys
             schema = data.get("schemaVersion", "")
             is_souv = "souvenir" in case_data.get("caseType", "").lower() or schema == SCHEMA_CONTAINER_EXPORT
@@ -858,6 +980,13 @@ class PlanExecutor:
                         modified = True
             
             if modified:
+                # Reorder case_data to put icon first
+                ordered_case = {}
+                if "icon" in case_data:
+                    ordered_case["icon"] = case_data.pop("icon")
+                ordered_case.update(case_data)
+                data["case"] = ordered_case
+                
                 with open(json_path, 'w', encoding='utf-8') as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
 
@@ -942,6 +1071,9 @@ def main():
         gen = PlanGenerator(root, assets_root, item_index)
         gen.generate()
         
+        icon_mappings = gen.get_icon_mappings()
+        print(f"Found {len(icon_mappings)} icon mappings")
+        
         print(f"\nWriting reports to: {reports_dir}")
         write_plan_csv(plan_path, gen.plan_rows)
         print(f"  Plan: {plan_path} ({len(gen.plan_rows)} rows)")
@@ -954,6 +1086,13 @@ def main():
         write_missing_csv(missing_path, gen.missing_items)
         print(f"  Missing: {missing_path} ({len(gen.missing_items)} items)")
         
+        # Write icon mappings for reference
+        icons_path = reports_dir / "icon-mappings.txt"
+        with open(icons_path, 'w', encoding='utf-8') as f:
+            for cid, path in sorted(icon_mappings.items()):
+                f.write(f"{cid} -> {path}\n")
+        print(f"  Icons: {icons_path} ({len(icon_mappings)} mappings)")
+        
         # Summary
         actions = defaultdict(int)
         for r in gen.plan_rows:
@@ -963,11 +1102,21 @@ def main():
         for a, c in sorted(actions.items()):
             print(f"  {a}: {c}")
         
+        print(f"\nFolders to create for copies: {len(gen.folders_to_create)}")
+        for f in sorted(gen.folders_to_create):
+            print(f"  {f.name}")
+        
         print("\nRun with --apply to execute.")
     
     elif args.apply:
         print(f"\nExecuting plan: {plan_path}")
-        exe = PlanExecutor(root, assets_root, plan_path, item_index)
+        
+        # Re-generate to get icon mappings
+        gen = PlanGenerator(root, assets_root, item_index)
+        gen.generate()
+        icon_mappings = gen.get_icon_mappings()
+        
+        exe = PlanExecutor(root, assets_root, plan_path, item_index, icon_mappings)
         exe.execute()
         
         results_path = reports_dir / "rename-results.csv"

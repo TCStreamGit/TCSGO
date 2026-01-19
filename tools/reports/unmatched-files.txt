@@ -290,68 +290,6 @@ A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-St
 A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-St.-Marc-Collection\Tec-9 Rust Leaf.png | No match | none | None
 A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-St.-Marc-Collection\UMP-45 Day Lily.png | No match | none | None
 A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-St.-Marc-Collection\XM1014 Banana Leaf.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Bowie Knife Gamma Doppler-001.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Bowie Knife Gamma Doppler-002.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Bowie Knife Gamma Doppler-003.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Bowie Knife Gamma Doppler-004.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Bowie Knife Gamma Doppler-005.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Bowie Knife Gamma Doppler-006.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Bowie Knife Gamma Doppler-007.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Bowie Knife Gamma Doppler-008.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Bowie Knife Gamma Doppler.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Butterfly Knife Gamma Doppler-001.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Butterfly Knife Gamma Doppler-002.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Butterfly Knife Gamma Doppler-003.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Butterfly Knife Gamma Doppler-004.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Butterfly Knife Gamma Doppler-005.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Butterfly Knife Gamma Doppler-006.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Butterfly Knife Gamma Doppler-007.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Butterfly Knife Gamma Doppler-008.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Butterfly Knife Gamma Doppler.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Falchion Knife Gamma Doppler-001.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Falchion Knife Gamma Doppler-002.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Falchion Knife Gamma Doppler-003.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Falchion Knife Gamma Doppler-004.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Falchion Knife Gamma Doppler-005.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Falchion Knife Gamma Doppler-006.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Falchion Knife Gamma Doppler-007.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Falchion Knife Gamma Doppler-008.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Falchion Knife Gamma Doppler.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Huntsman Knife Gamma Doppler-001.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Huntsman Knife Gamma Doppler-002.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Huntsman Knife Gamma Doppler-003.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Huntsman Knife Gamma Doppler-004.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Huntsman Knife Gamma Doppler-005.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Huntsman Knife Gamma Doppler-006.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Huntsman Knife Gamma Doppler-007.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Huntsman Knife Gamma Doppler-008.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Huntsman Knife Gamma Doppler.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Shadow Daggers Gamma Doppler-001.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Shadow Daggers Gamma Doppler-002.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Shadow Daggers Gamma Doppler-003.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Shadow Daggers Gamma Doppler-004.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Shadow Daggers Gamma Doppler-005.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Shadow Daggers Gamma Doppler-006.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Shadow Daggers Gamma Doppler-007.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Shadow Daggers Gamma Doppler-008.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Knives\Shadow Daggers Gamma Doppler.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\AK-47 Nightwish.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\Dual Berettas Melondrama.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\FAMAS Rapid Eye Movement.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\Five-SeveN Scrawl.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\G3SG1 Dream Glade.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\M4A1-S Night Terror.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\MAC-10 Ensnared.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\MAG-7 Foresight.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\MP5-SD Necro Jr..png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\MP7 Abyssal Apparition.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\MP9 Starlight Protector.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\P2000 Lifted Spirits.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\PP-Bizon Space Cat.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\Sawed-Off Spirit Board.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\SCAR-20 Poultrygeist.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\USP-S Ticket to Hell.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Dreams-&-Nightmares-Case\Weapons\XM1014 Zombie Offensive.png | No match | none | None
 A:\Development Environment\Source Control\GitHub\TCSGO\Assets\eSports-2013-Case\Knives\Bayonet ★.png | No match | case_direct | esports-2013-case
 A:\Development Environment\Source Control\GitHub\TCSGO\Assets\eSports-2013-Winter-Case\Knives\Bayonet ★.png | No match | case_direct | esports-2013-winter-case
 A:\Development Environment\Source Control\GitHub\TCSGO\Assets\eSports-2014-Summer-Case\Knives\Bayonet ★.png | No match | case_direct | esports-2014-summer-case

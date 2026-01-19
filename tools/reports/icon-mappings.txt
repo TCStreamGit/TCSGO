@@ -1,0 +1,139 @@
+antwerp-2022-ancient-souvenir-package -> Assets/Icons/Antwerp 2022 Ancient Souvenir Package.png
+antwerp-2022-dust-ii-souvenir-package -> Assets/Icons/Antwerp 2022 Dust II Souvenir Package.png
+antwerp-2022-inferno-souvenir-package -> Assets/Icons/Antwerp 2022 Inferno Souvenir Package.png
+antwerp-2022-nuke-souvenir-package -> Assets/Icons/Antwerp 2022 Nuke Souvenir Package.png
+antwerp-2022-vertigo-souvenir-package -> Assets/Icons/Antwerp 2022 Vertigo Souvenir Package.png
+atlanta-2017-cache-souvenir-package -> Assets/Icons/Atlanta 2017 Cache Souvenir Package.png
+atlanta-2017-cobblestone-souvenir-package -> Assets/Icons/Atlanta 2017 Cobblestone Souvenir Package.png
+atlanta-2017-dust-ii-souvenir-package -> Assets/Icons/Atlanta 2017 Dust II Souvenir Package.png
+atlanta-2017-mirage-souvenir-package -> Assets/Icons/Atlanta 2017 Mirage Souvenir Package.png
+atlanta-2017-nuke-souvenir-package -> Assets/Icons/Atlanta 2017 Nuke Souvenir Package.png
+atlanta-2017-overpass-souvenir-package -> Assets/Icons/Atlanta 2017 Overpass Souvenir Package.png
+atlanta-2017-train-souvenir-package -> Assets/Icons/Atlanta 2017 Train Souvenir Package.png
+austin-2025-dust-ii-souvenir-package -> Assets/Icons/Austin 2025 Dust II Souvenir Package.png
+austin-2025-inferno-souvenir-package -> Assets/Icons/Austin 2025 Inferno Souvenir Package.png
+austin-2025-train-souvenir-package -> Assets/Icons/Austin 2025 Train Souvenir Package.png
+berlin-2019-dust-ii-souvenir-package -> Assets/Icons/Berlin 2019 Dust II Souvenir Package.png
+berlin-2019-inferno-souvenir-package -> Assets/Icons/Berlin 2019 Inferno Souvenir Package.png
+berlin-2019-mirage-souvenir-package -> Assets/Icons/Berlin 2019 Mirage Souvenir Package.png
+berlin-2019-nuke-souvenir-package -> Assets/Icons/Berlin 2019 Nuke Souvenir Package.png
+berlin-2019-overpass-souvenir-package -> Assets/Icons/Berlin 2019 Overpass Souvenir Package.png
+berlin-2019-train-souvenir-package -> Assets/Icons/Berlin 2019 Train Souvenir Package.png
+berlin-2019-vertigo-souvenir-package -> Assets/Icons/Berlin 2019 Vertigo Souvenir Package.png
+boston-2018-cache-souvenir-package -> Assets/Icons/Boston 2018 Cache Souvenir Package.png
+boston-2018-cobblestone-souvenir-package -> Assets/Icons/Boston 2018 Cobblestone Souvenir Package.png
+boston-2018-mirage-souvenir-package -> Assets/Icons/Boston 2018 Mirage Souvenir Package.png
+boston-2018-nuke-souvenir-package -> Assets/Icons/Boston 2018 Nuke Souvenir Package.png
+boston-2018-overpass-souvenir-package -> Assets/Icons/Boston 2018 Overpass Souvenir Package.png
+boston-2018-train-souvenir-package -> Assets/Icons/Boston 2018 Train Souvenir Package.png
+budapest-2025-ancient-souvenir-package -> Assets/Icons/Budapest 2025 Ancient Souvenir Package.png
+budapest-2025-dust-ii-souvenir-package -> Assets/Icons/Budapest 2025 Dust II Souvenir Package.png
+budapest-2025-inferno-souvenir-package -> Assets/Icons/Budapest 2025 Inferno Souvenir Package.png
+budapest-2025-mirage-souvenir-package -> Assets/Icons/Budapest 2025 Mirage Souvenir Package.png
+budapest-2025-nuke-souvenir-package -> Assets/Icons/Budapest 2025 Nuke Souvenir Package.png
+budapest-2025-overpass-souvenir-package -> Assets/Icons/Budapest 2025 Overpass Souvenir Package.png
+chroma-2-case -> Assets/Icons/Chroma 2 Case.png
+chroma-3-case -> Assets/Icons/Chroma 3 Case.png
+chroma-case -> Assets/Icons/Chroma Case.png
+clutch-case -> Assets/Icons/Clutch Case.png
+cologne-2016-cache-souvenir-package -> Assets/Icons/Cologne 2016 Cache Souvenir Package.png
+cologne-2016-cobblestone-souvenir-package -> Assets/Icons/Cologne 2016 Cobblestone Souvenir Package.png
+cologne-2016-nuke-souvenir-package -> Assets/Icons/Cologne 2016 Nuke Souvenir Package.png
+cologne-2016-train-souvenir-package -> Assets/Icons/Cologne 2016 Train Souvenir Package.png
+copenhagen-2024-ancient-souvenir-package -> Assets/Icons/Copenhagen 2024 Ancient Souvenir Package.png
+copenhagen-2024-anubis-souvenir-package -> Assets/Icons/Copenhagen 2024 Anubis Souvenir Package.png
+copenhagen-2024-inferno-souvenir-package -> Assets/Icons/Copenhagen 2024 Inferno Souvenir Package.png
+copenhagen-2024-overpass-souvenir-package -> Assets/Icons/Copenhagen 2024 Overpass Souvenir Package.png
+cs20-case -> Assets/Icons/CS20 Case.png
+csgo-weapon-case -> Assets/Icons/CSGO Weapon Case.png
+csgo-weapon-case-2 -> Assets/Icons/CSGO Weapon Case 2.png
+csgo-weapon-case-3 -> Assets/Icons/CSGO Weapon Case 3.png
+danger-zone-case -> Assets/Icons/Danger Zone Case.png
+dreamhack-2013-souvenir-package -> Assets/Icons/DreamHack 2013 Souvenir Package.png
+dreamhack-2014-dust-ii-souvenir-package -> Assets/Icons/DreamHack 2014 Dust II Souvenir Package.png
+dreamhack-cluj-napoca-2015-overpass-souvenir-package -> Assets/Icons/DreamHack Cluj-Napoca 2015 Overpass Souvenir Package.png
+dreams-and-nightmares-case -> Assets/Icons/Dreams & Nightmares Case.png
+ems-one-2014-souvenir-package -> Assets/Icons/EMS One 2014 Souvenir Package.png
+esl-one-cologne-2014-cobblestone-souvenir-package -> Assets/Icons/ESL One Cologne 2014 Cobblestone Souvenir Package.png
+esl-one-cologne-2015-cobblestone-souvenir-package -> Assets/Icons/ESL One Cologne 2015 Cobblestone Souvenir Package.png
+esl-one-katowice-2015-cache-souvenir-package -> Assets/Icons/ESL One Katowice 2015 Cache Souvenir Package.png
+esl-one-katowice-2015-cobblestone-souvenir-package -> Assets/Icons/ESL One Katowice 2015 Cobblestone Souvenir Package.png
+esl-one-katowice-2015-dust-ii-souvenir-package -> Assets/Icons/ESL One Katowice 2015 Dust II Souvenir Package.png
+esl-one-katowice-2015-mirage-souvenir-package -> Assets/Icons/ESL One Katowice 2015 Mirage Souvenir Package.png
+esports-2013-case -> Assets/Icons/eSports 2013 Case.png
+esports-2013-winter-case -> Assets/Icons/eSports 2013 Winter Case.png
+esports-2014-summer-case -> Assets/Icons/eSports 2014 Summer Case.png
+falchion-case -> Assets/Icons/Falchion Case.png
+fever-case -> Assets/Icons/Fever Case.png
+fracture-case -> Assets/Icons/Fracture Case.png
+gallery-case -> Assets/Icons/Gallery Case.png
+gamma-2-case -> Assets/Icons/Gamma 2 Case.png
+gamma-case -> Assets/Icons/Gamma Case.png
+glove-case -> Assets/Icons/Glove Case.png
+horizon-case -> Assets/Icons/Horizon Case.png
+huntsman-weapon-case -> Assets/Icons/Huntsman Weapon Case.png
+katowice-2019-cache-souvenir-package -> Assets/Icons/Katowice 2019 Cache Souvenir Package.png
+katowice-2019-dust-ii-souvenir-package -> Assets/Icons/Katowice 2019 Dust II Souvenir Package.png
+katowice-2019-inferno-souvenir-package -> Assets/Icons/Katowice 2019 Inferno Souvenir Package.png
+katowice-2019-mirage-souvenir-package -> Assets/Icons/Katowice 2019 Mirage Souvenir Package.png
+katowice-2019-nuke-souvenir-package -> Assets/Icons/Katowice 2019 Nuke Souvenir Package.png
+katowice-2019-overpass-souvenir-package -> Assets/Icons/Katowice 2019 Overpass Souvenir Package.png
+katowice-2019-train-souvenir-package -> Assets/Icons/Katowice 2019 Train Souvenir Package.png
+kilowatt-case -> Assets/Icons/Kilowatt Case.png
+krakow-2017-cache-souvenir-package -> Assets/Icons/Krakow 2017 Cache Souvenir Package.png
+krakow-2017-cobblestone-souvenir-package -> Assets/Icons/Krakow 2017 Cobblestone Souvenir Package.png
+krakow-2017-inferno-souvenir-package -> Assets/Icons/Krakow 2017 Inferno Souvenir Package.png
+krakow-2017-mirage-souvenir-package -> Assets/Icons/Krakow 2017 Mirage Souvenir Package.png
+krakow-2017-nuke-souvenir-package -> Assets/Icons/Krakow 2017 Nuke Souvenir Package.png
+krakow-2017-overpass-souvenir-package -> Assets/Icons/Krakow 2017 Overpass Souvenir Package.png
+krakow-2017-train-souvenir-package -> Assets/Icons/Krakow 2017 Train Souvenir Package.png
+london-2018-cache-souvenir-package -> Assets/Icons/London 2018 Cache Souvenir Package.png
+london-2018-dust-ii-souvenir-package -> Assets/Icons/London 2018 Dust II Souvenir Package.png
+london-2018-inferno-souvenir-package -> Assets/Icons/London 2018 Inferno Souvenir Package.png
+london-2018-mirage-souvenir-package -> Assets/Icons/London 2018 Mirage Souvenir Package.png
+london-2018-nuke-souvenir-package -> Assets/Icons/London 2018 Nuke Souvenir Package.png
+london-2018-overpass-souvenir-package -> Assets/Icons/London 2018 Overpass Souvenir Package.png
+london-2018-train-souvenir-package -> Assets/Icons/London 2018 Train Souvenir Package.png
+mlg-columbus-2016-cache-souvenir-package -> Assets/Icons/MLG Columbus 2016 Cache Souvenir Package.png
+mlg-columbus-2016-inferno-souvenir-package -> Assets/Icons/MLG Columbus 2016 Inferno Souvenir Package.png
+mlg-columbus-2016-mirage-souvenir-package -> Assets/Icons/MLG Columbus 2016 Mirage Souvenir Package.png
+operation-bravo-case -> Assets/Icons/Operation Bravo Case.png
+operation-breakout-weapon-case -> Assets/Icons/Operation Breakout Weapon Case.png
+operation-broken-fang-case -> Assets/Icons/Operation Broken Fang Case.png
+operation-hydra-case -> Assets/Icons/Operation Hydra Case.png
+operation-phoenix-weapon-case -> Assets/Icons/Operation Phoenix Weapon Case.png
+operation-riptide-case -> Assets/Icons/Operation Riptide Case.png
+operation-vanguard-weapon-case -> Assets/Icons/Operation Vanguard Weapon Case.png
+operation-wildfire-case -> Assets/Icons/Operation Wildfire Case.png
+paris-2023-ancient-souvenir-package -> Assets/Icons/Paris 2023 Ancient Souvenir Package.png
+paris-2023-anubis-souvenir-package -> Assets/Icons/Paris 2023 Anubis Souvenir Package.png
+paris-2023-inferno-souvenir-package -> Assets/Icons/Paris 2023 Inferno Souvenir Package.png
+paris-2023-mirage-souvenir-package -> Assets/Icons/Paris 2023 Mirage Souvenir Package.png
+paris-2023-nuke-souvenir-package -> Assets/Icons/Paris 2023 Nuke Souvenir Package.png
+paris-2023-overpass-souvenir-package -> Assets/Icons/Paris 2023 Overpass Souvenir Package.png
+paris-2023-vertigo-souvenir-package -> Assets/Icons/Paris 2023 Vertigo Souvenir Package.png
+prisma-2-case -> Assets/Icons/Prisma 2 Case.png
+prisma-case -> Assets/Icons/Prisma Case.png
+recoil-case -> Assets/Icons/Recoil Case.png
+revolution-case -> Assets/Icons/Revolution Case.png
+revolver-case -> Assets/Icons/Revolver Case.png
+rio-2022-dust-ii-souvenir-package -> Assets/Icons/Rio 2022 Dust II Souvenir Package.png
+rio-2022-mirage-souvenir-package -> Assets/Icons/Rio 2022 Mirage Souvenir Package.png
+rio-2022-vertigo-souvenir-package -> Assets/Icons/Rio 2022 Vertigo Souvenir Package.png
+sealed-genesis-terminal -> Assets/Icons/Sealed Genesis Terminal.png
+shadow-case -> Assets/Icons/Shadow Case.png
+shanghai-2024-anubis-souvenir-package -> Assets/Icons/Shanghai 2024 Anubis Souvenir Package.png
+shanghai-2024-mirage-souvenir-package -> Assets/Icons/Shanghai 2024 Mirage Souvenir Package.png
+shattered-web-case -> Assets/Icons/Shattered Web Case.png
+snakebite-case -> Assets/Icons/Snakebite Case.png
+spectrum-2-case -> Assets/Icons/Spectrum 2 Case.png
+spectrum-case -> Assets/Icons/Spectrum Case.png
+stockholm-2021-ancient-souvenir-package -> Assets/Icons/Stockholm 2021 Ancient Souvenir Package.png
+stockholm-2021-dust-ii-souvenir-package -> Assets/Icons/Stockholm 2021 Dust II Souvenir Package.png
+stockholm-2021-inferno-souvenir-package -> Assets/Icons/Stockholm 2021 Inferno Souvenir Package.png
+stockholm-2021-mirage-souvenir-package -> Assets/Icons/Stockholm 2021 Mirage Souvenir Package.png
+stockholm-2021-nuke-souvenir-package -> Assets/Icons/Stockholm 2021 Nuke Souvenir Package.png
+stockholm-2021-overpass-souvenir-package -> Assets/Icons/Stockholm 2021 Overpass Souvenir Package.png
+stockholm-2021-vertigo-souvenir-package -> Assets/Icons/Stockholm 2021 Vertigo Souvenir Package.png
+winter-offensive-weapon-case -> Assets/Icons/Winter Offensive Weapon Case.png
+x-ray-p250-package -> Assets/Icons/X-Ray P250 Package.png
