@@ -1,0 +1,25 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-St.-Marc-Collection
+RelativeFolder: Collections\The-St.-Marc-Collection
+TotalImagesUnderMainFolder: 18
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-St.-Marc-Collection
+  - AK-47 Wild Lotus.png
+  - AUG Midnight Lily.png
+  - FAMAS Sundown.png
+  - Five-SeveN Crimson Blossom.png
+  - Glock-18 Synth Leaf.png
+  - M249 Jungle.png
+  - M4A4 Dark Blossom.png
+  - MAC-10 Surfwood.png
+  - MP5-SD Bamboo Garden.png
+  - MP7 Teal Blossom.png
+  - MP9 Wild Lily.png
+  - P90 Sunset Lily.png
+  - PP-Bizon Seabird.png
+  - Sawed-Off Jungle Thicket.png
+  - SSG 08 Sea Calico.png
+  - Tec-9 Rust Leaf.png
+  - UMP-45 Day Lily.png
+  - XM1014 Banana Leaf.png
+

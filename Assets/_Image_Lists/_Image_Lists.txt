@@ -1,0 +1,6 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\_Image_Lists
+RelativeFolder: _Image_Lists
+TotalImagesUnderMainFolder: 0
+
+No Images Found Under This Folder (Including Subfolders).

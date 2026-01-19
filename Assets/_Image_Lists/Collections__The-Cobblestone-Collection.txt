@@ -1,0 +1,22 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Cobblestone-Collection
+RelativeFolder: Collections\The-Cobblestone-Collection
+TotalImagesUnderMainFolder: 15
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Cobblestone-Collection
+  - AWP Dragon Lore.png
+  - CZ75-Auto Chalice.png
+  - Desert Eagle Hand Cannon.png
+  - Dual Berettas Briar.png
+  - M4A1-S Knight.png
+  - MAC-10 Indigo.png
+  - MAG-7 Silver.png
+  - MP9 Dark Age.png
+  - Nova Green Apple.png
+  - P2000 Chainmail.png
+  - P90 Storm.png
+  - Sawed-Off Rust Coat.png
+  - SCAR-20 Storm.png
+  - UMP-45 Indigo.png
+  - USP-S Royal Blue.png
+

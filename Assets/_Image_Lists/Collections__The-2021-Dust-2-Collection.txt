@@ -1,0 +1,26 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-2021-Dust-2-Collection
+RelativeFolder: Collections\The-2021-Dust-2-Collection
+TotalImagesUnderMainFolder: 19
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-2021-Dust-2-Collection
+  - AK-47 Gold Arabesque.png
+  - AUG Spalted Wood.png
+  - Five-SeveN Withered Vine.png
+  - G3SG1 New Roots.png
+  - Galil AR Amber Fade.png
+  - M249 Midnight Palm.png
+  - M4A4 Red DDPAT.png
+  - MAC-10 Case Hardened.png
+  - MP7 Prey.png
+  - MP9 Old Roots.png
+  - Nova Quick Sand.png
+  - P250 Black & Tan.png
+  - P90 Desert DDPAT.png
+  - R8 Revolver Desert Brush.png
+  - Sawed-Off Parched.png
+  - SG 553 Bleached.png
+  - SSG 08 Death Strike.png
+  - UMP-45 Fade.png
+  - USP-S Orange Anolis.png
+

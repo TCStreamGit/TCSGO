@@ -1,0 +1,46 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Recoil-Case
+RelativeFolder: Recoil-Case
+TotalImagesUnderMainFolder: 37
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Recoil-Case\Gloves
+  - motorcycle_gloves_motorcycle_carbonfiber_red_light_large.39abf522353dcb56cfd4ef4b9512.png
+  - motorcycle_gloves_motorcycle_checker_flag_blue_green_light_large.d0a65fd2decfb2b5d4f8da4dfcd4.png
+  - motorcycle_gloves_motorcycle_commando_ksk_light_large.0cfdc31fc06c9a989be1f7e77320.png
+  - motorcycle_gloves_motorcycle_smoke_light_large.3381b82109056ba823c0f09cb601.png
+  - slick_gloves_slick_jaguar_white_light_large.232a00b09f3840949dd1390ccf64.png
+  - slick_gloves_slick_jaguar_yellow_light_large.f706695fc1cc89762777696d24cd.png
+  - slick_gloves_slick_rezan_light_large.642934831085e8715a7e8072614f.png
+  - slick_gloves_slick_stitched_black_white_light_large.40e9a843153a7b14540f53e1c343.png
+  - specialist_gloves_specialist_fbi_light_large.1e314531001e6f78b6c3bf167a67.png
+  - specialist_gloves_specialist_marble_fade_light_large.37eb14336eedfe6e346c46134d18.png
+  - specialist_gloves_specialist_ricksaw_camo_light_large.83c8da4fc79d723f693ca5c9a551.png
+  - specialist_gloves_specialist_tiger_orange_light_large.7a97c601858dc5688aba6f3e1a76.png
+  - sporty_gloves_sporty_houndstooth_red_light_large.1e0753ba972edc22576bc39d52d8.png
+  - sporty_gloves_sporty_hunter_light_large.60a0a2143cfdf8bcd1e6198ecf04.png
+  - sporty_gloves_sporty_jaguar_light_large.211eda01f38938c1a6e851aa4555.png
+  - sporty_gloves_sporty_slingshot_light_large.31d32b99c02474d3c39dff0999d5.png
+  - studded_brokenfang_gloves_operation10_floral_light_large.8738e4c5cf48aa1636acb8bd9888.png
+  - studded_brokenfang_gloves_operation10_metalic_green_light_large.80a800c0b681384b0227d4125cd2.png
+  - studded_brokenfang_gloves_operation10_poison_frog_black_yellow_light_large.288cab790af6a199b856678af930.png
+  - studded_brokenfang_gloves_operation10_snakeskin_black_light_large.66371a4c81360f765a00c334492e.png
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Recoil-Case\Weapons
+  - AK-47 Ice Coaled.png
+  - AWP Chromatic Aberration.png
+  - Dual Berettas Flora Carnivora.png
+  - FAMAS Meow 36.png
+  - Galil AR Destroyer.png
+  - Glock-18 Winterized.png
+  - M249 Downtown.png
+  - M4A4 Poly Mag.png
+  - MAC-10 Monkeyflage.png
+  - Negev Drop Me.png
+  - P250 Visions.png
+  - P90 Vent Rush.png
+  - R8 Revolver Crazy 8.png
+  - Sawed-Off Kiss♥Love.png
+  - SG 553 Dragon Tech.png
+  - UMP-45 Roadblock.png
+  - USP-S Printstream.png
+

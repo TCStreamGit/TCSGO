@@ -1,0 +1,76 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Horizon-Case
+RelativeFolder: Horizon-Case
+TotalImagesUnderMainFolder: 67
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Horizon-Case\Knives
+  - Navaja Knife ★.png
+  - Navaja Knife Blue Steel.png
+  - Navaja Knife Boreal Forest.png
+  - Navaja Knife Case Hardened.png
+  - Navaja Knife Crimson Web.png
+  - Navaja Knife Fade.png
+  - Navaja Knife Forest DDPAT.png
+  - Navaja Knife Night Stripe.png
+  - Navaja Knife Safari Mesh.png
+  - Navaja Knife Scorched.png
+  - Navaja Knife Slaughter.png
+  - Navaja Knife Stained.png
+  - Navaja Knife Urban Masked.png
+  - Stiletto Knife ★.png
+  - Stiletto Knife Blue Steel.png
+  - Stiletto Knife Boreal Forest.png
+  - Stiletto Knife Case Hardened.png
+  - Stiletto Knife Crimson Web.png
+  - Stiletto Knife Fade.png
+  - Stiletto Knife Forest DDPAT.png
+  - Stiletto Knife Night Stripe.png
+  - Stiletto Knife Safari Mesh.png
+  - Stiletto Knife Scorched.png
+  - Stiletto Knife Slaughter.png
+  - Stiletto Knife Stained.png
+  - Stiletto Knife Urban Masked.png
+  - Talon Knife ★.png
+  - Talon Knife Blue Steel.png
+  - Talon Knife Boreal Forest.png
+  - Talon Knife Case Hardened.png
+  - Talon Knife Crimson Web.png
+  - Talon Knife Fade.png
+  - Talon Knife Forest DDPAT.png
+  - Talon Knife Night Stripe.png
+  - Talon Knife Safari Mesh.png
+  - Talon Knife Scorched.png
+  - Talon Knife Slaughter.png
+  - Talon Knife Stained.png
+  - Talon Knife Urban Masked.png
+  - Ursus Knife ★.png
+  - Ursus Knife Blue Steel.png
+  - Ursus Knife Boreal Forest.png
+  - Ursus Knife Case Hardened.png
+  - Ursus Knife Crimson Web.png
+  - Ursus Knife Fade.png
+  - Ursus Knife Night Stripe.png
+  - Ursus Knife Safari Mesh.png
+  - Ursus Knife Slaughter.png
+  - Ursus Knife Stained.png
+  - Ursus Knife Urban Masked.png
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Horizon-Case\Weapons
+  - AK-47 Neon Rider.png
+  - AUG Amber Slipstream.png
+  - AWP PAW.png
+  - CZ75-Auto Eco.png
+  - Desert Eagle Code Red.png
+  - Dual Berettas Shred.png
+  - FAMAS Eye of Athena.png
+  - G3SG1 High Seas.png
+  - Glock-18 Warhawk.png
+  - M4A1-S Nightmare.png
+  - MP7 Powercore.png
+  - MP9 Capillary.png
+  - Nova Toy Soldier.png
+  - P90 Traction.png
+  - R8 Revolver Survivalist.png
+  - Sawed-Off Devourer.png
+  - Tec-9 Snek-9.png
+

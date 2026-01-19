@@ -1,0 +1,26 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Havoc-Collection
+RelativeFolder: Collections\The-Havoc-Collection
+TotalImagesUnderMainFolder: 19
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Havoc-Collection
+  - AK-47 X-Ray.png
+  - AWP Silk Tiger.png
+  - Desert Eagle Night Heist.png
+  - Dual Berettas Heist.png
+  - Galil AR Phoenix Blacklight.png
+  - Glock-18 Franklin.png
+  - M249 Predator.png
+  - MAC-10 Hot Snakes.png
+  - MP7 Vault Heist.png
+  - Negev Phoenix Stencil.png
+  - Nova Rust Coat.png
+  - P250 Bengal Tiger.png
+  - P90 Tiger Pit.png
+  - PP-Bizon Death Rattle.png
+  - R8 Revolver Phoenix Marker.png
+  - Sawed-Off Clay Ambush.png
+  - SG 553 Hypnotic.png
+  - Tec-9 Phoenix Chalk.png
+  - UMP-45 Houndstooth.png
+

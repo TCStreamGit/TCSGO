@@ -1,0 +1,42 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Huntsman-Weapon-Case
+RelativeFolder: Huntsman-Weapon-Case
+TotalImagesUnderMainFolder: 33
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Huntsman-Weapon-Case\Knives
+  - Huntsman Knife ★.png
+  - Huntsman Knife Blue Steel.png
+  - Huntsman Knife Boreal Forest.png
+  - Huntsman Knife Case Hardened.png
+  - Huntsman Knife Crimson Web.png
+  - Huntsman Knife Fade.png
+  - Huntsman Knife Forest DDPAT.png
+  - Huntsman Knife Night.png
+  - Huntsman Knife Safari Mesh.png
+  - Huntsman Knife Scorched.png
+  - Huntsman Knife Slaughter.png
+  - Huntsman Knife Stained.png
+  - Huntsman Knife Urban Masked.png
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Huntsman-Weapon-Case\Weapons
+  - AK-47 Vulcan.png
+  - AUG Torque.png
+  - CZ75-Auto Poison Dart.png
+  - CZ75-Auto Twist.png
+  - Dual Berettas Retribution.png
+  - Galil AR Kami.png
+  - M4A1-S Atomic Alloy.png
+  - M4A4 Desert-Strike.png
+  - MAC-10 Curse.png
+  - MAC-10 Tatter.png
+  - P2000 Pulse.png
+  - P90 Desert Warfare.png
+  - P90 Module.png
+  - PP-Bizon Antique.png
+  - SCAR-20 Cyrex.png
+  - SSG 08 Slashed.png
+  - Tec-9 Isaac.png
+  - USP-S Caiman.png
+  - USP-S Orion.png
+  - XM1014 Heaven Guard.png
+

@@ -1,0 +1,26 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Ancient-Collection
+RelativeFolder: Collections\The-Ancient-Collection
+TotalImagesUnderMainFolder: 19
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Ancient-Collection
+  - AK-47 Panthera onca.png
+  - AUG Carved Jade.png
+  - CZ75-Auto Silver.png
+  - FAMAS Dark Water.png
+  - G3SG1 Ancient Ritual.png
+  - Galil AR Dusk Ruins.png
+  - M4A1-S Welcome to the Jungle.png
+  - MAC-10 Gold Brick.png
+  - MP7 Tall Grass.png
+  - Nova Army Sheen.png
+  - P2000 Panther Camo.png
+  - P90 Ancient Earth.png
+  - P90 Run and Hide.png
+  - R8 Revolver Night.png
+  - SG 553 Lush Ruins.png
+  - SSG 08 Jungle Dashed.png
+  - Tec-9 Blast From the Past.png
+  - USP-S Ancient Visions.png
+  - XM1014 Ancient Lore.png
+

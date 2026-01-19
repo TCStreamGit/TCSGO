@@ -1,0 +1,22 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Baggage-Collection
+RelativeFolder: Collections\The-Baggage-Collection
+TotalImagesUnderMainFolder: 15
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Baggage-Collection
+  - AK-47 First Class.png
+  - AK-47 Jet Set.png
+  - CZ75-Auto Green Plaid.png
+  - Desert Eagle Pilot.png
+  - G3SG1 Contractor.png
+  - MAC-10 Commuter.png
+  - MP7 Olive Plaid.png
+  - MP9 Green Plaid.png
+  - P2000 Coach Class.png
+  - P90 Leather.png
+  - Sawed-Off First Class.png
+  - SG 553 Traveler.png
+  - SSG 08 Sand Dune.png
+  - USP-S Business Class.png
+  - XM1014 Red Leather.png
+

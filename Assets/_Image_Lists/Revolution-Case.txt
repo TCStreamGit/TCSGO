@@ -1,0 +1,47 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Revolution-Case
+RelativeFolder: Revolution-Case
+TotalImagesUnderMainFolder: 38
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Revolution-Case\Gloves
+  - leather_handwraps_handwrap_leathery_fabric_blue_skulls_light_large.51e28cc44ce70fd4ed719326a06f.png
+  - motorcycle_gloves_motorcycle_basic_green_orange_light_large.3e58353974e92bb56f218bb93b4f.png
+  - motorcycle_gloves_motorcycle_choco_boom_light_large.37abd7be1296fa17815f7b41a7d0.png
+  - motorcycle_gloves_motorcycle_trigrid_blue_light_large.5e8f353a222f45406ab0b60e0d68.png
+  - motorcycle_gloves_motorcycle_yellow_camo_light_large.7ed261be20f42153198256faa761.png
+  - slick_gloves_slick_plaid_purple_light_large.0315b76daffb839e03a9e543dc0d.png
+  - slick_gloves_slick_snakeskin_white_light_large.f6a54c7a3cf91ecbe0a712bb2126.png
+  - slick_gloves_slick_stitched_black_orange_light_large.6cd14c51b9f239f57cf20603a13a.png
+  - slick_gloves_slick_stitched_green_grey_light_large.808fca3933fe16b20eb0cc26bd78.png
+  - specialist_gloves_specialist_fade_light_large.93080c3004ae36aa520d87fd0ceb.png
+  - specialist_gloves_specialist_forest_brown_light_large.9006b6eb926c084698116f2c534c.png
+  - specialist_gloves_specialist_webs_red_light_large.f98d18b4fe7ad7e5dec69a61f2c8.png
+  - specialist_gloves_specialist_winterhex_light_large.2b5d5ec0b5388beef874b932a8f9.png
+  - sporty_gloves_sporty_black_webbing_yellow_light_large.5d7b101eb7875c41cff58e0fa0c0.png
+  - sporty_gloves_sporty_blue_pink_light_large.0da7dccfde04268a4289ad4b6c00.png
+  - sporty_gloves_sporty_poison_frog_blue_white_light_large.cc4489cbac59f82ddb18c9a331a9.png
+  - sporty_gloves_sporty_poison_frog_red_green_light_large.12893b922fb8f2dc1d1eecf01bf6.png
+  - studded_hydra_gloves_bloodhound_hydra_black_green_light_large.16bbb88e6be97ca92f5227a59d3f.png
+  - studded_hydra_gloves_bloodhound_hydra_case_hardened_light_large.611be49c3a2f37057a7740c8ad74.png
+  - studded_hydra_gloves_bloodhound_hydra_green_leather_mesh_brass_light_large.d960afafd988b76ad2ffc2e77e30.png
+  - studded_hydra_gloves_bloodhound_hydra_snakeskin_brass_light_large.953e703a64d078c26bf8075c3b5a.png
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Revolution-Case\Weapons
+  - AK-47 Head Shot.png
+  - AWP Duality.png
+  - Glock-18 Umbral Rabbit.png
+  - M4A1-S Emphorosaur-S.png
+  - M4A4 Temukau.png
+  - MAC-10 Sakkaku.png
+  - MAG-7 Insomnia.png
+  - MP5-SD Liquidation.png
+  - MP9 Featherweight.png
+  - P2000 Wicked Sick.png
+  - P250 Re.built.png
+  - P90 Neoqueen.png
+  - R8 Revolver Banana Cannon.png
+  - SCAR-20 Fragments.png
+  - SG 553 Cyberforce.png
+  - Tec-9 Rebel.png
+  - UMP-45 Wild Child.png
+

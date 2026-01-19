@@ -1,0 +1,16 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Dust-Collection
+RelativeFolder: Collections\The-Dust-Collection
+TotalImagesUnderMainFolder: 9
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Dust-Collection
+  - AK-47 Predator.png
+  - AUG Copperhead.png
+  - AWP Snake Camo.png
+  - Desert Eagle Blaze.png
+  - Glock-18 Brass.png
+  - M4A4 Desert Storm.png
+  - P2000 Scorpion.png
+  - Sawed-Off Copper.png
+  - SCAR-20 Palm.png
+

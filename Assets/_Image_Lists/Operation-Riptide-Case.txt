@@ -1,0 +1,71 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Operation-Riptide-Case
+RelativeFolder: Operation-Riptide-Case
+TotalImagesUnderMainFolder: 62
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Operation-Riptide-Case\Knives
+  - Bowie Knife Gamma Doppler.png
+  - Bowie Knife Gamma Doppler-001.png
+  - Bowie Knife Gamma Doppler-002.png
+  - Bowie Knife Gamma Doppler-003.png
+  - Bowie Knife Gamma Doppler-004.png
+  - Bowie Knife Gamma Doppler-005.png
+  - Bowie Knife Gamma Doppler-006.png
+  - Bowie Knife Gamma Doppler-007.png
+  - Bowie Knife Gamma Doppler-008.png
+  - Butterfly Knife Gamma Doppler.png
+  - Butterfly Knife Gamma Doppler-001.png
+  - Butterfly Knife Gamma Doppler-002.png
+  - Butterfly Knife Gamma Doppler-003.png
+  - Butterfly Knife Gamma Doppler-004.png
+  - Butterfly Knife Gamma Doppler-005.png
+  - Butterfly Knife Gamma Doppler-006.png
+  - Butterfly Knife Gamma Doppler-007.png
+  - Butterfly Knife Gamma Doppler-008.png
+  - Falchion Knife Gamma Doppler.png
+  - Falchion Knife Gamma Doppler-001.png
+  - Falchion Knife Gamma Doppler-002.png
+  - Falchion Knife Gamma Doppler-003.png
+  - Falchion Knife Gamma Doppler-004.png
+  - Falchion Knife Gamma Doppler-005.png
+  - Falchion Knife Gamma Doppler-006.png
+  - Falchion Knife Gamma Doppler-007.png
+  - Falchion Knife Gamma Doppler-008.png
+  - Huntsman Knife Gamma Doppler.png
+  - Huntsman Knife Gamma Doppler-001.png
+  - Huntsman Knife Gamma Doppler-002.png
+  - Huntsman Knife Gamma Doppler-003.png
+  - Huntsman Knife Gamma Doppler-004.png
+  - Huntsman Knife Gamma Doppler-005.png
+  - Huntsman Knife Gamma Doppler-006.png
+  - Huntsman Knife Gamma Doppler-007.png
+  - Huntsman Knife Gamma Doppler-008.png
+  - Shadow Daggers Gamma Doppler.png
+  - Shadow Daggers Gamma Doppler-001.png
+  - Shadow Daggers Gamma Doppler-002.png
+  - Shadow Daggers Gamma Doppler-003.png
+  - Shadow Daggers Gamma Doppler-004.png
+  - Shadow Daggers Gamma Doppler-005.png
+  - Shadow Daggers Gamma Doppler-006.png
+  - Shadow Daggers Gamma Doppler-007.png
+  - Shadow Daggers Gamma Doppler-008.png
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Operation-Riptide-Case\Weapons
+  - AK-47 Leet Museo.png
+  - AUG Plague.png
+  - Desert Eagle Ocean Drive.png
+  - Dual Berettas Tread.png
+  - FAMAS ZX Spectron.png
+  - Five-SeveN Boost Protocol.png
+  - G3SG1 Keeping Tabs.png
+  - Glock-18 Snack Attack.png
+  - M4A4 Spider Lily.png
+  - MAC-10 Toybox.png
+  - MAG-7 BI83 Spectrum.png
+  - MP7 Guerrilla.png
+  - MP9 Mount Fuji.png
+  - PP-Bizon Lumen.png
+  - SSG 08 Turbo Peek.png
+  - USP-S Black Lotus.png
+  - XM1014 Watchdog.png
+

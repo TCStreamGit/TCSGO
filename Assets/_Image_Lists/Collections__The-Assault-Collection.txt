@@ -1,0 +1,14 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Assault-Collection
+RelativeFolder: Collections\The-Assault-Collection
+TotalImagesUnderMainFolder: 7
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Assault-Collection
+  - AUG Hot Rod.png
+  - Five-SeveN Candy Apple.png
+  - Glock-18 Fade.png
+  - MP9 Bulldozer.png
+  - Negev Anodized Navy.png
+  - SG 553 Tornado.png
+  - UMP-45 Caramel.png
+

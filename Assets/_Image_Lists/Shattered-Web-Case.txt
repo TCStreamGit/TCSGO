@@ -1,0 +1,76 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Shattered-Web-Case
+RelativeFolder: Shattered-Web-Case
+TotalImagesUnderMainFolder: 67
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Shattered-Web-Case\Knives
+  - Nomad Knife ★.png
+  - Nomad Knife Blue Steel.png
+  - Nomad Knife Boreal Forest.png
+  - Nomad Knife Case Hardened.png
+  - Nomad Knife Crimson Web.png
+  - Nomad Knife Fade.png
+  - Nomad Knife Forest DDPAT.png
+  - Nomad Knife Night Stripe.png
+  - Nomad Knife Safari Mesh.png
+  - Nomad Knife Scorched.png
+  - Nomad Knife Slaughter.png
+  - Nomad Knife Stained.png
+  - Nomad Knife Urban Masked.png
+  - Paracord Knife ★.png
+  - Paracord Knife Blue Steel.png
+  - Paracord Knife Boreal Forest.png
+  - Paracord Knife Case Hardened.png
+  - Paracord Knife Crimson Web.png
+  - Paracord Knife Fade.png
+  - Paracord Knife Forest DDPAT.png
+  - Paracord Knife Night Stripe.png
+  - Paracord Knife Safari Mesh.png
+  - Paracord Knife Scorched.png
+  - Paracord Knife Slaughter.png
+  - Paracord Knife Stained.png
+  - Paracord Knife Urban Masked.png
+  - Skeleton Knife ★.png
+  - Skeleton Knife Blue Steel.png
+  - Skeleton Knife Boreal Forest.png
+  - Skeleton Knife Case Hardened.png
+  - Skeleton Knife Crimson Web.png
+  - Skeleton Knife Fade.png
+  - Skeleton Knife Forest DDPAT.png
+  - Skeleton Knife Night Stripe.png
+  - Skeleton Knife Safari Mesh.png
+  - Skeleton Knife Scorched.png
+  - Skeleton Knife Slaughter.png
+  - Skeleton Knife Stained.png
+  - Skeleton Knife Urban Masked.png
+  - Survival Knife Blue Steel.png
+  - Survival Knife Boreal Forest.png
+  - Survival Knife Case Hardened.png
+  - Survival Knife Crimson Web.png
+  - Survival Knife Fade.png
+  - Survival Knife Forest DDPAT.png
+  - Survival Knife Night Stripe.png
+  - Survival Knife Scorched.png
+  - Survival Knife Slaughter.png
+  - Survival Knife Stained.png
+  - Survival Knife Urban Masked.png
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Shattered-Web-Case\Weapons
+  - AK-47 Rat Rod.png
+  - AUG Arctic Wolf.png
+  - AWP Containment Breach.png
+  - Dual Berettas Balance.png
+  - G3SG1 Black Sand.png
+  - M249 Warbird.png
+  - MAC-10 Stalker.png
+  - MP5-SD Acid Wash.png
+  - MP7 Neon Ply.png
+  - Nova Plume.png
+  - P2000 Obsidian.png
+  - PP-Bizon Embargo.png
+  - R8 Revolver Memento.png
+  - SCAR-20 Torn.png
+  - SG 553 Colony IV.png
+  - SSG 08 Bloodshot.png
+  - Tec-9 Decimator.png
+

@@ -1,0 +1,39 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\CS20-Case
+RelativeFolder: CS20-Case
+TotalImagesUnderMainFolder: 30
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\CS20-Case\Knives
+  - Classic Knife ★.png
+  - Classic Knife Blue Steel.png
+  - Classic Knife Boreal Forest.png
+  - Classic Knife Case Hardened.png
+  - Classic Knife Crimson Web.png
+  - Classic Knife Fade.png
+  - Classic Knife Forest DDPAT.png
+  - Classic Knife Night Stripe.png
+  - Classic Knife Safari Mesh.png
+  - Classic Knife Scorched.png
+  - Classic Knife Slaughter.png
+  - Classic Knife Stained.png
+  - Classic Knife Urban Masked.png
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\CS20-Case\Weapons
+  - AUG Death by Puppy.png
+  - AWP Wildfire.png
+  - Dual Berettas Elite 1.6.png
+  - FAMAS Commemoration.png
+  - FAMAS Decommissioned.png
+  - Five-SeveN Buddy.png
+  - Glock-18 Sacrifice.png
+  - M249 Aztec.png
+  - MAC-10 Classic Crate.png
+  - MAG-7 Popdog.png
+  - MP5-SD Agent.png
+  - MP9 Hydra.png
+  - P250 Inferno.png
+  - P90 Nostalgia.png
+  - SCAR-20 Assault.png
+  - Tec-9 Flash Out.png
+  - UMP-45 Plastique.png
+

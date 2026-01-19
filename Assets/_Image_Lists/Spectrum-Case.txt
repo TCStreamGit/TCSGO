@@ -1,0 +1,142 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Spectrum-Case
+RelativeFolder: Spectrum-Case
+TotalImagesUnderMainFolder: 133
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Spectrum-Case\Knives
+  - Bowie Knife Damascus Steel.png
+  - Bowie Knife Doppler.png
+  - Bowie Knife Doppler-001.png
+  - Bowie Knife Doppler-002.png
+  - Bowie Knife Doppler-003.png
+  - Bowie Knife Doppler-004.png
+  - Bowie Knife Doppler-005.png
+  - Bowie Knife Doppler-006.png
+  - Bowie Knife Doppler-007.png
+  - Bowie Knife Doppler-008.png
+  - Bowie Knife Doppler-009.png
+  - Bowie Knife Doppler-010.png
+  - Bowie Knife Doppler-011.png
+  - Bowie Knife Doppler-012.png
+  - Bowie Knife Doppler-013.png
+  - Bowie Knife Doppler-014.png
+  - Bowie Knife Marble Fade.png
+  - Bowie Knife Rust Coat.png
+  - Bowie Knife Tiger Tooth.png
+  - Bowie Knife Ultraviolet.png
+  - Butterfly Knife Damascus Steel.png
+  - Butterfly Knife Doppler.png
+  - Butterfly Knife Doppler-001.png
+  - Butterfly Knife Doppler-002.png
+  - Butterfly Knife Doppler-003.png
+  - Butterfly Knife Doppler-004.png
+  - Butterfly Knife Doppler-005.png
+  - Butterfly Knife Doppler-006.png
+  - Butterfly Knife Doppler-007.png
+  - Butterfly Knife Doppler-008.png
+  - Butterfly Knife Doppler-009.png
+  - Butterfly Knife Doppler-010.png
+  - Butterfly Knife Doppler-011.png
+  - Butterfly Knife Doppler-012.png
+  - Butterfly Knife Doppler-013.png
+  - Butterfly Knife Doppler-014.png
+  - Butterfly Knife Marble Fade.png
+  - Butterfly Knife Rust Coat.png
+  - Butterfly Knife Tiger Tooth.png
+  - Butterfly Knife Ultraviolet.png
+  - Falchion Knife Damascus Steel.png
+  - Falchion Knife Doppler.png
+  - Falchion Knife Doppler-001.png
+  - Falchion Knife Doppler-002.png
+  - Falchion Knife Doppler-003.png
+  - Falchion Knife Doppler-004.png
+  - Falchion Knife Doppler-005.png
+  - Falchion Knife Doppler-006.png
+  - Falchion Knife Doppler-007.png
+  - Falchion Knife Doppler-008.png
+  - Falchion Knife Doppler-009.png
+  - Falchion Knife Doppler-010.png
+  - Falchion Knife Doppler-011.png
+  - Falchion Knife Doppler-012.png
+  - Falchion Knife Doppler-013.png
+  - Falchion Knife Doppler-014.png
+  - Falchion Knife Doppler-015.png
+  - Falchion Knife Doppler-016.png
+  - Falchion Knife Marble Fade.png
+  - Falchion Knife Rust Coat.png
+  - Falchion Knife Tiger Tooth.png
+  - Falchion Knife Ultraviolet.png
+  - Huntsman Knife Damascus Steel.png
+  - Huntsman Knife Doppler.png
+  - Huntsman Knife Doppler-001.png
+  - Huntsman Knife Doppler-002.png
+  - Huntsman Knife Doppler-003.png
+  - Huntsman Knife Doppler-004.png
+  - Huntsman Knife Doppler-005.png
+  - Huntsman Knife Doppler-006.png
+  - Huntsman Knife Doppler-007.png
+  - Huntsman Knife Doppler-008.png
+  - Huntsman Knife Doppler-009.png
+  - Huntsman Knife Doppler-010.png
+  - Huntsman Knife Doppler-011.png
+  - Huntsman Knife Doppler-012.png
+  - Huntsman Knife Doppler-013.png
+  - Huntsman Knife Doppler-014.png
+  - Huntsman Knife Doppler-015.png
+  - Huntsman Knife Doppler-016.png
+  - Huntsman Knife Doppler-017.png
+  - Huntsman Knife Doppler-018.png
+  - Huntsman Knife Doppler-019.png
+  - Huntsman Knife Doppler-020.png
+  - Huntsman Knife Doppler-021.png
+  - Huntsman Knife Doppler-022.png
+  - Huntsman Knife Doppler-023.png
+  - Huntsman Knife Doppler-024.png
+  - Huntsman Knife Doppler-025.png
+  - Huntsman Knife Doppler-026.png
+  - Huntsman Knife Doppler-027.png
+  - Huntsman Knife Doppler-028.png
+  - Huntsman Knife Marble Fade.png
+  - Huntsman Knife Rust Coat.png
+  - Huntsman Knife Tiger Tooth.png
+  - Huntsman Knife Ultraviolet.png
+  - Shadow Daggers Damascus Steel.png
+  - Shadow Daggers Doppler.png
+  - Shadow Daggers Doppler-001.png
+  - Shadow Daggers Doppler-002.png
+  - Shadow Daggers Doppler-003.png
+  - Shadow Daggers Doppler-004.png
+  - Shadow Daggers Doppler-005.png
+  - Shadow Daggers Doppler-006.png
+  - Shadow Daggers Doppler-007.png
+  - Shadow Daggers Doppler-008.png
+  - Shadow Daggers Doppler-009.png
+  - Shadow Daggers Doppler-010.png
+  - Shadow Daggers Doppler-011.png
+  - Shadow Daggers Doppler-012.png
+  - Shadow Daggers Doppler-013.png
+  - Shadow Daggers Doppler-014.png
+  - Shadow Daggers Marble Fade.png
+  - Shadow Daggers Rust Coat.png
+  - Shadow Daggers Tiger Tooth.png
+  - Shadow Daggers Ultraviolet.png
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Spectrum-Case\Weapons
+  - AK-47 Bloodsport.png
+  - AWP Fever Dream.png
+  - CZ75-Auto Xiangliu.png
+  - Desert Eagle Oxide Blaze.png
+  - Five-SeveN Capillary.png
+  - Galil AR Crimson Tsunami.png
+  - M249 Emerald Poison Dart.png
+  - M4A1-S Decimator.png
+  - MAC-10 Last Dive.png
+  - MP7 Akoben.png
+  - P250 Ripple.png
+  - PP-Bizon Jungle Slipstream.png
+  - Sawed-Off Zander.png
+  - SCAR-20 Blueprint.png
+  - UMP-45 Scaffold.png
+  - USP-S Neo-Noir.png
+  - XM1014 Seasons.png
+

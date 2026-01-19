@@ -1,0 +1,25 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-2018-Nuke-Collection
+RelativeFolder: Collections\The-2018-Nuke-Collection
+TotalImagesUnderMainFolder: 18
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-2018-Nuke-Collection
+  - AUG Random Access.png
+  - AWP Acheron.png
+  - Five-SeveN Coolant.png
+  - Galil AR Cold Fusion.png
+  - Glock-18 Nuclear Garden.png
+  - M4A1-S Control Panel.png
+  - M4A4 Mainframe.png
+  - MAG-7 Core Breach.png
+  - MP5-SD Co-Processor.png
+  - MP7 Motherboard.png
+  - Negev Bulkhead.png
+  - Nova Mandrel.png
+  - P250 Exchanger.png
+  - P250 Facility Draft.png
+  - P90 Facility Negative.png
+  - PP-Bizon Facility Sketch.png
+  - Tec-9 Remote Control.png
+  - UMP-45 Facility Dark.png
+

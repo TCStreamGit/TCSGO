@@ -1,0 +1,134 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Chroma-3-Case
+RelativeFolder: Chroma-3-Case
+TotalImagesUnderMainFolder: 125
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Chroma-3-Case\Knives
+  - Bayonet Damascus Steel.png
+  - Bayonet Doppler.png
+  - Bayonet Doppler-001.png
+  - Bayonet Doppler-002.png
+  - Bayonet Doppler-003.png
+  - Bayonet Doppler-004.png
+  - Bayonet Doppler-005.png
+  - Bayonet Doppler-006.png
+  - Bayonet Doppler-007.png
+  - Bayonet Doppler-008.png
+  - Bayonet Doppler-009.png
+  - Bayonet Doppler-010.png
+  - Bayonet Doppler-011.png
+  - Bayonet Doppler-012.png
+  - Bayonet Marble Fade.png
+  - Bayonet Rust Coat.png
+  - Bayonet Tiger Tooth.png
+  - Bayonet Ultraviolet.png
+  - Flip Knife Damascus Steel.png
+  - Flip Knife Doppler.png
+  - Flip Knife Doppler-001.png
+  - Flip Knife Doppler-002.png
+  - Flip Knife Doppler-003.png
+  - Flip Knife Doppler-004.png
+  - Flip Knife Doppler-005.png
+  - Flip Knife Doppler-006.png
+  - Flip Knife Doppler-007.png
+  - Flip Knife Doppler-008.png
+  - Flip Knife Doppler-009.png
+  - Flip Knife Doppler-010.png
+  - Flip Knife Doppler-011.png
+  - Flip Knife Doppler-012.png
+  - Flip Knife Marble Fade.png
+  - Flip Knife Rust Coat.png
+  - Flip Knife Tiger Tooth.png
+  - Flip Knife Ultraviolet.png
+  - Gut Knife Damascus Steel.png
+  - Gut Knife Doppler.png
+  - Gut Knife Doppler-001.png
+  - Gut Knife Doppler-002.png
+  - Gut Knife Doppler-003.png
+  - Gut Knife Doppler-004.png
+  - Gut Knife Doppler-005.png
+  - Gut Knife Doppler-006.png
+  - Gut Knife Doppler-007.png
+  - Gut Knife Doppler-008.png
+  - Gut Knife Doppler-009.png
+  - Gut Knife Doppler-010.png
+  - Gut Knife Doppler-011.png
+  - Gut Knife Doppler-012.png
+  - Gut Knife Doppler-013.png
+  - Gut Knife Doppler-014.png
+  - Gut Knife Marble Fade.png
+  - Gut Knife Rust Coat.png
+  - Gut Knife Tiger Tooth.png
+  - Gut Knife Ultraviolet.png
+  - Karambit Damascus Steel.png
+  - Karambit Doppler.png
+  - Karambit Doppler-001.png
+  - Karambit Doppler-002.png
+  - Karambit Doppler-003.png
+  - Karambit Doppler-004.png
+  - Karambit Doppler-005.png
+  - Karambit Doppler-006.png
+  - Karambit Doppler-007.png
+  - Karambit Doppler-008.png
+  - Karambit Doppler-009.png
+  - Karambit Doppler-010.png
+  - Karambit Doppler-011.png
+  - Karambit Doppler-012.png
+  - Karambit Marble Fade.png
+  - Karambit Rust Coat.png
+  - Karambit Tiger Tooth.png
+  - Karambit Ultraviolet.png
+  - M9 Bayonet Damascus Steel.png
+  - M9 Bayonet Doppler.png
+  - M9 Bayonet Doppler-001.png
+  - M9 Bayonet Doppler-002.png
+  - M9 Bayonet Doppler-003.png
+  - M9 Bayonet Doppler-004.png
+  - M9 Bayonet Doppler-005.png
+  - M9 Bayonet Doppler-006.png
+  - M9 Bayonet Doppler-007.png
+  - M9 Bayonet Doppler-008.png
+  - M9 Bayonet Doppler-009.png
+  - M9 Bayonet Doppler-010.png
+  - M9 Bayonet Doppler-011.png
+  - M9 Bayonet Doppler-012.png
+  - M9 Bayonet Doppler-013.png
+  - M9 Bayonet Doppler-014.png
+  - M9 Bayonet Doppler-015.png
+  - M9 Bayonet Doppler-016.png
+  - M9 Bayonet Doppler-017.png
+  - M9 Bayonet Doppler-018.png
+  - M9 Bayonet Doppler-019.png
+  - M9 Bayonet Doppler-020.png
+  - M9 Bayonet Doppler-021.png
+  - M9 Bayonet Doppler-022.png
+  - M9 Bayonet Doppler-023.png
+  - M9 Bayonet Doppler-024.png
+  - M9 Bayonet Doppler-025.png
+  - M9 Bayonet Doppler-026.png
+  - M9 Bayonet Doppler-027.png
+  - M9 Bayonet Doppler-028.png
+  - M9 Bayonet Marble Fade.png
+  - M9 Bayonet Rust Coat.png
+  - M9 Bayonet Tiger Tooth.png
+  - M9 Bayonet Ultraviolet.png
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Chroma-3-Case\Weapons
+  - AUG Fleet Flock.png
+  - CZ75-Auto Red Astor.png
+  - Dual Berettas Ventilators.png
+  - G3SG1 Orange Crash.png
+  - Galil AR Firefight.png
+  - M249 Spectre.png
+  - M4A1-S Chantico's Fire.png
+  - MP9 Bioleak.png
+  - P2000 Oceanic.png
+  - P250 Asiimov.png
+  - PP-Bizon Judgement of Anubis.png
+  - Sawed-Off Fubar.png
+  - SG 553 Atlas.png
+  - SSG 08 Ghost Crusader.png
+  - Tec-9 Re-Entry.png
+  - UMP-45 Primal Saber.png
+  - XM1014 Black Tie.png
+

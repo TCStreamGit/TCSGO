@@ -1,0 +1,92 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Chroma-Case
+RelativeFolder: Chroma-Case
+TotalImagesUnderMainFolder: 83
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Chroma-Case\Knives
+  - Bayonet Damascus Steel.png
+  - Bayonet Doppler.png
+  - Bayonet Doppler-001.png
+  - Bayonet Doppler-002.png
+  - Bayonet Doppler-003.png
+  - Bayonet Doppler-004.png
+  - Bayonet Doppler-005.png
+  - Bayonet Doppler-006.png
+  - Bayonet Doppler-007.png
+  - Bayonet Marble Fade.png
+  - Bayonet Rust Coat.png
+  - Bayonet Tiger Tooth.png
+  - Bayonet Ultraviolet.png
+  - Flip Knife Damascus Steel.png
+  - Flip Knife Doppler.png
+  - Flip Knife Doppler-001.png
+  - Flip Knife Doppler-002.png
+  - Flip Knife Doppler-003.png
+  - Flip Knife Doppler-004.png
+  - Flip Knife Doppler-005.png
+  - Flip Knife Doppler-006.png
+  - Flip Knife Marble Fade.png
+  - Flip Knife Rust Coat.png
+  - Flip Knife Tiger Tooth.png
+  - Flip Knife Ultraviolet.png
+  - Gut Knife Damascus Steel.png
+  - Gut Knife Doppler.png
+  - Gut Knife Doppler-001.png
+  - Gut Knife Doppler-002.png
+  - Gut Knife Doppler-003.png
+  - Gut Knife Doppler-004.png
+  - Gut Knife Doppler-005.png
+  - Gut Knife Doppler-006.png
+  - Gut Knife Marble Fade.png
+  - Gut Knife Rust Coat.png
+  - Gut Knife Tiger Tooth.png
+  - Gut Knife Ultraviolet.png
+  - Karambit Damascus Steel.png
+  - Karambit Doppler.png
+  - Karambit Doppler-001.png
+  - Karambit Doppler-002.png
+  - Karambit Doppler-003.png
+  - Karambit Doppler-004.png
+  - Karambit Doppler-005.png
+  - Karambit Doppler-006.png
+  - Karambit Marble Fade.png
+  - Karambit Rust Coat.png
+  - Karambit Tiger Tooth.png
+  - Karambit Ultraviolet.png
+  - M9 Bayonet Damascus Steel.png
+  - M9 Bayonet Doppler.png
+  - M9 Bayonet Doppler-001.png
+  - M9 Bayonet Doppler-002.png
+  - M9 Bayonet Doppler-003.png
+  - M9 Bayonet Doppler-004.png
+  - M9 Bayonet Doppler-005.png
+  - M9 Bayonet Doppler-006.png
+  - M9 Bayonet Doppler-007.png
+  - M9 Bayonet Doppler-008.png
+  - M9 Bayonet Doppler-009.png
+  - M9 Bayonet Doppler-010.png
+  - M9 Bayonet Doppler-011.png
+  - M9 Bayonet Doppler-012.png
+  - M9 Bayonet Doppler-013.png
+  - M9 Bayonet Doppler-014.png
+  - M9 Bayonet Marble Fade.png
+  - M9 Bayonet Rust Coat.png
+  - M9 Bayonet Tiger Tooth.png
+  - M9 Bayonet Ultraviolet.png
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Chroma-Case\Weapons
+  - AK-47 Cartel.png
+  - AWP Man-o'-war.png
+  - Desert Eagle Naga.png
+  - Dual Berettas Urban Shock.png
+  - Galil AR Chatterbox.png
+  - Glock-18 Catacombs.png
+  - M249 System Lock.png
+  - M4A4 龍王 (Dragon King).png
+  - MAC-10 Malachite.png
+  - MP9 Deadly Poison.png
+  - P250 Muertos.png
+  - Sawed-Off Serenity.png
+  - SCAR-20 Grotto.png
+  - XM1014 Quicksilver.png
+

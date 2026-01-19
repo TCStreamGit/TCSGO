@@ -1,0 +1,26 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-2021-Mirage-Collection
+RelativeFolder: Collections\The-2021-Mirage-Collection
+TotalImagesUnderMainFolder: 19
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-2021-Mirage-Collection
+  - AUG Sand Storm.png
+  - AWP Desert Hydra.png
+  - CZ75-Auto Midnight Palm.png
+  - Desert Eagle Fennec Fox.png
+  - Dual Berettas Drift Wood.png
+  - FAMAS CaliCamo.png
+  - Glock-18 Pink DDPAT.png
+  - M249 Humidor.png
+  - MAC-10 Sienna Damask.png
+  - MAG-7 Navy Sheen.png
+  - MP5-SD Oxide Oasis.png
+  - MP9 Music Box.png
+  - P250 Drought.png
+  - P90 Verdant Growth.png
+  - PP-Bizon Anolis.png
+  - SG 553 Desert Blossom.png
+  - SSG 08 Prey.png
+  - USP-S Purple DDPAT.png
+  - XM1014 Elegant Vines.png
+

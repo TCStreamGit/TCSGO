@@ -1,0 +1,25 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Canals-Collection
+RelativeFolder: Collections\The-Canals-Collection
+TotalImagesUnderMainFolder: 18
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Canals-Collection
+  - AK-47 Baroque Purple.png
+  - AUG Navy Murano.png
+  - AWP The Prince.png
+  - CZ75-Auto Indigo.png
+  - Dual Berettas Emerald.png
+  - G3SG1 Violet Murano.png
+  - MAC-10 Red Filigree.png
+  - MAG-7 Cinquedea.png
+  - MP9 Stained Glass.png
+  - Negev Boroque Sand.png
+  - Nova Baroque Orange.png
+  - P250 Dark Filigree.png
+  - P90 Baroque Red.png
+  - R8 Revolver Canal Spray.png
+  - SCAR-20 Stone Mosaico.png
+  - SG 553 Candy Apple.png
+  - SSG 08 Orange Filigree.png
+  - Tec-9 Orange Murano.png
+

@@ -1,0 +1,22 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Mirage-Collection
+RelativeFolder: Collections\The-Mirage-Collection
+TotalImagesUnderMainFolder: 15
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-Mirage-Collection
+  - AUG Colony.png
+  - Five-SeveN Contractor.png
+  - G3SG1 Safari Mesh.png
+  - Galil AR Hunting Blind.png
+  - Glock-18 Groundwater.png
+  - MAC-10 Amber Fade.png
+  - MAG-7 Bulldozer.png
+  - MP7 Orange Peel.png
+  - MP9 Hot Rod.png
+  - Negev CaliCamo.png
+  - P250 Bone Mask.png
+  - P90 Scorched.png
+  - SG 553 Gator Mesh.png
+  - SSG 08 Tropical Storm.png
+  - UMP-45 Blaze.png
+

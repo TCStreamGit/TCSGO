@@ -1,0 +1,72 @@
+﻿Root: A:\Development Environment\Source Control\GitHub\TCSGO\Assets
+MainFolder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Operation-Phoenix-Weapon-Case
+RelativeFolder: Operation-Phoenix-Weapon-Case
+TotalImagesUnderMainFolder: 63
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Operation-Phoenix-Weapon-Case\Knives
+  - Bayonet ★.png
+  - Bayonet Blue Steel.png
+  - Bayonet Boreal Forest.png
+  - Bayonet Case Hardened.png
+  - Bayonet Crimson Web.png
+  - Bayonet Fade.png
+  - Bayonet Forest DDPAT.png
+  - Bayonet Night.png
+  - Bayonet Safari Mesh.png
+  - Bayonet Scorched.png
+  - Bayonet Slaughter.png
+  - Bayonet Stained.png
+  - Bayonet Urban Masked.png
+  - Flip Knife ★.png
+  - Flip Knife Blue Steel.png
+  - Flip Knife Boreal Forest.png
+  - Flip Knife Case Hardened.png
+  - Flip Knife Crimson Web.png
+  - Flip Knife Fade.png
+  - Flip Knife Forest DDPAT.png
+  - Flip Knife Night.png
+  - Flip Knife Safari Mesh.png
+  - Flip Knife Scorched.png
+  - Flip Knife Slaughter.png
+  - Flip Knife Stained.png
+  - Flip Knife Urban Masked.png
+  - Gut Knife ★.png
+  - Gut Knife Blue Steel.png
+  - Gut Knife Boreal Forest.png
+  - Gut Knife Case Hardened.png
+  - Gut Knife Crimson Web.png
+  - Gut Knife Fade.png
+  - Gut Knife Forest DDPAT.png
+  - Gut Knife Night.png
+  - Gut Knife Safari Mesh.png
+  - Gut Knife Scorched.png
+  - Gut Knife Slaughter.png
+  - Gut Knife Stained.png
+  - Gut Knife Urban Masked.png
+  - Karambit ★.png
+  - Karambit Blue Steel.png
+  - Karambit Boreal Forest.png
+  - Karambit Case Hardened.png
+  - Karambit Crimson Web.png
+  - Karambit Night.png
+  - Karambit Safari Mesh.png
+  - Karambit Scorched.png
+  - Karambit Slaughter.png
+  - Karambit Stained.png
+  - Karambit Urban Masked.png
+
+Folder: A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Operation-Phoenix-Weapon-Case\Weapons
+  - AK-47 Redline.png
+  - AUG Chameleon.png
+  - AWP Asiimov.png
+  - FAMAS Sergeant.png
+  - MAC-10 Heat.png
+  - MAG-7 Heaven Guard.png
+  - Negev Terrain.png
+  - Nova Antique.png
+  - P90 Trigon.png
+  - SG 553 Pulse.png
+  - Tec-9 Sandstorm.png
+  - UMP-45 Corporal.png
+  - USP-S Guardian.png
+
