@@ -9,6 +9,7 @@ KEY FEATURES:
 - Uses item's actual "rarity" field for filenames (mil-spec, restricted, etc.)
 - Copies images from collection folders to souvenir package folders
 - Copies images from Global/Knives, Global/Gloves, Global/Weapons for missing items
+- Resizes Global images to match case folder dimensions (preserves originals)
 - Creates case folders if they don't exist
 - Links Icons folder images to JSON case.icon field
 - Handles multiple collections for early souvenirs
@@ -21,7 +22,16 @@ import re
 import shutil
 from collections import defaultdict
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any, Optional, Tuple
+
+# Image processing for resizing Global images
+try:
+    from PIL import Image
+    PIL_AVAILABLE = True
+except ImportError:
+    PIL_AVAILABLE = False
+    print("WARNING: Pillow not installed. Global images will be copied without resizing.")
+    print("         Install with: pip install Pillow")
 
 
 # =============================================================================
@@ -29,6 +39,9 @@ from typing import Any, Optional
 # =============================================================================
 
 DEFAULT_ROOT = r"A:\Development Environment\Source Control\GitHub\TCSGO"
+
+# Default target size for resized images (width, height)
+DEFAULT_TARGET_SIZE = (512, 384)
 
 SCHEMA_CASE_EXPORT = "3.0-case-export"
 SCHEMA_CONTAINER_EXPORT = "3.1-container-export"
@@ -106,10 +119,11 @@ def get_aliased_cases(canonical_case_id: str) -> list:
 PLAN_COLUMNS = [
     "FullPath", "CaseId", "CaseName", "CollectionName", "OriginalFolder", "OriginalName",
     "NewFolder", "NewName", "Rarity", "ItemId", "Category",
-    "MatchedBy", "Verified", "Confidence", "Rationale", "Action", "CopiedFrom"
+    "MatchedBy", "Verified", "Confidence", "Rationale", "Action", "CopiedFrom", "Resized"
 ]
 RESULTS_COLUMNS = PLAN_COLUMNS + ["Applied", "Error"]
 MISSING_COLUMNS = ["CaseId", "Rarity", "ItemId", "DisplayName", "Category", "ResolvedBy", "SourcePath"]
+GLOBAL_MAPPING_COLUMNS = ["CaseId", "ItemId", "DisplayName", "Category", "Rarity", "GlobalSource", "GlobalPath", "MatchMethod"]
 
 
 # =============================================================================
@@ -206,11 +220,54 @@ def get_first_word_of_skin(skin_name: str) -> str:
     """Get the first word of a skin name for matching truncated global weapon names."""
     if not skin_name:
         return ""
-    # Handle common patterns
     parts = skin_name.split()
     if parts:
         return parts[0].lower()
     return ""
+
+
+def get_truncated_variations(name: str) -> list:
+    """Generate progressively truncated versions of a name for fuzzy matching."""
+    parts = name.split('-')
+    variations = []
+    for i in range(len(parts), 0, -1):
+        variations.append('-'.join(parts[:i]))
+    return variations
+
+
+def extract_weapon_and_skin(item_id: str, weapon: str = "", skin: str = "") -> tuple:
+    """Extract weapon type and skin name from item ID or explicit fields."""
+    if weapon and skin:
+        return to_kebab_case(weapon), to_kebab_case(skin)
+    
+    item_norm = to_kebab_case(strip_souvenir_prefix(item_id))
+    
+    # Known weapon prefixes
+    weapon_prefixes = [
+        "ak-47", "m4a4", "m4a1-s", "awp", "usp-s", "glock-18", "desert-eagle",
+        "p250", "p2000", "five-seven", "tec-9", "cz75-auto", "dual-berettas",
+        "r8-revolver", "mp9", "mac-10", "mp7", "mp5-sd", "ump-45", "p90",
+        "pp-bizon", "famas", "galil-ar", "aug", "sg-553", "ssg-08", "scar-20",
+        "g3sg1", "nova", "xm1014", "mag-7", "sawed-off", "m249", "negev",
+        "zeus-x27",
+        # Knives
+        "bayonet", "bowie-knife", "butterfly-knife", "classic-knife", "falchion-knife",
+        "flip-knife", "gut-knife", "huntsman-knife", "karambit", "kukri-knife",
+        "m9-bayonet", "navaja-knife", "nomad-knife", "paracord-knife", "shadow-daggers",
+        "skeleton-knife", "stiletto-knife", "survival-knife", "talon-knife", "ursus-knife",
+        # Gloves
+        "bloodhound-gloves", "broken-fang-gloves", "driver-gloves", "hand-wraps",
+        "hydra-gloves", "moto-gloves", "specialist-gloves", "sport-gloves",
+    ]
+    
+    for prefix in weapon_prefixes:
+        if item_norm.startswith(prefix + "-"):
+            skin_part = item_norm[len(prefix) + 1:]
+            return prefix, skin_part
+        elif item_norm == prefix:
+            return prefix, ""
+    
+    return item_norm, ""
 
 
 # =============================================================================
@@ -350,6 +407,86 @@ def build_item_index(json_files: list) -> dict:
 
 
 # =============================================================================
+# IMAGE SIZE DETECTION
+# =============================================================================
+
+def get_reference_image_size(folder: Path) -> Tuple[int, int]:
+    """Get the most common image size from existing images in a folder.
+    
+    Returns (width, height) tuple. Falls back to DEFAULT_TARGET_SIZE if no images found.
+    """
+    if not PIL_AVAILABLE:
+        return DEFAULT_TARGET_SIZE
+    
+    sizes = defaultdict(int)
+    search_paths = [folder]
+    
+    # Also check category subfolders
+    for subfolder in ["Weapons", "Knives", "Gloves"]:
+        sub = folder / subfolder
+        if sub.exists():
+            search_paths.append(sub)
+    
+    for search_path in search_paths:
+        for png in search_path.glob("*.png"):
+            try:
+                with Image.open(png) as img:
+                    sizes[img.size] += 1
+            except:
+                continue
+    
+    if sizes:
+        # Return most common size
+        return max(sizes.keys(), key=lambda s: sizes[s])
+    
+    return DEFAULT_TARGET_SIZE
+
+
+def resize_image(src_path: Path, dst_path: Path, target_size: Tuple[int, int]) -> bool:
+    """Resize an image to target size while preserving aspect ratio and quality.
+    
+    Uses LANCZOS resampling for best quality when downscaling.
+    Returns True if successful, False otherwise.
+    """
+    if not PIL_AVAILABLE:
+        # Fall back to simple copy
+        shutil.copy2(str(src_path), str(dst_path))
+        return True
+    
+    try:
+        with Image.open(src_path) as img:
+            # Convert to RGBA if necessary to preserve transparency
+            if img.mode in ('RGBA', 'LA') or (img.mode == 'P' and 'transparency' in img.info):
+                img = img.convert('RGBA')
+            else:
+                img = img.convert('RGB')
+            
+            # Check if resize is needed
+            if img.size == target_size:
+                shutil.copy2(str(src_path), str(dst_path))
+                return True
+            
+            # Resize with high quality
+            resized = img.resize(target_size, Image.Resampling.LANCZOS)
+            
+            # Save with optimal settings
+            if resized.mode == 'RGBA':
+                resized.save(dst_path, 'PNG', optimize=True)
+            else:
+                resized.save(dst_path, 'PNG', optimize=True)
+            
+            return True
+    except Exception as e:
+        print(f"  Warning: Failed to resize {src_path.name}: {e}")
+        # Fall back to simple copy
+        try:
+            shutil.copy2(str(src_path), str(dst_path))
+            return True
+        except:
+            return False
+
+
+# =============================================================================
 # ASSET DISCOVERY
 # =============================================================================
 
@@ -405,80 +542,71 @@ def discover_collection_images(collections_root: Path) -> dict:
 
 
 def discover_global_images(global_root: Path) -> dict:
-    """Build index of all images in Global/Knives, Global/Gloves, Global/Weapons folders."""
+    """Build index of all images in Global/Knives, Global/Gloves, Global/Weapons folders.
+    
+    Prefers full-size images over --Icon versions. Tracks both for fallback.
+    """
     images = {
-        "knives": {},      # normalized_name -> {path, original_name, all_variants}
+        "knives": {},      # normalized_name -> {path, original_name, icon_path, all_variants}
         "gloves": {},
         "weapons": {},
         "by_first_word": {},  # weapon + first word of skin -> path (for truncated names)
     }
     
-    # Discover knives (organized in subfolders by knife type)
-    knives_folder = global_root / "Knives"
-    if knives_folder.exists():
-        for type_folder in knives_folder.iterdir():
+    def process_folder(folder: Path, category_dict: dict, category_name: str):
+        """Process a category folder (Knives, Gloves, or Weapons)."""
+        if not folder.exists():
+            return
+        
+        for type_folder in folder.iterdir():
             if not type_folder.is_dir():
                 continue
-            for png in type_folder.glob("*.png"):
-                norm_name, variant, is_icon = normalize_filename_for_matching(png.name)
-                if is_icon:
-                    continue  # Skip icon versions, prefer full size
-                if norm_name not in images["knives"]:
-                    images["knives"][norm_name] = {
-                        "path": png,
-                        "original_name": png.name,
-                        "variants": [png]
-                    }
-                else:
-                    images["knives"][norm_name]["variants"].append(png)
-    
-    # Discover gloves (organized in subfolders by glove type)
-    gloves_folder = global_root / "Gloves"
-    if gloves_folder.exists():
-        for type_folder in gloves_folder.iterdir():
-            if not type_folder.is_dir():
-                continue
-            for png in type_folder.glob("*.png"):
-                norm_name, variant, is_icon = normalize_filename_for_matching(png.name)
-                if is_icon:
-                    continue
-                if norm_name not in images["gloves"]:
-                    images["gloves"][norm_name] = {
-                        "path": png,
-                        "original_name": png.name,
-                        "variants": [png]
-                    }
-                else:
-                    images["gloves"][norm_name]["variants"].append(png)
-    
-    # Discover weapons (organized in subfolders by weapon type)
-    weapons_folder = global_root / "Weapons"
-    if weapons_folder.exists():
-        for type_folder in weapons_folder.iterdir():
-            if not type_folder.is_dir():
-                continue
+            
             weapon_type = to_kebab_case(type_folder.name)
+            
+            # First pass: collect all files grouped by base name
+            files_by_base = defaultdict(lambda: {"full": None, "icon": None})
+            
             for png in type_folder.glob("*.png"):
                 norm_name, variant, is_icon = normalize_filename_for_matching(png.name)
-                if is_icon:
-                    continue
-                if norm_name not in images["weapons"]:
-                    images["weapons"][norm_name] = {
-                        "path": png,
-                        "original_name": png.name,
-                        "variants": [png],
-                        "weapon_type": weapon_type
-                    }
-                else:
-                    images["weapons"][norm_name]["variants"].append(png)
                 
-                # Also index by weapon + first word for truncated matching
-                # e.g., "ak-47-aquamarine" should match "ak-47-aquamarine-revenge"
-                images["by_first_word"][norm_name] = {
-                    "path": png,
-                    "original_name": png.name,
-                    "weapon_type": weapon_type
+                if is_icon:
+                    if files_by_base[norm_name]["icon"] is None:
+                        files_by_base[norm_name]["icon"] = png
+                else:
+                    if files_by_base[norm_name]["full"] is None:
+                        files_by_base[norm_name]["full"] = png
+            
+            # Second pass: store with preference for full-size
+            for norm_name, paths in files_by_base.items():
+                # Prefer full-size, fall back to icon
+                primary_path = paths["full"] or paths["icon"]
+                if primary_path is None:
+                    continue
+                
+                category_dict[norm_name] = {
+                    "path": primary_path,
+                    "original_name": primary_path.name,
+                    "icon_path": paths["icon"],
+                    "full_path": paths["full"],
+                    "weapon_type": weapon_type,
+                    "is_global": True,
+                    "needs_resize": paths["full"] is not None  # Only resize if using full-size
                 }
+                
+                # Also index by first word for truncated matching
+                images["by_first_word"][norm_name] = {
+                    "path": primary_path,
+                    "original_name": primary_path.name,
+                    "weapon_type": weapon_type,
+                    "is_global": True,
+                    "needs_resize": paths["full"] is not None
+                }
+    
+    # Process each category
+    process_folder(global_root / "Knives", images["knives"], "knives")
+    process_folder(global_root / "Gloves", images["gloves"], "gloves")
+    process_folder(global_root / "Weapons", images["weapons"], "weapons")
     
     return images
 
@@ -550,6 +678,7 @@ def map_folder(folder_path: Path, item_index: dict) -> dict:
     # Partial match for cases
     best_case = None
     best_score = 0
+    
     for case_id in item_index["by_case"].keys():
         case_norm = to_kebab_case(case_id)
         case_no_hyphen = case_norm.replace("-", "")
@@ -667,7 +796,10 @@ def match_item_to_collection_image(item: dict, collection_images: dict) -> Optio
 
 
 def match_item_to_global_image(item: dict, global_images: dict) -> Optional[dict]:
-    """Try to find a global knife, glove, or weapon image for an item."""
+    """Try to find a global knife, glove, or weapon image for an item.
+    
+    Returns dict with path, source info, and needs_resize flag.
+    """
     item_id = item.get("itemId", "")
     display_name = item.get("displayName", "")
     weapon = item.get("weapon", "")
@@ -692,8 +824,6 @@ def match_item_to_global_image(item: dict, global_images: dict) -> Optional[dict
     
     # Handle vanilla items (no skin, just the base item)
     is_vanilla = "vanilla" in norm_item_id or (not skin or skin.lower() in ["vanilla", "none", ""])
-    
-    # For vanilla items, also try just the weapon name
     weapon_only = normalize_text(weapon) if weapon else ""
     
     # Try exact matches first
@@ -707,7 +837,9 @@ def match_item_to_global_image(item: dict, global_images: dict) -> Optional[dict
             return {
                 "path": info["path"],
                 "original_name": info["original_name"],
-                "source": source
+                "source": source,
+                "needs_resize": info.get("needs_resize", True),
+                "match_method": "exact"
             }
     
     # Try without "vanilla" or "none" suffix
@@ -721,12 +853,13 @@ def match_item_to_global_image(item: dict, global_images: dict) -> Optional[dict
             return {
                 "path": info["path"],
                 "original_name": info["original_name"],
-                "source": source
+                "source": source,
+                "needs_resize": info.get("needs_resize", True),
+                "match_method": "vanilla_stripped"
             }
+
     
     # Try matching by first word of skin (files in Global may be truncated)
-    # e.g., "m9-bayonet-blue-steel" -> try "m9-bayonet-blue"
-    # e.g., "ak-47-aquamarine-revenge" -> try "ak-47-aquamarine"
     if weapon and skin:
         first_word = get_first_word_of_skin(skin)
         if first_word:
@@ -739,7 +872,9 @@ def match_item_to_global_image(item: dict, global_images: dict) -> Optional[dict
                 return {
                     "path": info["path"],
                     "original_name": info["original_name"],
-                    "source": source
+                    "source": source,
+                    "needs_resize": info.get("needs_resize", True),
+                    "match_method": "truncated_first_word"
                 }
             
             # Try in the by_first_word dict (for weapons)
@@ -749,7 +884,9 @@ def match_item_to_global_image(item: dict, global_images: dict) -> Optional[dict
                 return {
                     "path": info["path"],
                     "original_name": info["original_name"],
-                    "source": source
+                    "source": source,
+                    "needs_resize": info.get("needs_resize", True),
+                    "match_method": "truncated_first_word"
                 }
     
     # Try partial matching for knives/gloves with slight name variations
@@ -757,21 +894,23 @@ def match_item_to_global_image(item: dict, global_images: dict) -> Optional[dict
         if not search:
             continue
         for key, info in search_dict.items():
-            # Handle variations like "shadow-daggers-none-vanilla" -> "shadow-daggers-vanilla"
             search_clean = search.replace("-none", "")
             key_clean = key.replace("-none", "")
             if search_clean == key_clean:
                 return {
                     "path": info["path"],
                     "original_name": info["original_name"],
-                    "source": source
+                    "source": source,
+                    "needs_resize": info.get("needs_resize", True),
+                    "match_method": "none_stripped"
                 }
-            # Handle "original" vs without original
             if search.replace("-original", "") == key or key.replace("-original", "") == search:
                 return {
                     "path": info["path"],
                     "original_name": info["original_name"],
-                    "source": source
+                    "source": source,
+                    "needs_resize": info.get("needs_resize", True),
+                    "match_method": "original_stripped"
                 }
     
     return None
@@ -816,6 +955,7 @@ class PlanGenerator:
         self.plan_rows = []
         self.unmatched = []
         self.missing_items = []
+        self.global_mappings = []  # Track which items matched to Global assets
         self.used_filenames = defaultdict(set)
         self.matched_items = defaultdict(set)
         self.collection_images = discover_collection_images(self.collections_root)
@@ -823,6 +963,7 @@ class PlanGenerator:
         self.icons = discover_icons(self.global_root)
         self.remove_counters = defaultdict(int)
         self.folders_to_create = set()
+        self.case_target_sizes = {}  # Cache target sizes per case folder
     
     def generate(self):
         """Generate the complete plan."""
@@ -858,6 +999,14 @@ class PlanGenerator:
         # Sort for determinism
         self.plan_rows.sort(key=lambda x: (x["Action"], x["FullPath"]))
 
+
+    def _get_target_size(self, case_folder: Path) -> Tuple[int, int]:
+        """Get or cache the target image size for a case folder."""
+        folder_name = case_folder.name
+        if folder_name not in self.case_target_sizes:
+            self.case_target_sizes[folder_name] = get_reference_image_size(case_folder)
+        return self.case_target_sizes[folder_name]
+
     def _process_png(self, png: Path, folder: Path, mapping: dict):
         """Process a single PNG file."""
         row = {
@@ -866,7 +1015,8 @@ class PlanGenerator:
             "OriginalName": png.name, "NewFolder": "None", "NewName": "None",
             "Rarity": "None", "ItemId": "None", "Category": "None",
             "MatchedBy": "None", "Verified": "False", "Confidence": "0",
-            "Rationale": "None", "Action": "unmatched", "CopiedFrom": "None"
+            "Rationale": "None", "Action": "unmatched", "CopiedFrom": "None",
+            "Resized": "False"
         }
         
         match = match_png_to_item(png, mapping, self.item_index)
@@ -965,14 +1115,19 @@ class PlanGenerator:
                         "Category": category, "MatchedBy": "collection_copy",
                         "Verified": "True", "Confidence": "100",
                         "Rationale": f"Copied from {img_info['folder']}",
-                        "Action": "copy", "CopiedFrom": str(img_info["path"])
+                        "Action": "copy", "CopiedFrom": str(img_info["path"]),
+                        "Resized": "False"
                     }
                     self.plan_rows.append(row)
                     self.matched_items[case_id].add(norm_item)
                     self.folders_to_create.add(target_folder)
 
+
     def _generate_global_copies(self):
-        """Generate copy actions for missing knives/gloves/weapons from global folders."""
+        """Generate copy actions for missing knives/gloves/weapons from global folders.
+        
+        These copies will be resized to match the case folder's image dimensions.
+        """
         for case_id, items in self.item_index["by_case"].items():
             matched = self.matched_items.get(case_id, set())
             case_info = self.item_index["case_info"].get(case_id, {})
@@ -981,6 +1136,7 @@ class PlanGenerator:
             
             for item in items:
                 item_id = item.get("itemId", "")
+                display_name = item.get("displayName", "")
                 category = item.get("_category", "")
                 norm_item = normalize_text(strip_souvenir_prefix(item_id))
                 
@@ -996,6 +1152,9 @@ class PlanGenerator:
                     new_folder = target_folder / cat_folder
                     new_name = self._resolve_filename(target_folder.name, case_id, rarity, item_id, None)
                     
+                    # Mark that this needs resizing (full-size global images)
+                    needs_resize = img_info.get("needs_resize", True)
+                    
                     row = {
                         "FullPath": "COPY",
                         "CaseId": case_id, "CaseName": case_name,
@@ -1006,12 +1165,26 @@ class PlanGenerator:
                         "Rarity": rarity, "ItemId": item_id,
                         "Category": category, "MatchedBy": f"{img_info['source']}_copy",
                         "Verified": "True", "Confidence": "100",
-                        "Rationale": f"Copied from {img_info['source']}",
-                        "Action": "copy", "CopiedFrom": str(img_info["path"])
+                        "Rationale": f"Copied from {img_info['source']} ({img_info.get('match_method', 'exact')})",
+                        "Action": "copy", "CopiedFrom": str(img_info["path"]),
+                        "Resized": "True" if needs_resize else "False"
                     }
                     self.plan_rows.append(row)
                     self.matched_items[case_id].add(norm_item)
                     self.folders_to_create.add(target_folder)
+                    
+                    # Track for global mapping report
+                    self.global_mappings.append({
+                        "CaseId": case_id,
+                        "ItemId": item_id,
+                        "DisplayName": display_name,
+                        "Category": category,
+                        "Rarity": rarity,
+                        "GlobalSource": img_info["source"],
+                        "GlobalPath": str(img_info["path"]),
+                        "MatchMethod": img_info.get("match_method", "exact")
+                    })
+
 
     def _expand_doppler_phases(self):
         """Expand Doppler images to cover all phase variants."""
@@ -1063,6 +1236,7 @@ class PlanGenerator:
                 "rarity": row.get("Rarity", ""),
                 "category": row.get("Category", ""),
                 "new_folder": row.get("NewFolder", ""),
+                "resized": row.get("Resized", "False"),
             }
         
         for (case_id, base_item), phases_found in doppler_sources.items():
@@ -1130,7 +1304,8 @@ class PlanGenerator:
                     "Confidence": "95",
                     "Rationale": f"Expanded from {source_phase} image",
                     "Action": "copy",
-                    "CopiedFrom": source_info["source_path"] or "None"
+                    "CopiedFrom": source_info["source_path"] or "None",
+                    "Resized": source_info.get("resized", "False")
                 }
                 self.plan_rows.append(row)
                 self.matched_items[case_id].add(norm_item)
@@ -1229,10 +1404,13 @@ class PlanExecutor:
     def __init__(self, root: Path, assets_root: Path, plan_path: Path, item_index: dict, icon_mappings: dict):
         self.root = root
         self.assets_root = assets_root
+        self.cases_root = assets_root / "Cases"
+        self.global_root = assets_root / "Global"
         self.plan_path = plan_path
         self.item_index = item_index
         self.icon_mappings = icon_mappings
         self.results = []
+        self.case_target_sizes = {}  # Cache target sizes per case folder
     
     def execute(self):
         rows = self._load_plan()
@@ -1298,15 +1476,48 @@ class PlanExecutor:
             raise FileExistsError(f"Target exists: {dst}")
         dst_folder.mkdir(parents=True, exist_ok=True)
         shutil.move(str(src), str(dst))
+
+    
+    def _get_target_size(self, case_folder: Path) -> Tuple[int, int]:
+        """Get or cache the target image size for a case folder."""
+        folder_name = case_folder.name
+        if folder_name not in self.case_target_sizes:
+            self.case_target_sizes[folder_name] = get_reference_image_size(case_folder)
+        return self.case_target_sizes[folder_name]
     
     def _do_copy(self, row):
+        """Copy a file, optionally resizing if it's from Global folder.
+        
+        - Copies from collection folders are NOT resized (same dimensions)
+        - Copies from Global folders ARE resized to match case folder dimensions
+        - Original files in Global are NEVER modified
+        """
         src = Path(row["CopiedFrom"])
         dst_folder = Path(row["NewFolder"])
         dst = dst_folder / row["NewName"]
+        
         if dst.exists():
             raise FileExistsError(f"Target exists: {dst}")
+        
         dst_folder.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(str(src), str(dst))
+        
+        # Check if this is a Global copy that needs resizing
+        needs_resize = row.get("Resized", "False") == "True"
+        is_global = "Global" in str(src)
+        
+        if needs_resize and is_global and PIL_AVAILABLE:
+            # Get target size from the case folder
+            case_folder = dst_folder.parent  # Go up from Weapons/Knives/Gloves to case folder
+            target_size = self._get_target_size(case_folder)
+            
+            # Resize and save (original is preserved)
+            success = resize_image(src, dst, target_size)
+            if not success:
+                raise RuntimeError(f"Failed to resize {src}")
+        else:
+            # Simple copy (for collection images or when Pillow not available)
+            shutil.copy2(str(src), str(dst))
+
 
     def _patch_jsons(self):
         """Patch JSONs with icon and image paths."""
@@ -1422,6 +1633,15 @@ def write_missing_csv(path: Path, missing: list):
         w.writerows(missing)
 
 
+def write_global_mapping_csv(path: Path, mappings: list):
+    """Write report of items that matched to Global assets."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, 'w', encoding='utf-8', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=GLOBAL_MAPPING_COLUMNS)
+        w.writeheader()
+        w.writerows(mappings)
+
+
 # =============================================================================
 # MAIN
 # =============================================================================
@@ -1451,6 +1671,12 @@ def main():
     if args.apply and not plan_path.exists():
         print(f"ERROR: Plan not found: {plan_path}")
         return
+    
+    # Check Pillow availability
+    if not PIL_AVAILABLE:
+        print("\n⚠️  WARNING: Pillow not installed!")
+        print("   Global images will be copied without resizing.")
+        print("   Install with: pip install Pillow\n")
     
     print(f"Scanning JSONs in: {root}")
     jsons = find_all_jsons(root)
@@ -1489,6 +1715,11 @@ def main():
         write_missing_csv(missing_path, gen.missing_items)
         print(f"  Missing: {missing_path} ({len(gen.missing_items)} items)")
         
+        # Global mapping report
+        global_mapping_path = reports_dir / "global-asset-mapping.csv"
+        write_global_mapping_csv(global_mapping_path, gen.global_mappings)
+        print(f"  Global mappings: {global_mapping_path} ({len(gen.global_mappings)} items)")
+        
         icons_path = reports_dir / "icon-mappings.txt"
         with open(icons_path, 'w', encoding='utf-8') as f:
             for cid, path in sorted(icon_mappings.items()):
@@ -1497,12 +1728,18 @@ def main():
         
         # Summary
         actions = defaultdict(int)
+        resized_count = 0
         for r in gen.plan_rows:
             actions[r["Action"]] += 1
+            if r.get("Resized") == "True":
+                resized_count += 1
         
         print("\nPlan Summary:")
         for a, c in sorted(actions.items()):
             print(f"  {a}: {c}")
+        
+        print(f"\n  Items from Global (will be resized): {resized_count}")
+        print(f"  Items matched to Global: {len(gen.global_mappings)}")
         
         print(f"\nFolders to create for copies: {len(gen.folders_to_create)}")
         for f in sorted(gen.folders_to_create)[:10]:
@@ -1528,8 +1765,9 @@ def main():
         
         applied = sum(1 for r in exe.results if r["Applied"] == "True")
         errors = sum(1 for r in exe.results if r["Error"] != "None")
+        resized = sum(1 for r in exe.results if r.get("Resized") == "True" and r["Applied"] == "True")
         
-        print(f"\nApplied: {applied}, Errors: {errors}")
+        print(f"\nApplied: {applied}, Errors: {errors}, Resized from Global: {resized}")
         
         if errors > 0:
             print("\nErrors:")
