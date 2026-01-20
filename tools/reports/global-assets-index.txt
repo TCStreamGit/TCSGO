@@ -2,17 +2,17 @@
 GLOBAL ASSETS INDEX
 ======================================================================
 
-Total unique items: 1866
+Total unique items: 1869
 Total icons: 194
-Total image files: 7096
+Total image files: 7109
 
 By category:
-  glove: 69
+  glove: 72
   knife: 428
   weapon: 1369
 
 ======================================================================
-ITEMS WITH MULTIPLE VARIATIONS (1844 items)
+ITEMS WITH MULTIPLE VARIATIONS (1847 items)
 ======================================================================
 
 ak-47-aquamarine-revenge: 4 variations
@@ -431,7 +431,7 @@ aug-eye-of-zapems: 3 variations
   - AUG-Eye-of-Zapems-002.png (512x384, q=196608)
   - AUG-Eye-of-Zapems.png (512x384, q=196608)
 
-aug-flame-jörmungandr: 4 variations
+aug-flame-j-rmungandr: 4 variations
   - AUG-Flame-Jörmungandr-003.png (1920x861, q=1653120) [MAIN]
   - AUG-Flame-Jörmungandr-001.png (512x384, q=196608)
   - AUG-Flame-Jörmungandr-002.png (512x384, q=196608)
@@ -1621,6 +1621,12 @@ cz75-auto-vendetta: 4 variations
   - CZ75-Auto-Vendetta-002.png (512x384, q=196608)
   - CZ75-Auto-Vendetta-003.png (512x384, q=196608)
 
+cz75-auto-victoria: 4 variations
+  - CZ75-Auto-Victoria-003.png (1920x1246, q=2392320) [MAIN]
+  - CZ75-Auto-Victoria-001.png (512x384, q=196608)
+  - CZ75-Auto-Victoria-002.png (512x384, q=196608)
+  - CZ75-Auto-Victoria.png (512x384, q=196608)
+
 cz75-auto-xiangliu: 4 variations
   - CZ75-Auto-Xiangliu-002.png (1920x1246, q=2392320) [MAIN]
   - CZ75-Auto-Xiangliu-001.png (512x384, q=196608)
@@ -1687,7 +1693,7 @@ desert-eagle-directive: 4 variations
   - Desert-Eagle-Directive-002.png (512x384, q=196608)
   - Desert-Eagle-Directive-003.png (512x384, q=196608)
 
-desert-eagle-emerald-jörmungandr: 4 variations
+desert-eagle-emerald-j-rmungandr: 4 variations
   - Desert-Eagle-Emerald-Jörmungandr-003.png (1920x1086, q=2085120) [MAIN]
   - Desert-Eagle-Emerald-Jörmungandr-001.png (512x384, q=196608)
   - Desert-Eagle-Emerald-Jörmungandr-002.png (512x384, q=196608)
@@ -1827,14 +1833,12 @@ desert-eagle-starcade: 3 variations
   - Desert-Eagle-Starcade-002.png (512x384, q=196608)
   - Desert-Eagle-Starcade.png (512x384, q=196608)
 
-desert-eagle-sunset-storm-壱: 4 variations
+desert-eagle-sunset-storm: 8 variations
   - Desert-Eagle-Sunset-Storm-壱-003.png (1920x1086, q=2085120) [MAIN]
+  - Desert-Eagle-Sunset-Storm-弐.png (1920x1086, q=2085120)
   - Desert-Eagle-Sunset-Storm-壱-001.png (512x384, q=196608)
   - Desert-Eagle-Sunset-Storm-壱-002.png (512x384, q=196608)
   - Desert-Eagle-Sunset-Storm-壱.png (512x384, q=196608)
-
-desert-eagle-sunset-storm-弐: 4 variations
-  - Desert-Eagle-Sunset-Storm-弐.png (1920x1086, q=2085120) [MAIN]
   - Desert-Eagle-Sunset-Storm-弐-001.png (512x384, q=196608)
   - Desert-Eagle-Sunset-Storm-弐-002.png (512x384, q=196608)
   - Desert-Eagle-Sunset-Storm-弐-003.png (512x384, q=196608)
@@ -1886,6 +1890,11 @@ driver-gloves-diamondback: 3 variations
   - Driver-Gloves-Diamondback-001.png (512x384, q=196608) [MAIN]
   - Driver-Gloves-Diamondback-002.png (512x384, q=196608)
   - Driver-Gloves-Diamondback.png (512x384, q=196608)
+
+driver-gloves-imperial-plaid: 3 variations
+  - Driver-Gloves-Imperial-Plaid-001.png (512x384, q=196608) [MAIN]
+  - Driver-Gloves-Imperial-Plaid-002.png (512x384, q=196608)
+  - Driver-Gloves-Imperial-Plaid.png (512x384, q=196608)
 
 driver-gloves-king-snake: 3 variations
   - Driver-Gloves-King-Snake-001.png (512x384, q=196608) [MAIN]
@@ -4724,6 +4733,12 @@ m4a4-desolate-space: 4 variations
   - M4A4-Desolate-Space-002.png (512x384, q=196608)
   - M4A4-Desolate-Space-003.png (512x384, q=196608)
 
+m4a4-dragon-king: 4 variations
+  - M4A4-龍王-Dragon-King.png (1920x667, q=1280640) [MAIN]
+  - M4A4-龍王-Dragon-King-001.png (512x384, q=196608)
+  - M4A4-龍王-Dragon-King-002.png (512x384, q=196608)
+  - M4A4-龍王-Dragon-King-003.png (512x384, q=196608)
+
 m4a4-etch-lord: 3 variations
   - M4A4-Etch-Lord-001.png (512x384, q=196608) [MAIN]
   - M4A4-Etch-Lord-002.png (512x384, q=196608)
@@ -4925,12 +4940,6 @@ m4a4-zirka: 3 variations
   - M4A4-Zirka-001.png (1920x667, q=1280640) [MAIN]
   - M4A4-Zirka-002.png (512x384, q=196608)
   - M4A4-Zirka.png (512x384, q=196608)
-
-m4a4-龍王-dragon-king: 4 variations
-  - M4A4-龍王-Dragon-King.png (1920x667, q=1280640) [MAIN]
-  - M4A4-龍王-Dragon-King-001.png (512x384, q=196608)
-  - M4A4-龍王-Dragon-King-002.png (512x384, q=196608)
-  - M4A4-龍王-Dragon-King-003.png (512x384, q=196608)
 
 m9-bayonet-autotronic: 5 variations
   - M9-Bayonet-Autotronic-003.png (1869x1418, q=2650242) [MAIN]
@@ -5343,7 +5352,7 @@ mac-10-red-filigree: 4 variations
   - MAC-10-Red-Filigree-003.png (512x384, q=196608)
   - MAC-10-Red-Filigree.png (512x384, q=196608)
 
-mac-10-saibā-oni: 3 variations
+mac-10-saib-oni: 3 variations
   - MAC-10-Saibā-Oni-001.png (512x384, q=196608) [MAIN]
   - MAC-10-Saibā-Oni-002.png (512x384, q=196608)
   - MAC-10-Saibā-Oni.png (512x384, q=196608)
@@ -6454,7 +6463,7 @@ negev-man-o-war: 3 variations
   - Negev-Man-o-war-001.png (512x384, q=196608)
   - Negev-Man-o-war.png (512x384, q=196608)
 
-negev-mjölnir: 4 variations
+negev-mj-lnir: 4 variations
   - Negev-Mjölnir-002.png (1920x515, q=988800) [MAIN]
   - Negev-Mjölnir-001.png (512x384, q=196608)
   - Negev-Mjölnir-003.png (512x384, q=196608)
@@ -6851,7 +6860,7 @@ nova-wood-fired: 4 variations
   - Nova-Wood-Fired-003.png (512x384, q=196608)
   - Nova-Wood-Fired.png (512x384, q=196608)
 
-nova-wurst-hölle: 3 variations
+nova-wurst-h-lle: 3 variations
   - Nova-Wurst-Hölle-001.png (512x384, q=196608) [MAIN]
   - Nova-Wurst-Hölle-002.png (512x384, q=196608)
   - Nova-Wurst-Hölle.png (512x384, q=196608)
@@ -7383,7 +7392,7 @@ p90-asiimov: 4 variations
   - P90-Asiimov-003.png (512x384, q=196608)
   - P90-Asiimov.png (512x384, q=196608)
 
-p90-astral-jörmungandr: 4 variations
+p90-astral-j-rmungandr: 4 variations
   - P90-Astral-Jörmungandr-002.png (1920x816, q=1566720) [MAIN]
   - P90-Astral-Jörmungandr-001.png (512x384, q=196608)
   - P90-Astral-Jörmungandr-003.png (512x384, q=196608)
@@ -8182,7 +8191,7 @@ sawed-off-jungle-thicket: 4 variations
   - Sawed-Off-Jungle-Thicket-003.png (512x384, q=196608)
   - Sawed-Off-Jungle-Thicket.png (512x384, q=196608)
 
-sawed-off-kisslove: 4 variations
+sawed-off-kiss-love: 4 variations
   - Sawed-Off-Kiss♥Love.png (1920x436, q=837120) [MAIN]
   - Sawed-Off-Kiss♥Love-001.png (512x384, q=196608)
   - Sawed-Off-Kiss♥Love-002.png (512x384, q=196608)
@@ -8966,6 +8975,11 @@ specialist-gloves-field-agent: 3 variations
   - Specialist-Gloves-Field-Agent-002.png (512x384, q=196608)
   - Specialist-Gloves-Field-Agent.png (512x384, q=196608)
 
+specialist-gloves-forest-ddpat: 3 variations
+  - Specialist-Gloves-Forest-DDPAT-001.png (512x384, q=196608) [MAIN]
+  - Specialist-Gloves-Forest-DDPAT-002.png (512x384, q=196608)
+  - Specialist-Gloves-Forest-DDPAT.png (512x384, q=196608)
+
 specialist-gloves-foundation: 3 variations
   - Specialist-Gloves-Foundation-001.png (512x384, q=196608) [MAIN]
   - Specialist-Gloves-Foundation-002.png (512x384, q=196608)
@@ -8990,6 +9004,11 @@ specialist-gloves-tiger-strike: 3 variations
   - Specialist-Gloves-Tiger-Strike-001.png (512x384, q=196608) [MAIN]
   - Specialist-Gloves-Tiger-Strike-002.png (512x384, q=196608)
   - Specialist-Gloves-Tiger-Strike.png (512x384, q=196608)
+
+sport-gloves-amphibious: 3 variations
+  - Sport-Gloves-Amphibious-001.png (512x384, q=196608) [MAIN]
+  - Sport-Gloves-Amphibious-002.png (512x384, q=196608)
+  - Sport-Gloves-Amphibious.png (512x384, q=196608)
 
 sport-gloves-arid: 3 variations
   - Sport-Gloves-Arid-001.png (512x384, q=196608) [MAIN]

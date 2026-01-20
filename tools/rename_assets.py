@@ -87,6 +87,12 @@ WEAPON_PREFIXES = [
     "g3sg1", "nova", "xm1014", "mag-7", "sawed-off", "m249", "negev", "zeus-x27",
 ]
 
+# Skin name variations: JSON name -> file name (normalized)
+# When JSON says X, but the file is named Y
+SKIN_ALIASES = {
+    "neon-queen": "neoqueen",
+}
+
 
 # =============================================================================
 # NORMALIZATION
@@ -100,6 +106,8 @@ def normalize_text(text: str) -> str:
     result = result.replace("&", " and ")
     result = result.replace("★", "").replace("|", " ")
     result = re.sub(r'[\[\](){}]', ' ', result)
+    # Remove non-ASCII characters (Chinese, etc.)
+    result = re.sub(r'[^\x00-\x7F]+', '-', result)
     result = re.sub(r"[^\w\s\-]", "", result)
     result = re.sub(r'[\s_]+', '-', result)
     result = re.sub(r'-+', '-', result)
@@ -482,6 +490,16 @@ def build_search_keys(item: dict) -> List[str]:
             clean_keys.append(clean)
     keys.extend(clean_keys)
     
+    # Apply skin aliases (e.g., neon-queen -> neoqueen)
+    aliased_keys = []
+    for k in keys:
+        for alias_from, alias_to in SKIN_ALIASES.items():
+            if alias_from in k:
+                aliased = k.replace(alias_from, alias_to)
+                if aliased not in keys and aliased not in aliased_keys:
+                    aliased_keys.append(aliased)
+    keys.extend(aliased_keys)
+    
     return [k for k in keys if k]  # Filter empty
 
 
@@ -553,7 +571,14 @@ def match_item_to_global(item: dict, global_assets: dict) -> Optional[Tuple[str,
         if stripped != key and stripped in by_base:
             return (stripped, by_base[stripped], "numbered-skin")
     
-    # 5. Truncated match (weapon + first word of skin)
+    # 5. "Original" -> "Vanilla" mapping for knives
+    for key in search_keys:
+        if key.endswith("-original"):
+            vanilla_key = key.replace("-original", "-vanilla")
+            if vanilla_key in by_base:
+                return (vanilla_key, by_base[vanilla_key], "original-to-vanilla")
+    
+    # 6. Truncated match (weapon + first word of skin)
     weapon = item.get("weapon", "")
     skin = item.get("skin", "")
     if weapon and skin:
@@ -564,7 +589,7 @@ def match_item_to_global(item: dict, global_assets: dict) -> Optional[Tuple[str,
             if truncated in by_base:
                 return (truncated, by_base[truncated], "truncated")
     
-    # 6. Partial match (more lenient)
+    # 7. Partial match (more lenient)
     for key in search_keys:
         for base_name, entry in by_base.items():
             # Check if one is a prefix of the other
