@@ -1,850 +1,151 @@
 CaseId,Rarity,ItemId,DisplayName,Category,ResolvedBy,SourcePath
 anubis-collection-package,Rare Special Item,no-rare-special-item,No Rare Special Item,knife,None,None
-austin-2025-train-souvenir-package,industrial,galil-ar-green-apple-souvenir,Souvenir Galil AR | Green Apple,rifle,None,None
-austin-2025-train-souvenir-package,industrial,aug-steel-sentinel-souvenir,Souvenir AUG | Steel Sentinel,rifle,None,None
-austin-2025-train-souvenir-package,industrial,p90-straight-dimes-souvenir,Souvenir P90 | Straight Dimes,smg,None,None
-austin-2025-train-souvenir-package,industrial,nova-rain-station-souvenir,Souvenir Nova | Rain Station,shotgun,None,None
 austin-2025-train-souvenir-package,industrial,p250-constructivist-souvenir,Souvenir P250 | Constructivist,pistol,None,None
-austin-2025-train-souvenir-package,industrial,cz75-auto-copper-fiber-souvenir,Souvenir CZ75-Auto | Copper Fiber,pistol,None,None
-austin-2025-train-souvenir-package,milspec,glock-18-green-line-souvenir,Souvenir Glock-18 | Green Line,pistol,None,None
 austin-2025-train-souvenir-package,milspec,famas-2a2f-souvenir,Souvenir FAMAS | 2A2F,rifle,None,None
 austin-2025-train-souvenir-package,milspec,ump-45-late-night-transit-souvenir,Souvenir UMP-45 | Late Night Transit,smg,None,None
 austin-2025-train-souvenir-package,milspec,xm1014-run-run-run-souvenir,Souvenir XM1014 | Run Run Run,shotgun,None,None
 austin-2025-train-souvenir-package,restricted,tec-9-whiteout-souvenir,Souvenir Tec-9 | Whiteout,pistol,None,None
-austin-2025-train-souvenir-package,restricted,zeus-x27-charged-up-souvenir,Souvenir Zeus x27 | Charged Up,weapon,None,None
 austin-2025-train-souvenir-package,restricted,mac-10-derailment-souvenir,Souvenir MAC-10 | Derailment,smg,None,None
 austin-2025-train-souvenir-package,classified,m4a4-hellish-souvenir,Souvenir M4A4 | Hellish,rifle,None,None
-austin-2025-train-souvenir-package,classified,mp9-latte-rush-souvenir,Souvenir MP9 | Latte Rush,smg,None,None
 austin-2025-train-souvenir-package,covert,awp-longdog-souvenir,Souvenir AWP | LongDog,weapon,None,None
 budapest-2025-overpass-souvenir-package,industrial,desert-eagle-tilted-souvenir,Souvenir Desert Eagle | Tilted,pistol,None,None
 budapest-2025-overpass-souvenir-package,industrial,m4a1-s-wash-me-plz-souvenir,Souvenir M4A1-S | Wash me plz,rifle,None,None
-budapest-2025-overpass-souvenir-package,industrial,five-seve-n-midnight-paintover-souvenir,Souvenir Five-SeveN | Midnight Paintover,pistol,None,None
-budapest-2025-overpass-souvenir-package,industrial,mp5-sd-neon-squeezer-souvenir,Souvenir MP5-SD | Neon Squeezer,smg,None,None
-budapest-2025-overpass-souvenir-package,industrial,negev-wall-bang-souvenir,Souvenir Negev | Wall Bang,machinegun,None,None
-budapest-2025-overpass-souvenir-package,industrial,p90-wash-me-souvenir,Souvenir P90 | Wash me,smg,None,None
 budapest-2025-overpass-souvenir-package,milspec,mac-10-pipsqueak-souvenir,Souvenir MAC-10 | Pipsqueak,smg,None,None
-budapest-2025-overpass-souvenir-package,milspec,glock-18-teal-graf-souvenir,Souvenir Glock-18 | Teal Graf,pistol,None,None
-budapest-2025-overpass-souvenir-package,milspec,galil-ar-metallic-squeezer-souvenir,Souvenir Galil AR | Metallic Squeezer,rifle,None,None
-budapest-2025-overpass-souvenir-package,milspec,nova-wurst-holle-souvenir,Souvenir Nova | Wurst Hölle,shotgun,None,None
 budapest-2025-overpass-souvenir-package,restricted,aug-eye-of-zapems-souvenir,Souvenir AUG | Eye of Zapems,rifle,None,None
 budapest-2025-overpass-souvenir-package,restricted,dual-berettas-sweet-little-angels-souvenir,Souvenir Dual Berettas | Sweet Little Angels,pistol,None,None
-budapest-2025-overpass-souvenir-package,restricted,xm1014-monster-melt-souvenir,Souvenir XM1014 | Monster Melt,shotgun,None,None
 budapest-2025-overpass-souvenir-package,classified,awp-crakow-souvenir,Souvenir AWP | Crakow!,weapon,None,None
-budapest-2025-overpass-souvenir-package,classified,zeus-x27-dragon-snore-souvenir,Souvenir Zeus x27 | Dragon Snore,pistol,None,None
 budapest-2025-overpass-souvenir-package,covert,ak-47-b-the-monster-souvenir,Souvenir AK-47 | B the Monster,rifle,None,None
-chroma-2-case,extraordinary,bayonet-doppler-phase-2,★ Bayonet | Doppler (Phase 2),knife,None,None
-chroma-2-case,extraordinary,bayonet-doppler-phase-3,★ Bayonet | Doppler (Phase 3),knife,None,None
-chroma-2-case,extraordinary,bayonet-doppler-phase-4,★ Bayonet | Doppler (Phase 4),knife,None,None
-chroma-2-case,extraordinary,bayonet-doppler-black-pearl,★ Bayonet | Doppler (Black Pearl),knife,None,None
-chroma-2-case,extraordinary,bayonet-doppler-ruby,★ Bayonet | Doppler (Ruby),knife,None,None
-chroma-2-case,extraordinary,bayonet-doppler-sapphire,★ Bayonet | Doppler (Sapphire),knife,None,None
-chroma-2-case,extraordinary,flip-knife-doppler-phase-2,★ Flip Knife | Doppler (Phase 2),knife,None,None
-chroma-2-case,extraordinary,flip-knife-doppler-phase-3,★ Flip Knife | Doppler (Phase 3),knife,None,None
-chroma-2-case,extraordinary,flip-knife-doppler-phase-4,★ Flip Knife | Doppler (Phase 4),knife,None,None
-chroma-2-case,extraordinary,flip-knife-doppler-black-pearl,★ Flip Knife | Doppler (Black Pearl),knife,None,None
-chroma-2-case,extraordinary,flip-knife-doppler-ruby,★ Flip Knife | Doppler (Ruby),knife,None,None
-chroma-2-case,extraordinary,flip-knife-doppler-sapphire,★ Flip Knife | Doppler (Sapphire),knife,None,None
-chroma-2-case,extraordinary,gut-knife-doppler-phase-2,★ Gut Knife | Doppler (Phase 2),knife,None,None
-chroma-2-case,extraordinary,gut-knife-doppler-phase-3,★ Gut Knife | Doppler (Phase 3),knife,None,None
-chroma-2-case,extraordinary,gut-knife-doppler-phase-4,★ Gut Knife | Doppler (Phase 4),knife,None,None
-chroma-2-case,extraordinary,gut-knife-doppler-black-pearl,★ Gut Knife | Doppler (Black Pearl),knife,None,None
-chroma-2-case,extraordinary,gut-knife-doppler-ruby,★ Gut Knife | Doppler (Ruby),knife,None,None
-chroma-2-case,extraordinary,gut-knife-doppler-sapphire,★ Gut Knife | Doppler (Sapphire),knife,None,None
-chroma-2-case,extraordinary,karambit-doppler-phase-2,★ Karambit | Doppler (Phase 2),knife,None,None
-chroma-2-case,extraordinary,karambit-doppler-phase-3,★ Karambit | Doppler (Phase 3),knife,None,None
-chroma-2-case,extraordinary,karambit-doppler-phase-4,★ Karambit | Doppler (Phase 4),knife,None,None
-chroma-2-case,extraordinary,karambit-doppler-black-pearl,★ Karambit | Doppler (Black Pearl),knife,None,None
-chroma-2-case,extraordinary,karambit-doppler-ruby,★ Karambit | Doppler (Ruby),knife,None,None
-chroma-2-case,extraordinary,karambit-doppler-sapphire,★ Karambit | Doppler (Sapphire),knife,None,None
-chroma-2-case,extraordinary,m9-bayonet-doppler-phase-2,★ M9 Bayonet | Doppler (Phase 2),knife,None,None
-chroma-2-case,extraordinary,m9-bayonet-doppler-phase-3,★ M9 Bayonet | Doppler (Phase 3),knife,None,None
-chroma-2-case,extraordinary,m9-bayonet-doppler-phase-4,★ M9 Bayonet | Doppler (Phase 4),knife,None,None
-chroma-2-case,extraordinary,m9-bayonet-doppler-black-pearl,★ M9 Bayonet | Doppler (Black Pearl),knife,None,None
-chroma-2-case,extraordinary,m9-bayonet-doppler-ruby,★ M9 Bayonet | Doppler (Ruby),knife,None,None
-chroma-2-case,extraordinary,m9-bayonet-doppler-sapphire,★ M9 Bayonet | Doppler (Sapphire),knife,None,None
-chroma-3-case,Rare Special Item,bayonet-doppler-phase-2,★ Bayonet | Doppler (Phase 2),knife,None,None
-chroma-3-case,Rare Special Item,bayonet-doppler-phase-3,★ Bayonet | Doppler (Phase 3),knife,None,None
-chroma-3-case,Rare Special Item,bayonet-doppler-phase-4,★ Bayonet | Doppler (Phase 4),knife,None,None
-chroma-3-case,Rare Special Item,bayonet-doppler-black-pearl,★ Bayonet | Doppler (Black Pearl),knife,None,None
-chroma-3-case,Rare Special Item,bayonet-doppler-ruby,★ Bayonet | Doppler (Ruby),knife,None,None
-chroma-3-case,Rare Special Item,bayonet-doppler-sapphire,★ Bayonet | Doppler (Sapphire),knife,None,None
-chroma-3-case,Rare Special Item,flip-knife-doppler-phase-2,★ Flip Knife | Doppler (Phase 2),knife,None,None
-chroma-3-case,Rare Special Item,flip-knife-doppler-phase-3,★ Flip Knife | Doppler (Phase 3),knife,None,None
-chroma-3-case,Rare Special Item,flip-knife-doppler-phase-4,★ Flip Knife | Doppler (Phase 4),knife,None,None
-chroma-3-case,Rare Special Item,flip-knife-doppler-black-pearl,★ Flip Knife | Doppler (Black Pearl),knife,None,None
-chroma-3-case,Rare Special Item,flip-knife-doppler-ruby,★ Flip Knife | Doppler (Ruby),knife,None,None
-chroma-3-case,Rare Special Item,flip-knife-doppler-sapphire,★ Flip Knife | Doppler (Sapphire),knife,None,None
-chroma-3-case,Rare Special Item,gut-knife-doppler-phase-2,★ Gut Knife | Doppler (Phase 2),knife,None,None
-chroma-3-case,Rare Special Item,gut-knife-doppler-phase-3,★ Gut Knife | Doppler (Phase 3),knife,None,None
-chroma-3-case,Rare Special Item,gut-knife-doppler-phase-4,★ Gut Knife | Doppler (Phase 4),knife,None,None
-chroma-3-case,Rare Special Item,gut-knife-doppler-black-pearl,★ Gut Knife | Doppler (Black Pearl),knife,None,None
-chroma-3-case,Rare Special Item,gut-knife-doppler-ruby,★ Gut Knife | Doppler (Ruby),knife,None,None
-chroma-3-case,Rare Special Item,gut-knife-doppler-sapphire,★ Gut Knife | Doppler (Sapphire),knife,None,None
-chroma-3-case,Rare Special Item,karambit-doppler-phase-2,★ Karambit | Doppler (Phase 2),knife,None,None
-chroma-3-case,Rare Special Item,karambit-doppler-phase-3,★ Karambit | Doppler (Phase 3),knife,None,None
-chroma-3-case,Rare Special Item,karambit-doppler-phase-4,★ Karambit | Doppler (Phase 4),knife,None,None
-chroma-3-case,Rare Special Item,karambit-doppler-black-pearl,★ Karambit | Doppler (Black Pearl),knife,None,None
-chroma-3-case,Rare Special Item,karambit-doppler-ruby,★ Karambit | Doppler (Ruby),knife,None,None
-chroma-3-case,Rare Special Item,karambit-doppler-sapphire,★ Karambit | Doppler (Sapphire),knife,None,None
-chroma-3-case,Rare Special Item,m9-bayonet-doppler-phase-2,★ M9 Bayonet | Doppler (Phase 2),knife,None,None
-chroma-3-case,Rare Special Item,m9-bayonet-doppler-phase-3,★ M9 Bayonet | Doppler (Phase 3),knife,None,None
-chroma-3-case,Rare Special Item,m9-bayonet-doppler-phase-4,★ M9 Bayonet | Doppler (Phase 4),knife,None,None
-chroma-3-case,Rare Special Item,m9-bayonet-doppler-black-pearl,★ M9 Bayonet | Doppler (Black Pearl),knife,None,None
-chroma-3-case,Rare Special Item,m9-bayonet-doppler-ruby,★ M9 Bayonet | Doppler (Ruby),knife,None,None
-chroma-3-case,Rare Special Item,m9-bayonet-doppler-sapphire,★ M9 Bayonet | Doppler (Sapphire),knife,None,None
-chroma-case,extraordinary,bayonet-doppler-phase-2,★ Bayonet | Doppler (Phase 2),knife,None,None
-chroma-case,extraordinary,bayonet-doppler-phase-3,★ Bayonet | Doppler (Phase 3),knife,None,None
-chroma-case,extraordinary,bayonet-doppler-phase-4,★ Bayonet | Doppler (Phase 4),knife,None,None
-chroma-case,extraordinary,bayonet-doppler-ruby,★ Bayonet | Doppler (Ruby),knife,None,None
-chroma-case,extraordinary,bayonet-doppler-sapphire,★ Bayonet | Doppler (Sapphire),knife,None,None
-chroma-case,extraordinary,bayonet-doppler-black-pearl,★ Bayonet | Doppler (Black Pearl),knife,None,None
-chroma-case,extraordinary,flip-knife-doppler-phase-2,★ Flip Knife | Doppler (Phase 2),knife,None,None
-chroma-case,extraordinary,flip-knife-doppler-phase-3,★ Flip Knife | Doppler (Phase 3),knife,None,None
-chroma-case,extraordinary,flip-knife-doppler-phase-4,★ Flip Knife | Doppler (Phase 4),knife,None,None
-chroma-case,extraordinary,flip-knife-doppler-ruby,★ Flip Knife | Doppler (Ruby),knife,None,None
-chroma-case,extraordinary,flip-knife-doppler-sapphire,★ Flip Knife | Doppler (Sapphire),knife,None,None
-chroma-case,extraordinary,flip-knife-doppler-black-pearl,★ Flip Knife | Doppler (Black Pearl),knife,None,None
-chroma-case,extraordinary,gut-knife-doppler-phase-2,★ Gut Knife | Doppler (Phase 2),knife,None,None
-chroma-case,extraordinary,gut-knife-doppler-phase-3,★ Gut Knife | Doppler (Phase 3),knife,None,None
-chroma-case,extraordinary,gut-knife-doppler-phase-4,★ Gut Knife | Doppler (Phase 4),knife,None,None
-chroma-case,extraordinary,gut-knife-doppler-ruby,★ Gut Knife | Doppler (Ruby),knife,None,None
-chroma-case,extraordinary,gut-knife-doppler-sapphire,★ Gut Knife | Doppler (Sapphire),knife,None,None
-chroma-case,extraordinary,gut-knife-doppler-black-pearl,★ Gut Knife | Doppler (Black Pearl),knife,None,None
-chroma-case,extraordinary,karambit-doppler-phase-2,★ Karambit | Doppler (Phase 2),knife,None,None
-chroma-case,extraordinary,karambit-doppler-phase-3,★ Karambit | Doppler (Phase 3),knife,None,None
-chroma-case,extraordinary,karambit-doppler-phase-4,★ Karambit | Doppler (Phase 4),knife,None,None
-chroma-case,extraordinary,karambit-doppler-ruby,★ Karambit | Doppler (Ruby),knife,None,None
-chroma-case,extraordinary,karambit-doppler-sapphire,★ Karambit | Doppler (Sapphire),knife,None,None
-chroma-case,extraordinary,karambit-doppler-black-pearl,★ Karambit | Doppler (Black Pearl),knife,None,None
-chroma-case,extraordinary,m9-bayonet-doppler-phase-2,★ M9 Bayonet | Doppler (Phase 2),knife,None,None
-chroma-case,extraordinary,m9-bayonet-doppler-phase-3,★ M9 Bayonet | Doppler (Phase 3),knife,None,None
-chroma-case,extraordinary,m9-bayonet-doppler-phase-4,★ M9 Bayonet | Doppler (Phase 4),knife,None,None
-chroma-case,extraordinary,m9-bayonet-doppler-ruby,★ M9 Bayonet | Doppler (Ruby),knife,None,None
-chroma-case,extraordinary,m9-bayonet-doppler-sapphire,★ M9 Bayonet | Doppler (Sapphire),knife,None,None
-chroma-case,extraordinary,m9-bayonet-doppler-black-pearl,★ M9 Bayonet | Doppler (Black Pearl),knife,None,None
-copenhagen-2024-anubis-souvenir-package,consumer,souvenir-aug-snake-pit,Souvenir AUG | Snake Pit,rifle,None,None
 copenhagen-2024-anubis-souvenir-package,consumer,souvenir-r8-revolver-inlay,Souvenir R8 Revolver | Inlay,pistol,None,None
 copenhagen-2024-anubis-souvenir-package,consumer,souvenir-mp7-sunbaked,Souvenir MP7 | Sunbaked,smg,None,None
 copenhagen-2024-anubis-souvenir-package,consumer,souvenir-m249-submerged,Souvenir M249 | Submerged,machinegun,None,None
 copenhagen-2024-anubis-souvenir-package,consumer,souvenir-xm1014-hieroglyph,Souvenir XM1014 | Hieroglyph,shotgun,None,None
 copenhagen-2024-anubis-souvenir-package,industrial,souvenir-m4a1-s-mud-spec,Souvenir M4A1-S | Mud-Spec,rifle,None,None
-copenhagen-2024-anubis-souvenir-package,industrial,souvenir-usp-s-desert-tactical,Souvenir USP-S | Desert Tactical,pistol,None,None
-copenhagen-2024-anubis-souvenir-package,industrial,souvenir-ssg-08-azure-glyph,Souvenir SSG 08 | Azure Glyph,weapon,None,None
-copenhagen-2024-anubis-souvenir-package,industrial,souvenir-mac-10-echoing-sands,Souvenir MAC-10 | Echoing Sands,smg,None,None
-copenhagen-2024-anubis-souvenir-package,milspec,souvenir-awp-black-nile,Souvenir AWP | Black Nile,weapon,None,None
-copenhagen-2024-anubis-souvenir-package,milspec,souvenir-ak-47-steel-delta,Souvenir AK-47 | Steel Delta,rifle,None,None
 copenhagen-2024-anubis-souvenir-package,milspec,souvenir-tec-9-mummys-rot,Souvenir Tec-9 | Mummy's Rot,pistol,None,None
-copenhagen-2024-anubis-souvenir-package,milspec,souvenir-mag-7-copper-coated,Souvenir MAG-7 | Copper Coated,shotgun,None,None
 copenhagen-2024-anubis-souvenir-package,restricted,souvenir-glock-18-rameses-reach,Souvenir Glock-18 | Ramese's Reach,pistol,None,None
 copenhagen-2024-anubis-souvenir-package,restricted,souvenir-nova-sobeks-bite,Souvenir Nova | Sobek's Bite,shotgun,None,None
-copenhagen-2024-anubis-souvenir-package,restricted,souvenir-p90-scarab-rush,Souvenir P90 | ScaraB Rush,smg,None,None
 copenhagen-2024-anubis-souvenir-package,classified,souvenir-p250-apeps-curse,Souvenir P250 | Apep's Curse,pistol,None,None
 copenhagen-2024-anubis-souvenir-package,classified,souvenir-famas-waters-of-nephthys,Souvenir FAMAS | Waters of Nephthys,rifle,None,None
 copenhagen-2024-anubis-souvenir-package,covert,souvenir-m4a4-eye-of-horus,Souvenir M4A4 | Eye of Horus,rifle,None,None
-cs20-case,rare-special,classic-knife-vanilla,★ Classic Knife | Vanilla,knife,None,None
 csgo-weapon-case,Rare Special Item,karambit-fade,★ Karambit | Fade,knife,None,None
-csgo-weapon-case,Rare Special Item,karambit-forest-ddpat,★ Karambit | Forest DDPAT,knife,None,None
-csgo-weapon-case,Rare Special Item,m9-bayonet-vanilla,★ M9 Bayonet,knife,None,None
-csgo-weapon-case,Rare Special Item,m9-bayonet-blue-steel,★ M9 Bayonet | Blue Steel,knife,None,None
-csgo-weapon-case,Rare Special Item,m9-bayonet-boreal-forest,★ M9 Bayonet | Boreal Forest,knife,None,None
-csgo-weapon-case,Rare Special Item,m9-bayonet-case-hardened,★ M9 Bayonet | Case Hardened,knife,None,None
-csgo-weapon-case,Rare Special Item,m9-bayonet-crimson-web,★ M9 Bayonet | Crimson Web,knife,None,None
 csgo-weapon-case,Rare Special Item,m9-bayonet-fade,★ M9 Bayonet | Fade,knife,None,None
-csgo-weapon-case,Rare Special Item,m9-bayonet-forest-ddpat,★ M9 Bayonet | Forest DDPAT,knife,None,None
 csgo-weapon-case,Rare Special Item,m9-bayonet-night,★ M9 Bayonet | Night,knife,None,None
-csgo-weapon-case,Rare Special Item,m9-bayonet-safari-mesh,★ M9 Bayonet | Safari Mesh,knife,None,None
 csgo-weapon-case,Rare Special Item,m9-bayonet-scorched,★ M9 Bayonet | Scorched,knife,None,None
 csgo-weapon-case,Rare Special Item,m9-bayonet-slaughter,★ M9 Bayonet | Slaughter,knife,None,None
 csgo-weapon-case,Rare Special Item,m9-bayonet-stained,★ M9 Bayonet | Stained,knife,None,None
-csgo-weapon-case,Rare Special Item,m9-bayonet-urban-masked,★ M9 Bayonet | Urban Masked,knife,None,None
 csgo-weapon-case-2,rare-special,karambit-fade,★ Karambit | Fade,knife,None,None
-csgo-weapon-case-2,rare-special,karambit-forest-ddpat,★ Karambit | Forest DDPAT,knife,None,None
-csgo-weapon-case-2,rare-special,m9-bayonet-vanilla,★ M9 Bayonet,knife,None,None
-csgo-weapon-case-2,rare-special,m9-bayonet-blue-steel,★ M9 Bayonet | Blue Steel,knife,None,None
-csgo-weapon-case-2,rare-special,m9-bayonet-boreal-forest,★ M9 Bayonet | Boreal Forest,knife,None,None
-csgo-weapon-case-2,rare-special,m9-bayonet-case-hardened,★ M9 Bayonet | Case Hardened,knife,None,None
-csgo-weapon-case-2,rare-special,m9-bayonet-crimson-web,★ M9 Bayonet | Crimson Web,knife,None,None
 csgo-weapon-case-2,rare-special,m9-bayonet-fade,★ M9 Bayonet | Fade,knife,None,None
-csgo-weapon-case-2,rare-special,m9-bayonet-forest-ddpat,★ M9 Bayonet | Forest DDPAT,knife,None,None
 csgo-weapon-case-2,rare-special,m9-bayonet-night,★ M9 Bayonet | Night,knife,None,None
-csgo-weapon-case-2,rare-special,m9-bayonet-safari-mesh,★ M9 Bayonet | Safari Mesh,knife,None,None
 csgo-weapon-case-2,rare-special,m9-bayonet-scorched,★ M9 Bayonet | Scorched,knife,None,None
 csgo-weapon-case-2,rare-special,m9-bayonet-slaughter,★ M9 Bayonet | Slaughter,knife,None,None
 csgo-weapon-case-2,rare-special,m9-bayonet-stained,★ M9 Bayonet | Stained,knife,None,None
-csgo-weapon-case-2,rare-special,m9-bayonet-urban-masked,★ M9 Bayonet | Urban Masked,knife,None,None
-csgo-weapon-case-3,Rare Special Item,karambit-fade,★ Karambit | Fade,knife,None,None
-csgo-weapon-case-3,Rare Special Item,karambit-forest-ddpat,★ Karambit | Forest DDPAT,knife,None,None
-csgo-weapon-case-3,Rare Special Item,m9-bayonet,★ M9 Bayonet,knife,None,None
-csgo-weapon-case-3,Rare Special Item,m9-bayonet-blue-steel,★ M9 Bayonet | Blue Steel,knife,None,None
-csgo-weapon-case-3,Rare Special Item,m9-bayonet-boreal-forest,★ M9 Bayonet | Boreal Forest,knife,None,None
-csgo-weapon-case-3,Rare Special Item,m9-bayonet-case-hardened,★ M9 Bayonet | Case Hardened,knife,None,None
-csgo-weapon-case-3,Rare Special Item,m9-bayonet-crimson-web,★ M9 Bayonet | Crimson Web,knife,None,None
 csgo-weapon-case-3,Rare Special Item,m9-bayonet-fade,★ M9 Bayonet | Fade,knife,None,None
-csgo-weapon-case-3,Rare Special Item,m9-bayonet-forest-ddpat,★ M9 Bayonet | Forest DDPAT,knife,None,None
 csgo-weapon-case-3,Rare Special Item,m9-bayonet-night,★ M9 Bayonet | Night,knife,None,None
-csgo-weapon-case-3,Rare Special Item,m9-bayonet-safari-mesh,★ M9 Bayonet | Safari Mesh,knife,None,None
 csgo-weapon-case-3,Rare Special Item,m9-bayonet-scorched,★ M9 Bayonet | Scorched,knife,None,None
 csgo-weapon-case-3,Rare Special Item,m9-bayonet-slaughter,★ M9 Bayonet | Slaughter,knife,None,None
 csgo-weapon-case-3,Rare Special Item,m9-bayonet-stained,★ M9 Bayonet | Stained,knife,None,None
-csgo-weapon-case-3,Rare Special Item,m9-bayonet-urban-masked,★ M9 Bayonet | Urban Masked,knife,None,None
-danger-zone-case,rare-special-item,navaja-knife-vanilla,Navaja Knife | Vanilla,knife,None,None
-danger-zone-case,rare-special-item,stiletto-knife-vanilla,Stiletto Knife | Vanilla,knife,None,None
-danger-zone-case,rare-special-item,talon-knife-vanilla,Talon Knife | Vanilla,knife,None,None
-danger-zone-case,rare-special-item,ursus-knife-forest-ddpat,Ursus Knife | Forest DDPAT,knife,None,None
 danger-zone-case,rare-special-item,ursus-knife-scorched,Ursus Knife | Scorched,knife,None,None
-danger-zone-case,rare-special-item,ursus-knife-vanilla,Ursus Knife | Vanilla,knife,None,None
 dreams-and-nightmares-case,rare-special,butterfly-knife-lore,★ Butterfly Knife | Lore,knife,None,None
 dreams-and-nightmares-case,rare-special,butterfly-knife-autotronic,★ Butterfly Knife | Autotronic,knife,None,None
-dreams-and-nightmares-case,rare-special,butterfly-knife-black-laminate,★ Butterfly Knife | Black Laminate,knife,None,None
 dreams-and-nightmares-case,rare-special,butterfly-knife-freehand,★ Butterfly Knife | Freehand,knife,None,None
-dreams-and-nightmares-case,rare-special,butterfly-knife-bright-water,★ Butterfly Knife | Bright Water,knife,None,None
-dreams-and-nightmares-case,rare-special,butterfly-knife-gamma-doppler-phase-2,★ Butterfly Knife | Gamma Doppler (Phase 2),knife,None,None
-dreams-and-nightmares-case,rare-special,butterfly-knife-gamma-doppler-phase-3,★ Butterfly Knife | Gamma Doppler (Phase 3),knife,None,None
-dreams-and-nightmares-case,rare-special,butterfly-knife-gamma-doppler-phase-4,★ Butterfly Knife | Gamma Doppler (Phase 4),knife,None,None
-dreams-and-nightmares-case,rare-special,butterfly-knife-gamma-doppler-emerald,★ Butterfly Knife | Gamma Doppler (Emerald),knife,None,None
 dreams-and-nightmares-case,rare-special,bowie-knife-lore,★ Bowie Knife | Lore,knife,None,None
 dreams-and-nightmares-case,rare-special,bowie-knife-autotronic,★ Bowie Knife | Autotronic,knife,None,None
-dreams-and-nightmares-case,rare-special,bowie-knife-black-laminate,★ Bowie Knife | Black Laminate,knife,None,None
 dreams-and-nightmares-case,rare-special,bowie-knife-freehand,★ Bowie Knife | Freehand,knife,None,None
-dreams-and-nightmares-case,rare-special,bowie-knife-bright-water,★ Bowie Knife | Bright Water,knife,None,None
-dreams-and-nightmares-case,rare-special,bowie-knife-gamma-doppler-phase-2,★ Bowie Knife | Gamma Doppler (Phase 2),knife,None,None
-dreams-and-nightmares-case,rare-special,bowie-knife-gamma-doppler-phase-3,★ Bowie Knife | Gamma Doppler (Phase 3),knife,None,None
-dreams-and-nightmares-case,rare-special,bowie-knife-gamma-doppler-phase-4,★ Bowie Knife | Gamma Doppler (Phase 4),knife,None,None
-dreams-and-nightmares-case,rare-special,bowie-knife-gamma-doppler-emerald,★ Bowie Knife | Gamma Doppler (Emerald),knife,None,None
 dreams-and-nightmares-case,rare-special,falchion-knife-lore,★ Falchion Knife | Lore,knife,None,None
 dreams-and-nightmares-case,rare-special,falchion-knife-autotronic,★ Falchion Knife | Autotronic,knife,None,None
-dreams-and-nightmares-case,rare-special,falchion-knife-black-laminate,★ Falchion Knife | Black Laminate,knife,None,None
 dreams-and-nightmares-case,rare-special,falchion-knife-freehand,★ Falchion Knife | Freehand,knife,None,None
-dreams-and-nightmares-case,rare-special,falchion-knife-bright-water,★ Falchion Knife | Bright Water,knife,None,None
-dreams-and-nightmares-case,rare-special,falchion-knife-gamma-doppler-phase-2,★ Falchion Knife | Gamma Doppler (Phase 2),knife,None,None
-dreams-and-nightmares-case,rare-special,falchion-knife-gamma-doppler-phase-3,★ Falchion Knife | Gamma Doppler (Phase 3),knife,None,None
-dreams-and-nightmares-case,rare-special,falchion-knife-gamma-doppler-phase-4,★ Falchion Knife | Gamma Doppler (Phase 4),knife,None,None
-dreams-and-nightmares-case,rare-special,falchion-knife-gamma-doppler-emerald,★ Falchion Knife | Gamma Doppler (Emerald),knife,None,None
 dreams-and-nightmares-case,rare-special,huntsman-knife-lore,★ Huntsman Knife | Lore,knife,None,None
 dreams-and-nightmares-case,rare-special,huntsman-knife-autotronic,★ Huntsman Knife | Autotronic,knife,None,None
-dreams-and-nightmares-case,rare-special,huntsman-knife-black-laminate,★ Huntsman Knife | Black Laminate,knife,None,None
 dreams-and-nightmares-case,rare-special,huntsman-knife-freehand,★ Huntsman Knife | Freehand,knife,None,None
-dreams-and-nightmares-case,rare-special,huntsman-knife-bright-water,★ Huntsman Knife | Bright Water,knife,None,None
-dreams-and-nightmares-case,rare-special,huntsman-knife-gamma-doppler-phase-2,★ Huntsman Knife | Gamma Doppler (Phase 2),knife,None,None
-dreams-and-nightmares-case,rare-special,huntsman-knife-gamma-doppler-phase-3,★ Huntsman Knife | Gamma Doppler (Phase 3),knife,None,None
-dreams-and-nightmares-case,rare-special,huntsman-knife-gamma-doppler-phase-4,★ Huntsman Knife | Gamma Doppler (Phase 4),knife,None,None
-dreams-and-nightmares-case,rare-special,huntsman-knife-gamma-doppler-emerald,★ Huntsman Knife | Gamma Doppler (Emerald),knife,None,None
 dreams-and-nightmares-case,rare-special,shadow-daggers-lore,★ Shadow Daggers | Lore,knife,None,None
 dreams-and-nightmares-case,rare-special,shadow-daggers-autotronic,★ Shadow Daggers | Autotronic,knife,None,None
-dreams-and-nightmares-case,rare-special,shadow-daggers-black-laminate,★ Shadow Daggers | Black Laminate,knife,None,None
 dreams-and-nightmares-case,rare-special,shadow-daggers-freehand,★ Shadow Daggers | Freehand,knife,None,None
-dreams-and-nightmares-case,rare-special,shadow-daggers-bright-water,★ Shadow Daggers | Bright Water,knife,None,None
-dreams-and-nightmares-case,rare-special,shadow-daggers-gamma-doppler-phase-2,★ Shadow Daggers | Gamma Doppler (Phase 2),knife,None,None
-dreams-and-nightmares-case,rare-special,shadow-daggers-gamma-doppler-phase-3,★ Shadow Daggers | Gamma Doppler (Phase 3),knife,None,None
-dreams-and-nightmares-case,rare-special,shadow-daggers-gamma-doppler-phase-4,★ Shadow Daggers | Gamma Doppler (Phase 4),knife,None,None
-dreams-and-nightmares-case,rare-special,shadow-daggers-gamma-doppler-emerald,★ Shadow Daggers | Gamma Doppler (Emerald),knife,None,None
 ems-one-2014-souvenir-package,industrial,souvenir-usp-s-groundwater,Souvenir USP-S | Groundwater,pistol,None,None
-esports-2013-case,rare-special,bayonet-vanilla,★ Bayonet | Vanilla,knife,None,None
-esports-2013-case,rare-special,flip-knife-vanilla,★ Flip Knife | Vanilla,knife,None,None
-esports-2013-case,rare-special,gut-knife-vanilla,★ Gut Knife | Vanilla,knife,None,None
-esports-2013-case,rare-special,karambit-vanilla,★ Karambit | Vanilla,knife,None,None
-esports-2013-case,rare-special,karambit-forest-ddpat,★ Karambit | Forest DDPAT,knife,None,None
-esports-2013-case,rare-special,m9-bayonet-vanilla,★ M9 Bayonet | Vanilla,knife,None,None
 esports-2013-case,rare-special,m9-bayonet-fade,★ M9 Bayonet | Fade,knife,None,None
 esports-2013-case,rare-special,m9-bayonet-slaughter,★ M9 Bayonet | Slaughter,knife,None,None
-esports-2013-case,rare-special,m9-bayonet-case-hardened,★ M9 Bayonet | Case Hardened,knife,None,None
-esports-2013-case,rare-special,m9-bayonet-crimson-web,★ M9 Bayonet | Crimson Web,knife,None,None
-esports-2013-case,rare-special,m9-bayonet-blue-steel,★ M9 Bayonet | Blue Steel,knife,None,None
 esports-2013-case,rare-special,m9-bayonet-stained,★ M9 Bayonet | Stained,knife,None,None
 esports-2013-case,rare-special,m9-bayonet-night,★ M9 Bayonet | Night,knife,None,None
-esports-2013-case,rare-special,m9-bayonet-urban-masked,★ M9 Bayonet | Urban Masked,knife,None,None
 esports-2013-case,rare-special,m9-bayonet-scorched,★ M9 Bayonet | Scorched,knife,None,None
-esports-2013-case,rare-special,m9-bayonet-safari-mesh,★ M9 Bayonet | Safari Mesh,knife,None,None
-esports-2013-case,rare-special,m9-bayonet-boreal-forest,★ M9 Bayonet | Boreal Forest,knife,None,None
-esports-2013-case,rare-special,m9-bayonet-forest-ddpat,★ M9 Bayonet | Forest DDPAT,knife,None,None
-esports-2013-winter-case,Rare Special Item,bayonet-vanilla,★ Bayonet | Vanilla,knife,None,None
-esports-2013-winter-case,Rare Special Item,flip-knife-vanilla,★ Flip Knife | Vanilla,knife,None,None
-esports-2013-winter-case,Rare Special Item,gut-knife-vanilla,★ Gut Knife | Vanilla,knife,None,None
-esports-2013-winter-case,Rare Special Item,karambit-forest-ddpat,★ Karambit | Forest DDPAT,knife,None,None
-esports-2013-winter-case,Rare Special Item,karambit-vanilla,★ Karambit | Vanilla,knife,None,None
-esports-2013-winter-case,Rare Special Item,m9-bayonet-blue-steel,★ M9 Bayonet | Blue Steel,knife,None,None
-esports-2013-winter-case,Rare Special Item,m9-bayonet-boreal-forest,★ M9 Bayonet | Boreal Forest,knife,None,None
-esports-2013-winter-case,Rare Special Item,m9-bayonet-case-hardened,★ M9 Bayonet | Case Hardened,knife,None,None
-esports-2013-winter-case,Rare Special Item,m9-bayonet-crimson-web,★ M9 Bayonet | Crimson Web,knife,None,None
 esports-2013-winter-case,Rare Special Item,m9-bayonet-fade,★ M9 Bayonet | Fade,knife,None,None
-esports-2013-winter-case,Rare Special Item,m9-bayonet-forest-ddpat,★ M9 Bayonet | Forest DDPAT,knife,None,None
 esports-2013-winter-case,Rare Special Item,m9-bayonet-night,★ M9 Bayonet | Night,knife,None,None
-esports-2013-winter-case,Rare Special Item,m9-bayonet-safari-mesh,★ M9 Bayonet | Safari Mesh,knife,None,None
 esports-2013-winter-case,Rare Special Item,m9-bayonet-scorched,★ M9 Bayonet | Scorched,knife,None,None
 esports-2013-winter-case,Rare Special Item,m9-bayonet-slaughter,★ M9 Bayonet | Slaughter,knife,None,None
 esports-2013-winter-case,Rare Special Item,m9-bayonet-stained,★ M9 Bayonet | Stained,knife,None,None
-esports-2013-winter-case,Rare Special Item,m9-bayonet-urban-masked,★ M9 Bayonet | Urban Masked,knife,None,None
-esports-2013-winter-case,Rare Special Item,m9-bayonet-vanilla,★ M9 Bayonet | Vanilla,knife,None,None
-esports-2014-summer-case,rare-special,bayonet-vanilla,★ Bayonet | Vanilla,knife,None,None
-esports-2014-summer-case,rare-special,flip-knife-vanilla,★ Flip Knife | Vanilla,knife,None,None
-esports-2014-summer-case,rare-special,gut-knife-vanilla,★ Gut Knife | Vanilla,knife,None,None
-esports-2014-summer-case,rare-special,karambit-forest-ddpat,★ Karambit | Forest DDPAT,knife,None,None
-esports-2014-summer-case,rare-special,karambit-vanilla,★ Karambit | Vanilla,knife,None,None
-esports-2014-summer-case,rare-special,m9-bayonet-blue-steel,★ M9 Bayonet | Blue Steel,knife,None,None
-esports-2014-summer-case,rare-special,m9-bayonet-boreal-forest,★ M9 Bayonet | Boreal Forest,knife,None,None
-esports-2014-summer-case,rare-special,m9-bayonet-case-hardened,★ M9 Bayonet | Case Hardened,knife,None,None
-esports-2014-summer-case,rare-special,m9-bayonet-crimson-web,★ M9 Bayonet | Crimson Web,knife,None,None
 esports-2014-summer-case,rare-special,m9-bayonet-fade,★ M9 Bayonet | Fade,knife,None,None
-esports-2014-summer-case,rare-special,m9-bayonet-forest-ddpat,★ M9 Bayonet | Forest DDPAT,knife,None,None
 esports-2014-summer-case,rare-special,m9-bayonet-night,★ M9 Bayonet | Night,knife,None,None
-esports-2014-summer-case,rare-special,m9-bayonet-safari-mesh,★ M9 Bayonet | Safari Mesh,knife,None,None
 esports-2014-summer-case,rare-special,m9-bayonet-scorched,★ M9 Bayonet | Scorched,knife,None,None
 esports-2014-summer-case,rare-special,m9-bayonet-slaughter,★ M9 Bayonet | Slaughter,knife,None,None
 esports-2014-summer-case,rare-special,m9-bayonet-stained,★ M9 Bayonet | Stained,knife,None,None
-esports-2014-summer-case,rare-special,m9-bayonet-urban-masked,★ M9 Bayonet | Urban Masked,knife,None,None
-esports-2014-summer-case,rare-special,m9-bayonet-vanilla,★ M9 Bayonet | Vanilla,knife,None,None
-falchion-case,rare-special,falchion-knife-vanilla,Falchion Knife | Vanilla,knife,None,None
-fever-case,Mil-Spec,xm1014-mockingbird-none,XM1014 | Mockingbird,weapon,None,None
-fever-case,Mil-Spec,usp-s-pc-grn-none,USP-S | PC-GRN,weapon,None,None
-fever-case,Mil-Spec,ssg-08-memorial-none,SSG 08 | Memorial,weapon,None,None
-fever-case,Mil-Spec,p2000-sure-grip-none,P2000 | Sure Grip,weapon,None,None
-fever-case,Mil-Spec,mp9-nexus-none,MP9 | Nexus,weapon,None,None
-fever-case,Mil-Spec,mag-7-resupply-none,MAG-7 | Resupply,weapon,None,None
-fever-case,Mil-Spec,m4a4-choppa-none,M4A4 | Choppa,weapon,None,None
-fever-case,Restricted,zeus-x27-tosai-none,Zeus x27 | Tosai,weapon,None,None
-fever-case,Restricted,p90-wave-breaker-none,P90 | Wave Breaker,weapon,None,None
-fever-case,Restricted,nova-rising-sun-none,Nova | Rising Sun,weapon,None,None
-fever-case,Restricted,galil-ar-control-none,Galil AR | Control,weapon,None,None
-fever-case,Restricted,desert-eagle-serpent-strike-none,Desert Eagle | Serpent Strike,weapon,None,None
-fever-case,Classified,ump-45-k-o-factory-none,UMP-45 | K.O. Factory,weapon,None,None
-fever-case,Classified,glock-18-shinobu-none,Glock-18 | Shinobu,weapon,None,None
-fever-case,Classified,ak-47-searing-rage-none,AK-47 | Searing Rage,weapon,None,None
-fever-case,Covert,awp-printstream-none,AWP | Printstream,weapon,None,None
-fever-case,Covert,famas-bad-trip-none,FAMAS | Bad Trip,weapon,None,None
-fever-case,Covert Knife,nomad-knife-damascus-steel-none,★ Nomad Knife | Damascus Steel,knife,None,None
-fever-case,Covert Knife,nomad-knife-marble-fade-none,★ Nomad Knife | Marble Fade,knife,None,None
-fever-case,Covert Knife,nomad-knife-tiger-tooth-none,★ Nomad Knife | Tiger Tooth,knife,None,None
-fever-case,Covert Knife,nomad-knife-ultraviolet-none,★ Nomad Knife | Ultraviolet,knife,None,None
-fever-case,Covert Knife,nomad-knife-rust-coat-none,★ Nomad Knife | Rust Coat,knife,None,None
-fever-case,Covert Knife,nomad-knife-doppler-none,★ Nomad Knife | Doppler,knife,None,None
-fever-case,Covert Knife,nomad-knife-doppler-phase-1,★ Nomad Knife | Doppler (Phase 1),knife,None,None
-fever-case,Covert Knife,nomad-knife-doppler-phase-2,★ Nomad Knife | Doppler (Phase 2),knife,None,None
-fever-case,Covert Knife,nomad-knife-doppler-phase-3,★ Nomad Knife | Doppler (Phase 3),knife,None,None
-fever-case,Covert Knife,nomad-knife-doppler-phase-4,★ Nomad Knife | Doppler (Phase 4),knife,None,None
-fever-case,Covert Knife,nomad-knife-doppler-ruby,★ Nomad Knife | Doppler (Ruby),knife,None,None
-fever-case,Covert Knife,nomad-knife-doppler-sapphire,★ Nomad Knife | Doppler (Sapphire),knife,None,None
-fever-case,Covert Knife,nomad-knife-doppler-black-pearl,★ Nomad Knife | Doppler (Black Pearl),knife,None,None
-fever-case,Covert Knife,paracord-knife-damascus-steel-none,★ Paracord Knife | Damascus Steel,knife,None,None
-fever-case,Covert Knife,paracord-knife-marble-fade-none,★ Paracord Knife | Marble Fade,knife,None,None
-fever-case,Covert Knife,paracord-knife-tiger-tooth-none,★ Paracord Knife | Tiger Tooth,knife,None,None
-fever-case,Covert Knife,paracord-knife-ultraviolet-none,★ Paracord Knife | Ultraviolet,knife,None,None
-fever-case,Covert Knife,paracord-knife-rust-coat-none,★ Paracord Knife | Rust Coat,knife,None,None
-fever-case,Covert Knife,paracord-knife-doppler-none,★ Paracord Knife | Doppler,knife,None,None
-fever-case,Covert Knife,paracord-knife-doppler-phase-1,★ Paracord Knife | Doppler (Phase 1),knife,None,None
-fever-case,Covert Knife,paracord-knife-doppler-phase-2,★ Paracord Knife | Doppler (Phase 2),knife,None,None
-fever-case,Covert Knife,paracord-knife-doppler-phase-3,★ Paracord Knife | Doppler (Phase 3),knife,None,None
-fever-case,Covert Knife,paracord-knife-doppler-phase-4,★ Paracord Knife | Doppler (Phase 4),knife,None,None
-fever-case,Covert Knife,paracord-knife-doppler-ruby,★ Paracord Knife | Doppler (Ruby),knife,None,None
-fever-case,Covert Knife,paracord-knife-doppler-sapphire,★ Paracord Knife | Doppler (Sapphire),knife,None,None
-fever-case,Covert Knife,paracord-knife-doppler-black-pearl,★ Paracord Knife | Doppler (Black Pearl),knife,None,None
-fever-case,Covert Knife,skeleton-knife-damascus-steel-none,★ Skeleton Knife | Damascus Steel,knife,None,None
-fever-case,Covert Knife,skeleton-knife-marble-fade-none,★ Skeleton Knife | Marble Fade,knife,None,None
-fever-case,Covert Knife,skeleton-knife-tiger-tooth-none,★ Skeleton Knife | Tiger Tooth,knife,None,None
-fever-case,Covert Knife,skeleton-knife-ultraviolet-none,★ Skeleton Knife | Ultraviolet,knife,None,None
-fever-case,Covert Knife,skeleton-knife-rust-coat-none,★ Skeleton Knife | Rust Coat,knife,None,None
-fever-case,Covert Knife,skeleton-knife-doppler-none,★ Skeleton Knife | Doppler,knife,None,None
-fever-case,Covert Knife,skeleton-knife-doppler-phase-1,★ Skeleton Knife | Doppler (Phase 1),knife,None,None
-fever-case,Covert Knife,skeleton-knife-doppler-phase-2,★ Skeleton Knife | Doppler (Phase 2),knife,None,None
-fever-case,Covert Knife,skeleton-knife-doppler-phase-3,★ Skeleton Knife | Doppler (Phase 3),knife,None,None
-fever-case,Covert Knife,skeleton-knife-doppler-phase-4,★ Skeleton Knife | Doppler (Phase 4),knife,None,None
-fever-case,Covert Knife,skeleton-knife-doppler-ruby,★ Skeleton Knife | Doppler (Ruby),knife,None,None
-fever-case,Covert Knife,skeleton-knife-doppler-sapphire,★ Skeleton Knife | Doppler (Sapphire),knife,None,None
-fever-case,Covert Knife,skeleton-knife-doppler-black-pearl,★ Skeleton Knife | Doppler (Black Pearl),knife,None,None
-fever-case,Covert Knife,survival-knife-damascus-steel-none,★ Survival Knife | Damascus Steel,knife,None,None
-fever-case,Covert Knife,survival-knife-marble-fade-none,★ Survival Knife | Marble Fade,knife,None,None
-fever-case,Covert Knife,survival-knife-tiger-tooth-none,★ Survival Knife | Tiger Tooth,knife,None,None
-fever-case,Covert Knife,survival-knife-ultraviolet-none,★ Survival Knife | Ultraviolet,knife,None,None
-fever-case,Covert Knife,survival-knife-rust-coat-none,★ Survival Knife | Rust Coat,knife,None,None
-fever-case,Covert Knife,survival-knife-doppler-none,★ Survival Knife | Doppler,knife,None,None
-fever-case,Covert Knife,survival-knife-doppler-phase-1,★ Survival Knife | Doppler (Phase 1),knife,None,None
-fever-case,Covert Knife,survival-knife-doppler-phase-2,★ Survival Knife | Doppler (Phase 2),knife,None,None
-fever-case,Covert Knife,survival-knife-doppler-phase-3,★ Survival Knife | Doppler (Phase 3),knife,None,None
-fever-case,Covert Knife,survival-knife-doppler-phase-4,★ Survival Knife | Doppler (Phase 4),knife,None,None
-fever-case,Covert Knife,survival-knife-doppler-ruby,★ Survival Knife | Doppler (Ruby),knife,None,None
-fever-case,Covert Knife,survival-knife-doppler-sapphire,★ Survival Knife | Doppler (Sapphire),knife,None,None
-fever-case,Covert Knife,survival-knife-doppler-black-pearl,★ Survival Knife | Doppler (Black Pearl),knife,None,None
-fracture-case,rare-special,nomad-knife-vanilla,★ Nomad Knife | Vanilla,knife,None,None
-fracture-case,rare-special,skeleton-knife-vanilla,★ Skeleton Knife | Vanilla,knife,None,None
-fracture-case,rare-special,paracord-knife-vanilla,★ Paracord Knife | Vanilla,knife,None,None
-fracture-case,rare-special,survival-knife-vanilla,★ Survival Knife | Vanilla,knife,None,None
-fracture-case,rare-special,survival-knife-safari-mesh,★ Survival Knife | Safari Mesh,knife,None,None
-gallery-case,blue,usp-s-27,USP-S | 27,weapon_skin,None,None
-gallery-case,blue,desert-eagle-calligraffiti,Desert Eagle | Calligraffiti,weapon_skin,None,None
-gallery-case,blue,mp5-sd-statics,MP5-SD | Statics,weapon_skin,None,None
-gallery-case,blue,aug-luxe-trim,AUG | Luxe Trim,weapon_skin,None,None
-gallery-case,blue,m249-hypnosis,M249 | Hypnosis,weapon_skin,None,None
-gallery-case,blue,r8-revolver-tango,R8 Revolver | Tango,weapon_skin,None,None
-gallery-case,blue,scar-20-trail-blazer,SCAR-20 | Trail Blazer,weapon_skin,None,None
-gallery-case,purple,m4a4-turbine,M4A4 | Turbine,weapon_skin,None,None
-gallery-case,purple,dual-berettas-hydro-strike,Dual Berettas | Hydro Strike,weapon_skin,None,None
-gallery-case,purple,mac-10-saiba-oni,MAC-10 | Saibā Oni,weapon_skin,None,None
-gallery-case,purple,p90-randy-rush,P90 | Randy Rush,weapon_skin,None,None
-gallery-case,purple,ssg-08-rapid-transit,SSG 08 | Rapid Transit,weapon_skin,None,None
-gallery-case,pink,ak-47-the-outsiders,AK-47 | The Outsiders,weapon_skin,None,None
-gallery-case,pink,p250-epicenter,P250 | Epicenter,weapon_skin,None,None
-gallery-case,pink,ump-45-neo-noir,UMP-45 | Neo-Noir,weapon_skin,None,None
-gallery-case,red,glock-18-gold-toof,Glock-18 | Gold Toof,weapon_skin,None,None
-gallery-case,red,m4a1-s-vaporwave,M4A1-S | Vaporwave,weapon_skin,None,None
-gallery-case,gold,kukri-knife-crimson-web,★ Kukri Knife | Crimson Web,knife,None,None
-gallery-case,gold,kukri-knife-fade,★ Kukri Knife | Fade,knife,None,None
-gallery-case,gold,kukri-knife-slaughter,★ Kukri Knife | Slaughter,knife,None,None
-gallery-case,gold,kukri-knife-case-hardened,★ Kukri Knife | Case Hardened,knife,None,None
-gallery-case,gold,kukri-knife-blue-steel,★ Kukri Knife | Blue Steel,knife,None,None
-gallery-case,gold,kukri-knife-stained,★ Kukri Knife | Stained,knife,None,None
-gallery-case,gold,kukri-knife-vanilla,★ Kukri Knife | Vanilla,knife,None,None
-gallery-case,gold,kukri-knife-urban-masked,★ Kukri Knife | Urban Masked,knife,None,None
-gallery-case,gold,kukri-knife-night-stripe,★ Kukri Knife | Night Stripe,knife,None,None
-gallery-case,gold,kukri-knife-scorched,★ Kukri Knife | Scorched,knife,None,None
-gallery-case,gold,kukri-knife-forest-ddpat,★ Kukri Knife | Forest DDPAT,knife,None,None
-gallery-case,gold,kukri-knife-boreal-forest,★ Kukri Knife | Boreal Forest,knife,None,None
-gallery-case,gold,kukri-knife-safari-mesh,★ Kukri Knife | Safari Mesh,knife,None,None
-gamma-2-case,rare-special,bayonet-gamma-doppler-phase-2,★ Bayonet | Gamma Doppler (Phase 2),knife,None,None
-gamma-2-case,rare-special,bayonet-gamma-doppler-phase-3,★ Bayonet | Gamma Doppler (Phase 3),knife,None,None
-gamma-2-case,rare-special,bayonet-gamma-doppler-phase-4,★ Bayonet | Gamma Doppler (Phase 4),knife,None,None
-gamma-2-case,rare-special,bayonet-gamma-doppler-emerald,★ Bayonet | Gamma Doppler (Emerald),knife,None,None
-gamma-2-case,rare-special,flip-knife-gamma-doppler-phase-2,★ Flip Knife | Gamma Doppler (Phase 2),knife,None,None
-gamma-2-case,rare-special,flip-knife-gamma-doppler-phase-3,★ Flip Knife | Gamma Doppler (Phase 3),knife,None,None
-gamma-2-case,rare-special,flip-knife-gamma-doppler-phase-4,★ Flip Knife | Gamma Doppler (Phase 4),knife,None,None
-gamma-2-case,rare-special,flip-knife-gamma-doppler-emerald,★ Flip Knife | Gamma Doppler (Emerald),knife,None,None
-gamma-2-case,rare-special,gut-knife-gamma-doppler-phase-2,★ Gut Knife | Gamma Doppler (Phase 2),knife,None,None
-gamma-2-case,rare-special,gut-knife-gamma-doppler-phase-3,★ Gut Knife | Gamma Doppler (Phase 3),knife,None,None
-gamma-2-case,rare-special,gut-knife-gamma-doppler-phase-4,★ Gut Knife | Gamma Doppler (Phase 4),knife,None,None
-gamma-2-case,rare-special,gut-knife-gamma-doppler-emerald,★ Gut Knife | Gamma Doppler (Emerald),knife,None,None
-gamma-2-case,rare-special,karambit-gamma-doppler-phase-2,★ Karambit | Gamma Doppler (Phase 2),knife,None,None
-gamma-2-case,rare-special,karambit-gamma-doppler-phase-3,★ Karambit | Gamma Doppler (Phase 3),knife,None,None
-gamma-2-case,rare-special,karambit-gamma-doppler-phase-4,★ Karambit | Gamma Doppler (Phase 4),knife,None,None
-gamma-2-case,rare-special,karambit-gamma-doppler-emerald,★ Karambit | Gamma Doppler (Emerald),knife,None,None
-gamma-2-case,rare-special,m9-bayonet-gamma-doppler-phase-2,★ M9 Bayonet | Gamma Doppler (Phase 2),knife,None,None
-gamma-2-case,rare-special,m9-bayonet-gamma-doppler-phase-3,★ M9 Bayonet | Gamma Doppler (Phase 3),knife,None,None
-gamma-2-case,rare-special,m9-bayonet-gamma-doppler-phase-4,★ M9 Bayonet | Gamma Doppler (Phase 4),knife,None,None
-gamma-2-case,rare-special,m9-bayonet-gamma-doppler-emerald,★ M9 Bayonet | Gamma Doppler (Emerald),knife,None,None
-gamma-case,extraordinary,bayonet-gamma-doppler-phase-2,★ Bayonet | Gamma Doppler (Phase 2),knife,None,None
-gamma-case,extraordinary,bayonet-gamma-doppler-phase-3,★ Bayonet | Gamma Doppler (Phase 3),knife,None,None
-gamma-case,extraordinary,bayonet-gamma-doppler-phase-4,★ Bayonet | Gamma Doppler (Phase 4),knife,None,None
-gamma-case,extraordinary,bayonet-gamma-doppler-emerald,★ Bayonet | Gamma Doppler (Emerald),knife,None,None
-gamma-case,extraordinary,flip-knife-gamma-doppler-phase-2,★ Flip Knife | Gamma Doppler (Phase 2),knife,None,None
-gamma-case,extraordinary,flip-knife-gamma-doppler-phase-3,★ Flip Knife | Gamma Doppler (Phase 3),knife,None,None
-gamma-case,extraordinary,flip-knife-gamma-doppler-phase-4,★ Flip Knife | Gamma Doppler (Phase 4),knife,None,None
-gamma-case,extraordinary,flip-knife-gamma-doppler-emerald,★ Flip Knife | Gamma Doppler (Emerald),knife,None,None
-gamma-case,extraordinary,gut-knife-gamma-doppler-phase-2,★ Gut Knife | Gamma Doppler (Phase 2),knife,None,None
-gamma-case,extraordinary,gut-knife-gamma-doppler-phase-3,★ Gut Knife | Gamma Doppler (Phase 3),knife,None,None
-gamma-case,extraordinary,gut-knife-gamma-doppler-phase-4,★ Gut Knife | Gamma Doppler (Phase 4),knife,None,None
-gamma-case,extraordinary,gut-knife-gamma-doppler-emerald,★ Gut Knife | Gamma Doppler (Emerald),knife,None,None
-gamma-case,extraordinary,karambit-gamma-doppler-phase-2,★ Karambit | Gamma Doppler (Phase 2),knife,None,None
-gamma-case,extraordinary,karambit-gamma-doppler-phase-3,★ Karambit | Gamma Doppler (Phase 3),knife,None,None
-gamma-case,extraordinary,karambit-gamma-doppler-phase-4,★ Karambit | Gamma Doppler (Phase 4),knife,None,None
-gamma-case,extraordinary,karambit-gamma-doppler-emerald,★ Karambit | Gamma Doppler (Emerald),knife,None,None
-gamma-case,extraordinary,m9-bayonet-gamma-doppler-phase-2,★ M9 Bayonet | Gamma Doppler (Phase 2),knife,None,None
-gamma-case,extraordinary,m9-bayonet-gamma-doppler-phase-3,★ M9 Bayonet | Gamma Doppler (Phase 3),knife,None,None
-gamma-case,extraordinary,m9-bayonet-gamma-doppler-phase-4,★ M9 Bayonet | Gamma Doppler (Phase 4),knife,None,None
-gamma-case,extraordinary,m9-bayonet-gamma-doppler-emerald,★ M9 Bayonet | Gamma Doppler (Emerald),knife,None,None
 glove-case,extraordinary,sport-gloves-arid,Sport Gloves | Arid,glove,None,None
-horizon-case,Extraordinary,ursus-knife-forest-ddpat,★ Ursus Knife | Forest DDPAT,knife,None,None
 horizon-case,Extraordinary,ursus-knife-scorched,★ Ursus Knife | Scorched,knife,None,None
-huntsman-weapon-case,rare-special,huntsman-knife-vanilla,Huntsman Knife | Vanilla,knife,None,None
-kilowatt-case,mil-spec,mac-10-light-box,MAC-10 | Light Box,smg,None,None
-kilowatt-case,mil-spec,ssg-08-dezastre,SSG 08 | Dezastre,weapon,None,None
-kilowatt-case,mil-spec,dual-berettas-hideout,Dual Berettas | Hideout,pistol,None,None
-kilowatt-case,mil-spec,ump-45-motorized,UMP-45 | Motorized,smg,None,None
-kilowatt-case,mil-spec,nova-dark-sigil,Nova | Dark Sigil,shotgun,None,None
-kilowatt-case,mil-spec,xm1014-irezumi,XM1014 | Irezumi,shotgun,None,None
-kilowatt-case,mil-spec,tec-9-slag,Tec-9 | Slag,pistol,None,None
-kilowatt-case,restricted,glock-18-block-18,Glock-18 | Block-18,pistol,None,None
-kilowatt-case,restricted,m4a4-etch-lord,M4A4 | Etch Lord,rifle,None,None
-kilowatt-case,restricted,sawed-off-analog-input,Sawed-Off | Analog Input,shotgun,None,None
-kilowatt-case,restricted,mp7-just-smile,MP7 | Just Smile,smg,None,None
-kilowatt-case,restricted,five-seven-hybrid,Five-SeveN | Hybrid,pistol,None,None
-kilowatt-case,classified,m4a1-s-black-lotus,M4A1-S | Black Lotus,rifle,None,None
-kilowatt-case,classified,usp-s-jawbreaker,USP-S | Jawbreaker,pistol,None,None
-kilowatt-case,classified,zeus-x27-olympus,Zeus x27 | Olympus,pistol,None,None
-kilowatt-case,covert,ak-47-inheritance,AK-47 | Inheritance,rifle,None,None
-kilowatt-case,covert,awp-chrome-cannon,AWP | Chrome Cannon,weapon,None,None
-kilowatt-case,rare-special,kukri-knife-fade,Kukri Knife | Fade,knife,None,None
-kilowatt-case,rare-special,kukri-knife-case-hardened,Kukri Knife | Case Hardened,knife,None,None
-kilowatt-case,rare-special,kukri-knife-slaughter,Kukri Knife | Slaughter,knife,None,None
-kilowatt-case,rare-special,kukri-knife-crimson-web,Kukri Knife | Crimson Web,knife,None,None
-kilowatt-case,rare-special,kukri-knife-stained,Kukri Knife | Stained,knife,None,None
-kilowatt-case,rare-special,kukri-knife-urban-masked,Kukri Knife | Urban Masked,knife,None,None
-kilowatt-case,rare-special,kukri-knife-scorched,Kukri Knife | Scorched,knife,None,None
-kilowatt-case,rare-special,kukri-knife-night-stripe,Kukri Knife | Night Stripe,knife,None,None
-kilowatt-case,rare-special,kukri-knife-boreal-forest,Kukri Knife | Boreal Forest,knife,None,None
-kilowatt-case,rare-special,kukri-knife-blue-steel,Kukri Knife | Blue Steel,knife,None,None
-kilowatt-case,rare-special,kukri-knife-forest-ddpat,Kukri Knife | Forest DDPAT,knife,None,None
-kilowatt-case,rare-special,kukri-knife-safari-mesh,Kukri Knife | Safari Mesh,knife,None,None
-kilowatt-case,rare-special,kukri-knife-vanilla,Kukri Knife | Vanilla,knife,None,None
 operation-bravo-case,extraordinary,karambit-fade,★ Karambit | Fade,knife,None,None
-operation-bravo-case,extraordinary,karambit-forest-ddpat,★ Karambit | Forest DDPAT,knife,None,None
-operation-bravo-case,extraordinary,m9-bayonet-vanilla,★ M9 Bayonet,knife,None,None
-operation-bravo-case,extraordinary,m9-bayonet-blue-steel,★ M9 Bayonet | Blue Steel,knife,None,None
-operation-bravo-case,extraordinary,m9-bayonet-boreal-forest,★ M9 Bayonet | Boreal Forest,knife,None,None
-operation-bravo-case,extraordinary,m9-bayonet-case-hardened,★ M9 Bayonet | Case Hardened,knife,None,None
-operation-bravo-case,extraordinary,m9-bayonet-crimson-web,★ M9 Bayonet | Crimson Web,knife,None,None
 operation-bravo-case,extraordinary,m9-bayonet-fade,★ M9 Bayonet | Fade,knife,None,None
-operation-bravo-case,extraordinary,m9-bayonet-forest-ddpat,★ M9 Bayonet | Forest DDPAT,knife,None,None
 operation-bravo-case,extraordinary,m9-bayonet-night,★ M9 Bayonet | Night,knife,None,None
-operation-bravo-case,extraordinary,m9-bayonet-safari-mesh,★ M9 Bayonet | Safari Mesh,knife,None,None
 operation-bravo-case,extraordinary,m9-bayonet-scorched,★ M9 Bayonet | Scorched,knife,None,None
 operation-bravo-case,extraordinary,m9-bayonet-slaughter,★ M9 Bayonet | Slaughter,knife,None,None
 operation-bravo-case,extraordinary,m9-bayonet-stained,★ M9 Bayonet | Stained,knife,None,None
-operation-bravo-case,extraordinary,m9-bayonet-urban-masked,★ M9 Bayonet | Urban Masked,knife,None,None
-operation-broken-fang-case,Extraordinary,hand-wraps-desert-shamagh,★ Hand Wraps | Desert Shamagh,glove,None,None
 operation-hydra-case,extraordinary,sport-gloves-arid,Sport Gloves | Arid,glove,None,None
-operation-hydra-case,extraordinary,hand-wraps-spruce-ddpat,Hand Wraps | Spruce DDPAT,glove,None,None
 operation-phoenix-weapon-case,rare-special,karambit-fade,★ Karambit | Fade,knife,None,None
-operation-phoenix-weapon-case,rare-special,karambit-forest-ddpat,★ Karambit | Forest DDPAT,knife,None,None
-operation-phoenix-weapon-case,rare-special,m9-bayonet-vanilla,★ M9 Bayonet,knife,None,None
-operation-phoenix-weapon-case,rare-special,m9-bayonet-blue-steel,★ M9 Bayonet | Blue Steel,knife,None,None
-operation-phoenix-weapon-case,rare-special,m9-bayonet-boreal-forest,★ M9 Bayonet | Boreal Forest,knife,None,None
-operation-phoenix-weapon-case,rare-special,m9-bayonet-case-hardened,★ M9 Bayonet | Case Hardened,knife,None,None
-operation-phoenix-weapon-case,rare-special,m9-bayonet-crimson-web,★ M9 Bayonet | Crimson Web,knife,None,None
 operation-phoenix-weapon-case,rare-special,m9-bayonet-fade,★ M9 Bayonet | Fade,knife,None,None
-operation-phoenix-weapon-case,rare-special,m9-bayonet-forest-ddpat,★ M9 Bayonet | Forest DDPAT,knife,None,None
 operation-phoenix-weapon-case,rare-special,m9-bayonet-night,★ M9 Bayonet | Night,knife,None,None
-operation-phoenix-weapon-case,rare-special,m9-bayonet-safari-mesh,★ M9 Bayonet | Safari Mesh,knife,None,None
 operation-phoenix-weapon-case,rare-special,m9-bayonet-scorched,★ M9 Bayonet | Scorched,knife,None,None
 operation-phoenix-weapon-case,rare-special,m9-bayonet-slaughter,★ M9 Bayonet | Slaughter,knife,None,None
 operation-phoenix-weapon-case,rare-special,m9-bayonet-stained,★ M9 Bayonet | Stained,knife,None,None
-operation-phoenix-weapon-case,rare-special,m9-bayonet-urban-masked,★ M9 Bayonet | Urban Masked,knife,None,None
 operation-riptide-case,rare_special,butterfly-knife-autotronic,Butterfly Knife | Autotronic,knife,None,None
-operation-riptide-case,rare_special,butterfly-knife-black-laminate,Butterfly Knife | Black Laminate,knife,None,None
-operation-riptide-case,rare_special,butterfly-knife-bright-water,Butterfly Knife | Bright Water,knife,None,None
 operation-riptide-case,rare_special,butterfly-knife-freehand,Butterfly Knife | Freehand,knife,None,None
 operation-riptide-case,rare_special,butterfly-knife-lore,Butterfly Knife | Lore,knife,None,None
-operation-riptide-case,rare_special,butterfly-knife-gamma-doppler-phase-2,Butterfly Knife | Gamma Doppler (Phase 2),knife,None,None
-operation-riptide-case,rare_special,butterfly-knife-gamma-doppler-phase-3,Butterfly Knife | Gamma Doppler (Phase 3),knife,None,None
-operation-riptide-case,rare_special,butterfly-knife-gamma-doppler-phase-4,Butterfly Knife | Gamma Doppler (Phase 4),knife,None,None
-operation-riptide-case,rare_special,butterfly-knife-gamma-doppler-emerald,Butterfly Knife | Gamma Doppler (Emerald),knife,None,None
 operation-riptide-case,rare_special,huntsman-knife-autotronic,Huntsman Knife | Autotronic,knife,None,None
-operation-riptide-case,rare_special,huntsman-knife-black-laminate,Huntsman Knife | Black Laminate,knife,None,None
-operation-riptide-case,rare_special,huntsman-knife-bright-water,Huntsman Knife | Bright Water,knife,None,None
 operation-riptide-case,rare_special,huntsman-knife-freehand,Huntsman Knife | Freehand,knife,None,None
 operation-riptide-case,rare_special,huntsman-knife-lore,Huntsman Knife | Lore,knife,None,None
-operation-riptide-case,rare_special,huntsman-knife-gamma-doppler-phase-2,Huntsman Knife | Gamma Doppler (Phase 2),knife,None,None
-operation-riptide-case,rare_special,huntsman-knife-gamma-doppler-phase-3,Huntsman Knife | Gamma Doppler (Phase 3),knife,None,None
-operation-riptide-case,rare_special,huntsman-knife-gamma-doppler-phase-4,Huntsman Knife | Gamma Doppler (Phase 4),knife,None,None
-operation-riptide-case,rare_special,huntsman-knife-gamma-doppler-emerald,Huntsman Knife | Gamma Doppler (Emerald),knife,None,None
 operation-riptide-case,rare_special,falchion-knife-autotronic,Falchion Knife | Autotronic,knife,None,None
-operation-riptide-case,rare_special,falchion-knife-black-laminate,Falchion Knife | Black Laminate,knife,None,None
-operation-riptide-case,rare_special,falchion-knife-bright-water,Falchion Knife | Bright Water,knife,None,None
 operation-riptide-case,rare_special,falchion-knife-freehand,Falchion Knife | Freehand,knife,None,None
 operation-riptide-case,rare_special,falchion-knife-lore,Falchion Knife | Lore,knife,None,None
-operation-riptide-case,rare_special,falchion-knife-gamma-doppler-phase-2,Falchion Knife | Gamma Doppler (Phase 2),knife,None,None
-operation-riptide-case,rare_special,falchion-knife-gamma-doppler-phase-3,Falchion Knife | Gamma Doppler (Phase 3),knife,None,None
-operation-riptide-case,rare_special,falchion-knife-gamma-doppler-phase-4,Falchion Knife | Gamma Doppler (Phase 4),knife,None,None
-operation-riptide-case,rare_special,falchion-knife-gamma-doppler-emerald,Falchion Knife | Gamma Doppler (Emerald),knife,None,None
 operation-riptide-case,rare_special,shadow-daggers-autotronic,Shadow Daggers | Autotronic,knife,None,None
-operation-riptide-case,rare_special,shadow-daggers-black-laminate,Shadow Daggers | Black Laminate,knife,None,None
-operation-riptide-case,rare_special,shadow-daggers-bright-water,Shadow Daggers | Bright Water,knife,None,None
 operation-riptide-case,rare_special,shadow-daggers-freehand,Shadow Daggers | Freehand,knife,None,None
 operation-riptide-case,rare_special,shadow-daggers-lore,Shadow Daggers | Lore,knife,None,None
-operation-riptide-case,rare_special,shadow-daggers-gamma-doppler-phase-2,Shadow Daggers | Gamma Doppler (Phase 2),knife,None,None
-operation-riptide-case,rare_special,shadow-daggers-gamma-doppler-phase-3,Shadow Daggers | Gamma Doppler (Phase 3),knife,None,None
-operation-riptide-case,rare_special,shadow-daggers-gamma-doppler-phase-4,Shadow Daggers | Gamma Doppler (Phase 4),knife,None,None
-operation-riptide-case,rare_special,shadow-daggers-gamma-doppler-emerald,Shadow Daggers | Gamma Doppler (Emerald),knife,None,None
 operation-riptide-case,rare_special,bowie-knife-autotronic,Bowie Knife | Autotronic,knife,None,None
-operation-riptide-case,rare_special,bowie-knife-black-laminate,Bowie Knife | Black Laminate,knife,None,None
-operation-riptide-case,rare_special,bowie-knife-bright-water,Bowie Knife | Bright Water,knife,None,None
 operation-riptide-case,rare_special,bowie-knife-freehand,Bowie Knife | Freehand,knife,None,None
 operation-riptide-case,rare_special,bowie-knife-lore,Bowie Knife | Lore,knife,None,None
-operation-riptide-case,rare_special,bowie-knife-gamma-doppler-phase-2,Bowie Knife | Gamma Doppler (Phase 2),knife,None,None
-operation-riptide-case,rare_special,bowie-knife-gamma-doppler-phase-3,Bowie Knife | Gamma Doppler (Phase 3),knife,None,None
-operation-riptide-case,rare_special,bowie-knife-gamma-doppler-phase-4,Bowie Knife | Gamma Doppler (Phase 4),knife,None,None
-operation-riptide-case,rare_special,bowie-knife-gamma-doppler-emerald,Bowie Knife | Gamma Doppler (Emerald),knife,None,None
-operation-shattered-web-case,Mil-Spec Grade,g3sg1-black-sand,G3SG1 | Black Sand,weapon,None,None
-operation-shattered-web-case,Mil-Spec Grade,scar-20-torn,SCAR-20 | Torn,weapon,None,None
-operation-shattered-web-case,Mil-Spec Grade,nova-plume,Nova | Plume,weapon,None,None
-operation-shattered-web-case,Mil-Spec Grade,m249-warbird,M249 | Warbird,weapon,None,None
-operation-shattered-web-case,Mil-Spec Grade,r8-revolver-memento,R8 Revolver | Memento,weapon,None,None
-operation-shattered-web-case,Mil-Spec Grade,mp5-sd-acid-wash,MP5-SD | Acid Wash,weapon,None,None
-operation-shattered-web-case,Mil-Spec Grade,dual-berettas-balance,Dual Berettas | Balance,weapon,None,None
-operation-shattered-web-case,Restricted,pp-bizon-embargo,PP-Bizon | Embargo,weapon,None,None
-operation-shattered-web-case,Restricted,mp7-neon-ply,MP7 | Neon Ply,weapon,None,None
-operation-shattered-web-case,Restricted,p2000-obsidian,P2000 | Obsidian,weapon,None,None
-operation-shattered-web-case,Restricted,aug-arctic-wolf,AUG | Arctic Wolf,weapon,None,None
-operation-shattered-web-case,Restricted,ak-47-rat-rod,AK-47 | Rat Rod,weapon,None,None
-operation-shattered-web-case,Classified,tec-9-decimator,Tec-9 | Decimator,weapon,None,None
-operation-shattered-web-case,Classified,ssg-08-bloodshot,SSG 08 | Bloodshot,weapon,None,None
-operation-shattered-web-case,Classified,sg-553-colony-iv,SG 553 | Colony IV,weapon,None,None
-operation-shattered-web-case,Covert,mac-10-stalker,MAC-10 | Stalker,weapon,None,None
-operation-shattered-web-case,Covert,awp-containment-breach,AWP | Containment Breach,weapon,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-original,★ Nomad Knife | Original,knife,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-blue-steel,★ Nomad Knife | Blue Steel,knife,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-boreal-forest,★ Nomad Knife | Boreal Forest,knife,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-case-hardened,★ Nomad Knife | Case Hardened,knife,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-crimson-web,★ Nomad Knife | Crimson Web,knife,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-fade,★ Nomad Knife | Fade,knife,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-forest-ddpat,★ Nomad Knife | Forest DDPAT,knife,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-night-stripe,★ Nomad Knife | Night Stripe,knife,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-safari-mesh,★ Nomad Knife | Safari Mesh,knife,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-scorched,★ Nomad Knife | Scorched,knife,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-slaughter,★ Nomad Knife | Slaughter,knife,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-stained,★ Nomad Knife | Stained,knife,None,None
-operation-shattered-web-case,Rare Special Item,nomad-knife-urban-masked,★ Nomad Knife | Urban Masked,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-original,★ Skeleton Knife | Original,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-blue-steel,★ Skeleton Knife | Blue Steel,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-boreal-forest,★ Skeleton Knife | Boreal Forest,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-case-hardened,★ Skeleton Knife | Case Hardened,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-crimson-web,★ Skeleton Knife | Crimson Web,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-fade,★ Skeleton Knife | Fade,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-forest-ddpat,★ Skeleton Knife | Forest DDPAT,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-night-stripe,★ Skeleton Knife | Night Stripe,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-safari-mesh,★ Skeleton Knife | Safari Mesh,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-scorched,★ Skeleton Knife | Scorched,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-slaughter,★ Skeleton Knife | Slaughter,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-stained,★ Skeleton Knife | Stained,knife,None,None
-operation-shattered-web-case,Rare Special Item,skeleton-knife-urban-masked,★ Skeleton Knife | Urban Masked,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-original,★ Paracord Knife | Original,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-blue-steel,★ Paracord Knife | Blue Steel,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-boreal-forest,★ Paracord Knife | Boreal Forest,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-case-hardened,★ Paracord Knife | Case Hardened,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-crimson-web,★ Paracord Knife | Crimson Web,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-fade,★ Paracord Knife | Fade,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-forest-ddpat,★ Paracord Knife | Forest DDPAT,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-night-stripe,★ Paracord Knife | Night Stripe,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-safari-mesh,★ Paracord Knife | Safari Mesh,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-scorched,★ Paracord Knife | Scorched,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-slaughter,★ Paracord Knife | Slaughter,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-stained,★ Paracord Knife | Stained,knife,None,None
-operation-shattered-web-case,Rare Special Item,paracord-knife-urban-masked,★ Paracord Knife | Urban Masked,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-original,★ Survival Knife | Original,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-blue-steel,★ Survival Knife | Blue Steel,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-boreal-forest,★ Survival Knife | Boreal Forest,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-case-hardened,★ Survival Knife | Case Hardened,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-crimson-web,★ Survival Knife | Crimson Web,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-fade,★ Survival Knife | Fade,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-forest-ddpat,★ Survival Knife | Forest DDPAT,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-night-stripe,★ Survival Knife | Night Stripe,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-safari-mesh,★ Survival Knife | Safari Mesh,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-scorched,★ Survival Knife | Scorched,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-slaughter,★ Survival Knife | Slaughter,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-stained,★ Survival Knife | Stained,knife,None,None
-operation-shattered-web-case,Rare Special Item,survival-knife-urban-masked,★ Survival Knife | Urban Masked,knife,None,None
 operation-vanguard-weapon-case,Restricted,m4a4-griffin,M4A4 | Griffin,weapon,None,None
 operation-vanguard-weapon-case,Extraordinary,karambit-fade,★ Karambit | Fade,knife,None,None
-operation-vanguard-weapon-case,Extraordinary,karambit-forest-ddpat,★ Karambit | Forest DDPAT,knife,None,None
-operation-vanguard-weapon-case,Extraordinary,m9-bayonet-vanilla,★ M9 Bayonet,knife,None,None
-operation-vanguard-weapon-case,Extraordinary,m9-bayonet-blue-steel,★ M9 Bayonet | Blue Steel,knife,None,None
-operation-vanguard-weapon-case,Extraordinary,m9-bayonet-boreal-forest,★ M9 Bayonet | Boreal Forest,knife,None,None
-operation-vanguard-weapon-case,Extraordinary,m9-bayonet-case-hardened,★ M9 Bayonet | Case Hardened,knife,None,None
-operation-vanguard-weapon-case,Extraordinary,m9-bayonet-crimson-web,★ M9 Bayonet | Crimson Web,knife,None,None
 operation-vanguard-weapon-case,Extraordinary,m9-bayonet-fade,★ M9 Bayonet | Fade,knife,None,None
-operation-vanguard-weapon-case,Extraordinary,m9-bayonet-forest-ddpat,★ M9 Bayonet | Forest DDPAT,knife,None,None
 operation-vanguard-weapon-case,Extraordinary,m9-bayonet-night,★ M9 Bayonet | Night,knife,None,None
-operation-vanguard-weapon-case,Extraordinary,m9-bayonet-safari-mesh,★ M9 Bayonet | Safari Mesh,knife,None,None
 operation-vanguard-weapon-case,Extraordinary,m9-bayonet-scorched,★ M9 Bayonet | Scorched,knife,None,None
 operation-vanguard-weapon-case,Extraordinary,m9-bayonet-slaughter,★ M9 Bayonet | Slaughter,knife,None,None
 operation-vanguard-weapon-case,Extraordinary,m9-bayonet-stained,★ M9 Bayonet | Stained,knife,None,None
-operation-vanguard-weapon-case,Extraordinary,m9-bayonet-urban-masked,★ M9 Bayonet | Urban Masked,knife,None,None
 paris-2023-anubis-souvenir-package,consumer,souvenir-r8-revolver-inlay,Souvenir R8 Revolver | Inlay,pistol,None,None
 paris-2023-anubis-souvenir-package,consumer,souvenir-m249-submerged,Souvenir M249 | Submerged,weapon,None,None
 paris-2023-anubis-souvenir-package,consumer,souvenir-xm1014-hieroglyph,Souvenir XM1014 | Hieroglyph,shotgun,None,None
 paris-2023-anubis-souvenir-package,consumer,souvenir-mp7-sunbaked,Souvenir MP7 | Sunbaked,smg,None,None
-paris-2023-anubis-souvenir-package,consumer,souvenir-aug-snake-pit,Souvenir AUG | Snake Pit,rifle,None,None
 paris-2023-anubis-souvenir-package,industrial,souvenir-m4a1-s-mud-spec,Souvenir M4A1-S | Mud-Spec,rifle,None,None
-paris-2023-anubis-souvenir-package,industrial,souvenir-ssg-08-azure-glyph,Souvenir SSG 08 | Azure Glyph,weapon,None,None
-paris-2023-anubis-souvenir-package,industrial,souvenir-usp-s-desert-tactical,Souvenir USP-S | Desert Tactical,pistol,None,None
-paris-2023-anubis-souvenir-package,industrial,souvenir-mac-10-echoing-sands,Souvenir MAC-10 | Echoing Sands,smg,None,None
 paris-2023-anubis-souvenir-package,milspec,souvenir-tec-9-mummy-s-rot,Souvenir Tec-9 | Mummy's Rot,pistol,None,None
-paris-2023-anubis-souvenir-package,milspec,souvenir-ak-47-steel-delta,Souvenir AK-47 | Steel Delta,rifle,None,None
-paris-2023-anubis-souvenir-package,milspec,souvenir-awp-black-nile,Souvenir AWP | Black Nile,weapon,None,None
-paris-2023-anubis-souvenir-package,milspec,souvenir-mag-7-copper-coated,Souvenir MAG-7 | Copper Coated,shotgun,None,None
 paris-2023-anubis-souvenir-package,restricted,souvenir-glock-18-ramese-s-reach,Souvenir Glock-18 | Ramese's Reach,pistol,None,None
 paris-2023-anubis-souvenir-package,restricted,souvenir-nova-sobek-s-bite,Souvenir Nova | Sobek's Bite,shotgun,None,None
-paris-2023-anubis-souvenir-package,restricted,souvenir-p90-scarab-rush,Souvenir P90 | ScaraB Rush,smg,None,None
 paris-2023-anubis-souvenir-package,classified,souvenir-famas-waters-of-nephthys,Souvenir FAMAS | Waters of Nephthys,rifle,None,None
 paris-2023-anubis-souvenir-package,classified,souvenir-p250-apep-s-curse,Souvenir P250 | Apep's Curse,pistol,None,None
 paris-2023-anubis-souvenir-package,covert,souvenir-m4a4-eye-of-horus,Souvenir M4A4 | Eye of Horus,rifle,None,None
-prisma-2-case,rare-special,talon-knife-doppler-phase-2,★ Talon Knife | Doppler (Phase 2),knife,None,None
-prisma-2-case,rare-special,talon-knife-doppler-phase-3,★ Talon Knife | Doppler (Phase 3),knife,None,None
-prisma-2-case,rare-special,talon-knife-doppler-phase-4,★ Talon Knife | Doppler (Phase 4),knife,None,None
-prisma-2-case,rare-special,talon-knife-doppler-ruby,★ Talon Knife | Doppler (Ruby),knife,None,None
-prisma-2-case,rare-special,talon-knife-doppler-sapphire,★ Talon Knife | Doppler (Sapphire),knife,None,None
-prisma-2-case,rare-special,talon-knife-doppler-black-pearl,★ Talon Knife | Doppler (Black Pearl),knife,None,None
-prisma-2-case,rare-special,ursus-knife-doppler-phase-2,★ Ursus Knife | Doppler (Phase 2),knife,None,None
-prisma-2-case,rare-special,ursus-knife-doppler-phase-3,★ Ursus Knife | Doppler (Phase 3),knife,None,None
-prisma-2-case,rare-special,ursus-knife-doppler-phase-4,★ Ursus Knife | Doppler (Phase 4),knife,None,None
-prisma-2-case,rare-special,ursus-knife-doppler-ruby,★ Ursus Knife | Doppler (Ruby),knife,None,None
-prisma-2-case,rare-special,ursus-knife-doppler-sapphire,★ Ursus Knife | Doppler (Sapphire),knife,None,None
-prisma-2-case,rare-special,ursus-knife-doppler-black-pearl,★ Ursus Knife | Doppler (Black Pearl),knife,None,None
-prisma-2-case,rare-special,stiletto-knife-doppler-phase-2,★ Stiletto Knife | Doppler (Phase 2),knife,None,None
-prisma-2-case,rare-special,stiletto-knife-doppler-phase-3,★ Stiletto Knife | Doppler (Phase 3),knife,None,None
-prisma-2-case,rare-special,stiletto-knife-doppler-phase-4,★ Stiletto Knife | Doppler (Phase 4),knife,None,None
-prisma-2-case,rare-special,stiletto-knife-doppler-ruby,★ Stiletto Knife | Doppler (Ruby),knife,None,None
-prisma-2-case,rare-special,stiletto-knife-doppler-sapphire,★ Stiletto Knife | Doppler (Sapphire),knife,None,None
-prisma-2-case,rare-special,stiletto-knife-doppler-black-pearl,★ Stiletto Knife | Doppler (Black Pearl),knife,None,None
-prisma-2-case,rare-special,navaja-knife-doppler-phase-2,★ Navaja Knife | Doppler (Phase 2),knife,None,None
-prisma-2-case,rare-special,navaja-knife-doppler-phase-3,★ Navaja Knife | Doppler (Phase 3),knife,None,None
-prisma-2-case,rare-special,navaja-knife-doppler-phase-4,★ Navaja Knife | Doppler (Phase 4),knife,None,None
-prisma-2-case,rare-special,navaja-knife-doppler-ruby,★ Navaja Knife | Doppler (Ruby),knife,None,None
-prisma-2-case,rare-special,navaja-knife-doppler-sapphire,★ Navaja Knife | Doppler (Sapphire),knife,None,None
-prisma-2-case,rare-special,navaja-knife-doppler-black-pearl,★ Navaja Knife | Doppler (Black Pearl),knife,None,None
-prisma-case,rare-special,ursus-knife-doppler-phase-2,★ Ursus Knife | Doppler (Phase 2),knife,None,None
-prisma-case,rare-special,ursus-knife-doppler-phase-3,★ Ursus Knife | Doppler (Phase 3),knife,None,None
-prisma-case,rare-special,ursus-knife-doppler-phase-4,★ Ursus Knife | Doppler (Phase 4),knife,None,None
-prisma-case,rare-special,ursus-knife-doppler-ruby,★ Ursus Knife | Doppler (Ruby),knife,None,None
-prisma-case,rare-special,ursus-knife-doppler-sapphire,★ Ursus Knife | Doppler (Sapphire),knife,None,None
-prisma-case,rare-special,ursus-knife-doppler-black-pearl,★ Ursus Knife | Doppler (Black Pearl),knife,None,None
-prisma-case,rare-special,navaja-knife-doppler-phase-2,★ Navaja Knife | Doppler (Phase 2),knife,None,None
-prisma-case,rare-special,navaja-knife-doppler-phase-3,★ Navaja Knife | Doppler (Phase 3),knife,None,None
-prisma-case,rare-special,navaja-knife-doppler-phase-4,★ Navaja Knife | Doppler (Phase 4),knife,None,None
-prisma-case,rare-special,navaja-knife-doppler-ruby,★ Navaja Knife | Doppler (Ruby),knife,None,None
-prisma-case,rare-special,navaja-knife-doppler-sapphire,★ Navaja Knife | Doppler (Sapphire),knife,None,None
-prisma-case,rare-special,navaja-knife-doppler-black-pearl,★ Navaja Knife | Doppler (Black Pearl),knife,None,None
-prisma-case,rare-special,stiletto-knife-doppler-phase-2,★ Stiletto Knife | Doppler (Phase 2),knife,None,None
-prisma-case,rare-special,stiletto-knife-doppler-phase-3,★ Stiletto Knife | Doppler (Phase 3),knife,None,None
-prisma-case,rare-special,stiletto-knife-doppler-phase-4,★ Stiletto Knife | Doppler (Phase 4),knife,None,None
-prisma-case,rare-special,stiletto-knife-doppler-ruby,★ Stiletto Knife | Doppler (Ruby),knife,None,None
-prisma-case,rare-special,stiletto-knife-doppler-sapphire,★ Stiletto Knife | Doppler (Sapphire),knife,None,None
-prisma-case,rare-special,stiletto-knife-doppler-black-pearl,★ Stiletto Knife | Doppler (Black Pearl),knife,None,None
-prisma-case,rare-special,talon-knife-doppler-phase-2,★ Talon Knife | Doppler (Phase 2),knife,None,None
-prisma-case,rare-special,talon-knife-doppler-phase-3,★ Talon Knife | Doppler (Phase 3),knife,None,None
-prisma-case,rare-special,talon-knife-doppler-phase-4,★ Talon Knife | Doppler (Phase 4),knife,None,None
-prisma-case,rare-special,talon-knife-doppler-ruby,★ Talon Knife | Doppler (Ruby),knife,None,None
-prisma-case,rare-special,talon-knife-doppler-sapphire,★ Talon Knife | Doppler (Sapphire),knife,None,None
-prisma-case,rare-special,talon-knife-doppler-black-pearl,★ Talon Knife | Doppler (Black Pearl),knife,None,None
-recoil-case,extraordinary,hand-wraps-caution,★ Hand Wraps | CAUTION!,glove,None,None
 recoil-case,extraordinary,hand-wraps-constrictor,★ Hand Wraps | Constrictor,glove,None,None
-recoil-case,extraordinary,hand-wraps-giraffe,★ Hand Wraps | Giraffe,glove,None,None
-recoil-case,extraordinary,hand-wraps-desert-shamagh,★ Hand Wraps | Desert Shamagh,glove,None,None
 revolution-case,restricted,p90-neon-queen,P90 | Neon Queen,weapon,None,None
 revolution-case,extraordinary,hand-wraps-overprint,★ Hand Wraps | Overprint,glove,None,None
 revolution-case,extraordinary,hand-wraps-arboreal,★ Hand Wraps | Arboreal,glove,None,None
 revolution-case,extraordinary,hand-wraps-duct-tape,★ Hand Wraps | Duct Tape,glove,None,None
-revolver-case,rare-special,bayonet-vanilla,Bayonet | Vanilla,knife,None,None
-revolver-case,rare-special,flip-knife-vanilla,Flip Knife | Vanilla,knife,None,None
-revolver-case,rare-special,gut-knife-vanilla,Gut Knife | Vanilla,knife,None,None
-revolver-case,rare-special,karambit-vanilla,Karambit | Vanilla,knife,None,None
-revolver-case,rare-special,karambit-forest-ddpat,Karambit | Forest DDPAT,knife,None,None
-revolver-case,rare-special,m9-bayonet-vanilla,M9 Bayonet | Vanilla,knife,None,None
-revolver-case,rare-special,m9-bayonet-blue-steel,M9 Bayonet | Blue Steel,knife,None,None
-revolver-case,rare-special,m9-bayonet-boreal-forest,M9 Bayonet | Boreal Forest,knife,None,None
-revolver-case,rare-special,m9-bayonet-case-hardened,M9 Bayonet | Case Hardened,knife,None,None
-revolver-case,rare-special,m9-bayonet-crimson-web,M9 Bayonet | Crimson Web,knife,None,None
 revolver-case,rare-special,m9-bayonet-fade,M9 Bayonet | Fade,knife,None,None
-revolver-case,rare-special,m9-bayonet-forest-ddpat,M9 Bayonet | Forest DDPAT,knife,None,None
 revolver-case,rare-special,m9-bayonet-night,M9 Bayonet | Night,knife,None,None
-revolver-case,rare-special,m9-bayonet-safari-mesh,M9 Bayonet | Safari Mesh,knife,None,None
 revolver-case,rare-special,m9-bayonet-scorched,M9 Bayonet | Scorched,knife,None,None
 revolver-case,rare-special,m9-bayonet-slaughter,M9 Bayonet | Slaughter,knife,None,None
 revolver-case,rare-special,m9-bayonet-stained,M9 Bayonet | Stained,knife,None,None
-revolver-case,rare-special,m9-bayonet-urban-masked,M9 Bayonet | Urban Masked,knife,None,None
-sealed-genesis-terminal,mil-spec,scar-20-caged,SCAR-20 | Caged,weapon,None,None
-sealed-genesis-terminal,mil-spec,aug-trigger-discipline,AUG | Trigger Discipline,rifle,None,None
-sealed-genesis-terminal,mil-spec,p2000-red-wing,P2000 | Red Wing,pistol,None,None
-sealed-genesis-terminal,mil-spec,mp9-broken-record,MP9 | Broken Record,smg,None,None
-sealed-genesis-terminal,mil-spec,p250-bullfrog,P250 | Bullfrog,pistol,None,None
-sealed-genesis-terminal,mil-spec,mag-7-magnitude,MAG-7 | MAGnitude,shotgun,None,None
-sealed-genesis-terminal,mil-spec,mp5-sd-focus,MP5-SD | Focus,smg,None,None
-sealed-genesis-terminal,restricted,nova-ocular,Nova | Ocular,shotgun,None,None
-sealed-genesis-terminal,restricted,m4a1-s-liquidation,M4A1-S | Liquidation,rifle,None,None
-sealed-genesis-terminal,restricted,dual-berettas-angel-eyes,Dual Berettas | Angel Eyes,pistol,None,None
-sealed-genesis-terminal,restricted,mac-10-cat-fight,MAC-10 | Cat Fight,smg,None,None
-sealed-genesis-terminal,restricted,ump-45-continuum,UMP-45 | Continuum,smg,None,None
-sealed-genesis-terminal,classified,awp-ice-coaled,AWP | Ice Coaled,weapon,None,None
-sealed-genesis-terminal,classified,mp7-smoking-kills,MP7 | Smoking Kills,smg,None,None
-sealed-genesis-terminal,classified,glock-18-mirror-mosaic,Glock-18 | Mirror Mosaic,pistol,None,None
-sealed-genesis-terminal,covert,m4a4-full-throttle,M4A4 | Full Throttle,rifle,None,None
-sealed-genesis-terminal,covert,ak-47-the-oligarch,AK-47 | The Oligarch,rifle,None,None
-shadow-case,Rare Special Item,shadow-daggers-none-vanilla,★ Shadow Daggers | Vanilla,knife,None,None
 shanghai-2024-anubis-souvenir-package,consumer,souvenir-m249-submerged,Souvenir M249 | Submerged,weapon,None,None
 shanghai-2024-anubis-souvenir-package,consumer,souvenir-r8-revolver-inlay,Souvenir R8 Revolver | Inlay,pistol,None,None
 shanghai-2024-anubis-souvenir-package,consumer,souvenir-xm1014-hieroglyph,Souvenir XM1014 | Hieroglyph,shotgun,None,None
-shanghai-2024-anubis-souvenir-package,consumer,souvenir-aug-snake-pit,Souvenir AUG | Snake Pit,rifle,None,None
 shanghai-2024-anubis-souvenir-package,consumer,souvenir-mp7-sunbaked,Souvenir MP7 | Sunbaked,smg,None,None
 shanghai-2024-anubis-souvenir-package,industrial,souvenir-m4a1-s-mud-spec,Souvenir M4A1-S | Mud-Spec,rifle,None,None
-shanghai-2024-anubis-souvenir-package,industrial,souvenir-usp-s-desert-tactical,Souvenir USP-S | Desert Tactical,pistol,None,None
-shanghai-2024-anubis-souvenir-package,industrial,souvenir-ssg-08-azure-glyph,Souvenir SSG 08 | Azure Glyph,weapon,None,None
-shanghai-2024-anubis-souvenir-package,industrial,souvenir-mac-10-echoing-sands,Souvenir MAC-10 | Echoing Sands,smg,None,None
-shanghai-2024-anubis-souvenir-package,milspec,souvenir-awp-black-nile,Souvenir AWP | Black Nile,weapon,None,None
-shanghai-2024-anubis-souvenir-package,milspec,souvenir-ak-47-steel-delta,Souvenir AK-47 | Steel Delta,rifle,None,None
 shanghai-2024-anubis-souvenir-package,milspec,souvenir-tec-9-mummys-rot,Souvenir Tec-9 | Mummy's Rot,pistol,None,None
-shanghai-2024-anubis-souvenir-package,milspec,souvenir-mag-7-copper-coated,Souvenir MAG-7 | Copper Coated,shotgun,None,None
 shanghai-2024-anubis-souvenir-package,restricted,souvenir-glock-18-rameses-reach,Souvenir Glock-18 | Ramese's Reach,pistol,None,None
 shanghai-2024-anubis-souvenir-package,restricted,souvenir-nova-sobeks-bite,Souvenir Nova | Sobek's Bite,shotgun,None,None
-shanghai-2024-anubis-souvenir-package,restricted,souvenir-p90-scarab-rush,Souvenir P90 | ScaraB Rush,smg,None,None
 shanghai-2024-anubis-souvenir-package,classified,souvenir-famas-waters-of-nephthys,Souvenir FAMAS | Waters of Nephthys,rifle,None,None
 shanghai-2024-anubis-souvenir-package,classified,souvenir-p250-apeps-curse,Souvenir P250 | Apep's Curse,pistol,None,None
 shanghai-2024-anubis-souvenir-package,covert,souvenir-m4a4-eye-of-horus,Souvenir M4A4 | Eye of Horus,rifle,None,None
-shattered-web-case,rare-special,nomad-knife-vanilla,★ Nomad Knife | Vanilla,knife,None,None
-shattered-web-case,rare-special,skeleton-knife-vanilla,★ Skeleton Knife | Vanilla,knife,None,None
-shattered-web-case,rare-special,paracord-knife-vanilla,★ Paracord Knife | Vanilla,knife,None,None
-shattered-web-case,rare-special,survival-knife-vanilla,★ Survival Knife | Vanilla,knife,None,None
-shattered-web-case,rare-special,survival-knife-safari-mesh,★ Survival Knife | Safari Mesh,knife,None,None
-spectrum-2-case,Extraordinary,bowie-knife-doppler-phase-2,★ Bowie Knife | Doppler (Phase 2),knife,None,None
-spectrum-2-case,Extraordinary,bowie-knife-doppler-phase-3,★ Bowie Knife | Doppler (Phase 3),knife,None,None
-spectrum-2-case,Extraordinary,bowie-knife-doppler-phase-4,★ Bowie Knife | Doppler (Phase 4),knife,None,None
-spectrum-2-case,Extraordinary,bowie-knife-doppler-ruby,★ Bowie Knife | Doppler (Ruby),knife,None,None
-spectrum-2-case,Extraordinary,bowie-knife-doppler-sapphire,★ Bowie Knife | Doppler (Sapphire),knife,None,None
-spectrum-2-case,Extraordinary,bowie-knife-doppler-black-pearl,★ Bowie Knife | Doppler (Black Pearl),knife,None,None
-spectrum-2-case,Extraordinary,butterfly-knife-doppler-phase-2,★ Butterfly Knife | Doppler (Phase 2),knife,None,None
-spectrum-2-case,Extraordinary,butterfly-knife-doppler-phase-3,★ Butterfly Knife | Doppler (Phase 3),knife,None,None
-spectrum-2-case,Extraordinary,butterfly-knife-doppler-phase-4,★ Butterfly Knife | Doppler (Phase 4),knife,None,None
-spectrum-2-case,Extraordinary,butterfly-knife-doppler-ruby,★ Butterfly Knife | Doppler (Ruby),knife,None,None
-spectrum-2-case,Extraordinary,butterfly-knife-doppler-sapphire,★ Butterfly Knife | Doppler (Sapphire),knife,None,None
-spectrum-2-case,Extraordinary,butterfly-knife-doppler-black-pearl,★ Butterfly Knife | Doppler (Black Pearl),knife,None,None
-spectrum-2-case,Extraordinary,falchion-knife-doppler-phase-2,★ Falchion Knife | Doppler (Phase 2),knife,None,None
-spectrum-2-case,Extraordinary,falchion-knife-doppler-phase-3,★ Falchion Knife | Doppler (Phase 3),knife,None,None
-spectrum-2-case,Extraordinary,falchion-knife-doppler-phase-4,★ Falchion Knife | Doppler (Phase 4),knife,None,None
-spectrum-2-case,Extraordinary,falchion-knife-doppler-ruby,★ Falchion Knife | Doppler (Ruby),knife,None,None
-spectrum-2-case,Extraordinary,falchion-knife-doppler-sapphire,★ Falchion Knife | Doppler (Sapphire),knife,None,None
-spectrum-2-case,Extraordinary,falchion-knife-doppler-black-pearl,★ Falchion Knife | Doppler (Black Pearl),knife,None,None
-spectrum-2-case,Extraordinary,huntsman-knife-doppler-phase-2,★ Huntsman Knife | Doppler (Phase 2),knife,None,None
-spectrum-2-case,Extraordinary,huntsman-knife-doppler-phase-3,★ Huntsman Knife | Doppler (Phase 3),knife,None,None
-spectrum-2-case,Extraordinary,huntsman-knife-doppler-phase-4,★ Huntsman Knife | Doppler (Phase 4),knife,None,None
-spectrum-2-case,Extraordinary,huntsman-knife-doppler-ruby,★ Huntsman Knife | Doppler (Ruby),knife,None,None
-spectrum-2-case,Extraordinary,huntsman-knife-doppler-sapphire,★ Huntsman Knife | Doppler (Sapphire),knife,None,None
-spectrum-2-case,Extraordinary,huntsman-knife-doppler-black-pearl,★ Huntsman Knife | Doppler (Black Pearl),knife,None,None
-spectrum-2-case,Extraordinary,shadow-daggers-doppler-phase-2,★ Shadow Daggers | Doppler (Phase 2),knife,None,None
-spectrum-2-case,Extraordinary,shadow-daggers-doppler-phase-3,★ Shadow Daggers | Doppler (Phase 3),knife,None,None
-spectrum-2-case,Extraordinary,shadow-daggers-doppler-phase-4,★ Shadow Daggers | Doppler (Phase 4),knife,None,None
-spectrum-2-case,Extraordinary,shadow-daggers-doppler-ruby,★ Shadow Daggers | Doppler (Ruby),knife,None,None
-spectrum-2-case,Extraordinary,shadow-daggers-doppler-sapphire,★ Shadow Daggers | Doppler (Sapphire),knife,None,None
-spectrum-2-case,Extraordinary,shadow-daggers-doppler-black-pearl,★ Shadow Daggers | Doppler (Black Pearl),knife,None,None
-spectrum-case,rare-special,butterfly-knife-doppler-phase-2,★ Butterfly Knife | Doppler (Phase 2),knife,None,None
-spectrum-case,rare-special,butterfly-knife-doppler-phase-3,★ Butterfly Knife | Doppler (Phase 3),knife,None,None
-spectrum-case,rare-special,butterfly-knife-doppler-phase-4,★ Butterfly Knife | Doppler (Phase 4),knife,None,None
-spectrum-case,rare-special,butterfly-knife-doppler-black-pearl,★ Butterfly Knife | Doppler (Black Pearl),knife,None,None
-spectrum-case,rare-special,butterfly-knife-doppler-ruby,★ Butterfly Knife | Doppler (Ruby),knife,None,None
-spectrum-case,rare-special,butterfly-knife-doppler-sapphire,★ Butterfly Knife | Doppler (Sapphire),knife,None,None
-spectrum-case,rare-special,huntsman-knife-doppler-phase-2,★ Huntsman Knife | Doppler (Phase 2),knife,None,None
-spectrum-case,rare-special,huntsman-knife-doppler-phase-3,★ Huntsman Knife | Doppler (Phase 3),knife,None,None
-spectrum-case,rare-special,huntsman-knife-doppler-phase-4,★ Huntsman Knife | Doppler (Phase 4),knife,None,None
-spectrum-case,rare-special,huntsman-knife-doppler-black-pearl,★ Huntsman Knife | Doppler (Black Pearl),knife,None,None
-spectrum-case,rare-special,huntsman-knife-doppler-ruby,★ Huntsman Knife | Doppler (Ruby),knife,None,None
-spectrum-case,rare-special,huntsman-knife-doppler-sapphire,★ Huntsman Knife | Doppler (Sapphire),knife,None,None
-spectrum-case,rare-special,falchion-knife-doppler-phase-2,★ Falchion Knife | Doppler (Phase 2),knife,None,None
-spectrum-case,rare-special,falchion-knife-doppler-phase-3,★ Falchion Knife | Doppler (Phase 3),knife,None,None
-spectrum-case,rare-special,falchion-knife-doppler-phase-4,★ Falchion Knife | Doppler (Phase 4),knife,None,None
-spectrum-case,rare-special,falchion-knife-doppler-black-pearl,★ Falchion Knife | Doppler (Black Pearl),knife,None,None
-spectrum-case,rare-special,falchion-knife-doppler-ruby,★ Falchion Knife | Doppler (Ruby),knife,None,None
-spectrum-case,rare-special,falchion-knife-doppler-sapphire,★ Falchion Knife | Doppler (Sapphire),knife,None,None
-spectrum-case,rare-special,shadow-daggers-doppler-phase-2,★ Shadow Daggers | Doppler (Phase 2),knife,None,None
-spectrum-case,rare-special,shadow-daggers-doppler-phase-3,★ Shadow Daggers | Doppler (Phase 3),knife,None,None
-spectrum-case,rare-special,shadow-daggers-doppler-phase-4,★ Shadow Daggers | Doppler (Phase 4),knife,None,None
-spectrum-case,rare-special,shadow-daggers-doppler-black-pearl,★ Shadow Daggers | Doppler (Black Pearl),knife,None,None
-spectrum-case,rare-special,shadow-daggers-doppler-ruby,★ Shadow Daggers | Doppler (Ruby),knife,None,None
-spectrum-case,rare-special,shadow-daggers-doppler-sapphire,★ Shadow Daggers | Doppler (Sapphire),knife,None,None
-spectrum-case,rare-special,bowie-knife-doppler-phase-2,★ Bowie Knife | Doppler (Phase 2),knife,None,None
-spectrum-case,rare-special,bowie-knife-doppler-phase-3,★ Bowie Knife | Doppler (Phase 3),knife,None,None
-spectrum-case,rare-special,bowie-knife-doppler-phase-4,★ Bowie Knife | Doppler (Phase 4),knife,None,None
-spectrum-case,rare-special,bowie-knife-doppler-black-pearl,★ Bowie Knife | Doppler (Black Pearl),knife,None,None
-spectrum-case,rare-special,bowie-knife-doppler-ruby,★ Bowie Knife | Doppler (Ruby),knife,None,None
-spectrum-case,rare-special,bowie-knife-doppler-sapphire,★ Bowie Knife | Doppler (Sapphire),knife,None,None
-winter-offensive-weapon-case,Rare Special Item,bayonet-vanilla,★ Bayonet | Vanilla,knife,None,None
-winter-offensive-weapon-case,Rare Special Item,flip-knife-vanilla,★ Flip Knife | Vanilla,knife,None,None
-winter-offensive-weapon-case,Rare Special Item,gut-knife-vanilla,★ Gut Knife | Vanilla,knife,None,None
-winter-offensive-weapon-case,Rare Special Item,karambit-vanilla,★ Karambit | Vanilla,knife,None,None
-winter-offensive-weapon-case,Rare Special Item,karambit-forest-ddpat,★ Karambit | Forest DDPAT,knife,None,None
-winter-offensive-weapon-case,Rare Special Item,m9-bayonet-vanilla,★ M9 Bayonet | Vanilla,knife,None,None
-winter-offensive-weapon-case,Rare Special Item,m9-bayonet-blue-steel,★ M9 Bayonet | Blue Steel,knife,None,None
-winter-offensive-weapon-case,Rare Special Item,m9-bayonet-boreal-forest,★ M9 Bayonet | Boreal Forest,knife,None,None
-winter-offensive-weapon-case,Rare Special Item,m9-bayonet-case-hardened,★ M9 Bayonet | Case Hardened,knife,None,None
-winter-offensive-weapon-case,Rare Special Item,m9-bayonet-crimson-web,★ M9 Bayonet | Crimson Web,knife,None,None
 winter-offensive-weapon-case,Rare Special Item,m9-bayonet-fade,★ M9 Bayonet | Fade,knife,None,None
-winter-offensive-weapon-case,Rare Special Item,m9-bayonet-forest-ddpat,★ M9 Bayonet | Forest DDPAT,knife,None,None
 winter-offensive-weapon-case,Rare Special Item,m9-bayonet-night,★ M9 Bayonet | Night,knife,None,None
-winter-offensive-weapon-case,Rare Special Item,m9-bayonet-safari-mesh,★ M9 Bayonet | Safari Mesh,knife,None,None
 winter-offensive-weapon-case,Rare Special Item,m9-bayonet-scorched,★ M9 Bayonet | Scorched,knife,None,None
 winter-offensive-weapon-case,Rare Special Item,m9-bayonet-slaughter,★ M9 Bayonet | Slaughter,knife,None,None
 winter-offensive-weapon-case,Rare Special Item,m9-bayonet-stained,★ M9 Bayonet | Stained,knife,None,None
-winter-offensive-weapon-case,Rare Special Item,m9-bayonet-urban-masked,★ M9 Bayonet | Urban Masked,knife,None,None

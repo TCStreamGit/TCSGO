@@ -1,3 +1,16 @@
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\eSports-2013-Case\Knives\Bayonet ★.png | No match | case_direct | esports-2013-case
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\eSports-2013-Winter-Case\Knives\Bayonet ★.png | No match | case_direct | esports-2013-winter-case
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\eSports-2014-Summer-Case\Knives\Bayonet ★.png | No match | case_direct | esports-2014-summer-case
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\Glove-Case\Gloves\Sport Gloves -\ Arid.png | No match | case_direct | glove-case
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\Huntsman-Weapon-Case\Weapons\CZ75-Auto Poison Dart.png | No match | case_direct | huntsman-weapon-case
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\Huntsman-Weapon-Case\Weapons\Dual Berettas Retribution.png | No match | case_direct | huntsman-weapon-case
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\Huntsman-Weapon-Case\Weapons\MAC-10 Curse.png | No match | case_direct | huntsman-weapon-case
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\Huntsman-Weapon-Case\Weapons\P90 Desert Warfare.png | No match | case_direct | huntsman-weapon-case
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\Huntsman-Weapon-Case\Weapons\USP-S Orion.png | No match | case_direct | huntsman-weapon-case
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\Operation-Hydra-Case\Gloves\Sport Gloves -\ Arid.png | No match | case_direct | operation-hydra-case
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\Revolution-Case\Weapons\P90 Neoqueen.png | No match | case_direct | revolution-case
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\Revolver-Case\Knives\Bayonet ★.png | No match | case_direct | revolver-case
+A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Cases\Winter-Offensive-Weapon-Case\Knives\Bayonet ★.png | No match | case_direct | winter-offensive-weapon-case
 A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-2021-Train-Collection\AUG Amber Fade.png | No match | collection_partial | berlin-2019-train-souvenir-package,cologne-2016-train-souvenir-package
 A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-2021-Train-Collection\AWP POP AWP.png | No match | collection_partial | berlin-2019-train-souvenir-package,cologne-2016-train-souvenir-package
 A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-2021-Train-Collection\CZ75-Auto Syndicate.png | No match | collection_partial | berlin-2019-train-souvenir-package,cologne-2016-train-souvenir-package
@@ -290,16 +303,3 @@ A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-St
 A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-St.-Marc-Collection\Tec-9 Rust Leaf.png | No match | none | None
 A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-St.-Marc-Collection\UMP-45 Day Lily.png | No match | none | None
 A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Collections\The-St.-Marc-Collection\XM1014 Banana Leaf.png | No match | none | None
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\eSports-2013-Case\Knives\Bayonet ★.png | No match | case_direct | esports-2013-case
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\eSports-2013-Winter-Case\Knives\Bayonet ★.png | No match | case_direct | esports-2013-winter-case
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\eSports-2014-Summer-Case\Knives\Bayonet ★.png | No match | case_direct | esports-2014-summer-case
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Glove-Case\Gloves\Sport Gloves -\ Arid.png | No match | case_direct | glove-case
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Huntsman-Weapon-Case\Weapons\CZ75-Auto Poison Dart.png | No match | case_direct | huntsman-weapon-case
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Huntsman-Weapon-Case\Weapons\Dual Berettas Retribution.png | No match | case_direct | huntsman-weapon-case
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Huntsman-Weapon-Case\Weapons\MAC-10 Curse.png | No match | case_direct | huntsman-weapon-case
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Huntsman-Weapon-Case\Weapons\P90 Desert Warfare.png | No match | case_direct | huntsman-weapon-case
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Huntsman-Weapon-Case\Weapons\USP-S Orion.png | No match | case_direct | huntsman-weapon-case
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Operation-Hydra-Case\Gloves\Sport Gloves -\ Arid.png | No match | case_direct | operation-hydra-case
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Revolution-Case\Weapons\P90 Neoqueen.png | No match | case_direct | revolution-case
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Revolver-Case\Knives\Bayonet ★.png | No match | case_direct | revolver-case
-A:\Development Environment\Source Control\GitHub\TCSGO\Assets\Winter-Offensive-Weapon-Case\Knives\Bayonet ★.png | No match | case_direct | winter-offensive-weapon-case
