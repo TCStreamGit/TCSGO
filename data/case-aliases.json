@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "1.0-aliases",
+  "lastModified": "2026-01-21T00:00:00Z",
+  "notes": [
+    "alias -> caseId mapping + JSON filename + key requirement",
+    "Aliases are lowercase for case-insensitive lookup",
+    "requiresKey: true for weapon cases, false for souvenir packages"
+  ],
+  "aliases": {
+    "chroma": {
+      "caseId": "chroma-case",
+      "filename": "Chroma_Case.json",
+      "displayName": "Chroma Case",
+      "requiresKey": true
+    },
+    "chroma2": {
+      "caseId": "chroma-2-case",
+      "filename": "Chroma_2_Case.json",
+      "displayName": "Chroma 2 Case",
+      "requiresKey": true
+    },
+    "chroma3": {
+      "caseId": "chroma-3-case",
+      "filename": "Chroma_3_Case.json",
+      "displayName": "Chroma 3 Case",
+      "requiresKey": true
+    },
+    "clutch": {
+      "caseId": "clutch-case",
+      "filename": "Clutch_Case.json",
+      "displayName": "Clutch Case",
+      "requiresKey": true
+    },
+    "cs20": {
+      "caseId": "cs20-case",
+      "filename": "CS20_Case.json",
+      "displayName": "CS20 Case",
+      "requiresKey": true
+    },
+    "dangerzone": {
+      "caseId": "danger-zone-case",
+      "filename": "Danger_Zone_Case.json",
+      "displayName": "Danger Zone Case",
+      "requiresKey": true
+    },
+    "dreams": {
+      "caseId": "dreams-nightmares-case",
+      "filename": "Dreams_Nightmares_Case.json",
+      "displayName": "Dreams & Nightmares Case",
+      "requiresKey": true
+    },
+    "esports": {
+      "caseId": "esports-2013-case",
+      "filename": "eSports_2013_Case.json",
+      "displayName": "eSports 2013 Case",
+      "requiresKey": true
+    },
+    "esportswinter": {
+      "caseId": "esports-2013-winter-case",
+      "filename": "eSports_2013_Winter_Case.json",
+      "displayName": "eSports 2013 Winter Case",
+      "requiresKey": true
+    },
+    "esportssummer": {
+      "caseId": "esports-2014-summer-case",
+      "filename": "eSports_2014_Summer_Case.json",
+      "displayName": "eSports 2014 Summer Case",
+      "requiresKey": true
+    },
+    "falchion": {
+      "caseId": "falchion-case",
+      "filename": "Falchion_Case.json",
+      "displayName": "Falchion Case",
+      "requiresKey": true
+    },
+    "fever": {
+      "caseId": "fever-case",
+      "filename": "Fever_Case.json",
+      "displayName": "Fever Case",
+      "requiresKey": true
+    },
+    "fracture": {
+      "caseId": "fracture-case",
+      "filename": "Fracture_Case.json",
+      "displayName": "Fracture Case",
+      "requiresKey": true
+    },
+    "gallery": {
+      "caseId": "gallery-case",
+      "filename": "Gallery_Case.json",
+      "displayName": "Gallery Case",
+      "requiresKey": true
+    },
+    "gamma": {
+      "caseId": "gamma-case",
+      "filename": "Gamma_Case.json",
+      "displayName": "Gamma Case",
+      "requiresKey": true
+    },
+    "gamma2": {
+      "caseId": "gamma-2-case",
+      "filename": "Gamma_2_Case.json",
+      "displayName": "Gamma 2 Case",
+      "requiresKey": true
+    },
+    "glove": {
+      "caseId": "glove-case",
+      "filename": "Glove_Case.json",
+      "displayName": "Glove Case",
+      "requiresKey": true
+    },
+    "horizon": {
+      "caseId": "horizon-case",
+      "filename": "Horizon_Case.json",
+      "displayName": "Horizon Case",
+      "requiresKey": true
+    },
+    "huntsman": {
+      "caseId": "huntsman-weapon-case",
+      "filename": "Huntsman_Weapon_Case.json",
+      "displayName": "Huntsman Weapon Case",
+      "requiresKey": true
+    },
+    "kilowatt": {
+      "caseId": "kilowatt-case",
+      "filename": "Kilowatt_Case.json",
+      "displayName": "Kilowatt Case",
+      "requiresKey": true
+    },
+    "bravo": {
+      "caseId": "operation-bravo-case",
+      "filename": "Operation_Bravo_Case.json",
+      "displayName": "Operation Bravo Case",
+      "requiresKey": true
+    },
+    "breakout": {
+      "caseId": "operation-breakout-weapon-case",
+      "filename": "Operation_Breakout_Weapon_Case.json",
+      "displayName": "Operation Breakout Weapon Case",
+      "requiresKey": true
+    },
+    "brokenfang": {
+      "caseId": "operation-broken-fang-case",
+      "filename": "Operation_Broken_Fang_Case.json",
+      "displayName": "Operation Broken Fang Case",
+      "requiresKey": true
+    },
+    "hydra": {
+      "caseId": "operation-hydra-case",
+      "filename": "Operation_Hydra_Case.json",
+      "displayName": "Operation Hydra Case",
+      "requiresKey": true
+    },
+    "phoenix": {
+      "caseId": "operation-phoenix-weapon-case",
+      "filename": "Operation_Phoenix_Weapon_Case.json",
+      "displayName": "Operation Phoenix Weapon Case",
+      "requiresKey": true
+    },
+    "riptide": {
+      "caseId": "operation-riptide-case",
+      "filename": "Operation_Riptide_Case.json",
+      "displayName": "Operation Riptide Case",
+      "requiresKey": true
+    },
+    "vanguard": {
+      "caseId": "operation-vanguard-weapon-case",
+      "filename": "Operation_Vanguard_Weapon_Case.json",
+      "displayName": "Operation Vanguard Weapon Case",
+      "requiresKey": true
+    },
+    "wildfire": {
+      "caseId": "operation-wildfire-case",
+      "filename": "Operation_Wildfire_Case.json",
+      "displayName": "Operation Wildfire Case",
+      "requiresKey": true
+    },
+    "shatteredweb": {
+      "caseId": "shattered-web-case",
+      "filename": "Shattered_Web_Case.json",
+      "displayName": "Shattered Web Case",
+      "requiresKey": true
+    },
+    "prisma": {
+      "caseId": "prisma-case",
+      "filename": "Prisma_Case.json",
+      "displayName": "Prisma Case",
+      "requiresKey": true
+    },
+    "prisma2": {
+      "caseId": "prisma-2-case",
+      "filename": "Prisma_2_Case.json",
+      "displayName": "Prisma 2 Case",
+      "requiresKey": true
+    },
+    "recoil": {
+      "caseId": "recoil-case",
+      "filename": "Recoil_Case.json",
+      "displayName": "Recoil Case",
+      "requiresKey": true
+    },
+    "revolution": {
+      "caseId": "revolution-case",
+      "filename": "Revolution_Case.json",
+      "displayName": "Revolution Case",
+      "requiresKey": true
+    },
+    "revolver": {
+      "caseId": "revolver-case",
+      "filename": "Revolver_Case.json",
+      "displayName": "Revolver Case",
+      "requiresKey": true
+    },
+    "shadow": {
+      "caseId": "shadow-case",
+      "filename": "Shadow_Case.json",
+      "displayName": "Shadow Case",
+      "requiresKey": true
+    },
+    "snakebite": {
+      "caseId": "snakebite-case",
+      "filename": "Snakebite_Case.json",
+      "displayName": "Snakebite Case",
+      "requiresKey": true
+    },
+    "spectrum": {
+      "caseId": "spectrum-case",
+      "filename": "Spectrum_Case.json",
+      "displayName": "Spectrum Case",
+      "requiresKey": true
+    },
+    "spectrum2": {
+      "caseId": "spectrum-2-case",
+      "filename": "Spectrum_2_Case.json",
+      "displayName": "Spectrum 2 Case",
+      "requiresKey": true
+    },
+    "winter": {
+      "caseId": "winter-offensive-weapon-case",
+      "filename": "Winter_Offensive_Weapon_Case.json",
+      "displayName": "Winter Offensive Weapon Case",
+      "requiresKey": true
+    },
+    "csgo1": {
+      "caseId": "csgo-weapon-case",
+      "filename": "CS_GO_Weapon_Case.json",
+      "displayName": "CS:GO Weapon Case",
+      "requiresKey": true
+    },
+    "csgo2": {
+      "caseId": "csgo-weapon-case-2",
+      "filename": "CS_GO_Weapon_Case_2.json",
+      "displayName": "CS:GO Weapon Case 2",
+      "requiresKey": true
+    },
+    "csgo3": {
+      "caseId": "csgo-weapon-case-3",
+      "filename": "CS_GO_Weapon_Case_3.json",
+      "displayName": "CS:GO Weapon Case 3",
+      "requiresKey": true
+    },
+    "anubis": {
+      "caseId": "anubis-collection-package",
+      "filename": "Anubis_Collection_Package.json",
+      "displayName": "Anubis Collection Package",
+      "requiresKey": false
+    },
+    "xray": {
+      "caseId": "x-ray-p250-package",
+      "filename": "X_Ray_P250_Package.json",
+      "displayName": "X-Ray P250 Package",
+      "requiresKey": false
+    }
+  }
+}
