@@ -2,181 +2,43 @@
  * TCSGO Commit: Buy Key
  * ======================
  * 
- * Lumia Custom JavaScript Command
- * 
- * INPUT (via extraSettings or message parsing):
- *   - platform: string (e.g., "twitch")
- *   - username: string
- *   - keyId: string (default "default")
- *   - qty: number (default 1)
- *   - eventId: string (optional, for idempotency)
- * 
- * OUTPUT (returned to overlay):
- *   {
- *     type: "buykey-result",
- *     ok: true/false,
- *     data?: { keyId, qty, newCount },
- *     error?: { code, message }
- *   }
- * 
- * SETUP:
- *   1. Create Lumia Custom JavaScript command named "tcsgo-buykey"
- *   2. Paste this entire file into the JavaScript tab
- *   3. Configure trigger (chat command, etc.)
- *   4. UPDATE basePath below to match your system!
- * 
- * MANUAL TEST:
- *   Input: { platform: "twitch", username: "testuser", keyId: "default", qty: 5 }
- *   Expected: Adds 5 default keys to testuser's inventory
+ * PORTABLE SETUP: Set Lumia working dir to TCSGO root, OR set TCSGO_BASE below.
  */
 
-// =============================================================================
-// CONFIGURATION - UPDATE THIS!
-// =============================================================================
+const TCSGO_BASE = '';  // e.g., '/Users/nike/Github/TCSGO'
 
 const CONFIG = {
-    basePath: '/Users/nike/Github/TCSGO',
-    paths: {
-        inventories: 'data/inventories.json'
-    }
+    basePath: TCSGO_BASE,
+    paths: { inventories: 'data/inventories.json' }
 };
 
-// =============================================================================
-// UTILITY FUNCTIONS (copied from tcsgo-core.js)
-// =============================================================================
-
-function buildPath(relativePath) {
-    const base = CONFIG.basePath.replace(/\\/g, '/');
-    const rel = relativePath.replace(/\\/g, '/');
-    return `${base}/${rel}`;
-}
-
-async function loadJson(relativePath) {
-    try {
-        const fullPath = buildPath(relativePath);
-        const content = await readFile(fullPath);
-        return JSON.parse(content);
-    } catch (e) {
-        log(`[TCSGO] loadJson error: ${e.message}`);
-        return null;
-    }
-}
-
-async function saveJson(relativePath, data) {
-    try {
-        const fullPath = buildPath(relativePath);
-        const json = JSON.stringify(data, null, 2);
-        await writeFile(fullPath, json);
-        return true;
-    } catch (e) {
-        log(`[TCSGO] saveJson error: ${e.message}`);
-        return false;
-    }
-}
-
-function buildUserKey(platform, username) {
-    return `${platform.toLowerCase()}:${username.toLowerCase()}`;
-}
-
-function getOrCreateUser(inventories, userKey) {
-    if (!inventories.users[userKey]) {
-        inventories.users[userKey] = {
-            userKey: userKey,
-            createdAt: new Date().toISOString(),
-            chosenCoins: 0,
-            cases: {},
-            keys: {},
-            items: [],
-            pendingSell: null
-        };
-    }
-    return inventories.users[userKey];
-}
-
-function addKeys(user, keyId, qty) {
-    if (!user.keys[keyId]) {
-        user.keys[keyId] = 0;
-    }
-    user.keys[keyId] += qty;
-}
-
-function successResponse(type, data) {
-    return {
-        type: type,
-        ok: true,
-        timestamp: new Date().toISOString(),
-        data: data
-    };
-}
-
-function errorResponse(type, code, message, details = null) {
-    return {
-        type: type,
-        ok: false,
-        timestamp: new Date().toISOString(),
-        error: { code, message, details }
-    };
-}
-
-// =============================================================================
-// MAIN COMMAND LOGIC
-// =============================================================================
+function buildPath(rel) { const b = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, ''); const r = rel.replace(/\\/g, '/').replace(/^\//, ''); return b ? `${b}/${r}` : r; }
+async function loadJson(rel) { try { return JSON.parse(await readFile(buildPath(rel))); } catch (e) { log(`[TCSGO] loadJson: ${e.message}`); return null; } }
+async function saveJson(rel, data) { try { await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); return true; } catch (e) { log(`[TCSGO] saveJson: ${e.message}`); return false; } }
+function buildUserKey(p, u) { return `${p.toLowerCase()}:${u.toLowerCase()}`; }
+function getOrCreateUser(inv, key) { if (!inv.users[key]) inv.users[key] = { userKey: key, createdAt: new Date().toISOString(), chosenCoins: 0, cases: {}, keys: {}, items: [], pendingSell: null }; return inv.users[key]; }
+function successResponse(t, d) { return { type: t, ok: true, timestamp: new Date().toISOString(), data: d }; }
+function errorResponse(t, c, m, det = null) { return { type: t, ok: false, timestamp: new Date().toISOString(), error: { code: c, message: m, details: det } }; }
 
 async function main() {
-    const RESPONSE_TYPE = 'buykey-result';
-    
-    // Parse input from Lumia variables
+    const RT = 'buykey-result';
     const platform = '{{platform}}' !== '{{' + 'platform}}' ? '{{platform}}' : 'twitch';
     const username = '{{username}}' !== '{{' + 'username}}' ? '{{username}}' : null;
     const keyId = '{{keyId}}' !== '{{' + 'keyId}}' ? '{{keyId}}' : 'default';
-    const qtyStr = '{{qty}}' !== '{{' + 'qty}}' ? '{{qty}}' : '1';
-    const qty = Math.max(1, parseInt(qtyStr, 10) || 1);
+    const qty = Math.max(1, parseInt('{{qty}}' !== '{{' + 'qty}}' ? '{{qty}}' : '1', 10) || 1);
     
-    // Validate input
-    if (!username) {
-        const result = errorResponse(RESPONSE_TYPE, 'MISSING_USERNAME', 'Username is required');
-        log(JSON.stringify(result));
-        done();
-        return;
-    }
+    if (!username) { log(JSON.stringify(errorResponse(RT, 'MISSING_USERNAME', 'Username required'))); done(); return; }
     
-    // Load inventories
-    const inventories = await loadJson(CONFIG.paths.inventories);
-    if (!inventories) {
-        const result = errorResponse(RESPONSE_TYPE, 'LOAD_ERROR', 'Failed to load inventories');
-        log(JSON.stringify(result));
-        done();
-        return;
-    }
+    const inv = await loadJson(CONFIG.paths.inventories);
+    if (!inv) { log(JSON.stringify(errorResponse(RT, 'LOAD_ERROR', 'Failed to load inventories'))); done(); return; }
     
-    // Get/create user and add keys
-    const userKey = buildUserKey(platform, username);
-    const user = getOrCreateUser(inventories, userKey);
+    const user = getOrCreateUser(inv, buildUserKey(platform, username));
+    user.keys[keyId] = (user.keys[keyId] || 0) + qty;
+    inv.lastModified = new Date().toISOString();
     
-    addKeys(user, keyId, qty);
+    if (!await saveJson(CONFIG.paths.inventories, inv)) { log(JSON.stringify(errorResponse(RT, 'SAVE_ERROR', 'Save failed'))); done(); return; }
     
-    const newCount = user.keys[keyId];
-    
-    // Save inventories
-    inventories.lastModified = new Date().toISOString();
-    const saved = await saveJson(CONFIG.paths.inventories, inventories);
-    
-    if (!saved) {
-        const result = errorResponse(RESPONSE_TYPE, 'SAVE_ERROR', 'Failed to save inventories');
-        log(JSON.stringify(result));
-        done();
-        return;
-    }
-    
-    // Success response
-    const result = successResponse(RESPONSE_TYPE, {
-        userKey: userKey,
-        keyId: keyId,
-        qty: qty,
-        newCount: newCount
-    });
-    
-    log(JSON.stringify(result));
+    log(JSON.stringify(successResponse(RT, { userKey: user.userKey, keyId, qty, newCount: user.keys[keyId] })));
     done();
 }
 

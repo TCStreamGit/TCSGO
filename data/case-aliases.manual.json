@@ -1,0 +1,9 @@
+{
+  "description": "Manual alias overrides - these always win over auto-generated aliases",
+  "aliases": {
+    "c2": { "caseId": "chroma-2-case" },
+    "c3": { "caseId": "chroma-3-case" },
+    "cs20": { "caseId": "cs20-case" },
+    "dz": { "caseId": "danger-zone-case" }
+  }
+}

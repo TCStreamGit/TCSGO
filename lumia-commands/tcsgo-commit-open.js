@@ -2,462 +2,86 @@
  * TCSGO Commit: Open Case
  * ========================
  * 
- * Lumia Custom JavaScript Command
- * 
- * INPUT (via extraSettings or message parsing):
- *   - platform: string (e.g., "twitch")
- *   - username: string
- *   - alias: string (case alias like "chroma")
- *   - eventId: string (optional, for idempotency)
- * 
- * OUTPUT (returned to overlay):
- *   {
- *     type: "open-result",
- *     ok: true/false,
- *     data?: {
- *       winner: { oid, itemId, displayName, rarity, category, statTrak, wear, variant },
- *       imagePath: "Assets/...",
- *       priceSnapshot: { cad, chosenCoins },
- *       acquiredAt, lockedUntil,
- *       newCounts: { cases: {}, keys: {} }
- *     },
- *     error?: { code, message }
- *   }
- * 
- * BEHAVIOR:
- *   - Validates user owns case + (if required) key
- *   - Loads case JSON from Case-Odds folder
- *   - Rolls winner using true odds from JSON
- *   - Consumes case + key from inventory
- *   - Creates item with 7-day trade lock
- *   - Uses image path from case JSON (already patched by asset system)
- *   - Gets price from prices.json with rarity fallback
- * 
- * SETUP:
- *   1. Create Lumia Custom JavaScript command named "tcsgo-open"
- *   2. Paste this entire file into the JavaScript tab
- *   3. UPDATE basePath below to match your system!
- * 
- * MANUAL TEST:
- *   Input: { platform: "twitch", username: "testuser", alias: "chroma" }
- *   Pre-condition: testuser has >= 1 chroma-case and >= 1 default key
- *   Expected: Opens case, consumes items, adds won item to inventory
+ * PORTABLE SETUP: Set Lumia working dir to TCSGO root, OR set TCSGO_BASE below.
  */
 
-// =============================================================================
-// CONFIGURATION - UPDATE THIS!
-// =============================================================================
+const TCSGO_BASE = '';  // e.g., '/Users/nike/Github/TCSGO'
 
 const CONFIG = {
-    basePath: '/Users/nike/Github/TCSGO',
-    paths: {
-        inventories: 'data/inventories.json',
-        aliases: 'data/case-aliases.json',
-        prices: 'data/prices.json',
-        caseOdds: 'Case-Odds'
-    },
+    basePath: TCSGO_BASE,
+    paths: { inventories: 'data/inventories.json', aliases: 'data/case-aliases.json', prices: 'data/prices.json', caseOdds: 'Case-Odds' },
     tradeLockDays: 7,
-    wearTable: [
-        { name: 'Factory New', weight: 3 },
-        { name: 'Minimal Wear', weight: 24 },
-        { name: 'Field-Tested', weight: 33 },
-        { name: 'Well-Worn', weight: 24 },
-        { name: 'Battle-Scarred', weight: 16 }
-    ]
+    wearTable: [{ name: 'Factory New', weight: 3 }, { name: 'Minimal Wear', weight: 24 }, { name: 'Field-Tested', weight: 33 }, { name: 'Well-Worn', weight: 24 }, { name: 'Battle-Scarred', weight: 16 }]
 };
+const WEAR_TOTAL = CONFIG.wearTable.reduce((s, w) => s + w.weight, 0);
 
-const WEAR_TOTAL = CONFIG.wearTable.reduce((sum, w) => sum + w.weight, 0);
+function buildPath(rel) { const b = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, ''); const r = rel.replace(/\\/g, '/').replace(/^\//, ''); return b ? `${b}/${r}` : r; }
+async function loadJson(rel) { try { return JSON.parse(await readFile(buildPath(rel))); } catch (e) { log(`[TCSGO] loadJson: ${e.message}`); return null; } }
+async function saveJson(rel, data) { try { await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); return true; } catch (e) { log(`[TCSGO] saveJson: ${e.message}`); return false; } }
+function buildUserKey(p, u) { return `${p.toLowerCase()}:${u.toLowerCase()}`; }
+function getOrCreateUser(inv, key) { if (!inv.users[key]) inv.users[key] = { userKey: key, createdAt: new Date().toISOString(), chosenCoins: 0, cases: {}, keys: {}, items: [], pendingSell: null }; return inv.users[key]; }
+function removeCases(u, id, q) { const c = u.cases[id] || 0; if (c < q) return false; u.cases[id] = c - q; if (!u.cases[id]) delete u.cases[id]; return true; }
+function removeKeys(u, id, q) { const c = u.keys[id] || 0; if (c < q) return false; u.keys[id] = c - q; if (!u.keys[id]) delete u.keys[id]; return true; }
+function generateOid() { return `oid_${Date.now().toString(36)}_${Math.random().toString(36).substring(2, 11)}`; }
+function enforceLock(at) { return new Date(new Date(at).getTime() + CONFIG.tradeLockDays * 86400000).toISOString(); }
+function rollWear() { let r = Math.random() * WEAR_TOTAL; for (const w of CONFIG.wearTable) { r -= w.weight; if (r <= 0) return w.name; } return CONFIG.wearTable[0].name; }
 
-// =============================================================================
-// UTILITY FUNCTIONS (copied from tcsgo-core.js)
-// =============================================================================
-
-function buildPath(relativePath) {
-    const base = CONFIG.basePath.replace(/\\/g, '/');
-    const rel = relativePath.replace(/\\/g, '/');
-    return `${base}/${rel}`;
+function rollCaseFromJson(cj) {
+    const cd = cj.case, unit = BigInt(cj.unit?.scale || 1e12), ow = cd.oddsWeights || {};
+    const tr = BigInt(Math.floor(Math.random() * Number(unit)));
+    let cum = 0n, selTier = null;
+    for (const [t, w] of Object.entries(ow)) { cum += BigInt(w); if (tr < cum) { selTier = t; break; } }
+    if (!selTier) selTier = Object.keys(ow)[0];
+    let items = selTier === 'gold' && cd.goldPool?.items ? cd.goldPool.items : cd.tiers?.[selTier] || [];
+    if (!items.length) return null;
+    const iw = items.map(i => ({ item: i, weight: BigInt(i.weights?.base || 1) }));
+    const tt = iw.reduce((s, x) => s + x.weight, 0n), ir = BigInt(Math.floor(Math.random() * Number(tt)));
+    let ic = 0n, si = items[0];
+    for (const { item, weight } of iw) { ic += weight; if (ir < ic) { si = item; break; } }
+    let st = false;
+    if (si.statTrakEligible && cd.supportsStatTrak) { const sw = BigInt(si.weights?.statTrak || 0), nw = BigInt(si.weights?.nonStatTrak || 0), tw = sw + nw; if (tw > 0n && sw > 0n) st = BigInt(Math.floor(Math.random() * Number(tw))) < sw; }
+    return { item: si, tier: selTier, statTrak: st, wear: rollWear() };
 }
 
-async function loadJson(relativePath) {
-    try {
-        const fullPath = buildPath(relativePath);
-        const content = await readFile(fullPath);
-        return JSON.parse(content);
-    } catch (e) {
-        log(`[TCSGO] loadJson error for ${relativePath}: ${e.message}`);
-        return null;
-    }
-}
-
-async function saveJson(relativePath, data) {
-    try {
-        const fullPath = buildPath(relativePath);
-        const json = JSON.stringify(data, null, 2);
-        await writeFile(fullPath, json);
-        return true;
-    } catch (e) {
-        log(`[TCSGO] saveJson error: ${e.message}`);
-        return false;
-    }
-}
-
-function buildUserKey(platform, username) {
-    return `${platform.toLowerCase()}:${username.toLowerCase()}`;
-}
-
-function getOrCreateUser(inventories, userKey) {
-    if (!inventories.users[userKey]) {
-        inventories.users[userKey] = {
-            userKey: userKey,
-            createdAt: new Date().toISOString(),
-            chosenCoins: 0,
-            cases: {},
-            keys: {},
-            items: [],
-            pendingSell: null
-        };
-    }
-    return inventories.users[userKey];
-}
-
-function removeCases(user, caseId, qty) {
-    const current = user.cases[caseId] || 0;
-    if (current < qty) return false;
-    user.cases[caseId] = current - qty;
-    if (user.cases[caseId] === 0) delete user.cases[caseId];
-    return true;
-}
-
-function removeKeys(user, keyId, qty) {
-    const current = user.keys[keyId] || 0;
-    if (current < qty) return false;
-    user.keys[keyId] = current - qty;
-    if (user.keys[keyId] === 0) delete user.keys[keyId];
-    return true;
-}
-
-function generateOid() {
-    const ts = Date.now().toString(36);
-    const rand = Math.random().toString(36).substring(2, 11);
-    return `oid_${ts}_${rand}`;
-}
-
-function enforceLock(acquiredAt) {
-    const acquired = new Date(acquiredAt);
-    const lockMs = CONFIG.tradeLockDays * 24 * 60 * 60 * 1000;
-    const lockedUntil = new Date(acquired.getTime() + lockMs);
-    return lockedUntil.toISOString();
-}
-
-function rollWear() {
-    let roll = Math.random() * WEAR_TOTAL;
-    for (const w of CONFIG.wearTable) {
-        roll -= w.weight;
-        if (roll <= 0) return w.name;
-    }
-    return CONFIG.wearTable[0].name;
-}
-
-function rollCaseFromJson(caseJson) {
-    const caseData = caseJson.case;
-    const unit = BigInt(caseJson.unit?.scale || 1000000000000);
-    
-    // Roll for tier
-    const oddsWeights = caseData.oddsWeights || {};
-    const tierRoll = BigInt(Math.floor(Math.random() * Number(unit)));
-    
-    let cumulative = BigInt(0);
-    let selectedTier = null;
-    
-    for (const [tier, weight] of Object.entries(oddsWeights)) {
-        cumulative += BigInt(weight);
-        if (tierRoll < cumulative) {
-            selectedTier = tier;
-            break;
-        }
-    }
-    
-    if (!selectedTier) {
-        selectedTier = Object.keys(oddsWeights)[0];
-    }
-    
-    // Get tier items
-    let tierItems = [];
-    if (selectedTier === 'gold') {
-        const goldPool = caseData.goldPool;
-        if (goldPool && goldPool !== 'None' && Array.isArray(goldPool.items)) {
-            tierItems = goldPool.items;
-        }
-    } else if (caseData.tiers && Array.isArray(caseData.tiers[selectedTier])) {
-        tierItems = caseData.tiers[selectedTier];
-    }
-    
-    if (tierItems.length === 0) {
-        log(`[TCSGO] No items in tier: ${selectedTier}`);
-        return null;
-    }
-    
-    // Roll for item within tier
-    const itemsWithWeights = tierItems.map(item => ({
-        item,
-        weight: BigInt(item.weights?.base || 1)
-    }));
-    
-    const tierTotal = itemsWithWeights.reduce((sum, i) => sum + i.weight, BigInt(0));
-    const itemRoll = BigInt(Math.floor(Math.random() * Number(tierTotal)));
-    
-    let itemCumulative = BigInt(0);
-    let selectedItem = tierItems[0];
-    
-    for (const { item, weight } of itemsWithWeights) {
-        itemCumulative += weight;
-        if (itemRoll < itemCumulative) {
-            selectedItem = item;
-            break;
-        }
-    }
-    
-    // Determine StatTrak
-    let isStatTrak = false;
-    if (selectedItem.statTrakEligible && caseData.supportsStatTrak) {
-        const stWeight = BigInt(selectedItem.weights?.statTrak || 0);
-        const nonStWeight = BigInt(selectedItem.weights?.nonStatTrak || 0);
-        const totalStWeight = stWeight + nonStWeight;
-        
-        if (totalStWeight > BigInt(0) && stWeight > BigInt(0)) {
-            const stRoll = BigInt(Math.floor(Math.random() * Number(totalStWeight)));
-            isStatTrak = stRoll < stWeight;
-        }
-    }
-    
-    // Roll wear
-    const wear = rollWear();
-    
-    return {
-        item: selectedItem,
-        tier: selectedTier,
-        statTrak: isStatTrak,
-        wear: wear
-    };
-}
-
-function getPriceSnapshot(prices, item, wear, statTrak) {
-    const rarity = item.rarity || 'mil-spec';
-    
-    // Try item-specific price first
-    const itemPrices = prices.itemVariantPrices?.[item.itemId];
-    if (itemPrices && itemPrices[wear]) {
-        const variantPrice = statTrak ? itemPrices[wear].statTrak : itemPrices[wear].normal;
-        if (variantPrice !== undefined) {
-            return { cad: variantPrice, chosenCoins: Math.round(variantPrice * prices.cadToCoins) };
-        }
-    }
-    
-    // Fallback to rarity price
-    const fallback = prices.rarityFallbackPrices?.[rarity];
-    if (!fallback) {
-        return { cad: 0.10, chosenCoins: 100 };
-    }
-    
-    let baseCad = fallback.cad;
-    const wearMult = prices.wearMultipliers?.[wear] || 1.0;
-    baseCad *= wearMult;
-    if (statTrak) baseCad *= prices.statTrakMultiplier || 2.0;
-    
-    return {
-        cad: Math.round(baseCad * 100) / 100,
-        chosenCoins: Math.round(baseCad * prices.cadToCoins)
-    };
-}
-
-function selectRandomImage(item) {
-    const images = [item.image];
-    if (Array.isArray(item.imageAlternates)) {
-        images.push(...item.imageAlternates);
-    }
-    const validImages = images.filter(img => img);
-    if (validImages.length === 0) return null;
-    return validImages[Math.floor(Math.random() * validImages.length)];
-}
-
-function successResponse(type, data) {
-    return { type, ok: true, timestamp: new Date().toISOString(), data };
-}
-
-function errorResponse(type, code, message, details = null) {
-    return { type, ok: false, timestamp: new Date().toISOString(), error: { code, message, details } };
-}
-
-// =============================================================================
-// MAIN COMMAND LOGIC
-// =============================================================================
+function selectRandomImage(item) { const imgs = [item.image, ...(item.imageAlternates || [])].filter(Boolean); return imgs.length ? imgs[Math.floor(Math.random() * imgs.length)] : null; }
+function getPriceSnapshot(pr, item, wear, st) { const r = item.rarity || 'mil-spec', fb = pr.rarityFallbackPrices?.[r]; if (!fb) return { cad: 0.1, chosenCoins: 100 }; let c = fb.cad * (pr.wearMultipliers?.[wear] || 1); if (st) c *= pr.statTrakMultiplier || 2; return { cad: Math.round(c * 100) / 100, chosenCoins: Math.round(c * pr.cadToCoins) }; }
+function successResponse(t, d) { return { type: t, ok: true, timestamp: new Date().toISOString(), data: d }; }
+function errorResponse(t, c, m, det = null) { return { type: t, ok: false, timestamp: new Date().toISOString(), error: { code: c, message: m, details: det } }; }
 
 async function main() {
-    const RESPONSE_TYPE = 'open-result';
-    
-    // Parse input
+    const RT = 'open-result';
     const platform = '{{platform}}' !== '{{' + 'platform}}' ? '{{platform}}' : 'twitch';
     const username = '{{username}}' !== '{{' + 'username}}' ? '{{username}}' : null;
     const alias = '{{alias}}' !== '{{' + 'alias}}' ? '{{alias}}' : '{{message}}';
     
-    // Validate input
-    if (!username) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'MISSING_USERNAME', 'Username is required')));
-        done();
-        return;
-    }
+    if (!username) { log(JSON.stringify(errorResponse(RT, 'MISSING_USERNAME', 'Username required'))); done(); return; }
+    if (!alias) { log(JSON.stringify(errorResponse(RT, 'MISSING_ALIAS', 'Alias required'))); done(); return; }
     
-    if (!alias) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'MISSING_ALIAS', 'Case alias is required')));
-        done();
-        return;
-    }
+    const [aliasData, inv, prices] = await Promise.all([loadJson(CONFIG.paths.aliases), loadJson(CONFIG.paths.inventories), loadJson(CONFIG.paths.prices)]);
+    if (!aliasData || !inv || !prices) { log(JSON.stringify(errorResponse(RT, 'LOAD_ERROR', 'Failed to load data'))); done(); return; }
     
-    // Load all required data
-    const [aliasData, inventories, prices] = await Promise.all([
-        loadJson(CONFIG.paths.aliases),
-        loadJson(CONFIG.paths.inventories),
-        loadJson(CONFIG.paths.prices)
-    ]);
+    const ca = aliasData.aliases[alias.toLowerCase().trim()];
+    if (!ca) { log(JSON.stringify(errorResponse(RT, 'UNKNOWN_ALIAS', `Unknown: ${alias}`))); done(); return; }
     
-    if (!aliasData || !inventories || !prices) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'LOAD_ERROR', 'Failed to load required data files')));
-        done();
-        return;
-    }
+    const { caseId, requiresKey, filename } = ca, keyId = 'default', userKey = buildUserKey(platform, username), user = getOrCreateUser(inv, userKey);
+    if ((user.cases[caseId] || 0) < 1) { log(JSON.stringify(errorResponse(RT, 'NO_CASE', `No ${ca.displayName}`))); done(); return; }
+    if (requiresKey && (user.keys[keyId] || 0) < 1) { log(JSON.stringify(errorResponse(RT, 'NO_KEY', 'Key required'))); done(); return; }
     
-    // Resolve alias
-    const aliasKey = alias.toLowerCase().trim();
-    const caseAlias = aliasData.aliases[aliasKey];
-    if (!caseAlias) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'UNKNOWN_ALIAS', `Unknown case alias: ${alias}`)));
-        done();
-        return;
-    }
+    const caseJson = await loadJson(`${CONFIG.paths.caseOdds}/${filename}`);
+    if (!caseJson) { log(JSON.stringify(errorResponse(RT, 'CASE_NOT_FOUND', `Load failed: ${filename}`))); done(); return; }
     
-    const caseId = caseAlias.caseId;
-    const requiresKey = caseAlias.requiresKey;
-    const caseFilename = caseAlias.filename;
+    const roll = rollCaseFromJson(caseJson);
+    if (!roll) { log(JSON.stringify(errorResponse(RT, 'ROLL_ERROR', 'Roll failed'))); done(); return; }
+    if (!removeCases(user, caseId, 1)) { log(JSON.stringify(errorResponse(RT, 'CONSUME_ERROR', 'Case consume failed'))); done(); return; }
+    if (requiresKey && !removeKeys(user, keyId, 1)) { user.cases[caseId] = (user.cases[caseId] || 0) + 1; log(JSON.stringify(errorResponse(RT, 'CONSUME_ERROR', 'Key consume failed'))); done(); return; }
     
-    // Get user
-    const userKey = buildUserKey(platform, username);
-    const user = getOrCreateUser(inventories, userKey);
+    const at = new Date().toISOString(), ps = getPriceSnapshot(prices, roll.item, roll.wear, roll.statTrak);
+    const oi = { oid: generateOid(), itemId: roll.item.itemId, displayName: roll.item.displayName, rarity: roll.item.rarity, tier: roll.tier, category: roll.item.category || 'weapon', weapon: roll.item.weapon, skin: roll.item.skin, variant: roll.item.variant || 'None', statTrak: roll.statTrak, wear: roll.wear, acquiredAt: at, lockedUntil: enforceLock(at), fromCaseId: caseId, priceSnapshot: ps, imagePath: selectRandomImage(roll.item) };
     
-    // Check user owns case
-    const caseCount = user.cases[caseId] || 0;
-    if (caseCount < 1) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'NO_CASE', `You don't have any ${caseAlias.displayName}`, { caseId, owned: caseCount })));
-        done();
-        return;
-    }
+    user.items.push(oi); inv.lastModified = new Date().toISOString();
+    if (!await saveJson(CONFIG.paths.inventories, inv)) { log(JSON.stringify(errorResponse(RT, 'SAVE_ERROR', 'Save failed'))); done(); return; }
     
-    // Check user owns key (if required)
-    const keyId = 'default';
-    if (requiresKey) {
-        const keyCount = user.keys[keyId] || 0;
-        if (keyCount < 1) {
-            log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'NO_KEY', 'You need a key to open this case', { keyId, owned: keyCount })));
-            done();
-            return;
-        }
-    }
-    
-    // Load case JSON
-    const caseJson = await loadJson(`${CONFIG.paths.caseOdds}/${caseFilename}`);
-    if (!caseJson) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'CASE_NOT_FOUND', `Failed to load case data: ${caseFilename}`)));
-        done();
-        return;
-    }
-    
-    // Roll winner
-    const rollResult = rollCaseFromJson(caseJson);
-    if (!rollResult) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'ROLL_ERROR', 'Failed to roll case')));
-        done();
-        return;
-    }
-    
-    // Consume case and key
-    if (!removeCases(user, caseId, 1)) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'CONSUME_ERROR', 'Failed to consume case')));
-        done();
-        return;
-    }
-    
-    if (requiresKey && !removeKeys(user, keyId, 1)) {
-        // Rollback case
-        if (!user.cases[caseId]) user.cases[caseId] = 0;
-        user.cases[caseId] += 1;
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'CONSUME_ERROR', 'Failed to consume key')));
-        done();
-        return;
-    }
-    
-    // Create owned item
-    const acquiredAt = new Date().toISOString();
-    const lockedUntil = enforceLock(acquiredAt);
-    const priceSnapshot = getPriceSnapshot(prices, rollResult.item, rollResult.wear, rollResult.statTrak);
-    const imagePath = selectRandomImage(rollResult.item);
-    
-    const ownedItem = {
-        oid: generateOid(),
-        itemId: rollResult.item.itemId,
-        displayName: rollResult.item.displayName,
-        rarity: rollResult.item.rarity,
-        tier: rollResult.tier,
-        category: rollResult.item.category || 'weapon',
-        weapon: rollResult.item.weapon,
-        skin: rollResult.item.skin,
-        variant: rollResult.item.variant || 'None',
-        statTrak: rollResult.statTrak,
-        wear: rollResult.wear,
-        acquiredAt: acquiredAt,
-        lockedUntil: lockedUntil,
-        fromCaseId: caseId,
-        priceSnapshot: priceSnapshot,
-        imagePath: imagePath
-    };
-    
-    // Add to user's items
-    user.items.push(ownedItem);
-    
-    // Save inventories
-    inventories.lastModified = new Date().toISOString();
-    const saved = await saveJson(CONFIG.paths.inventories, inventories);
-    
-    if (!saved) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'SAVE_ERROR', 'Failed to save inventory')));
-        done();
-        return;
-    }
-    
-    // Build success response
-    const result = successResponse(RESPONSE_TYPE, {
-        winner: {
-            oid: ownedItem.oid,
-            itemId: ownedItem.itemId,
-            displayName: ownedItem.displayName,
-            rarity: ownedItem.rarity,
-            tier: ownedItem.tier,
-            category: ownedItem.category,
-            weapon: ownedItem.weapon,
-            skin: ownedItem.skin,
-            variant: ownedItem.variant,
-            statTrak: ownedItem.statTrak,
-            wear: ownedItem.wear
-        },
-        imagePath: imagePath,
-        priceSnapshot: priceSnapshot,
-        acquiredAt: acquiredAt,
-        lockedUntil: lockedUntil,
-        newCounts: {
-            cases: { ...user.cases },
-            keys: { ...user.keys }
-        }
-    });
-    
-    log(JSON.stringify(result));
+    log(JSON.stringify(successResponse(RT, { winner: { oid: oi.oid, itemId: oi.itemId, displayName: oi.displayName, rarity: oi.rarity, tier: oi.tier, category: oi.category, weapon: oi.weapon, skin: oi.skin, variant: oi.variant, statTrak: oi.statTrak, wear: oi.wear }, imagePath: oi.imagePath, priceSnapshot: ps, acquiredAt: at, lockedUntil: oi.lockedUntil, newCounts: { cases: { ...user.cases }, keys: { ...user.keys } } })));
     done();
 }
 

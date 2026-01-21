@@ -3,36 +3,18 @@
  * ================
  * 
  * Lumia Custom JavaScript Command
- * Command Name: tcsgo-buycase
  * 
- * INPUT (via extraSettings or message parsing):
- *   - platform: string (e.g., "twitch")
- *   - username: string
- *   - alias: string (case alias like "chroma")
- *   - qty: number (default 1)
- *   - eventId: string (optional, for idempotency)
- * 
- * OUTPUT (returned to overlay):
- *   {
- *     type: "buycase-result",
- *     ok: true/false,
- *     data?: { caseId, qty, newCount, displayName },
- *     error?: { code, message }
- *   }
- * 
- * SETUP:
- *   1. Create Lumia Custom JavaScript command named "tcsgo-buycase"
- *   2. Paste this entire file into the JavaScript tab
- *   3. Configure trigger (chat command, etc.)
- *   4. UPDATE basePath below to match your system!
+ * PORTABLE SETUP:
+ *   Set Lumia working dir to TCSGO root, OR set TCSGO_BASE below.
  */
 
 // =============================================================================
-// CONFIGURATION - UPDATE THIS!
+// PORTABLE CONFIG
 // =============================================================================
+const TCSGO_BASE = '';  // e.g., '/Users/nike/Github/TCSGO'
 
 const CONFIG = {
-    basePath: '/Users/nike/Github/TCSGO',
+    basePath: TCSGO_BASE,
     paths: {
         inventories: 'data/inventories.json',
         aliases: 'data/case-aliases.json'
@@ -44,15 +26,14 @@ const CONFIG = {
 // =============================================================================
 
 function buildPath(relativePath) {
-    const base = CONFIG.basePath.replace(/\\/g, '/');
-    const rel = relativePath.replace(/\\/g, '/');
-    return `${base}/${rel}`;
+    const base = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, '');
+    const rel = relativePath.replace(/\\/g, '/').replace(/^\//, '');
+    return base ? `${base}/${rel}` : rel;
 }
 
 async function loadJson(relativePath) {
     try {
-        const fullPath = buildPath(relativePath);
-        const content = await readFile(fullPath);
+        const content = await readFile(buildPath(relativePath));
         return JSON.parse(content);
     } catch (e) {
         log(`[TCSGO] loadJson error: ${e.message}`);
@@ -62,9 +43,7 @@ async function loadJson(relativePath) {
 
 async function saveJson(relativePath, data) {
     try {
-        const fullPath = buildPath(relativePath);
-        const json = JSON.stringify(data, null, 2);
-        await writeFile(fullPath, json);
+        await writeFile(buildPath(relativePath), JSON.stringify(data, null, 2));
         return true;
     } catch (e) {
         log(`[TCSGO] saveJson error: ${e.message}`);
@@ -79,132 +58,64 @@ function buildUserKey(platform, username) {
 function getOrCreateUser(inventories, userKey) {
     if (!inventories.users[userKey]) {
         inventories.users[userKey] = {
-            userKey: userKey,
-            createdAt: new Date().toISOString(),
-            chosenCoins: 0,
-            cases: {},
-            keys: {},
-            items: [],
-            pendingSell: null
+            userKey, createdAt: new Date().toISOString(),
+            chosenCoins: 0, cases: {}, keys: {}, items: [], pendingSell: null
         };
     }
     return inventories.users[userKey];
 }
 
 function addCases(user, caseId, qty) {
-    if (!user.cases[caseId]) {
-        user.cases[caseId] = 0;
-    }
-    user.cases[caseId] += qty;
+    user.cases[caseId] = (user.cases[caseId] || 0) + qty;
 }
 
 function successResponse(type, data) {
-    return {
-        type: type,
-        ok: true,
-        timestamp: new Date().toISOString(),
-        data: data
-    };
+    return { type, ok: true, timestamp: new Date().toISOString(), data };
 }
 
 function errorResponse(type, code, message, details = null) {
-    return {
-        type: type,
-        ok: false,
-        timestamp: new Date().toISOString(),
-        error: { code, message, details }
-    };
+    return { type, ok: false, timestamp: new Date().toISOString(), error: { code, message, details } };
 }
 
 // =============================================================================
-// MAIN COMMAND LOGIC
+// MAIN
 // =============================================================================
 
 async function main() {
     const RESPONSE_TYPE = 'buycase-result';
     
-    // Parse input from Lumia variables
     const platform = '{{platform}}' !== '{{' + 'platform}}' ? '{{platform}}' : 'twitch';
     const username = '{{username}}' !== '{{' + 'username}}' ? '{{username}}' : null;
     const alias = '{{alias}}' !== '{{' + 'alias}}' ? '{{alias}}' : '{{message}}';
-    const qtyStr = '{{qty}}' !== '{{' + 'qty}}' ? '{{qty}}' : '1';
-    const qty = Math.max(1, parseInt(qtyStr, 10) || 1);
+    const qty = Math.max(1, parseInt('{{qty}}' !== '{{' + 'qty}}' ? '{{qty}}' : '1', 10) || 1);
     
-    // Validate input
-    if (!username) {
-        const result = errorResponse(RESPONSE_TYPE, 'MISSING_USERNAME', 'Username is required');
-        log(JSON.stringify(result));
-        done();
-        return;
-    }
+    if (!username) { log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'MISSING_USERNAME', 'Username required'))); done(); return; }
+    if (!alias) { log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'MISSING_ALIAS', 'Case alias required'))); done(); return; }
     
-    if (!alias) {
-        const result = errorResponse(RESPONSE_TYPE, 'MISSING_ALIAS', 'Case alias is required');
-        log(JSON.stringify(result));
-        done();
-        return;
-    }
-    
-    // Load aliases
     const aliasData = await loadJson(CONFIG.paths.aliases);
-    if (!aliasData) {
-        const result = errorResponse(RESPONSE_TYPE, 'LOAD_ERROR', 'Failed to load case aliases');
-        log(JSON.stringify(result));
-        done();
-        return;
-    }
+    if (!aliasData) { log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'LOAD_ERROR', 'Failed to load aliases'))); done(); return; }
     
-    // Resolve alias
-    const aliasKey = alias.toLowerCase().trim();
-    const caseAlias = aliasData.aliases[aliasKey];
-    if (!caseAlias) {
-        const result = errorResponse(RESPONSE_TYPE, 'UNKNOWN_ALIAS', `Unknown case alias: ${alias}`);
-        log(JSON.stringify(result));
-        done();
-        return;
-    }
+    const caseAlias = aliasData.aliases[alias.toLowerCase().trim()];
+    if (!caseAlias) { log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'UNKNOWN_ALIAS', `Unknown case: ${alias}`))); done(); return; }
     
-    const caseId = caseAlias.caseId;
-    const displayName = caseAlias.displayName;
-    
-    // Load inventories
     const inventories = await loadJson(CONFIG.paths.inventories);
-    if (!inventories) {
-        const result = errorResponse(RESPONSE_TYPE, 'LOAD_ERROR', 'Failed to load inventories');
-        log(JSON.stringify(result));
-        done();
-        return;
-    }
+    if (!inventories) { log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'LOAD_ERROR', 'Failed to load inventories'))); done(); return; }
     
-    // Get/create user and add cases
     const userKey = buildUserKey(platform, username);
     const user = getOrCreateUser(inventories, userKey);
     
-    addCases(user, caseId, qty);
-    
-    const newCount = user.cases[caseId];
-    
-    // Save inventories
+    addCases(user, caseAlias.caseId, qty);
     inventories.lastModified = new Date().toISOString();
-    const saved = await saveJson(CONFIG.paths.inventories, inventories);
     
-    if (!saved) {
-        const result = errorResponse(RESPONSE_TYPE, 'SAVE_ERROR', 'Failed to save inventories');
-        log(JSON.stringify(result));
-        done();
-        return;
+    if (!await saveJson(CONFIG.paths.inventories, inventories)) {
+        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'SAVE_ERROR', 'Failed to save')));
+        done(); return;
     }
     
-    // Success response
-    const result = successResponse(RESPONSE_TYPE, {
-        userKey: userKey,
-        caseId: caseId,
-        displayName: displayName,
-        qty: qty,
-        newCount: newCount
-    });
-    
-    log(JSON.stringify(result));
+    log(JSON.stringify(successResponse(RESPONSE_TYPE, {
+        userKey, caseId: caseAlias.caseId, displayName: caseAlias.displayName,
+        qty, newCount: user.cases[caseAlias.caseId]
+    })));
     done();
 }
 

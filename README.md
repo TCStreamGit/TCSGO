@@ -428,6 +428,36 @@ csgo-weapon-case.json — FAIL
 
 ---
 
+## 17) Build Case Aliases
+
+The alias system maps user-friendly short names (like `c2`, `chroma`) to full case IDs (`chroma-2-case`).
+
+### Generate aliases from Case-Odds JSONs
+
+```bash
+python tools/build_case_aliases.py           # Build aliases
+python tools/build_case_aliases.py --dry-run # Preview without writing
+```
+
+Output: `data/case-aliases.json`
+
+### Manual alias overrides
+
+Edit `data/case-aliases.manual.json` to add custom shorthand aliases:
+
+```json
+{
+  "aliases": {
+    "c2": { "caseId": "chroma-2-case" },
+    "dz": { "caseId": "danger-zone-case" }
+  }
+}
+```
+
+Manual aliases always override auto-generated ones.
+
+---
+
 ## 15) <mark style='background: var(--mk-color-yellow)'>ASSUMPTION</mark> Default odds reference
 
 If exact per-item weights aren’t available, the dataset uses deterministic equal distribution within each tier.

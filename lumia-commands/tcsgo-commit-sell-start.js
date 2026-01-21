@@ -2,264 +2,65 @@
  * TCSGO Commit: Sell Start
  * =========================
  * 
- * Lumia Custom JavaScript Command
- * 
- * INPUT (via extraSettings or message parsing):
- *   - platform: string (e.g., "twitch")
- *   - username: string
- *   - oid: string (owned item ID)
- *   - eventId: string (optional)
- * 
- * OUTPUT (returned to overlay):
- *   {
- *     type: "sell-start-result",
- *     ok: true/false,
- *     data?: { token, oid, expiresAt, item, creditAmount },
- *     error?: { code, message, details }
- *   }
- * 
- * BEHAVIOR:
- *   - Validates item exists and belongs to user
- *   - Checks trade lock (blocks if now < lockedUntil)
- *   - Creates a sell token with 60-second expiration
- *   - Stores pendingSell on user record
- *   - Returns token and item info for confirmation UI
- * 
- * SETUP:
- *   1. Create Lumia Custom JavaScript command named "tcsgo-sell-start"
- *   2. Paste this entire file into the JavaScript tab
- *   3. UPDATE basePath below to match your system!
- * 
- * MANUAL TEST:
- *   Input: { platform: "twitch", username: "testuser", oid: "oid_abc123_xyz" }
- *   Pre-condition: testuser has item with that oid, item is not trade locked
- *   Expected: Creates pendingSell token, returns token for confirmation
+ * PORTABLE SETUP: Set Lumia working dir to TCSGO root, OR set TCSGO_BASE below.
  */
 
-// =============================================================================
-// CONFIGURATION - UPDATE THIS!
-// =============================================================================
+const TCSGO_BASE = '';  // e.g., '/Users/nike/Github/TCSGO'
 
 const CONFIG = {
-    basePath: '/Users/nike/Github/TCSGO',
-    paths: {
-        inventories: 'data/inventories.json',
-        prices: 'data/prices.json'
-    },
+    basePath: TCSGO_BASE,
+    paths: { inventories: 'data/inventories.json', prices: 'data/prices.json' },
     sellTokenExpirationSeconds: 60
 };
 
-// =============================================================================
-// UTILITY FUNCTIONS (copied from tcsgo-core.js)
-// =============================================================================
-
-function buildPath(relativePath) {
-    const base = CONFIG.basePath.replace(/\\/g, '/');
-    const rel = relativePath.replace(/\\/g, '/');
-    return `${base}/${rel}`;
-}
-
-async function loadJson(relativePath) {
-    try {
-        const fullPath = buildPath(relativePath);
-        const content = await readFile(fullPath);
-        return JSON.parse(content);
-    } catch (e) {
-        log(`[TCSGO] loadJson error: ${e.message}`);
-        return null;
-    }
-}
-
-async function saveJson(relativePath, data) {
-    try {
-        const fullPath = buildPath(relativePath);
-        const json = JSON.stringify(data, null, 2);
-        await writeFile(fullPath, json);
-        return true;
-    } catch (e) {
-        log(`[TCSGO] saveJson error: ${e.message}`);
-        return false;
-    }
-}
-
-function buildUserKey(platform, username) {
-    return `${platform.toLowerCase()}:${username.toLowerCase()}`;
-}
-
-function generateSellToken() {
-    const ts = Date.now().toString(36);
-    const rand = Math.random().toString(36).substring(2, 12);
-    return `sell_${ts}_${rand}`;
-}
-
-function checkLock(lockedUntil) {
-    const unlockTime = new Date(lockedUntil).getTime();
-    const now = Date.now();
-    const remainingMs = Math.max(0, unlockTime - now);
-    return {
-        locked: remainingMs > 0,
-        remainingMs: remainingMs,
-        remainingFormatted: formatDuration(remainingMs)
-    };
-}
-
-function formatDuration(ms) {
-    if (ms <= 0) return '0s';
-    const seconds = Math.floor(ms / 1000);
-    const minutes = Math.floor(seconds / 60);
-    const hours = Math.floor(minutes / 60);
-    const days = Math.floor(hours / 24);
-    
-    if (days > 0) return `${days}d ${hours % 24}h`;
-    if (hours > 0) return `${hours}h ${minutes % 60}m`;
-    if (minutes > 0) return `${minutes}m ${seconds % 60}s`;
-    return `${seconds}s`;
-}
-
-function calculateCreditAfterFee(coins, feePercent) {
-    return Math.floor(coins * (1 - feePercent / 100));
-}
-
-function successResponse(type, data) {
-    return { type, ok: true, timestamp: new Date().toISOString(), data };
-}
-
-function errorResponse(type, code, message, details = null) {
-    return { type, ok: false, timestamp: new Date().toISOString(), error: { code, message, details } };
-}
-
-// =============================================================================
-// MAIN COMMAND LOGIC
-// =============================================================================
+function buildPath(rel) { const b = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, ''); const r = rel.replace(/\\/g, '/').replace(/^\//, ''); return b ? `${b}/${r}` : r; }
+async function loadJson(rel) { try { return JSON.parse(await readFile(buildPath(rel))); } catch (e) { log(`[TCSGO] loadJson: ${e.message}`); return null; } }
+async function saveJson(rel, data) { try { await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); return true; } catch (e) { log(`[TCSGO] saveJson: ${e.message}`); return false; } }
+function buildUserKey(p, u) { return `${p.toLowerCase()}:${u.toLowerCase()}`; }
+function generateSellToken() { return `sell_${Date.now().toString(36)}_${Math.random().toString(36).substring(2, 12)}`; }
+function checkLock(lu) { const r = Math.max(0, new Date(lu).getTime() - Date.now()); return { locked: r > 0, remainingMs: r, remainingFormatted: formatDuration(r) }; }
+function formatDuration(ms) { if (ms <= 0) return '0s'; const s = Math.floor(ms / 1000), m = Math.floor(s / 60), h = Math.floor(m / 60), d = Math.floor(h / 24); if (d > 0) return `${d}d ${h % 24}h`; if (h > 0) return `${h}h ${m % 60}m`; if (m > 0) return `${m}m ${s % 60}s`; return `${s}s`; }
+function calculateCreditAfterFee(coins, fee) { return Math.floor(coins * (1 - fee / 100)); }
+function successResponse(t, d) { return { type: t, ok: true, timestamp: new Date().toISOString(), data: d }; }
+function errorResponse(t, c, m, det = null) { return { type: t, ok: false, timestamp: new Date().toISOString(), error: { code: c, message: m, details: det } }; }
 
 async function main() {
-    const RESPONSE_TYPE = 'sell-start-result';
-    
-    // Parse input
+    const RT = 'sell-start-result';
     const platform = '{{platform}}' !== '{{' + 'platform}}' ? '{{platform}}' : 'twitch';
     const username = '{{username}}' !== '{{' + 'username}}' ? '{{username}}' : null;
     const oid = '{{oid}}' !== '{{' + 'oid}}' ? '{{oid}}' : '{{message}}';
     
-    // Validate input
-    if (!username) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'MISSING_USERNAME', 'Username is required')));
-        done();
-        return;
-    }
+    if (!username) { log(JSON.stringify(errorResponse(RT, 'MISSING_USERNAME', 'Username required'))); done(); return; }
+    if (!oid) { log(JSON.stringify(errorResponse(RT, 'MISSING_OID', 'OID required'))); done(); return; }
     
-    if (!oid) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'MISSING_OID', 'Item OID is required')));
-        done();
-        return;
-    }
+    const [inv, prices] = await Promise.all([loadJson(CONFIG.paths.inventories), loadJson(CONFIG.paths.prices)]);
+    if (!inv || !prices) { log(JSON.stringify(errorResponse(RT, 'LOAD_ERROR', 'Failed to load data'))); done(); return; }
     
-    // Load data
-    const [inventories, prices] = await Promise.all([
-        loadJson(CONFIG.paths.inventories),
-        loadJson(CONFIG.paths.prices)
-    ]);
+    const user = inv.users[buildUserKey(platform, username)];
+    if (!user) { log(JSON.stringify(errorResponse(RT, 'USER_NOT_FOUND', 'User not found'))); done(); return; }
     
-    if (!inventories || !prices) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'LOAD_ERROR', 'Failed to load data files')));
-        done();
-        return;
-    }
-    
-    // Get user
-    const userKey = buildUserKey(platform, username);
-    const user = inventories.users[userKey];
-    
-    if (!user) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'USER_NOT_FOUND', 'User not found')));
-        done();
-        return;
-    }
-    
-    // Find item
     const item = user.items.find(i => i.oid === oid);
-    if (!item) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'ITEM_NOT_FOUND', 'Item not found in your inventory', { oid })));
-        done();
-        return;
+    if (!item) { log(JSON.stringify(errorResponse(RT, 'ITEM_NOT_FOUND', 'Item not found', { oid }))); done(); return; }
+    
+    const ls = checkLock(item.lockedUntil);
+    if (ls.locked) { log(JSON.stringify(errorResponse(RT, 'ITEM_LOCKED', `Locked for ${ls.remainingFormatted}`, { lockedUntil: item.lockedUntil }))); done(); return; }
+    
+    if (user.pendingSell && Date.now() < new Date(user.pendingSell.expiresAt).getTime()) {
+        log(JSON.stringify(errorResponse(RT, 'PENDING_SELL_EXISTS', 'Pending sell exists', { existingOid: user.pendingSell.oid })));
+        done(); return;
     }
     
-    // Check trade lock
-    const lockStatus = checkLock(item.lockedUntil);
-    if (lockStatus.locked) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'ITEM_LOCKED', 
-            `Item is trade locked for ${lockStatus.remainingFormatted}`, 
-            { lockedUntil: item.lockedUntil, remainingMs: lockStatus.remainingMs }
-        )));
-        done();
-        return;
-    }
-    
-    // Check for existing pending sell
-    if (user.pendingSell) {
-        const existingExpires = new Date(user.pendingSell.expiresAt).getTime();
-        if (Date.now() < existingExpires) {
-            log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'PENDING_SELL_EXISTS', 
-                'You already have a pending sell. Confirm or wait for it to expire.', 
-                { existingOid: user.pendingSell.oid, expiresAt: user.pendingSell.expiresAt }
-            )));
-            done();
-            return;
-        }
-        // Clear expired pending sell
-        user.pendingSell = null;
-    }
-    
-    // Calculate credit amount
-    const itemPrice = item.priceSnapshot?.chosenCoins || 0;
-    const marketFee = prices.marketFeePercent || 10;
-    const creditAmount = calculateCreditAfterFee(itemPrice, marketFee);
-    
-    // Create sell token
+    const fee = prices.marketFeePercent || 10;
+    const credit = calculateCreditAfterFee(item.priceSnapshot?.chosenCoins || 0, fee);
     const token = generateSellToken();
     const expiresAt = new Date(Date.now() + CONFIG.sellTokenExpirationSeconds * 1000).toISOString();
     
-    user.pendingSell = {
-        token: token,
-        oid: oid,
-        expiresAt: expiresAt,
-        itemSummary: {
-            displayName: item.displayName,
-            rarity: item.rarity,
-            statTrak: item.statTrak,
-            wear: item.wear
-        },
-        creditAmount: creditAmount
-    };
+    user.pendingSell = { token, oid, expiresAt, itemSummary: { displayName: item.displayName, rarity: item.rarity, statTrak: item.statTrak, wear: item.wear }, creditAmount: credit };
+    inv.lastModified = new Date().toISOString();
     
-    // Save
-    inventories.lastModified = new Date().toISOString();
-    const saved = await saveJson(CONFIG.paths.inventories, inventories);
+    if (!await saveJson(CONFIG.paths.inventories, inv)) { log(JSON.stringify(errorResponse(RT, 'SAVE_ERROR', 'Save failed'))); done(); return; }
     
-    if (!saved) {
-        log(JSON.stringify(errorResponse(RESPONSE_TYPE, 'SAVE_ERROR', 'Failed to save data')));
-        done();
-        return;
-    }
-    
-    // Success
-    const result = successResponse(RESPONSE_TYPE, {
-        token: token,
-        oid: oid,
-        expiresAt: expiresAt,
-        expiresInSeconds: CONFIG.sellTokenExpirationSeconds,
-        item: {
-            displayName: item.displayName,
-            rarity: item.rarity,
-            tier: item.tier,
-            statTrak: item.statTrak,
-            wear: item.wear,
-            priceSnapshot: item.priceSnapshot
-        },
-        creditAmount: creditAmount,
-        marketFeePercent: marketFee
-    });
-    
-    log(JSON.stringify(result));
+    log(JSON.stringify(successResponse(RT, { token, oid, expiresAt, expiresInSeconds: CONFIG.sellTokenExpirationSeconds, item: { displayName: item.displayName, rarity: item.rarity, tier: item.tier, statTrak: item.statTrak, wear: item.wear, priceSnapshot: item.priceSnapshot }, creditAmount: credit, marketFeePercent: fee })));
     done();
 }
 
