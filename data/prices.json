@@ -1,10 +1,12 @@
 {
-  "schemaVersion": "1.1-prices",
+  "schemaVersion": "2.0-prices",
   "generatedAt": "2026-01-21T00:00:00Z",
   "currency": "CAD",
   "cadToCoins": 1000,
   "marketFeePercent": 10,
   "tradeLockDays": 7,
+  "lastBootRefreshAt": null,
+  "lastFullRefreshAt": null,
   "cases": {
     "chroma-case": 2.00,
     "chroma-2-case": 1.50,
@@ -61,6 +63,7 @@
     "consumer": { "cad": 0.03, "coins": 30 },
     "industrial": { "cad": 0.05, "coins": 50 },
     "mil-spec": { "cad": 0.10, "coins": 100 },
+    "milspec": { "cad": 0.10, "coins": 100 },
     "restricted": { "cad": 0.50, "coins": 500 },
     "classified": { "cad": 2.50, "coins": 2500 },
     "covert": { "cad": 15.00, "coins": 15000 },
@@ -79,15 +82,20 @@
     "Battle-Scarred": 0.6
   },
   "statTrakMultiplier": 2.0,
-  "itemVariantPrices": {},
+  "items": {},
   "notes": [
+    "schemaVersion 2.0-prices: Added items dict for priceKey-based lookups",
+    "priceKey format: \"itemId|wear|statTrak01|variant\"",
+    "Example: \"ak-47-elite-build|Factory New|1|None\"",
     "All prices in CAD. cadToCoins defines conversion rate (1 CAD = 1000 coins).",
     "Keys use a flat default price. Souvenir packages do not require keys.",
     "marketFeePercent is applied to seller proceeds (credited = price * (1 - fee/100)).",
     "tradeLockDays determines how long items are locked after acquisition.",
-    "rarityFallbackPrices used when specific item price not found.",
+    "rarityFallbackPrices used when specific item price not found in items dict.",
     "wearMultipliers adjust base price by condition.",
-    "statTrakMultiplier doubles price for StatTrak items.",
-    "itemVariantPrices can override specific items: { itemId: { wear: { statTrak: cad } } }"
+    "statTrakMultiplier multiplies price for StatTrak items (default 2.0).",
+    "lastBootRefreshAt: timestamp of last price refresh on VM boot",
+    "lastFullRefreshAt: timestamp of last full weekly price refresh",
+    "items dict populated by external price refresh script, not Lumia commands"
   ]
 }
