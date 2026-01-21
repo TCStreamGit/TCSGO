@@ -61,7 +61,12 @@
             "base": "1.000000000000000000",
             "nonStatTrak": "0.900000000000000000",
             "statTrak": "0.100000000000000000"
-          }
+          },
+          "image": "Assets/Cases/X-Ray-P250-Package/Weapons/x-ray-p250-package--restricted--p250-x-ray.png",
+          "imageAlternates": [
+            "Assets/Cases/X-Ray-P250-Package/Weapons/x-ray-p250-package--restricted--p250-x-ray--02.png",
+            "Assets/Cases/X-Ray-P250-Package/Weapons/x-ray-p250-package--restricted--p250-x-ray--03.png"
+          ]
         }
       ],
       "pink": [],
@@ -75,7 +80,8 @@
         "https://counterstrike.fandom.com/wiki/Counter-Strike%3A_Global_Offensive_patches/October_2%2C_2019"
       ],
       "items": []
-    }
+    },
+    "image": "Assets/Cases/X-Ray-P250-Package/Icons/x-ray-p250-package--icon.png"
   },
   "audit": {
     "tierCounts": {

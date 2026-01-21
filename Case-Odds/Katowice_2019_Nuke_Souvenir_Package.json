@@ -87,7 +87,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--p250-facility-draft.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--p250-facility-draft--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--p250-facility-draft--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--p250-facility-draft--04.png"
+          ]
         },
         {
           "itemId": "ump-45-facility-dark-souvenir",
@@ -110,7 +116,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--ump-45-facility-dark.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--ump-45-facility-dark--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--ump-45-facility-dark--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--ump-45-facility-dark--04.png"
+          ]
         },
         {
           "itemId": "five-seven-coolant-souvenir",
@@ -133,7 +145,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--five-seven-coolant.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--five-seven-coolant--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--five-seven-coolant--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--five-seven-coolant--04.png"
+          ]
         },
         {
           "itemId": "nova-mandrel-souvenir",
@@ -156,7 +174,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--nova-mandrel.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--nova-mandrel--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--nova-mandrel--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--nova-mandrel--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-facility-sketch-souvenir",
@@ -179,7 +203,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--pp-bizon-facility-sketch.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--pp-bizon-facility-sketch--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--pp-bizon-facility-sketch--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--consumer--pp-bizon-facility-sketch--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -204,7 +234,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--m4a4-mainframe.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--m4a4-mainframe--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--m4a4-mainframe--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--m4a4-mainframe--04.png"
+          ]
         },
         {
           "itemId": "galil-ar-cold-fusion-souvenir",
@@ -227,7 +263,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--galil-ar-cold-fusion.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--galil-ar-cold-fusion--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--galil-ar-cold-fusion--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--galil-ar-cold-fusion--04.png"
+          ]
         },
         {
           "itemId": "mp7-motherboard-souvenir",
@@ -250,7 +292,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--mp7-motherboard.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--mp7-motherboard--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--mp7-motherboard--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--mp7-motherboard--04.png"
+          ]
         },
         {
           "itemId": "negev-bulkhead-souvenir",
@@ -273,7 +321,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--negev-bulkhead.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--negev-bulkhead--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--negev-bulkhead--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--industrial--negev-bulkhead--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -298,7 +352,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--awp-acheron.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--awp-acheron--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--awp-acheron--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--awp-acheron--04.png"
+          ]
         },
         {
           "itemId": "p250-exchanger-souvenir",
@@ -321,7 +381,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--p250-exchanger.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--p250-exchanger--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--p250-exchanger--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--p250-exchanger--04.png"
+          ]
         },
         {
           "itemId": "mp5-sd-co-processor-souvenir",
@@ -344,7 +410,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--mp5-sd-co-processor.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--mp5-sd-co-processor--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--mp5-sd-co-processor--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--mp5-sd-co-processor--04.png"
+          ]
         },
         {
           "itemId": "p90-facility-negative-souvenir",
@@ -367,7 +439,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--p90-facility-negative.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--p90-facility-negative--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--p90-facility-negative--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--milspec--p90-facility-negative--04.png"
+          ]
         }
       ],
       "restricted": [
@@ -392,7 +470,13 @@
             "base": "0.002133333334000000",
             "nonStatTrak": "0.002133333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--restricted--glock-18-nuclear-garden.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--restricted--glock-18-nuclear-garden--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--restricted--glock-18-nuclear-garden--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--restricted--glock-18-nuclear-garden--04.png"
+          ]
         },
         {
           "itemId": "aug-random-access-souvenir",
@@ -415,7 +499,13 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--restricted--aug-random-access.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--restricted--aug-random-access--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--restricted--aug-random-access--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--restricted--aug-random-access--04.png"
+          ]
         },
         {
           "itemId": "mag-7-core-breach-souvenir",
@@ -438,7 +528,13 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--restricted--mag-7-core-breach.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--restricted--mag-7-core-breach--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--restricted--mag-7-core-breach--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--restricted--mag-7-core-breach--04.png"
+          ]
         }
       ],
       "classified": [
@@ -463,7 +559,13 @@
             "base": "0.001300000000000000",
             "nonStatTrak": "0.001300000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--classified--m4a1-s-control-panel.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--classified--m4a1-s-control-panel--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--classified--m4a1-s-control-panel--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--classified--m4a1-s-control-panel--04.png"
+          ]
         },
         {
           "itemId": "tec-9-remote-control-souvenir",
@@ -486,12 +588,19 @@
             "base": "0.001300000000000000",
             "nonStatTrak": "0.001300000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--classified--tec-9-remote-control.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--classified--tec-9-remote-control--02.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--classified--tec-9-remote-control--03.png",
+            "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Weapons/katowice-2019-nuke-souvenir-package--classified--tec-9-remote-control--04.png"
+          ]
         }
       ],
       "covert": []
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Katowice-2019-Nuke-Souvenir-Package/Icons/katowice-2019-nuke-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

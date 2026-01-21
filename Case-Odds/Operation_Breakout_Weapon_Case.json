@@ -61,7 +61,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--ssg-08-abyss.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--ssg-08-abyss--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--ssg-08-abyss--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--ssg-08-abyss--04.png"
+          ]
         },
         {
           "itemId": "mp7-urban-hazard",
@@ -84,7 +90,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--mp7-urban-hazard.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--mp7-urban-hazard--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--mp7-urban-hazard--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--mp7-urban-hazard--04.png"
+          ]
         },
         {
           "itemId": "ump-45-labyrinth",
@@ -107,7 +119,12 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--ump-45-labyrinth.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--ump-45-labyrinth--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--ump-45-labyrinth--03.png"
+          ]
         },
         {
           "itemId": "p2000-ivory",
@@ -130,7 +147,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--p2000-ivory.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--p2000-ivory--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--p2000-ivory--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--p2000-ivory--04.png"
+          ]
         },
         {
           "itemId": "negev-desert-strike",
@@ -153,7 +176,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--negev-desert-strike.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--negev-desert-strike--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--negev-desert-strike--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--mil-spec--negev-desert-strike--04.png"
+          ]
         }
       ],
       "purple": [
@@ -178,7 +207,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--p250-supernova.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--p250-supernova--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--p250-supernova--03.png"
+          ]
         },
         {
           "itemId": "pp-bizon-osiris",
@@ -201,7 +235,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--pp-bizon-osiris.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--pp-bizon-osiris--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--pp-bizon-osiris--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--pp-bizon-osiris--04.png"
+          ]
         },
         {
           "itemId": "cz75-auto-tigris",
@@ -224,7 +264,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--cz75-auto-tigris.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--cz75-auto-tigris--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--cz75-auto-tigris--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--cz75-auto-tigris--04.png"
+          ]
         },
         {
           "itemId": "nova-koi",
@@ -247,7 +293,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--nova-koi.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--nova-koi--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--restricted--nova-koi--03.png"
+          ]
         }
       ],
       "pink": [
@@ -272,7 +323,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--classified--glock-18-water-elemental.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--classified--glock-18-water-elemental--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--classified--glock-18-water-elemental--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--classified--glock-18-water-elemental--04.png"
+          ]
         },
         {
           "itemId": "desert-eagle-conspiracy",
@@ -295,7 +352,12 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--classified--desert-eagle-conspiracy.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--classified--desert-eagle-conspiracy--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--classified--desert-eagle-conspiracy--03.png"
+          ]
         },
         {
           "itemId": "five-seven-fowl-play",
@@ -318,7 +380,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--classified--five-seven-fowl-play.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--classified--five-seven-fowl-play--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--classified--five-seven-fowl-play--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--classified--five-seven-fowl-play--04.png"
+          ]
         }
       ],
       "red": [
@@ -343,7 +411,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--covert--p90-asiimov.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--covert--p90-asiimov--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--covert--p90-asiimov--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--covert--p90-asiimov--04.png"
+          ]
         },
         {
           "itemId": "m4a1-s-cyrex",
@@ -366,7 +440,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--covert--m4a1-s-cyrex.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--covert--m4a1-s-cyrex--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--covert--m4a1-s-cyrex--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Weapons/operation-breakout-weapon-case--covert--m4a1-s-cyrex--04.png"
+          ]
         }
       ]
     },
@@ -400,7 +480,11 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-blue-steel",
@@ -423,7 +507,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-blue-steel--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-blue-steel--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-blue-steel--04.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-boreal-forest",
@@ -446,7 +537,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-boreal-forest--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-boreal-forest--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-boreal-forest--04.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-case-hardened",
@@ -469,7 +567,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-case-hardened--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-case-hardened--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-case-hardened--04.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-crimson-web",
@@ -492,7 +597,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-crimson-web--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-crimson-web--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-crimson-web--04.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-fade",
@@ -515,7 +627,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-fade--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-forest-ddpat",
@@ -538,7 +655,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-forest-ddpat--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-forest-ddpat--04.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-night",
@@ -561,7 +685,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-night--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-night--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-night--04.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-night--05.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-safari-mesh",
@@ -584,7 +715,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-safari-mesh--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-safari-mesh--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-safari-mesh--04.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-scorched",
@@ -607,7 +745,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-scorched--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-scorched--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-scorched--04.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-slaughter",
@@ -630,7 +775,13 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-slaughter--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-slaughter--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-stained",
@@ -653,7 +804,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-stained--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-stained--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-stained--04.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-urban-masked",
@@ -676,10 +834,18 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-urban-masked--02.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-urban-masked--03.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-urban-masked--04.png",
+            "Assets/Cases/Operation-Breakout-Weapon-Case/Knives/operation-breakout-weapon-case--rare-special--butterfly-knife-urban-masked--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Operation-Breakout-Weapon-Case/Icons/operation-breakout-weapon-case--icon.png"
   },
   "audit": {
     "tierCounts": {

@@ -82,7 +82,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--g3sg1-desert-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--g3sg1-desert-storm--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--g3sg1-desert-storm--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--g3sg1-desert-storm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-sand-dune",
@@ -105,7 +111,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--p250-sand-dune.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--p250-sand-dune--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--p250-sand-dune--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--p250-sand-dune--04.png"
+          ]
         },
         {
           "itemId": "souvenir-scar-20-sand-mesh",
@@ -128,7 +140,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--scar-20-sand-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--scar-20-sand-mesh--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--scar-20-sand-mesh--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--scar-20-sand-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-sand-spray",
@@ -151,7 +169,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--p90-sand-spray.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--p90-sand-spray--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--p90-sand-spray--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--p90-sand-spray--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mp9-sand-dashed",
@@ -174,7 +198,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--mp9-sand-dashed.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--mp9-sand-dashed--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--mp9-sand-dashed--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--mp9-sand-dashed--04.png"
+          ]
         },
         {
           "itemId": "souvenir-nova-predator",
@@ -197,7 +227,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--nova-predator.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--nova-predator--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--nova-predator--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--consumer--nova-predator--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -222,7 +258,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.031960000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--ak-47-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--ak-47-safari-mesh--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--ak-47-safari-mesh--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--ak-47-safari-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sawed-off-snake-camo",
@@ -245,7 +287,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.031960000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--sawed-off-snake-camo.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--sawed-off-snake-camo--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--sawed-off-snake-camo--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--sawed-off-snake-camo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mac-10-palm",
@@ -268,7 +316,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.031960000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--mac-10-palm.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--mac-10-palm--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--mac-10-palm--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--mac-10-palm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-five-seven-orange-peel",
@@ -291,7 +345,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.031960000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--five-seven-orange-peel.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--five-seven-orange-peel--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--five-seven-orange-peel--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--five-seven-orange-peel--04.png"
+          ]
         },
         {
           "itemId": "souvenir-tec-9-varicamo",
@@ -314,7 +374,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.031960000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--tec-9-varicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--tec-9-varicamo--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--tec-9-varicamo--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--industrial--tec-9-varicamo--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -339,7 +405,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.010666666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--milspec--m4a1-s-varicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--milspec--m4a1-s-varicamo--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--milspec--m4a1-s-varicamo--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--milspec--m4a1-s-varicamo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-pp-bizon-brass",
@@ -362,7 +434,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.010666666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--milspec--pp-bizon-brass.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--milspec--pp-bizon-brass--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--milspec--pp-bizon-brass--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--milspec--pp-bizon-brass--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sg-553-damascus-steel",
@@ -385,7 +463,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.010666666666000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--milspec--sg-553-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--milspec--sg-553-damascus-steel--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--milspec--sg-553-damascus-steel--03.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--milspec--sg-553-damascus-steel--04.png"
+          ]
         }
       ],
       "restricted": [
@@ -410,7 +494,12 @@
             "base": "0.006400000000000000",
             "nonStatTrak": "0.006400000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--restricted--p2000-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--restricted--p2000-amber-fade--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--restricted--p2000-amber-fade--03.png"
+          ]
         }
       ],
       "classified": [
@@ -435,12 +524,18 @@
             "base": "0.002600000000000000",
             "nonStatTrak": "0.002600000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--classified--r8-revolver-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--classified--r8-revolver-amber-fade--02.png",
+            "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Weapons/atlanta-2017-dust-ii-souvenir-package--classified--r8-revolver-amber-fade--03.png"
+          ]
         }
       ],
       "covert": []
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Atlanta-2017-Dust-Ii-Souvenir-Package/Icons/atlanta-2017-dust-ii-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

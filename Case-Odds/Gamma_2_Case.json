@@ -1,10 +1,19 @@
 {
   "schemaVersion": "3.0-case-export",
-  "unit": { "scale": 1000000000000, "name": "ppt" },
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
   "meta": {
     "game": "CSGO/CS2",
     "generatedAt": "2026-01-17T00:00:00Z",
-    "defaultOdds": { "blue": 0.7992, "purple": 0.1598, "pink": 0.032, "red": 0.0064, "gold": 0.0026 },
+    "defaultOdds": {
+      "blue": 0.7992,
+      "purple": 0.1598,
+      "pink": 0.032,
+      "red": 0.0064,
+      "gold": 0.0026
+    },
     "defaultStatTrakRate": 0.1
   },
   "case": {
@@ -21,7 +30,13 @@
     "notes": [
       "Tier Odds Use Default Weapon Case Probabilities; Items Within Each Rarity Tier Are Weighted Equally; StatTrak Split Uses Floor(BaseWeight*0.10) For Determinism."
     ],
-    "oddsWeights": { "blue": 799200000000, "purple": 159800000000, "pink": 32000000000, "red": 6400000000, "gold": 2600000000 },
+    "oddsWeights": {
+      "blue": 799200000000,
+      "purple": 159800000000,
+      "pink": 32000000000,
+      "red": 6400000000,
+      "gold": 2600000000
+    },
     "tiers": {
       "blue": [
         {
@@ -36,8 +51,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 114171428572, "nonStatTrak": 102754285715, "statTrak": 11417142857 },
-          "probs": { "base": "0.114171428572000000", "nonStatTrak": "0.102754285715000000", "statTrak": "0.011417142857000000" }
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--cz75-auto-imprint.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--cz75-auto-imprint--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--cz75-auto-imprint--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--cz75-auto-imprint--04.png"
+          ]
         },
         {
           "itemId": "five-seven-scumbria",
@@ -51,8 +80,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 114171428572, "nonStatTrak": 102754285715, "statTrak": 11417142857 },
-          "probs": { "base": "0.114171428572000000", "nonStatTrak": "0.102754285715000000", "statTrak": "0.011417142857000000" }
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--five-seven-scumbria.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--five-seven-scumbria--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--five-seven-scumbria--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--five-seven-scumbria--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-ventilator",
@@ -66,8 +109,21 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 114171428572, "nonStatTrak": 102754285715, "statTrak": 11417142857 },
-          "probs": { "base": "0.114171428572000000", "nonStatTrak": "0.102754285715000000", "statTrak": "0.011417142857000000" }
+          "weights": {
+            "base": 114171428572,
+            "nonStatTrak": 102754285715,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428572000000",
+            "nonStatTrak": "0.102754285715000000",
+            "statTrak": "0.011417142857000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--g3sg1-ventilator.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--g3sg1-ventilator--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--g3sg1-ventilator--03.png"
+          ]
         },
         {
           "itemId": "negev-dazzle",
@@ -81,8 +137,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 114171428571, "nonStatTrak": 102754285714, "statTrak": 11417142857 },
-          "probs": { "base": "0.114171428571000000", "nonStatTrak": "0.102754285714000000", "statTrak": "0.011417142857000000" }
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--negev-dazzle.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--negev-dazzle--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--negev-dazzle--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--negev-dazzle--04.png"
+          ]
         },
         {
           "itemId": "p90-grim",
@@ -96,8 +166,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 114171428571, "nonStatTrak": 102754285714, "statTrak": 11417142857 },
-          "probs": { "base": "0.114171428571000000", "nonStatTrak": "0.102754285714000000", "statTrak": "0.011417142857000000" }
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--p90-grim.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--p90-grim--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--p90-grim--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--p90-grim--04.png"
+          ]
         },
         {
           "itemId": "ump-45-briefing",
@@ -111,8 +195,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 114171428571, "nonStatTrak": 102754285714, "statTrak": 11417142857 },
-          "probs": { "base": "0.114171428571000000", "nonStatTrak": "0.102754285714000000", "statTrak": "0.011417142857000000" }
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--ump-45-briefing.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--ump-45-briefing--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--ump-45-briefing--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--ump-45-briefing--04.png"
+          ]
         },
         {
           "itemId": "xm1014-slipstream",
@@ -126,8 +224,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 114171428571, "nonStatTrak": 102754285714, "statTrak": 11417142857 },
-          "probs": { "base": "0.114171428571000000", "nonStatTrak": "0.102754285714000000", "statTrak": "0.011417142857000000" }
+          "weights": {
+            "base": 114171428571,
+            "nonStatTrak": 102754285714,
+            "statTrak": 11417142857
+          },
+          "probs": {
+            "base": "0.114171428571000000",
+            "nonStatTrak": "0.102754285714000000",
+            "statTrak": "0.011417142857000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--xm1014-slipstream.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--xm1014-slipstream--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--xm1014-slipstream--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--mil-spec--xm1014-slipstream--04.png"
+          ]
         }
       ],
       "purple": [
@@ -143,8 +255,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 31960000000, "nonStatTrak": 28764000000, "statTrak": 3196000000 },
-          "probs": { "base": "0.031960000000000000", "nonStatTrak": "0.028764000000000000", "statTrak": "0.003196000000000000" }
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--desert-eagle-directive.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--desert-eagle-directive--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--desert-eagle-directive--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--desert-eagle-directive--04.png"
+          ]
         },
         {
           "itemId": "glock-18-weasel",
@@ -158,8 +284,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 31960000000, "nonStatTrak": 28764000000, "statTrak": 3196000000 },
-          "probs": { "base": "0.031960000000000000", "nonStatTrak": "0.028764000000000000", "statTrak": "0.003196000000000000" }
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--glock-18-weasel.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--glock-18-weasel--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--glock-18-weasel--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--glock-18-weasel--04.png"
+          ]
         },
         {
           "itemId": "mag-7-petroglyph",
@@ -173,8 +313,21 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 31960000000, "nonStatTrak": 28764000000, "statTrak": 3196000000 },
-          "probs": { "base": "0.031960000000000000", "nonStatTrak": "0.028764000000000000", "statTrak": "0.003196000000000000" }
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--mag-7-petroglyph.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--mag-7-petroglyph--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--mag-7-petroglyph--03.png"
+          ]
         },
         {
           "itemId": "scar-20-powercore",
@@ -188,8 +341,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 31960000000, "nonStatTrak": 28764000000, "statTrak": 3196000000 },
-          "probs": { "base": "0.031960000000000000", "nonStatTrak": "0.028764000000000000", "statTrak": "0.003196000000000000" }
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--scar-20-powercore.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--scar-20-powercore--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--scar-20-powercore--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--scar-20-powercore--04.png"
+          ]
         },
         {
           "itemId": "sg-553-triarch",
@@ -203,8 +370,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 31960000000, "nonStatTrak": 28764000000, "statTrak": 3196000000 },
-          "probs": { "base": "0.031960000000000000", "nonStatTrak": "0.028764000000000000", "statTrak": "0.003196000000000000" }
+          "weights": {
+            "base": 31960000000,
+            "nonStatTrak": 28764000000,
+            "statTrak": 3196000000
+          },
+          "probs": {
+            "base": "0.031960000000000000",
+            "nonStatTrak": "0.028764000000000000",
+            "statTrak": "0.003196000000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--sg-553-triarch.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--sg-553-triarch--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--sg-553-triarch--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--restricted--sg-553-triarch--04.png"
+          ]
         }
       ],
       "pink": [
@@ -220,8 +401,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 10666666667, "nonStatTrak": 9600000001, "statTrak": 1066666666 },
-          "probs": { "base": "0.010666666667000000", "nonStatTrak": "0.009600000001000000", "statTrak": "0.001066666666000000" }
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--classified--aug-syd-mead.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--classified--aug-syd-mead--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--classified--aug-syd-mead--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--classified--aug-syd-mead--04.png"
+          ]
         },
         {
           "itemId": "mp9-airlock",
@@ -235,8 +430,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 10666666667, "nonStatTrak": 9600000001, "statTrak": 1066666666 },
-          "probs": { "base": "0.010666666667000000", "nonStatTrak": "0.009600000001000000", "statTrak": "0.001066666666000000" }
+          "weights": {
+            "base": 10666666667,
+            "nonStatTrak": 9600000001,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666667000000",
+            "nonStatTrak": "0.009600000001000000",
+            "statTrak": "0.001066666666000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--classified--mp9-airlock.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--classified--mp9-airlock--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--classified--mp9-airlock--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--classified--mp9-airlock--04.png"
+          ]
         },
         {
           "itemId": "tec-9-fuel-injector",
@@ -250,8 +459,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 10666666666, "nonStatTrak": 9600000000, "statTrak": 1066666666 },
-          "probs": { "base": "0.010666666666000000", "nonStatTrak": "0.009600000000000000", "statTrak": "0.001066666666000000" }
+          "weights": {
+            "base": 10666666666,
+            "nonStatTrak": 9600000000,
+            "statTrak": 1066666666
+          },
+          "probs": {
+            "base": "0.010666666666000000",
+            "nonStatTrak": "0.009600000000000000",
+            "statTrak": "0.001066666666000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--classified--tec-9-fuel-injector.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--classified--tec-9-fuel-injector--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--classified--tec-9-fuel-injector--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--classified--tec-9-fuel-injector--04.png"
+          ]
         }
       ],
       "red": [
@@ -267,8 +490,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 3200000000, "nonStatTrak": 2880000000, "statTrak": 320000000 },
-          "probs": { "base": "0.003200000000000000", "nonStatTrak": "0.002880000000000000", "statTrak": "0.000320000000000000" }
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--covert--ak-47-neon-revolution.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--covert--ak-47-neon-revolution--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--covert--ak-47-neon-revolution--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--covert--ak-47-neon-revolution--04.png"
+          ]
         },
         {
           "itemId": "famas-roll-cage",
@@ -282,8 +519,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed In Multiple Container Databases (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 3200000000, "nonStatTrak": 2880000000, "statTrak": 320000000 },
-          "probs": { "base": "0.003200000000000000", "nonStatTrak": "0.002880000000000000", "statTrak": "0.000320000000000000" }
+          "weights": {
+            "base": 3200000000,
+            "nonStatTrak": 2880000000,
+            "statTrak": 320000000
+          },
+          "probs": {
+            "base": "0.003200000000000000",
+            "nonStatTrak": "0.002880000000000000",
+            "statTrak": "0.000320000000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--covert--famas-roll-cage.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--covert--famas-roll-cage--02.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--covert--famas-roll-cage--03.png",
+            "Assets/Cases/Gamma-2-Case/Weapons/gamma-2-case--covert--famas-roll-cage--04.png"
+          ]
         }
       ]
     },
@@ -309,8 +560,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-autotronic--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-autotronic--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-autotronic--04.png"
+          ]
         },
         {
           "itemId": "bayonet-black-laminate",
@@ -324,8 +589,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-black-laminate--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-black-laminate--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-black-laminate--04.png"
+          ]
         },
         {
           "itemId": "bayonet-bright-water",
@@ -339,8 +618,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-bright-water--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-bright-water--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-bright-water--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-bright-water--05.png"
+          ]
         },
         {
           "itemId": "bayonet-freehand",
@@ -354,8 +648,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-freehand--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-freehand--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-freehand--04.png"
+          ]
         },
         {
           "itemId": "bayonet-lore",
@@ -369,8 +677,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-lore--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-lore--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-lore--04.png"
+          ]
         },
         {
           "itemId": "bayonet-gamma-doppler-phase-1",
@@ -384,8 +706,25 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-1--07.png"
+          ]
         },
         {
           "itemId": "bayonet-gamma-doppler-phase-2",
@@ -399,8 +738,25 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-2--07.png"
+          ]
         },
         {
           "itemId": "bayonet-gamma-doppler-phase-3",
@@ -414,8 +770,25 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-3--07.png"
+          ]
         },
         {
           "itemId": "bayonet-gamma-doppler-phase-4",
@@ -429,8 +802,25 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-phase-4--07.png"
+          ]
         },
         {
           "itemId": "bayonet-gamma-doppler-emerald",
@@ -444,10 +834,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--bayonet-gamma-doppler-emerald--07.png"
+          ]
         },
-
         {
           "itemId": "flip-knife-autotronic",
           "displayName": "★ Flip Knife | Autotronic",
@@ -460,8 +866,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-autotronic--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-autotronic--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-autotronic--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-autotronic--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-black-laminate",
@@ -475,8 +896,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-black-laminate--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-black-laminate--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-black-laminate--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-black-laminate--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-bright-water",
@@ -490,8 +926,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-bright-water--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-bright-water--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-bright-water--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-bright-water--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-freehand",
@@ -505,8 +956,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-freehand--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-freehand--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-freehand--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-freehand--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-lore",
@@ -520,8 +986,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-lore--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-lore--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-lore--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-lore--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-gamma-doppler-phase-1",
@@ -535,8 +1016,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "flip-knife-gamma-doppler-phase-2",
@@ -550,8 +1049,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "flip-knife-gamma-doppler-phase-3",
@@ -565,8 +1082,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "flip-knife-gamma-doppler-phase-4",
@@ -580,8 +1115,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "flip-knife-gamma-doppler-emerald",
@@ -595,10 +1148,27 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--flip-knife-gamma-doppler-emerald--08.png"
+          ]
         },
-
         {
           "itemId": "gut-knife-autotronic",
           "displayName": "★ Gut Knife | Autotronic",
@@ -611,8 +1181,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-autotronic--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-autotronic--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-autotronic--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-autotronic--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-black-laminate",
@@ -626,8 +1211,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-black-laminate--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-black-laminate--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-black-laminate--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-black-laminate--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-bright-water",
@@ -641,8 +1241,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-bright-water--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-bright-water--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-bright-water--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-bright-water--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-freehand",
@@ -656,8 +1271,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-freehand--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-freehand--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-freehand--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-freehand--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-lore",
@@ -671,8 +1301,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-lore--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-lore--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-lore--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-lore--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-gamma-doppler-phase-1",
@@ -686,8 +1331,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "gut-knife-gamma-doppler-phase-2",
@@ -701,8 +1364,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "gut-knife-gamma-doppler-phase-3",
@@ -716,8 +1397,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "gut-knife-gamma-doppler-phase-4",
@@ -731,8 +1430,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "gut-knife-gamma-doppler-emerald",
@@ -746,10 +1463,27 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--gut-knife-gamma-doppler-emerald--08.png"
+          ]
         },
-
         {
           "itemId": "karambit-autotronic",
           "displayName": "★ Karambit | Autotronic",
@@ -762,8 +1496,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-autotronic--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-autotronic--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-autotronic--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-autotronic--05.png"
+          ]
         },
         {
           "itemId": "karambit-black-laminate",
@@ -777,8 +1526,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-black-laminate--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-black-laminate--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-black-laminate--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-black-laminate--05.png"
+          ]
         },
         {
           "itemId": "karambit-bright-water",
@@ -792,8 +1556,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-bright-water--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-bright-water--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-bright-water--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-bright-water--05.png"
+          ]
         },
         {
           "itemId": "karambit-freehand",
@@ -807,8 +1586,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-freehand--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-freehand--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-freehand--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-freehand--05.png"
+          ]
         },
         {
           "itemId": "karambit-lore",
@@ -822,8 +1616,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-lore--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-lore--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-lore--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-lore--05.png"
+          ]
         },
         {
           "itemId": "karambit-gamma-doppler-phase-1",
@@ -837,8 +1646,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "karambit-gamma-doppler-phase-2",
@@ -852,8 +1679,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "karambit-gamma-doppler-phase-3",
@@ -867,8 +1712,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "karambit-gamma-doppler-phase-4",
@@ -882,8 +1745,26 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "karambit-gamma-doppler-emerald",
@@ -897,10 +1778,27 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--karambit-gamma-doppler-emerald--08.png"
+          ]
         },
-
         {
           "itemId": "m9-bayonet-autotronic",
           "displayName": "★ M9 Bayonet | Autotronic",
@@ -913,8 +1811,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-autotronic--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-autotronic--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-autotronic--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-autotronic--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-black-laminate",
@@ -928,8 +1841,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-black-laminate--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-black-laminate--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-black-laminate--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-black-laminate--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-bright-water",
@@ -943,8 +1871,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-bright-water--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-bright-water--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-bright-water--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-bright-water--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-freehand",
@@ -958,8 +1901,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-freehand--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-freehand--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-freehand--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-freehand--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-lore",
@@ -973,8 +1931,23 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Gamma 2 Case Rare Special Item (Counter-Strike Wiki, CSGO Database, CSGOSKINS.GG).",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-lore--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-lore--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-lore--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-lore--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-gamma-doppler-phase-1",
@@ -988,8 +1961,31 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1--08.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1--09.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1--10.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1--11.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1--12.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-1--13.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-gamma-doppler-phase-2",
@@ -1003,8 +1999,31 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2--08.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2--09.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2--10.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2--11.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2--12.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-2--13.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-gamma-doppler-phase-3",
@@ -1018,8 +2037,31 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3--08.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3--09.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3--10.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3--11.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3--12.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-3--13.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-gamma-doppler-phase-4",
@@ -1033,8 +2075,31 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4--08.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4--09.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4--10.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4--11.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4--12.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-phase-4--13.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-gamma-doppler-emerald",
@@ -1048,15 +2113,48 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Gamma Doppler Phase Outcomes Are Enumerated On The Counter-Strike Wiki For Gamma 2 Case Knives.",
-          "weights": { "base": 52000000, "nonStatTrak": 46800000, "statTrak": 5200000 },
-          "probs": { "base": "0.000052000000000000", "nonStatTrak": "0.000046800000000000", "statTrak": "0.000005200000000000" }
+          "weights": {
+            "base": 52000000,
+            "nonStatTrak": 46800000,
+            "statTrak": 5200000
+          },
+          "probs": {
+            "base": "0.000052000000000000",
+            "nonStatTrak": "0.000046800000000000",
+            "statTrak": "0.000005200000000000"
+          },
+          "image": "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald--08.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald--09.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald--10.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald--11.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald--12.png",
+            "Assets/Cases/Gamma-2-Case/Knives/gamma-2-case--rare-special--m9-bayonet-gamma-doppler-emerald--13.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Gamma-2-Case/Icons/gamma-2-case--icon.png"
   },
   "audit": {
-    "tierCounts": { "blue": 7, "purple": 5, "pink": 3, "red": 2, "gold": 50 },
-    "weightSums": { "totalCaseWeight": 740000000000, "expectedTotalCaseWeight": 1000000000000 },
+    "tierCounts": {
+      "blue": 7,
+      "purple": 5,
+      "pink": 3,
+      "red": 2,
+      "gold": 50
+    },
+    "weightSums": {
+      "totalCaseWeight": 740000000000,
+      "expectedTotalCaseWeight": 1000000000000
+    },
     "warnings": [
       "Equal-Weight Assumption Applied Within Each Tier; If Valve Uses Non-Uniform Per-Item Weights, Real-World Odds Will Differ."
     ]

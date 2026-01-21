@@ -60,7 +60,13 @@
             "base": "0.266400000000000000",
             "nonStatTrak": "0.239760000000000000",
             "statTrak": "0.026640000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--mil-spec-grade--sg-553-ultraviolet.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--mil-spec-grade--sg-553-ultraviolet--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--mil-spec-grade--sg-553-ultraviolet--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--mil-spec-grade--sg-553-ultraviolet--04.png"
+          ]
         },
         {
           "itemId": "aug-wings",
@@ -83,7 +89,11 @@
             "base": "0.266400000000000000",
             "nonStatTrak": "0.239760000000000000",
             "statTrak": "0.026640000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--mil-spec-grade--aug-wings.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--mil-spec-grade--aug-wings--02.png"
+          ]
         },
         {
           "itemId": "mp7-skulls",
@@ -106,7 +116,12 @@
             "base": "0.266400000000000000",
             "nonStatTrak": "0.239760000000000000",
             "statTrak": "0.026640000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--mil-spec-grade--mp7-skulls.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--mil-spec-grade--mp7-skulls--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--mil-spec-grade--mp7-skulls--03.png"
+          ]
         }
       ],
       "purple": [
@@ -131,7 +146,11 @@
             "base": "0.053266666667000000",
             "nonStatTrak": "0.047940000001000000",
             "statTrak": "0.005326666666000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--restricted--glock-18-dragon-tattoo.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--restricted--glock-18-dragon-tattoo--02.png"
+          ]
         },
         {
           "itemId": "m4a1-s-dark-water",
@@ -154,7 +173,12 @@
             "base": "0.053266666667000000",
             "nonStatTrak": "0.047940000001000000",
             "statTrak": "0.005326666666000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--restricted--m4a1-s-dark-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--restricted--m4a1-s-dark-water--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--restricted--m4a1-s-dark-water--03.png"
+          ]
         },
         {
           "itemId": "usp-s-dark-water",
@@ -177,7 +201,12 @@
             "base": "0.053266666666000000",
             "nonStatTrak": "0.047940000000000000",
             "statTrak": "0.005326666666000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--restricted--usp-s-dark-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--restricted--usp-s-dark-water--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--restricted--usp-s-dark-water--03.png"
+          ]
         }
       ],
       "pink": [
@@ -202,7 +231,13 @@
             "base": "0.016000000000000000",
             "nonStatTrak": "0.014400000000000000",
             "statTrak": "0.001600000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--classified--ak-47-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--classified--ak-47-case-hardened--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--classified--ak-47-case-hardened--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--classified--ak-47-case-hardened--04.png"
+          ]
         },
         {
           "itemId": "desert-eagle-hypnotic",
@@ -225,7 +260,11 @@
             "base": "0.016000000000000000",
             "nonStatTrak": "0.014400000000000000",
             "statTrak": "0.001600000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--classified--desert-eagle-hypnotic.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--classified--desert-eagle-hypnotic--02.png"
+          ]
         }
       ],
       "red": [
@@ -250,7 +289,11 @@
             "base": "0.006400000000000000",
             "nonStatTrak": "0.005760000000000000",
             "statTrak": "0.000640000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--covert--awp-lightning-strike.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Weapons/csgo-weapon-case--covert--awp-lightning-strike--02.png"
+          ]
         }
       ]
     },
@@ -284,7 +327,8 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-vanilla.png"
         },
         {
           "itemId": "bayonet-blue-steel",
@@ -307,7 +351,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-blue-steel--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-blue-steel--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-blue-steel--04.png"
+          ]
         },
         {
           "itemId": "bayonet-boreal-forest",
@@ -330,7 +380,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-boreal-forest--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-boreal-forest--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-boreal-forest--04.png"
+          ]
         },
         {
           "itemId": "bayonet-case-hardened",
@@ -353,7 +409,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-case-hardened--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-case-hardened--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-case-hardened--04.png"
+          ]
         },
         {
           "itemId": "bayonet-crimson-web",
@@ -376,7 +438,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-crimson-web--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-crimson-web--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-crimson-web--04.png"
+          ]
         },
         {
           "itemId": "bayonet-fade",
@@ -399,7 +467,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-fade--02.png"
+          ]
         },
         {
           "itemId": "bayonet-forest-ddpat",
@@ -422,7 +494,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-forest-ddpat--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-forest-ddpat--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-forest-ddpat--04.png"
+          ]
         },
         {
           "itemId": "bayonet-night",
@@ -445,7 +523,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-night--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-night--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-night--04.png"
+          ]
         },
         {
           "itemId": "bayonet-safari-mesh",
@@ -468,7 +552,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-safari-mesh--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-safari-mesh--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-safari-mesh--04.png"
+          ]
         },
         {
           "itemId": "bayonet-scorched",
@@ -491,7 +581,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-scorched--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-scorched--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-scorched--04.png"
+          ]
         },
         {
           "itemId": "bayonet-slaughter",
@@ -514,7 +610,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-slaughter--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-slaughter--03.png"
+          ]
         },
         {
           "itemId": "bayonet-stained",
@@ -537,7 +638,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-stained--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-stained--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-stained--04.png"
+          ]
         },
         {
           "itemId": "bayonet-urban-masked",
@@ -560,7 +667,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-urban-masked--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-urban-masked--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--bayonet-urban-masked--04.png"
+          ]
         },
         {
           "itemId": "flip-knife-vanilla",
@@ -583,7 +696,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "flip-knife-blue-steel",
@@ -606,7 +723,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-blue-steel--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-blue-steel--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-blue-steel--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-boreal-forest",
@@ -629,7 +753,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-boreal-forest--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-boreal-forest--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-boreal-forest--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-case-hardened",
@@ -652,7 +783,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-case-hardened--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-case-hardened--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-case-hardened--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-crimson-web",
@@ -675,7 +813,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-crimson-web--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-crimson-web--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-crimson-web--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-fade",
@@ -698,7 +843,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-fade--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "flip-knife-forest-ddpat",
@@ -721,7 +871,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-forest-ddpat--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-forest-ddpat--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-forest-ddpat--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-night",
@@ -744,7 +901,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-night--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-night--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-night--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-night--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-safari-mesh",
@@ -767,7 +931,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-safari-mesh--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-safari-mesh--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-safari-mesh--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-scorched",
@@ -790,7 +961,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-scorched--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-scorched--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-scorched--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-slaughter",
@@ -813,7 +991,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-slaughter--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-slaughter--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "flip-knife-stained",
@@ -836,7 +1020,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-stained--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-stained--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-stained--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-urban-masked",
@@ -859,7 +1050,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-urban-masked--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-urban-masked--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-urban-masked--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--flip-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-vanilla",
@@ -882,7 +1080,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "gut-knife-blue-steel",
@@ -905,7 +1107,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-blue-steel--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-blue-steel--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-blue-steel--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-boreal-forest",
@@ -928,7 +1137,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-boreal-forest--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-boreal-forest--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-boreal-forest--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-case-hardened",
@@ -951,7 +1167,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-case-hardened--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-case-hardened--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-case-hardened--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-crimson-web",
@@ -974,7 +1197,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-crimson-web--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-crimson-web--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-crimson-web--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-fade",
@@ -997,7 +1227,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-fade--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "gut-knife-forest-ddpat",
@@ -1020,7 +1255,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-forest-ddpat--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-forest-ddpat--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-forest-ddpat--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-night",
@@ -1043,7 +1285,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-night--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-night--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-night--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-night--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-safari-mesh",
@@ -1066,7 +1315,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-safari-mesh--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-safari-mesh--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-safari-mesh--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-scorched",
@@ -1089,7 +1345,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-scorched--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-scorched--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-scorched--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-slaughter",
@@ -1112,7 +1375,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-slaughter--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-slaughter--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "gut-knife-stained",
@@ -1135,7 +1404,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-stained--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-stained--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-stained--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-urban-masked",
@@ -1158,7 +1434,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-urban-masked--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-urban-masked--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-urban-masked--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--gut-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "karambit-vanilla",
@@ -1181,7 +1464,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-vanilla--02.png"
+          ]
         },
         {
           "itemId": "karambit-blue-steel",
@@ -1204,7 +1491,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-blue-steel--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-blue-steel--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-blue-steel--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "karambit-boreal-forest",
@@ -1227,7 +1521,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-boreal-forest--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-boreal-forest--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-boreal-forest--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "karambit-case-hardened",
@@ -1250,7 +1551,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-case-hardened--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-case-hardened--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-case-hardened--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "karambit-crimson-web",
@@ -1273,7 +1581,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-crimson-web--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-crimson-web--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-crimson-web--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "karambit-fade",
@@ -1296,7 +1611,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-fade--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-fade--03.png"
+          ]
         },
         {
           "itemId": "karambit-forest-ddpat",
@@ -1319,7 +1639,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-forest-ddpat--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-forest-ddpat--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-forest-ddpat--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "karambit-night",
@@ -1342,7 +1669,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-night--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-night--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-night--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-night--05.png"
+          ]
         },
         {
           "itemId": "karambit-safari-mesh",
@@ -1365,7 +1699,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-safari-mesh--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-safari-mesh--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-safari-mesh--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "karambit-scorched",
@@ -1388,7 +1729,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-scorched--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-scorched--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-scorched--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-scorched--05.png"
+          ]
         },
         {
           "itemId": "karambit-slaughter",
@@ -1411,7 +1759,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-slaughter--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-slaughter--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-slaughter--04.png"
+          ]
         },
         {
           "itemId": "karambit-stained",
@@ -1434,7 +1788,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-stained--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-stained--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-stained--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-stained--05.png"
+          ]
         },
         {
           "itemId": "karambit-urban-masked",
@@ -1457,7 +1818,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-urban-masked--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-urban-masked--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-urban-masked--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--karambit-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-vanilla",
@@ -1480,7 +1848,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-vanilla--02.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-blue-steel",
@@ -1503,7 +1875,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-blue-steel--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-blue-steel--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-blue-steel--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-boreal-forest",
@@ -1526,7 +1905,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-boreal-forest--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-boreal-forest--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-boreal-forest--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-case-hardened",
@@ -1549,7 +1935,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-case-hardened--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-case-hardened--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-case-hardened--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-crimson-web",
@@ -1572,7 +1965,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-crimson-web--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-crimson-web--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-crimson-web--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-fade",
@@ -1595,7 +1995,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-fade--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-fade--03.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-forest-ddpat",
@@ -1618,7 +2023,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-forest-ddpat--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-forest-ddpat--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-forest-ddpat--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-night",
@@ -1641,7 +2053,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-night--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-night--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-night--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-night--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-safari-mesh",
@@ -1664,7 +2083,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-safari-mesh--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-safari-mesh--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-safari-mesh--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-scorched",
@@ -1687,7 +2113,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-scorched--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-scorched--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-scorched--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-scorched--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-slaughter",
@@ -1710,7 +2143,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-slaughter--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-slaughter--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-slaughter--04.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-stained",
@@ -1733,7 +2172,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-stained--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-stained--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-stained--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-stained--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-urban-masked",
@@ -1756,10 +2202,18 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-urban-masked--02.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-urban-masked--03.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-urban-masked--04.png",
+            "Assets/Cases/Csgo-Weapon-Case/Knives/csgo-weapon-case--rare-special-item--m9-bayonet-urban-masked--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Csgo-Weapon-Case/Icons/csgo-weapon-case--icon.png"
   },
   "audit": {
     "tierCounts": {

@@ -85,7 +85,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--famas-faulty-wiring.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--famas-faulty-wiring--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--famas-faulty-wiring--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--famas-faulty-wiring--04.png"
+          ]
         },
         {
           "itemId": "souvenir-cz75-auto-framework",
@@ -108,7 +114,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--cz75-auto-framework.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--cz75-auto-framework--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--cz75-auto-framework--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--cz75-auto-framework--04.png"
+          ]
         },
         {
           "itemId": "souvenir-dual-berettas-oil-change",
@@ -131,7 +143,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--dual-berettas-oil-change.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--dual-berettas-oil-change--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--dual-berettas-oil-change--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--dual-berettas-oil-change--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mac-10-strats",
@@ -154,7 +172,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--mac-10-strats.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--mac-10-strats--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--mac-10-strats--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--mac-10-strats--04.png"
+          ]
         },
         {
           "itemId": "souvenir-xm1014-blue-tire",
@@ -177,7 +201,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--xm1014-blue-tire.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--xm1014-blue-tire--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--xm1014-blue-tire--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--consumer--xm1014-blue-tire--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -202,7 +232,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--ump-45-mechanism.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--ump-45-mechanism--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--ump-45-mechanism--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--ump-45-mechanism--04.png"
+          ]
         },
         {
           "itemId": "souvenir-glock-18-red-tire",
@@ -225,7 +261,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--glock-18-red-tire.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--glock-18-red-tire--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--glock-18-red-tire--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--glock-18-red-tire--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ssg-08-carbon-fiber",
@@ -248,7 +290,11 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--ssg-08-carbon-fiber.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--ssg-08-carbon-fiber--02.png"
+          ]
         },
         {
           "itemId": "souvenir-pp-bizon-breaker-box",
@@ -271,7 +317,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--pp-bizon-breaker-box.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--pp-bizon-breaker-box--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--industrial--pp-bizon-breaker-box--03.png"
+          ]
         }
       ],
       "milspec": [
@@ -296,7 +347,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--negev-infrastructure.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--negev-infrastructure--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--negev-infrastructure--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--negev-infrastructure--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ak-47-green-laminate",
@@ -319,7 +376,12 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--ak-47-green-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--ak-47-green-laminate--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--ak-47-green-laminate--03.png"
+          ]
         },
         {
           "itemId": "souvenir-nova-interlock",
@@ -342,7 +404,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--nova-interlock.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--nova-interlock--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--nova-interlock--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--nova-interlock--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-schematic",
@@ -365,7 +433,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--p90-schematic.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--p90-schematic--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--p90-schematic--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--milspec--p90-schematic--04.png"
+          ]
         }
       ],
       "restricted": [
@@ -390,7 +464,13 @@
             "base": "0.002133333334000000",
             "nonStatTrak": "0.002133333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--restricted--galil-ar-caution.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--restricted--galil-ar-caution--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--restricted--galil-ar-caution--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--restricted--galil-ar-caution--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mag-7-prism-terrace",
@@ -413,7 +493,12 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--restricted--mag-7-prism-terrace.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--restricted--mag-7-prism-terrace--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--restricted--mag-7-prism-terrace--03.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-digital-architect",
@@ -436,7 +521,13 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--restricted--p250-digital-architect.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--restricted--p250-digital-architect--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--restricted--p250-digital-architect--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--restricted--p250-digital-architect--04.png"
+          ]
         }
       ],
       "classified": [
@@ -461,7 +552,13 @@
             "base": "0.000640000000000000",
             "nonStatTrak": "0.000640000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--classified--five-seve-n-fall-hazard.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--classified--five-seve-n-fall-hazard--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--classified--five-seve-n-fall-hazard--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--classified--five-seve-n-fall-hazard--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sg-553-hazard-pay",
@@ -484,7 +581,13 @@
             "base": "0.000640000000000000",
             "nonStatTrak": "0.000640000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--classified--sg-553-hazard-pay.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--classified--sg-553-hazard-pay--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--classified--sg-553-hazard-pay--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--classified--sg-553-hazard-pay--04.png"
+          ]
         }
       ],
       "covert": [
@@ -509,11 +612,18 @@
             "base": "0.001320000000000000",
             "nonStatTrak": "0.001320000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--covert--m4a1-s-imminent-danger.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--covert--m4a1-s-imminent-danger--02.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--covert--m4a1-s-imminent-danger--03.png",
+            "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Weapons/rio-2022-vertigo-souvenir-package--covert--m4a1-s-imminent-danger--04.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Rio-2022-Vertigo-Souvenir-Package/Icons/rio-2022-vertigo-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

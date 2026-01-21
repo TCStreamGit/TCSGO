@@ -81,7 +81,12 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--p250-drought.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--p250-drought--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--p250-drought--03.png"
+          ]
         },
         {
           "itemId": "souvenir-pp-bizon-anolis",
@@ -104,7 +109,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--pp-bizon-anolis.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--pp-bizon-anolis--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--pp-bizon-anolis--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--pp-bizon-anolis--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mag-7-navy-sheen",
@@ -127,7 +138,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--mag-7-navy-sheen.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--mag-7-navy-sheen--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--mag-7-navy-sheen--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--mag-7-navy-sheen--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mac-10-sienna-damask",
@@ -150,7 +167,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--mac-10-sienna-damask.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--mac-10-sienna-damask--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--mac-10-sienna-damask--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--mac-10-sienna-damask--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ssg-08-prey",
@@ -173,7 +196,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--ssg-08-prey.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--ssg-08-prey--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--ssg-08-prey--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--consumer--ssg-08-prey--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -198,7 +227,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--dual-berettas-drift-wood.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--dual-berettas-drift-wood--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--dual-berettas-drift-wood--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--dual-berettas-drift-wood--04.png"
+          ]
         },
         {
           "itemId": "souvenir-famas-calicamo",
@@ -221,7 +256,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--famas-calicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--famas-calicamo--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--famas-calicamo--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--famas-calicamo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-cz75-auto-midnight-palm",
@@ -244,7 +285,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--cz75-auto-midnight-palm.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--cz75-auto-midnight-palm--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--cz75-auto-midnight-palm--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--cz75-auto-midnight-palm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-verdant-growth",
@@ -267,7 +314,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--p90-verdant-growth.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--p90-verdant-growth--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--p90-verdant-growth--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--industrial--p90-verdant-growth--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -292,7 +345,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--usp-s-purple-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--usp-s-purple-ddpat--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--usp-s-purple-ddpat--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--usp-s-purple-ddpat--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mp9-music-box",
@@ -315,7 +374,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--mp9-music-box.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--mp9-music-box--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--mp9-music-box--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--mp9-music-box--04.png"
+          ]
         },
         {
           "itemId": "souvenir-m249-humidor",
@@ -338,7 +403,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--m249-humidor.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--m249-humidor--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--m249-humidor--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--m249-humidor--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sg-553-desert-blossom",
@@ -361,7 +432,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--sg-553-desert-blossom.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--sg-553-desert-blossom--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--sg-553-desert-blossom--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--milspec--sg-553-desert-blossom--04.png"
+          ]
         }
       ],
       "restricted": [
@@ -386,7 +463,12 @@
             "base": "0.002133333334000000",
             "nonStatTrak": "0.002133333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--restricted--xm1014-elegant-vines.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--restricted--xm1014-elegant-vines--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--restricted--xm1014-elegant-vines--03.png"
+          ]
         },
         {
           "itemId": "souvenir-glock-18-pink-ddpat",
@@ -409,7 +491,13 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--restricted--glock-18-pink-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--restricted--glock-18-pink-ddpat--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--restricted--glock-18-pink-ddpat--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--restricted--glock-18-pink-ddpat--04.png"
+          ]
         },
         {
           "itemId": "souvenir-aug-sand-storm",
@@ -432,7 +520,13 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--restricted--aug-sand-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--restricted--aug-sand-storm--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--restricted--aug-sand-storm--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--restricted--aug-sand-storm--04.png"
+          ]
         }
       ],
       "classified": [
@@ -457,7 +551,13 @@
             "base": "0.000640000000000000",
             "nonStatTrak": "0.000640000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--classified--mp5-sd-oxide-oasis.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--classified--mp5-sd-oxide-oasis--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--classified--mp5-sd-oxide-oasis--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--classified--mp5-sd-oxide-oasis--04.png"
+          ]
         },
         {
           "itemId": "souvenir-desert-eagle-fennec-fox",
@@ -480,7 +580,13 @@
             "base": "0.000640000000000000",
             "nonStatTrak": "0.000640000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--classified--desert-eagle-fennec-fox.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--classified--desert-eagle-fennec-fox--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--classified--desert-eagle-fennec-fox--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--classified--desert-eagle-fennec-fox--04.png"
+          ]
         }
       ],
       "covert": [
@@ -505,11 +611,18 @@
             "base": "0.001320000000000000",
             "nonStatTrak": "0.001320000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--covert--awp-desert-hydra.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--covert--awp-desert-hydra--02.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--covert--awp-desert-hydra--03.png",
+            "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Weapons/stockholm-2021-mirage-souvenir-package--covert--awp-desert-hydra--04.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Stockholm-2021-Mirage-Souvenir-Package/Icons/stockholm-2021-mirage-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

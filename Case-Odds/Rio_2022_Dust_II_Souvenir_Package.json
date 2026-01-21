@@ -83,7 +83,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--sg-553-bleached.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--sg-553-bleached--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--sg-553-bleached--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--sg-553-bleached--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mp7-prey",
@@ -106,7 +112,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--mp7-prey.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--mp7-prey--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--mp7-prey--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--mp7-prey--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-desert-ddpat",
@@ -129,7 +141,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--p90-desert-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--p90-desert-ddpat--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--p90-desert-ddpat--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--p90-desert-ddpat--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sawed-off-parched",
@@ -152,7 +170,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--sawed-off-parched.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--sawed-off-parched--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--sawed-off-parched--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--sawed-off-parched--04.png"
+          ]
         },
         {
           "itemId": "souvenir-r8-revolver-desert-brush",
@@ -175,7 +199,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--r8-revolver-desert-brush.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--r8-revolver-desert-brush--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--r8-revolver-desert-brush--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--consumer--r8-revolver-desert-brush--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -200,7 +230,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--m249-midnight-palm.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--m249-midnight-palm--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--m249-midnight-palm--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--m249-midnight-palm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mp9-old-roots",
@@ -223,7 +259,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--mp9-old-roots.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--mp9-old-roots--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--mp9-old-roots--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--mp9-old-roots--04.png"
+          ]
         },
         {
           "itemId": "souvenir-aug-spalted-wood",
@@ -246,7 +288,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--aug-spalted-wood.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--aug-spalted-wood--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--aug-spalted-wood--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--aug-spalted-wood--04.png"
+          ]
         },
         {
           "itemId": "souvenir-five-seven-withered-vine",
@@ -269,7 +317,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--five-seven-withered-vine.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--five-seven-withered-vine--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--five-seven-withered-vine--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--industrial--five-seven-withered-vine--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -294,7 +348,12 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--galil-ar-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--galil-ar-amber-fade--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--galil-ar-amber-fade--03.png"
+          ]
         },
         {
           "itemId": "souvenir-g3sg1-new-roots",
@@ -317,7 +376,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--g3sg1-new-roots.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--g3sg1-new-roots--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--g3sg1-new-roots--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--g3sg1-new-roots--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-black-tan",
@@ -340,7 +405,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--p250-black-tan.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--p250-black-tan--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--p250-black-tan--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--p250-black-tan--04.png"
+          ]
         },
         {
           "itemId": "souvenir-nova-quick-sand",
@@ -363,7 +434,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--nova-quick-sand.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--nova-quick-sand--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--nova-quick-sand--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--milspec--nova-quick-sand--04.png"
+          ]
         }
       ],
       "restricted": [
@@ -388,7 +465,13 @@
             "base": "0.002133333334000000",
             "nonStatTrak": "0.002133333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--restricted--mac-10-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--restricted--mac-10-case-hardened--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--restricted--mac-10-case-hardened--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--restricted--mac-10-case-hardened--04.png"
+          ]
         },
         {
           "itemId": "souvenir-usp-s-orange-anolis",
@@ -411,7 +494,12 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--restricted--usp-s-orange-anolis.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--restricted--usp-s-orange-anolis--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--restricted--usp-s-orange-anolis--03.png"
+          ]
         },
         {
           "itemId": "souvenir-m4a4-red-ddpat",
@@ -434,7 +522,13 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--restricted--m4a4-red-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--restricted--m4a4-red-ddpat--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--restricted--m4a4-red-ddpat--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--restricted--m4a4-red-ddpat--04.png"
+          ]
         }
       ],
       "classified": [
@@ -459,7 +553,11 @@
             "base": "0.000640000000000000",
             "nonStatTrak": "0.000640000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--classified--ump-45-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--classified--ump-45-fade--02.png"
+          ]
         },
         {
           "itemId": "souvenir-ssg-08-death-strike",
@@ -482,7 +580,13 @@
             "base": "0.000640000000000000",
             "nonStatTrak": "0.000640000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--classified--ssg-08-death-strike.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--classified--ssg-08-death-strike--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--classified--ssg-08-death-strike--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--classified--ssg-08-death-strike--04.png"
+          ]
         }
       ],
       "covert": [
@@ -507,11 +611,18 @@
             "base": "0.001320000000000000",
             "nonStatTrak": "0.001320000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--covert--ak-47-gold-arabesque.png",
+          "imageAlternates": [
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--covert--ak-47-gold-arabesque--02.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--covert--ak-47-gold-arabesque--03.png",
+            "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Weapons/rio-2022-dust-ii-souvenir-package--covert--ak-47-gold-arabesque--04.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Rio-2022-Dust-Ii-Souvenir-Package/Icons/rio-2022-dust-ii-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

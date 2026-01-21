@@ -83,7 +83,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--ump-45-indigo.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--ump-45-indigo--02.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--ump-45-indigo--03.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--ump-45-indigo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mac-10-indigo",
@@ -106,7 +112,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--mac-10-indigo.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--mac-10-indigo--02.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--mac-10-indigo--03.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--mac-10-indigo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-storm",
@@ -129,7 +141,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--p90-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--p90-storm--02.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--p90-storm--03.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--p90-storm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-scar-20-storm",
@@ -152,7 +170,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--scar-20-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--scar-20-storm--02.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--scar-20-storm--03.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--scar-20-storm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-dual-berettas-briar",
@@ -175,7 +199,12 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--dual-berettas-briar.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--dual-berettas-briar--02.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--consumer--dual-berettas-briar--03.png"
+          ]
         }
       ],
       "industrial": [
@@ -200,7 +229,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--usp-s-royal-blue.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--usp-s-royal-blue--02.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--usp-s-royal-blue--03.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--usp-s-royal-blue--04.png"
+          ]
         },
         {
           "itemId": "souvenir-nova-green-apple",
@@ -223,7 +258,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--nova-green-apple.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--nova-green-apple--02.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--nova-green-apple--03.png"
+          ]
         },
         {
           "itemId": "souvenir-mag-7-silver",
@@ -246,7 +286,11 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--mag-7-silver.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--mag-7-silver--02.png"
+          ]
         },
         {
           "itemId": "souvenir-sawed-off-rust-coat",
@@ -269,7 +313,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--sawed-off-rust-coat.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--sawed-off-rust-coat--02.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--sawed-off-rust-coat--03.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--industrial--sawed-off-rust-coat--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -294,7 +344,12 @@
             "base": "0.016000000000000000",
             "nonStatTrak": "0.016000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--milspec--p2000-chainmail.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--milspec--p2000-chainmail--02.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--milspec--p2000-chainmail--03.png"
+          ]
         },
         {
           "itemId": "souvenir-mp9-dark-age",
@@ -317,7 +372,12 @@
             "base": "0.016000000000000000",
             "nonStatTrak": "0.016000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--milspec--mp9-dark-age.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--milspec--mp9-dark-age--02.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--milspec--mp9-dark-age--03.png"
+          ]
         }
       ],
       "restricted": [
@@ -342,7 +402,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.003200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--restricted--desert-eagle-hand-cannon.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--restricted--desert-eagle-hand-cannon--02.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--restricted--desert-eagle-hand-cannon--03.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--restricted--desert-eagle-hand-cannon--04.png"
+          ]
         },
         {
           "itemId": "souvenir-cz75-auto-chalice",
@@ -365,7 +431,11 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.003200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--restricted--cz75-auto-chalice.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--restricted--cz75-auto-chalice--02.png"
+          ]
         }
       ],
       "classified": [
@@ -390,7 +460,11 @@
             "base": "0.001280000000000000",
             "nonStatTrak": "0.001280000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--classified--m4a1-s-knight.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--classified--m4a1-s-knight--02.png"
+          ]
         }
       ],
       "covert": [
@@ -415,11 +489,18 @@
             "base": "0.001320000000000000",
             "nonStatTrak": "0.001320000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--covert--awp-dragon-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--covert--awp-dragon-lore--02.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--covert--awp-dragon-lore--03.png",
+            "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Weapons/krakow-2017-cobblestone-souvenir-package--covert--awp-dragon-lore--04.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Krakow-2017-Cobblestone-Souvenir-Package/Icons/krakow-2017-cobblestone-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

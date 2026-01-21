@@ -61,7 +61,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--tec-9-isaac.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--tec-9-isaac--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--tec-9-isaac--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--tec-9-isaac--04.png"
+          ]
         },
         {
           "itemId": "ssg-08-slashed",
@@ -84,7 +90,12 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--ssg-08-slashed.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--ssg-08-slashed--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--ssg-08-slashed--03.png"
+          ]
         },
         {
           "itemId": "galil-ar-kami",
@@ -107,7 +118,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--galil-ar-kami.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--galil-ar-kami--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--galil-ar-kami--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--galil-ar-kami--04.png"
+          ]
         },
         {
           "itemId": "cz75-auto-twist",
@@ -130,7 +147,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--cz75-auto-twist.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--cz75-auto-twist--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--cz75-auto-twist--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--cz75-auto-twist--04.png"
+          ]
         },
         {
           "itemId": "p90-module",
@@ -153,7 +176,12 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--p90-module.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--p90-module--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--p90-module--03.png"
+          ]
         },
         {
           "itemId": "p2000-pulse",
@@ -176,7 +204,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--p2000-pulse.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--p2000-pulse--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--p2000-pulse--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--mil-spec--p2000-pulse--04.png"
+          ]
         }
       ],
       "purple": [
@@ -201,7 +235,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--aug-torque.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--aug-torque--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--aug-torque--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--aug-torque--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-antique",
@@ -224,7 +264,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--pp-bizon-antique.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--pp-bizon-antique--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--pp-bizon-antique--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--pp-bizon-antique--04.png"
+          ]
         },
         {
           "itemId": "xm1014-heaven-guard",
@@ -247,7 +293,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--xm1014-heaven-guard.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--xm1014-heaven-guard--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--xm1014-heaven-guard--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--xm1014-heaven-guard--04.png"
+          ]
         },
         {
           "itemId": "mac-10-tatter",
@@ -270,7 +322,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--mac-10-tatter.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--mac-10-tatter--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--mac-10-tatter--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--restricted--mac-10-tatter--04.png"
+          ]
         }
       ],
       "pink": [
@@ -295,7 +353,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--classified--m4a1-s-atomic-alloy.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--classified--m4a1-s-atomic-alloy--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--classified--m4a1-s-atomic-alloy--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--classified--m4a1-s-atomic-alloy--04.png"
+          ]
         },
         {
           "itemId": "scar-20-cyrex",
@@ -318,7 +382,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--classified--scar-20-cyrex.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--classified--scar-20-cyrex--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--classified--scar-20-cyrex--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--classified--scar-20-cyrex--04.png"
+          ]
         },
         {
           "itemId": "usp-s-caiman",
@@ -341,7 +411,12 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--classified--usp-s-caiman.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--classified--usp-s-caiman--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--classified--usp-s-caiman--03.png"
+          ]
         }
       ],
       "red": [
@@ -366,7 +441,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--covert--ak-47-vulcan.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--covert--ak-47-vulcan--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--covert--ak-47-vulcan--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--covert--ak-47-vulcan--04.png"
+          ]
         },
         {
           "itemId": "m4a4-desert-strike",
@@ -389,7 +470,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--covert--m4a4-desert-strike.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--covert--m4a4-desert-strike--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--covert--m4a4-desert-strike--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Weapons/huntsman-weapon-case--covert--m4a4-desert-strike--04.png"
+          ]
         }
       ]
     },
@@ -423,7 +510,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-fade--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-slaughter",
@@ -446,7 +538,13 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-slaughter--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-slaughter--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-blue-steel",
@@ -469,7 +567,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-blue-steel--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-blue-steel--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-blue-steel--04.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-stained",
@@ -492,7 +597,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-stained--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-stained--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-stained--04.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-case-hardened",
@@ -515,7 +627,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-case-hardened--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-case-hardened--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-case-hardened--04.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-forest-ddpat",
@@ -538,7 +657,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-forest-ddpat--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-forest-ddpat--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-forest-ddpat--04.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-boreal-forest",
@@ -561,7 +687,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-boreal-forest--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-boreal-forest--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-boreal-forest--04.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-crimson-web",
@@ -584,7 +717,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-crimson-web--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-crimson-web--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-crimson-web--04.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-night",
@@ -607,7 +747,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-night--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-night--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-night--04.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-night--05.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-scorched",
@@ -630,7 +777,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-scorched--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-scorched--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-scorched--04.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-safari-mesh",
@@ -653,7 +807,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-safari-mesh--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-safari-mesh--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-safari-mesh--04.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-urban-masked",
@@ -676,7 +837,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-urban-masked--02.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-urban-masked--03.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-urban-masked--04.png",
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-vanilla",
@@ -699,10 +867,15 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Huntsman-Weapon-Case/Knives/huntsman-weapon-case--rare-special--huntsman-knife-vanilla--02.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Huntsman-Weapon-Case/Icons/huntsman-weapon-case--icon.png"
   },
   "audit": {
     "tierCounts": {

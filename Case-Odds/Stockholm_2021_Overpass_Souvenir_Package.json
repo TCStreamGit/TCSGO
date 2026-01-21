@@ -83,7 +83,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--m249-contrast-spray.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--m249-contrast-spray--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--m249-contrast-spray--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--m249-contrast-spray--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mag-7-storm",
@@ -106,7 +112,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--mag-7-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--mag-7-storm--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--mag-7-storm--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--mag-7-storm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mp9-storm",
@@ -129,7 +141,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--mp9-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--mp9-storm--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--mp9-storm--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--mp9-storm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sawed-off-sage-spray",
@@ -152,7 +170,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--sawed-off-sage-spray.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--sawed-off-sage-spray--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--sawed-off-sage-spray--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--sawed-off-sage-spray--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ump-45-scorched",
@@ -175,7 +199,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--ump-45-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--ump-45-scorched--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--ump-45-scorched--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--consumer--ump-45-scorched--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -200,7 +230,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--mp7-gunsmoke.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--mp7-gunsmoke--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--mp7-gunsmoke--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--mp7-gunsmoke--04.png"
+          ]
         },
         {
           "itemId": "souvenir-desert-eagle-urban-ddpat",
@@ -223,7 +259,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--desert-eagle-urban-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--desert-eagle-urban-ddpat--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--desert-eagle-urban-ddpat--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--desert-eagle-urban-ddpat--04.png"
+          ]
         },
         {
           "itemId": "souvenir-glock-18-night",
@@ -246,7 +288,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--glock-18-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--glock-18-night--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--glock-18-night--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--glock-18-night--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p2000-grassland",
@@ -269,7 +317,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--p2000-grassland.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--p2000-grassland--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--p2000-grassland--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--industrial--p2000-grassland--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -294,7 +348,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.010666666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--milspec--xm1014-varicamo-blue.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--milspec--xm1014-varicamo-blue--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--milspec--xm1014-varicamo-blue--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--milspec--xm1014-varicamo-blue--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ssg-08-detour",
@@ -317,7 +377,12 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.010666666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--milspec--ssg-08-detour.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--milspec--ssg-08-detour--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--milspec--ssg-08-detour--03.png"
+          ]
         },
         {
           "itemId": "souvenir-cz75-auto-nitro",
@@ -340,7 +405,14 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.010666666666000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--milspec--cz75-auto-nitro.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--milspec--cz75-auto-nitro--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--milspec--cz75-auto-nitro--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--milspec--cz75-auto-nitro--04.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--milspec--cz75-auto-nitro--05.png"
+          ]
         }
       ],
       "restricted": [
@@ -365,7 +437,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.003200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--restricted--awp-pink-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--restricted--awp-pink-ddpat--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--restricted--awp-pink-ddpat--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--restricted--awp-pink-ddpat--04.png"
+          ]
         },
         {
           "itemId": "souvenir-usp-s-road-rash",
@@ -388,7 +466,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.003200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--restricted--usp-s-road-rash.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--restricted--usp-s-road-rash--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--restricted--usp-s-road-rash--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--restricted--usp-s-road-rash--04.png"
+          ]
         }
       ],
       "classified": [
@@ -413,12 +497,19 @@
             "base": "0.002600000000000000",
             "nonStatTrak": "0.002600000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--classified--m4a1-s-master-piece.png",
+          "imageAlternates": [
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--classified--m4a1-s-master-piece--02.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--classified--m4a1-s-master-piece--03.png",
+            "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Weapons/stockholm-2021-overpass-souvenir-package--classified--m4a1-s-master-piece--04.png"
+          ]
         }
       ],
       "covert": []
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Stockholm-2021-Overpass-Souvenir-Package/Icons/stockholm-2021-overpass-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

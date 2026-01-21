@@ -59,7 +59,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--cz75-auto-vendetta.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--cz75-auto-vendetta--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--cz75-auto-vendetta--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--cz75-auto-vendetta--04.png"
+          ]
         },
         {
           "itemId": "galil-ar-vandal",
@@ -82,7 +88,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--galil-ar-vandal.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--galil-ar-vandal--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--galil-ar-vandal--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--galil-ar-vandal--04.png"
+          ]
         },
         {
           "itemId": "mp5-sd-condition-zero",
@@ -105,7 +117,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--mp5-sd-condition-zero.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--mp5-sd-condition-zero--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--mp5-sd-condition-zero--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--mp5-sd-condition-zero--04.png"
+          ]
         },
         {
           "itemId": "p250-contaminant",
@@ -128,7 +146,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--p250-contaminant.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--p250-contaminant--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--p250-contaminant--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--p250-contaminant--04.png"
+          ]
         },
         {
           "itemId": "m249-deep-relief",
@@ -151,7 +175,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--m249-deep-relief.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--m249-deep-relief--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--m249-deep-relief--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--m249-deep-relief--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-digital-mesh",
@@ -174,7 +204,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--g3sg1-digital-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--g3sg1-digital-mesh--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--g3sg1-digital-mesh--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--g3sg1-digital-mesh--04.png"
+          ]
         },
         {
           "itemId": "p90-cocoa-rampage",
@@ -197,7 +233,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--p90-cocoa-rampage.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--p90-cocoa-rampage--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--p90-cocoa-rampage--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--mil-spec-grade--p90-cocoa-rampage--04.png"
+          ]
         }
       ],
       "purple": [
@@ -222,7 +264,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--awp-exoskeleton.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--awp-exoskeleton--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--awp-exoskeleton--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--awp-exoskeleton--04.png"
+          ]
         },
         {
           "itemId": "dual-berettas-dezastre",
@@ -245,7 +293,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--dual-berettas-dezastre.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--dual-berettas-dezastre--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--dual-berettas-dezastre--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--dual-berettas-dezastre--04.png"
+          ]
         },
         {
           "itemId": "nova-clear-polymer",
@@ -268,7 +322,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--nova-clear-polymer.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--nova-clear-polymer--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--nova-clear-polymer--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--nova-clear-polymer--04.png"
+          ]
         },
         {
           "itemId": "ssg-08-parallax",
@@ -291,7 +351,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--ssg-08-parallax.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--ssg-08-parallax--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--ssg-08-parallax--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--ssg-08-parallax--04.png"
+          ]
         },
         {
           "itemId": "ump-45-gold-bismuth",
@@ -314,7 +380,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--ump-45-gold-bismuth.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--ump-45-gold-bismuth--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--ump-45-gold-bismuth--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--restricted--ump-45-gold-bismuth--04.png"
+          ]
         }
       ],
       "pink": [
@@ -339,7 +411,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--classified--m4a4-cyber-security.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--classified--m4a4-cyber-security--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--classified--m4a4-cyber-security--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--classified--m4a4-cyber-security--04.png"
+          ]
         },
         {
           "itemId": "usp-s-monster-mashup",
@@ -362,7 +440,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--classified--usp-s-monster-mashup.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--classified--usp-s-monster-mashup--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--classified--usp-s-monster-mashup--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--classified--usp-s-monster-mashup--04.png"
+          ]
         },
         {
           "itemId": "five-seven-fairy-tale",
@@ -385,7 +469,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--classified--five-seven-fairy-tale.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--classified--five-seven-fairy-tale--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--classified--five-seven-fairy-tale--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--classified--five-seven-fairy-tale--04.png"
+          ]
         }
       ],
       "red": [
@@ -410,7 +500,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--covert--m4a1-s-printstream.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--covert--m4a1-s-printstream--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--covert--m4a1-s-printstream--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--covert--m4a1-s-printstream--04.png"
+          ]
         },
         {
           "itemId": "glock-18-neo-noir",
@@ -433,7 +529,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--covert--glock-18-neo-noir.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--covert--glock-18-neo-noir--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--covert--glock-18-neo-noir--03.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Weapons/operation-broken-fang-case--covert--glock-18-neo-noir--04.png"
+          ]
         }
       ]
     },
@@ -467,7 +569,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--sport-gloves-slingshot.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--sport-gloves-slingshot--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--sport-gloves-slingshot--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-nocts",
@@ -490,7 +597,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--sport-gloves-nocts.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--sport-gloves-nocts--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--sport-gloves-nocts--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-snow-leopard",
@@ -513,7 +625,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--driver-gloves-snow-leopard.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--driver-gloves-snow-leopard--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--driver-gloves-snow-leopard--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-marble-fade",
@@ -536,7 +653,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--specialist-gloves-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--specialist-gloves-marble-fade--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--specialist-gloves-marble-fade--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-black-tie",
@@ -559,7 +681,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--driver-gloves-black-tie.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--driver-gloves-black-tie--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--driver-gloves-black-tie--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-tiger-strike",
@@ -582,7 +709,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--specialist-gloves-tiger-strike.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--specialist-gloves-tiger-strike--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--specialist-gloves-tiger-strike--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-scarlet-shamagh",
@@ -605,7 +737,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--sport-gloves-scarlet-shamagh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--sport-gloves-scarlet-shamagh--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--sport-gloves-scarlet-shamagh--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-field-agent",
@@ -628,7 +765,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--specialist-gloves-field-agent.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--specialist-gloves-field-agent--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--specialist-gloves-field-agent--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-lt-commander",
@@ -651,7 +793,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--specialist-gloves-lt-commander.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--specialist-gloves-lt-commander--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--specialist-gloves-lt-commander--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-caution",
@@ -674,7 +821,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--hand-wraps-caution.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--hand-wraps-caution--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--hand-wraps-caution--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-big-game",
@@ -697,7 +849,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--sport-gloves-big-game.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--sport-gloves-big-game--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--sport-gloves-big-game--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-smoke-out",
@@ -720,7 +877,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--moto-gloves-smoke-out.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--moto-gloves-smoke-out--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--moto-gloves-smoke-out--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-blood-pressure",
@@ -743,7 +905,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--moto-gloves-blood-pressure.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--moto-gloves-blood-pressure--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--moto-gloves-blood-pressure--03.png"
+          ]
         },
         {
           "itemId": "broken-fang-gloves-jade",
@@ -766,7 +933,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--broken-fang-gloves-jade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--broken-fang-gloves-jade--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--broken-fang-gloves-jade--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-rezan-the-red",
@@ -789,7 +961,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--driver-gloves-rezan-the-red.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--driver-gloves-rezan-the-red--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--driver-gloves-rezan-the-red--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-finish-line",
@@ -812,7 +989,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--moto-gloves-finish-line.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--moto-gloves-finish-line--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--moto-gloves-finish-line--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-queen-jaguar",
@@ -835,7 +1017,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--driver-gloves-queen-jaguar.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--driver-gloves-queen-jaguar--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--driver-gloves-queen-jaguar--03.png"
+          ]
         },
         {
           "itemId": "broken-fang-gloves-yellow-banded",
@@ -858,7 +1045,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--broken-fang-gloves-yellow-banded.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--broken-fang-gloves-yellow-banded--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--broken-fang-gloves-yellow-banded--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-3rd-commando-company",
@@ -881,7 +1073,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--moto-gloves-3rd-commando-company.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--moto-gloves-3rd-commando-company--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--moto-gloves-3rd-commando-company--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-giraffe",
@@ -904,7 +1101,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--hand-wraps-giraffe.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--hand-wraps-giraffe--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--hand-wraps-giraffe--03.png"
+          ]
         },
         {
           "itemId": "broken-fang-gloves-unhinged",
@@ -927,7 +1129,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--broken-fang-gloves-unhinged.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--broken-fang-gloves-unhinged--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--broken-fang-gloves-unhinged--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-constrictor",
@@ -950,7 +1157,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--hand-wraps-constrictor.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--hand-wraps-constrictor--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--hand-wraps-constrictor--03.png"
+          ]
         },
         {
           "itemId": "broken-fang-gloves-needle-point",
@@ -973,7 +1185,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--broken-fang-gloves-needle-point.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--broken-fang-gloves-needle-point--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--broken-fang-gloves-needle-point--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-desert-shamagh",
@@ -996,10 +1213,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--hand-wraps-desert-shamagh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--hand-wraps-desert-shamagh--02.png",
+            "Assets/Cases/Operation-Broken-Fang-Case/Gloves/operation-broken-fang-case--extraordinary--hand-wraps-desert-shamagh--03.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Operation-Broken-Fang-Case/Icons/operation-broken-fang-case--icon.png"
   },
   "audit": {
     "tierCounts": {

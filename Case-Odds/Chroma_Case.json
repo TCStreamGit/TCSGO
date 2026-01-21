@@ -60,7 +60,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--glock-18-catacombs.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--glock-18-catacombs--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--glock-18-catacombs--03.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--glock-18-catacombs--04.png"
+          ]
         },
         {
           "itemId": "m249-system-lock",
@@ -83,7 +89,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--m249-system-lock.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--m249-system-lock--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--m249-system-lock--03.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--m249-system-lock--04.png"
+          ]
         },
         {
           "itemId": "mp9-deadly-poison",
@@ -106,7 +118,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--mp9-deadly-poison.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--mp9-deadly-poison--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--mp9-deadly-poison--03.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--mp9-deadly-poison--04.png"
+          ]
         },
         {
           "itemId": "scar-20-grotto",
@@ -129,7 +147,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--scar-20-grotto.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--scar-20-grotto--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--scar-20-grotto--03.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--scar-20-grotto--04.png"
+          ]
         },
         {
           "itemId": "xm1014-quicksilver",
@@ -152,7 +176,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--xm1014-quicksilver.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--xm1014-quicksilver--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--xm1014-quicksilver--03.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--mil-spec--xm1014-quicksilver--04.png"
+          ]
         }
       ],
       "purple": [
@@ -177,7 +207,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--dual-berettas-urban-shock.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--dual-berettas-urban-shock--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--dual-berettas-urban-shock--03.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--dual-berettas-urban-shock--04.png"
+          ]
         },
         {
           "itemId": "desert-eagle-naga",
@@ -200,7 +236,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--desert-eagle-naga.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--desert-eagle-naga--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--desert-eagle-naga--03.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--desert-eagle-naga--04.png"
+          ]
         },
         {
           "itemId": "mac-10-malachite",
@@ -223,7 +265,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--mac-10-malachite.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--mac-10-malachite--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--mac-10-malachite--03.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--mac-10-malachite--04.png"
+          ]
         },
         {
           "itemId": "sawed-off-serenity",
@@ -246,7 +294,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--sawed-off-serenity.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--sawed-off-serenity--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--sawed-off-serenity--03.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--restricted--sawed-off-serenity--04.png"
+          ]
         }
       ],
       "pink": [
@@ -271,7 +325,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--classified--ak-47-cartel.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--classified--ak-47-cartel--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--classified--ak-47-cartel--03.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--classified--ak-47-cartel--04.png"
+          ]
         },
         {
           "itemId": "m4a4-dragon-king",
@@ -294,7 +354,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--classified--m4a4-dragon-king.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--classified--m4a4-dragon-king--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--classified--m4a4-dragon-king--03.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--classified--m4a4-dragon-king--04.png"
+          ]
         },
         {
           "itemId": "p250-muertos",
@@ -317,7 +383,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--classified--p250-muertos.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--classified--p250-muertos--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--classified--p250-muertos--03.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--classified--p250-muertos--04.png"
+          ]
         }
       ],
       "red": [
@@ -342,7 +414,12 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--covert--awp-man-o-war.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--covert--awp-man-o-war--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--covert--awp-man-o-war--03.png"
+          ]
         },
         {
           "itemId": "galil-ar-chatterbox",
@@ -365,7 +442,12 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Weapons/chroma-case--covert--galil-ar-chatterbox.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--covert--galil-ar-chatterbox--02.png",
+            "Assets/Cases/Chroma-Case/Weapons/chroma-case--covert--galil-ar-chatterbox--03.png"
+          ]
         }
       ]
     },
@@ -400,7 +482,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-1--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-1--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-1--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-1--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-1--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-1--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-1--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-1--09.png"
+          ]
         },
         {
           "itemId": "bayonet-doppler-phase-2",
@@ -423,7 +516,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-2--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-2--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-2--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-2--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-2--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-2--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-2--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-2--09.png"
+          ]
         },
         {
           "itemId": "bayonet-doppler-phase-3",
@@ -446,7 +550,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-3--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-3--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-3--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-3--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-3--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-3--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-3--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-3--09.png"
+          ]
         },
         {
           "itemId": "bayonet-doppler-phase-4",
@@ -469,7 +584,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-4--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-4--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-4--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-4--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-4--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-4--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-4--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-phase-4--09.png"
+          ]
         },
         {
           "itemId": "bayonet-doppler-ruby",
@@ -492,7 +618,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-ruby--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-ruby--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-ruby--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-ruby--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-ruby--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-ruby--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-ruby--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-ruby--09.png"
+          ]
         },
         {
           "itemId": "bayonet-doppler-sapphire",
@@ -515,7 +652,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-sapphire--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-sapphire--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-sapphire--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-sapphire--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-sapphire--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-sapphire--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-sapphire--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-sapphire--09.png"
+          ]
         },
         {
           "itemId": "bayonet-doppler-black-pearl",
@@ -538,7 +686,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-black-pearl--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-black-pearl--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-black-pearl--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-black-pearl--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-black-pearl--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-black-pearl--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-black-pearl--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-doppler-black-pearl--09.png"
+          ]
         },
         {
           "itemId": "bayonet-damascus-steel",
@@ -561,7 +720,13 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-damascus-steel--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-damascus-steel--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-damascus-steel--04.png"
+          ]
         },
         {
           "itemId": "bayonet-marble-fade",
@@ -584,7 +749,11 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-marble-fade--02.png"
+          ]
         },
         {
           "itemId": "bayonet-tiger-tooth",
@@ -607,7 +776,11 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-tiger-tooth.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-tiger-tooth--02.png"
+          ]
         },
         {
           "itemId": "bayonet-rust-coat",
@@ -630,7 +803,13 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-rust-coat.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-rust-coat--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-rust-coat--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-rust-coat--04.png"
+          ]
         },
         {
           "itemId": "bayonet-ultraviolet",
@@ -653,7 +832,13 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-ultraviolet.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-ultraviolet--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-ultraviolet--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--bayonet-ultraviolet--04.png"
+          ]
         },
         {
           "itemId": "flip-knife-doppler-phase-1",
@@ -676,7 +861,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-1--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-1--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-1--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-1--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-1--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-1--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-1--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-1--09.png"
+          ]
         },
         {
           "itemId": "flip-knife-doppler-phase-2",
@@ -699,7 +895,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-2--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-2--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-2--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-2--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-2--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-2--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-2--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-2--09.png"
+          ]
         },
         {
           "itemId": "flip-knife-doppler-phase-3",
@@ -722,7 +929,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-3--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-3--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-3--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-3--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-3--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-3--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-3--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-3--09.png"
+          ]
         },
         {
           "itemId": "flip-knife-doppler-phase-4",
@@ -745,7 +963,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-4--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-4--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-4--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-4--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-4--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-4--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-4--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-phase-4--09.png"
+          ]
         },
         {
           "itemId": "flip-knife-doppler-ruby",
@@ -768,7 +997,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-ruby--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-ruby--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-ruby--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-ruby--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-ruby--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-ruby--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-ruby--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-ruby--09.png"
+          ]
         },
         {
           "itemId": "flip-knife-doppler-sapphire",
@@ -791,7 +1031,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-sapphire--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-sapphire--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-sapphire--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-sapphire--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-sapphire--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-sapphire--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-sapphire--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-sapphire--09.png"
+          ]
         },
         {
           "itemId": "flip-knife-doppler-black-pearl",
@@ -814,7 +1065,18 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-black-pearl--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-black-pearl--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-black-pearl--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-black-pearl--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-black-pearl--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-black-pearl--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-black-pearl--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-doppler-black-pearl--09.png"
+          ]
         },
         {
           "itemId": "flip-knife-damascus-steel",
@@ -837,7 +1099,14 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-damascus-steel--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-damascus-steel--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-damascus-steel--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-damascus-steel--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-marble-fade",
@@ -860,7 +1129,12 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-marble-fade--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-marble-fade--03.png"
+          ]
         },
         {
           "itemId": "flip-knife-tiger-tooth",
@@ -883,7 +1157,12 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-tiger-tooth.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-tiger-tooth--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-tiger-tooth--03.png"
+          ]
         },
         {
           "itemId": "flip-knife-rust-coat",
@@ -906,7 +1185,13 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-rust-coat.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-rust-coat--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-rust-coat--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-rust-coat--04.png"
+          ]
         },
         {
           "itemId": "flip-knife-ultraviolet",
@@ -929,7 +1214,14 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-ultraviolet.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-ultraviolet--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-ultraviolet--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-ultraviolet--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--flip-knife-ultraviolet--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-doppler-phase-1",
@@ -952,7 +1244,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-1--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-1--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-1--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-1--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-1--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-1--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-1--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-1--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-1--10.png"
+          ]
         },
         {
           "itemId": "gut-knife-doppler-phase-2",
@@ -975,7 +1279,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-2--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-2--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-2--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-2--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-2--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-2--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-2--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-2--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-2--10.png"
+          ]
         },
         {
           "itemId": "gut-knife-doppler-phase-3",
@@ -998,7 +1314,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-3--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-3--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-3--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-3--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-3--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-3--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-3--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-3--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-3--10.png"
+          ]
         },
         {
           "itemId": "gut-knife-doppler-phase-4",
@@ -1021,7 +1349,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-4--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-4--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-4--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-4--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-4--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-4--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-4--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-4--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-phase-4--10.png"
+          ]
         },
         {
           "itemId": "gut-knife-doppler-ruby",
@@ -1044,7 +1384,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-ruby--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-ruby--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-ruby--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-ruby--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-ruby--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-ruby--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-ruby--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-ruby--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-ruby--10.png"
+          ]
         },
         {
           "itemId": "gut-knife-doppler-sapphire",
@@ -1067,7 +1419,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-sapphire--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-sapphire--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-sapphire--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-sapphire--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-sapphire--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-sapphire--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-sapphire--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-sapphire--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-sapphire--10.png"
+          ]
         },
         {
           "itemId": "gut-knife-doppler-black-pearl",
@@ -1090,7 +1454,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-black-pearl--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-black-pearl--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-black-pearl--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-black-pearl--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-black-pearl--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-black-pearl--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-black-pearl--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-black-pearl--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-doppler-black-pearl--10.png"
+          ]
         },
         {
           "itemId": "gut-knife-damascus-steel",
@@ -1113,7 +1489,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-damascus-steel--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-damascus-steel--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-damascus-steel--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-damascus-steel--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-marble-fade",
@@ -1136,7 +1519,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-marble-fade--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-marble-fade--03.png"
+          ]
         },
         {
           "itemId": "gut-knife-tiger-tooth",
@@ -1159,7 +1547,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-tiger-tooth.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-tiger-tooth--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-tiger-tooth--03.png"
+          ]
         },
         {
           "itemId": "gut-knife-rust-coat",
@@ -1182,7 +1575,13 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-rust-coat.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-rust-coat--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-rust-coat--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-rust-coat--04.png"
+          ]
         },
         {
           "itemId": "gut-knife-ultraviolet",
@@ -1205,7 +1604,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-ultraviolet.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-ultraviolet--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-ultraviolet--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-ultraviolet--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--gut-knife-ultraviolet--05.png"
+          ]
         },
         {
           "itemId": "karambit-doppler-phase-1",
@@ -1228,7 +1634,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-1--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-1--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-1--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-1--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-1--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-1--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-1--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-1--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-1--10.png"
+          ]
         },
         {
           "itemId": "karambit-doppler-phase-2",
@@ -1251,7 +1669,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-2--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-2--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-2--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-2--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-2--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-2--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-2--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-2--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-2--10.png"
+          ]
         },
         {
           "itemId": "karambit-doppler-phase-3",
@@ -1274,7 +1704,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-3--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-3--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-3--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-3--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-3--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-3--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-3--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-3--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-3--10.png"
+          ]
         },
         {
           "itemId": "karambit-doppler-phase-4",
@@ -1297,7 +1739,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-4--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-4--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-4--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-4--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-4--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-4--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-4--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-4--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-phase-4--10.png"
+          ]
         },
         {
           "itemId": "karambit-doppler-ruby",
@@ -1320,7 +1774,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-ruby--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-ruby--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-ruby--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-ruby--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-ruby--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-ruby--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-ruby--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-ruby--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-ruby--10.png"
+          ]
         },
         {
           "itemId": "karambit-doppler-sapphire",
@@ -1343,7 +1809,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-sapphire--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-sapphire--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-sapphire--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-sapphire--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-sapphire--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-sapphire--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-sapphire--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-sapphire--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-sapphire--10.png"
+          ]
         },
         {
           "itemId": "karambit-doppler-black-pearl",
@@ -1366,7 +1844,19 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-black-pearl--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-black-pearl--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-black-pearl--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-black-pearl--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-black-pearl--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-black-pearl--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-black-pearl--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-black-pearl--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-doppler-black-pearl--10.png"
+          ]
         },
         {
           "itemId": "karambit-damascus-steel",
@@ -1389,7 +1879,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-damascus-steel--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-damascus-steel--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-damascus-steel--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-damascus-steel--05.png"
+          ]
         },
         {
           "itemId": "karambit-marble-fade",
@@ -1412,7 +1909,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-marble-fade--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-marble-fade--03.png"
+          ]
         },
         {
           "itemId": "karambit-tiger-tooth",
@@ -1435,7 +1937,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-tiger-tooth.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-tiger-tooth--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-tiger-tooth--03.png"
+          ]
         },
         {
           "itemId": "karambit-rust-coat",
@@ -1458,7 +1965,13 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-rust-coat.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-rust-coat--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-rust-coat--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-rust-coat--04.png"
+          ]
         },
         {
           "itemId": "karambit-ultraviolet",
@@ -1481,7 +1994,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-ultraviolet.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-ultraviolet--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-ultraviolet--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-ultraviolet--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--karambit-ultraviolet--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-doppler-phase-1",
@@ -1504,7 +2024,26 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--10.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--11.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--12.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--13.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--14.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--15.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--16.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-1--17.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-doppler-phase-2",
@@ -1527,7 +2066,26 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--10.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--11.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--12.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--13.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--14.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--15.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--16.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-2--17.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-doppler-phase-3",
@@ -1550,7 +2108,26 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--10.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--11.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--12.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--13.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--14.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--15.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--16.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-3--17.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-doppler-phase-4",
@@ -1573,7 +2150,26 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--10.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--11.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--12.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--13.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--14.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--15.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--16.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-phase-4--17.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-doppler-ruby",
@@ -1596,7 +2192,26 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--10.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--11.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--12.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--13.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--14.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--15.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--16.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-ruby--17.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-doppler-sapphire",
@@ -1619,7 +2234,26 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--10.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--11.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--12.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--13.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--14.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--15.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--16.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-sapphire--17.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-doppler-black-pearl",
@@ -1642,7 +2276,26 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--05.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--06.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--07.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--08.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--09.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--10.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--11.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--12.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--13.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--14.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--15.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--16.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-doppler-black-pearl--17.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-damascus-steel",
@@ -1665,7 +2318,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-damascus-steel--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-damascus-steel--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-damascus-steel--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-damascus-steel--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-marble-fade",
@@ -1688,7 +2348,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-marble-fade--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-marble-fade--03.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-tiger-tooth",
@@ -1711,7 +2376,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-tiger-tooth.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-tiger-tooth--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-tiger-tooth--03.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-rust-coat",
@@ -1734,7 +2404,13 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-rust-coat.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-rust-coat--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-rust-coat--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-rust-coat--04.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-ultraviolet",
@@ -1757,10 +2433,18 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-ultraviolet.png",
+          "imageAlternates": [
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-ultraviolet--02.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-ultraviolet--03.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-ultraviolet--04.png",
+            "Assets/Cases/Chroma-Case/Knives/chroma-case--extraordinary--m9-bayonet-ultraviolet--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Chroma-Case/Icons/chroma-case--icon.png"
   },
   "audit": {
     "tierCounts": {

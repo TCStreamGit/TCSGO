@@ -82,7 +82,13 @@
             "base": "0.023505882353000000",
             "nonStatTrak": "0.023505882353000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--aug-colony.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--aug-colony--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--aug-colony--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--aug-colony--04.png"
+          ]
         },
         {
           "itemId": "souvenir-aug-contractor",
@@ -105,7 +111,13 @@
             "base": "0.023505882353000000",
             "nonStatTrak": "0.023505882353000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--aug-contractor.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--aug-contractor--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--aug-contractor--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--aug-contractor--04.png"
+          ]
         },
         {
           "itemId": "souvenir-aug-storm",
@@ -128,7 +140,13 @@
             "base": "0.023505882353000000",
             "nonStatTrak": "0.023505882353000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--aug-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--aug-storm--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--aug-storm--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--aug-storm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-dual-berettas-colony",
@@ -151,7 +169,13 @@
             "base": "0.023505882353000000",
             "nonStatTrak": "0.023505882353000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--dual-berettas-colony.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--dual-berettas-colony--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--dual-berettas-colony--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--dual-berettas-colony--04.png"
+          ]
         },
         {
           "itemId": "souvenir-dual-berettas-contractor",
@@ -174,7 +198,13 @@
             "base": "0.023505882353000000",
             "nonStatTrak": "0.023505882353000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--dual-berettas-contractor.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--dual-berettas-contractor--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--dual-berettas-contractor--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--dual-berettas-contractor--04.png"
+          ]
         },
         {
           "itemId": "souvenir-famas-colony",
@@ -197,7 +227,13 @@
             "base": "0.023505882353000000",
             "nonStatTrak": "0.023505882353000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--famas-colony.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--famas-colony--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--famas-colony--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--famas-colony--04.png"
+          ]
         },
         {
           "itemId": "souvenir-five-seven-contractor",
@@ -220,7 +256,13 @@
             "base": "0.023505882353000000",
             "nonStatTrak": "0.023505882353000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--five-seven-contractor.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--five-seven-contractor--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--five-seven-contractor--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--five-seven-contractor--04.png"
+          ]
         },
         {
           "itemId": "souvenir-five-seven-forest-night",
@@ -243,7 +285,13 @@
             "base": "0.023505882353000000",
             "nonStatTrak": "0.023505882353000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--five-seven-forest-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--five-seven-forest-night--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--five-seven-forest-night--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--five-seven-forest-night--04.png"
+          ]
         },
         {
           "itemId": "souvenir-g3sg1-desert-storm",
@@ -266,7 +314,13 @@
             "base": "0.023505882353000000",
             "nonStatTrak": "0.023505882353000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-desert-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-desert-storm--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-desert-storm--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-desert-storm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-g3sg1-jungle-dashed",
@@ -289,7 +343,13 @@
             "base": "0.023505882353000000",
             "nonStatTrak": "0.023505882353000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-jungle-dashed.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-jungle-dashed--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-jungle-dashed--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-jungle-dashed--04.png"
+          ]
         },
         {
           "itemId": "souvenir-g3sg1-polar-camo",
@@ -312,7 +372,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-polar-camo.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-polar-camo--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-polar-camo--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-polar-camo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-g3sg1-safari-mesh",
@@ -335,7 +401,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-safari-mesh--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-safari-mesh--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--g3sg1-safari-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-galil-ar-hunting-blind",
@@ -358,7 +430,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--galil-ar-hunting-blind.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--galil-ar-hunting-blind--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--galil-ar-hunting-blind--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--galil-ar-hunting-blind--04.png"
+          ]
         },
         {
           "itemId": "souvenir-galil-ar-sage-spray",
@@ -381,7 +459,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--galil-ar-sage-spray.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--galil-ar-sage-spray--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--galil-ar-sage-spray--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--galil-ar-sage-spray--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mp7-army-recon",
@@ -404,7 +488,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--mp7-army-recon.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--mp7-army-recon--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--mp7-army-recon--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--mp7-army-recon--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mp9-sand-dashed",
@@ -427,7 +517,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--mp9-sand-dashed.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--mp9-sand-dashed--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--mp9-sand-dashed--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--mp9-sand-dashed--04.png"
+          ]
         },
         {
           "itemId": "souvenir-nova-polar-mesh",
@@ -450,7 +546,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--nova-polar-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--nova-polar-mesh--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--nova-polar-mesh--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--nova-polar-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-nova-predator",
@@ -473,7 +575,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--nova-predator.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--nova-predator--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--nova-predator--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--nova-predator--04.png"
+          ]
         },
         {
           "itemId": "souvenir-nova-sand-dune",
@@ -496,7 +604,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--nova-sand-dune.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--nova-sand-dune--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--nova-sand-dune--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--nova-sand-dune--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p2000-amber-fade",
@@ -519,7 +633,12 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p2000-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p2000-amber-fade--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p2000-amber-fade--03.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-bone-mask",
@@ -542,7 +661,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-bone-mask.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-bone-mask--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-bone-mask--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-bone-mask--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-boreal-forest",
@@ -565,7 +690,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-boreal-forest--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-boreal-forest--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-boreal-forest--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-metallic-ddpat",
@@ -588,7 +719,11 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-metallic-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-metallic-ddpat--02.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-sand-dune",
@@ -611,7 +746,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-sand-dune.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-sand-dune--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-sand-dune--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p250-sand-dune--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-sand-spray",
@@ -634,7 +775,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-sand-spray.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-sand-spray--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-sand-spray--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-sand-spray--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-sand-spray-2",
@@ -657,7 +804,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-sand-spray-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-sand-spray-2--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-sand-spray-2--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-sand-spray-2--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-scorched",
@@ -680,7 +833,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-scorched--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-scorched--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-scorched--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-scorched-2",
@@ -703,7 +862,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-scorched-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-scorched-2--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-scorched-2--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--p90-scorched-2--04.png"
+          ]
         },
         {
           "itemId": "souvenir-pp-bizon-sand-dashed",
@@ -726,7 +891,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--pp-bizon-sand-dashed.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--pp-bizon-sand-dashed--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--pp-bizon-sand-dashed--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--pp-bizon-sand-dashed--04.png"
+          ]
         },
         {
           "itemId": "souvenir-pp-bizon-urban-dashed",
@@ -749,7 +920,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--pp-bizon-urban-dashed.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--pp-bizon-urban-dashed--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--pp-bizon-urban-dashed--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--pp-bizon-urban-dashed--04.png"
+          ]
         },
         {
           "itemId": "souvenir-scar-20-contractor",
@@ -772,7 +949,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--scar-20-contractor.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--scar-20-contractor--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--scar-20-contractor--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--scar-20-contractor--04.png"
+          ]
         },
         {
           "itemId": "souvenir-scar-20-sand-mesh",
@@ -795,7 +978,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--scar-20-sand-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--scar-20-sand-mesh--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--scar-20-sand-mesh--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--scar-20-sand-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sg-553-waves-perforated",
@@ -818,7 +1007,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--sg-553-waves-perforated.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--sg-553-waves-perforated--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--sg-553-waves-perforated--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--sg-553-waves-perforated--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ssg-08-blue-spruce",
@@ -841,7 +1036,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--ssg-08-blue-spruce.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--ssg-08-blue-spruce--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--ssg-08-blue-spruce--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--ssg-08-blue-spruce--04.png"
+          ]
         },
         {
           "itemId": "souvenir-tec-9-army-mesh",
@@ -864,7 +1065,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--tec-9-army-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--tec-9-army-mesh--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--tec-9-army-mesh--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--tec-9-army-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-tec-9-groundwater",
@@ -887,7 +1094,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--tec-9-groundwater.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--tec-9-groundwater--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--tec-9-groundwater--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--tec-9-groundwater--04.png"
+          ]
         },
         {
           "itemId": "souvenir-tec-9-army-mesh-2",
@@ -910,7 +1123,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--tec-9-army-mesh-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--tec-9-army-mesh-2--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--tec-9-army-mesh-2--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--tec-9-army-mesh-2--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ump-45-urban-ddpat",
@@ -933,7 +1152,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--ump-45-urban-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--ump-45-urban-ddpat--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--ump-45-urban-ddpat--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--ump-45-urban-ddpat--04.png"
+          ]
         },
         {
           "itemId": "souvenir-xm1014-blue-spruce",
@@ -956,7 +1181,13 @@
             "base": "0.023505882352000000",
             "nonStatTrak": "0.023505882352000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--xm1014-blue-spruce.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--xm1014-blue-spruce--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--xm1014-blue-spruce--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--consumer--xm1014-blue-spruce--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -981,7 +1212,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--ak-47-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--ak-47-safari-mesh--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--ak-47-safari-mesh--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--ak-47-safari-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-aug-condemned",
@@ -1004,7 +1241,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--aug-condemned.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--aug-condemned--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--aug-condemned--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--aug-condemned--04.png"
+          ]
         },
         {
           "itemId": "souvenir-aug-condemned-2",
@@ -1027,7 +1270,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--aug-condemned-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--aug-condemned-2--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--aug-condemned-2--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--aug-condemned-2--04.png"
+          ]
         },
         {
           "itemId": "souvenir-awp-safari-mesh",
@@ -1050,7 +1299,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--awp-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--awp-safari-mesh--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--awp-safari-mesh--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--awp-safari-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-desert-eagle-mudder",
@@ -1073,7 +1328,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--desert-eagle-mudder.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--desert-eagle-mudder--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--desert-eagle-mudder--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--desert-eagle-mudder--04.png"
+          ]
         },
         {
           "itemId": "souvenir-dual-berettas-stained",
@@ -1096,7 +1357,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--dual-berettas-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--dual-berettas-stained--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--dual-berettas-stained--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--dual-berettas-stained--04.png"
+          ]
         },
         {
           "itemId": "souvenir-famas-cyanospatter",
@@ -1119,7 +1386,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--famas-cyanospatter.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--famas-cyanospatter--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--famas-cyanospatter--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--famas-cyanospatter--04.png"
+          ]
         },
         {
           "itemId": "souvenir-g3sg1-varicamo",
@@ -1142,7 +1415,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--g3sg1-varicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--g3sg1-varicamo--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--g3sg1-varicamo--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--g3sg1-varicamo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-galil-ar-varicamo",
@@ -1165,7 +1444,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--galil-ar-varicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--galil-ar-varicamo--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--galil-ar-varicamo--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--galil-ar-varicamo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-glock-18-groundwater",
@@ -1188,7 +1473,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--glock-18-groundwater.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--glock-18-groundwater--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--glock-18-groundwater--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--glock-18-groundwater--04.png"
+          ]
         },
         {
           "itemId": "souvenir-m249-gator-mesh",
@@ -1211,7 +1502,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--m249-gator-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--m249-gator-mesh--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--m249-gator-mesh--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--m249-gator-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-m4a1-s-blue-phosphor",
@@ -1234,7 +1531,11 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--m4a1-s-blue-phosphor.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--m4a1-s-blue-phosphor--02.png"
+          ]
         },
         {
           "itemId": "souvenir-m4a4-urban-ddpat",
@@ -1257,7 +1558,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--m4a4-urban-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--m4a4-urban-ddpat--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--m4a4-urban-ddpat--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--m4a4-urban-ddpat--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mac-10-candy-apple",
@@ -1280,7 +1587,12 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mac-10-candy-apple.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mac-10-candy-apple--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mac-10-candy-apple--03.png"
+          ]
         },
         {
           "itemId": "souvenir-mac-10-palm",
@@ -1303,7 +1615,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mac-10-palm.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mac-10-palm--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mac-10-palm--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mac-10-palm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mag-7-metallic-ddpat",
@@ -1326,7 +1644,11 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mag-7-metallic-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mag-7-metallic-ddpat--02.png"
+          ]
         },
         {
           "itemId": "souvenir-mp7-orange-peel",
@@ -1349,7 +1671,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mp7-orange-peel.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mp7-orange-peel--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mp7-orange-peel--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mp7-orange-peel--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mp9-orange-peel",
@@ -1372,7 +1700,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mp9-orange-peel.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mp9-orange-peel--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mp9-orange-peel--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--mp9-orange-peel--04.png"
+          ]
         },
         {
           "itemId": "souvenir-negev-calicamo",
@@ -1395,7 +1729,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--negev-calicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--negev-calicamo--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--negev-calicamo--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--negev-calicamo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-nova-candy-apple",
@@ -1418,7 +1758,12 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--nova-candy-apple.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--nova-candy-apple--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--nova-candy-apple--03.png"
+          ]
         },
         {
           "itemId": "souvenir-p2000-granite-marbleized",
@@ -1441,7 +1786,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--p2000-granite-marbleized.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--p2000-granite-marbleized--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--p2000-granite-marbleized--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--p2000-granite-marbleized--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-ash-wood",
@@ -1464,7 +1815,12 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--p90-ash-wood.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--p90-ash-wood--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--p90-ash-wood--03.png"
+          ]
         },
         {
           "itemId": "souvenir-pp-bizon-night-ops",
@@ -1487,7 +1843,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--pp-bizon-night-ops.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--pp-bizon-night-ops--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--pp-bizon-night-ops--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--pp-bizon-night-ops--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sawed-off-snake-camo",
@@ -1510,7 +1872,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--sawed-off-snake-camo.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--sawed-off-snake-camo--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--sawed-off-snake-camo--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--sawed-off-snake-camo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-scar-20-carbon-fiber",
@@ -1533,7 +1901,11 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--scar-20-carbon-fiber.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--scar-20-carbon-fiber--02.png"
+          ]
         },
         {
           "itemId": "souvenir-sg-553-gator-mesh",
@@ -1556,7 +1928,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--sg-553-gator-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--sg-553-gator-mesh--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--sg-553-gator-mesh--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--sg-553-gator-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sg-553-gator-mesh-2",
@@ -1579,7 +1957,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--sg-553-gator-mesh-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--sg-553-gator-mesh-2--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--sg-553-gator-mesh-2--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--sg-553-gator-mesh-2--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ssg-08-tropical-storm",
@@ -1602,7 +1986,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--ssg-08-tropical-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--ssg-08-tropical-storm--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--ssg-08-tropical-storm--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--ssg-08-tropical-storm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-tec-9-varicamo",
@@ -1625,7 +2015,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--tec-9-varicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--tec-9-varicamo--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--tec-9-varicamo--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--tec-9-varicamo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ump-45-gunsmoke",
@@ -1648,7 +2044,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--ump-45-gunsmoke.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--ump-45-gunsmoke--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--ump-45-gunsmoke--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--ump-45-gunsmoke--04.png"
+          ]
         },
         {
           "itemId": "souvenir-usp-s-forest-leaves",
@@ -1671,7 +2073,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--usp-s-forest-leaves.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--usp-s-forest-leaves--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--usp-s-forest-leaves--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--usp-s-forest-leaves--04.png"
+          ]
         },
         {
           "itemId": "souvenir-usp-s-groundwater",
@@ -1694,7 +2102,8 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--usp-s-groundwater.png"
         },
         {
           "itemId": "souvenir-xm1014-blue-steel",
@@ -1717,7 +2126,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--xm1014-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--xm1014-blue-steel--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--xm1014-blue-steel--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--xm1014-blue-steel--04.png"
+          ]
         },
         {
           "itemId": "souvenir-xm1014-calicamo",
@@ -1740,7 +2155,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--xm1014-calicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--xm1014-calicamo--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--xm1014-calicamo--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--industrial--xm1014-calicamo--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -1765,7 +2186,13 @@
             "base": "0.001882352942000000",
             "nonStatTrak": "0.001882352942000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--desert-eagle-urban-rubble.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--desert-eagle-urban-rubble--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--desert-eagle-urban-rubble--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--desert-eagle-urban-rubble--04.png"
+          ]
         },
         {
           "itemId": "souvenir-five-seven-silver-quartz",
@@ -1788,7 +2215,12 @@
             "base": "0.001882352942000000",
             "nonStatTrak": "0.001882352942000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--five-seven-silver-quartz.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--five-seven-silver-quartz--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--five-seven-silver-quartz--03.png"
+          ]
         },
         {
           "itemId": "souvenir-famas-teardown",
@@ -1811,7 +2243,13 @@
             "base": "0.001882352942000000",
             "nonStatTrak": "0.001882352942000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--famas-teardown.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--famas-teardown--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--famas-teardown--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--famas-teardown--04.png"
+          ]
         },
         {
           "itemId": "souvenir-glock-18-candy-apple",
@@ -1834,7 +2272,12 @@
             "base": "0.001882352942000000",
             "nonStatTrak": "0.001882352942000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--glock-18-candy-apple.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--glock-18-candy-apple--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--glock-18-candy-apple--03.png"
+          ]
         },
         {
           "itemId": "souvenir-m4a1-s-varicamo",
@@ -1857,7 +2300,13 @@
             "base": "0.001882352942000000",
             "nonStatTrak": "0.001882352942000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--m4a1-s-varicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--m4a1-s-varicamo--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--m4a1-s-varicamo--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--m4a1-s-varicamo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mac-10-amber-fade",
@@ -1880,7 +2329,12 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--mac-10-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--mac-10-amber-fade--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--mac-10-amber-fade--03.png"
+          ]
         },
         {
           "itemId": "souvenir-mp7-anodized-navy",
@@ -1903,7 +2357,11 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--mp7-anodized-navy.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--mp7-anodized-navy--02.png"
+          ]
         },
         {
           "itemId": "souvenir-mp9-hot-rod",
@@ -1926,7 +2384,11 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--mp9-hot-rod.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--mp9-hot-rod--02.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-teardown",
@@ -1949,7 +2411,13 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--p90-teardown.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--p90-teardown--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--p90-teardown--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--p90-teardown--04.png"
+          ]
         },
         {
           "itemId": "souvenir-pp-bizon-brass",
@@ -1972,7 +2440,13 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--pp-bizon-brass.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--pp-bizon-brass--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--pp-bizon-brass--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--pp-bizon-brass--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sawed-off-amber-fade",
@@ -1995,7 +2469,12 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sawed-off-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sawed-off-amber-fade--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sawed-off-amber-fade--03.png"
+          ]
         },
         {
           "itemId": "souvenir-sawed-off-full-stop",
@@ -2018,7 +2497,13 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sawed-off-full-stop.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sawed-off-full-stop--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sawed-off-full-stop--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sawed-off-full-stop--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sg-553-anodized-navy",
@@ -2041,7 +2526,11 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sg-553-anodized-navy.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sg-553-anodized-navy--02.png"
+          ]
         },
         {
           "itemId": "souvenir-sg-553-damascus-steel",
@@ -2064,7 +2553,13 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sg-553-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sg-553-damascus-steel--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sg-553-damascus-steel--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--sg-553-damascus-steel--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ssg-08-acid-fade",
@@ -2087,7 +2582,11 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--ssg-08-acid-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--ssg-08-acid-fade--02.png"
+          ]
         },
         {
           "itemId": "souvenir-ump-45-blaze",
@@ -2110,7 +2609,11 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--ump-45-blaze.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--ump-45-blaze--02.png"
+          ]
         },
         {
           "itemId": "souvenir-usp-s-night-ops",
@@ -2133,7 +2636,13 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--usp-s-night-ops.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--usp-s-night-ops--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--usp-s-night-ops--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--milspec--usp-s-night-ops--04.png"
+          ]
         }
       ],
       "restricted": [
@@ -2158,7 +2667,13 @@
             "base": "0.001066666667000000",
             "nonStatTrak": "0.001066666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--awp-pit-viper.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--awp-pit-viper--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--awp-pit-viper--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--awp-pit-viper--04.png"
+          ]
         },
         {
           "itemId": "souvenir-dual-berettas-cobalt-quartz",
@@ -2181,7 +2696,12 @@
             "base": "0.001066666667000000",
             "nonStatTrak": "0.001066666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--dual-berettas-cobalt-quartz.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--dual-berettas-cobalt-quartz--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--dual-berettas-cobalt-quartz--03.png"
+          ]
         },
         {
           "itemId": "souvenir-m4a1-s-nitro",
@@ -2204,7 +2724,13 @@
             "base": "0.001066666667000000",
             "nonStatTrak": "0.001066666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--m4a1-s-nitro.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--m4a1-s-nitro--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--m4a1-s-nitro--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--m4a1-s-nitro--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mag-7-bulldozer",
@@ -2227,7 +2753,13 @@
             "base": "0.001066666667000000",
             "nonStatTrak": "0.001066666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--mag-7-bulldozer.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--mag-7-bulldozer--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--mag-7-bulldozer--03.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--mag-7-bulldozer--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p2000-amber-fade-restricted",
@@ -2250,7 +2782,12 @@
             "base": "0.001066666666000000",
             "nonStatTrak": "0.001066666666000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--p2000-amber-fade-restricted.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--p2000-amber-fade-restricted--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--p2000-amber-fade-restricted--03.png"
+          ]
         },
         {
           "itemId": "souvenir-tec-9-red-quartz",
@@ -2273,7 +2810,12 @@
             "base": "0.001066666666000000",
             "nonStatTrak": "0.001066666666000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--tec-9-red-quartz.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--tec-9-red-quartz--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--restricted--tec-9-red-quartz--03.png"
+          ]
         }
       ],
       "classified": [
@@ -2298,12 +2840,18 @@
             "base": "0.002600000000000000",
             "nonStatTrak": "0.002600000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--classified--r8-revolver-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--classified--r8-revolver-amber-fade--02.png",
+            "Assets/Cases/Ems-One-2014-Souvenir-Package/Weapons/ems-one-2014-souvenir-package--classified--r8-revolver-amber-fade--03.png"
+          ]
         }
       ],
       "covert": []
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Ems-One-2014-Souvenir-Package/Icons/ems-one-2014-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

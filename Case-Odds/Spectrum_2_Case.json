@@ -61,7 +61,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--sawed-off-morris.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--sawed-off-morris--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--sawed-off-morris--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--sawed-off-morris--04.png"
+          ]
         },
         {
           "itemId": "aug-triqua",
@@ -84,7 +90,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--aug-triqua.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--aug-triqua--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--aug-triqua--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--aug-triqua--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-hunter",
@@ -107,7 +119,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--g3sg1-hunter.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--g3sg1-hunter--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--g3sg1-hunter--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--g3sg1-hunter--04.png"
+          ]
         },
         {
           "itemId": "glock-18-off-world",
@@ -130,7 +148,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--glock-18-off-world.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--glock-18-off-world--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--glock-18-off-world--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--glock-18-off-world--04.png"
+          ]
         },
         {
           "itemId": "mac-10-oceanic",
@@ -153,7 +177,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--mac-10-oceanic.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--mac-10-oceanic--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--mac-10-oceanic--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--mac-10-oceanic--04.png"
+          ]
         },
         {
           "itemId": "tec-9-cracked-opal",
@@ -176,7 +206,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--tec-9-cracked-opal.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--tec-9-cracked-opal--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--tec-9-cracked-opal--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--tec-9-cracked-opal--04.png"
+          ]
         },
         {
           "itemId": "scar-20-jungle-slipstream",
@@ -199,7 +235,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--scar-20-jungle-slipstream.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--scar-20-jungle-slipstream--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--scar-20-jungle-slipstream--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--mil-spec-grade--scar-20-jungle-slipstream--04.png"
+          ]
         }
       ],
       "purple": [
@@ -224,7 +266,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--mp9-goo.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--mp9-goo--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--mp9-goo--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--mp9-goo--04.png"
+          ]
         },
         {
           "itemId": "sg-553-phantom",
@@ -247,7 +295,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--sg-553-phantom.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--sg-553-phantom--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--sg-553-phantom--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--sg-553-phantom--04.png"
+          ]
         },
         {
           "itemId": "cz75-auto-tacticat",
@@ -270,7 +324,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--cz75-auto-tacticat.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--cz75-auto-tacticat--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--cz75-auto-tacticat--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--cz75-auto-tacticat--04.png"
+          ]
         },
         {
           "itemId": "ump-45-exposure",
@@ -293,7 +353,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--ump-45-exposure.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--ump-45-exposure--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--ump-45-exposure--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--ump-45-exposure--04.png"
+          ]
         },
         {
           "itemId": "xm1014-ziggy",
@@ -316,7 +382,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--xm1014-ziggy.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--xm1014-ziggy--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--xm1014-ziggy--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--restricted--xm1014-ziggy--04.png"
+          ]
         }
       ],
       "pink": [
@@ -341,7 +413,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--classified--m4a1-s-leaded-glass.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--classified--m4a1-s-leaded-glass--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--classified--m4a1-s-leaded-glass--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--classified--m4a1-s-leaded-glass--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-high-roller",
@@ -364,7 +442,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--classified--pp-bizon-high-roller.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--classified--pp-bizon-high-roller--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--classified--pp-bizon-high-roller--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--classified--pp-bizon-high-roller--04.png"
+          ]
         },
         {
           "itemId": "r8-revolver-llama-cannon",
@@ -387,7 +471,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--classified--r8-revolver-llama-cannon.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--classified--r8-revolver-llama-cannon--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--classified--r8-revolver-llama-cannon--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--classified--r8-revolver-llama-cannon--04.png"
+          ]
         }
       ],
       "red": [
@@ -412,7 +502,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--covert--ak-47-the-empress.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--covert--ak-47-the-empress--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--covert--ak-47-the-empress--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--covert--ak-47-the-empress--04.png"
+          ]
         },
         {
           "itemId": "p250-see-ya-later",
@@ -435,7 +531,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--covert--p250-see-ya-later.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--covert--p250-see-ya-later--02.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--covert--p250-see-ya-later--03.png",
+            "Assets/Cases/Spectrum-2-Case/Weapons/spectrum-2-case--covert--p250-see-ya-later--04.png"
+          ]
         }
       ]
     },
@@ -470,7 +572,19 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-1--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-1--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-1--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-1--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-1--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-1--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-1--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-1--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-1--10.png"
+          ]
         },
         {
           "itemId": "bowie-knife-doppler-phase-2",
@@ -493,7 +607,19 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-2--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-2--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-2--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-2--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-2--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-2--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-2--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-2--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-2--10.png"
+          ]
         },
         {
           "itemId": "bowie-knife-doppler-phase-3",
@@ -516,7 +642,19 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-3--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-3--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-3--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-3--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-3--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-3--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-3--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-3--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-3--10.png"
+          ]
         },
         {
           "itemId": "bowie-knife-doppler-phase-4",
@@ -539,7 +677,19 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-4--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-4--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-4--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-4--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-4--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-4--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-4--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-4--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-phase-4--10.png"
+          ]
         },
         {
           "itemId": "bowie-knife-doppler-ruby",
@@ -562,7 +712,19 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-ruby--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-ruby--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-ruby--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-ruby--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-ruby--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-ruby--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-ruby--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-ruby--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-ruby--10.png"
+          ]
         },
         {
           "itemId": "bowie-knife-doppler-sapphire",
@@ -585,7 +747,19 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-sapphire--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-sapphire--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-sapphire--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-sapphire--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-sapphire--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-sapphire--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-sapphire--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-sapphire--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-sapphire--10.png"
+          ]
         },
         {
           "itemId": "bowie-knife-doppler-black-pearl",
@@ -608,7 +782,19 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-black-pearl--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-black-pearl--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-black-pearl--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-black-pearl--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-black-pearl--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-black-pearl--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-black-pearl--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-black-pearl--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-doppler-black-pearl--10.png"
+          ]
         },
         {
           "itemId": "bowie-knife-marble-fade",
@@ -631,7 +817,12 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-marble-fade--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-marble-fade--03.png"
+          ]
         },
         {
           "itemId": "bowie-knife-tiger-tooth",
@@ -654,7 +845,12 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-tiger-tooth.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-tiger-tooth--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-tiger-tooth--03.png"
+          ]
         },
         {
           "itemId": "bowie-knife-damascus-steel",
@@ -677,7 +873,14 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-damascus-steel--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-damascus-steel--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-damascus-steel--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-damascus-steel--05.png"
+          ]
         },
         {
           "itemId": "bowie-knife-ultraviolet",
@@ -700,7 +903,14 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-ultraviolet.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-ultraviolet--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-ultraviolet--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-ultraviolet--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-ultraviolet--05.png"
+          ]
         },
         {
           "itemId": "bowie-knife-rust-coat",
@@ -723,7 +933,13 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-rust-coat.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-rust-coat--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-rust-coat--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--bowie-knife-rust-coat--04.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-doppler-phase-1",
@@ -746,7 +962,20 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-1--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-1--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-1--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-1--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-1--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-1--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-1--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-1--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-1--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-1--11.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-doppler-phase-2",
@@ -769,7 +998,20 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-2--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-2--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-2--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-2--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-2--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-2--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-2--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-2--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-2--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-2--11.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-doppler-phase-3",
@@ -792,7 +1034,20 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-3--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-3--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-3--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-3--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-3--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-3--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-3--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-3--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-3--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-3--11.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-doppler-phase-4",
@@ -815,7 +1070,20 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-4--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-4--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-4--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-4--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-4--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-4--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-4--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-4--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-4--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-phase-4--11.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-doppler-ruby",
@@ -838,7 +1106,20 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-ruby--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-ruby--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-ruby--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-ruby--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-ruby--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-ruby--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-ruby--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-ruby--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-ruby--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-ruby--11.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-doppler-sapphire",
@@ -861,7 +1142,20 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-sapphire--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-sapphire--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-sapphire--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-sapphire--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-sapphire--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-sapphire--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-sapphire--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-sapphire--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-sapphire--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-sapphire--11.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-doppler-black-pearl",
@@ -884,7 +1178,20 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-black-pearl--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-black-pearl--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-black-pearl--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-black-pearl--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-black-pearl--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-black-pearl--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-black-pearl--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-black-pearl--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-black-pearl--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-doppler-black-pearl--11.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-marble-fade",
@@ -907,7 +1214,12 @@
             "base": "0.000043333334000000",
             "nonStatTrak": "0.000039000001000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-marble-fade--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-marble-fade--03.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-tiger-tooth",
@@ -930,7 +1242,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-tiger-tooth.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-tiger-tooth--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-tiger-tooth--03.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-damascus-steel",
@@ -953,7 +1270,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-damascus-steel--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-damascus-steel--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-damascus-steel--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-damascus-steel--05.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-ultraviolet",
@@ -976,7 +1300,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-ultraviolet.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-ultraviolet--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-ultraviolet--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-ultraviolet--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-ultraviolet--05.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-rust-coat",
@@ -999,7 +1330,13 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-rust-coat.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-rust-coat--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-rust-coat--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--butterfly-knife-rust-coat--04.png"
+          ]
         },
         {
           "itemId": "falchion-knife-doppler-phase-1",
@@ -1022,7 +1359,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-1--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-1--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-1--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-1--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-1--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-1--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-1--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-1--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-1--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-1--11.png"
+          ]
         },
         {
           "itemId": "falchion-knife-doppler-phase-2",
@@ -1045,7 +1395,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-2--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-2--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-2--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-2--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-2--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-2--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-2--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-2--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-2--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-2--11.png"
+          ]
         },
         {
           "itemId": "falchion-knife-doppler-phase-3",
@@ -1068,7 +1431,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-3--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-3--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-3--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-3--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-3--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-3--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-3--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-3--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-3--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-3--11.png"
+          ]
         },
         {
           "itemId": "falchion-knife-doppler-phase-4",
@@ -1091,7 +1467,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-4--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-4--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-4--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-4--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-4--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-4--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-4--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-4--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-4--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-phase-4--11.png"
+          ]
         },
         {
           "itemId": "falchion-knife-doppler-ruby",
@@ -1114,7 +1503,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-ruby--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-ruby--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-ruby--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-ruby--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-ruby--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-ruby--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-ruby--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-ruby--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-ruby--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-ruby--11.png"
+          ]
         },
         {
           "itemId": "falchion-knife-doppler-sapphire",
@@ -1137,7 +1539,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-sapphire--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-sapphire--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-sapphire--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-sapphire--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-sapphire--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-sapphire--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-sapphire--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-sapphire--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-sapphire--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-sapphire--11.png"
+          ]
         },
         {
           "itemId": "falchion-knife-doppler-black-pearl",
@@ -1160,7 +1575,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-black-pearl--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-black-pearl--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-black-pearl--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-black-pearl--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-black-pearl--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-black-pearl--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-black-pearl--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-black-pearl--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-black-pearl--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-doppler-black-pearl--11.png"
+          ]
         },
         {
           "itemId": "falchion-knife-marble-fade",
@@ -1183,7 +1611,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-marble-fade--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-marble-fade--03.png"
+          ]
         },
         {
           "itemId": "falchion-knife-tiger-tooth",
@@ -1206,7 +1639,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-tiger-tooth.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-tiger-tooth--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-tiger-tooth--03.png"
+          ]
         },
         {
           "itemId": "falchion-knife-damascus-steel",
@@ -1229,7 +1667,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-damascus-steel--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-damascus-steel--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-damascus-steel--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-damascus-steel--05.png"
+          ]
         },
         {
           "itemId": "falchion-knife-ultraviolet",
@@ -1252,7 +1697,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-ultraviolet.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-ultraviolet--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-ultraviolet--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-ultraviolet--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-ultraviolet--05.png"
+          ]
         },
         {
           "itemId": "falchion-knife-rust-coat",
@@ -1275,7 +1727,13 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-rust-coat.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-rust-coat--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-rust-coat--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--falchion-knife-rust-coat--04.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-doppler-phase-1",
@@ -1298,7 +1756,27 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--11.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--12.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--13.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--14.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--15.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--16.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--17.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-1--18.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-doppler-phase-2",
@@ -1321,7 +1799,27 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--11.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--12.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--13.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--14.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--15.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--16.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--17.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-2--18.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-doppler-phase-3",
@@ -1344,7 +1842,27 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--11.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--12.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--13.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--14.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--15.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--16.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--17.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-3--18.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-doppler-phase-4",
@@ -1367,7 +1885,27 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--11.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--12.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--13.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--14.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--15.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--16.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--17.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-phase-4--18.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-doppler-ruby",
@@ -1390,7 +1928,27 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--11.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--12.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--13.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--14.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--15.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--16.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--17.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-ruby--18.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-doppler-sapphire",
@@ -1413,7 +1971,27 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--11.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--12.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--13.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--14.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--15.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--16.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--17.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-sapphire--18.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-doppler-black-pearl",
@@ -1436,7 +2014,27 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--11.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--12.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--13.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--14.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--15.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--16.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--17.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-doppler-black-pearl--18.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-marble-fade",
@@ -1459,7 +2057,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-marble-fade--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-marble-fade--03.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-tiger-tooth",
@@ -1482,7 +2085,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-tiger-tooth.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-tiger-tooth--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-tiger-tooth--03.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-damascus-steel",
@@ -1505,7 +2113,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-damascus-steel--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-damascus-steel--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-damascus-steel--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-damascus-steel--05.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-ultraviolet",
@@ -1528,7 +2143,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-ultraviolet.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-ultraviolet--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-ultraviolet--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-ultraviolet--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-ultraviolet--05.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-rust-coat",
@@ -1551,7 +2173,13 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-rust-coat.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-rust-coat--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-rust-coat--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--huntsman-knife-rust-coat--04.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-doppler-phase-1",
@@ -1574,7 +2202,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-1--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-1--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-1--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-1--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-1--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-1--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-1--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-1--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-1--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-1--11.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-doppler-phase-2",
@@ -1597,7 +2238,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-2--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-2--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-2--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-2--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-2--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-2--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-2--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-2--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-2--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-2--11.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-doppler-phase-3",
@@ -1620,7 +2274,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-3--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-3--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-3--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-3--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-3--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-3--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-3--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-3--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-3--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-3--11.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-doppler-phase-4",
@@ -1643,7 +2310,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-4--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-4--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-4--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-4--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-4--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-4--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-4--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-4--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-4--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-phase-4--11.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-doppler-ruby",
@@ -1666,7 +2346,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-ruby--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-ruby--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-ruby--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-ruby--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-ruby--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-ruby--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-ruby--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-ruby--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-ruby--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-ruby--11.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-doppler-sapphire",
@@ -1689,7 +2382,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-sapphire--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-sapphire--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-sapphire--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-sapphire--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-sapphire--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-sapphire--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-sapphire--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-sapphire--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-sapphire--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-sapphire--11.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-doppler-black-pearl",
@@ -1712,7 +2418,20 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-black-pearl--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-black-pearl--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-black-pearl--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-black-pearl--05.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-black-pearl--06.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-black-pearl--07.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-black-pearl--08.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-black-pearl--09.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-black-pearl--10.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-doppler-black-pearl--11.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-marble-fade",
@@ -1735,7 +2454,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-marble-fade--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-marble-fade--03.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-tiger-tooth",
@@ -1758,7 +2482,12 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-tiger-tooth.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-tiger-tooth--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-tiger-tooth--03.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-damascus-steel",
@@ -1781,7 +2510,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-damascus-steel--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-damascus-steel--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-damascus-steel--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-damascus-steel--05.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-ultraviolet",
@@ -1804,7 +2540,14 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-ultraviolet.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-ultraviolet--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-ultraviolet--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-ultraviolet--04.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-ultraviolet--05.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-rust-coat",
@@ -1827,10 +2570,17 @@
             "base": "0.000043333333000000",
             "nonStatTrak": "0.000039000000000000",
             "statTrak": "0.000004333333000000"
-          }
+          },
+          "image": "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-rust-coat.png",
+          "imageAlternates": [
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-rust-coat--02.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-rust-coat--03.png",
+            "Assets/Cases/Spectrum-2-Case/Knives/spectrum-2-case--extraordinary--shadow-daggers-rust-coat--04.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Spectrum-2-Case/Icons/spectrum-2-case--icon.png"
   },
   "audit": {
     "tierCounts": {

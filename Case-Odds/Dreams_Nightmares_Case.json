@@ -59,7 +59,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--five-seven-scrawl.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--five-seven-scrawl--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--five-seven-scrawl--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--five-seven-scrawl--04.png"
+          ]
         },
         {
           "itemId": "scar-20-poultrygeist",
@@ -82,7 +88,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--scar-20-poultrygeist.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--scar-20-poultrygeist--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--scar-20-poultrygeist--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--scar-20-poultrygeist--04.png"
+          ]
         },
         {
           "itemId": "mac-10-ensnared",
@@ -105,7 +117,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--mac-10-ensnared.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--mac-10-ensnared--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--mac-10-ensnared--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--mac-10-ensnared--04.png"
+          ]
         },
         {
           "itemId": "mag-7-foresight",
@@ -128,7 +146,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--mag-7-foresight.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--mag-7-foresight--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--mag-7-foresight--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--mag-7-foresight--04.png"
+          ]
         },
         {
           "itemId": "mp5-sd-necro-jr",
@@ -151,7 +175,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--mp5-sd-necro-jr.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--mp5-sd-necro-jr--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--mp5-sd-necro-jr--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--mp5-sd-necro-jr--04.png"
+          ]
         },
         {
           "itemId": "p2000-lifted-spirits",
@@ -174,7 +204,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--p2000-lifted-spirits.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--p2000-lifted-spirits--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--p2000-lifted-spirits--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--p2000-lifted-spirits--04.png"
+          ]
         },
         {
           "itemId": "sawed-off-spirit-board",
@@ -197,7 +233,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--sawed-off-spirit-board.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--sawed-off-spirit-board--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--sawed-off-spirit-board--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--mil-spec--sawed-off-spirit-board--04.png"
+          ]
         }
       ],
       "purple": [
@@ -222,7 +264,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--m4a1-s-night-terror.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--m4a1-s-night-terror--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--m4a1-s-night-terror--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--m4a1-s-night-terror--04.png"
+          ]
         },
         {
           "itemId": "usp-s-ticket-to-hell",
@@ -245,7 +293,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--usp-s-ticket-to-hell.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--usp-s-ticket-to-hell--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--usp-s-ticket-to-hell--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--usp-s-ticket-to-hell--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-dream-glade",
@@ -268,7 +322,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--g3sg1-dream-glade.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--g3sg1-dream-glade--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--g3sg1-dream-glade--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--g3sg1-dream-glade--04.png"
+          ]
         },
         {
           "itemId": "xm1014-zombie-offensive",
@@ -291,7 +351,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--xm1014-zombie-offensive.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--xm1014-zombie-offensive--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--xm1014-zombie-offensive--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--xm1014-zombie-offensive--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-space-cat",
@@ -314,7 +380,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--pp-bizon-space-cat.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--pp-bizon-space-cat--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--pp-bizon-space-cat--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--restricted--pp-bizon-space-cat--04.png"
+          ]
         }
       ],
       "pink": [
@@ -339,7 +411,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666668000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--classified--famas-rapid-eye-movement.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--classified--famas-rapid-eye-movement--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--classified--famas-rapid-eye-movement--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--classified--famas-rapid-eye-movement--04.png"
+          ]
         },
         {
           "itemId": "dual-berettas-melondrama",
@@ -362,7 +440,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666668000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--classified--dual-berettas-melondrama.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--classified--dual-berettas-melondrama--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--classified--dual-berettas-melondrama--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--classified--dual-berettas-melondrama--04.png"
+          ]
         },
         {
           "itemId": "mp7-abyssal-apparition",
@@ -385,7 +469,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--classified--mp7-abyssal-apparition.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--classified--mp7-abyssal-apparition--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--classified--mp7-abyssal-apparition--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--classified--mp7-abyssal-apparition--04.png"
+          ]
         }
       ],
       "red": [
@@ -410,7 +500,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--covert--ak-47-nightwish.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--covert--ak-47-nightwish--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--covert--ak-47-nightwish--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--covert--ak-47-nightwish--04.png"
+          ]
         },
         {
           "itemId": "mp9-starlight-protector",
@@ -433,7 +529,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--covert--mp9-starlight-protector.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--covert--mp9-starlight-protector--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--covert--mp9-starlight-protector--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Weapons/dreams-and-nightmares-case--covert--mp9-starlight-protector--04.png"
+          ]
         }
       ]
     },
@@ -448,7 +550,7 @@
       "items": [
         {
           "itemId": "butterfly-knife-lore",
-          "displayName": "\u2605 Butterfly Knife | Lore",
+          "displayName": "★ Butterfly Knife | Lore",
           "category": "knife",
           "weapon": "Butterfly Knife",
           "skin": "Lore",
@@ -467,11 +569,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-lore--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-lore--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-lore--04.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-autotronic",
-          "displayName": "\u2605 Butterfly Knife | Autotronic",
+          "displayName": "★ Butterfly Knife | Autotronic",
           "category": "knife",
           "weapon": "Butterfly Knife",
           "skin": "Autotronic",
@@ -490,11 +598,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-autotronic--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-autotronic--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-autotronic--04.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-black-laminate",
-          "displayName": "\u2605 Butterfly Knife | Black Laminate",
+          "displayName": "★ Butterfly Knife | Black Laminate",
           "category": "knife",
           "weapon": "Butterfly Knife",
           "skin": "Black Laminate",
@@ -513,11 +627,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-black-laminate--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-black-laminate--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-black-laminate--04.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-freehand",
-          "displayName": "\u2605 Butterfly Knife | Freehand",
+          "displayName": "★ Butterfly Knife | Freehand",
           "category": "knife",
           "weapon": "Butterfly Knife",
           "skin": "Freehand",
@@ -536,11 +656,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-freehand--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-freehand--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-freehand--04.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-bright-water",
-          "displayName": "\u2605 Butterfly Knife | Bright Water",
+          "displayName": "★ Butterfly Knife | Bright Water",
           "category": "knife",
           "weapon": "Butterfly Knife",
           "skin": "Bright Water",
@@ -559,11 +685,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-bright-water--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-bright-water--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-bright-water--04.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-gamma-doppler-phase-1",
-          "displayName": "\u2605 Butterfly Knife | Gamma Doppler (Phase 1)",
+          "displayName": "★ Butterfly Knife | Gamma Doppler (Phase 1)",
           "category": "knife",
           "weapon": "Butterfly Knife",
           "skin": "Gamma Doppler",
@@ -582,11 +714,20 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-1--07.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-gamma-doppler-phase-2",
-          "displayName": "\u2605 Butterfly Knife | Gamma Doppler (Phase 2)",
+          "displayName": "★ Butterfly Knife | Gamma Doppler (Phase 2)",
           "category": "knife",
           "weapon": "Butterfly Knife",
           "skin": "Gamma Doppler",
@@ -605,11 +746,20 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-2--07.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-gamma-doppler-phase-3",
-          "displayName": "\u2605 Butterfly Knife | Gamma Doppler (Phase 3)",
+          "displayName": "★ Butterfly Knife | Gamma Doppler (Phase 3)",
           "category": "knife",
           "weapon": "Butterfly Knife",
           "skin": "Gamma Doppler",
@@ -628,11 +778,20 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-3--07.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-gamma-doppler-phase-4",
-          "displayName": "\u2605 Butterfly Knife | Gamma Doppler (Phase 4)",
+          "displayName": "★ Butterfly Knife | Gamma Doppler (Phase 4)",
           "category": "knife",
           "weapon": "Butterfly Knife",
           "skin": "Gamma Doppler",
@@ -651,11 +810,20 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-phase-4--07.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-gamma-doppler-emerald",
-          "displayName": "\u2605 Butterfly Knife | Gamma Doppler (Emerald)",
+          "displayName": "★ Butterfly Knife | Gamma Doppler (Emerald)",
           "category": "knife",
           "weapon": "Butterfly Knife",
           "skin": "Gamma Doppler",
@@ -674,11 +842,20 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--butterfly-knife-gamma-doppler-emerald--07.png"
+          ]
         },
         {
           "itemId": "bowie-knife-lore",
-          "displayName": "\u2605 Bowie Knife | Lore",
+          "displayName": "★ Bowie Knife | Lore",
           "category": "knife",
           "weapon": "Bowie Knife",
           "skin": "Lore",
@@ -697,11 +874,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-lore--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-lore--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-lore--04.png"
+          ]
         },
         {
           "itemId": "bowie-knife-autotronic",
-          "displayName": "\u2605 Bowie Knife | Autotronic",
+          "displayName": "★ Bowie Knife | Autotronic",
           "category": "knife",
           "weapon": "Bowie Knife",
           "skin": "Autotronic",
@@ -720,11 +903,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-autotronic--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-autotronic--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-autotronic--04.png"
+          ]
         },
         {
           "itemId": "bowie-knife-black-laminate",
-          "displayName": "\u2605 Bowie Knife | Black Laminate",
+          "displayName": "★ Bowie Knife | Black Laminate",
           "category": "knife",
           "weapon": "Bowie Knife",
           "skin": "Black Laminate",
@@ -743,11 +932,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-black-laminate--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-black-laminate--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-black-laminate--04.png"
+          ]
         },
         {
           "itemId": "bowie-knife-freehand",
-          "displayName": "\u2605 Bowie Knife | Freehand",
+          "displayName": "★ Bowie Knife | Freehand",
           "category": "knife",
           "weapon": "Bowie Knife",
           "skin": "Freehand",
@@ -766,11 +961,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-freehand--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-freehand--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-freehand--04.png"
+          ]
         },
         {
           "itemId": "bowie-knife-bright-water",
-          "displayName": "\u2605 Bowie Knife | Bright Water",
+          "displayName": "★ Bowie Knife | Bright Water",
           "category": "knife",
           "weapon": "Bowie Knife",
           "skin": "Bright Water",
@@ -789,11 +990,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-bright-water--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-bright-water--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-bright-water--04.png"
+          ]
         },
         {
           "itemId": "bowie-knife-gamma-doppler-phase-1",
-          "displayName": "\u2605 Bowie Knife | Gamma Doppler (Phase 1)",
+          "displayName": "★ Bowie Knife | Gamma Doppler (Phase 1)",
           "category": "knife",
           "weapon": "Bowie Knife",
           "skin": "Gamma Doppler",
@@ -812,11 +1019,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "bowie-knife-gamma-doppler-phase-2",
-          "displayName": "\u2605 Bowie Knife | Gamma Doppler (Phase 2)",
+          "displayName": "★ Bowie Knife | Gamma Doppler (Phase 2)",
           "category": "knife",
           "weapon": "Bowie Knife",
           "skin": "Gamma Doppler",
@@ -835,11 +1052,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "bowie-knife-gamma-doppler-phase-3",
-          "displayName": "\u2605 Bowie Knife | Gamma Doppler (Phase 3)",
+          "displayName": "★ Bowie Knife | Gamma Doppler (Phase 3)",
           "category": "knife",
           "weapon": "Bowie Knife",
           "skin": "Gamma Doppler",
@@ -858,11 +1085,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "bowie-knife-gamma-doppler-phase-4",
-          "displayName": "\u2605 Bowie Knife | Gamma Doppler (Phase 4)",
+          "displayName": "★ Bowie Knife | Gamma Doppler (Phase 4)",
           "category": "knife",
           "weapon": "Bowie Knife",
           "skin": "Gamma Doppler",
@@ -881,11 +1118,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "bowie-knife-gamma-doppler-emerald",
-          "displayName": "\u2605 Bowie Knife | Gamma Doppler (Emerald)",
+          "displayName": "★ Bowie Knife | Gamma Doppler (Emerald)",
           "category": "knife",
           "weapon": "Bowie Knife",
           "skin": "Gamma Doppler",
@@ -904,11 +1151,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--bowie-knife-gamma-doppler-emerald--08.png"
+          ]
         },
         {
           "itemId": "falchion-knife-lore",
-          "displayName": "\u2605 Falchion Knife | Lore",
+          "displayName": "★ Falchion Knife | Lore",
           "category": "knife",
           "weapon": "Falchion Knife",
           "skin": "Lore",
@@ -927,11 +1184,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-lore--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-lore--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-lore--04.png"
+          ]
         },
         {
           "itemId": "falchion-knife-autotronic",
-          "displayName": "\u2605 Falchion Knife | Autotronic",
+          "displayName": "★ Falchion Knife | Autotronic",
           "category": "knife",
           "weapon": "Falchion Knife",
           "skin": "Autotronic",
@@ -950,11 +1213,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-autotronic--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-autotronic--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-autotronic--04.png"
+          ]
         },
         {
           "itemId": "falchion-knife-black-laminate",
-          "displayName": "\u2605 Falchion Knife | Black Laminate",
+          "displayName": "★ Falchion Knife | Black Laminate",
           "category": "knife",
           "weapon": "Falchion Knife",
           "skin": "Black Laminate",
@@ -973,11 +1242,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-black-laminate--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-black-laminate--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-black-laminate--04.png"
+          ]
         },
         {
           "itemId": "falchion-knife-freehand",
-          "displayName": "\u2605 Falchion Knife | Freehand",
+          "displayName": "★ Falchion Knife | Freehand",
           "category": "knife",
           "weapon": "Falchion Knife",
           "skin": "Freehand",
@@ -996,11 +1271,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-freehand--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-freehand--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-freehand--04.png"
+          ]
         },
         {
           "itemId": "falchion-knife-bright-water",
-          "displayName": "\u2605 Falchion Knife | Bright Water",
+          "displayName": "★ Falchion Knife | Bright Water",
           "category": "knife",
           "weapon": "Falchion Knife",
           "skin": "Bright Water",
@@ -1019,11 +1300,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-bright-water--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-bright-water--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-bright-water--04.png"
+          ]
         },
         {
           "itemId": "falchion-knife-gamma-doppler-phase-1",
-          "displayName": "\u2605 Falchion Knife | Gamma Doppler (Phase 1)",
+          "displayName": "★ Falchion Knife | Gamma Doppler (Phase 1)",
           "category": "knife",
           "weapon": "Falchion Knife",
           "skin": "Gamma Doppler",
@@ -1042,11 +1329,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "falchion-knife-gamma-doppler-phase-2",
-          "displayName": "\u2605 Falchion Knife | Gamma Doppler (Phase 2)",
+          "displayName": "★ Falchion Knife | Gamma Doppler (Phase 2)",
           "category": "knife",
           "weapon": "Falchion Knife",
           "skin": "Gamma Doppler",
@@ -1065,11 +1362,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "falchion-knife-gamma-doppler-phase-3",
-          "displayName": "\u2605 Falchion Knife | Gamma Doppler (Phase 3)",
+          "displayName": "★ Falchion Knife | Gamma Doppler (Phase 3)",
           "category": "knife",
           "weapon": "Falchion Knife",
           "skin": "Gamma Doppler",
@@ -1088,11 +1395,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "falchion-knife-gamma-doppler-phase-4",
-          "displayName": "\u2605 Falchion Knife | Gamma Doppler (Phase 4)",
+          "displayName": "★ Falchion Knife | Gamma Doppler (Phase 4)",
           "category": "knife",
           "weapon": "Falchion Knife",
           "skin": "Gamma Doppler",
@@ -1111,11 +1428,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "falchion-knife-gamma-doppler-emerald",
-          "displayName": "\u2605 Falchion Knife | Gamma Doppler (Emerald)",
+          "displayName": "★ Falchion Knife | Gamma Doppler (Emerald)",
           "category": "knife",
           "weapon": "Falchion Knife",
           "skin": "Gamma Doppler",
@@ -1134,11 +1461,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--falchion-knife-gamma-doppler-emerald--08.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-lore",
-          "displayName": "\u2605 Huntsman Knife | Lore",
+          "displayName": "★ Huntsman Knife | Lore",
           "category": "knife",
           "weapon": "Huntsman Knife",
           "skin": "Lore",
@@ -1157,11 +1494,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-lore--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-lore--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-lore--04.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-autotronic",
-          "displayName": "\u2605 Huntsman Knife | Autotronic",
+          "displayName": "★ Huntsman Knife | Autotronic",
           "category": "knife",
           "weapon": "Huntsman Knife",
           "skin": "Autotronic",
@@ -1180,11 +1523,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-autotronic--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-autotronic--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-autotronic--04.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-black-laminate",
-          "displayName": "\u2605 Huntsman Knife | Black Laminate",
+          "displayName": "★ Huntsman Knife | Black Laminate",
           "category": "knife",
           "weapon": "Huntsman Knife",
           "skin": "Black Laminate",
@@ -1203,11 +1552,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-black-laminate--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-black-laminate--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-black-laminate--04.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-freehand",
-          "displayName": "\u2605 Huntsman Knife | Freehand",
+          "displayName": "★ Huntsman Knife | Freehand",
           "category": "knife",
           "weapon": "Huntsman Knife",
           "skin": "Freehand",
@@ -1226,11 +1581,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-freehand--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-freehand--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-freehand--04.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-bright-water",
-          "displayName": "\u2605 Huntsman Knife | Bright Water",
+          "displayName": "★ Huntsman Knife | Bright Water",
           "category": "knife",
           "weapon": "Huntsman Knife",
           "skin": "Bright Water",
@@ -1249,11 +1610,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-bright-water--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-bright-water--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-bright-water--04.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-gamma-doppler-phase-1",
-          "displayName": "\u2605 Huntsman Knife | Gamma Doppler (Phase 1)",
+          "displayName": "★ Huntsman Knife | Gamma Doppler (Phase 1)",
           "category": "knife",
           "weapon": "Huntsman Knife",
           "skin": "Gamma Doppler",
@@ -1272,11 +1639,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-gamma-doppler-phase-2",
-          "displayName": "\u2605 Huntsman Knife | Gamma Doppler (Phase 2)",
+          "displayName": "★ Huntsman Knife | Gamma Doppler (Phase 2)",
           "category": "knife",
           "weapon": "Huntsman Knife",
           "skin": "Gamma Doppler",
@@ -1295,11 +1672,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-gamma-doppler-phase-3",
-          "displayName": "\u2605 Huntsman Knife | Gamma Doppler (Phase 3)",
+          "displayName": "★ Huntsman Knife | Gamma Doppler (Phase 3)",
           "category": "knife",
           "weapon": "Huntsman Knife",
           "skin": "Gamma Doppler",
@@ -1318,11 +1705,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-gamma-doppler-phase-4",
-          "displayName": "\u2605 Huntsman Knife | Gamma Doppler (Phase 4)",
+          "displayName": "★ Huntsman Knife | Gamma Doppler (Phase 4)",
           "category": "knife",
           "weapon": "Huntsman Knife",
           "skin": "Gamma Doppler",
@@ -1341,11 +1738,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-gamma-doppler-emerald",
-          "displayName": "\u2605 Huntsman Knife | Gamma Doppler (Emerald)",
+          "displayName": "★ Huntsman Knife | Gamma Doppler (Emerald)",
           "category": "knife",
           "weapon": "Huntsman Knife",
           "skin": "Gamma Doppler",
@@ -1364,11 +1771,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--huntsman-knife-gamma-doppler-emerald--08.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-lore",
-          "displayName": "\u2605 Shadow Daggers | Lore",
+          "displayName": "★ Shadow Daggers | Lore",
           "category": "knife",
           "weapon": "Shadow Daggers",
           "skin": "Lore",
@@ -1387,11 +1804,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-lore--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-lore--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-lore--04.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-autotronic",
-          "displayName": "\u2605 Shadow Daggers | Autotronic",
+          "displayName": "★ Shadow Daggers | Autotronic",
           "category": "knife",
           "weapon": "Shadow Daggers",
           "skin": "Autotronic",
@@ -1410,11 +1833,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-autotronic--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-autotronic--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-autotronic--04.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-black-laminate",
-          "displayName": "\u2605 Shadow Daggers | Black Laminate",
+          "displayName": "★ Shadow Daggers | Black Laminate",
           "category": "knife",
           "weapon": "Shadow Daggers",
           "skin": "Black Laminate",
@@ -1433,11 +1862,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-black-laminate--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-black-laminate--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-black-laminate--04.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-freehand",
-          "displayName": "\u2605 Shadow Daggers | Freehand",
+          "displayName": "★ Shadow Daggers | Freehand",
           "category": "knife",
           "weapon": "Shadow Daggers",
           "skin": "Freehand",
@@ -1456,11 +1891,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-freehand--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-freehand--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-freehand--04.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-bright-water",
-          "displayName": "\u2605 Shadow Daggers | Bright Water",
+          "displayName": "★ Shadow Daggers | Bright Water",
           "category": "knife",
           "weapon": "Shadow Daggers",
           "skin": "Bright Water",
@@ -1479,11 +1920,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-bright-water--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-bright-water--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-bright-water--04.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-gamma-doppler-phase-1",
-          "displayName": "\u2605 Shadow Daggers | Gamma Doppler (Phase 1)",
+          "displayName": "★ Shadow Daggers | Gamma Doppler (Phase 1)",
           "category": "knife",
           "weapon": "Shadow Daggers",
           "skin": "Gamma Doppler",
@@ -1502,11 +1949,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-gamma-doppler-phase-2",
-          "displayName": "\u2605 Shadow Daggers | Gamma Doppler (Phase 2)",
+          "displayName": "★ Shadow Daggers | Gamma Doppler (Phase 2)",
           "category": "knife",
           "weapon": "Shadow Daggers",
           "skin": "Gamma Doppler",
@@ -1525,11 +1982,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-gamma-doppler-phase-3",
-          "displayName": "\u2605 Shadow Daggers | Gamma Doppler (Phase 3)",
+          "displayName": "★ Shadow Daggers | Gamma Doppler (Phase 3)",
           "category": "knife",
           "weapon": "Shadow Daggers",
           "skin": "Gamma Doppler",
@@ -1548,11 +2015,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-gamma-doppler-phase-4",
-          "displayName": "\u2605 Shadow Daggers | Gamma Doppler (Phase 4)",
+          "displayName": "★ Shadow Daggers | Gamma Doppler (Phase 4)",
           "category": "knife",
           "weapon": "Shadow Daggers",
           "skin": "Gamma Doppler",
@@ -1571,11 +2048,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-gamma-doppler-emerald",
-          "displayName": "\u2605 Shadow Daggers | Gamma Doppler (Emerald)",
+          "displayName": "★ Shadow Daggers | Gamma Doppler (Emerald)",
           "category": "knife",
           "weapon": "Shadow Daggers",
           "skin": "Gamma Doppler",
@@ -1594,10 +2081,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Dreams-And-Nightmares-Case/Knives/dreams-and-nightmares-case--rare-special--shadow-daggers-gamma-doppler-emerald--08.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Dreams-And-Nightmares-Case/Icons/dreams-and-nightmares-case--icon.png"
   },
   "audit": {
     "tierCounts": {

@@ -60,7 +60,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--five-seve-n-flame-test.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--five-seve-n-flame-test--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--five-seve-n-flame-test--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--five-seve-n-flame-test--04.png"
+          ]
         },
         {
           "itemId": "sg-553-aloha",
@@ -83,7 +89,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--sg-553-aloha.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--sg-553-aloha--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--sg-553-aloha--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--sg-553-aloha--04.png"
+          ]
         },
         {
           "itemId": "r8-revolver-grip",
@@ -106,7 +118,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--r8-revolver-grip.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--r8-revolver-grip--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--r8-revolver-grip--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--r8-revolver-grip--04.png"
+          ]
         },
         {
           "itemId": "xm1014-oxide-blaze",
@@ -129,7 +147,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--xm1014-oxide-blaze.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--xm1014-oxide-blaze--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--xm1014-oxide-blaze--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--xm1014-oxide-blaze--04.png"
+          ]
         },
         {
           "itemId": "p2000-urban-hazard",
@@ -152,7 +176,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--p2000-urban-hazard.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--p2000-urban-hazard--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--p2000-urban-hazard--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--p2000-urban-hazard--04.png"
+          ]
         },
         {
           "itemId": "mp9-black-sand",
@@ -175,7 +205,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--mp9-black-sand.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--mp9-black-sand--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--mp9-black-sand--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--mp9-black-sand--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-night-riot",
@@ -198,7 +234,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--pp-bizon-night-riot.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--pp-bizon-night-riot--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--pp-bizon-night-riot--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--mil-spec--pp-bizon-night-riot--04.png"
+          ]
         }
       ],
       "purple": [
@@ -223,7 +265,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--glock-18-moonrise.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--glock-18-moonrise--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--glock-18-moonrise--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--glock-18-moonrise--04.png"
+          ]
         },
         {
           "itemId": "ump-45-arctic-wolf",
@@ -246,7 +294,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--ump-45-arctic-wolf.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--ump-45-arctic-wolf--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--ump-45-arctic-wolf--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--ump-45-arctic-wolf--04.png"
+          ]
         },
         {
           "itemId": "mag-7-swag-7",
@@ -269,7 +323,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--mag-7-swag-7.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--mag-7-swag-7--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--mag-7-swag-7--03.png"
+          ]
         },
         {
           "itemId": "negev-lionfish",
@@ -292,7 +351,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--negev-lionfish.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--negev-lionfish--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--negev-lionfish--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--negev-lionfish--04.png"
+          ]
         },
         {
           "itemId": "nova-wild-six",
@@ -315,7 +380,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--nova-wild-six.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--nova-wild-six--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--nova-wild-six--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--restricted--nova-wild-six--04.png"
+          ]
         }
       ],
       "pink": [
@@ -340,7 +411,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--classified--usp-s-cortex.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--classified--usp-s-cortex--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--classified--usp-s-cortex--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--classified--usp-s-cortex--04.png"
+          ]
         },
         {
           "itemId": "awp-mortis",
@@ -363,7 +440,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--classified--awp-mortis.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--classified--awp-mortis--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--classified--awp-mortis--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--classified--awp-mortis--04.png"
+          ]
         },
         {
           "itemId": "aug-stymphalian",
@@ -386,7 +469,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--classified--aug-stymphalian.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--classified--aug-stymphalian--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--classified--aug-stymphalian--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--classified--aug-stymphalian--04.png"
+          ]
         }
       ],
       "red": [
@@ -411,7 +500,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--covert--mp7-bloodsport.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--covert--mp7-bloodsport--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--covert--mp7-bloodsport--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--covert--mp7-bloodsport--04.png"
+          ]
         },
         {
           "itemId": "m4a4-neo-noir",
@@ -434,7 +529,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Weapons/clutch-case--covert--m4a4-neo-noir.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--covert--m4a4-neo-noir--02.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--covert--m4a4-neo-noir--03.png",
+            "Assets/Cases/Clutch-Case/Weapons/clutch-case--covert--m4a4-neo-noir--04.png"
+          ]
         }
       ]
     },
@@ -449,7 +550,7 @@
       "items": [
         {
           "itemId": "hydra-gloves-emerald",
-          "displayName": "\u2605 Hydra Gloves | Emerald",
+          "displayName": "★ Hydra Gloves | Emerald",
           "category": "gloves",
           "weapon": "Hydra Gloves",
           "skin": "Emerald",
@@ -468,11 +569,16 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hydra-gloves-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hydra-gloves-emerald--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hydra-gloves-emerald--03.png"
+          ]
         },
         {
           "itemId": "hydra-gloves-case-hardened",
-          "displayName": "\u2605 Hydra Gloves | Case Hardened",
+          "displayName": "★ Hydra Gloves | Case Hardened",
           "category": "gloves",
           "weapon": "Hydra Gloves",
           "skin": "Case Hardened",
@@ -491,11 +597,16 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hydra-gloves-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hydra-gloves-case-hardened--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hydra-gloves-case-hardened--03.png"
+          ]
         },
         {
           "itemId": "hydra-gloves-rattler",
-          "displayName": "\u2605 Hydra Gloves | Rattler",
+          "displayName": "★ Hydra Gloves | Rattler",
           "category": "gloves",
           "weapon": "Hydra Gloves",
           "skin": "Rattler",
@@ -514,11 +625,16 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hydra-gloves-rattler.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hydra-gloves-rattler--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hydra-gloves-rattler--03.png"
+          ]
         },
         {
           "itemId": "hydra-gloves-mangrove",
-          "displayName": "\u2605 Hydra Gloves | Mangrove",
+          "displayName": "★ Hydra Gloves | Mangrove",
           "category": "gloves",
           "weapon": "Hydra Gloves",
           "skin": "Mangrove",
@@ -537,11 +653,16 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hydra-gloves-mangrove.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hydra-gloves-mangrove--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hydra-gloves-mangrove--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-racing-green",
-          "displayName": "\u2605 Driver Gloves | Racing Green",
+          "displayName": "★ Driver Gloves | Racing Green",
           "category": "gloves",
           "weapon": "Driver Gloves",
           "skin": "Racing Green",
@@ -560,11 +681,16 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--driver-gloves-racing-green.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--driver-gloves-racing-green--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--driver-gloves-racing-green--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-overtake",
-          "displayName": "\u2605 Driver Gloves | Overtake",
+          "displayName": "★ Driver Gloves | Overtake",
           "category": "gloves",
           "weapon": "Driver Gloves",
           "skin": "Overtake",
@@ -583,11 +709,16 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--driver-gloves-overtake.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--driver-gloves-overtake--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--driver-gloves-overtake--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-king-snake",
-          "displayName": "\u2605 Driver Gloves | King Snake",
+          "displayName": "★ Driver Gloves | King Snake",
           "category": "gloves",
           "weapon": "Driver Gloves",
           "skin": "King Snake",
@@ -606,11 +737,16 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--driver-gloves-king-snake.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--driver-gloves-king-snake--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--driver-gloves-king-snake--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-imperial-plaid",
-          "displayName": "\u2605 Driver Gloves | Imperial Plaid",
+          "displayName": "★ Driver Gloves | Imperial Plaid",
           "category": "gloves",
           "weapon": "Driver Gloves",
           "skin": "Imperial Plaid",
@@ -629,11 +765,16 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--driver-gloves-imperial-plaid.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--driver-gloves-imperial-plaid--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--driver-gloves-imperial-plaid--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-duct-tape",
-          "displayName": "\u2605 Hand Wraps | Duct Tape",
+          "displayName": "★ Hand Wraps | Duct Tape",
           "category": "gloves",
           "weapon": "Hand Wraps",
           "skin": "Duct Tape",
@@ -652,11 +793,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hand-wraps-duct-tape.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hand-wraps-duct-tape--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hand-wraps-duct-tape--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-cobalt-skulls",
-          "displayName": "\u2605 Hand Wraps | Cobalt Skulls",
+          "displayName": "★ Hand Wraps | Cobalt Skulls",
           "category": "gloves",
           "weapon": "Hand Wraps",
           "skin": "Cobalt Skulls",
@@ -675,11 +821,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hand-wraps-cobalt-skulls.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hand-wraps-cobalt-skulls--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hand-wraps-cobalt-skulls--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-overprint",
-          "displayName": "\u2605 Hand Wraps | Overprint",
+          "displayName": "★ Hand Wraps | Overprint",
           "category": "gloves",
           "weapon": "Hand Wraps",
           "skin": "Overprint",
@@ -698,11 +849,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hand-wraps-overprint.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hand-wraps-overprint--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hand-wraps-overprint--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-arboreal",
-          "displayName": "\u2605 Hand Wraps | Arboreal",
+          "displayName": "★ Hand Wraps | Arboreal",
           "category": "gloves",
           "weapon": "Hand Wraps",
           "skin": "Arboreal",
@@ -721,11 +877,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hand-wraps-arboreal.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hand-wraps-arboreal--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--hand-wraps-arboreal--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-transport",
-          "displayName": "\u2605 Moto Gloves | Transport",
+          "displayName": "★ Moto Gloves | Transport",
           "category": "gloves",
           "weapon": "Moto Gloves",
           "skin": "Transport",
@@ -744,11 +905,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--moto-gloves-transport.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--moto-gloves-transport--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--moto-gloves-transport--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-polygon",
-          "displayName": "\u2605 Moto Gloves | Polygon",
+          "displayName": "★ Moto Gloves | Polygon",
           "category": "gloves",
           "weapon": "Moto Gloves",
           "skin": "Polygon",
@@ -767,11 +933,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--moto-gloves-polygon.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--moto-gloves-polygon--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--moto-gloves-polygon--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-pow",
-          "displayName": "\u2605 Moto Gloves | POW!",
+          "displayName": "★ Moto Gloves | POW!",
           "category": "gloves",
           "weapon": "Moto Gloves",
           "skin": "POW!",
@@ -790,11 +961,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--moto-gloves-pow.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--moto-gloves-pow--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--moto-gloves-pow--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-turtle",
-          "displayName": "\u2605 Moto Gloves | Turtle",
+          "displayName": "★ Moto Gloves | Turtle",
           "category": "gloves",
           "weapon": "Moto Gloves",
           "skin": "Turtle",
@@ -813,11 +989,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--moto-gloves-turtle.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--moto-gloves-turtle--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--moto-gloves-turtle--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-fade",
-          "displayName": "\u2605 Specialist Gloves | Fade",
+          "displayName": "★ Specialist Gloves | Fade",
           "category": "gloves",
           "weapon": "Specialist Gloves",
           "skin": "Fade",
@@ -836,11 +1017,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--specialist-gloves-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--specialist-gloves-fade--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--specialist-gloves-fade--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-buckshot",
-          "displayName": "\u2605 Specialist Gloves | Buckshot",
+          "displayName": "★ Specialist Gloves | Buckshot",
           "category": "gloves",
           "weapon": "Specialist Gloves",
           "skin": "Buckshot",
@@ -859,11 +1045,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--specialist-gloves-buckshot.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--specialist-gloves-buckshot--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--specialist-gloves-buckshot--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-crimson-web",
-          "displayName": "\u2605 Specialist Gloves | Crimson Web",
+          "displayName": "★ Specialist Gloves | Crimson Web",
           "category": "gloves",
           "weapon": "Specialist Gloves",
           "skin": "Crimson Web",
@@ -882,11 +1073,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--specialist-gloves-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--specialist-gloves-crimson-web--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--specialist-gloves-crimson-web--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-mogul",
-          "displayName": "\u2605 Specialist Gloves | Mogul",
+          "displayName": "★ Specialist Gloves | Mogul",
           "category": "gloves",
           "weapon": "Specialist Gloves",
           "skin": "Mogul",
@@ -905,11 +1101,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--specialist-gloves-mogul.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--specialist-gloves-mogul--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--specialist-gloves-mogul--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-bronze-morph",
-          "displayName": "\u2605 Sport Gloves | Bronze Morph",
+          "displayName": "★ Sport Gloves | Bronze Morph",
           "category": "gloves",
           "weapon": "Sport Gloves",
           "skin": "Bronze Morph",
@@ -928,11 +1129,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--sport-gloves-bronze-morph.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--sport-gloves-bronze-morph--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--sport-gloves-bronze-morph--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-amphibious",
-          "displayName": "\u2605 Sport Gloves | Amphibious",
+          "displayName": "★ Sport Gloves | Amphibious",
           "category": "gloves",
           "weapon": "Sport Gloves",
           "skin": "Amphibious",
@@ -951,11 +1157,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--sport-gloves-amphibious.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--sport-gloves-amphibious--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--sport-gloves-amphibious--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-vice",
-          "displayName": "\u2605 Sport Gloves | Vice",
+          "displayName": "★ Sport Gloves | Vice",
           "category": "gloves",
           "weapon": "Sport Gloves",
           "skin": "Vice",
@@ -974,11 +1185,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--sport-gloves-vice.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--sport-gloves-vice--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--sport-gloves-vice--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-omega",
-          "displayName": "\u2605 Sport Gloves | Omega",
+          "displayName": "★ Sport Gloves | Omega",
           "category": "gloves",
           "weapon": "Sport Gloves",
           "skin": "Omega",
@@ -997,10 +1213,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--sport-gloves-omega.png",
+          "imageAlternates": [
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--sport-gloves-omega--02.png",
+            "Assets/Cases/Clutch-Case/Gloves/clutch-case--extraordinary--sport-gloves-omega--03.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Clutch-Case/Icons/clutch-case--icon.png"
   },
   "audit": {
     "tierCounts": {

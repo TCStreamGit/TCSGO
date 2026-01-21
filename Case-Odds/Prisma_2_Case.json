@@ -61,7 +61,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--awp-capillary.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--awp-capillary--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--awp-capillary--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--awp-capillary--04.png"
+          ]
         },
         {
           "itemId": "desert-eagle-blue-ply",
@@ -84,7 +90,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--desert-eagle-blue-ply.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--desert-eagle-blue-ply--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--desert-eagle-blue-ply--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--desert-eagle-blue-ply--04.png"
+          ]
         },
         {
           "itemId": "aug-tom-cat",
@@ -107,7 +119,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--aug-tom-cat.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--aug-tom-cat--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--aug-tom-cat--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--aug-tom-cat--04.png"
+          ]
         },
         {
           "itemId": "r8-revolver-bone-forged",
@@ -130,7 +148,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--r8-revolver-bone-forged.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--r8-revolver-bone-forged--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--r8-revolver-bone-forged--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--r8-revolver-bone-forged--04.png"
+          ]
         },
         {
           "itemId": "negev-prototype",
@@ -153,7 +177,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--negev-prototype.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--negev-prototype--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--negev-prototype--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--negev-prototype--04.png"
+          ]
         },
         {
           "itemId": "cz75-auto-distressed",
@@ -176,7 +206,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--cz75-auto-distressed.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--cz75-auto-distressed--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--cz75-auto-distressed--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--cz75-auto-distressed--04.png"
+          ]
         },
         {
           "itemId": "mp5-sd-desert-strike",
@@ -199,7 +235,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--mp5-sd-desert-strike.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--mp5-sd-desert-strike--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--mp5-sd-desert-strike--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--mil-spec--mp5-sd-desert-strike--04.png"
+          ]
         }
       ],
       "purple": [
@@ -224,7 +266,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--ssg-08-fever-dream.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--ssg-08-fever-dream--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--ssg-08-fever-dream--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--ssg-08-fever-dream--04.png"
+          ]
         },
         {
           "itemId": "sg-553-darkwing",
@@ -247,7 +295,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--sg-553-darkwing.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--sg-553-darkwing--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--sg-553-darkwing--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--sg-553-darkwing--04.png"
+          ]
         },
         {
           "itemId": "p2000-acid-etched",
@@ -270,7 +324,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--p2000-acid-etched.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--p2000-acid-etched--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--p2000-acid-etched--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--p2000-acid-etched--04.png"
+          ]
         },
         {
           "itemId": "sawed-off-apocalypto",
@@ -293,7 +353,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--sawed-off-apocalypto.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--sawed-off-apocalypto--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--sawed-off-apocalypto--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--sawed-off-apocalypto--04.png"
+          ]
         },
         {
           "itemId": "scar-20-enforcer",
@@ -316,7 +382,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--scar-20-enforcer.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--scar-20-enforcer--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--scar-20-enforcer--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--restricted--scar-20-enforcer--04.png"
+          ]
         }
       ],
       "pink": [
@@ -341,7 +413,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--classified--ak-47-phantom-disruptor.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--classified--ak-47-phantom-disruptor--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--classified--ak-47-phantom-disruptor--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--classified--ak-47-phantom-disruptor--04.png"
+          ]
         },
         {
           "itemId": "mac-10-disco-tech",
@@ -364,7 +442,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--classified--mac-10-disco-tech.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--classified--mac-10-disco-tech--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--classified--mac-10-disco-tech--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--classified--mac-10-disco-tech--04.png"
+          ]
         },
         {
           "itemId": "mag-7-justice",
@@ -387,7 +471,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--classified--mag-7-justice.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--classified--mag-7-justice--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--classified--mag-7-justice--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--classified--mag-7-justice--04.png"
+          ]
         }
       ],
       "red": [
@@ -412,7 +502,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--covert--glock-18-bullet-queen.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--covert--glock-18-bullet-queen--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--covert--glock-18-bullet-queen--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--covert--glock-18-bullet-queen--04.png"
+          ]
         },
         {
           "itemId": "m4a1-s-player-two",
@@ -435,7 +531,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--covert--m4a1-s-player-two.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--covert--m4a1-s-player-two--02.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--covert--m4a1-s-player-two--03.png",
+            "Assets/Cases/Prisma-2-Case/Weapons/prisma-2-case--covert--m4a1-s-player-two--04.png"
+          ]
         }
       ]
     },
@@ -469,7 +571,19 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-1--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-1--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-1--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-1--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-1--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-1--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-1--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-1--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-1--10.png"
+          ]
         },
         {
           "itemId": "talon-knife-doppler-phase-2",
@@ -492,7 +606,19 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-2--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-2--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-2--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-2--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-2--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-2--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-2--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-2--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-2--10.png"
+          ]
         },
         {
           "itemId": "talon-knife-doppler-phase-3",
@@ -515,7 +641,19 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-3--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-3--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-3--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-3--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-3--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-3--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-3--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-3--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-3--10.png"
+          ]
         },
         {
           "itemId": "talon-knife-doppler-phase-4",
@@ -538,7 +676,19 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-4--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-4--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-4--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-4--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-4--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-4--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-4--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-4--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-phase-4--10.png"
+          ]
         },
         {
           "itemId": "talon-knife-doppler-ruby",
@@ -561,7 +711,19 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-ruby--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-ruby--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-ruby--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-ruby--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-ruby--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-ruby--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-ruby--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-ruby--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-ruby--10.png"
+          ]
         },
         {
           "itemId": "talon-knife-doppler-sapphire",
@@ -584,7 +746,19 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-sapphire--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-sapphire--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-sapphire--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-sapphire--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-sapphire--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-sapphire--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-sapphire--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-sapphire--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-sapphire--10.png"
+          ]
         },
         {
           "itemId": "talon-knife-doppler-black-pearl",
@@ -607,7 +781,19 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-black-pearl--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-black-pearl--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-black-pearl--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-black-pearl--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-black-pearl--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-black-pearl--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-black-pearl--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-black-pearl--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-doppler-black-pearl--10.png"
+          ]
         },
         {
           "itemId": "talon-knife-marble-fade-none",
@@ -630,7 +816,12 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-marble-fade-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-marble-fade-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-marble-fade-none--03.png"
+          ]
         },
         {
           "itemId": "talon-knife-tiger-tooth-none",
@@ -653,7 +844,12 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-tiger-tooth-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-tiger-tooth-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-tiger-tooth-none--03.png"
+          ]
         },
         {
           "itemId": "talon-knife-damascus-steel-none",
@@ -676,7 +872,14 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-damascus-steel-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-damascus-steel-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-damascus-steel-none--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-damascus-steel-none--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-damascus-steel-none--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-rust-coat-none",
@@ -699,7 +902,13 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-rust-coat-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-rust-coat-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-rust-coat-none--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-rust-coat-none--04.png"
+          ]
         },
         {
           "itemId": "talon-knife-ultraviolet-none",
@@ -722,7 +931,14 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-ultraviolet-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-ultraviolet-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-ultraviolet-none--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-ultraviolet-none--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--talon-knife-ultraviolet-none--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-doppler-phase-1",
@@ -745,7 +961,18 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-1--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-1--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-1--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-1--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-1--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-1--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-1--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-1--09.png"
+          ]
         },
         {
           "itemId": "ursus-knife-doppler-phase-2",
@@ -768,7 +995,18 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-2--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-2--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-2--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-2--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-2--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-2--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-2--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-2--09.png"
+          ]
         },
         {
           "itemId": "ursus-knife-doppler-phase-3",
@@ -791,7 +1029,18 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-3--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-3--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-3--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-3--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-3--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-3--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-3--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-3--09.png"
+          ]
         },
         {
           "itemId": "ursus-knife-doppler-phase-4",
@@ -814,7 +1063,18 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-4--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-4--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-4--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-4--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-4--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-4--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-4--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-phase-4--09.png"
+          ]
         },
         {
           "itemId": "ursus-knife-doppler-ruby",
@@ -837,7 +1097,18 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-ruby--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-ruby--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-ruby--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-ruby--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-ruby--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-ruby--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-ruby--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-ruby--09.png"
+          ]
         },
         {
           "itemId": "ursus-knife-doppler-sapphire",
@@ -860,7 +1131,18 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-sapphire--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-sapphire--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-sapphire--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-sapphire--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-sapphire--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-sapphire--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-sapphire--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-sapphire--09.png"
+          ]
         },
         {
           "itemId": "ursus-knife-doppler-black-pearl",
@@ -883,7 +1165,18 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-black-pearl--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-black-pearl--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-black-pearl--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-black-pearl--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-black-pearl--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-black-pearl--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-black-pearl--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-doppler-black-pearl--09.png"
+          ]
         },
         {
           "itemId": "ursus-knife-marble-fade-none",
@@ -906,7 +1199,12 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-marble-fade-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-marble-fade-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-marble-fade-none--03.png"
+          ]
         },
         {
           "itemId": "ursus-knife-tiger-tooth-none",
@@ -929,7 +1227,12 @@
             "base": "0.000054166667000000",
             "nonStatTrak": "0.000048750001000000",
             "statTrak": "0.000005416666000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-tiger-tooth-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-tiger-tooth-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-tiger-tooth-none--03.png"
+          ]
         },
         {
           "itemId": "ursus-knife-damascus-steel-none",
@@ -952,7 +1255,14 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-damascus-steel-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-damascus-steel-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-damascus-steel-none--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-damascus-steel-none--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-damascus-steel-none--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-rust-coat-none",
@@ -975,7 +1285,13 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-rust-coat-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-rust-coat-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-rust-coat-none--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-rust-coat-none--04.png"
+          ]
         },
         {
           "itemId": "ursus-knife-ultraviolet-none",
@@ -998,7 +1314,14 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-ultraviolet-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-ultraviolet-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-ultraviolet-none--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-ultraviolet-none--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--ursus-knife-ultraviolet-none--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-doppler-phase-1",
@@ -1021,7 +1344,20 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-1--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-1--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-1--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-1--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-1--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-1--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-1--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-1--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-1--10.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-1--11.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-doppler-phase-2",
@@ -1044,7 +1380,20 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-2--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-2--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-2--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-2--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-2--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-2--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-2--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-2--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-2--10.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-2--11.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-doppler-phase-3",
@@ -1067,7 +1416,20 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-3--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-3--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-3--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-3--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-3--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-3--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-3--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-3--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-3--10.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-3--11.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-doppler-phase-4",
@@ -1090,7 +1452,20 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-4--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-4--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-4--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-4--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-4--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-4--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-4--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-4--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-4--10.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-phase-4--11.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-doppler-ruby",
@@ -1113,7 +1488,20 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-ruby--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-ruby--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-ruby--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-ruby--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-ruby--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-ruby--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-ruby--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-ruby--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-ruby--10.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-ruby--11.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-doppler-sapphire",
@@ -1136,7 +1524,20 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-sapphire--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-sapphire--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-sapphire--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-sapphire--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-sapphire--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-sapphire--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-sapphire--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-sapphire--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-sapphire--10.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-sapphire--11.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-doppler-black-pearl",
@@ -1159,7 +1560,20 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-black-pearl--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-black-pearl--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-black-pearl--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-black-pearl--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-black-pearl--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-black-pearl--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-black-pearl--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-black-pearl--09.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-black-pearl--10.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-doppler-black-pearl--11.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-marble-fade-none",
@@ -1182,7 +1596,12 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-marble-fade-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-marble-fade-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-marble-fade-none--03.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-tiger-tooth-none",
@@ -1205,7 +1624,12 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-tiger-tooth-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-tiger-tooth-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-tiger-tooth-none--03.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-damascus-steel-none",
@@ -1228,7 +1652,14 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-damascus-steel-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-damascus-steel-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-damascus-steel-none--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-damascus-steel-none--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-damascus-steel-none--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-rust-coat-none",
@@ -1251,7 +1682,13 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-rust-coat-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-rust-coat-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-rust-coat-none--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-rust-coat-none--04.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-ultraviolet-none",
@@ -1274,7 +1711,14 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-ultraviolet-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-ultraviolet-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-ultraviolet-none--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-ultraviolet-none--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--stiletto-knife-ultraviolet-none--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-doppler-phase-1",
@@ -1297,7 +1741,18 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-1--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-1--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-1--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-1--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-1--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-1--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-1--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-1--09.png"
+          ]
         },
         {
           "itemId": "navaja-knife-doppler-phase-2",
@@ -1320,7 +1775,18 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-2--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-2--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-2--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-2--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-2--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-2--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-2--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-2--09.png"
+          ]
         },
         {
           "itemId": "navaja-knife-doppler-phase-3",
@@ -1343,7 +1809,18 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-3--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-3--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-3--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-3--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-3--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-3--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-3--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-3--09.png"
+          ]
         },
         {
           "itemId": "navaja-knife-doppler-phase-4",
@@ -1366,7 +1843,18 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-4--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-4--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-4--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-4--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-4--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-4--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-4--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-phase-4--09.png"
+          ]
         },
         {
           "itemId": "navaja-knife-doppler-ruby",
@@ -1389,7 +1877,18 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-ruby--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-ruby--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-ruby--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-ruby--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-ruby--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-ruby--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-ruby--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-ruby--09.png"
+          ]
         },
         {
           "itemId": "navaja-knife-doppler-sapphire",
@@ -1412,7 +1911,18 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-sapphire--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-sapphire--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-sapphire--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-sapphire--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-sapphire--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-sapphire--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-sapphire--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-sapphire--09.png"
+          ]
         },
         {
           "itemId": "navaja-knife-doppler-black-pearl",
@@ -1435,7 +1945,18 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-black-pearl--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-black-pearl--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-black-pearl--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-black-pearl--05.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-black-pearl--06.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-black-pearl--07.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-black-pearl--08.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-doppler-black-pearl--09.png"
+          ]
         },
         {
           "itemId": "navaja-knife-marble-fade-none",
@@ -1458,7 +1979,12 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-marble-fade-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-marble-fade-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-marble-fade-none--03.png"
+          ]
         },
         {
           "itemId": "navaja-knife-tiger-tooth-none",
@@ -1481,7 +2007,12 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-tiger-tooth-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-tiger-tooth-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-tiger-tooth-none--03.png"
+          ]
         },
         {
           "itemId": "navaja-knife-damascus-steel-none",
@@ -1504,7 +2035,14 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-damascus-steel-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-damascus-steel-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-damascus-steel-none--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-damascus-steel-none--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-damascus-steel-none--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-rust-coat-none",
@@ -1527,7 +2065,13 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-rust-coat-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-rust-coat-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-rust-coat-none--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-rust-coat-none--04.png"
+          ]
         },
         {
           "itemId": "navaja-knife-ultraviolet-none",
@@ -1550,10 +2094,18 @@
             "base": "0.000054166666000000",
             "nonStatTrak": "0.000048749999000000",
             "statTrak": "0.000005416667000000"
-          }
+          },
+          "image": "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-ultraviolet-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-ultraviolet-none--02.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-ultraviolet-none--03.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-ultraviolet-none--04.png",
+            "Assets/Cases/Prisma-2-Case/Knives/prisma-2-case--rare-special--navaja-knife-ultraviolet-none--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Prisma-2-Case/Icons/prisma-2-case--icon.png"
   },
   "audit": {
     "tierCounts": {

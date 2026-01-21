@@ -61,7 +61,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--glock-18-wraiths-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--glock-18-wraiths-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--glock-18-wraiths-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--glock-18-wraiths-none--04.png"
+          ]
         },
         {
           "itemId": "dual-berettas-dualing-dragons-none",
@@ -84,7 +90,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--dual-berettas-dualing-dragons-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--dual-berettas-dualing-dragons-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--dual-berettas-dualing-dragons-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--dual-berettas-dualing-dragons-none--04.png"
+          ]
         },
         {
           "itemId": "xm1014-scumbria-none",
@@ -107,7 +119,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--xm1014-scumbria-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--xm1014-scumbria-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--xm1014-scumbria-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--xm1014-scumbria-none--04.png"
+          ]
         },
         {
           "itemId": "famas-survivor-z-none",
@@ -130,7 +148,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--famas-survivor-z-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--famas-survivor-z-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--famas-survivor-z-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--famas-survivor-z-none--04.png"
+          ]
         },
         {
           "itemId": "scar-20-green-marine-none",
@@ -153,7 +177,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--scar-20-green-marine-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--scar-20-green-marine-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--scar-20-green-marine-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--scar-20-green-marine-none--04.png"
+          ]
         },
         {
           "itemId": "mag-7-cobalt-core-none",
@@ -176,7 +206,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--mag-7-cobalt-core-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--mag-7-cobalt-core-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--mag-7-cobalt-core-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--mag-7-cobalt-core-none--04.png"
+          ]
         },
         {
           "itemId": "mac-10-rangeen-none",
@@ -199,7 +235,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--mac-10-rangeen-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--mac-10-rangeen-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--mac-10-rangeen-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--mil-spec-grade--mac-10-rangeen-none--04.png"
+          ]
         }
       ],
       "purple": [
@@ -224,7 +266,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--galil-ar-stone-cold-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--galil-ar-stone-cold-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--galil-ar-stone-cold-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--galil-ar-stone-cold-none--04.png"
+          ]
         },
         {
           "itemId": "p250-wingshot-none",
@@ -247,7 +295,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--p250-wingshot-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--p250-wingshot-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--p250-wingshot-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--p250-wingshot-none--04.png"
+          ]
         },
         {
           "itemId": "m249-nebula-crusader-none",
@@ -270,7 +324,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--m249-nebula-crusader-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--m249-nebula-crusader-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--m249-nebula-crusader-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--m249-nebula-crusader-none--04.png"
+          ]
         },
         {
           "itemId": "mp7-special-delivery-none",
@@ -293,7 +353,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--mp7-special-delivery-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--mp7-special-delivery-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--mp7-special-delivery-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--restricted--mp7-special-delivery-none--04.png"
+          ]
         }
       ],
       "pink": [
@@ -318,7 +384,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--classified--ak-47-frontside-misty-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--classified--ak-47-frontside-misty-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--classified--ak-47-frontside-misty-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--classified--ak-47-frontside-misty-none--04.png"
+          ]
         },
         {
           "itemId": "ssg-08-big-iron-none",
@@ -341,7 +413,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--classified--ssg-08-big-iron-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--classified--ssg-08-big-iron-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--classified--ssg-08-big-iron-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--classified--ssg-08-big-iron-none--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-flux-none",
@@ -364,7 +442,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--classified--g3sg1-flux-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--classified--g3sg1-flux-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--classified--g3sg1-flux-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--classified--g3sg1-flux-none--04.png"
+          ]
         }
       ],
       "red": [
@@ -389,7 +473,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--covert--m4a1-s-golden-coil-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--covert--m4a1-s-golden-coil-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--covert--m4a1-s-golden-coil-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--covert--m4a1-s-golden-coil-none--04.png"
+          ]
         },
         {
           "itemId": "usp-s-kill-confirmed-none",
@@ -412,7 +502,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Weapons/shadow-case--covert--usp-s-kill-confirmed-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--covert--usp-s-kill-confirmed-none--02.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--covert--usp-s-kill-confirmed-none--03.png",
+            "Assets/Cases/Shadow-Case/Weapons/shadow-case--covert--usp-s-kill-confirmed-none--04.png"
+          ]
         }
       ]
     },
@@ -446,7 +542,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-case-hardened--02.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-case-hardened--03.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-case-hardened--04.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-none-fade",
@@ -469,7 +572,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-fade--02.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-fade--03.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-none-stained",
@@ -492,7 +600,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-stained--02.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-stained--03.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-stained--04.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-stained--05.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-none-slaughter",
@@ -515,7 +630,13 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-slaughter--02.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-slaughter--03.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-slaughter--04.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-none-blue-steel",
@@ -538,7 +659,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-blue-steel--02.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-blue-steel--03.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-blue-steel--04.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-none-crimson-web",
@@ -561,7 +689,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-crimson-web--02.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-crimson-web--03.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-crimson-web--04.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-none-vanilla",
@@ -584,7 +719,11 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-vanilla--02.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-none-urban-masked",
@@ -607,7 +746,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-urban-masked--02.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-urban-masked--03.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-urban-masked--04.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-none-scorched",
@@ -630,7 +776,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-scorched--02.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-scorched--03.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-scorched--04.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-scorched--05.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-none-night",
@@ -653,7 +806,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-night--02.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-night--03.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-night--04.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-night--05.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-none-safari-mesh",
@@ -676,7 +836,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-safari-mesh--02.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-safari-mesh--03.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-safari-mesh--04.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-none-boreal-forest",
@@ -699,7 +866,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-boreal-forest--02.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-boreal-forest--03.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-boreal-forest--04.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-none-forest-ddpat",
@@ -722,10 +896,18 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-forest-ddpat--02.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-forest-ddpat--03.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-forest-ddpat--04.png",
+            "Assets/Cases/Shadow-Case/Knives/shadow-case--rare-special-item--shadow-daggers-none-forest-ddpat--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Shadow-Case/Icons/shadow-case--icon.png"
   },
   "audit": {
     "tierCounts": {

@@ -61,7 +61,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--mp9-featherweight.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--mp9-featherweight--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--mp9-featherweight--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--mp9-featherweight--04.png"
+          ]
         },
         {
           "itemId": "mag-7-insomnia",
@@ -84,7 +90,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--mag-7-insomnia.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--mag-7-insomnia--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--mag-7-insomnia--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--mag-7-insomnia--04.png"
+          ]
         },
         {
           "itemId": "scar-20-fragments",
@@ -107,7 +119,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--scar-20-fragments.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--scar-20-fragments--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--scar-20-fragments--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--scar-20-fragments--04.png"
+          ]
         },
         {
           "itemId": "p250-re-built",
@@ -130,7 +148,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--p250-re-built.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--p250-re-built--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--p250-re-built--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--p250-re-built--04.png"
+          ]
         },
         {
           "itemId": "mp5-sd-liquidation",
@@ -153,7 +177,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--mp5-sd-liquidation.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--mp5-sd-liquidation--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--mp5-sd-liquidation--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--mp5-sd-liquidation--04.png"
+          ]
         },
         {
           "itemId": "sg-553-cyberforce",
@@ -176,7 +206,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--sg-553-cyberforce.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--sg-553-cyberforce--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--sg-553-cyberforce--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--sg-553-cyberforce--04.png"
+          ]
         },
         {
           "itemId": "tec-9-rebel",
@@ -199,7 +235,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--tec-9-rebel.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--tec-9-rebel--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--tec-9-rebel--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--mil-spec--tec-9-rebel--04.png"
+          ]
         }
       ],
       "purple": [
@@ -224,7 +266,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--m4a1-s-emphorosaur-s.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--m4a1-s-emphorosaur-s--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--m4a1-s-emphorosaur-s--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--m4a1-s-emphorosaur-s--04.png"
+          ]
         },
         {
           "itemId": "glock-18-umbral-rabbit",
@@ -247,7 +295,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--glock-18-umbral-rabbit.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--glock-18-umbral-rabbit--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--glock-18-umbral-rabbit--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--glock-18-umbral-rabbit--04.png"
+          ]
         },
         {
           "itemId": "mac-10-sakkaku",
@@ -270,7 +324,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--mac-10-sakkaku.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--mac-10-sakkaku--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--mac-10-sakkaku--03.png"
+          ]
         },
         {
           "itemId": "r8-revolver-banana-cannon",
@@ -293,7 +352,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--r8-revolver-banana-cannon.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--r8-revolver-banana-cannon--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--r8-revolver-banana-cannon--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--r8-revolver-banana-cannon--04.png"
+          ]
         },
         {
           "itemId": "p90-neon-queen",
@@ -316,7 +381,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--p90-neon-queen.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--p90-neon-queen--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--p90-neon-queen--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--restricted--p90-neon-queen--04.png"
+          ]
         }
       ],
       "pink": [
@@ -341,7 +412,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--classified--awp-duality.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--classified--awp-duality--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--classified--awp-duality--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--classified--awp-duality--04.png"
+          ]
         },
         {
           "itemId": "ump-45-wild-child",
@@ -364,7 +441,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--classified--ump-45-wild-child.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--classified--ump-45-wild-child--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--classified--ump-45-wild-child--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--classified--ump-45-wild-child--04.png"
+          ]
         },
         {
           "itemId": "p2000-wicked-sick",
@@ -387,7 +470,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--classified--p2000-wicked-sick.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--classified--p2000-wicked-sick--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--classified--p2000-wicked-sick--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--classified--p2000-wicked-sick--04.png"
+          ]
         }
       ],
       "red": [
@@ -412,7 +501,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--covert--ak-47-head-shot.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--covert--ak-47-head-shot--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--covert--ak-47-head-shot--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--covert--ak-47-head-shot--04.png"
+          ]
         },
         {
           "itemId": "m4a4-temukau",
@@ -435,7 +530,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Weapons/revolution-case--covert--m4a4-temukau.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--covert--m4a4-temukau--02.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--covert--m4a4-temukau--03.png",
+            "Assets/Cases/Revolution-Case/Weapons/revolution-case--covert--m4a4-temukau--04.png"
+          ]
         }
       ]
     },
@@ -469,7 +570,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--driver-gloves-king-snake.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--driver-gloves-king-snake--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--driver-gloves-king-snake--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-amphibious",
@@ -492,7 +598,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--sport-gloves-amphibious.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--sport-gloves-amphibious--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--sport-gloves-amphibious--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-fade",
@@ -515,7 +626,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--specialist-gloves-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--specialist-gloves-fade--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--specialist-gloves-fade--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-omega",
@@ -538,7 +654,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--sport-gloves-omega.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--sport-gloves-omega--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--sport-gloves-omega--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-vice",
@@ -561,7 +682,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--sport-gloves-vice.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--sport-gloves-vice--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--sport-gloves-vice--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-cobalt-skulls",
@@ -584,7 +710,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hand-wraps-cobalt-skulls.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hand-wraps-cobalt-skulls--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hand-wraps-cobalt-skulls--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-crimson-web",
@@ -607,7 +738,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--specialist-gloves-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--specialist-gloves-crimson-web--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--specialist-gloves-crimson-web--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-imperial-plaid",
@@ -630,7 +766,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--driver-gloves-imperial-plaid.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--driver-gloves-imperial-plaid--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--driver-gloves-imperial-plaid--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-pow",
@@ -653,7 +794,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--moto-gloves-pow.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--moto-gloves-pow--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--moto-gloves-pow--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-bronze-morph",
@@ -676,7 +822,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--sport-gloves-bronze-morph.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--sport-gloves-bronze-morph--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--sport-gloves-bronze-morph--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-turtle",
@@ -699,7 +850,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--moto-gloves-turtle.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--moto-gloves-turtle--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--moto-gloves-turtle--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-mogul",
@@ -722,7 +878,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--specialist-gloves-mogul.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--specialist-gloves-mogul--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--specialist-gloves-mogul--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-polygon",
@@ -745,7 +906,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--moto-gloves-polygon.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--moto-gloves-polygon--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--moto-gloves-polygon--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-overprint",
@@ -768,7 +934,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hand-wraps-overprint.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hand-wraps-overprint--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hand-wraps-overprint--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-overtake",
@@ -791,7 +962,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--driver-gloves-overtake.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--driver-gloves-overtake--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--driver-gloves-overtake--03.png"
+          ]
         },
         {
           "itemId": "hydra-gloves-case-hardened",
@@ -814,7 +990,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hydra-gloves-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hydra-gloves-case-hardened--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hydra-gloves-case-hardened--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-transport",
@@ -837,7 +1018,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--moto-gloves-transport.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--moto-gloves-transport--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--moto-gloves-transport--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-buckshot",
@@ -860,7 +1046,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--specialist-gloves-buckshot.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--specialist-gloves-buckshot--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--specialist-gloves-buckshot--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-racing-green",
@@ -883,7 +1074,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--driver-gloves-racing-green.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--driver-gloves-racing-green--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--driver-gloves-racing-green--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-arboreal",
@@ -906,7 +1102,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hand-wraps-arboreal.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hand-wraps-arboreal--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hand-wraps-arboreal--03.png"
+          ]
         },
         {
           "itemId": "hydra-gloves-mangrove",
@@ -929,7 +1130,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hydra-gloves-mangrove.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hydra-gloves-mangrove--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hydra-gloves-mangrove--03.png"
+          ]
         },
         {
           "itemId": "hydra-gloves-emerald",
@@ -952,7 +1158,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hydra-gloves-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hydra-gloves-emerald--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hydra-gloves-emerald--03.png"
+          ]
         },
         {
           "itemId": "hydra-gloves-rattler",
@@ -975,7 +1186,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hydra-gloves-rattler.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hydra-gloves-rattler--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hydra-gloves-rattler--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-duct-tape",
@@ -998,10 +1214,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hand-wraps-duct-tape.png",
+          "imageAlternates": [
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hand-wraps-duct-tape--02.png",
+            "Assets/Cases/Revolution-Case/Gloves/revolution-case--extraordinary--hand-wraps-duct-tape--03.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Revolution-Case/Icons/revolution-case--icon.png"
   },
   "audit": {
     "tierCounts": {

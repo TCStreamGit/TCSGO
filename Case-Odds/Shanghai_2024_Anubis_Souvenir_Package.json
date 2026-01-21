@@ -82,7 +82,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--m249-submerged.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--m249-submerged--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--m249-submerged--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--m249-submerged--04.png"
+          ]
         },
         {
           "itemId": "souvenir-r8-revolver-inlay",
@@ -105,7 +111,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--r8-revolver-inlay.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--r8-revolver-inlay--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--r8-revolver-inlay--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--r8-revolver-inlay--04.png"
+          ]
         },
         {
           "itemId": "souvenir-xm1014-hieroglyph",
@@ -128,7 +140,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--xm1014-hieroglyph.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--xm1014-hieroglyph--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--xm1014-hieroglyph--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--xm1014-hieroglyph--04.png"
+          ]
         },
         {
           "itemId": "souvenir-aug-snake-pit",
@@ -151,7 +169,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--aug-snake-pit.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--aug-snake-pit--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--aug-snake-pit--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--aug-snake-pit--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mp7-sunbaked",
@@ -174,7 +198,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--mp7-sunbaked.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--mp7-sunbaked--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--mp7-sunbaked--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--consumer--mp7-sunbaked--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -199,7 +229,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--m4a1-s-mud-spec.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--m4a1-s-mud-spec--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--m4a1-s-mud-spec--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--m4a1-s-mud-spec--04.png"
+          ]
         },
         {
           "itemId": "souvenir-usp-s-desert-tactical",
@@ -222,7 +258,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--usp-s-desert-tactical.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--usp-s-desert-tactical--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--usp-s-desert-tactical--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--usp-s-desert-tactical--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ssg-08-azure-glyph",
@@ -245,7 +287,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--ssg-08-azure-glyph.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--ssg-08-azure-glyph--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--ssg-08-azure-glyph--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--ssg-08-azure-glyph--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mac-10-echoing-sands",
@@ -268,7 +316,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--mac-10-echoing-sands.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--mac-10-echoing-sands--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--mac-10-echoing-sands--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--industrial--mac-10-echoing-sands--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -293,7 +347,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--awp-black-nile.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--awp-black-nile--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--awp-black-nile--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--awp-black-nile--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ak-47-steel-delta",
@@ -316,7 +376,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--ak-47-steel-delta.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--ak-47-steel-delta--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--ak-47-steel-delta--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--ak-47-steel-delta--04.png"
+          ]
         },
         {
           "itemId": "souvenir-tec-9-mummys-rot",
@@ -339,7 +405,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--tec-9-mummys-rot.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--tec-9-mummys-rot--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--tec-9-mummys-rot--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--tec-9-mummys-rot--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mag-7-copper-coated",
@@ -362,7 +434,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--mag-7-copper-coated.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--mag-7-copper-coated--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--mag-7-copper-coated--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--milspec--mag-7-copper-coated--04.png"
+          ]
         }
       ],
       "restricted": [
@@ -387,7 +465,13 @@
             "base": "0.002133333334000000",
             "nonStatTrak": "0.002133333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--restricted--glock-18-rameses-reach.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--restricted--glock-18-rameses-reach--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--restricted--glock-18-rameses-reach--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--restricted--glock-18-rameses-reach--04.png"
+          ]
         },
         {
           "itemId": "souvenir-nova-sobeks-bite",
@@ -410,7 +494,13 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--restricted--nova-sobeks-bite.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--restricted--nova-sobeks-bite--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--restricted--nova-sobeks-bite--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--restricted--nova-sobeks-bite--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-scarab-rush",
@@ -433,7 +523,13 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--restricted--p90-scarab-rush.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--restricted--p90-scarab-rush--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--restricted--p90-scarab-rush--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--restricted--p90-scarab-rush--04.png"
+          ]
         }
       ],
       "classified": [
@@ -458,7 +554,13 @@
             "base": "0.000640000000000000",
             "nonStatTrak": "0.000640000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--classified--famas-waters-of-nephthys.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--classified--famas-waters-of-nephthys--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--classified--famas-waters-of-nephthys--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--classified--famas-waters-of-nephthys--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-apeps-curse",
@@ -481,7 +583,13 @@
             "base": "0.000640000000000000",
             "nonStatTrak": "0.000640000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--classified--p250-apeps-curse.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--classified--p250-apeps-curse--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--classified--p250-apeps-curse--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--classified--p250-apeps-curse--04.png"
+          ]
         }
       ],
       "covert": [
@@ -506,11 +614,18 @@
             "base": "0.001320000000000000",
             "nonStatTrak": "0.001320000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--covert--m4a4-eye-of-horus.png",
+          "imageAlternates": [
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--covert--m4a4-eye-of-horus--02.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--covert--m4a4-eye-of-horus--03.png",
+            "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Weapons/shanghai-2024-anubis-souvenir-package--covert--m4a4-eye-of-horus--04.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Shanghai-2024-Anubis-Souvenir-Package/Icons/shanghai-2024-anubis-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

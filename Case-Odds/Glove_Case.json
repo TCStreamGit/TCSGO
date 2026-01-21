@@ -62,7 +62,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--cz75-auto-polymer.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--cz75-auto-polymer--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--cz75-auto-polymer--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--cz75-auto-polymer--04.png"
+          ]
         },
         {
           "itemId": "glock-18-ironwork",
@@ -85,7 +91,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--glock-18-ironwork.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--glock-18-ironwork--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--glock-18-ironwork--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--glock-18-ironwork--04.png"
+          ]
         },
         {
           "itemId": "mp7-cirrus",
@@ -108,7 +120,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--mp7-cirrus.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--mp7-cirrus--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--mp7-cirrus--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--mp7-cirrus--04.png"
+          ]
         },
         {
           "itemId": "galil-ar-black-sand",
@@ -131,7 +149,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--galil-ar-black-sand.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--galil-ar-black-sand--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--galil-ar-black-sand--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--galil-ar-black-sand--04.png"
+          ]
         },
         {
           "itemId": "mp9-sand-scale",
@@ -154,7 +178,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--mp9-sand-scale.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--mp9-sand-scale--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--mp9-sand-scale--03.png"
+          ]
         },
         {
           "itemId": "mag-7-sonar",
@@ -177,7 +206,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--mag-7-sonar.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--mag-7-sonar--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--mag-7-sonar--03.png"
+          ]
         },
         {
           "itemId": "p2000-turf",
@@ -200,7 +234,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--p2000-turf.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--p2000-turf--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--p2000-turf--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--mil-spec--p2000-turf--04.png"
+          ]
         }
       ],
       "purple": [
@@ -225,7 +265,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--dual-berettas-royal-consorts.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--dual-berettas-royal-consorts--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--dual-berettas-royal-consorts--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--dual-berettas-royal-consorts--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-stinger",
@@ -248,7 +294,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--g3sg1-stinger.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--g3sg1-stinger--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--g3sg1-stinger--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--g3sg1-stinger--04.png"
+          ]
         },
         {
           "itemId": "m4a1-s-flashback",
@@ -271,7 +323,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--m4a1-s-flashback.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--m4a1-s-flashback--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--m4a1-s-flashback--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--m4a1-s-flashback--04.png"
+          ]
         },
         {
           "itemId": "nova-gila",
@@ -294,7 +352,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--nova-gila.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--nova-gila--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--nova-gila--03.png"
+          ]
         },
         {
           "itemId": "usp-s-cyrex",
@@ -317,7 +380,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--usp-s-cyrex.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--usp-s-cyrex--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--usp-s-cyrex--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--restricted--usp-s-cyrex--04.png"
+          ]
         }
       ],
       "pink": [
@@ -342,7 +411,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--classified--famas-mecha-industries.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--classified--famas-mecha-industries--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--classified--famas-mecha-industries--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--classified--famas-mecha-industries--04.png"
+          ]
         },
         {
           "itemId": "p90-shallow-grave",
@@ -365,7 +440,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--classified--p90-shallow-grave.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--classified--p90-shallow-grave--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--classified--p90-shallow-grave--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--classified--p90-shallow-grave--04.png"
+          ]
         },
         {
           "itemId": "sawed-off-wasteland-princess",
@@ -388,7 +469,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--classified--sawed-off-wasteland-princess.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--classified--sawed-off-wasteland-princess--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--classified--sawed-off-wasteland-princess--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--classified--sawed-off-wasteland-princess--04.png"
+          ]
         }
       ],
       "red": [
@@ -413,7 +500,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--covert--ssg-08-dragonfire.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--covert--ssg-08-dragonfire--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--covert--ssg-08-dragonfire--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--covert--ssg-08-dragonfire--04.png"
+          ]
         },
         {
           "itemId": "m4a4-buzz-kill",
@@ -436,7 +529,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Weapons/glove-case--covert--m4a4-buzz-kill.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Weapons/glove-case--covert--m4a4-buzz-kill--02.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--covert--m4a4-buzz-kill--03.png",
+            "Assets/Cases/Glove-Case/Weapons/glove-case--covert--m4a4-buzz-kill--04.png"
+          ]
         }
       ]
     },
@@ -470,7 +569,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--moto-gloves-spearmint.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--moto-gloves-spearmint--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--moto-gloves-spearmint--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-crimson-kimono",
@@ -493,7 +597,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--specialist-gloves-crimson-kimono.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--specialist-gloves-crimson-kimono--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--specialist-gloves-crimson-kimono--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-hedge-maze",
@@ -516,7 +625,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--sport-gloves-hedge-maze.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--sport-gloves-hedge-maze--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--sport-gloves-hedge-maze--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-cool-mint",
@@ -539,7 +653,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--moto-gloves-cool-mint.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--moto-gloves-cool-mint--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--moto-gloves-cool-mint--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-lunar-weave",
@@ -562,7 +681,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--driver-gloves-lunar-weave.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--driver-gloves-lunar-weave--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--driver-gloves-lunar-weave--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-emerald-web",
@@ -585,7 +709,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--specialist-gloves-emerald-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--specialist-gloves-emerald-web--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--specialist-gloves-emerald-web--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-superconductor",
@@ -608,7 +737,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--sport-gloves-superconductor.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--sport-gloves-superconductor--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--sport-gloves-superconductor--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-arid",
@@ -631,7 +765,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--sport-gloves-arid.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--sport-gloves-arid--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--sport-gloves-arid--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-pandoras-box",
@@ -654,7 +793,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--sport-gloves-pandoras-box.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--sport-gloves-pandoras-box--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--sport-gloves-pandoras-box--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-leather",
@@ -677,7 +821,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--hand-wraps-leather.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--hand-wraps-leather--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--hand-wraps-leather--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-eclipse",
@@ -700,7 +849,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--moto-gloves-eclipse.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--moto-gloves-eclipse--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--moto-gloves-eclipse--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-boom",
@@ -723,7 +877,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--moto-gloves-boom.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--moto-gloves-boom--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--moto-gloves-boom--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-crimson-weave",
@@ -746,7 +905,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--driver-gloves-crimson-weave.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--driver-gloves-crimson-weave--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--driver-gloves-crimson-weave--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-foundation",
@@ -769,7 +933,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--specialist-gloves-foundation.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--specialist-gloves-foundation--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--specialist-gloves-foundation--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-badlands",
@@ -792,7 +961,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--hand-wraps-badlands.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--hand-wraps-badlands--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--hand-wraps-badlands--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-slaughter",
@@ -815,7 +989,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--hand-wraps-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--hand-wraps-slaughter--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--hand-wraps-slaughter--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-convoy",
@@ -838,7 +1017,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--driver-gloves-convoy.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--driver-gloves-convoy--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--driver-gloves-convoy--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-diamondback",
@@ -861,7 +1045,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--driver-gloves-diamondback.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--driver-gloves-diamondback--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--driver-gloves-diamondback--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-forest-ddpat",
@@ -884,7 +1073,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--specialist-gloves-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--specialist-gloves-forest-ddpat--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--specialist-gloves-forest-ddpat--03.png"
+          ]
         },
         {
           "itemId": "bloodhound-gloves-charred",
@@ -907,7 +1101,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--bloodhound-gloves-charred.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--bloodhound-gloves-charred--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--bloodhound-gloves-charred--03.png"
+          ]
         },
         {
           "itemId": "bloodhound-gloves-bronzed",
@@ -930,7 +1129,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--bloodhound-gloves-bronzed.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--bloodhound-gloves-bronzed--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--bloodhound-gloves-bronzed--03.png"
+          ]
         },
         {
           "itemId": "bloodhound-gloves-snakebite",
@@ -953,7 +1157,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--bloodhound-gloves-snakebite.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--bloodhound-gloves-snakebite--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--bloodhound-gloves-snakebite--03.png"
+          ]
         },
         {
           "itemId": "bloodhound-gloves-guerrilla",
@@ -976,7 +1185,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--bloodhound-gloves-guerrilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--bloodhound-gloves-guerrilla--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--bloodhound-gloves-guerrilla--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-spruce-ddpat",
@@ -999,10 +1213,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--hand-wraps-spruce-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--hand-wraps-spruce-ddpat--02.png",
+            "Assets/Cases/Glove-Case/Gloves/glove-case--extraordinary--hand-wraps-spruce-ddpat--03.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Glove-Case/Icons/glove-case--icon.png"
   },
   "audit": {
     "tierCounts": {

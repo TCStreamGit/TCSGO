@@ -87,7 +87,12 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--desert-eagle-tilted.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--desert-eagle-tilted--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--desert-eagle-tilted--03.png"
+          ]
         },
         {
           "itemId": "m4a1-s-wash-me-plz-souvenir",
@@ -110,7 +115,12 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--m4a1-s-wash-me-plz.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--m4a1-s-wash-me-plz--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--m4a1-s-wash-me-plz--03.png"
+          ]
         },
         {
           "itemId": "five-seve-n-midnight-paintover-souvenir",
@@ -133,7 +143,12 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--five-seve-n-midnight-paintover.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--five-seve-n-midnight-paintover--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--five-seve-n-midnight-paintover--03.png"
+          ]
         },
         {
           "itemId": "mp5-sd-neon-squeezer-souvenir",
@@ -156,7 +171,11 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--mp5-sd-neon-squeezer.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--mp5-sd-neon-squeezer--02.png"
+          ]
         },
         {
           "itemId": "negev-wall-bang-souvenir",
@@ -179,7 +198,12 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--negev-wall-bang.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--negev-wall-bang--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--negev-wall-bang--03.png"
+          ]
         },
         {
           "itemId": "p90-wash-me-souvenir",
@@ -202,7 +226,12 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--p90-wash-me.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--p90-wash-me--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--industrial--p90-wash-me--03.png"
+          ]
         }
       ],
       "milspec": [
@@ -227,7 +256,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--milspec--mac-10-pipsqueak.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--milspec--mac-10-pipsqueak--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--milspec--mac-10-pipsqueak--03.png"
+          ]
         },
         {
           "itemId": "glock-18-teal-graf-souvenir",
@@ -250,7 +284,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--milspec--glock-18-teal-graf.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--milspec--glock-18-teal-graf--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--milspec--glock-18-teal-graf--03.png"
+          ]
         },
         {
           "itemId": "galil-ar-metallic-squeezer-souvenir",
@@ -273,7 +312,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--milspec--galil-ar-metallic-squeezer.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--milspec--galil-ar-metallic-squeezer--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--milspec--galil-ar-metallic-squeezer--03.png"
+          ]
         },
         {
           "itemId": "nova-wurst-holle-souvenir",
@@ -296,7 +340,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--milspec--nova-wurst-holle.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--milspec--nova-wurst-holle--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--milspec--nova-wurst-holle--03.png"
+          ]
         }
       ],
       "restricted": [
@@ -321,7 +370,12 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.010666666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--restricted--aug-eye-of-zapems.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--restricted--aug-eye-of-zapems--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--restricted--aug-eye-of-zapems--03.png"
+          ]
         },
         {
           "itemId": "dual-berettas-sweet-little-angels-souvenir",
@@ -344,7 +398,12 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.010666666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--restricted--dual-berettas-sweet-little-angels.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--restricted--dual-berettas-sweet-little-angels--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--restricted--dual-berettas-sweet-little-angels--03.png"
+          ]
         },
         {
           "itemId": "xm1014-monster-melt-souvenir",
@@ -367,7 +426,12 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.010666666666000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--restricted--xm1014-monster-melt.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--restricted--xm1014-monster-melt--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--restricted--xm1014-monster-melt--03.png"
+          ]
         }
       ],
       "classified": [
@@ -392,7 +456,12 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.003200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--classified--awp-crakow.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--classified--awp-crakow--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--classified--awp-crakow--03.png"
+          ]
         },
         {
           "itemId": "zeus-x27-dragon-snore-souvenir",
@@ -415,7 +484,12 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.003200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--classified--zeus-x27-dragon-snore.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--classified--zeus-x27-dragon-snore--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--classified--zeus-x27-dragon-snore--03.png"
+          ]
         }
       ],
       "covert": [
@@ -440,11 +514,17 @@
             "base": "0.002600000000000000",
             "nonStatTrak": "0.002600000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--covert--ak-47-b-the-monster.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--covert--ak-47-b-the-monster--02.png",
+            "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Weapons/budapest-2025-overpass-souvenir-package--covert--ak-47-b-the-monster--03.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Budapest-2025-Overpass-Souvenir-Package/Icons/budapest-2025-overpass-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

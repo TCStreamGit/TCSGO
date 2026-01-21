@@ -59,7 +59,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--usp-s-lead-conduit.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--usp-s-lead-conduit--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--usp-s-lead-conduit--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--usp-s-lead-conduit--04.png"
+          ]
         },
         {
           "itemId": "mac-10-lapis-gator",
@@ -82,7 +88,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--mac-10-lapis-gator.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--mac-10-lapis-gator--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--mac-10-lapis-gator--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--mac-10-lapis-gator--04.png"
+          ]
         },
         {
           "itemId": "ssg-08-necropos",
@@ -105,7 +117,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--ssg-08-necropos.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--ssg-08-necropos--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--ssg-08-necropos--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--ssg-08-necropos--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-photic-zone",
@@ -128,7 +146,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--pp-bizon-photic-zone.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--pp-bizon-photic-zone--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--pp-bizon-photic-zone--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--pp-bizon-photic-zone--04.png"
+          ]
         },
         {
           "itemId": "tec-9-jambiya",
@@ -151,7 +175,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--tec-9-jambiya.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--tec-9-jambiya--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--tec-9-jambiya--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--tec-9-jambiya--04.png"
+          ]
         },
         {
           "itemId": "dual-berettas-cartel",
@@ -174,7 +204,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--dual-berettas-cartel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--dual-berettas-cartel--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--dual-berettas-cartel--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--mil-spec-grade--dual-berettas-cartel--04.png"
+          ]
         }
       ],
       "purple": [
@@ -199,7 +235,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--famas-valence.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--famas-valence--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--famas-valence--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--famas-valence--04.png"
+          ]
         },
         {
           "itemId": "glock-18-royal-legion",
@@ -222,7 +264,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--glock-18-royal-legion.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--glock-18-royal-legion--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--glock-18-royal-legion--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--glock-18-royal-legion--04.png"
+          ]
         },
         {
           "itemId": "mag-7-praetorian",
@@ -245,7 +293,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--mag-7-praetorian.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--mag-7-praetorian--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--mag-7-praetorian--03.png"
+          ]
         },
         {
           "itemId": "five-seven-triumvirate",
@@ -268,7 +321,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--five-seven-triumvirate.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--five-seven-triumvirate--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--five-seven-triumvirate--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--five-seven-triumvirate--04.png"
+          ]
         },
         {
           "itemId": "mp7-impire",
@@ -291,7 +350,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--mp7-impire.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--mp7-impire--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--restricted--mp7-impire--03.png"
+          ]
         }
       ],
       "pink": [
@@ -316,7 +380,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--classified--awp-elite-build.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--classified--awp-elite-build--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--classified--awp-elite-build--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--classified--awp-elite-build--04.png"
+          ]
         },
         {
           "itemId": "desert-eagle-kumicho-dragon",
@@ -339,7 +409,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--classified--desert-eagle-kumicho-dragon.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--classified--desert-eagle-kumicho-dragon--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--classified--desert-eagle-kumicho-dragon--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--classified--desert-eagle-kumicho-dragon--04.png"
+          ]
         },
         {
           "itemId": "nova-hyper-beast",
@@ -362,7 +438,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--classified--nova-hyper-beast.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--classified--nova-hyper-beast--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--classified--nova-hyper-beast--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--classified--nova-hyper-beast--04.png"
+          ]
         }
       ],
       "red": [
@@ -387,7 +469,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--covert--ak-47-fuel-injector.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--covert--ak-47-fuel-injector--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--covert--ak-47-fuel-injector--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--covert--ak-47-fuel-injector--04.png"
+          ]
         },
         {
           "itemId": "m4a4-the-battlestar",
@@ -410,7 +498,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--covert--m4a4-the-battlestar.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--covert--m4a4-the-battlestar--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--covert--m4a4-the-battlestar--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Weapons/operation-wildfire-case--covert--m4a4-the-battlestar--04.png"
+          ]
         }
       ]
     },
@@ -444,7 +538,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-safari-mesh--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-safari-mesh--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-safari-mesh--04.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "bowie-knife-slaughter",
@@ -467,7 +568,13 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-slaughter--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-slaughter--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "bowie-knife-scorched",
@@ -490,7 +597,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-scorched--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-scorched--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-scorched--04.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "bowie-knife-blue-steel",
@@ -513,7 +627,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-blue-steel--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-blue-steel--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-blue-steel--04.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "bowie-knife-stained",
@@ -536,7 +657,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-stained--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-stained--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-stained--04.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "bowie-knife-urban-masked",
@@ -559,7 +687,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-urban-masked--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-urban-masked--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-urban-masked--04.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "bowie-knife-boreal-forest",
@@ -582,7 +717,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-boreal-forest--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-boreal-forest--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-boreal-forest--04.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "bowie-knife-case-hardened",
@@ -605,7 +747,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-case-hardened--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-case-hardened--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-case-hardened--04.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "bowie-knife-crimson-web",
@@ -628,7 +777,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-crimson-web--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-crimson-web--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-crimson-web--04.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "bowie-knife-fade",
@@ -651,7 +807,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-fade--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "bowie-knife-forest-ddpat",
@@ -674,7 +835,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-forest-ddpat--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-forest-ddpat--04.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "bowie-knife-vanilla",
@@ -697,7 +865,11 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "bowie-knife-night",
@@ -720,10 +892,18 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-night--02.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-night--03.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-night--04.png",
+            "Assets/Cases/Operation-Wildfire-Case/Knives/operation-wildfire-case--rare-special-item--bowie-knife-night--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Operation-Wildfire-Case/Icons/operation-wildfire-case--icon.png"
   },
   "audit": {
     "tierCounts": {

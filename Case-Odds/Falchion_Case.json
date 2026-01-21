@@ -61,7 +61,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--usp-s-torque.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--usp-s-torque--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--usp-s-torque--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--usp-s-torque--04.png"
+          ]
         },
         {
           "itemId": "galil-ar-rocket-pop",
@@ -84,7 +90,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--galil-ar-rocket-pop.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--galil-ar-rocket-pop--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--galil-ar-rocket-pop--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--galil-ar-rocket-pop--04.png"
+          ]
         },
         {
           "itemId": "glock-18-bunsen-burner",
@@ -107,7 +119,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--glock-18-bunsen-burner.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--glock-18-bunsen-burner--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--glock-18-bunsen-burner--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--glock-18-bunsen-burner--04.png"
+          ]
         },
         {
           "itemId": "p90-elite-build",
@@ -130,7 +148,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--p90-elite-build.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--p90-elite-build--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--p90-elite-build--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--p90-elite-build--04.png"
+          ]
         },
         {
           "itemId": "nova-ranger",
@@ -153,7 +177,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--nova-ranger.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--nova-ranger--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--nova-ranger--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--nova-ranger--04.png"
+          ]
         },
         {
           "itemId": "ump-45-riot",
@@ -176,7 +206,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--ump-45-riot.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--ump-45-riot--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--ump-45-riot--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--mil-spec--ump-45-riot--04.png"
+          ]
         }
       ],
       "purple": [
@@ -201,7 +237,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--m4a4-evil-daimyo.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--m4a4-evil-daimyo--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--m4a4-evil-daimyo--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--m4a4-evil-daimyo--04.png"
+          ]
         },
         {
           "itemId": "mp9-ruby-poison-dart",
@@ -224,7 +266,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--mp9-ruby-poison-dart.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--mp9-ruby-poison-dart--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--mp9-ruby-poison-dart--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--mp9-ruby-poison-dart--04.png"
+          ]
         },
         {
           "itemId": "famas-neural-net",
@@ -247,7 +295,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--famas-neural-net.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--famas-neural-net--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--famas-neural-net--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--famas-neural-net--04.png"
+          ]
         },
         {
           "itemId": "p2000-handgun",
@@ -270,7 +324,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--p2000-handgun.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--p2000-handgun--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--p2000-handgun--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--p2000-handgun--04.png"
+          ]
         },
         {
           "itemId": "negev-loudmouth",
@@ -293,7 +353,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--negev-loudmouth.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--negev-loudmouth--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--negev-loudmouth--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--restricted--negev-loudmouth--04.png"
+          ]
         }
       ],
       "pink": [
@@ -318,7 +384,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--classified--sg-553-cyrex.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--classified--sg-553-cyrex--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--classified--sg-553-cyrex--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--classified--sg-553-cyrex--04.png"
+          ]
         },
         {
           "itemId": "mp7-nemesis",
@@ -341,7 +413,12 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--classified--mp7-nemesis.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--classified--mp7-nemesis--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--classified--mp7-nemesis--03.png"
+          ]
         },
         {
           "itemId": "cz75-auto-yellow-jacket",
@@ -364,7 +441,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--classified--cz75-auto-yellow-jacket.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--classified--cz75-auto-yellow-jacket--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--classified--cz75-auto-yellow-jacket--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--classified--cz75-auto-yellow-jacket--04.png"
+          ]
         }
       ],
       "red": [
@@ -389,7 +472,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--covert--awp-hyper-beast.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--covert--awp-hyper-beast--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--covert--awp-hyper-beast--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--covert--awp-hyper-beast--04.png"
+          ]
         },
         {
           "itemId": "ak-47-aquamarine-revenge",
@@ -412,7 +501,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Weapons/falchion-case--covert--ak-47-aquamarine-revenge.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--covert--ak-47-aquamarine-revenge--02.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--covert--ak-47-aquamarine-revenge--03.png",
+            "Assets/Cases/Falchion-Case/Weapons/falchion-case--covert--ak-47-aquamarine-revenge--04.png"
+          ]
         }
       ]
     },
@@ -446,7 +541,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-night--02.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-night--03.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-night--04.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-night--05.png"
+          ]
         },
         {
           "itemId": "falchion-knife-safari-mesh",
@@ -469,7 +571,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-safari-mesh--02.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-safari-mesh--03.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-safari-mesh--04.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "falchion-knife-vanilla",
@@ -492,7 +601,11 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "falchion-knife-case-hardened",
@@ -515,7 +628,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-case-hardened--02.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-case-hardened--03.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-case-hardened--04.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "falchion-knife-forest-ddpat",
@@ -538,7 +658,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-forest-ddpat--02.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-forest-ddpat--03.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-forest-ddpat--04.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "falchion-knife-slaughter",
@@ -561,7 +688,13 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-slaughter--02.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-slaughter--03.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "falchion-knife-urban-masked",
@@ -584,7 +717,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-urban-masked--02.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-urban-masked--03.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-urban-masked--04.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "falchion-knife-stained",
@@ -607,7 +747,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-stained--02.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-stained--03.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-stained--04.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "falchion-knife-crimson-web",
@@ -630,7 +777,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-crimson-web--02.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-crimson-web--03.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-crimson-web--04.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "falchion-knife-blue-steel",
@@ -653,7 +807,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-blue-steel--02.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-blue-steel--03.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-blue-steel--04.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "falchion-knife-scorched",
@@ -676,7 +837,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-scorched--02.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-scorched--03.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-scorched--04.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "falchion-knife-boreal-forest",
@@ -699,7 +867,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-boreal-forest--02.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-boreal-forest--03.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-boreal-forest--04.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "falchion-knife-fade",
@@ -722,10 +897,16 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-fade--02.png",
+            "Assets/Cases/Falchion-Case/Knives/falchion-case--rare-special--falchion-knife-fade--03.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Falchion-Case/Icons/falchion-case--icon.png"
   },
   "audit": {
     "tierCounts": {

@@ -61,7 +61,11 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--usp-s-27.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--usp-s-27--02.png"
+          ]
         },
         {
           "itemId": "desert-eagle-calligraffiti",
@@ -84,7 +88,12 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--desert-eagle-calligraffiti.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--desert-eagle-calligraffiti--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--desert-eagle-calligraffiti--03.png"
+          ]
         },
         {
           "itemId": "mp5-sd-statics",
@@ -107,7 +116,12 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--mp5-sd-statics.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--mp5-sd-statics--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--mp5-sd-statics--03.png"
+          ]
         },
         {
           "itemId": "aug-luxe-trim",
@@ -130,7 +144,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--aug-luxe-trim.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--aug-luxe-trim--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--aug-luxe-trim--03.png"
+          ]
         },
         {
           "itemId": "m249-hypnosis",
@@ -153,7 +172,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--m249-hypnosis.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--m249-hypnosis--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--m249-hypnosis--03.png"
+          ]
         },
         {
           "itemId": "r8-revolver-tango",
@@ -176,7 +200,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--r8-revolver-tango.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--r8-revolver-tango--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--r8-revolver-tango--03.png"
+          ]
         },
         {
           "itemId": "scar-20-trail-blazer",
@@ -199,7 +228,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--scar-20-trail-blazer.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--scar-20-trail-blazer--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--blue--scar-20-trail-blazer--03.png"
+          ]
         }
       ],
       "purple": [
@@ -224,7 +258,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--m4a4-turbine.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--m4a4-turbine--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--m4a4-turbine--03.png"
+          ]
         },
         {
           "itemId": "dual-berettas-hydro-strike",
@@ -247,7 +286,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--dual-berettas-hydro-strike.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--dual-berettas-hydro-strike--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--dual-berettas-hydro-strike--03.png"
+          ]
         },
         {
           "itemId": "mac-10-saiba-oni",
@@ -270,7 +314,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--mac-10-saiba-oni.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--mac-10-saiba-oni--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--mac-10-saiba-oni--03.png"
+          ]
         },
         {
           "itemId": "p90-randy-rush",
@@ -293,7 +342,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--p90-randy-rush.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--p90-randy-rush--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--p90-randy-rush--03.png"
+          ]
         },
         {
           "itemId": "ssg-08-rapid-transit",
@@ -316,7 +370,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--ssg-08-rapid-transit.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--ssg-08-rapid-transit--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--purple--ssg-08-rapid-transit--03.png"
+          ]
         }
       ],
       "pink": [
@@ -341,7 +400,12 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--pink--ak-47-the-outsiders.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--pink--ak-47-the-outsiders--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--pink--ak-47-the-outsiders--03.png"
+          ]
         },
         {
           "itemId": "p250-epicenter",
@@ -364,7 +428,12 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--pink--p250-epicenter.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--pink--p250-epicenter--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--pink--p250-epicenter--03.png"
+          ]
         },
         {
           "itemId": "ump-45-neo-noir",
@@ -387,7 +456,12 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--pink--ump-45-neo-noir.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--pink--ump-45-neo-noir--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--pink--ump-45-neo-noir--03.png"
+          ]
         }
       ],
       "red": [
@@ -412,7 +486,12 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--red--glock-18-gold-toof.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--red--glock-18-gold-toof--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--red--glock-18-gold-toof--03.png"
+          ]
         },
         {
           "itemId": "m4a1-s-vaporwave",
@@ -435,7 +514,12 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Weapons/gallery-case--red--m4a1-s-vaporwave.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--red--m4a1-s-vaporwave--02.png",
+            "Assets/Cases/Gallery-Case/Weapons/gallery-case--red--m4a1-s-vaporwave--03.png"
+          ]
         }
       ]
     },
@@ -469,7 +553,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-crimson-web--02.png",
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-crimson-web--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-fade",
@@ -492,7 +581,8 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-fade.png"
         },
         {
           "itemId": "kukri-knife-slaughter",
@@ -515,7 +605,11 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-slaughter--02.png"
+          ]
         },
         {
           "itemId": "kukri-knife-case-hardened",
@@ -538,7 +632,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-case-hardened--02.png",
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-case-hardened--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-blue-steel",
@@ -561,7 +660,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-blue-steel--02.png",
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-blue-steel--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-stained",
@@ -584,7 +688,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-stained--02.png",
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-stained--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-vanilla",
@@ -607,7 +716,8 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-vanilla.png"
         },
         {
           "itemId": "kukri-knife-urban-masked",
@@ -630,7 +740,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-urban-masked--02.png",
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-urban-masked--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-night-stripe",
@@ -653,7 +768,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-night-stripe--02.png",
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-night-stripe--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-scorched",
@@ -676,7 +796,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-scorched--02.png",
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-scorched--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-forest-ddpat",
@@ -699,7 +824,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-forest-ddpat--02.png",
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-forest-ddpat--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-boreal-forest",
@@ -722,7 +852,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-boreal-forest--02.png",
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-boreal-forest--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-safari-mesh",
@@ -745,10 +880,16 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-safari-mesh--02.png",
+            "Assets/Cases/Gallery-Case/Knives/gallery-case--gold--kukri-knife-safari-mesh--03.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Gallery-Case/Icons/gallery-case--icon.png"
   },
   "audit": {
     "tierCounts": {

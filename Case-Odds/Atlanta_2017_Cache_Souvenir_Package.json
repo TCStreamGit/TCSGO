@@ -87,7 +87,13 @@
             "base": "0.134408602151000000",
             "nonStatTrak": "0.134408602151000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--aug-radiation-hazard.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--aug-radiation-hazard--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--aug-radiation-hazard--03.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--aug-radiation-hazard--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sg-553-fallout-warning",
@@ -110,7 +116,13 @@
             "base": "0.134408602151000000",
             "nonStatTrak": "0.134408602151000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--sg-553-fallout-warning.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--sg-553-fallout-warning--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--sg-553-fallout-warning--03.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--sg-553-fallout-warning--04.png"
+          ]
         },
         {
           "itemId": "souvenir-five-seven-hot-shot",
@@ -133,7 +145,13 @@
             "base": "0.134408602151000000",
             "nonStatTrak": "0.134408602151000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--five-seven-hot-shot.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--five-seven-hot-shot--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--five-seven-hot-shot--03.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--five-seven-hot-shot--04.png"
+          ]
         },
         {
           "itemId": "souvenir-pp-bizon-chemical-green",
@@ -156,7 +174,13 @@
             "base": "0.134408602150000000",
             "nonStatTrak": "0.134408602150000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--pp-bizon-chemical-green.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--pp-bizon-chemical-green--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--pp-bizon-chemical-green--03.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--pp-bizon-chemical-green--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-contamination",
@@ -179,7 +203,14 @@
             "base": "0.134408602150000000",
             "nonStatTrak": "0.134408602150000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--p250-contamination.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--p250-contamination--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--p250-contamination--03.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--p250-contamination--04.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--p250-contamination--05.png"
+          ]
         },
         {
           "itemId": "souvenir-negev-nuclear-waste",
@@ -202,7 +233,12 @@
             "base": "0.134408602150000000",
             "nonStatTrak": "0.134408602150000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--negev-nuclear-waste.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--negev-nuclear-waste--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--industrial--negev-nuclear-waste--03.png"
+          ]
         }
       ],
       "milspec": [
@@ -227,7 +263,13 @@
             "base": "0.032258064517000000",
             "nonStatTrak": "0.032258064517000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--mp9-setting-sun.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--mp9-setting-sun--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--mp9-setting-sun--03.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--mp9-setting-sun--04.png"
+          ]
         },
         {
           "itemId": "souvenir-glock-18-reactor",
@@ -250,7 +292,13 @@
             "base": "0.032258064516000000",
             "nonStatTrak": "0.032258064516000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--glock-18-reactor.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--glock-18-reactor--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--glock-18-reactor--03.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--glock-18-reactor--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mac-10-nuclear-garden",
@@ -273,7 +321,14 @@
             "base": "0.032258064516000000",
             "nonStatTrak": "0.032258064516000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--mac-10-nuclear-garden.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--mac-10-nuclear-garden--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--mac-10-nuclear-garden--03.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--mac-10-nuclear-garden--04.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--mac-10-nuclear-garden--05.png"
+          ]
         },
         {
           "itemId": "souvenir-tec-9-toxic",
@@ -296,7 +351,14 @@
             "base": "0.032258064516000000",
             "nonStatTrak": "0.032258064516000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--tec-9-toxic.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--tec-9-toxic--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--tec-9-toxic--03.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--tec-9-toxic--04.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--tec-9-toxic--05.png"
+          ]
         },
         {
           "itemId": "souvenir-xm1014-bone-machine",
@@ -319,7 +381,14 @@
             "base": "0.032258064516000000",
             "nonStatTrak": "0.032258064516000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--xm1014-bone-machine.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--xm1014-bone-machine--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--xm1014-bone-machine--03.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--xm1014-bone-machine--04.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--milspec--xm1014-bone-machine--05.png"
+          ]
         }
       ],
       "restricted": [
@@ -344,7 +413,13 @@
             "base": "0.016129032258000000",
             "nonStatTrak": "0.016129032258000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--restricted--galil-ar-cerberus.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--restricted--galil-ar-cerberus--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--restricted--galil-ar-cerberus--03.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--restricted--galil-ar-cerberus--04.png"
+          ]
         },
         {
           "itemId": "souvenir-famas-styx",
@@ -367,13 +442,21 @@
             "base": "0.016129032258000000",
             "nonStatTrak": "0.016129032258000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--restricted--famas-styx.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--restricted--famas-styx--02.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--restricted--famas-styx--03.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--restricted--famas-styx--04.png",
+            "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Weapons/atlanta-2017-cache-souvenir-package--restricted--famas-styx--05.png"
+          ]
         }
       ],
       "classified": [],
       "covert": []
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Atlanta-2017-Cache-Souvenir-Package/Icons/atlanta-2017-cache-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

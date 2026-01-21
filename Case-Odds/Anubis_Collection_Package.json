@@ -62,7 +62,13 @@
             "base": "0.061476923077000000",
             "nonStatTrak": "0.061476923077000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--ak-47-steel-delta.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--ak-47-steel-delta--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--ak-47-steel-delta--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--ak-47-steel-delta--04.png"
+          ]
         },
         {
           "itemId": "awp-black-nile",
@@ -85,7 +91,13 @@
             "base": "0.061476923077000000",
             "nonStatTrak": "0.061476923077000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--awp-black-nile.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--awp-black-nile--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--awp-black-nile--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--awp-black-nile--04.png"
+          ]
         },
         {
           "itemId": "mag-7-copper-coated",
@@ -108,7 +120,13 @@
             "base": "0.061476923077000000",
             "nonStatTrak": "0.061476923077000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--mag-7-copper-coated.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--mag-7-copper-coated--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--mag-7-copper-coated--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--mag-7-copper-coated--04.png"
+          ]
         },
         {
           "itemId": "tec-9-mummys-rot",
@@ -131,7 +149,13 @@
             "base": "0.061476923077000000",
             "nonStatTrak": "0.061476923077000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--tec-9-mummys-rot.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--tec-9-mummys-rot--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--tec-9-mummys-rot--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--mil-spec-grade--tec-9-mummys-rot--04.png"
+          ]
         },
         {
           "itemId": "mac-10-echoing-sands",
@@ -154,7 +178,13 @@
             "base": "0.061476923077000000",
             "nonStatTrak": "0.061476923077000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--mac-10-echoing-sands.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--mac-10-echoing-sands--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--mac-10-echoing-sands--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--mac-10-echoing-sands--04.png"
+          ]
         },
         {
           "itemId": "m4a1-s-mud-spec",
@@ -177,7 +207,13 @@
             "base": "0.061476923077000000",
             "nonStatTrak": "0.061476923077000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--m4a1-s-mud-spec.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--m4a1-s-mud-spec--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--m4a1-s-mud-spec--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--m4a1-s-mud-spec--04.png"
+          ]
         },
         {
           "itemId": "ssg-08-azure-glyph",
@@ -200,7 +236,13 @@
             "base": "0.061476923077000000",
             "nonStatTrak": "0.061476923077000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--ssg-08-azure-glyph.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--ssg-08-azure-glyph--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--ssg-08-azure-glyph--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--ssg-08-azure-glyph--04.png"
+          ]
         },
         {
           "itemId": "usp-s-desert-tactical",
@@ -223,7 +265,13 @@
             "base": "0.061476923077000000",
             "nonStatTrak": "0.061476923077000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--usp-s-desert-tactical.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--usp-s-desert-tactical--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--usp-s-desert-tactical--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--industrial-grade--usp-s-desert-tactical--04.png"
+          ]
         },
         {
           "itemId": "aug-snake-pit",
@@ -246,7 +294,13 @@
             "base": "0.061476923077000000",
             "nonStatTrak": "0.061476923077000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--aug-snake-pit.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--aug-snake-pit--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--aug-snake-pit--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--aug-snake-pit--04.png"
+          ]
         },
         {
           "itemId": "m249-submerged",
@@ -269,7 +323,13 @@
             "base": "0.061476923077000000",
             "nonStatTrak": "0.061476923077000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--m249-submerged.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--m249-submerged--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--m249-submerged--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--m249-submerged--04.png"
+          ]
         },
         {
           "itemId": "mp7-sunbaked",
@@ -292,7 +352,13 @@
             "base": "0.061476923077000000",
             "nonStatTrak": "0.061476923077000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--mp7-sunbaked.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--mp7-sunbaked--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--mp7-sunbaked--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--mp7-sunbaked--04.png"
+          ]
         },
         {
           "itemId": "r8-revolver-inlay",
@@ -315,7 +381,13 @@
             "base": "0.061476923077000000",
             "nonStatTrak": "0.061476923077000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--r8-revolver-inlay.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--r8-revolver-inlay--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--r8-revolver-inlay--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--r8-revolver-inlay--04.png"
+          ]
         },
         {
           "itemId": "xm1014-hieroglyph",
@@ -338,7 +410,13 @@
             "base": "0.061476923076000000",
             "nonStatTrak": "0.061476923076000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--xm1014-hieroglyph.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--xm1014-hieroglyph--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--xm1014-hieroglyph--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--consumer-grade--xm1014-hieroglyph--04.png"
+          ]
         }
       ],
       "purple": [
@@ -363,7 +441,13 @@
             "base": "0.053266666667000000",
             "nonStatTrak": "0.053266666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--restricted--glock-18-rameses-reach.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--restricted--glock-18-rameses-reach--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--restricted--glock-18-rameses-reach--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--restricted--glock-18-rameses-reach--04.png"
+          ]
         },
         {
           "itemId": "nova-sobeks-bite",
@@ -386,7 +470,13 @@
             "base": "0.053266666667000000",
             "nonStatTrak": "0.053266666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--restricted--nova-sobeks-bite.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--restricted--nova-sobeks-bite--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--restricted--nova-sobeks-bite--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--restricted--nova-sobeks-bite--04.png"
+          ]
         },
         {
           "itemId": "p90-scarab-rush",
@@ -409,7 +499,13 @@
             "base": "0.053266666666000000",
             "nonStatTrak": "0.053266666666000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--restricted--p90-scarab-rush.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--restricted--p90-scarab-rush--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--restricted--p90-scarab-rush--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--restricted--p90-scarab-rush--04.png"
+          ]
         }
       ],
       "pink": [
@@ -434,7 +530,13 @@
             "base": "0.016000000000000000",
             "nonStatTrak": "0.016000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--classified--famas-waters-of-nephthys.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--classified--famas-waters-of-nephthys--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--classified--famas-waters-of-nephthys--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--classified--famas-waters-of-nephthys--04.png"
+          ]
         },
         {
           "itemId": "p250-apeps-curse",
@@ -457,7 +559,13 @@
             "base": "0.016000000000000000",
             "nonStatTrak": "0.016000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--classified--p250-apeps-curse.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--classified--p250-apeps-curse--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--classified--p250-apeps-curse--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--classified--p250-apeps-curse--04.png"
+          ]
         }
       ],
       "red": [
@@ -482,7 +590,13 @@
             "base": "0.006400000000000000",
             "nonStatTrak": "0.006400000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--covert--m4a4-eye-of-horus.png",
+          "imageAlternates": [
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--covert--m4a4-eye-of-horus--02.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--covert--m4a4-eye-of-horus--03.png",
+            "Assets/Cases/Anubis-Collection-Package/Weapons/anubis-collection-package--covert--m4a4-eye-of-horus--04.png"
+          ]
         }
       ]
     },

@@ -84,7 +84,13 @@
             "base": "0.134376051127000000",
             "nonStatTrak": "0.134376051127000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--aug-radiation-hazard.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--aug-radiation-hazard--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--aug-radiation-hazard--03.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--aug-radiation-hazard--04.png"
+          ]
         },
         {
           "itemId": "sg-553-fallout-warning",
@@ -107,7 +113,13 @@
             "base": "0.134376051127000000",
             "nonStatTrak": "0.134376051127000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--sg-553-fallout-warning.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--sg-553-fallout-warning--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--sg-553-fallout-warning--03.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--sg-553-fallout-warning--04.png"
+          ]
         },
         {
           "itemId": "five-seven-hot-shot",
@@ -130,7 +142,13 @@
             "base": "0.134376051127000000",
             "nonStatTrak": "0.134376051127000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--five-seven-hot-shot.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--five-seven-hot-shot--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--five-seven-hot-shot--03.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--five-seven-hot-shot--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-chemical-green",
@@ -153,7 +171,13 @@
             "base": "0.134376051127000000",
             "nonStatTrak": "0.134376051127000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--pp-bizon-chemical-green.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--pp-bizon-chemical-green--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--pp-bizon-chemical-green--03.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--pp-bizon-chemical-green--04.png"
+          ]
         },
         {
           "itemId": "p250-contamination",
@@ -176,7 +200,14 @@
             "base": "0.134376051127000000",
             "nonStatTrak": "0.134376051127000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--p250-contamination.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--p250-contamination--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--p250-contamination--03.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--p250-contamination--04.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--p250-contamination--05.png"
+          ]
         },
         {
           "itemId": "negev-nuclear-waste",
@@ -199,7 +230,12 @@
             "base": "0.134376051126000000",
             "nonStatTrak": "0.134376051126000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--negev-nuclear-waste.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--negev-nuclear-waste--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--industrial--negev-nuclear-waste--03.png"
+          ]
         }
       ],
       "milspec": [
@@ -224,7 +260,13 @@
             "base": "0.032290615540000000",
             "nonStatTrak": "0.032290615540000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--mp9-setting-sun.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--mp9-setting-sun--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--mp9-setting-sun--03.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--mp9-setting-sun--04.png"
+          ]
         },
         {
           "itemId": "glock-18-reactor",
@@ -247,7 +289,13 @@
             "base": "0.032290615540000000",
             "nonStatTrak": "0.032290615540000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--glock-18-reactor.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--glock-18-reactor--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--glock-18-reactor--03.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--glock-18-reactor--04.png"
+          ]
         },
         {
           "itemId": "mac-10-nuclear-garden",
@@ -270,7 +318,14 @@
             "base": "0.032290615540000000",
             "nonStatTrak": "0.032290615540000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--mac-10-nuclear-garden.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--mac-10-nuclear-garden--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--mac-10-nuclear-garden--03.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--mac-10-nuclear-garden--04.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--mac-10-nuclear-garden--05.png"
+          ]
         },
         {
           "itemId": "tec-9-toxic",
@@ -293,7 +348,14 @@
             "base": "0.032290615540000000",
             "nonStatTrak": "0.032290615540000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--tec-9-toxic.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--tec-9-toxic--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--tec-9-toxic--03.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--tec-9-toxic--04.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--tec-9-toxic--05.png"
+          ]
         },
         {
           "itemId": "xm1014-bone-machine",
@@ -316,7 +378,14 @@
             "base": "0.032290615539000000",
             "nonStatTrak": "0.032290615539000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--xm1014-bone-machine.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--xm1014-bone-machine--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--xm1014-bone-machine--03.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--xm1014-bone-machine--04.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--milspec--xm1014-bone-machine--05.png"
+          ]
         }
       ],
       "restricted": [
@@ -341,7 +410,13 @@
             "base": "0.016145307770000000",
             "nonStatTrak": "0.016145307770000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--restricted--galil-ar-cerberus.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--restricted--galil-ar-cerberus--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--restricted--galil-ar-cerberus--03.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--restricted--galil-ar-cerberus--04.png"
+          ]
         },
         {
           "itemId": "famas-styx",
@@ -364,13 +439,21 @@
             "base": "0.016145307770000000",
             "nonStatTrak": "0.016145307770000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--restricted--famas-styx.png",
+          "imageAlternates": [
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--restricted--famas-styx--02.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--restricted--famas-styx--03.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--restricted--famas-styx--04.png",
+            "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Weapons/esl-one-katowice-2015-cache-souvenir-package--restricted--famas-styx--05.png"
+          ]
         }
       ],
       "classified": [],
       "covert": []
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Esl-One-Katowice-2015-Cache-Souvenir-Package/Icons/esl-one-katowice-2015-cache-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

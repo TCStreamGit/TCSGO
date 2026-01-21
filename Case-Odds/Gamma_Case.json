@@ -61,7 +61,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--five-seven-violent-daimyo.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--five-seven-violent-daimyo--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--five-seven-violent-daimyo--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--five-seven-violent-daimyo--04.png"
+          ]
         },
         {
           "itemId": "tec-9-ice-cap",
@@ -84,7 +90,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--tec-9-ice-cap.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--tec-9-ice-cap--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--tec-9-ice-cap--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--tec-9-ice-cap--04.png"
+          ]
         },
         {
           "itemId": "mac-10-carnivore",
@@ -107,7 +119,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--mac-10-carnivore.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--mac-10-carnivore--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--mac-10-carnivore--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--mac-10-carnivore--04.png"
+          ]
         },
         {
           "itemId": "nova-exo",
@@ -130,7 +148,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--nova-exo.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--nova-exo--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--nova-exo--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--nova-exo--04.png"
+          ]
         },
         {
           "itemId": "sg-553-aerial",
@@ -153,7 +177,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--sg-553-aerial.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--sg-553-aerial--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--sg-553-aerial--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--sg-553-aerial--04.png"
+          ]
         },
         {
           "itemId": "p250-iron-clad",
@@ -176,7 +206,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--p250-iron-clad.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--p250-iron-clad--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--p250-iron-clad--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--p250-iron-clad--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-harvester",
@@ -199,7 +235,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--pp-bizon-harvester.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--pp-bizon-harvester--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--pp-bizon-harvester--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--mil-spec--pp-bizon-harvester--04.png"
+          ]
         }
       ],
       "purple": [
@@ -224,7 +266,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--awp-phobos.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--awp-phobos--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--awp-phobos--03.png"
+          ]
         },
         {
           "itemId": "p90-chopper",
@@ -247,7 +294,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--p90-chopper.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--p90-chopper--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--p90-chopper--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--p90-chopper--04.png"
+          ]
         },
         {
           "itemId": "aug-aristocrat",
@@ -270,7 +323,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--aug-aristocrat.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--aug-aristocrat--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--aug-aristocrat--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--aug-aristocrat--04.png"
+          ]
         },
         {
           "itemId": "r8-revolver-reboot",
@@ -293,7 +352,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--r8-revolver-reboot.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--r8-revolver-reboot--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--r8-revolver-reboot--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--r8-revolver-reboot--04.png"
+          ]
         },
         {
           "itemId": "sawed-off-limelight",
@@ -316,7 +381,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--sawed-off-limelight.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--sawed-off-limelight--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--sawed-off-limelight--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--restricted--sawed-off-limelight--04.png"
+          ]
         }
       ],
       "pink": [
@@ -341,7 +412,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--classified--m4a4-desolate-space.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--classified--m4a4-desolate-space--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--classified--m4a4-desolate-space--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--classified--m4a4-desolate-space--04.png"
+          ]
         },
         {
           "itemId": "p2000-imperial-dragon",
@@ -364,7 +441,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--classified--p2000-imperial-dragon.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--classified--p2000-imperial-dragon--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--classified--p2000-imperial-dragon--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--classified--p2000-imperial-dragon--04.png"
+          ]
         },
         {
           "itemId": "scar-20-bloodsport",
@@ -387,7 +470,12 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--classified--scar-20-bloodsport.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--classified--scar-20-bloodsport--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--classified--scar-20-bloodsport--03.png"
+          ]
         }
       ],
       "red": [
@@ -412,7 +500,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--covert--glock-18-wasteland-rebel.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--covert--glock-18-wasteland-rebel--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--covert--glock-18-wasteland-rebel--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--covert--glock-18-wasteland-rebel--04.png"
+          ]
         },
         {
           "itemId": "m4a1-s-mecha-industries",
@@ -435,7 +529,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Weapons/gamma-case--covert--m4a1-s-mecha-industries.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--covert--m4a1-s-mecha-industries--02.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--covert--m4a1-s-mecha-industries--03.png",
+            "Assets/Cases/Gamma-Case/Weapons/gamma-case--covert--m4a1-s-mecha-industries--04.png"
+          ]
         }
       ]
     },
@@ -470,7 +570,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-autotronic--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-autotronic--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-autotronic--04.png"
+          ]
         },
         {
           "itemId": "bayonet-black-laminate",
@@ -493,7 +599,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-black-laminate--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-black-laminate--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-black-laminate--04.png"
+          ]
         },
         {
           "itemId": "bayonet-bright-water",
@@ -516,7 +628,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-bright-water--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-bright-water--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-bright-water--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-bright-water--05.png"
+          ]
         },
         {
           "itemId": "bayonet-freehand",
@@ -539,7 +658,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-freehand--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-freehand--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-freehand--04.png"
+          ]
         },
         {
           "itemId": "bayonet-gamma-doppler-phase-1",
@@ -562,7 +687,16 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-1--07.png"
+          ]
         },
         {
           "itemId": "bayonet-gamma-doppler-phase-2",
@@ -585,7 +719,16 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-2--07.png"
+          ]
         },
         {
           "itemId": "bayonet-gamma-doppler-phase-3",
@@ -608,7 +751,16 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-3--07.png"
+          ]
         },
         {
           "itemId": "bayonet-gamma-doppler-phase-4",
@@ -631,7 +783,16 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-phase-4--07.png"
+          ]
         },
         {
           "itemId": "bayonet-gamma-doppler-emerald",
@@ -654,7 +815,16 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-gamma-doppler-emerald--07.png"
+          ]
         },
         {
           "itemId": "bayonet-lore",
@@ -677,7 +847,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-lore--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-lore--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--bayonet-lore--04.png"
+          ]
         },
         {
           "itemId": "flip-knife-autotronic",
@@ -700,7 +876,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-autotronic--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-autotronic--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-autotronic--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-autotronic--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-black-laminate",
@@ -723,7 +906,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-black-laminate--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-black-laminate--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-black-laminate--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-black-laminate--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-bright-water",
@@ -746,7 +936,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-bright-water--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-bright-water--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-bright-water--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-bright-water--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-freehand",
@@ -769,7 +966,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-freehand--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-freehand--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-freehand--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-freehand--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-gamma-doppler-phase-1",
@@ -792,7 +996,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "flip-knife-gamma-doppler-phase-2",
@@ -815,7 +1029,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "flip-knife-gamma-doppler-phase-3",
@@ -838,7 +1062,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "flip-knife-gamma-doppler-phase-4",
@@ -861,7 +1095,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "flip-knife-gamma-doppler-emerald",
@@ -884,7 +1128,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-gamma-doppler-emerald--08.png"
+          ]
         },
         {
           "itemId": "flip-knife-lore",
@@ -907,7 +1161,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-lore--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-lore--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-lore--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--flip-knife-lore--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-autotronic",
@@ -930,7 +1191,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-autotronic--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-autotronic--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-autotronic--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-autotronic--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-black-laminate",
@@ -953,7 +1221,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-black-laminate--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-black-laminate--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-black-laminate--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-black-laminate--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-bright-water",
@@ -976,7 +1251,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-bright-water--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-bright-water--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-bright-water--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-bright-water--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-freehand",
@@ -999,7 +1281,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-freehand--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-freehand--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-freehand--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-freehand--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-gamma-doppler-phase-1",
@@ -1022,7 +1311,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "gut-knife-gamma-doppler-phase-2",
@@ -1045,7 +1344,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "gut-knife-gamma-doppler-phase-3",
@@ -1068,7 +1377,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "gut-knife-gamma-doppler-phase-4",
@@ -1091,7 +1410,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "gut-knife-gamma-doppler-emerald",
@@ -1114,7 +1443,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-gamma-doppler-emerald--08.png"
+          ]
         },
         {
           "itemId": "gut-knife-lore",
@@ -1137,7 +1476,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-lore--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-lore--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-lore--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--gut-knife-lore--05.png"
+          ]
         },
         {
           "itemId": "karambit-autotronic",
@@ -1160,7 +1506,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-autotronic--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-autotronic--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-autotronic--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-autotronic--05.png"
+          ]
         },
         {
           "itemId": "karambit-black-laminate",
@@ -1183,7 +1536,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-black-laminate--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-black-laminate--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-black-laminate--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-black-laminate--05.png"
+          ]
         },
         {
           "itemId": "karambit-bright-water",
@@ -1206,7 +1566,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-bright-water--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-bright-water--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-bright-water--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-bright-water--05.png"
+          ]
         },
         {
           "itemId": "karambit-freehand",
@@ -1229,7 +1596,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-freehand--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-freehand--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-freehand--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-freehand--05.png"
+          ]
         },
         {
           "itemId": "karambit-gamma-doppler-phase-1",
@@ -1252,7 +1626,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "karambit-gamma-doppler-phase-2",
@@ -1275,7 +1659,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "karambit-gamma-doppler-phase-3",
@@ -1298,7 +1692,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "karambit-gamma-doppler-phase-4",
@@ -1321,7 +1725,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "karambit-gamma-doppler-emerald",
@@ -1344,7 +1758,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-gamma-doppler-emerald--08.png"
+          ]
         },
         {
           "itemId": "karambit-lore",
@@ -1367,7 +1791,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-lore--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-lore--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-lore--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--karambit-lore--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-autotronic",
@@ -1390,7 +1821,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-autotronic--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-autotronic--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-autotronic--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-autotronic--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-black-laminate",
@@ -1413,7 +1851,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-black-laminate--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-black-laminate--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-black-laminate--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-black-laminate--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-bright-water",
@@ -1436,7 +1881,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-bright-water--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-bright-water--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-bright-water--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-bright-water--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-freehand",
@@ -1459,7 +1911,14 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-freehand--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-freehand--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-freehand--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-freehand--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-gamma-doppler-phase-1",
@@ -1482,7 +1941,22 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1--08.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1--09.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1--10.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1--11.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1--12.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-1--13.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-gamma-doppler-phase-2",
@@ -1505,7 +1979,22 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2--08.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2--09.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2--10.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2--11.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2--12.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-2--13.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-gamma-doppler-phase-3",
@@ -1528,7 +2017,22 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3--08.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3--09.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3--10.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3--11.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3--12.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-3--13.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-gamma-doppler-phase-4",
@@ -1551,7 +2055,22 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4--08.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4--09.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4--10.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4--11.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4--12.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-phase-4--13.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-gamma-doppler-emerald",
@@ -1574,7 +2093,22 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald--08.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald--09.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald--10.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald--11.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald--12.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-gamma-doppler-emerald--13.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-lore",
@@ -1597,10 +2131,18 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-lore--02.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-lore--03.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-lore--04.png",
+            "Assets/Cases/Gamma-Case/Knives/gamma-case--extraordinary--m9-bayonet-lore--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Gamma-Case/Icons/gamma-case--icon.png"
   },
   "audit": {
     "tierCounts": {

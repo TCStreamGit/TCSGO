@@ -83,7 +83,11 @@
             "base": "0.159833333334000000",
             "nonStatTrak": "0.159833333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--galil-ar-green-apple.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--galil-ar-green-apple--02.png"
+          ]
         },
         {
           "itemId": "aug-steel-sentinel-souvenir",
@@ -106,7 +110,12 @@
             "base": "0.159833333334000000",
             "nonStatTrak": "0.159833333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--aug-steel-sentinel.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--aug-steel-sentinel--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--aug-steel-sentinel--03.png"
+          ]
         },
         {
           "itemId": "p90-straight-dimes-souvenir",
@@ -129,7 +138,12 @@
             "base": "0.159833333333000000",
             "nonStatTrak": "0.159833333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--p90-straight-dimes.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--p90-straight-dimes--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--p90-straight-dimes--03.png"
+          ]
         },
         {
           "itemId": "nova-rain-station-souvenir",
@@ -152,7 +166,11 @@
             "base": "0.159833333333000000",
             "nonStatTrak": "0.159833333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--nova-rain-station.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--nova-rain-station--02.png"
+          ]
         },
         {
           "itemId": "p250-constructivist-souvenir",
@@ -175,7 +193,11 @@
             "base": "0.159833333333000000",
             "nonStatTrak": "0.159833333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--p250-constructivist.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--p250-constructivist--02.png"
+          ]
         },
         {
           "itemId": "cz75-auto-copper-fiber-souvenir",
@@ -198,7 +220,12 @@
             "base": "0.159833333333000000",
             "nonStatTrak": "0.159833333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--cz75-auto-copper-fiber.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--cz75-auto-copper-fiber--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--industrial--cz75-auto-copper-fiber--03.png"
+          ]
         }
       ],
       "milspec": [
@@ -223,7 +250,12 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--milspec--glock-18-green-line.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--milspec--glock-18-green-line--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--milspec--glock-18-green-line--03.png"
+          ]
         },
         {
           "itemId": "famas-2a2f-souvenir",
@@ -246,7 +278,12 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--milspec--famas-2a2f.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--milspec--famas-2a2f--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--milspec--famas-2a2f--03.png"
+          ]
         },
         {
           "itemId": "ump-45-late-night-transit-souvenir",
@@ -269,7 +306,12 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--milspec--ump-45-late-night-transit.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--milspec--ump-45-late-night-transit--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--milspec--ump-45-late-night-transit--03.png"
+          ]
         },
         {
           "itemId": "xm1014-run-run-run-souvenir",
@@ -292,7 +334,12 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--milspec--xm1014-run-run-run.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--milspec--xm1014-run-run-run--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--milspec--xm1014-run-run-run--03.png"
+          ]
         }
       ],
       "restricted": [
@@ -317,7 +364,12 @@
             "base": "0.002133333334000000",
             "nonStatTrak": "0.002133333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--restricted--tec-9-whiteout.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--restricted--tec-9-whiteout--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--restricted--tec-9-whiteout--03.png"
+          ]
         },
         {
           "itemId": "zeus-x27-charged-up-souvenir",
@@ -340,7 +392,12 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--restricted--zeus-x27-charged-up.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--restricted--zeus-x27-charged-up--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--restricted--zeus-x27-charged-up--03.png"
+          ]
         },
         {
           "itemId": "mac-10-derailment-souvenir",
@@ -363,7 +420,12 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--restricted--mac-10-derailment.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--restricted--mac-10-derailment--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--restricted--mac-10-derailment--03.png"
+          ]
         }
       ],
       "classified": [
@@ -388,7 +450,12 @@
             "base": "0.000640000000000000",
             "nonStatTrak": "0.000640000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--classified--m4a4-hellish.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--classified--m4a4-hellish--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--classified--m4a4-hellish--03.png"
+          ]
         },
         {
           "itemId": "mp9-latte-rush-souvenir",
@@ -411,7 +478,12 @@
             "base": "0.000640000000000000",
             "nonStatTrak": "0.000640000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--classified--mp9-latte-rush.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--classified--mp9-latte-rush--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--classified--mp9-latte-rush--03.png"
+          ]
         }
       ],
       "covert": [
@@ -436,11 +508,17 @@
             "base": "0.001320000000000000",
             "nonStatTrak": "0.001320000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--covert--awp-longdog.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--covert--awp-longdog--02.png",
+            "Assets/Cases/Austin-2025-Train-Souvenir-Package/Weapons/austin-2025-train-souvenir-package--covert--awp-longdog--03.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Austin-2025-Train-Souvenir-Package/Icons/austin-2025-train-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

@@ -59,7 +59,12 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--mac-10-light-box.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--mac-10-light-box--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--mac-10-light-box--03.png"
+          ]
         },
         {
           "itemId": "ssg-08-dezastre",
@@ -82,7 +87,12 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--ssg-08-dezastre.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--ssg-08-dezastre--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--ssg-08-dezastre--03.png"
+          ]
         },
         {
           "itemId": "dual-berettas-hideout",
@@ -105,7 +115,12 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--dual-berettas-hideout.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--dual-berettas-hideout--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--dual-berettas-hideout--03.png"
+          ]
         },
         {
           "itemId": "ump-45-motorized",
@@ -128,7 +143,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142856000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--ump-45-motorized.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--ump-45-motorized--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--ump-45-motorized--03.png"
+          ]
         },
         {
           "itemId": "nova-dark-sigil",
@@ -151,7 +171,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142856000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--nova-dark-sigil.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--nova-dark-sigil--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--nova-dark-sigil--03.png"
+          ]
         },
         {
           "itemId": "xm1014-irezumi",
@@ -174,7 +199,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142856000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--xm1014-irezumi.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--xm1014-irezumi--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--xm1014-irezumi--03.png"
+          ]
         },
         {
           "itemId": "tec-9-slag",
@@ -197,7 +227,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142856000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--tec-9-slag.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--tec-9-slag--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--mil-spec--tec-9-slag--03.png"
+          ]
         }
       ],
       "purple": [
@@ -222,7 +257,11 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--glock-18-block-18.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--glock-18-block-18--02.png"
+          ]
         },
         {
           "itemId": "m4a4-etch-lord",
@@ -245,7 +284,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--m4a4-etch-lord.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--m4a4-etch-lord--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--m4a4-etch-lord--03.png"
+          ]
         },
         {
           "itemId": "sawed-off-analog-input",
@@ -268,7 +312,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--sawed-off-analog-input.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--sawed-off-analog-input--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--sawed-off-analog-input--03.png"
+          ]
         },
         {
           "itemId": "mp7-just-smile",
@@ -291,7 +340,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--mp7-just-smile.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--mp7-just-smile--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--mp7-just-smile--03.png"
+          ]
         },
         {
           "itemId": "five-seven-hybrid",
@@ -314,7 +368,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--five-seven-hybrid.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--five-seven-hybrid--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--restricted--five-seven-hybrid--03.png"
+          ]
         }
       ],
       "pink": [
@@ -339,7 +398,12 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--classified--m4a1-s-black-lotus.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--classified--m4a1-s-black-lotus--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--classified--m4a1-s-black-lotus--03.png"
+          ]
         },
         {
           "itemId": "usp-s-jawbreaker",
@@ -362,7 +426,12 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--classified--usp-s-jawbreaker.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--classified--usp-s-jawbreaker--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--classified--usp-s-jawbreaker--03.png"
+          ]
         },
         {
           "itemId": "zeus-x27-olympus",
@@ -385,7 +454,12 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--classified--zeus-x27-olympus.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--classified--zeus-x27-olympus--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--classified--zeus-x27-olympus--03.png"
+          ]
         }
       ],
       "red": [
@@ -410,7 +484,12 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--covert--ak-47-inheritance.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--covert--ak-47-inheritance--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--covert--ak-47-inheritance--03.png"
+          ]
         },
         {
           "itemId": "awp-chrome-cannon",
@@ -433,7 +512,12 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--covert--awp-chrome-cannon.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--covert--awp-chrome-cannon--02.png",
+            "Assets/Cases/Kilowatt-Case/Weapons/kilowatt-case--covert--awp-chrome-cannon--03.png"
+          ]
         }
       ]
     },
@@ -467,7 +551,8 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-fade.png"
         },
         {
           "itemId": "kukri-knife-case-hardened",
@@ -490,7 +575,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-case-hardened--02.png",
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-case-hardened--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-slaughter",
@@ -513,7 +603,11 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-slaughter--02.png"
+          ]
         },
         {
           "itemId": "kukri-knife-crimson-web",
@@ -536,7 +630,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-crimson-web--02.png",
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-crimson-web--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-stained",
@@ -559,7 +658,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-stained--02.png",
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-stained--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-urban-masked",
@@ -582,7 +686,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-urban-masked--02.png",
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-urban-masked--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-scorched",
@@ -605,7 +714,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-scorched--02.png",
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-scorched--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-night-stripe",
@@ -628,7 +742,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-night-stripe--02.png",
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-night-stripe--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-boreal-forest",
@@ -651,7 +770,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-boreal-forest--02.png",
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-boreal-forest--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-blue-steel",
@@ -674,7 +798,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-blue-steel--02.png",
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-blue-steel--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-forest-ddpat",
@@ -697,7 +826,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-forest-ddpat--02.png",
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-forest-ddpat--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-safari-mesh",
@@ -720,7 +854,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-safari-mesh--02.png",
+            "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-safari-mesh--03.png"
+          ]
         },
         {
           "itemId": "kukri-knife-vanilla",
@@ -743,10 +882,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Kilowatt-Case/Knives/kilowatt-case--rare-special--kukri-knife-vanilla.png"
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Kilowatt-Case/Icons/kilowatt-case--icon.png"
   },
   "audit": {
     "tierCounts": {

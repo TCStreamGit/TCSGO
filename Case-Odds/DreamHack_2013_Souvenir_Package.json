@@ -84,7 +84,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-desert-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-desert-storm--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-desert-storm--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-desert-storm--04.png"
+          ]
         },
         {
           "itemId": "p250-sand-dune-souvenir",
@@ -107,7 +113,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p250-sand-dune.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p250-sand-dune--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p250-sand-dune--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p250-sand-dune--04.png"
+          ]
         },
         {
           "itemId": "scar-20-sand-mesh-souvenir",
@@ -130,7 +142,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--scar-20-sand-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--scar-20-sand-mesh--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--scar-20-sand-mesh--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--scar-20-sand-mesh--04.png"
+          ]
         },
         {
           "itemId": "p90-sand-spray-souvenir",
@@ -153,7 +171,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p90-sand-spray.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p90-sand-spray--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p90-sand-spray--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p90-sand-spray--04.png"
+          ]
         },
         {
           "itemId": "mp9-sand-dashed-souvenir",
@@ -176,7 +200,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--mp9-sand-dashed.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--mp9-sand-dashed--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--mp9-sand-dashed--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--mp9-sand-dashed--04.png"
+          ]
         },
         {
           "itemId": "nova-predator-souvenir",
@@ -199,7 +229,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--nova-predator.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--nova-predator--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--nova-predator--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--nova-predator--04.png"
+          ]
         },
         {
           "itemId": "dual-berettas-contractor-souvenir",
@@ -222,7 +258,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--dual-berettas-contractor.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--dual-berettas-contractor--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--dual-berettas-contractor--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--dual-berettas-contractor--04.png"
+          ]
         },
         {
           "itemId": "scar-20-contractor-souvenir",
@@ -245,7 +287,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--scar-20-contractor.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--scar-20-contractor--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--scar-20-contractor--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--scar-20-contractor--04.png"
+          ]
         },
         {
           "itemId": "ssg-08-blue-spruce-souvenir",
@@ -268,7 +316,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--ssg-08-blue-spruce.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--ssg-08-blue-spruce--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--ssg-08-blue-spruce--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--ssg-08-blue-spruce--04.png"
+          ]
         },
         {
           "itemId": "tec-9-army-mesh-souvenir",
@@ -291,7 +345,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--tec-9-army-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--tec-9-army-mesh--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--tec-9-army-mesh--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--tec-9-army-mesh--04.png"
+          ]
         },
         {
           "itemId": "mp7-army-recon-souvenir",
@@ -314,7 +374,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--mp7-army-recon.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--mp7-army-recon--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--mp7-army-recon--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--mp7-army-recon--04.png"
+          ]
         },
         {
           "itemId": "tec-9-groundwater-souvenir",
@@ -337,7 +403,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--tec-9-groundwater.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--tec-9-groundwater--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--tec-9-groundwater--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--tec-9-groundwater--04.png"
+          ]
         },
         {
           "itemId": "aug-contractor-souvenir",
@@ -360,7 +432,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--aug-contractor.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--aug-contractor--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--aug-contractor--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--aug-contractor--04.png"
+          ]
         },
         {
           "itemId": "famas-colony-souvenir",
@@ -383,7 +461,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--famas-colony.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--famas-colony--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--famas-colony--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--famas-colony--04.png"
+          ]
         },
         {
           "itemId": "nova-sand-dune-souvenir",
@@ -406,7 +490,13 @@
             "base": "0.022834285715000000",
             "nonStatTrak": "0.022834285715000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--nova-sand-dune.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--nova-sand-dune--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--nova-sand-dune--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--nova-sand-dune--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-sand-dashed-souvenir",
@@ -429,7 +519,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--pp-bizon-sand-dashed.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--pp-bizon-sand-dashed--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--pp-bizon-sand-dashed--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--pp-bizon-sand-dashed--04.png"
+          ]
         },
         {
           "itemId": "p250-boreal-forest-souvenir",
@@ -452,7 +548,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p250-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p250-boreal-forest--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p250-boreal-forest--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p250-boreal-forest--04.png"
+          ]
         },
         {
           "itemId": "xm1014-blue-spruce-souvenir",
@@ -475,7 +577,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--xm1014-blue-spruce.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--xm1014-blue-spruce--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--xm1014-blue-spruce--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--xm1014-blue-spruce--04.png"
+          ]
         },
         {
           "itemId": "aug-storm-souvenir",
@@ -498,7 +606,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--aug-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--aug-storm--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--aug-storm--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--aug-storm--04.png"
+          ]
         },
         {
           "itemId": "galil-ar-sage-spray-souvenir",
@@ -521,7 +635,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--galil-ar-sage-spray.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--galil-ar-sage-spray--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--galil-ar-sage-spray--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--galil-ar-sage-spray--04.png"
+          ]
         },
         {
           "itemId": "sg-553-waves-perforated-souvenir",
@@ -544,7 +664,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--sg-553-waves-perforated.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--sg-553-waves-perforated--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--sg-553-waves-perforated--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--sg-553-waves-perforated--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-jungle-dashed-souvenir",
@@ -567,7 +693,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-jungle-dashed.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-jungle-dashed--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-jungle-dashed--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-jungle-dashed--04.png"
+          ]
         },
         {
           "itemId": "ump-45-urban-ddpat-souvenir",
@@ -590,7 +722,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--ump-45-urban-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--ump-45-urban-ddpat--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--ump-45-urban-ddpat--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--ump-45-urban-ddpat--04.png"
+          ]
         },
         {
           "itemId": "dual-berettas-colony-souvenir",
@@ -613,7 +751,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--dual-berettas-colony.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--dual-berettas-colony--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--dual-berettas-colony--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--dual-berettas-colony--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-polar-camo-souvenir",
@@ -636,7 +780,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-polar-camo.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-polar-camo--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-polar-camo--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-polar-camo--04.png"
+          ]
         },
         {
           "itemId": "five-seven-forest-night-souvenir",
@@ -659,7 +809,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--five-seven-forest-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--five-seven-forest-night--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--five-seven-forest-night--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--five-seven-forest-night--04.png"
+          ]
         },
         {
           "itemId": "nova-polar-mesh-souvenir",
@@ -682,7 +838,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--nova-polar-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--nova-polar-mesh--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--nova-polar-mesh--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--nova-polar-mesh--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-urban-dashed-souvenir",
@@ -705,7 +867,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--pp-bizon-urban-dashed.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--pp-bizon-urban-dashed--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--pp-bizon-urban-dashed--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--pp-bizon-urban-dashed--04.png"
+          ]
         },
         {
           "itemId": "p250-bone-mask-souvenir",
@@ -728,7 +896,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p250-bone-mask.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p250-bone-mask--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p250-bone-mask--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p250-bone-mask--04.png"
+          ]
         },
         {
           "itemId": "five-seven-contractor-souvenir",
@@ -751,7 +925,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--five-seven-contractor.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--five-seven-contractor--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--five-seven-contractor--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--five-seven-contractor--04.png"
+          ]
         },
         {
           "itemId": "aug-colony-souvenir",
@@ -774,7 +954,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--aug-colony.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--aug-colony--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--aug-colony--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--aug-colony--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-safari-mesh-souvenir",
@@ -797,7 +983,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-safari-mesh--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-safari-mesh--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--g3sg1-safari-mesh--04.png"
+          ]
         },
         {
           "itemId": "p90-scorched-souvenir",
@@ -820,7 +1012,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p90-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p90-scorched--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p90-scorched--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--p90-scorched--04.png"
+          ]
         },
         {
           "itemId": "galil-ar-hunting-blind-souvenir",
@@ -843,7 +1041,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--galil-ar-hunting-blind.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--galil-ar-hunting-blind--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--galil-ar-hunting-blind--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--galil-ar-hunting-blind--04.png"
+          ]
         },
         {
           "itemId": "r8-revolver-bone-mask-souvenir",
@@ -866,7 +1070,13 @@
             "base": "0.022834285714000000",
             "nonStatTrak": "0.022834285714000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--r8-revolver-bone-mask.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--r8-revolver-bone-mask--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--r8-revolver-bone-mask--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--consumer--r8-revolver-bone-mask--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -891,7 +1101,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--sawed-off-snake-camo.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--sawed-off-snake-camo--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--sawed-off-snake-camo--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--sawed-off-snake-camo--04.png"
+          ]
         },
         {
           "itemId": "ak-47-safari-mesh-souvenir",
@@ -914,7 +1130,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--ak-47-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--ak-47-safari-mesh--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--ak-47-safari-mesh--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--ak-47-safari-mesh--04.png"
+          ]
         },
         {
           "itemId": "five-seven-orange-peel-souvenir",
@@ -937,7 +1159,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--five-seven-orange-peel.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--five-seven-orange-peel--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--five-seven-orange-peel--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--five-seven-orange-peel--04.png"
+          ]
         },
         {
           "itemId": "mac-10-palm-souvenir",
@@ -960,7 +1188,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mac-10-palm.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mac-10-palm--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mac-10-palm--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mac-10-palm--04.png"
+          ]
         },
         {
           "itemId": "tec-9-varicamo-souvenir",
@@ -983,7 +1217,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--tec-9-varicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--tec-9-varicamo--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--tec-9-varicamo--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--tec-9-varicamo--04.png"
+          ]
         },
         {
           "itemId": "usp-s-forest-leaves-souvenir",
@@ -1006,7 +1246,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--usp-s-forest-leaves.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--usp-s-forest-leaves--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--usp-s-forest-leaves--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--usp-s-forest-leaves--04.png"
+          ]
         },
         {
           "itemId": "aug-condemned-souvenir",
@@ -1029,7 +1275,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--aug-condemned.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--aug-condemned--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--aug-condemned--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--aug-condemned--04.png"
+          ]
         },
         {
           "itemId": "mp9-orange-peel-souvenir",
@@ -1052,7 +1304,13 @@
             "base": "0.004842424243000000",
             "nonStatTrak": "0.004842424243000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mp9-orange-peel.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mp9-orange-peel--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mp9-orange-peel--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mp9-orange-peel--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-varicamo-souvenir",
@@ -1075,7 +1333,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--g3sg1-varicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--g3sg1-varicamo--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--g3sg1-varicamo--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--g3sg1-varicamo--04.png"
+          ]
         },
         {
           "itemId": "galil-ar-varicamo-souvenir",
@@ -1098,7 +1362,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--galil-ar-varicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--galil-ar-varicamo--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--galil-ar-varicamo--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--galil-ar-varicamo--04.png"
+          ]
         },
         {
           "itemId": "m249-gator-mesh-souvenir",
@@ -1121,7 +1391,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--m249-gator-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--m249-gator-mesh--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--m249-gator-mesh--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--m249-gator-mesh--04.png"
+          ]
         },
         {
           "itemId": "nova-candy-apple-souvenir",
@@ -1144,7 +1420,12 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--nova-candy-apple.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--nova-candy-apple--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--nova-candy-apple--03.png"
+          ]
         },
         {
           "itemId": "ump-45-gunsmoke-souvenir",
@@ -1167,7 +1448,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--ump-45-gunsmoke.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--ump-45-gunsmoke--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--ump-45-gunsmoke--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--ump-45-gunsmoke--04.png"
+          ]
         },
         {
           "itemId": "p2000-granite-marbleized-souvenir",
@@ -1190,7 +1477,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--p2000-granite-marbleized.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--p2000-granite-marbleized--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--p2000-granite-marbleized--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--p2000-granite-marbleized--04.png"
+          ]
         },
         {
           "itemId": "dual-berettas-stained-souvenir",
@@ -1213,7 +1506,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--dual-berettas-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--dual-berettas-stained--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--dual-berettas-stained--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--dual-berettas-stained--04.png"
+          ]
         },
         {
           "itemId": "m4a1-s-boreal-forest-souvenir",
@@ -1236,7 +1535,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--m4a1-s-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--m4a1-s-boreal-forest--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--m4a1-s-boreal-forest--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--m4a1-s-boreal-forest--04.png"
+          ]
         },
         {
           "itemId": "xm1014-calicamo-souvenir",
@@ -1259,7 +1564,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--xm1014-calicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--xm1014-calicamo--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--xm1014-calicamo--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--xm1014-calicamo--04.png"
+          ]
         },
         {
           "itemId": "xm1014-blue-steel-souvenir",
@@ -1282,7 +1593,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--xm1014-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--xm1014-blue-steel--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--xm1014-blue-steel--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--xm1014-blue-steel--04.png"
+          ]
         },
         {
           "itemId": "awp-safari-mesh-souvenir",
@@ -1305,7 +1622,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--awp-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--awp-safari-mesh--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--awp-safari-mesh--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--awp-safari-mesh--04.png"
+          ]
         },
         {
           "itemId": "desert-eagle-mudder-souvenir",
@@ -1328,7 +1651,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--desert-eagle-mudder.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--desert-eagle-mudder--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--desert-eagle-mudder--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--desert-eagle-mudder--04.png"
+          ]
         },
         {
           "itemId": "famas-cyanospatter-souvenir",
@@ -1351,7 +1680,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--famas-cyanospatter.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--famas-cyanospatter--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--famas-cyanospatter--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--famas-cyanospatter--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-night-ops-souvenir",
@@ -1374,7 +1709,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--pp-bizon-night-ops.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--pp-bizon-night-ops--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--pp-bizon-night-ops--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--pp-bizon-night-ops--04.png"
+          ]
         },
         {
           "itemId": "mac-10-candy-apple-souvenir",
@@ -1397,7 +1738,12 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mac-10-candy-apple.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mac-10-candy-apple--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mac-10-candy-apple--03.png"
+          ]
         },
         {
           "itemId": "m4a4-urban-ddpat-souvenir",
@@ -1420,7 +1766,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--m4a4-urban-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--m4a4-urban-ddpat--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--m4a4-urban-ddpat--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--m4a4-urban-ddpat--04.png"
+          ]
         },
         {
           "itemId": "mag-7-metallic-ddpat-souvenir",
@@ -1443,7 +1795,11 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mag-7-metallic-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mag-7-metallic-ddpat--02.png"
+          ]
         },
         {
           "itemId": "p250-metallic-ddpat-souvenir",
@@ -1466,7 +1822,11 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--p250-metallic-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--p250-metallic-ddpat--02.png"
+          ]
         },
         {
           "itemId": "scar-20-carbon-fiber-souvenir",
@@ -1489,7 +1849,11 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--scar-20-carbon-fiber.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--scar-20-carbon-fiber--02.png"
+          ]
         },
         {
           "itemId": "p90-ash-wood-souvenir",
@@ -1512,7 +1876,12 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--p90-ash-wood.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--p90-ash-wood--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--p90-ash-wood--03.png"
+          ]
         },
         {
           "itemId": "glock-18-groundwater-souvenir",
@@ -1535,7 +1904,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--glock-18-groundwater.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--glock-18-groundwater--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--glock-18-groundwater--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--glock-18-groundwater--04.png"
+          ]
         },
         {
           "itemId": "mp7-orange-peel-souvenir",
@@ -1558,7 +1933,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mp7-orange-peel.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mp7-orange-peel--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mp7-orange-peel--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--mp7-orange-peel--04.png"
+          ]
         },
         {
           "itemId": "ssg-08-tropical-storm-souvenir",
@@ -1581,7 +1962,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--ssg-08-tropical-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--ssg-08-tropical-storm--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--ssg-08-tropical-storm--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--ssg-08-tropical-storm--04.png"
+          ]
         },
         {
           "itemId": "negev-calicamo-souvenir",
@@ -1604,7 +1991,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--negev-calicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--negev-calicamo--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--negev-calicamo--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--negev-calicamo--04.png"
+          ]
         },
         {
           "itemId": "sg-553-gator-mesh-souvenir",
@@ -1627,7 +2020,13 @@
             "base": "0.004842424242000000",
             "nonStatTrak": "0.004842424242000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--sg-553-gator-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--sg-553-gator-mesh--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--sg-553-gator-mesh--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--industrial--sg-553-gator-mesh--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -1652,7 +2051,13 @@
             "base": "0.001882352942000000",
             "nonStatTrak": "0.001882352942000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--pp-bizon-brass.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--pp-bizon-brass--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--pp-bizon-brass--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--pp-bizon-brass--04.png"
+          ]
         },
         {
           "itemId": "m4a1-s-varicamo-souvenir",
@@ -1675,7 +2080,13 @@
             "base": "0.001882352942000000",
             "nonStatTrak": "0.001882352942000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--m4a1-s-varicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--m4a1-s-varicamo--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--m4a1-s-varicamo--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--m4a1-s-varicamo--04.png"
+          ]
         },
         {
           "itemId": "sg-553-damascus-steel-souvenir",
@@ -1698,7 +2109,13 @@
             "base": "0.001882352942000000",
             "nonStatTrak": "0.001882352942000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sg-553-damascus-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sg-553-damascus-steel--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sg-553-damascus-steel--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sg-553-damascus-steel--04.png"
+          ]
         },
         {
           "itemId": "famas-teardown-souvenir",
@@ -1721,7 +2138,13 @@
             "base": "0.001882352942000000",
             "nonStatTrak": "0.001882352942000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--famas-teardown.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--famas-teardown--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--famas-teardown--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--famas-teardown--04.png"
+          ]
         },
         {
           "itemId": "five-seven-silver-quartz-souvenir",
@@ -1744,7 +2167,12 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--five-seven-silver-quartz.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--five-seven-silver-quartz--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--five-seven-silver-quartz--03.png"
+          ]
         },
         {
           "itemId": "ssg-08-acid-fade-souvenir",
@@ -1767,7 +2195,11 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--ssg-08-acid-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--ssg-08-acid-fade--02.png"
+          ]
         },
         {
           "itemId": "glock-18-candy-apple-souvenir",
@@ -1790,7 +2222,12 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--glock-18-candy-apple.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--glock-18-candy-apple--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--glock-18-candy-apple--03.png"
+          ]
         },
         {
           "itemId": "mp7-anodized-navy-souvenir",
@@ -1813,7 +2250,11 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--mp7-anodized-navy.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--mp7-anodized-navy--02.png"
+          ]
         },
         {
           "itemId": "sawed-off-full-stop-souvenir",
@@ -1836,7 +2277,13 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sawed-off-full-stop.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sawed-off-full-stop--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sawed-off-full-stop--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sawed-off-full-stop--04.png"
+          ]
         },
         {
           "itemId": "sg-553-anodized-navy-souvenir",
@@ -1859,7 +2306,11 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sg-553-anodized-navy.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sg-553-anodized-navy--02.png"
+          ]
         },
         {
           "itemId": "usp-s-night-ops-souvenir",
@@ -1882,7 +2333,13 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--usp-s-night-ops.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--usp-s-night-ops--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--usp-s-night-ops--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--usp-s-night-ops--04.png"
+          ]
         },
         {
           "itemId": "p90-teardown-souvenir",
@@ -1905,7 +2362,13 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--p90-teardown.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--p90-teardown--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--p90-teardown--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--p90-teardown--04.png"
+          ]
         },
         {
           "itemId": "desert-eagle-urban-rubble-souvenir",
@@ -1928,7 +2391,13 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--desert-eagle-urban-rubble.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--desert-eagle-urban-rubble--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--desert-eagle-urban-rubble--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--desert-eagle-urban-rubble--04.png"
+          ]
         },
         {
           "itemId": "sawed-off-amber-fade-souvenir",
@@ -1951,7 +2420,12 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sawed-off-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sawed-off-amber-fade--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--sawed-off-amber-fade--03.png"
+          ]
         },
         {
           "itemId": "mp9-hot-rod-souvenir",
@@ -1974,7 +2448,11 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--mp9-hot-rod.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--mp9-hot-rod--02.png"
+          ]
         },
         {
           "itemId": "ump-45-blaze-souvenir",
@@ -1997,7 +2475,11 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--ump-45-blaze.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--ump-45-blaze--02.png"
+          ]
         },
         {
           "itemId": "mac-10-amber-fade-souvenir",
@@ -2020,7 +2502,12 @@
             "base": "0.001882352941000000",
             "nonStatTrak": "0.001882352941000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--mac-10-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--mac-10-amber-fade--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--milspec--mac-10-amber-fade--03.png"
+          ]
         }
       ],
       "restricted": [
@@ -2045,7 +2532,12 @@
             "base": "0.001066666667000000",
             "nonStatTrak": "0.001066666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--p2000-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--p2000-amber-fade--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--p2000-amber-fade--03.png"
+          ]
         },
         {
           "itemId": "m4a1-s-nitro-souvenir",
@@ -2068,7 +2560,13 @@
             "base": "0.001066666667000000",
             "nonStatTrak": "0.001066666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--m4a1-s-nitro.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--m4a1-s-nitro--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--m4a1-s-nitro--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--m4a1-s-nitro--04.png"
+          ]
         },
         {
           "itemId": "awp-pit-viper-souvenir",
@@ -2091,7 +2589,13 @@
             "base": "0.001066666667000000",
             "nonStatTrak": "0.001066666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--awp-pit-viper.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--awp-pit-viper--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--awp-pit-viper--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--awp-pit-viper--04.png"
+          ]
         },
         {
           "itemId": "dual-berettas-cobalt-quartz-souvenir",
@@ -2114,7 +2618,12 @@
             "base": "0.001066666667000000",
             "nonStatTrak": "0.001066666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--dual-berettas-cobalt-quartz.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--dual-berettas-cobalt-quartz--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--dual-berettas-cobalt-quartz--03.png"
+          ]
         },
         {
           "itemId": "tec-9-red-quartz-souvenir",
@@ -2137,7 +2646,12 @@
             "base": "0.001066666666000000",
             "nonStatTrak": "0.001066666666000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--tec-9-red-quartz.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--tec-9-red-quartz--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--tec-9-red-quartz--03.png"
+          ]
         },
         {
           "itemId": "mag-7-bulldozer-souvenir",
@@ -2160,7 +2674,13 @@
             "base": "0.001066666666000000",
             "nonStatTrak": "0.001066666666000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--mag-7-bulldozer.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--mag-7-bulldozer--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--mag-7-bulldozer--03.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--restricted--mag-7-bulldozer--04.png"
+          ]
         }
       ],
       "classified": [
@@ -2185,12 +2705,18 @@
             "base": "0.002600000000000000",
             "nonStatTrak": "0.002600000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--classified--r8-revolver-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--classified--r8-revolver-amber-fade--02.png",
+            "Assets/Cases/Dreamhack-2013-Souvenir-Package/Weapons/dreamhack-2013-souvenir-package--classified--r8-revolver-amber-fade--03.png"
+          ]
         }
       ],
       "covert": []
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Dreamhack-2013-Souvenir-Package/Icons/dreamhack-2013-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

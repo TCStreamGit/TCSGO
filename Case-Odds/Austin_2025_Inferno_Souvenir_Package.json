@@ -85,7 +85,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--mp5-sd-dirt-drop.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--mp5-sd-dirt-drop--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--mp5-sd-dirt-drop--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--mp5-sd-dirt-drop--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mp9-slide",
@@ -108,7 +114,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--mp9-slide.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--mp9-slide--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--mp9-slide--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--mp9-slide--04.png"
+          ]
         },
         {
           "itemId": "souvenir-aug-sweeper",
@@ -131,7 +143,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--aug-sweeper.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--aug-sweeper--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--aug-sweeper--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--aug-sweeper--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ump-45-mudder",
@@ -154,7 +172,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--ump-45-mudder.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--ump-45-mudder--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--ump-45-mudder--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--ump-45-mudder--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mag-7-rust-coat",
@@ -177,7 +201,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--mag-7-rust-coat.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--mag-7-rust-coat--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--mag-7-rust-coat--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--consumer--mag-7-rust-coat--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -202,7 +232,11 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--glock-18-high-beam.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--glock-18-high-beam--02.png"
+          ]
         },
         {
           "itemId": "souvenir-r8-revolver-nitro",
@@ -225,7 +259,14 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--r8-revolver-nitro.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--r8-revolver-nitro--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--r8-revolver-nitro--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--r8-revolver-nitro--04.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--r8-revolver-nitro--05.png"
+          ]
         },
         {
           "itemId": "souvenir-mac-10-calf-skin",
@@ -248,7 +289,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--mac-10-calf-skin.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--mac-10-calf-skin--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--mac-10-calf-skin--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--mac-10-calf-skin--04.png"
+          ]
         },
         {
           "itemId": "souvenir-pp-bizon-candy-apple",
@@ -271,7 +318,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--pp-bizon-candy-apple.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--pp-bizon-candy-apple--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--industrial--pp-bizon-candy-apple--03.png"
+          ]
         }
       ],
       "milspec": [
@@ -296,7 +348,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--usp-s-check-engine.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--usp-s-check-engine--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--usp-s-check-engine--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--usp-s-check-engine--04.png"
+          ]
         },
         {
           "itemId": "souvenir-m4a4-converter",
@@ -319,7 +377,12 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--m4a4-converter.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--m4a4-converter--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--m4a4-converter--03.png"
+          ]
         },
         {
           "itemId": "souvenir-ssg-08-hand-brake",
@@ -342,7 +405,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--ssg-08-hand-brake.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--ssg-08-hand-brake--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--ssg-08-hand-brake--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--ssg-08-hand-brake--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sawed-off-brake-light",
@@ -365,7 +434,11 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--sawed-off-brake-light.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--milspec--sawed-off-brake-light--02.png"
+          ]
         }
       ],
       "restricted": [
@@ -390,7 +463,13 @@
             "base": "0.002133333334000000",
             "nonStatTrak": "0.002133333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--restricted--ak-47-safety-net.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--restricted--ak-47-safety-net--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--restricted--ak-47-safety-net--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--restricted--ak-47-safety-net--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-vino-primo",
@@ -413,7 +492,13 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--restricted--p250-vino-primo.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--restricted--p250-vino-primo--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--restricted--p250-vino-primo--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--restricted--p250-vino-primo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mp7-fade",
@@ -436,7 +521,12 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--restricted--mp7-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--restricted--mp7-fade--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--restricted--mp7-fade--03.png"
+          ]
         }
       ],
       "classified": [
@@ -461,7 +551,13 @@
             "base": "0.001300000000000000",
             "nonStatTrak": "0.001300000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--classified--sg-553-integrale.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--classified--sg-553-integrale--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--classified--sg-553-integrale--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--classified--sg-553-integrale--04.png"
+          ]
         },
         {
           "itemId": "souvenir-dual-berettas-twin-turbo",
@@ -484,12 +580,19 @@
             "base": "0.001300000000000000",
             "nonStatTrak": "0.001300000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--classified--dual-berettas-twin-turbo.png",
+          "imageAlternates": [
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--classified--dual-berettas-twin-turbo--02.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--classified--dual-berettas-twin-turbo--03.png",
+            "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Weapons/austin-2025-inferno-souvenir-package--classified--dual-berettas-twin-turbo--04.png"
+          ]
         }
       ],
       "covert": []
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Austin-2025-Inferno-Souvenir-Package/Icons/austin-2025-inferno-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

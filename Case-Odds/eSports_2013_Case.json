@@ -63,7 +63,13 @@
             "base": "0.266400000000000000",
             "nonStatTrak": "0.239760000000000000",
             "statTrak": "0.026640000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--mil-spec--m4a4-faded-zebra.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--mil-spec--m4a4-faded-zebra--02.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--mil-spec--m4a4-faded-zebra--03.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--mil-spec--m4a4-faded-zebra--04.png"
+          ]
         },
         {
           "itemId": "mag-7-memento",
@@ -86,7 +92,12 @@
             "base": "0.266400000000000000",
             "nonStatTrak": "0.239760000000000000",
             "statTrak": "0.026640000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--mil-spec--mag-7-memento.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--mil-spec--mag-7-memento--02.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--mil-spec--mag-7-memento--03.png"
+          ]
         },
         {
           "itemId": "famas-doomkitty",
@@ -109,7 +120,12 @@
             "base": "0.266400000000000000",
             "nonStatTrak": "0.239760000000000000",
             "statTrak": "0.026640000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--mil-spec--famas-doomkitty.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--mil-spec--famas-doomkitty--02.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--mil-spec--famas-doomkitty--03.png"
+          ]
         }
       ],
       "purple": [
@@ -134,7 +150,13 @@
             "base": "0.053266666667000000",
             "nonStatTrak": "0.047940000000000000",
             "statTrak": "0.005326666667000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--restricted--galil-ar-orange-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--restricted--galil-ar-orange-ddpat--02.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--restricted--galil-ar-orange-ddpat--03.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--restricted--galil-ar-orange-ddpat--04.png"
+          ]
         },
         {
           "itemId": "p250-splash",
@@ -157,7 +179,12 @@
             "base": "0.053266666667000000",
             "nonStatTrak": "0.047940000000000000",
             "statTrak": "0.005326666667000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--restricted--p250-splash.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--restricted--p250-splash--02.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--restricted--p250-splash--03.png"
+          ]
         },
         {
           "itemId": "sawed-off-orange-ddpat",
@@ -180,7 +207,13 @@
             "base": "0.053266666666000000",
             "nonStatTrak": "0.047939999999000000",
             "statTrak": "0.005326666667000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--restricted--sawed-off-orange-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--restricted--sawed-off-orange-ddpat--02.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--restricted--sawed-off-orange-ddpat--03.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--restricted--sawed-off-orange-ddpat--04.png"
+          ]
         }
       ],
       "pink": [
@@ -205,7 +238,12 @@
             "base": "0.016000000000000000",
             "nonStatTrak": "0.014400000000000000",
             "statTrak": "0.001600000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--classified--awp-boom.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--classified--awp-boom--02.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--classified--awp-boom--03.png"
+          ]
         },
         {
           "itemId": "ak-47-red-laminate",
@@ -228,7 +266,13 @@
             "base": "0.016000000000000000",
             "nonStatTrak": "0.014400000000000000",
             "statTrak": "0.001600000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--classified--ak-47-red-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--classified--ak-47-red-laminate--02.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--classified--ak-47-red-laminate--03.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--classified--ak-47-red-laminate--04.png"
+          ]
         }
       ],
       "red": [
@@ -253,7 +297,12 @@
             "base": "0.006400000000000000",
             "nonStatTrak": "0.005760000000000000",
             "statTrak": "0.000640000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--covert--p90-death-by-kitty.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--covert--p90-death-by-kitty--02.png",
+            "Assets/Cases/Esports-2013-Case/Weapons/esports-2013-case--covert--p90-death-by-kitty--03.png"
+          ]
         }
       ]
     },
@@ -288,7 +337,8 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-vanilla.png"
         },
         {
           "itemId": "bayonet-fade",
@@ -311,7 +361,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-fade--02.png"
+          ]
         },
         {
           "itemId": "bayonet-slaughter",
@@ -334,7 +388,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-slaughter--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-slaughter--03.png"
+          ]
         },
         {
           "itemId": "bayonet-case-hardened",
@@ -357,7 +416,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-case-hardened--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-case-hardened--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-case-hardened--04.png"
+          ]
         },
         {
           "itemId": "bayonet-crimson-web",
@@ -380,7 +445,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-crimson-web--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-crimson-web--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-crimson-web--04.png"
+          ]
         },
         {
           "itemId": "bayonet-blue-steel",
@@ -403,7 +474,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-blue-steel--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-blue-steel--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-blue-steel--04.png"
+          ]
         },
         {
           "itemId": "bayonet-stained",
@@ -426,7 +503,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-stained--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-stained--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-stained--04.png"
+          ]
         },
         {
           "itemId": "bayonet-night",
@@ -449,7 +532,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-night--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-night--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-night--04.png"
+          ]
         },
         {
           "itemId": "bayonet-urban-masked",
@@ -472,7 +561,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-urban-masked--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-urban-masked--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-urban-masked--04.png"
+          ]
         },
         {
           "itemId": "bayonet-scorched",
@@ -495,7 +590,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-scorched--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-scorched--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-scorched--04.png"
+          ]
         },
         {
           "itemId": "bayonet-safari-mesh",
@@ -518,7 +619,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-safari-mesh--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-safari-mesh--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-safari-mesh--04.png"
+          ]
         },
         {
           "itemId": "bayonet-boreal-forest",
@@ -541,7 +648,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-boreal-forest--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-boreal-forest--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-boreal-forest--04.png"
+          ]
         },
         {
           "itemId": "bayonet-forest-ddpat",
@@ -564,7 +677,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-forest-ddpat--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-forest-ddpat--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--bayonet-forest-ddpat--04.png"
+          ]
         },
         {
           "itemId": "flip-knife-vanilla",
@@ -587,7 +706,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "flip-knife-fade",
@@ -610,7 +733,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-fade--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "flip-knife-slaughter",
@@ -633,7 +761,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-slaughter--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-slaughter--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "flip-knife-case-hardened",
@@ -656,7 +790,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-case-hardened--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-case-hardened--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-case-hardened--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-crimson-web",
@@ -679,7 +820,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-crimson-web--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-crimson-web--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-crimson-web--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-blue-steel",
@@ -702,7 +850,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-blue-steel--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-blue-steel--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-blue-steel--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-stained",
@@ -725,7 +880,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-stained--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-stained--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-stained--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-night",
@@ -748,7 +910,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-night--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-night--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-night--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-night--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-urban-masked",
@@ -771,7 +940,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-urban-masked--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-urban-masked--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-urban-masked--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-scorched",
@@ -794,7 +970,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-scorched--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-scorched--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-scorched--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-safari-mesh",
@@ -817,7 +1000,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-safari-mesh--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-safari-mesh--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-safari-mesh--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-boreal-forest",
@@ -840,7 +1030,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-boreal-forest--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-boreal-forest--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-boreal-forest--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-forest-ddpat",
@@ -863,7 +1060,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-forest-ddpat--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-forest-ddpat--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-forest-ddpat--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--flip-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-vanilla",
@@ -886,7 +1090,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "gut-knife-fade",
@@ -909,7 +1117,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-fade--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "gut-knife-slaughter",
@@ -932,7 +1145,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-slaughter--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-slaughter--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "gut-knife-case-hardened",
@@ -955,7 +1174,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-case-hardened--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-case-hardened--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-case-hardened--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-crimson-web",
@@ -978,7 +1204,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-crimson-web--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-crimson-web--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-crimson-web--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-blue-steel",
@@ -1001,7 +1234,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-blue-steel--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-blue-steel--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-blue-steel--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-stained",
@@ -1024,7 +1264,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-stained--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-stained--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-stained--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-night",
@@ -1047,7 +1294,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-night--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-night--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-night--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-night--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-urban-masked",
@@ -1070,7 +1324,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-urban-masked--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-urban-masked--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-urban-masked--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-scorched",
@@ -1093,7 +1354,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-scorched--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-scorched--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-scorched--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-safari-mesh",
@@ -1116,7 +1384,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-safari-mesh--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-safari-mesh--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-safari-mesh--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-boreal-forest",
@@ -1139,7 +1414,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-boreal-forest--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-boreal-forest--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-boreal-forest--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-forest-ddpat",
@@ -1162,7 +1444,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-forest-ddpat--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-forest-ddpat--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-forest-ddpat--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--gut-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "karambit-vanilla",
@@ -1185,7 +1474,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-vanilla--02.png"
+          ]
         },
         {
           "itemId": "karambit-fade",
@@ -1208,7 +1501,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-fade--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-fade--03.png"
+          ]
         },
         {
           "itemId": "karambit-slaughter",
@@ -1231,7 +1529,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-slaughter--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-slaughter--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-slaughter--04.png"
+          ]
         },
         {
           "itemId": "karambit-case-hardened",
@@ -1254,7 +1558,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-case-hardened--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-case-hardened--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-case-hardened--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "karambit-crimson-web",
@@ -1277,7 +1588,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-crimson-web--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-crimson-web--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-crimson-web--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "karambit-blue-steel",
@@ -1300,7 +1618,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-blue-steel--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-blue-steel--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-blue-steel--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "karambit-stained",
@@ -1323,7 +1648,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-stained--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-stained--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-stained--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-stained--05.png"
+          ]
         },
         {
           "itemId": "karambit-night",
@@ -1346,7 +1678,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-night--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-night--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-night--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-night--05.png"
+          ]
         },
         {
           "itemId": "karambit-urban-masked",
@@ -1369,7 +1708,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-urban-masked--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-urban-masked--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-urban-masked--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "karambit-scorched",
@@ -1392,7 +1738,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-scorched--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-scorched--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-scorched--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-scorched--05.png"
+          ]
         },
         {
           "itemId": "karambit-safari-mesh",
@@ -1415,7 +1768,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-safari-mesh--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-safari-mesh--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-safari-mesh--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "karambit-boreal-forest",
@@ -1438,7 +1798,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-boreal-forest--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-boreal-forest--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-boreal-forest--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "karambit-forest-ddpat",
@@ -1461,7 +1828,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-forest-ddpat--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-forest-ddpat--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-forest-ddpat--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--karambit-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-vanilla",
@@ -1484,7 +1858,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-vanilla--02.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-fade",
@@ -1507,7 +1885,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-fade--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-fade--03.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-slaughter",
@@ -1530,7 +1913,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-slaughter--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-slaughter--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-slaughter--04.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-case-hardened",
@@ -1553,7 +1942,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-case-hardened--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-case-hardened--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-case-hardened--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-crimson-web",
@@ -1576,7 +1972,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-crimson-web--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-crimson-web--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-crimson-web--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-blue-steel",
@@ -1599,7 +2002,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-blue-steel--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-blue-steel--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-blue-steel--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-stained",
@@ -1622,7 +2032,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-stained--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-stained--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-stained--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-stained--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-night",
@@ -1645,7 +2062,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-night--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-night--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-night--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-night--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-urban-masked",
@@ -1668,7 +2092,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-urban-masked--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-urban-masked--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-urban-masked--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-scorched",
@@ -1691,7 +2122,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-scorched--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-scorched--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-scorched--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-scorched--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-safari-mesh",
@@ -1714,7 +2152,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-safari-mesh--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-safari-mesh--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-safari-mesh--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-boreal-forest",
@@ -1737,7 +2182,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-boreal-forest--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-boreal-forest--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-boreal-forest--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-forest-ddpat",
@@ -1760,10 +2212,18 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-forest-ddpat--02.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-forest-ddpat--03.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-forest-ddpat--04.png",
+            "Assets/Cases/Esports-2013-Case/Knives/esports-2013-case--rare-special--m9-bayonet-forest-ddpat--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Esports-2013-Case/Icons/esports-2013-case--icon.png"
   },
   "audit": {
     "tierCounts": {

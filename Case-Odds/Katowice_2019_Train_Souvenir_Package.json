@@ -81,7 +81,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--ump-45-urban-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--ump-45-urban-ddpat--02.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--ump-45-urban-ddpat--03.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--ump-45-urban-ddpat--04.png"
+          ]
         },
         {
           "itemId": "souvenir-dual-berettas-colony",
@@ -104,7 +110,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--dual-berettas-colony.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--dual-berettas-colony--02.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--dual-berettas-colony--03.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--dual-berettas-colony--04.png"
+          ]
         },
         {
           "itemId": "souvenir-g3sg1-polar-camo",
@@ -127,7 +139,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--g3sg1-polar-camo.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--g3sg1-polar-camo--02.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--g3sg1-polar-camo--03.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--g3sg1-polar-camo--04.png"
+          ]
         },
         {
           "itemId": "souvenir-five-seven-forest-night",
@@ -150,7 +168,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--five-seven-forest-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--five-seven-forest-night--02.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--five-seven-forest-night--03.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--five-seven-forest-night--04.png"
+          ]
         },
         {
           "itemId": "souvenir-nova-polar-mesh",
@@ -173,7 +197,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--nova-polar-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--nova-polar-mesh--02.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--nova-polar-mesh--03.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--nova-polar-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-pp-bizon-urban-dashed",
@@ -196,7 +226,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--pp-bizon-urban-dashed.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--pp-bizon-urban-dashed--02.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--pp-bizon-urban-dashed--03.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--consumer--pp-bizon-urban-dashed--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -221,7 +257,12 @@
             "base": "0.026633333334000000",
             "nonStatTrak": "0.026633333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--mac-10-candy-apple.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--mac-10-candy-apple--02.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--mac-10-candy-apple--03.png"
+          ]
         },
         {
           "itemId": "souvenir-m4a4-urban-ddpat",
@@ -244,7 +285,13 @@
             "base": "0.026633333334000000",
             "nonStatTrak": "0.026633333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--m4a4-urban-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--m4a4-urban-ddpat--02.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--m4a4-urban-ddpat--03.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--m4a4-urban-ddpat--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mag-7-metallic-ddpat",
@@ -267,7 +314,11 @@
             "base": "0.026633333333000000",
             "nonStatTrak": "0.026633333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--mag-7-metallic-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--mag-7-metallic-ddpat--02.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-metallic-ddpat",
@@ -290,7 +341,11 @@
             "base": "0.026633333333000000",
             "nonStatTrak": "0.026633333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--p250-metallic-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--p250-metallic-ddpat--02.png"
+          ]
         },
         {
           "itemId": "souvenir-scar-20-carbon-fiber",
@@ -313,7 +368,11 @@
             "base": "0.026633333333000000",
             "nonStatTrak": "0.026633333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--scar-20-carbon-fiber.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--scar-20-carbon-fiber--02.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-ash-wood",
@@ -336,7 +395,12 @@
             "base": "0.026633333333000000",
             "nonStatTrak": "0.026633333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--p90-ash-wood.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--p90-ash-wood--02.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--industrial--p90-ash-wood--03.png"
+          ]
         }
       ],
       "milspec": [
@@ -361,7 +425,13 @@
             "base": "0.016000000000000000",
             "nonStatTrak": "0.016000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--milspec--desert-eagle-urban-rubble.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--milspec--desert-eagle-urban-rubble--02.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--milspec--desert-eagle-urban-rubble--03.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--milspec--desert-eagle-urban-rubble--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sawed-off-amber-fade",
@@ -384,7 +454,12 @@
             "base": "0.016000000000000000",
             "nonStatTrak": "0.016000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--milspec--sawed-off-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--milspec--sawed-off-amber-fade--02.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--milspec--sawed-off-amber-fade--03.png"
+          ]
         }
       ],
       "restricted": [
@@ -409,11 +484,17 @@
             "base": "0.009000000000000000",
             "nonStatTrak": "0.009000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--restricted--tec-9-red-quartz.png",
+          "imageAlternates": [
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--restricted--tec-9-red-quartz--02.png",
+            "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Weapons/katowice-2019-train-souvenir-package--restricted--tec-9-red-quartz--03.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Katowice-2019-Train-Souvenir-Package/Icons/katowice-2019-train-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

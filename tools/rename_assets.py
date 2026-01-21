@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-rename_assets.py - CS:GO/CS2 Asset Organization Tool (v2.1 - Plan & Review)
+rename_assets.py - CS:GO/CS2 Asset Organization Tool (v2.2 - Aspect Ratio Fix + Case Icons)
 
 Generates a comprehensive plan for organizing assets from Global into case folders.
 NEVER deletes images - only copies.
@@ -14,6 +14,11 @@ REPORTS GENERATED:
 - unmatched-global.csv: Global images that don't match any JSON item
 - missing-items.csv: JSON items without matching Global images
 - global-assets-index.txt: Full index of Global folder contents
+
+CHANGES IN v2.2:
+- Fixed aspect ratio preservation during resize (no more squished images)
+- Added case icon linking (copies icon from Global/Icons to case folder)
+- Updates JSON with both item images and case image
 """
 
 import argparse
@@ -41,10 +46,12 @@ except ImportError:
 # CONSTANTS
 # =============================================================================
 
-DEFAULT_ROOT = r"A:\Development Environment\Source Control\GitHub\TCSGO"
+# DEFAULT_ROOT = r"A:\Development Environment\Source Control\GitHub\TCSGO"
 
-# Standard image size for all case images
-STANDARD_IMAGE_SIZE = (512, 384)
+DEFAULT_ROOT = r"/Users/nike/Github/TCSGO"
+
+# Maximum dimension for any side of the image (maintains aspect ratio)
+MAX_IMAGE_DIMENSION = 512
 
 SCHEMA_CASE_EXPORT = "3.0-case-export"
 SCHEMA_CONTAINER_EXPORT = "3.1-container-export"
@@ -223,8 +230,21 @@ def get_quality_score(filepath: Path) -> int:
     return w * h
 
 
-def resize_and_copy(src: Path, dst: Path, target_size: Tuple[int, int] = STANDARD_IMAGE_SIZE) -> bool:
-    """Copy and optionally resize image. Original is NEVER modified."""
+def resize_and_copy(src: Path, dst: Path, max_dimension: int = MAX_IMAGE_DIMENSION) -> bool:
+    """
+    Copy and optionally resize image while PRESERVING ASPECT RATIO.
+    
+    Images are scaled so that the largest dimension does not exceed max_dimension.
+    Original files are NEVER modified - only copies are made.
+    
+    Args:
+        src: Source image path
+        dst: Destination path
+        max_dimension: Maximum size for the largest dimension (default 512)
+    
+    Returns:
+        True if successful, False otherwise
+    """
     dst.parent.mkdir(parents=True, exist_ok=True)
     
     if not PIL_AVAILABLE:
@@ -233,20 +253,33 @@ def resize_and_copy(src: Path, dst: Path, target_size: Tuple[int, int] = STANDAR
     
     try:
         with Image.open(src) as img:
+            # Preserve transparency if present
             if img.mode in ('RGBA', 'LA') or (img.mode == 'P' and 'transparency' in img.info):
                 img = img.convert('RGBA')
             else:
                 img = img.convert('RGB')
             
-            if img.size != target_size:
-                resized = img.resize(target_size, Image.Resampling.LANCZOS)
+            orig_width, orig_height = img.size
+            
+            # Check if resize is needed (only if either dimension exceeds max)
+            if orig_width > max_dimension or orig_height > max_dimension:
+                # Calculate scale factor to fit within max_dimension while preserving aspect ratio
+                scale = min(max_dimension / orig_width, max_dimension / orig_height)
+                new_width = int(orig_width * scale)
+                new_height = int(orig_height * scale)
+                
+                # Use LANCZOS for high-quality downscaling
+                resized = img.resize((new_width, new_height), Image.Resampling.LANCZOS)
             else:
+                # Image is already within bounds, no resize needed
                 resized = img
             
             resized.save(dst, 'PNG', optimize=True)
             return True
+            
     except Exception as e:
         print(f"  Warning: Failed to process {src.name}: {e}")
+        # Fall back to simple copy
         try:
             shutil.copy2(str(src), str(dst))
             return True
@@ -375,7 +408,7 @@ def discover_global_assets(global_root: Path) -> dict:
     process_folder(global_root / "Gloves", "glove")
     process_folder(global_root / "Weapons", "weapon")
     
-    # Icons folder
+    # Icons folder - these are case icons
     icons_folder = global_root / "Icons"
     if icons_folder.exists():
         for png in icons_folder.glob("*.png"):
@@ -455,6 +488,53 @@ def dedupe_and_sort(assets: dict):
         
         entry["variations"] = all_sorted
         entry["variation_count"] = len(all_sorted)
+
+
+# =============================================================================
+# CASE ICON MATCHING
+# =============================================================================
+
+def find_case_icon(case_id: str, case_name: str, icons: dict) -> Optional[Path]:
+    """
+    Find a matching icon for a case from Global/Icons folder.
+    
+    Tries multiple matching strategies:
+    1. Exact case ID match
+    2. Case name match
+    3. Partial match (case ID contains icon name or vice versa)
+    """
+    case_id_norm = normalize_text(case_id)
+    case_name_norm = normalize_text(case_name)
+    
+    # Strategy 1: Exact match on case ID
+    if case_id_norm in icons:
+        return icons[case_id_norm]
+    
+    # Strategy 2: Exact match on case name
+    if case_name_norm in icons:
+        return icons[case_name_norm]
+    
+    # Strategy 3: Partial matching
+    for icon_name, icon_path in icons.items():
+        # Check if case ID contains icon name or vice versa
+        if icon_name in case_id_norm or case_id_norm in icon_name:
+            return icon_path
+        if icon_name in case_name_norm or case_name_norm in icon_name:
+            return icon_path
+    
+    # Strategy 4: Remove common suffixes and try again
+    # e.g., "operation-bravo-case" -> "operation-bravo"
+    for suffix in ["-case", "-collection", "-package", "-capsule"]:
+        if case_id_norm.endswith(suffix):
+            stripped = case_id_norm[:-len(suffix)]
+            if stripped in icons:
+                return icons[stripped]
+            # Also check partial
+            for icon_name, icon_path in icons.items():
+                if icon_name in stripped or stripped in icon_name:
+                    return icon_path
+    
+    return None
 
 
 # =============================================================================
@@ -640,6 +720,7 @@ class PlanGenerator:
         self.plan_rows = []
         self.missing_items = []
         self.matched_bases = set()
+        self.case_icons = {}  # case_id -> (source_path, dest_path)
         
     def generate(self):
         """Generate the complete plan."""
@@ -652,6 +733,13 @@ class PlanGenerator:
             case_info = self.item_index["case_info"].get(case_id, {})
             case_name = case_info.get("name", case_id)
             
+            # Find case icon
+            icon_path = find_case_icon(case_id, case_name, self.global_assets["icons"])
+            if icon_path:
+                folder_name = case_id_to_folder(case_id)
+                dest_icon = self.cases_root / folder_name / "Icons" / f"{to_kebab_case(case_id)}--icon.png"
+                self.case_icons[case_id] = (icon_path, dest_icon)
+            
             for item in items:
                 total_items += 1
                 if self._process_item(item, case_id, case_name):
@@ -660,6 +748,7 @@ class PlanGenerator:
         print(f"  Items processed: {total_items}")
         print(f"  Items matched: {matched_items}")
         print(f"  Items missing: {len(self.missing_items)}")
+        print(f"  Case icons found: {len(self.case_icons)}")
         
         # Sort results
         self.plan_rows.sort(key=lambda x: (x["CaseId"], x["ItemId"], x["VarIndex"]))
@@ -821,6 +910,14 @@ def write_global_index(path: Path, global_assets: dict):
         for cat, count in sorted(cats.items()):
             f.write(f"  {cat}: {count}\n")
         
+        # List icons
+        f.write(f"\n{'='*70}\n")
+        f.write(f"CASE ICONS ({len(global_assets['icons'])} icons)\n")
+        f.write(f"{'='*70}\n\n")
+        
+        for icon_name, icon_path in sorted(global_assets["icons"].items()):
+            f.write(f"  {icon_name}: {icon_path.name}\n")
+        
         # Items with multiple variations
         multi_var = [(name, entry) for name, entry in by_base.items() 
                      if entry["variation_count"] > 1]
@@ -842,7 +939,7 @@ def write_global_index(path: Path, global_assets: dict):
 # APPLY PLAN
 # =============================================================================
 
-def apply_plan(plan_rows: List[dict], item_index: dict, root: Path):
+def apply_plan(plan_rows: List[dict], item_index: dict, root: Path, case_icons: dict):
     """Execute the plan - copy files and update JSONs."""
     print("\n" + "=" * 60)
     print("APPLYING PLAN")
@@ -856,6 +953,8 @@ def apply_plan(plan_rows: List[dict], item_index: dict, root: Path):
     copied = 0
     errors = 0
     
+    # Copy item images
+    print("\nCopying item images...")
     for row in plan_rows:
         src = Path(row["SourcePath"])
         dest = Path(row["DestFolder"]) / row["DestFile"]
@@ -871,8 +970,22 @@ def apply_plan(plan_rows: List[dict], item_index: dict, root: Path):
             print(f"  ERROR copying {src.name}: {e}")
             errors += 1
     
-    print(f"\nFiles copied: {copied}")
-    print(f"Errors: {errors}")
+    print(f"  Item images copied: {copied}")
+    print(f"  Errors: {errors}")
+    
+    # Copy case icons
+    print("\nCopying case icons...")
+    icons_copied = 0
+    for case_id, (src_path, dest_path) in case_icons.items():
+        try:
+            dest_path.parent.mkdir(parents=True, exist_ok=True)
+            success = resize_and_copy(src_path, dest_path)
+            if success:
+                icons_copied += 1
+        except Exception as e:
+            print(f"  ERROR copying icon for {case_id}: {e}")
+    
+    print(f"  Case icons copied: {icons_copied}")
     
     # Update JSONs
     print("\nUpdating JSON files...")
@@ -912,6 +1025,19 @@ def apply_plan(plan_rows: List[dict], item_index: dict, root: Path):
         tier_keys = COLLECTION_TIER_KEYS if is_souv else CASE_TIER_KEYS
         
         modified = False
+        
+        # Update case icon in JSON
+        if case_id in case_icons:
+            _, dest_icon_path = case_icons[case_id]
+            try:
+                rel_icon = dest_icon_path.relative_to(root)
+                rel_icon_str = str(rel_icon).replace("\\", "/")
+                case_data["image"] = rel_icon_str
+                modified = True
+            except ValueError:
+                pass
+        
+        # Update item images
         tiers = case_data.get("tiers", {})
         for tk in tier_keys:
             for item in tiers.get(tk, []):
@@ -953,7 +1079,7 @@ def apply_plan(plan_rows: List[dict], item_index: dict, root: Path):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="CS:GO/CS2 Asset Organization Tool v2.1",
+        description="CS:GO/CS2 Asset Organization Tool v2.2",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -979,7 +1105,7 @@ Examples:
         return
     
     print("=" * 70)
-    print("CS:GO/CS2 Asset Organization Tool v2.1")
+    print("CS:GO/CS2 Asset Organization Tool v2.2")
     print("=" * 70)
     print(f"Root: {root}")
     print(f"Mode: {'Plan Only' if args.plan_only else 'APPLY'}")
@@ -1011,7 +1137,7 @@ Examples:
     print(f"  Unique items: {len(by_base)}")
     print(f"  Total image files: {total_files}")
     print(f"  Items with multiple variations: {multi_var}")
-    print(f"  Icons: {len(global_assets['icons'])}")
+    print(f"  Case icons in Global/Icons: {len(global_assets['icons'])}")
     
     # 4. Generate plan
     planner = PlanGenerator(root, assets_root, item_index, global_assets)
@@ -1051,14 +1177,15 @@ Examples:
     print(f"  Matched items: {total_items - len(planner.missing_items)}")
     print(f"  Missing items: {len(planner.missing_items)}")
     print(f"  Unmatched Global files: {len(unmatched_files)}")
-    print(f"  Planned copies: {len(planner.plan_rows)}")
+    print(f"  Case icons found: {len(planner.case_icons)}")
+    print(f"  Planned item copies: {len(planner.plan_rows)}")
     
     if args.plan_only:
         print("\n" + "=" * 70)
         print("PLAN GENERATED - Review reports, then run with --apply to execute")
         print("=" * 70)
     elif args.apply:
-        apply_plan(planner.plan_rows, item_index, root)
+        apply_plan(planner.plan_rows, item_index, root, planner.case_icons)
 
 
 if __name__ == "__main__":

@@ -61,7 +61,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--p250-cassette.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--p250-cassette--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--p250-cassette--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--p250-cassette--04.png"
+          ]
         },
         {
           "itemId": "ssg-08-mainframe-001",
@@ -84,7 +90,12 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--ssg-08-mainframe-001.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--ssg-08-mainframe-001--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--ssg-08-mainframe-001--03.png"
+          ]
         },
         {
           "itemId": "p2000-gnarled",
@@ -107,7 +118,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--p2000-gnarled.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--p2000-gnarled--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--p2000-gnarled--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--p2000-gnarled--04.png"
+          ]
         },
         {
           "itemId": "p90-freight",
@@ -130,7 +147,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--p90-freight.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--p90-freight--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--p90-freight--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--p90-freight--04.png"
+          ]
         },
         {
           "itemId": "sg-553-ol-rusty",
@@ -153,7 +176,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--sg-553-ol-rusty.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--sg-553-ol-rusty--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--sg-553-ol-rusty--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--sg-553-ol-rusty--04.png"
+          ]
         },
         {
           "itemId": "negev-ultralight",
@@ -176,7 +205,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--negev-ultralight.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--negev-ultralight--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--negev-ultralight--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--negev-ultralight--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-runic",
@@ -199,7 +234,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--pp-bizon-runic.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--pp-bizon-runic--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--pp-bizon-runic--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--mil-spec--pp-bizon-runic--04.png"
+          ]
         }
       ],
       "purple": [
@@ -224,7 +265,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--galil-ar-connexion.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--galil-ar-connexion--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--galil-ar-connexion--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--galil-ar-connexion--04.png"
+          ]
         },
         {
           "itemId": "mag-7-monster-call",
@@ -247,7 +294,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--mag-7-monster-call.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--mag-7-monster-call--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--mag-7-monster-call--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--mag-7-monster-call--04.png"
+          ]
         },
         {
           "itemId": "mp5-sd-kitbash",
@@ -270,7 +323,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--mp5-sd-kitbash.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--mp5-sd-kitbash--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--mp5-sd-kitbash--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--mp5-sd-kitbash--04.png"
+          ]
         },
         {
           "itemId": "tec-9-brother",
@@ -293,7 +352,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--tec-9-brother.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--tec-9-brother--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--tec-9-brother--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--tec-9-brother--04.png"
+          ]
         },
         {
           "itemId": "mac-10-allure",
@@ -316,7 +381,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--mac-10-allure.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--mac-10-allure--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--mac-10-allure--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--restricted--mac-10-allure--04.png"
+          ]
         }
       ],
       "pink": [
@@ -341,7 +412,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--classified--m4a4-tooth-fairy.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--classified--m4a4-tooth-fairy--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--classified--m4a4-tooth-fairy--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--classified--m4a4-tooth-fairy--04.png"
+          ]
         },
         {
           "itemId": "glock-18-vogue",
@@ -364,7 +441,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--classified--glock-18-vogue.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--classified--glock-18-vogue--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--classified--glock-18-vogue--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--classified--glock-18-vogue--04.png"
+          ]
         },
         {
           "itemId": "xm1014-entombed",
@@ -387,7 +470,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--classified--xm1014-entombed.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--classified--xm1014-entombed--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--classified--xm1014-entombed--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--classified--xm1014-entombed--04.png"
+          ]
         }
       ],
       "red": [
@@ -412,7 +501,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--covert--ak-47-legion-of-anubis.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--covert--ak-47-legion-of-anubis--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--covert--ak-47-legion-of-anubis--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--covert--ak-47-legion-of-anubis--04.png"
+          ]
         },
         {
           "itemId": "desert-eagle-printstream",
@@ -435,7 +530,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Weapons/fracture-case--covert--desert-eagle-printstream.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--covert--desert-eagle-printstream--02.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--covert--desert-eagle-printstream--03.png",
+            "Assets/Cases/Fracture-Case/Weapons/fracture-case--covert--desert-eagle-printstream--04.png"
+          ]
         }
       ]
     },
@@ -470,7 +571,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "nomad-knife-blue-steel",
@@ -493,7 +598,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-blue-steel--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-blue-steel--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-blue-steel--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-boreal-forest",
@@ -516,7 +628,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-boreal-forest--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-boreal-forest--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-boreal-forest--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-case-hardened",
@@ -539,7 +658,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-case-hardened--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-case-hardened--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-case-hardened--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-crimson-web",
@@ -562,7 +688,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-crimson-web--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-crimson-web--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-crimson-web--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-fade",
@@ -585,7 +718,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-fade--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "nomad-knife-forest-ddpat",
@@ -608,7 +746,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-forest-ddpat--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-forest-ddpat--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-forest-ddpat--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-night-stripe",
@@ -631,7 +776,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-night-stripe--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-night-stripe--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-night-stripe--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-safari-mesh",
@@ -654,7 +806,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-safari-mesh--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-safari-mesh--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-safari-mesh--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-scorched",
@@ -677,7 +836,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-scorched--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-scorched--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-scorched--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-slaughter",
@@ -700,7 +866,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-slaughter--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-slaughter--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "nomad-knife-stained",
@@ -723,7 +895,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-stained--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-stained--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-stained--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-urban-masked",
@@ -746,7 +925,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-urban-masked--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-urban-masked--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-urban-masked--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--nomad-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-vanilla",
@@ -769,7 +955,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-blue-steel",
@@ -792,7 +982,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-blue-steel--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-blue-steel--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-blue-steel--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-boreal-forest",
@@ -815,7 +1012,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-boreal-forest--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-boreal-forest--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-boreal-forest--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-case-hardened",
@@ -838,7 +1042,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-case-hardened--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-case-hardened--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-case-hardened--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-crimson-web",
@@ -861,7 +1072,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-crimson-web--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-crimson-web--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-crimson-web--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-fade",
@@ -884,7 +1102,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-fade--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-forest-ddpat",
@@ -907,7 +1130,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-forest-ddpat--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-forest-ddpat--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-forest-ddpat--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-night-stripe",
@@ -930,7 +1160,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-night-stripe--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-night-stripe--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-night-stripe--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-safari-mesh",
@@ -953,7 +1190,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-safari-mesh--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-safari-mesh--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-safari-mesh--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-scorched",
@@ -976,7 +1220,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-scorched--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-scorched--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-scorched--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-slaughter",
@@ -999,7 +1250,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-slaughter--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-slaughter--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-stained",
@@ -1022,7 +1279,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-stained--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-stained--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-stained--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-urban-masked",
@@ -1045,7 +1309,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-urban-masked--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-urban-masked--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-urban-masked--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--skeleton-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-vanilla",
@@ -1068,7 +1339,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "paracord-knife-blue-steel",
@@ -1091,7 +1366,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-blue-steel--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-blue-steel--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-blue-steel--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-boreal-forest",
@@ -1114,7 +1396,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-boreal-forest--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-boreal-forest--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-boreal-forest--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-case-hardened",
@@ -1137,7 +1426,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-case-hardened--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-case-hardened--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-case-hardened--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-crimson-web",
@@ -1160,7 +1456,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-crimson-web--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-crimson-web--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-crimson-web--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-fade",
@@ -1183,7 +1486,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-fade--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "paracord-knife-forest-ddpat",
@@ -1206,7 +1514,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-forest-ddpat--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-forest-ddpat--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-forest-ddpat--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-night-stripe",
@@ -1229,7 +1544,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-night-stripe--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-night-stripe--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-night-stripe--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-safari-mesh",
@@ -1252,7 +1574,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-safari-mesh--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-safari-mesh--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-safari-mesh--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-scorched",
@@ -1275,7 +1604,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-scorched--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-scorched--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-scorched--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-slaughter",
@@ -1298,7 +1634,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-slaughter--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-slaughter--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "paracord-knife-stained",
@@ -1321,7 +1663,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-stained--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-stained--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-stained--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-urban-masked",
@@ -1344,7 +1693,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-urban-masked--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-urban-masked--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-urban-masked--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--paracord-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-vanilla",
@@ -1367,7 +1723,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "survival-knife-blue-steel",
@@ -1390,7 +1750,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-blue-steel--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-blue-steel--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-blue-steel--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-boreal-forest",
@@ -1413,7 +1780,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-boreal-forest--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-boreal-forest--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-boreal-forest--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-case-hardened",
@@ -1436,7 +1810,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-case-hardened--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-case-hardened--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-case-hardened--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-crimson-web",
@@ -1459,7 +1840,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-crimson-web--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-crimson-web--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-crimson-web--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-fade",
@@ -1482,7 +1870,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-fade--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "survival-knife-forest-ddpat",
@@ -1505,7 +1898,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-forest-ddpat--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-forest-ddpat--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-forest-ddpat--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-night-stripe",
@@ -1528,7 +1928,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-night-stripe--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-night-stripe--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-night-stripe--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-safari-mesh",
@@ -1551,7 +1958,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-safari-mesh--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-safari-mesh--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-safari-mesh--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-scorched",
@@ -1574,7 +1988,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-scorched--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-scorched--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-scorched--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-slaughter",
@@ -1597,7 +2018,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-slaughter--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-slaughter--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "survival-knife-stained",
@@ -1620,7 +2047,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-stained--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-stained--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-stained--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-urban-masked",
@@ -1643,10 +2077,18 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-urban-masked--02.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-urban-masked--03.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-urban-masked--04.png",
+            "Assets/Cases/Fracture-Case/Knives/fracture-case--rare-special--survival-knife-urban-masked--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Fracture-Case/Icons/fracture-case--icon.png"
   },
   "audit": {
     "tierCounts": {

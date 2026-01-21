@@ -61,7 +61,12 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--five-seven-urban-hazard.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--five-seven-urban-hazard--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--five-seven-urban-hazard--03.png"
+          ]
         },
         {
           "itemId": "mp9-dart",
@@ -84,7 +89,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--mp9-dart.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--mp9-dart--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--mp9-dart--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--mp9-dart--04.png"
+          ]
         },
         {
           "itemId": "mag-7-firestarter",
@@ -107,7 +118,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--mag-7-firestarter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--mag-7-firestarter--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--mag-7-firestarter--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--mag-7-firestarter--04.png"
+          ]
         },
         {
           "itemId": "ump-45-delusion",
@@ -130,7 +147,12 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--ump-45-delusion.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--ump-45-delusion--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--ump-45-delusion--03.png"
+          ]
         },
         {
           "itemId": "g3sg1-murky",
@@ -153,7 +175,12 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.143856000000000000",
             "statTrak": "0.015984000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--g3sg1-murky.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--g3sg1-murky--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--mil-spec-grade--g3sg1-murky--03.png"
+          ]
         }
       ],
       "purple": [
@@ -178,7 +205,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--m4a1-s-basilisk.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--m4a1-s-basilisk--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--m4a1-s-basilisk--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--m4a1-s-basilisk--04.png"
+          ]
         },
         {
           "itemId": "m4a4-griffin",
@@ -201,7 +234,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--m4a4-griffin.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--m4a4-griffin--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--m4a4-griffin--03.png"
+          ]
         },
         {
           "itemId": "glock-18-grinder",
@@ -224,7 +262,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--glock-18-grinder.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--glock-18-grinder--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--glock-18-grinder--03.png"
+          ]
         },
         {
           "itemId": "sawed-off-highwayman",
@@ -247,7 +290,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--sawed-off-highwayman.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--sawed-off-highwayman--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--sawed-off-highwayman--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--restricted--sawed-off-highwayman--04.png"
+          ]
         }
       ],
       "pink": [
@@ -272,7 +321,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--classified--p250-cartel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--classified--p250-cartel--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--classified--p250-cartel--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--classified--p250-cartel--04.png"
+          ]
         },
         {
           "itemId": "xm1014-tranquility",
@@ -295,7 +350,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--classified--xm1014-tranquility.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--classified--xm1014-tranquility--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--classified--xm1014-tranquility--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--classified--xm1014-tranquility--04.png"
+          ]
         },
         {
           "itemId": "scar-20-cardiac",
@@ -318,7 +379,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--classified--scar-20-cardiac.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--classified--scar-20-cardiac--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--classified--scar-20-cardiac--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--classified--scar-20-cardiac--04.png"
+          ]
         }
       ],
       "red": [
@@ -343,7 +410,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--covert--ak-47-wasteland-rebel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--covert--ak-47-wasteland-rebel--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--covert--ak-47-wasteland-rebel--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--covert--ak-47-wasteland-rebel--04.png"
+          ]
         },
         {
           "itemId": "p2000-fire-elemental",
@@ -366,7 +439,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--covert--p2000-fire-elemental.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--covert--p2000-fire-elemental--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--covert--p2000-fire-elemental--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Weapons/operation-vanguard-weapon-case--covert--p2000-fire-elemental--04.png"
+          ]
         }
       ]
     },
@@ -400,7 +479,8 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-vanilla.png"
         },
         {
           "itemId": "bayonet-blue-steel",
@@ -423,7 +503,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-blue-steel--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-blue-steel--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-blue-steel--04.png"
+          ]
         },
         {
           "itemId": "bayonet-boreal-forest",
@@ -446,7 +532,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-boreal-forest--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-boreal-forest--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-boreal-forest--04.png"
+          ]
         },
         {
           "itemId": "bayonet-case-hardened",
@@ -469,7 +561,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-case-hardened--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-case-hardened--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-case-hardened--04.png"
+          ]
         },
         {
           "itemId": "bayonet-crimson-web",
@@ -492,7 +590,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-crimson-web--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-crimson-web--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-crimson-web--04.png"
+          ]
         },
         {
           "itemId": "bayonet-fade",
@@ -515,7 +619,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-fade--02.png"
+          ]
         },
         {
           "itemId": "bayonet-forest-ddpat",
@@ -538,7 +646,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-forest-ddpat--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-forest-ddpat--04.png"
+          ]
         },
         {
           "itemId": "bayonet-night",
@@ -561,7 +675,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-night--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-night--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-night--04.png"
+          ]
         },
         {
           "itemId": "bayonet-safari-mesh",
@@ -584,7 +704,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-safari-mesh--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-safari-mesh--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-safari-mesh--04.png"
+          ]
         },
         {
           "itemId": "bayonet-scorched",
@@ -607,7 +733,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-scorched--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-scorched--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-scorched--04.png"
+          ]
         },
         {
           "itemId": "bayonet-slaughter",
@@ -630,7 +762,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-slaughter--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-slaughter--03.png"
+          ]
         },
         {
           "itemId": "bayonet-stained",
@@ -653,7 +790,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-stained--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-stained--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-stained--04.png"
+          ]
         },
         {
           "itemId": "bayonet-urban-masked",
@@ -676,7 +819,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-urban-masked--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-urban-masked--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--bayonet-urban-masked--04.png"
+          ]
         },
         {
           "itemId": "flip-knife-vanilla",
@@ -699,7 +848,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "flip-knife-blue-steel",
@@ -722,7 +875,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-blue-steel--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-blue-steel--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-blue-steel--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-boreal-forest",
@@ -745,7 +905,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-boreal-forest--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-boreal-forest--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-boreal-forest--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-case-hardened",
@@ -768,7 +935,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-case-hardened--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-case-hardened--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-case-hardened--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-crimson-web",
@@ -791,7 +965,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-crimson-web--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-crimson-web--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-crimson-web--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-fade",
@@ -814,7 +995,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-fade--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "flip-knife-forest-ddpat",
@@ -837,7 +1023,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-forest-ddpat--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-forest-ddpat--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-night",
@@ -860,7 +1053,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-night--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-night--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-night--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-night--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-safari-mesh",
@@ -883,7 +1083,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-safari-mesh--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-safari-mesh--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-safari-mesh--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-scorched",
@@ -906,7 +1113,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-scorched--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-scorched--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-scorched--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-slaughter",
@@ -929,7 +1143,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-slaughter--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-slaughter--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "flip-knife-stained",
@@ -952,7 +1172,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-stained--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-stained--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-stained--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-urban-masked",
@@ -975,7 +1202,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-urban-masked--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-urban-masked--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-urban-masked--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--flip-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-vanilla",
@@ -998,7 +1232,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "gut-knife-blue-steel",
@@ -1021,7 +1259,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-blue-steel--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-blue-steel--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-blue-steel--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-boreal-forest",
@@ -1044,7 +1289,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-boreal-forest--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-boreal-forest--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-boreal-forest--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-case-hardened",
@@ -1067,7 +1319,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-case-hardened--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-case-hardened--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-case-hardened--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-crimson-web",
@@ -1090,7 +1349,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-crimson-web--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-crimson-web--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-crimson-web--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-fade",
@@ -1113,7 +1379,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-fade--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "gut-knife-forest-ddpat",
@@ -1136,7 +1407,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-forest-ddpat--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-forest-ddpat--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-night",
@@ -1159,7 +1437,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-night--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-night--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-night--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-night--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-safari-mesh",
@@ -1182,7 +1467,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-safari-mesh--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-safari-mesh--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-safari-mesh--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-scorched",
@@ -1205,7 +1497,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-scorched--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-scorched--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-scorched--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-slaughter",
@@ -1228,7 +1527,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-slaughter--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-slaughter--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "gut-knife-stained",
@@ -1251,7 +1556,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-stained--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-stained--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-stained--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-urban-masked",
@@ -1274,7 +1586,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-urban-masked--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-urban-masked--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-urban-masked--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--gut-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "karambit-vanilla",
@@ -1297,7 +1616,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-vanilla--02.png"
+          ]
         },
         {
           "itemId": "karambit-blue-steel",
@@ -1320,7 +1643,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-blue-steel--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-blue-steel--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-blue-steel--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "karambit-boreal-forest",
@@ -1343,7 +1673,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-boreal-forest--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-boreal-forest--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-boreal-forest--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "karambit-case-hardened",
@@ -1366,7 +1703,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-case-hardened--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-case-hardened--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-case-hardened--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "karambit-crimson-web",
@@ -1389,7 +1733,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-crimson-web--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-crimson-web--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-crimson-web--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "karambit-fade",
@@ -1412,7 +1763,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-fade--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-fade--03.png"
+          ]
         },
         {
           "itemId": "karambit-forest-ddpat",
@@ -1435,7 +1791,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-forest-ddpat--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-forest-ddpat--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "karambit-night",
@@ -1458,7 +1821,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-night--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-night--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-night--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-night--05.png"
+          ]
         },
         {
           "itemId": "karambit-safari-mesh",
@@ -1481,7 +1851,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-safari-mesh--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-safari-mesh--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-safari-mesh--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "karambit-scorched",
@@ -1504,7 +1881,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-scorched--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-scorched--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-scorched--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-scorched--05.png"
+          ]
         },
         {
           "itemId": "karambit-slaughter",
@@ -1527,7 +1911,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-slaughter--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-slaughter--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-slaughter--04.png"
+          ]
         },
         {
           "itemId": "karambit-stained",
@@ -1550,7 +1940,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-stained--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-stained--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-stained--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-stained--05.png"
+          ]
         },
         {
           "itemId": "karambit-urban-masked",
@@ -1573,7 +1970,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-urban-masked--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-urban-masked--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-urban-masked--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--karambit-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-vanilla",
@@ -1596,7 +2000,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-vanilla--02.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-blue-steel",
@@ -1619,7 +2027,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-blue-steel--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-blue-steel--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-blue-steel--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-boreal-forest",
@@ -1642,7 +2057,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-boreal-forest--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-boreal-forest--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-boreal-forest--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-case-hardened",
@@ -1665,7 +2087,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-case-hardened--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-case-hardened--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-case-hardened--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-crimson-web",
@@ -1688,7 +2117,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-crimson-web--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-crimson-web--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-crimson-web--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-fade",
@@ -1711,7 +2147,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-fade--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-fade--03.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-forest-ddpat",
@@ -1734,7 +2175,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-forest-ddpat--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-forest-ddpat--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-night",
@@ -1757,7 +2205,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-night--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-night--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-night--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-night--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-safari-mesh",
@@ -1780,7 +2235,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-safari-mesh--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-safari-mesh--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-safari-mesh--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-scorched",
@@ -1803,7 +2265,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-scorched--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-scorched--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-scorched--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-scorched--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-slaughter",
@@ -1826,7 +2295,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-slaughter--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-slaughter--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-slaughter--04.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-stained",
@@ -1849,7 +2324,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-stained--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-stained--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-stained--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-stained--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-urban-masked",
@@ -1872,10 +2354,18 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-urban-masked--02.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-urban-masked--03.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-urban-masked--04.png",
+            "Assets/Cases/Operation-Vanguard-Weapon-Case/Knives/operation-vanguard-weapon-case--extraordinary--m9-bayonet-urban-masked--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Operation-Vanguard-Weapon-Case/Icons/operation-vanguard-weapon-case--icon.png"
   },
   "audit": {
     "tierCounts": {

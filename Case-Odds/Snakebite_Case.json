@@ -60,7 +60,13 @@
             "base": "0.114171428572000000000000",
             "nonStatTrak": "0.102754285715000000000000",
             "statTrak": "0.011417142857000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--glock-18-clear-polymer.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--glock-18-clear-polymer--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--glock-18-clear-polymer--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--glock-18-clear-polymer--04.png"
+          ]
         },
         {
           "itemId": "nova-windblown",
@@ -83,7 +89,13 @@
             "base": "0.114171428571000000000000",
             "nonStatTrak": "0.102754285714000000000000",
             "statTrak": "0.011417142857000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--nova-windblown.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--nova-windblown--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--nova-windblown--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--nova-windblown--04.png"
+          ]
         },
         {
           "itemId": "ump-45-oscillator",
@@ -106,7 +118,13 @@
             "base": "0.114171428571000000000000",
             "nonStatTrak": "0.102754285714000000000000",
             "statTrak": "0.011417142857000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--ump-45-oscillator.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--ump-45-oscillator--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--ump-45-oscillator--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--ump-45-oscillator--04.png"
+          ]
         },
         {
           "itemId": "m249-o-s-i-p-r",
@@ -129,7 +147,13 @@
             "base": "0.114171428571000000000000",
             "nonStatTrak": "0.102754285714000000000000",
             "statTrak": "0.011417142857000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--m249-o-s-i-p-r.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--m249-o-s-i-p-r--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--m249-o-s-i-p-r--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--m249-o-s-i-p-r--04.png"
+          ]
         },
         {
           "itemId": "cz75-auto-circaetus",
@@ -152,7 +176,13 @@
             "base": "0.114171428571000000000000",
             "nonStatTrak": "0.102754285714000000000000",
             "statTrak": "0.011417142857000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--cz75-auto-circaetus.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--cz75-auto-circaetus--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--cz75-auto-circaetus--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--cz75-auto-circaetus--04.png"
+          ]
         },
         {
           "itemId": "sg-553-heavy-metal",
@@ -175,7 +205,13 @@
             "base": "0.114171428571000000000000",
             "nonStatTrak": "0.102754285714000000000000",
             "statTrak": "0.011417142857000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--sg-553-heavy-metal.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--sg-553-heavy-metal--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--sg-553-heavy-metal--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--sg-553-heavy-metal--04.png"
+          ]
         },
         {
           "itemId": "r8-revolver-junk-yard",
@@ -198,7 +234,13 @@
             "base": "0.114171428571000000000000",
             "nonStatTrak": "0.102754285714000000000000",
             "statTrak": "0.011417142857000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--r8-revolver-junk-yard.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--r8-revolver-junk-yard--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--r8-revolver-junk-yard--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--mil-spec--r8-revolver-junk-yard--04.png"
+          ]
         }
       ],
       "purple": [
@@ -223,7 +265,13 @@
             "base": "0.031960000000000000000000",
             "nonStatTrak": "0.028764000000000000000000",
             "statTrak": "0.003196000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--ak-47-slate.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--ak-47-slate--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--ak-47-slate--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--ak-47-slate--04.png"
+          ]
         },
         {
           "itemId": "desert-eagle-trigger-discipline",
@@ -246,7 +294,13 @@
             "base": "0.031960000000000000000000",
             "nonStatTrak": "0.028764000000000000000000",
             "statTrak": "0.003196000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--desert-eagle-trigger-discipline.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--desert-eagle-trigger-discipline--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--desert-eagle-trigger-discipline--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--desert-eagle-trigger-discipline--04.png"
+          ]
         },
         {
           "itemId": "p250-cyber-shell",
@@ -269,7 +323,13 @@
             "base": "0.031960000000000000000000",
             "nonStatTrak": "0.028764000000000000000000",
             "statTrak": "0.003196000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--p250-cyber-shell.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--p250-cyber-shell--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--p250-cyber-shell--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--p250-cyber-shell--04.png"
+          ]
         },
         {
           "itemId": "mac-10-button-masher",
@@ -292,7 +352,13 @@
             "base": "0.031960000000000000000000",
             "nonStatTrak": "0.028764000000000000000000",
             "statTrak": "0.003196000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--mac-10-button-masher.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--mac-10-button-masher--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--mac-10-button-masher--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--mac-10-button-masher--04.png"
+          ]
         },
         {
           "itemId": "negev-dev-texture",
@@ -315,7 +381,13 @@
             "base": "0.031960000000000000000000",
             "nonStatTrak": "0.028764000000000000000000",
             "statTrak": "0.003196000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--negev-dev-texture.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--negev-dev-texture--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--negev-dev-texture--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--restricted--negev-dev-texture--04.png"
+          ]
         }
       ],
       "pink": [
@@ -340,7 +412,13 @@
             "base": "0.010666666667000000000000",
             "nonStatTrak": "0.009600000000000000000000",
             "statTrak": "0.001066666667000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--classified--galil-ar-chromatic-aberration.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--classified--galil-ar-chromatic-aberration--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--classified--galil-ar-chromatic-aberration--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--classified--galil-ar-chromatic-aberration--04.png"
+          ]
         },
         {
           "itemId": "mp9-food-chain",
@@ -363,7 +441,13 @@
             "base": "0.010666666667000000000000",
             "nonStatTrak": "0.009600000000000000000000",
             "statTrak": "0.001066666667000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--classified--mp9-food-chain.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--classified--mp9-food-chain--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--classified--mp9-food-chain--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--classified--mp9-food-chain--04.png"
+          ]
         },
         {
           "itemId": "xm1014-xoxo",
@@ -386,7 +470,13 @@
             "base": "0.010666666666000000000000",
             "nonStatTrak": "0.009599999999000000000000",
             "statTrak": "0.001066666667000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--classified--xm1014-xoxo.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--classified--xm1014-xoxo--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--classified--xm1014-xoxo--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--classified--xm1014-xoxo--04.png"
+          ]
         }
       ],
       "red": [
@@ -411,7 +501,13 @@
             "base": "0.003200000000000000000000",
             "nonStatTrak": "0.002880000000000000000000",
             "statTrak": "0.000320000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--covert--usp-s-the-traitor.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--covert--usp-s-the-traitor--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--covert--usp-s-the-traitor--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--covert--usp-s-the-traitor--04.png"
+          ]
         },
         {
           "itemId": "m4a4-in-living-color",
@@ -434,7 +530,13 @@
             "base": "0.003200000000000000000000",
             "nonStatTrak": "0.002880000000000000000000",
             "statTrak": "0.000320000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--covert--m4a4-in-living-color.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--covert--m4a4-in-living-color--02.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--covert--m4a4-in-living-color--03.png",
+            "Assets/Cases/Snakebite-Case/Weapons/snakebite-case--covert--m4a4-in-living-color--04.png"
+          ]
         }
       ]
     },
@@ -468,7 +570,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--moto-gloves-blood-pressure.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--moto-gloves-blood-pressure--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--moto-gloves-blood-pressure--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-smoke-out",
@@ -491,7 +598,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--moto-gloves-smoke-out.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--moto-gloves-smoke-out--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--moto-gloves-smoke-out--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-snow-leopard",
@@ -514,7 +626,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--driver-gloves-snow-leopard.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--driver-gloves-snow-leopard--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--driver-gloves-snow-leopard--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-black-tie",
@@ -537,7 +654,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--driver-gloves-black-tie.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--driver-gloves-black-tie--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--driver-gloves-black-tie--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-marble-fade",
@@ -560,7 +682,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--specialist-gloves-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--specialist-gloves-marble-fade--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--specialist-gloves-marble-fade--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-tiger-strike",
@@ -583,7 +710,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--specialist-gloves-tiger-strike.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--specialist-gloves-tiger-strike--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--specialist-gloves-tiger-strike--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-scarlet-shamagh",
@@ -606,7 +738,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--sport-gloves-scarlet-shamagh.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--sport-gloves-scarlet-shamagh--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--sport-gloves-scarlet-shamagh--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-nocts",
@@ -629,7 +766,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--sport-gloves-nocts.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--sport-gloves-nocts--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--sport-gloves-nocts--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-slingshot",
@@ -652,7 +794,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--sport-gloves-slingshot.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--sport-gloves-slingshot--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--sport-gloves-slingshot--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-caution",
@@ -675,7 +822,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--hand-wraps-caution.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--hand-wraps-caution--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--hand-wraps-caution--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-finish-line",
@@ -698,7 +850,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--moto-gloves-finish-line.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--moto-gloves-finish-line--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--moto-gloves-finish-line--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-queen-jaguar",
@@ -721,7 +878,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--driver-gloves-queen-jaguar.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--driver-gloves-queen-jaguar--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--driver-gloves-queen-jaguar--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-rezan-the-red",
@@ -744,7 +906,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--driver-gloves-rezan-the-red.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--driver-gloves-rezan-the-red--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--driver-gloves-rezan-the-red--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-field-agent",
@@ -767,7 +934,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--specialist-gloves-field-agent.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--specialist-gloves-field-agent--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--specialist-gloves-field-agent--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-lt-commander",
@@ -790,7 +962,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--specialist-gloves-lt-commander.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--specialist-gloves-lt-commander--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--specialist-gloves-lt-commander--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-big-game",
@@ -813,7 +990,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--sport-gloves-big-game.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--sport-gloves-big-game--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--sport-gloves-big-game--03.png"
+          ]
         },
         {
           "itemId": "broken-fang-gloves-needle-point",
@@ -836,7 +1018,12 @@
             "base": "0.000108333334000000000000",
             "nonStatTrak": "0.000108333334000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--broken-fang-gloves-needle-point.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--broken-fang-gloves-needle-point--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--broken-fang-gloves-needle-point--03.png"
+          ]
         },
         {
           "itemId": "broken-fang-gloves-jade",
@@ -859,7 +1046,12 @@
             "base": "0.000108333333000000000000",
             "nonStatTrak": "0.000108333333000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--broken-fang-gloves-jade.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--broken-fang-gloves-jade--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--broken-fang-gloves-jade--03.png"
+          ]
         },
         {
           "itemId": "broken-fang-gloves-unhinged",
@@ -882,7 +1074,12 @@
             "base": "0.000108333333000000000000",
             "nonStatTrak": "0.000108333333000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--broken-fang-gloves-unhinged.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--broken-fang-gloves-unhinged--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--broken-fang-gloves-unhinged--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-desert-shamagh",
@@ -905,7 +1102,12 @@
             "base": "0.000108333333000000000000",
             "nonStatTrak": "0.000108333333000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--hand-wraps-desert-shamagh.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--hand-wraps-desert-shamagh--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--hand-wraps-desert-shamagh--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-3rd-commando-company",
@@ -928,7 +1130,12 @@
             "base": "0.000108333333000000000000",
             "nonStatTrak": "0.000108333333000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--moto-gloves-3rd-commando-company.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--moto-gloves-3rd-commando-company--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--moto-gloves-3rd-commando-company--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-constrictor",
@@ -951,7 +1158,12 @@
             "base": "0.000108333333000000000000",
             "nonStatTrak": "0.000108333333000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--hand-wraps-constrictor.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--hand-wraps-constrictor--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--hand-wraps-constrictor--03.png"
+          ]
         },
         {
           "itemId": "broken-fang-gloves-yellow-banded",
@@ -974,7 +1186,12 @@
             "base": "0.000108333333000000000000",
             "nonStatTrak": "0.000108333333000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--broken-fang-gloves-yellow-banded.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--broken-fang-gloves-yellow-banded--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--broken-fang-gloves-yellow-banded--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-giraffe",
@@ -997,10 +1214,16 @@
             "base": "0.000108333333000000000000",
             "nonStatTrak": "0.000108333333000000000000",
             "statTrak": "0.000000000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--hand-wraps-giraffe.png",
+          "imageAlternates": [
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--hand-wraps-giraffe--02.png",
+            "Assets/Cases/Snakebite-Case/Gloves/snakebite-case--extraordinary--hand-wraps-giraffe--03.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Snakebite-Case/Icons/snakebite-case--icon.png"
   },
   "audit": {
     "tierCounts": {

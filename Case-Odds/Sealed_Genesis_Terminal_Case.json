@@ -62,7 +62,12 @@
             "base": "0.114469048097000000",
             "nonStatTrak": "0.103022143288000000",
             "statTrak": "0.011446904809000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--scar-20-caged.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--scar-20-caged--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--scar-20-caged--03.png"
+          ]
         },
         {
           "itemId": "aug-trigger-discipline",
@@ -85,7 +90,12 @@
             "base": "0.114469048097000000",
             "nonStatTrak": "0.103022143288000000",
             "statTrak": "0.011446904809000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--aug-trigger-discipline.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--aug-trigger-discipline--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--aug-trigger-discipline--03.png"
+          ]
         },
         {
           "itemId": "p2000-red-wing",
@@ -108,7 +118,12 @@
             "base": "0.114469048097000000",
             "nonStatTrak": "0.103022143288000000",
             "statTrak": "0.011446904809000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--p2000-red-wing.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--p2000-red-wing--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--p2000-red-wing--03.png"
+          ]
         },
         {
           "itemId": "mp9-broken-record",
@@ -131,7 +146,12 @@
             "base": "0.114469048096000000",
             "nonStatTrak": "0.103022143287000000",
             "statTrak": "0.011446904809000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--mp9-broken-record.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--mp9-broken-record--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--mp9-broken-record--03.png"
+          ]
         },
         {
           "itemId": "p250-bullfrog",
@@ -154,7 +174,12 @@
             "base": "0.114469048096000000",
             "nonStatTrak": "0.103022143287000000",
             "statTrak": "0.011446904809000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--p250-bullfrog.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--p250-bullfrog--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--p250-bullfrog--03.png"
+          ]
         },
         {
           "itemId": "mag-7-magnitude",
@@ -177,7 +202,12 @@
             "base": "0.114469048096000000",
             "nonStatTrak": "0.103022143287000000",
             "statTrak": "0.011446904809000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--mag-7-magnitude.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--mag-7-magnitude--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--mag-7-magnitude--03.png"
+          ]
         },
         {
           "itemId": "mp5-sd-focus",
@@ -200,7 +230,12 @@
             "base": "0.114469048096000000",
             "nonStatTrak": "0.103022143287000000",
             "statTrak": "0.011446904809000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--mp5-sd-focus.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--mp5-sd-focus--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--mil-spec--mp5-sd-focus--03.png"
+          ]
         }
       ],
       "purple": [
@@ -225,7 +260,12 @@
             "base": "0.032043312613000000",
             "nonStatTrak": "0.028838981352000000",
             "statTrak": "0.003204331261000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--nova-ocular.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--nova-ocular--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--nova-ocular--03.png"
+          ]
         },
         {
           "itemId": "m4a1-s-liquidation",
@@ -248,7 +288,12 @@
             "base": "0.032043312613000000",
             "nonStatTrak": "0.028838981352000000",
             "statTrak": "0.003204331261000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--m4a1-s-liquidation.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--m4a1-s-liquidation--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--m4a1-s-liquidation--03.png"
+          ]
         },
         {
           "itemId": "dual-berettas-angel-eyes",
@@ -271,7 +316,12 @@
             "base": "0.032043312613000000",
             "nonStatTrak": "0.028838981352000000",
             "statTrak": "0.003204331261000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--dual-berettas-angel-eyes.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--dual-berettas-angel-eyes--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--dual-berettas-angel-eyes--03.png"
+          ]
         },
         {
           "itemId": "mac-10-cat-fight",
@@ -294,7 +344,12 @@
             "base": "0.032043312613000000",
             "nonStatTrak": "0.028838981352000000",
             "statTrak": "0.003204331261000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--mac-10-cat-fight.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--mac-10-cat-fight--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--mac-10-cat-fight--03.png"
+          ]
         },
         {
           "itemId": "ump-45-continuum",
@@ -317,7 +372,12 @@
             "base": "0.032043312612000000",
             "nonStatTrak": "0.028838981351000000",
             "statTrak": "0.003204331261000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--ump-45-continuum.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--ump-45-continuum--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--restricted--ump-45-continuum--03.png"
+          ]
         }
       ],
       "pink": [
@@ -342,7 +402,12 @@
             "base": "0.010694472295000000",
             "nonStatTrak": "0.009625025066000000",
             "statTrak": "0.001069447229000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--classified--awp-ice-coaled.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--classified--awp-ice-coaled--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--classified--awp-ice-coaled--03.png"
+          ]
         },
         {
           "itemId": "mp7-smoking-kills",
@@ -365,7 +430,12 @@
             "base": "0.010694472295000000",
             "nonStatTrak": "0.009625025066000000",
             "statTrak": "0.001069447229000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--classified--mp7-smoking-kills.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--classified--mp7-smoking-kills--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--classified--mp7-smoking-kills--03.png"
+          ]
         },
         {
           "itemId": "glock-18-mirror-mosaic",
@@ -388,7 +458,12 @@
             "base": "0.010694472294000000",
             "nonStatTrak": "0.009625025065000000",
             "statTrak": "0.001069447229000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--classified--glock-18-mirror-mosaic.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--classified--glock-18-mirror-mosaic--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--classified--glock-18-mirror-mosaic--03.png"
+          ]
         }
       ],
       "red": [
@@ -413,7 +488,12 @@
             "base": "0.003208341689000000",
             "nonStatTrak": "0.002887507521000000",
             "statTrak": "0.000320834168000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--covert--m4a4-full-throttle.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--covert--m4a4-full-throttle--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--covert--m4a4-full-throttle--03.png"
+          ]
         },
         {
           "itemId": "ak-47-the-oligarch",
@@ -436,7 +516,12 @@
             "base": "0.003208341688000000",
             "nonStatTrak": "0.002887507520000000",
             "statTrak": "0.000320834168000000"
-          }
+          },
+          "image": "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--covert--ak-47-the-oligarch.png",
+          "imageAlternates": [
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--covert--ak-47-the-oligarch--02.png",
+            "Assets/Cases/Sealed-Genesis-Terminal/Weapons/sealed-genesis-terminal--covert--ak-47-the-oligarch--03.png"
+          ]
         }
       ]
     },
@@ -448,7 +533,8 @@
         "https://totalcsgo.com/skins/cases/sealed-genesis-terminal"
       ],
       "items": []
-    }
+    },
+    "image": "Assets/Cases/Sealed-Genesis-Terminal/Icons/sealed-genesis-terminal--icon.png"
   },
   "audit": {
     "tierCounts": {

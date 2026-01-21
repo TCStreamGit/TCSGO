@@ -81,7 +81,13 @@
             "base": "0.266400000000000000",
             "nonStatTrak": "0.266400000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--consumer--mag-7-irradiated-alert.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--consumer--mag-7-irradiated-alert--02.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--consumer--mag-7-irradiated-alert--03.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--consumer--mag-7-irradiated-alert--04.png"
+          ]
         },
         {
           "itemId": "sawed-off-irradiated-alert-souvenir",
@@ -104,7 +110,13 @@
             "base": "0.266400000000000000",
             "nonStatTrak": "0.266400000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--consumer--sawed-off-irradiated-alert.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--consumer--sawed-off-irradiated-alert--02.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--consumer--sawed-off-irradiated-alert--03.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--consumer--sawed-off-irradiated-alert--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-irradiated-alert-souvenir",
@@ -127,7 +139,13 @@
             "base": "0.266400000000000000",
             "nonStatTrak": "0.266400000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--consumer--pp-bizon-irradiated-alert.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--consumer--pp-bizon-irradiated-alert--02.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--consumer--pp-bizon-irradiated-alert--03.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--consumer--pp-bizon-irradiated-alert--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -152,7 +170,13 @@
             "base": "0.053266666667000000",
             "nonStatTrak": "0.053266666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--industrial--p90-fallout-warning.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--industrial--p90-fallout-warning--02.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--industrial--p90-fallout-warning--03.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--industrial--p90-fallout-warning--04.png"
+          ]
         },
         {
           "itemId": "ump-45-fallout-warning-souvenir",
@@ -175,7 +199,13 @@
             "base": "0.053266666667000000",
             "nonStatTrak": "0.053266666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--industrial--ump-45-fallout-warning.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--industrial--ump-45-fallout-warning--02.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--industrial--ump-45-fallout-warning--03.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--industrial--ump-45-fallout-warning--04.png"
+          ]
         },
         {
           "itemId": "xm1014-fallout-warning-souvenir",
@@ -198,7 +228,13 @@
             "base": "0.053266666666000000",
             "nonStatTrak": "0.053266666666000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--industrial--xm1014-fallout-warning.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--industrial--xm1014-fallout-warning--02.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--industrial--xm1014-fallout-warning--03.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--industrial--xm1014-fallout-warning--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -223,7 +259,13 @@
             "base": "0.032000000000000000",
             "nonStatTrak": "0.032000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--milspec--m4a4-radiation-hazard.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--milspec--m4a4-radiation-hazard--02.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--milspec--m4a4-radiation-hazard--03.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--milspec--m4a4-radiation-hazard--04.png"
+          ]
         }
       ],
       "restricted": [
@@ -248,7 +290,13 @@
             "base": "0.004500000000000000",
             "nonStatTrak": "0.004500000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--restricted--p250-nuclear-threat.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--restricted--p250-nuclear-threat--02.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--restricted--p250-nuclear-threat--03.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--restricted--p250-nuclear-threat--04.png"
+          ]
         },
         {
           "itemId": "tec-9-nuclear-threat-souvenir",
@@ -271,11 +319,18 @@
             "base": "0.004500000000000000",
             "nonStatTrak": "0.004500000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--restricted--tec-9-nuclear-threat.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--restricted--tec-9-nuclear-threat--02.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--restricted--tec-9-nuclear-threat--03.png",
+            "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Weapons/krakow-2017-nuke-souvenir-package--restricted--tec-9-nuclear-threat--04.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Krakow-2017-Nuke-Souvenir-Package/Icons/krakow-2017-nuke-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

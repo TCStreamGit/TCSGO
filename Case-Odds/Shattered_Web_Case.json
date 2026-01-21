@@ -63,7 +63,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--mp5-sd-acid-wash.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--mp5-sd-acid-wash--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--mp5-sd-acid-wash--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--mp5-sd-acid-wash--04.png"
+          ]
         },
         {
           "itemId": "nova-plume",
@@ -86,7 +92,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--nova-plume.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--nova-plume--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--nova-plume--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--nova-plume--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-black-sand",
@@ -109,7 +121,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--g3sg1-black-sand.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--g3sg1-black-sand--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--g3sg1-black-sand--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--g3sg1-black-sand--04.png"
+          ]
         },
         {
           "itemId": "r8-revolver-memento",
@@ -132,7 +150,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--r8-revolver-memento.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--r8-revolver-memento--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--r8-revolver-memento--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--r8-revolver-memento--04.png"
+          ]
         },
         {
           "itemId": "dual-berettas-balance",
@@ -155,7 +179,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--dual-berettas-balance.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--dual-berettas-balance--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--dual-berettas-balance--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--dual-berettas-balance--04.png"
+          ]
         },
         {
           "itemId": "scar-20-torn",
@@ -178,7 +208,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--scar-20-torn.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--scar-20-torn--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--scar-20-torn--03.png"
+          ]
         },
         {
           "itemId": "m249-warbird",
@@ -201,7 +236,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--m249-warbird.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--m249-warbird--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--m249-warbird--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--mil-spec--m249-warbird--04.png"
+          ]
         }
       ],
       "purple": [
@@ -226,7 +267,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--pp-bizon-embargo.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--pp-bizon-embargo--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--pp-bizon-embargo--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--pp-bizon-embargo--04.png"
+          ]
         },
         {
           "itemId": "ak-47-rat-rod",
@@ -249,7 +296,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--ak-47-rat-rod.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--ak-47-rat-rod--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--ak-47-rat-rod--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--ak-47-rat-rod--04.png"
+          ]
         },
         {
           "itemId": "aug-arctic-wolf",
@@ -272,7 +325,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--aug-arctic-wolf.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--aug-arctic-wolf--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--aug-arctic-wolf--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--aug-arctic-wolf--04.png"
+          ]
         },
         {
           "itemId": "mp7-neon-ply",
@@ -295,7 +354,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--mp7-neon-ply.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--mp7-neon-ply--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--mp7-neon-ply--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--mp7-neon-ply--04.png"
+          ]
         },
         {
           "itemId": "p2000-obsidian",
@@ -318,7 +383,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--p2000-obsidian.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--p2000-obsidian--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--p2000-obsidian--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--restricted--p2000-obsidian--04.png"
+          ]
         }
       ],
       "pink": [
@@ -343,7 +414,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--classified--tec-9-decimator.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--classified--tec-9-decimator--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--classified--tec-9-decimator--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--classified--tec-9-decimator--04.png"
+          ]
         },
         {
           "itemId": "sg-553-colony-iv",
@@ -366,7 +443,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--classified--sg-553-colony-iv.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--classified--sg-553-colony-iv--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--classified--sg-553-colony-iv--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--classified--sg-553-colony-iv--04.png"
+          ]
         },
         {
           "itemId": "ssg-08-bloodshot",
@@ -389,7 +472,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--classified--ssg-08-bloodshot.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--classified--ssg-08-bloodshot--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--classified--ssg-08-bloodshot--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--classified--ssg-08-bloodshot--04.png"
+          ]
         }
       ],
       "red": [
@@ -414,7 +503,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--covert--awp-containment-breach.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--covert--awp-containment-breach--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--covert--awp-containment-breach--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--covert--awp-containment-breach--04.png"
+          ]
         },
         {
           "itemId": "mac-10-stalker",
@@ -437,7 +532,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--covert--mac-10-stalker.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--covert--mac-10-stalker--02.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--covert--mac-10-stalker--03.png",
+            "Assets/Cases/Shattered-Web-Case/Weapons/shattered-web-case--covert--mac-10-stalker--04.png"
+          ]
         }
       ]
     },
@@ -471,7 +572,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "nomad-knife-blue-steel",
@@ -494,7 +599,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-blue-steel--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-blue-steel--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-blue-steel--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-boreal-forest",
@@ -517,7 +629,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-boreal-forest--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-boreal-forest--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-boreal-forest--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-case-hardened",
@@ -540,7 +659,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-case-hardened--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-case-hardened--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-case-hardened--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-crimson-web",
@@ -563,7 +689,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-crimson-web--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-crimson-web--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-crimson-web--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-fade",
@@ -586,7 +719,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-fade--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "nomad-knife-forest-ddpat",
@@ -609,7 +747,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-forest-ddpat--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-forest-ddpat--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-forest-ddpat--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-night-stripe",
@@ -632,7 +777,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-night-stripe--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-night-stripe--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-night-stripe--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-safari-mesh",
@@ -655,7 +807,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-safari-mesh--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-safari-mesh--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-safari-mesh--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-scorched",
@@ -678,7 +837,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-scorched--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-scorched--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-scorched--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-slaughter",
@@ -701,7 +867,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-slaughter--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-slaughter--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "nomad-knife-stained",
@@ -724,7 +896,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-stained--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-stained--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-stained--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "nomad-knife-urban-masked",
@@ -747,7 +926,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-urban-masked--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-urban-masked--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-urban-masked--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--nomad-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-vanilla",
@@ -770,7 +956,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-blue-steel",
@@ -793,7 +983,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-blue-steel--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-blue-steel--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-blue-steel--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-boreal-forest",
@@ -816,7 +1013,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-boreal-forest--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-boreal-forest--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-boreal-forest--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-case-hardened",
@@ -839,7 +1043,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-case-hardened--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-case-hardened--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-case-hardened--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-crimson-web",
@@ -862,7 +1073,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-crimson-web--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-crimson-web--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-crimson-web--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-fade",
@@ -885,7 +1103,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-fade--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-forest-ddpat",
@@ -908,7 +1131,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-forest-ddpat--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-forest-ddpat--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-forest-ddpat--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-night-stripe",
@@ -931,7 +1161,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-night-stripe--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-night-stripe--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-night-stripe--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-safari-mesh",
@@ -954,7 +1191,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-safari-mesh--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-safari-mesh--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-safari-mesh--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-scorched",
@@ -977,7 +1221,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-scorched--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-scorched--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-scorched--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-slaughter",
@@ -1000,7 +1251,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-slaughter--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-slaughter--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-stained",
@@ -1023,7 +1280,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-stained--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-stained--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-stained--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-urban-masked",
@@ -1046,7 +1310,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-urban-masked--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-urban-masked--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-urban-masked--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--skeleton-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-vanilla",
@@ -1069,7 +1340,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "paracord-knife-blue-steel",
@@ -1092,7 +1367,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-blue-steel--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-blue-steel--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-blue-steel--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-boreal-forest",
@@ -1115,7 +1397,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-boreal-forest--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-boreal-forest--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-boreal-forest--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-case-hardened",
@@ -1138,7 +1427,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-case-hardened--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-case-hardened--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-case-hardened--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-crimson-web",
@@ -1161,7 +1457,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-crimson-web--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-crimson-web--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-crimson-web--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-fade",
@@ -1184,7 +1487,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-fade--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "paracord-knife-forest-ddpat",
@@ -1207,7 +1515,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-forest-ddpat--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-forest-ddpat--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-forest-ddpat--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-night-stripe",
@@ -1230,7 +1545,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-night-stripe--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-night-stripe--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-night-stripe--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-safari-mesh",
@@ -1253,7 +1575,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-safari-mesh--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-safari-mesh--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-safari-mesh--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-scorched",
@@ -1276,7 +1605,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-scorched--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-scorched--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-scorched--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-slaughter",
@@ -1299,7 +1635,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-slaughter--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-slaughter--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "paracord-knife-stained",
@@ -1322,7 +1664,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-stained--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-stained--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-stained--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "paracord-knife-urban-masked",
@@ -1345,7 +1694,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-urban-masked--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-urban-masked--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-urban-masked--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--paracord-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-vanilla",
@@ -1368,7 +1724,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "survival-knife-blue-steel",
@@ -1391,7 +1751,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-blue-steel--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-blue-steel--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-blue-steel--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-boreal-forest",
@@ -1414,7 +1781,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-boreal-forest--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-boreal-forest--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-boreal-forest--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-case-hardened",
@@ -1437,7 +1811,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-case-hardened--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-case-hardened--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-case-hardened--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-crimson-web",
@@ -1460,7 +1841,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-crimson-web--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-crimson-web--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-crimson-web--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-fade",
@@ -1483,7 +1871,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-fade--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "survival-knife-forest-ddpat",
@@ -1506,7 +1899,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-forest-ddpat--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-forest-ddpat--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-forest-ddpat--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-night-stripe",
@@ -1529,7 +1929,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-night-stripe--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-night-stripe--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-night-stripe--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-safari-mesh",
@@ -1552,7 +1959,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-safari-mesh--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-safari-mesh--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-safari-mesh--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-scorched",
@@ -1575,7 +1989,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-scorched--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-scorched--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-scorched--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-slaughter",
@@ -1598,7 +2019,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-slaughter--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-slaughter--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "survival-knife-stained",
@@ -1621,7 +2048,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-stained--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-stained--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-stained--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "survival-knife-urban-masked",
@@ -1644,10 +2078,18 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-urban-masked--02.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-urban-masked--03.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-urban-masked--04.png",
+            "Assets/Cases/Shattered-Web-Case/Knives/shattered-web-case--rare-special--survival-knife-urban-masked--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Shattered-Web-Case/Icons/shattered-web-case--icon.png"
   },
   "audit": {
     "tierCounts": {

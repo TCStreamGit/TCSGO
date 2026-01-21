@@ -61,7 +61,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--glock-18-sacrifice.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--glock-18-sacrifice--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--glock-18-sacrifice--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--glock-18-sacrifice--04.png"
+          ]
         },
         {
           "itemId": "famas-decommissioned",
@@ -84,7 +90,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--famas-decommissioned.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--famas-decommissioned--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--famas-decommissioned--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--famas-decommissioned--04.png"
+          ]
         },
         {
           "itemId": "dual-berettas-elite-1-6",
@@ -107,7 +119,12 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--dual-berettas-elite-1-6.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--dual-berettas-elite-1-6--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--dual-berettas-elite-1-6--03.png"
+          ]
         },
         {
           "itemId": "mac-10-classic-crate",
@@ -130,7 +147,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mac-10-classic-crate.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mac-10-classic-crate--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mac-10-classic-crate--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mac-10-classic-crate--04.png"
+          ]
         },
         {
           "itemId": "mag-7-popdog",
@@ -153,7 +176,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mag-7-popdog.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mag-7-popdog--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mag-7-popdog--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mag-7-popdog--04.png"
+          ]
         },
         {
           "itemId": "tec-9-flash-out",
@@ -176,7 +205,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--tec-9-flash-out.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--tec-9-flash-out--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--tec-9-flash-out--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--tec-9-flash-out--04.png"
+          ]
         },
         {
           "itemId": "scar-20-assault",
@@ -199,7 +234,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--scar-20-assault.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--scar-20-assault--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--scar-20-assault--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--scar-20-assault--04.png"
+          ]
         }
       ],
       "purple": [
@@ -224,7 +265,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--mp5-sd-agent.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--mp5-sd-agent--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--mp5-sd-agent--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--mp5-sd-agent--04.png"
+          ]
         },
         {
           "itemId": "ump-45-plastique",
@@ -247,7 +294,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--ump-45-plastique.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--ump-45-plastique--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--ump-45-plastique--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--ump-45-plastique--04.png"
+          ]
         },
         {
           "itemId": "p250-inferno",
@@ -270,7 +323,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--p250-inferno.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--p250-inferno--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--p250-inferno--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--p250-inferno--04.png"
+          ]
         },
         {
           "itemId": "five-seven-buddy",
@@ -293,7 +352,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--five-seven-buddy.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--five-seven-buddy--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--five-seven-buddy--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--five-seven-buddy--04.png"
+          ]
         },
         {
           "itemId": "m249-aztec",
@@ -316,7 +381,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--m249-aztec.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--m249-aztec--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--m249-aztec--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--m249-aztec--04.png"
+          ]
         }
       ],
       "pink": [
@@ -341,7 +412,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--mp9-hydra.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--mp9-hydra--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--mp9-hydra--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--mp9-hydra--04.png"
+          ]
         },
         {
           "itemId": "aug-death-by-puppy",
@@ -364,7 +441,12 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--aug-death-by-puppy.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--aug-death-by-puppy--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--aug-death-by-puppy--03.png"
+          ]
         },
         {
           "itemId": "p90-nostalgia",
@@ -387,7 +469,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--p90-nostalgia.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--p90-nostalgia--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--p90-nostalgia--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--p90-nostalgia--04.png"
+          ]
         }
       ],
       "red": [
@@ -412,7 +500,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--covert--awp-wildfire.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--covert--awp-wildfire--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--covert--awp-wildfire--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--covert--awp-wildfire--04.png"
+          ]
         },
         {
           "itemId": "famas-commemoration",
@@ -435,7 +529,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Weapons/cs20-case--covert--famas-commemoration.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--covert--famas-commemoration--02.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--covert--famas-commemoration--03.png",
+            "Assets/Cases/Cs20-Case/Weapons/cs20-case--covert--famas-commemoration--04.png"
+          ]
         }
       ]
     },
@@ -469,7 +569,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-blue-steel--02.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-blue-steel--03.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-blue-steel--04.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "classic-knife-boreal-forest",
@@ -492,7 +599,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-boreal-forest--02.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-boreal-forest--03.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-boreal-forest--04.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "classic-knife-case-hardened",
@@ -515,7 +629,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-case-hardened--02.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-case-hardened--03.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-case-hardened--04.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "classic-knife-crimson-web",
@@ -538,7 +659,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-crimson-web--02.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-crimson-web--03.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-crimson-web--04.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "classic-knife-fade",
@@ -561,7 +689,12 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-fade--02.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "classic-knife-forest-ddpat",
@@ -584,7 +717,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-forest-ddpat--02.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-forest-ddpat--03.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-forest-ddpat--04.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "classic-knife-night-stripe",
@@ -607,7 +747,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-night-stripe--02.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-night-stripe--03.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-night-stripe--04.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "classic-knife-safari-mesh",
@@ -630,7 +777,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-safari-mesh--02.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-safari-mesh--03.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-safari-mesh--04.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "classic-knife-scorched",
@@ -653,7 +807,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-scorched--02.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-scorched--03.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-scorched--04.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "classic-knife-slaughter",
@@ -676,7 +837,13 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-slaughter--02.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-slaughter--03.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "classic-knife-stained",
@@ -699,7 +866,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-stained--02.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-stained--03.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-stained--04.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "classic-knife-urban-masked",
@@ -722,7 +896,14 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-urban-masked--02.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-urban-masked--03.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-urban-masked--04.png",
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "classic-knife-vanilla",
@@ -745,10 +926,15 @@
             "base": "0.000200000000000000",
             "nonStatTrak": "0.000180000000000000",
             "statTrak": "0.000020000000000000"
-          }
+          },
+          "image": "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Cs20-Case/Knives/cs20-case--rare-special--classic-knife-vanilla--02.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Cs20-Case/Icons/cs20-case--icon.png"
   },
   "audit": {
     "tierCounts": {

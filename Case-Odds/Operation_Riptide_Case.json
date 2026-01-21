@@ -62,7 +62,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--usp-s-black-lotus.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--usp-s-black-lotus--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--usp-s-black-lotus--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--usp-s-black-lotus--04.png"
+          ]
         },
         {
           "itemId": "xm1014-watchdog",
@@ -85,7 +91,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--xm1014-watchdog.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--xm1014-watchdog--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--xm1014-watchdog--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--xm1014-watchdog--04.png"
+          ]
         },
         {
           "itemId": "dual-berettas-tread",
@@ -108,7 +120,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--dual-berettas-tread.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--dual-berettas-tread--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--dual-berettas-tread--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--dual-berettas-tread--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-keeping-tabs",
@@ -131,7 +149,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--g3sg1-keeping-tabs.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--g3sg1-keeping-tabs--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--g3sg1-keeping-tabs--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--g3sg1-keeping-tabs--04.png"
+          ]
         },
         {
           "itemId": "aug-plague",
@@ -154,7 +178,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--aug-plague.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--aug-plague--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--aug-plague--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--aug-plague--04.png"
+          ]
         },
         {
           "itemId": "pp-bizon-lumen",
@@ -177,7 +207,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--pp-bizon-lumen.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--pp-bizon-lumen--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--pp-bizon-lumen--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--pp-bizon-lumen--04.png"
+          ]
         },
         {
           "itemId": "mp7-guerrilla",
@@ -200,7 +236,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--mp7-guerrilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--mp7-guerrilla--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--mp7-guerrilla--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--mil-spec--mp7-guerrilla--04.png"
+          ]
         }
       ],
       "purple": [
@@ -225,7 +267,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--m4a4-spider-lily.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--m4a4-spider-lily--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--m4a4-spider-lily--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--m4a4-spider-lily--04.png"
+          ]
         },
         {
           "itemId": "mp9-mount-fuji",
@@ -248,7 +296,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--mp9-mount-fuji.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--mp9-mount-fuji--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--mp9-mount-fuji--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--mp9-mount-fuji--04.png"
+          ]
         },
         {
           "itemId": "five-seven-boost-protocol",
@@ -271,7 +325,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--five-seven-boost-protocol.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--five-seven-boost-protocol--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--five-seven-boost-protocol--03.png"
+          ]
         },
         {
           "itemId": "famas-zx-spectron",
@@ -294,7 +353,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--famas-zx-spectron.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--famas-zx-spectron--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--famas-zx-spectron--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--famas-zx-spectron--04.png"
+          ]
         },
         {
           "itemId": "mag-7-bi83-spectrum",
@@ -317,7 +382,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--mag-7-bi83-spectrum.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--mag-7-bi83-spectrum--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--mag-7-bi83-spectrum--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--restricted--mag-7-bi83-spectrum--04.png"
+          ]
         }
       ],
       "pink": [
@@ -342,7 +413,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--classified--ssg-08-turbo-peek.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--classified--ssg-08-turbo-peek--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--classified--ssg-08-turbo-peek--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--classified--ssg-08-turbo-peek--04.png"
+          ]
         },
         {
           "itemId": "glock-18-snack-attack",
@@ -365,7 +442,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--classified--glock-18-snack-attack.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--classified--glock-18-snack-attack--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--classified--glock-18-snack-attack--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--classified--glock-18-snack-attack--04.png"
+          ]
         },
         {
           "itemId": "mac-10-toybox",
@@ -388,7 +471,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--classified--mac-10-toybox.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--classified--mac-10-toybox--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--classified--mac-10-toybox--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--classified--mac-10-toybox--04.png"
+          ]
         }
       ],
       "red": [
@@ -413,7 +502,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--covert--desert-eagle-ocean-drive.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--covert--desert-eagle-ocean-drive--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--covert--desert-eagle-ocean-drive--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--covert--desert-eagle-ocean-drive--04.png"
+          ]
         },
         {
           "itemId": "ak-47-leet-museo",
@@ -436,7 +531,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--covert--ak-47-leet-museo.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--covert--ak-47-leet-museo--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--covert--ak-47-leet-museo--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Weapons/operation-riptide-case--covert--ak-47-leet-museo--04.png"
+          ]
         }
       ]
     },
@@ -471,7 +572,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-autotronic--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-autotronic--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-autotronic--04.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-black-laminate",
@@ -494,7 +601,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-black-laminate--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-black-laminate--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-black-laminate--04.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-bright-water",
@@ -517,7 +630,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-bright-water--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-bright-water--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-bright-water--04.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-freehand",
@@ -540,7 +659,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-freehand--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-freehand--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-freehand--04.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-lore",
@@ -563,7 +688,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-lore--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-lore--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-lore--04.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-gamma-doppler-phase-1",
@@ -586,7 +717,16 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-1--07.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-gamma-doppler-phase-2",
@@ -609,7 +749,16 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-2--07.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-gamma-doppler-phase-3",
@@ -632,7 +781,16 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-3--07.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-gamma-doppler-phase-4",
@@ -655,7 +813,16 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-phase-4--07.png"
+          ]
         },
         {
           "itemId": "butterfly-knife-gamma-doppler-emerald",
@@ -678,7 +845,16 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--butterfly-knife-gamma-doppler-emerald--07.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-autotronic",
@@ -701,7 +877,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-autotronic--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-autotronic--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-autotronic--04.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-black-laminate",
@@ -724,7 +906,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-black-laminate--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-black-laminate--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-black-laminate--04.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-bright-water",
@@ -747,7 +935,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-bright-water--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-bright-water--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-bright-water--04.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-freehand",
@@ -770,7 +964,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-freehand--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-freehand--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-freehand--04.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-lore",
@@ -793,7 +993,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-lore--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-lore--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-lore--04.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-gamma-doppler-phase-1",
@@ -816,7 +1022,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-gamma-doppler-phase-2",
@@ -839,7 +1055,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-gamma-doppler-phase-3",
@@ -862,7 +1088,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-gamma-doppler-phase-4",
@@ -885,7 +1121,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "huntsman-knife-gamma-doppler-emerald",
@@ -908,7 +1154,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--huntsman-knife-gamma-doppler-emerald--08.png"
+          ]
         },
         {
           "itemId": "falchion-knife-autotronic",
@@ -931,7 +1187,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-autotronic--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-autotronic--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-autotronic--04.png"
+          ]
         },
         {
           "itemId": "falchion-knife-black-laminate",
@@ -954,7 +1216,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-black-laminate--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-black-laminate--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-black-laminate--04.png"
+          ]
         },
         {
           "itemId": "falchion-knife-bright-water",
@@ -977,7 +1245,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-bright-water--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-bright-water--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-bright-water--04.png"
+          ]
         },
         {
           "itemId": "falchion-knife-freehand",
@@ -1000,7 +1274,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-freehand--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-freehand--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-freehand--04.png"
+          ]
         },
         {
           "itemId": "falchion-knife-lore",
@@ -1023,7 +1303,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-lore--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-lore--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-lore--04.png"
+          ]
         },
         {
           "itemId": "falchion-knife-gamma-doppler-phase-1",
@@ -1046,7 +1332,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "falchion-knife-gamma-doppler-phase-2",
@@ -1069,7 +1365,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "falchion-knife-gamma-doppler-phase-3",
@@ -1092,7 +1398,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "falchion-knife-gamma-doppler-phase-4",
@@ -1115,7 +1431,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "falchion-knife-gamma-doppler-emerald",
@@ -1138,7 +1464,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--falchion-knife-gamma-doppler-emerald--08.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-autotronic",
@@ -1161,7 +1497,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-autotronic--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-autotronic--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-autotronic--04.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-black-laminate",
@@ -1184,7 +1526,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-black-laminate--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-black-laminate--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-black-laminate--04.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-bright-water",
@@ -1207,7 +1555,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-bright-water--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-bright-water--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-bright-water--04.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-freehand",
@@ -1230,7 +1584,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-freehand--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-freehand--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-freehand--04.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-lore",
@@ -1253,7 +1613,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-lore--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-lore--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-lore--04.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-gamma-doppler-phase-1",
@@ -1276,7 +1642,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-gamma-doppler-phase-2",
@@ -1299,7 +1675,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-gamma-doppler-phase-3",
@@ -1322,7 +1708,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-gamma-doppler-phase-4",
@@ -1345,7 +1741,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "shadow-daggers-gamma-doppler-emerald",
@@ -1368,7 +1774,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--shadow-daggers-gamma-doppler-emerald--08.png"
+          ]
         },
         {
           "itemId": "bowie-knife-autotronic",
@@ -1391,7 +1807,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-autotronic.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-autotronic--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-autotronic--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-autotronic--04.png"
+          ]
         },
         {
           "itemId": "bowie-knife-black-laminate",
@@ -1414,7 +1836,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-black-laminate.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-black-laminate--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-black-laminate--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-black-laminate--04.png"
+          ]
         },
         {
           "itemId": "bowie-knife-bright-water",
@@ -1437,7 +1865,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-bright-water--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-bright-water--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-bright-water--04.png"
+          ]
         },
         {
           "itemId": "bowie-knife-freehand",
@@ -1460,7 +1894,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-freehand.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-freehand--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-freehand--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-freehand--04.png"
+          ]
         },
         {
           "itemId": "bowie-knife-lore",
@@ -1483,7 +1923,13 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-lore--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-lore--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-lore--04.png"
+          ]
         },
         {
           "itemId": "bowie-knife-gamma-doppler-phase-1",
@@ -1506,7 +1952,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-1--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-1--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-1--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-1--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-1--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-1--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-1--08.png"
+          ]
         },
         {
           "itemId": "bowie-knife-gamma-doppler-phase-2",
@@ -1529,7 +1985,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-2--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-2--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-2--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-2--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-2--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-2--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-2--08.png"
+          ]
         },
         {
           "itemId": "bowie-knife-gamma-doppler-phase-3",
@@ -1552,7 +2018,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-3--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-3--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-3--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-3--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-3--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-3--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-3--08.png"
+          ]
         },
         {
           "itemId": "bowie-knife-gamma-doppler-phase-4",
@@ -1575,7 +2051,17 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-4--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-4--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-4--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-4--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-4--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-4--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-phase-4--08.png"
+          ]
         },
         {
           "itemId": "bowie-knife-gamma-doppler-emerald",
@@ -1598,10 +2084,21 @@
             "base": "0.000052000000000000",
             "nonStatTrak": "0.000046800000000000",
             "statTrak": "0.000005200000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-emerald.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-emerald--02.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-emerald--03.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-emerald--04.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-emerald--05.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-emerald--06.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-emerald--07.png",
+            "Assets/Cases/Operation-Riptide-Case/Knives/operation-riptide-case--rare-special--bowie-knife-gamma-doppler-emerald--08.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Operation-Riptide-Case/Icons/operation-riptide-case--icon.png"
   },
   "audit": {
     "tierCounts": {

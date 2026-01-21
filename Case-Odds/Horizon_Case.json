@@ -59,7 +59,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--aug-amber-slipstream.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--aug-amber-slipstream--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--aug-amber-slipstream--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--aug-amber-slipstream--04.png"
+          ]
         },
         {
           "itemId": "dual-berettas-shred",
@@ -82,7 +88,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--dual-berettas-shred.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--dual-berettas-shred--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--dual-berettas-shred--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--dual-berettas-shred--04.png"
+          ]
         },
         {
           "itemId": "glock-18-warhawk",
@@ -105,7 +117,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--glock-18-warhawk.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--glock-18-warhawk--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--glock-18-warhawk--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--glock-18-warhawk--04.png"
+          ]
         },
         {
           "itemId": "mp9-capillary",
@@ -128,7 +146,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--mp9-capillary.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--mp9-capillary--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--mp9-capillary--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--mp9-capillary--04.png"
+          ]
         },
         {
           "itemId": "p90-traction",
@@ -151,7 +175,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--p90-traction.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--p90-traction--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--p90-traction--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--p90-traction--04.png"
+          ]
         },
         {
           "itemId": "r8-revolver-survivalist",
@@ -174,7 +204,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--r8-revolver-survivalist.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--r8-revolver-survivalist--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--r8-revolver-survivalist--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--r8-revolver-survivalist--04.png"
+          ]
         },
         {
           "itemId": "tec-9-snek-9",
@@ -197,7 +233,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--tec-9-snek-9.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--tec-9-snek-9--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--mil-spec--tec-9-snek-9--03.png"
+          ]
         }
       ],
       "purple": [
@@ -222,7 +263,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--cz75-auto-eco.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--cz75-auto-eco--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--cz75-auto-eco--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--cz75-auto-eco--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-high-seas",
@@ -245,7 +292,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--g3sg1-high-seas.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--g3sg1-high-seas--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--g3sg1-high-seas--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--g3sg1-high-seas--04.png"
+          ]
         },
         {
           "itemId": "nova-toy-soldier",
@@ -268,7 +321,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--nova-toy-soldier.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--nova-toy-soldier--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--nova-toy-soldier--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--nova-toy-soldier--04.png"
+          ]
         },
         {
           "itemId": "awp-paw",
@@ -291,7 +350,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--awp-paw.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--awp-paw--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--awp-paw--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--awp-paw--04.png"
+          ]
         },
         {
           "itemId": "mp7-powercore",
@@ -314,7 +379,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--mp7-powercore.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--mp7-powercore--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--mp7-powercore--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--restricted--mp7-powercore--04.png"
+          ]
         }
       ],
       "pink": [
@@ -339,7 +410,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--classified--m4a1-s-nightmare.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--classified--m4a1-s-nightmare--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--classified--m4a1-s-nightmare--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--classified--m4a1-s-nightmare--04.png"
+          ]
         },
         {
           "itemId": "sawed-off-devourer",
@@ -362,7 +439,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000001000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--classified--sawed-off-devourer.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--classified--sawed-off-devourer--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--classified--sawed-off-devourer--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--classified--sawed-off-devourer--04.png"
+          ]
         },
         {
           "itemId": "famas-eye-of-athena",
@@ -385,7 +468,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666666000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--classified--famas-eye-of-athena.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--classified--famas-eye-of-athena--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--classified--famas-eye-of-athena--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--classified--famas-eye-of-athena--04.png"
+          ]
         }
       ],
       "red": [
@@ -410,7 +499,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--covert--ak-47-neon-rider.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--covert--ak-47-neon-rider--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--covert--ak-47-neon-rider--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--covert--ak-47-neon-rider--04.png"
+          ]
         },
         {
           "itemId": "desert-eagle-code-red",
@@ -433,7 +528,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Weapons/horizon-case--covert--desert-eagle-code-red.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--covert--desert-eagle-code-red--02.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--covert--desert-eagle-code-red--03.png",
+            "Assets/Cases/Horizon-Case/Weapons/horizon-case--covert--desert-eagle-code-red--04.png"
+          ]
         }
       ]
     },
@@ -467,7 +568,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife--02.png"
+          ]
         },
         {
           "itemId": "talon-knife-blue-steel",
@@ -490,7 +595,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-blue-steel--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-blue-steel--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-blue-steel--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-boreal-forest",
@@ -513,7 +625,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-boreal-forest--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-boreal-forest--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-boreal-forest--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-case-hardened",
@@ -536,7 +655,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-case-hardened--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-case-hardened--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-case-hardened--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-crimson-web",
@@ -559,7 +685,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-crimson-web--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-crimson-web--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-crimson-web--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-fade",
@@ -582,7 +715,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-fade--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "talon-knife-forest-ddpat",
@@ -605,7 +743,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-forest-ddpat--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-forest-ddpat--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-forest-ddpat--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-night-stripe",
@@ -628,7 +773,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-night-stripe--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-night-stripe--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-night-stripe--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-safari-mesh",
@@ -651,7 +803,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-safari-mesh--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-safari-mesh--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-safari-mesh--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-scorched",
@@ -674,7 +833,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-scorched--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-scorched--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-scorched--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-slaughter",
@@ -697,7 +863,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-slaughter--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-slaughter--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "talon-knife-stained",
@@ -720,7 +892,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-stained--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-stained--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-stained--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-urban-masked",
@@ -743,7 +922,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-urban-masked--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-urban-masked--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-urban-masked--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--talon-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife",
@@ -766,7 +952,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife--02.png"
+          ]
         },
         {
           "itemId": "navaja-knife-blue-steel",
@@ -789,7 +979,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-blue-steel--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-blue-steel--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-blue-steel--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-boreal-forest",
@@ -812,7 +1009,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-boreal-forest--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-boreal-forest--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-boreal-forest--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-case-hardened",
@@ -835,7 +1039,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-case-hardened--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-case-hardened--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-case-hardened--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-crimson-web",
@@ -858,7 +1069,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-crimson-web--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-crimson-web--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-crimson-web--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-fade",
@@ -881,7 +1099,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-fade--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "navaja-knife-forest-ddpat",
@@ -904,7 +1127,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-forest-ddpat--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-forest-ddpat--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-forest-ddpat--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-night-stripe",
@@ -927,7 +1157,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-night-stripe--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-night-stripe--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-night-stripe--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-safari-mesh",
@@ -950,7 +1187,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-safari-mesh--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-safari-mesh--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-safari-mesh--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-scorched",
@@ -973,7 +1217,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-scorched--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-scorched--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-scorched--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-slaughter",
@@ -996,7 +1247,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-slaughter--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-slaughter--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "navaja-knife-stained",
@@ -1019,7 +1276,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-stained--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-stained--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-stained--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-urban-masked",
@@ -1042,7 +1306,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-urban-masked--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-urban-masked--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-urban-masked--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--navaja-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife",
@@ -1065,7 +1336,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife--02.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-blue-steel",
@@ -1088,7 +1363,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-blue-steel--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-blue-steel--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-blue-steel--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-boreal-forest",
@@ -1111,7 +1393,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-boreal-forest--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-boreal-forest--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-boreal-forest--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-case-hardened",
@@ -1134,7 +1423,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-case-hardened--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-case-hardened--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-case-hardened--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-crimson-web",
@@ -1157,7 +1453,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-crimson-web--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-crimson-web--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-crimson-web--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-fade",
@@ -1180,7 +1483,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-fade--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-forest-ddpat",
@@ -1203,7 +1511,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-forest-ddpat--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-forest-ddpat--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-forest-ddpat--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-night-stripe",
@@ -1226,7 +1541,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-night-stripe--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-night-stripe--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-night-stripe--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-safari-mesh",
@@ -1249,7 +1571,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-safari-mesh--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-safari-mesh--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-safari-mesh--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-scorched",
@@ -1272,7 +1601,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-scorched--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-scorched--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-scorched--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-slaughter",
@@ -1295,7 +1631,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-slaughter--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-slaughter--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-stained",
@@ -1318,7 +1660,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-stained--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-stained--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-stained--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-urban-masked",
@@ -1341,7 +1690,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-urban-masked--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-urban-masked--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-urban-masked--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--stiletto-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife",
@@ -1364,7 +1720,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife--02.png"
+          ]
         },
         {
           "itemId": "ursus-knife-blue-steel",
@@ -1387,7 +1747,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-blue-steel--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-blue-steel--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-blue-steel--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-boreal-forest",
@@ -1410,7 +1777,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-boreal-forest--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-boreal-forest--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-boreal-forest--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-case-hardened",
@@ -1433,7 +1807,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-case-hardened--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-case-hardened--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-case-hardened--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-crimson-web",
@@ -1456,7 +1837,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-crimson-web--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-crimson-web--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-crimson-web--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-fade",
@@ -1479,7 +1867,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-fade--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "ursus-knife-forest-ddpat",
@@ -1502,7 +1895,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-forest-ddpat--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-forest-ddpat--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-forest-ddpat--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-night-stripe",
@@ -1525,7 +1925,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-night-stripe--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-night-stripe--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-night-stripe--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-safari-mesh",
@@ -1548,7 +1955,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-safari-mesh--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-safari-mesh--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-safari-mesh--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-scorched",
@@ -1571,7 +1985,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-scorched--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-scorched--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-scorched--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-slaughter",
@@ -1594,7 +2015,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-slaughter--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-slaughter--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "ursus-knife-stained",
@@ -1617,7 +2044,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-stained--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-stained--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-stained--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-urban-masked",
@@ -1640,10 +2074,18 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-urban-masked--02.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-urban-masked--03.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-urban-masked--04.png",
+            "Assets/Cases/Horizon-Case/Knives/horizon-case--extraordinary--ursus-knife-urban-masked--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Horizon-Case/Icons/horizon-case--icon.png"
   },
   "audit": {
     "tierCounts": {

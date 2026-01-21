@@ -59,7 +59,12 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--famas-meow-36.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--famas-meow-36--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--famas-meow-36--03.png"
+          ]
         },
         {
           "itemId": "galil-ar-destroyer",
@@ -82,7 +87,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--galil-ar-destroyer.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--galil-ar-destroyer--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--galil-ar-destroyer--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--galil-ar-destroyer--04.png"
+          ]
         },
         {
           "itemId": "m4a4-poly-mag",
@@ -105,7 +116,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--m4a4-poly-mag.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--m4a4-poly-mag--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--m4a4-poly-mag--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--m4a4-poly-mag--04.png"
+          ]
         },
         {
           "itemId": "mac-10-monkeyflage",
@@ -128,7 +145,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--mac-10-monkeyflage.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--mac-10-monkeyflage--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--mac-10-monkeyflage--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--mac-10-monkeyflage--04.png"
+          ]
         },
         {
           "itemId": "negev-drop-me",
@@ -151,7 +174,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--negev-drop-me.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--negev-drop-me--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--negev-drop-me--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--negev-drop-me--04.png"
+          ]
         },
         {
           "itemId": "ump-45-roadblock",
@@ -174,7 +203,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--ump-45-roadblock.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--ump-45-roadblock--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--ump-45-roadblock--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--ump-45-roadblock--04.png"
+          ]
         },
         {
           "itemId": "glock-18-winterized",
@@ -197,7 +232,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--glock-18-winterized.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--glock-18-winterized--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--glock-18-winterized--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--mil-spec--glock-18-winterized--04.png"
+          ]
         }
       ],
       "purple": [
@@ -222,7 +263,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--r8-revolver-crazy-8.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--r8-revolver-crazy-8--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--r8-revolver-crazy-8--03.png"
+          ]
         },
         {
           "itemId": "dual-berettas-flora-carnivora",
@@ -245,7 +291,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--dual-berettas-flora-carnivora.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--dual-berettas-flora-carnivora--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--dual-berettas-flora-carnivora--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--dual-berettas-flora-carnivora--04.png"
+          ]
         },
         {
           "itemId": "sg-553-dragon-tech",
@@ -268,7 +320,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--sg-553-dragon-tech.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--sg-553-dragon-tech--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--sg-553-dragon-tech--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--sg-553-dragon-tech--04.png"
+          ]
         },
         {
           "itemId": "p90-vent-rush",
@@ -291,7 +349,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--p90-vent-rush.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--p90-vent-rush--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--p90-vent-rush--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--p90-vent-rush--04.png"
+          ]
         },
         {
           "itemId": "m249-downtown",
@@ -314,7 +378,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--m249-downtown.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--m249-downtown--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--m249-downtown--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--restricted--m249-downtown--04.png"
+          ]
         }
       ],
       "pink": [
@@ -339,7 +409,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--classified--ak-47-ice-coaled.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--classified--ak-47-ice-coaled--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--classified--ak-47-ice-coaled--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--classified--ak-47-ice-coaled--04.png"
+          ]
         },
         {
           "itemId": "p250-visions",
@@ -362,7 +438,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--classified--p250-visions.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--classified--p250-visions--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--classified--p250-visions--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--classified--p250-visions--04.png"
+          ]
         },
         {
           "itemId": "sawed-off-kiss-love",
@@ -385,7 +467,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--classified--sawed-off-kiss-love.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--classified--sawed-off-kiss-love--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--classified--sawed-off-kiss-love--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--classified--sawed-off-kiss-love--04.png"
+          ]
         }
       ],
       "red": [
@@ -410,7 +498,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--covert--usp-s-printstream.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--covert--usp-s-printstream--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--covert--usp-s-printstream--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--covert--usp-s-printstream--04.png"
+          ]
         },
         {
           "itemId": "awp-chromatic-aberration",
@@ -433,7 +527,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Weapons/recoil-case--covert--awp-chromatic-aberration.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--covert--awp-chromatic-aberration--02.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--covert--awp-chromatic-aberration--03.png",
+            "Assets/Cases/Recoil-Case/Weapons/recoil-case--covert--awp-chromatic-aberration--04.png"
+          ]
         }
       ]
     },
@@ -467,7 +567,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--broken-fang-gloves-jade.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--broken-fang-gloves-jade--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--broken-fang-gloves-jade--03.png"
+          ]
         },
         {
           "itemId": "broken-fang-gloves-yellow-banded",
@@ -490,7 +595,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--broken-fang-gloves-yellow-banded.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--broken-fang-gloves-yellow-banded--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--broken-fang-gloves-yellow-banded--03.png"
+          ]
         },
         {
           "itemId": "broken-fang-gloves-needle-point",
@@ -513,7 +623,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--broken-fang-gloves-needle-point.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--broken-fang-gloves-needle-point--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--broken-fang-gloves-needle-point--03.png"
+          ]
         },
         {
           "itemId": "broken-fang-gloves-unhinged",
@@ -536,7 +651,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--broken-fang-gloves-unhinged.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--broken-fang-gloves-unhinged--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--broken-fang-gloves-unhinged--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-snow-leopard",
@@ -559,7 +679,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--driver-gloves-snow-leopard.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--driver-gloves-snow-leopard--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--driver-gloves-snow-leopard--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-black-tie",
@@ -582,7 +707,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--driver-gloves-black-tie.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--driver-gloves-black-tie--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--driver-gloves-black-tie--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-rezan-the-red",
@@ -605,7 +735,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--driver-gloves-rezan-the-red.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--driver-gloves-rezan-the-red--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--driver-gloves-rezan-the-red--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-queen-jaguar",
@@ -628,7 +763,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--driver-gloves-queen-jaguar.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--driver-gloves-queen-jaguar--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--driver-gloves-queen-jaguar--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-caution",
@@ -651,7 +791,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--hand-wraps-caution.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--hand-wraps-caution--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--hand-wraps-caution--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-constrictor",
@@ -674,7 +819,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--hand-wraps-constrictor.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--hand-wraps-constrictor--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--hand-wraps-constrictor--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-giraffe",
@@ -697,7 +847,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--hand-wraps-giraffe.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--hand-wraps-giraffe--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--hand-wraps-giraffe--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-desert-shamagh",
@@ -720,7 +875,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--hand-wraps-desert-shamagh.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--hand-wraps-desert-shamagh--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--hand-wraps-desert-shamagh--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-smoke-out",
@@ -743,7 +903,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--moto-gloves-smoke-out.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--moto-gloves-smoke-out--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--moto-gloves-smoke-out--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-blood-pressure",
@@ -766,7 +931,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--moto-gloves-blood-pressure.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--moto-gloves-blood-pressure--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--moto-gloves-blood-pressure--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-finish-line",
@@ -789,7 +959,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--moto-gloves-finish-line.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--moto-gloves-finish-line--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--moto-gloves-finish-line--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-3rd-commando-company",
@@ -812,7 +987,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--moto-gloves-3rd-commando-company.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--moto-gloves-3rd-commando-company--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--moto-gloves-3rd-commando-company--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-marble-fade",
@@ -835,7 +1015,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--specialist-gloves-marble-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--specialist-gloves-marble-fade--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--specialist-gloves-marble-fade--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-field-agent",
@@ -858,7 +1043,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--specialist-gloves-field-agent.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--specialist-gloves-field-agent--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--specialist-gloves-field-agent--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-tiger-strike",
@@ -881,7 +1071,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--specialist-gloves-tiger-strike.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--specialist-gloves-tiger-strike--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--specialist-gloves-tiger-strike--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-lt-commander",
@@ -904,7 +1099,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--specialist-gloves-lt-commander.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--specialist-gloves-lt-commander--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--specialist-gloves-lt-commander--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-slingshot",
@@ -927,7 +1127,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--sport-gloves-slingshot.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--sport-gloves-slingshot--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--sport-gloves-slingshot--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-nocts",
@@ -950,7 +1155,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--sport-gloves-nocts.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--sport-gloves-nocts--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--sport-gloves-nocts--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-scarlet-shamagh",
@@ -973,7 +1183,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--sport-gloves-scarlet-shamagh.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--sport-gloves-scarlet-shamagh--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--sport-gloves-scarlet-shamagh--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-big-game",
@@ -996,10 +1211,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--sport-gloves-big-game.png",
+          "imageAlternates": [
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--sport-gloves-big-game--02.png",
+            "Assets/Cases/Recoil-Case/Gloves/recoil-case--extraordinary--sport-gloves-big-game--03.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Recoil-Case/Icons/recoil-case--icon.png"
   },
   "audit": {
     "tierCounts": {

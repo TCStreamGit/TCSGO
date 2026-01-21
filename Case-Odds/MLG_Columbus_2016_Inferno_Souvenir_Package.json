@@ -79,7 +79,13 @@
             "base": "0.399600000000000000",
             "nonStatTrak": "0.399600000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--consumer--mag-7-sand-dune.png",
+          "imageAlternates": [
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--consumer--mag-7-sand-dune--02.png",
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--consumer--mag-7-sand-dune--03.png",
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--consumer--mag-7-sand-dune--04.png"
+          ]
         },
         {
           "itemId": "souvenir-nova-walnut",
@@ -102,7 +108,13 @@
             "base": "0.399600000000000000",
             "nonStatTrak": "0.399600000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--consumer--nova-walnut.png",
+          "imageAlternates": [
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--consumer--nova-walnut--02.png",
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--consumer--nova-walnut--03.png",
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--consumer--nova-walnut--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -127,7 +139,13 @@
             "base": "0.079900000000000000",
             "nonStatTrak": "0.079900000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--industrial--m4a4-tornado.png",
+          "imageAlternates": [
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--industrial--m4a4-tornado--02.png",
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--industrial--m4a4-tornado--03.png",
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--industrial--m4a4-tornado--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-gunsmoke",
@@ -150,7 +168,13 @@
             "base": "0.079900000000000000",
             "nonStatTrak": "0.079900000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--industrial--p250-gunsmoke.png",
+          "imageAlternates": [
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--industrial--p250-gunsmoke--02.png",
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--industrial--p250-gunsmoke--03.png",
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--industrial--p250-gunsmoke--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -175,7 +199,11 @@
             "base": "0.020500000000000000",
             "nonStatTrak": "0.020500000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--milspec--dual-berettas-anodized-navy.png",
+          "imageAlternates": [
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--milspec--dual-berettas-anodized-navy--02.png"
+          ]
         },
         {
           "itemId": "souvenir-tec-9-brass",
@@ -198,11 +226,18 @@
             "base": "0.020500000000000000",
             "nonStatTrak": "0.020500000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--milspec--tec-9-brass.png",
+          "imageAlternates": [
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--milspec--tec-9-brass--02.png",
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--milspec--tec-9-brass--03.png",
+            "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Weapons/mlg-columbus-2016-inferno-souvenir-package--milspec--tec-9-brass--04.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Mlg-Columbus-2016-Inferno-Souvenir-Package/Icons/mlg-columbus-2016-inferno-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

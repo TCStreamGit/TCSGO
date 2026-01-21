@@ -63,7 +63,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--m4a4-magnesium.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--m4a4-magnesium--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--m4a4-magnesium--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--m4a4-magnesium--04.png"
+          ]
         },
         {
           "itemId": "glock-18-oxide-blaze",
@@ -86,7 +92,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--glock-18-oxide-blaze.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--glock-18-oxide-blaze--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--glock-18-oxide-blaze--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--glock-18-oxide-blaze--04.png"
+          ]
         },
         {
           "itemId": "mp9-modest-threat",
@@ -109,7 +121,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--mp9-modest-threat.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--mp9-modest-threat--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--mp9-modest-threat--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--mp9-modest-threat--04.png"
+          ]
         },
         {
           "itemId": "tec-9-fubar",
@@ -132,7 +150,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--tec-9-fubar.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--tec-9-fubar--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--tec-9-fubar--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--tec-9-fubar--04.png"
+          ]
         },
         {
           "itemId": "sg-553-danger-close",
@@ -155,7 +179,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--sg-553-danger-close.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--sg-553-danger-close--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--sg-553-danger-close--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--sg-553-danger-close--04.png"
+          ]
         },
         {
           "itemId": "nova-wood-fired",
@@ -178,7 +208,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--nova-wood-fired.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--nova-wood-fired--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--nova-wood-fired--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--nova-wood-fired--04.png"
+          ]
         },
         {
           "itemId": "sawed-off-black-sand",
@@ -201,7 +237,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--sawed-off-black-sand.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--sawed-off-black-sand--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--sawed-off-black-sand--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--mil-spec-grade--sawed-off-black-sand--04.png"
+          ]
         }
       ],
       "purple": [
@@ -226,7 +268,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--usp-s-flashback.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--usp-s-flashback--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--usp-s-flashback--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--usp-s-flashback--04.png"
+          ]
         },
         {
           "itemId": "p250-nevermore",
@@ -249,7 +297,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--p250-nevermore.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--p250-nevermore--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--p250-nevermore--03.png"
+          ]
         },
         {
           "itemId": "galil-ar-signal",
@@ -272,7 +325,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--galil-ar-signal.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--galil-ar-signal--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--galil-ar-signal--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--galil-ar-signal--04.png"
+          ]
         },
         {
           "itemId": "g3sg1-scavenger",
@@ -295,7 +354,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--g3sg1-scavenger.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--g3sg1-scavenger--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--g3sg1-scavenger--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--g3sg1-scavenger--04.png"
+          ]
         },
         {
           "itemId": "mac-10-pipe-down",
@@ -318,7 +383,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--mac-10-pipe-down.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--mac-10-pipe-down--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--mac-10-pipe-down--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--restricted--mac-10-pipe-down--04.png"
+          ]
         }
       ],
       "pink": [
@@ -343,7 +414,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--classified--desert-eagle-mecha-industries.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--classified--desert-eagle-mecha-industries--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--classified--desert-eagle-mecha-industries--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--classified--desert-eagle-mecha-industries--04.png"
+          ]
         },
         {
           "itemId": "mp5-sd-phosphor",
@@ -366,7 +443,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--classified--mp5-sd-phosphor.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--classified--mp5-sd-phosphor--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--classified--mp5-sd-phosphor--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--classified--mp5-sd-phosphor--04.png"
+          ]
         },
         {
           "itemId": "ump-45-momentum",
@@ -389,7 +472,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--classified--ump-45-momentum.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--classified--ump-45-momentum--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--classified--ump-45-momentum--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--classified--ump-45-momentum--04.png"
+          ]
         }
       ],
       "red": [
@@ -414,7 +503,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--covert--ak-47-asiimov.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--covert--ak-47-asiimov--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--covert--ak-47-asiimov--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--covert--ak-47-asiimov--04.png"
+          ]
         },
         {
           "itemId": "awp-neo-noir",
@@ -437,7 +532,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--covert--awp-neo-noir.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--covert--awp-neo-noir--02.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--covert--awp-neo-noir--03.png",
+            "Assets/Cases/Danger-Zone-Case/Weapons/danger-zone-case--covert--awp-neo-noir--04.png"
+          ]
         }
       ]
     },
@@ -471,7 +572,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-blue-steel--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-blue-steel--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-blue-steel--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-boreal-forest",
@@ -494,7 +602,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-boreal-forest--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-boreal-forest--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-boreal-forest--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-case-hardened",
@@ -517,7 +632,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-case-hardened--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-case-hardened--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-case-hardened--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-crimson-web",
@@ -540,7 +662,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-crimson-web--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-crimson-web--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-crimson-web--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-fade",
@@ -563,7 +692,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-fade--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "navaja-knife-forest-ddpat",
@@ -586,7 +720,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-forest-ddpat--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-forest-ddpat--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-forest-ddpat--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-night-stripe",
@@ -609,7 +750,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-night-stripe--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-night-stripe--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-night-stripe--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-safari-mesh",
@@ -632,7 +780,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-safari-mesh--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-safari-mesh--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-safari-mesh--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-scorched",
@@ -655,7 +810,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-scorched--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-scorched--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-scorched--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-slaughter",
@@ -678,7 +840,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-slaughter--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-slaughter--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "navaja-knife-stained",
@@ -701,7 +869,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-stained--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-stained--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-stained--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-urban-masked",
@@ -724,7 +899,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-urban-masked--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-urban-masked--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-urban-masked--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "navaja-knife-vanilla",
@@ -747,7 +929,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--navaja-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-blue-steel",
@@ -770,7 +956,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-blue-steel--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-blue-steel--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-blue-steel--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-boreal-forest",
@@ -793,7 +986,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-boreal-forest--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-boreal-forest--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-boreal-forest--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-case-hardened",
@@ -816,7 +1016,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-case-hardened--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-case-hardened--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-case-hardened--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-crimson-web",
@@ -839,7 +1046,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-crimson-web--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-crimson-web--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-crimson-web--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-fade",
@@ -862,7 +1076,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-fade--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-forest-ddpat",
@@ -885,7 +1104,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-forest-ddpat--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-forest-ddpat--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-forest-ddpat--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-night-stripe",
@@ -908,7 +1134,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-night-stripe--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-night-stripe--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-night-stripe--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-safari-mesh",
@@ -931,7 +1164,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-safari-mesh--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-safari-mesh--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-safari-mesh--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-scorched",
@@ -954,7 +1194,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-scorched--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-scorched--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-scorched--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-slaughter",
@@ -977,7 +1224,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-slaughter--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-slaughter--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-stained",
@@ -1000,7 +1253,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-stained--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-stained--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-stained--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-urban-masked",
@@ -1023,7 +1283,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-urban-masked--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-urban-masked--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-urban-masked--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "stiletto-knife-vanilla",
@@ -1046,7 +1313,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--stiletto-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "talon-knife-blue-steel",
@@ -1069,7 +1340,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-blue-steel--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-blue-steel--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-blue-steel--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-boreal-forest",
@@ -1092,7 +1370,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-boreal-forest--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-boreal-forest--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-boreal-forest--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-case-hardened",
@@ -1115,7 +1400,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-case-hardened--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-case-hardened--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-case-hardened--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-crimson-web",
@@ -1138,7 +1430,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-crimson-web--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-crimson-web--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-crimson-web--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-fade",
@@ -1161,7 +1460,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-fade--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "talon-knife-forest-ddpat",
@@ -1184,7 +1488,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-forest-ddpat--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-forest-ddpat--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-forest-ddpat--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-night-stripe",
@@ -1207,7 +1518,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-night-stripe--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-night-stripe--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-night-stripe--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-safari-mesh",
@@ -1230,7 +1548,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-safari-mesh--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-safari-mesh--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-safari-mesh--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-scorched",
@@ -1253,7 +1578,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-scorched--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-scorched--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-scorched--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-slaughter",
@@ -1276,7 +1608,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-slaughter--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-slaughter--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "talon-knife-stained",
@@ -1299,7 +1637,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-stained--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-stained--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-stained--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-urban-masked",
@@ -1322,7 +1667,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-urban-masked--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-urban-masked--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-urban-masked--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "talon-knife-vanilla",
@@ -1345,7 +1697,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--talon-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "ursus-knife-blue-steel",
@@ -1368,7 +1724,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-blue-steel--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-blue-steel--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-blue-steel--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-boreal-forest",
@@ -1391,7 +1754,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-boreal-forest--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-boreal-forest--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-boreal-forest--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-case-hardened",
@@ -1414,7 +1784,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-case-hardened--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-case-hardened--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-case-hardened--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-crimson-web",
@@ -1437,7 +1814,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-crimson-web--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-crimson-web--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-crimson-web--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-fade",
@@ -1460,7 +1844,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-fade--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "ursus-knife-forest-ddpat",
@@ -1483,7 +1872,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-forest-ddpat--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-forest-ddpat--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-forest-ddpat--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-night-stripe",
@@ -1506,7 +1902,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-night-stripe.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-night-stripe--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-night-stripe--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-night-stripe--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-night-stripe--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-safari-mesh",
@@ -1529,7 +1932,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-safari-mesh--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-safari-mesh--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-safari-mesh--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-scorched",
@@ -1552,7 +1962,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-scorched--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-scorched--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-scorched--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-slaughter",
@@ -1575,7 +1992,13 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-slaughter--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-slaughter--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "ursus-knife-stained",
@@ -1598,7 +2021,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-stained--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-stained--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-stained--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-urban-masked",
@@ -1621,7 +2051,14 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-urban-masked--02.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-urban-masked--03.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-urban-masked--04.png",
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-urban-masked--05.png"
+          ]
         },
         {
           "itemId": "ursus-knife-vanilla",
@@ -1644,10 +2081,15 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Danger-Zone-Case/Knives/danger-zone-case--rare-special-item--ursus-knife-vanilla--02.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Danger-Zone-Case/Icons/danger-zone-case--icon.png"
   },
   "audit": {
     "tierCounts": {

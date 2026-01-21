@@ -59,7 +59,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--dual-berettas-black-limba.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--dual-berettas-black-limba--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--dual-berettas-black-limba--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--dual-berettas-black-limba--04.png"
+          ]
         },
         {
           "itemId": "nova-tempest",
@@ -82,7 +88,12 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--nova-tempest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--nova-tempest--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--nova-tempest--03.png"
+          ]
         },
         {
           "itemId": "g3sg1-demeter",
@@ -105,7 +116,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--g3sg1-demeter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--g3sg1-demeter--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--g3sg1-demeter--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--g3sg1-demeter--04.png"
+          ]
         },
         {
           "itemId": "galil-ar-shattered",
@@ -128,7 +145,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--galil-ar-shattered.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--galil-ar-shattered--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--galil-ar-shattered--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--galil-ar-shattered--04.png"
+          ]
         },
         {
           "itemId": "ump-45-bone-pile",
@@ -151,7 +174,12 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--ump-45-bone-pile.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--ump-45-bone-pile--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--ump-45-bone-pile--03.png"
+          ]
         },
         {
           "itemId": "sg-553-wave-spray",
@@ -174,7 +202,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.119880000000000000",
             "statTrak": "0.013320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--sg-553-wave-spray.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--sg-553-wave-spray--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--sg-553-wave-spray--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--mil-spec--sg-553-wave-spray--04.png"
+          ]
         }
       ],
       "purple": [
@@ -199,7 +233,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--m4a1-s-bright-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--m4a1-s-bright-water--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--m4a1-s-bright-water--03.png"
+          ]
         },
         {
           "itemId": "usp-s-overgrowth",
@@ -222,7 +261,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--usp-s-overgrowth.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--usp-s-overgrowth--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--usp-s-overgrowth--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--usp-s-overgrowth--04.png"
+          ]
         },
         {
           "itemId": "m4a4-zirka",
@@ -245,7 +290,12 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--m4a4-zirka.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--m4a4-zirka--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--m4a4-zirka--03.png"
+          ]
         },
         {
           "itemId": "mac-10-graven",
@@ -268,7 +318,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.035955000000000000",
             "statTrak": "0.003995000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--mac-10-graven.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--mac-10-graven--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--mac-10-graven--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--restricted--mac-10-graven--04.png"
+          ]
         }
       ],
       "pink": [
@@ -293,7 +349,11 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--classified--awp-graphite.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--classified--awp-graphite--02.png"
+          ]
         },
         {
           "itemId": "p2000-ocean-foam",
@@ -316,7 +376,11 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--classified--p2000-ocean-foam.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--classified--p2000-ocean-foam--02.png"
+          ]
         },
         {
           "itemId": "p90-emerald-dragon",
@@ -339,7 +403,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--classified--p90-emerald-dragon.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--classified--p90-emerald-dragon--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--classified--p90-emerald-dragon--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--classified--p90-emerald-dragon--04.png"
+          ]
         }
       ],
       "red": [
@@ -364,7 +434,11 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--covert--desert-eagle-golden-koi.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--covert--desert-eagle-golden-koi--02.png"
+          ]
         },
         {
           "itemId": "ak-47-fire-serpent",
@@ -387,7 +461,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--covert--ak-47-fire-serpent.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--covert--ak-47-fire-serpent--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--covert--ak-47-fire-serpent--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Weapons/operation-bravo-case--covert--ak-47-fire-serpent--04.png"
+          ]
         }
       ]
     },
@@ -421,7 +501,8 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-vanilla.png"
         },
         {
           "itemId": "bayonet-blue-steel",
@@ -444,7 +525,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-blue-steel--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-blue-steel--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-blue-steel--04.png"
+          ]
         },
         {
           "itemId": "bayonet-boreal-forest",
@@ -467,7 +554,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-boreal-forest--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-boreal-forest--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-boreal-forest--04.png"
+          ]
         },
         {
           "itemId": "bayonet-case-hardened",
@@ -490,7 +583,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-case-hardened--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-case-hardened--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-case-hardened--04.png"
+          ]
         },
         {
           "itemId": "bayonet-crimson-web",
@@ -513,7 +612,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-crimson-web--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-crimson-web--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-crimson-web--04.png"
+          ]
         },
         {
           "itemId": "bayonet-fade",
@@ -536,7 +641,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-fade--02.png"
+          ]
         },
         {
           "itemId": "bayonet-forest-ddpat",
@@ -559,7 +668,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-forest-ddpat--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-forest-ddpat--04.png"
+          ]
         },
         {
           "itemId": "bayonet-night",
@@ -582,7 +697,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-night--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-night--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-night--04.png"
+          ]
         },
         {
           "itemId": "bayonet-safari-mesh",
@@ -605,7 +726,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-safari-mesh--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-safari-mesh--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-safari-mesh--04.png"
+          ]
         },
         {
           "itemId": "bayonet-scorched",
@@ -628,7 +755,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-scorched--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-scorched--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-scorched--04.png"
+          ]
         },
         {
           "itemId": "bayonet-slaughter",
@@ -651,7 +784,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-slaughter--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-slaughter--03.png"
+          ]
         },
         {
           "itemId": "bayonet-stained",
@@ -674,7 +812,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-stained--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-stained--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-stained--04.png"
+          ]
         },
         {
           "itemId": "bayonet-urban-masked",
@@ -697,9 +841,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-urban-masked--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-urban-masked--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--bayonet-urban-masked--04.png"
+          ]
         },
-
         {
           "itemId": "flip-knife-vanilla",
           "displayName": "★ Flip Knife",
@@ -721,7 +870,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "flip-knife-blue-steel",
@@ -744,7 +897,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-blue-steel--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-blue-steel--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-blue-steel--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-boreal-forest",
@@ -767,7 +927,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-boreal-forest--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-boreal-forest--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-boreal-forest--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-case-hardened",
@@ -790,7 +957,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-case-hardened--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-case-hardened--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-case-hardened--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-crimson-web",
@@ -813,7 +987,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-crimson-web--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-crimson-web--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-crimson-web--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-fade",
@@ -836,7 +1017,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-fade--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "flip-knife-forest-ddpat",
@@ -859,7 +1045,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-forest-ddpat--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-forest-ddpat--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-night",
@@ -882,7 +1075,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-night--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-night--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-night--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-night--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-safari-mesh",
@@ -905,7 +1105,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-safari-mesh--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-safari-mesh--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-safari-mesh--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-scorched",
@@ -928,7 +1135,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-scorched--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-scorched--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-scorched--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-slaughter",
@@ -951,7 +1165,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-slaughter--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-slaughter--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "flip-knife-stained",
@@ -974,7 +1194,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-stained--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-stained--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-stained--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "flip-knife-urban-masked",
@@ -997,9 +1224,15 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-urban-masked--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-urban-masked--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-urban-masked--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--flip-knife-urban-masked--05.png"
+          ]
         },
-
         {
           "itemId": "gut-knife-vanilla",
           "displayName": "★ Gut Knife",
@@ -1021,7 +1254,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-vanilla--02.png"
+          ]
         },
         {
           "itemId": "gut-knife-blue-steel",
@@ -1044,7 +1281,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-blue-steel--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-blue-steel--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-blue-steel--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-boreal-forest",
@@ -1067,7 +1311,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-boreal-forest--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-boreal-forest--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-boreal-forest--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-case-hardened",
@@ -1090,7 +1341,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-case-hardened--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-case-hardened--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-case-hardened--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-crimson-web",
@@ -1113,7 +1371,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-crimson-web--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-crimson-web--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-crimson-web--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-fade",
@@ -1136,7 +1401,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-fade--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-fade--03.png"
+          ]
         },
         {
           "itemId": "gut-knife-forest-ddpat",
@@ -1159,7 +1429,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-forest-ddpat--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-forest-ddpat--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-night",
@@ -1182,7 +1459,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-night--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-night--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-night--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-night--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-safari-mesh",
@@ -1205,7 +1489,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-safari-mesh--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-safari-mesh--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-safari-mesh--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-scorched",
@@ -1228,7 +1519,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-scorched--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-scorched--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-scorched--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-scorched--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-slaughter",
@@ -1251,7 +1549,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-slaughter--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-slaughter--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-slaughter--04.png"
+          ]
         },
         {
           "itemId": "gut-knife-stained",
@@ -1274,7 +1578,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-stained--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-stained--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-stained--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-stained--05.png"
+          ]
         },
         {
           "itemId": "gut-knife-urban-masked",
@@ -1297,9 +1608,15 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-urban-masked--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-urban-masked--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-urban-masked--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--gut-knife-urban-masked--05.png"
+          ]
         },
-
         {
           "itemId": "karambit-vanilla",
           "displayName": "★ Karambit",
@@ -1321,7 +1638,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-vanilla--02.png"
+          ]
         },
         {
           "itemId": "karambit-blue-steel",
@@ -1344,7 +1665,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-blue-steel--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-blue-steel--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-blue-steel--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "karambit-boreal-forest",
@@ -1367,7 +1695,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-boreal-forest--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-boreal-forest--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-boreal-forest--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "karambit-case-hardened",
@@ -1390,7 +1725,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-case-hardened--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-case-hardened--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-case-hardened--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "karambit-crimson-web",
@@ -1413,7 +1755,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-crimson-web--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-crimson-web--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-crimson-web--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "karambit-fade",
@@ -1436,7 +1785,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-fade--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-fade--03.png"
+          ]
         },
         {
           "itemId": "karambit-forest-ddpat",
@@ -1459,7 +1813,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-forest-ddpat--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-forest-ddpat--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "karambit-night",
@@ -1482,7 +1843,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-night--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-night--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-night--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-night--05.png"
+          ]
         },
         {
           "itemId": "karambit-safari-mesh",
@@ -1505,7 +1873,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-safari-mesh--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-safari-mesh--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-safari-mesh--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "karambit-scorched",
@@ -1528,7 +1903,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-scorched--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-scorched--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-scorched--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-scorched--05.png"
+          ]
         },
         {
           "itemId": "karambit-slaughter",
@@ -1551,7 +1933,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-slaughter--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-slaughter--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-slaughter--04.png"
+          ]
         },
         {
           "itemId": "karambit-stained",
@@ -1574,7 +1962,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-stained--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-stained--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-stained--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-stained--05.png"
+          ]
         },
         {
           "itemId": "karambit-urban-masked",
@@ -1597,9 +1992,15 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-urban-masked--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-urban-masked--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-urban-masked--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--karambit-urban-masked--05.png"
+          ]
         },
-
         {
           "itemId": "m9-bayonet-vanilla",
           "displayName": "★ M9 Bayonet",
@@ -1621,7 +2022,11 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-vanilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-vanilla--02.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-blue-steel",
@@ -1644,7 +2049,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-blue-steel.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-blue-steel--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-blue-steel--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-blue-steel--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-blue-steel--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-boreal-forest",
@@ -1667,7 +2079,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-boreal-forest.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-boreal-forest--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-boreal-forest--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-boreal-forest--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-boreal-forest--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-case-hardened",
@@ -1690,7 +2109,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-case-hardened.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-case-hardened--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-case-hardened--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-case-hardened--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-case-hardened--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-crimson-web",
@@ -1713,7 +2139,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-crimson-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-crimson-web--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-crimson-web--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-crimson-web--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-crimson-web--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-fade",
@@ -1736,7 +2169,12 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-fade--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-fade--03.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-forest-ddpat",
@@ -1759,7 +2197,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-forest-ddpat--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-forest-ddpat--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-forest-ddpat--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-night",
@@ -1782,7 +2227,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-night--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-night--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-night--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-night--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-safari-mesh",
@@ -1805,7 +2257,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-safari-mesh--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-safari-mesh--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-safari-mesh--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-safari-mesh--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-scorched",
@@ -1828,7 +2287,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-scorched--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-scorched--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-scorched--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-scorched--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-slaughter",
@@ -1851,7 +2317,13 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-slaughter--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-slaughter--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-slaughter--04.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-stained",
@@ -1874,7 +2346,14 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-stained.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-stained--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-stained--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-stained--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-stained--05.png"
+          ]
         },
         {
           "itemId": "m9-bayonet-urban-masked",
@@ -1897,10 +2376,18 @@
             "base": "0.000040000000000000",
             "nonStatTrak": "0.000036000000000000",
             "statTrak": "0.000004000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-urban-masked.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-urban-masked--02.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-urban-masked--03.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-urban-masked--04.png",
+            "Assets/Cases/Operation-Bravo-Case/Knives/operation-bravo-case--extraordinary--m9-bayonet-urban-masked--05.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Operation-Bravo-Case/Icons/operation-bravo-case--icon.png"
   },
   "audit": {
     "tierCounts": {

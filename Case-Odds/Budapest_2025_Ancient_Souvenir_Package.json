@@ -84,7 +84,12 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--nova-army-sheen.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--nova-army-sheen--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--nova-army-sheen--03.png"
+          ]
         },
         {
           "itemId": "p90-ancient-earth-souvenir",
@@ -107,7 +112,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--p90-ancient-earth.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--p90-ancient-earth--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--p90-ancient-earth--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--p90-ancient-earth--04.png"
+          ]
         },
         {
           "itemId": "ssg-08-jungle-dashed-souvenir",
@@ -130,7 +141,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--ssg-08-jungle-dashed.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--ssg-08-jungle-dashed--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--ssg-08-jungle-dashed--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--ssg-08-jungle-dashed--04.png"
+          ]
         },
         {
           "itemId": "r8-revolver-night-souvenir",
@@ -153,7 +170,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--r8-revolver-night.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--r8-revolver-night--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--r8-revolver-night--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--r8-revolver-night--04.png"
+          ]
         },
         {
           "itemId": "sg-553-lush-ruins-souvenir",
@@ -176,7 +199,13 @@
             "base": "0.159840000000000000",
             "nonStatTrak": "0.159840000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--sg-553-lush-ruins.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--sg-553-lush-ruins--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--sg-553-lush-ruins--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--consumer--sg-553-lush-ruins--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -201,7 +230,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--p2000-panther-camo.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--p2000-panther-camo--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--p2000-panther-camo--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--p2000-panther-camo--04.png"
+          ]
         },
         {
           "itemId": "mp7-tall-grass-souvenir",
@@ -224,7 +259,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--mp7-tall-grass.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--mp7-tall-grass--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--mp7-tall-grass--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--mp7-tall-grass--04.png"
+          ]
         },
         {
           "itemId": "cz75-auto-silver-souvenir",
@@ -247,7 +288,11 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--cz75-auto-silver.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--cz75-auto-silver--02.png"
+          ]
         },
         {
           "itemId": "g3sg1-ancient-ritual-souvenir",
@@ -270,7 +315,13 @@
             "base": "0.039950000000000000",
             "nonStatTrak": "0.039950000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--g3sg1-ancient-ritual.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--g3sg1-ancient-ritual--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--g3sg1-ancient-ritual--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--industrial--g3sg1-ancient-ritual--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -295,7 +346,12 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--aug-carved-jade.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--aug-carved-jade--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--aug-carved-jade--03.png"
+          ]
         },
         {
           "itemId": "famas-dark-water-souvenir",
@@ -318,7 +374,12 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--famas-dark-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--famas-dark-water--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--famas-dark-water--03.png"
+          ]
         },
         {
           "itemId": "tec-9-blast-from-the-past-souvenir",
@@ -341,7 +402,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--tec-9-blast-from-the-past.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--tec-9-blast-from-the-past--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--tec-9-blast-from-the-past--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--tec-9-blast-from-the-past--04.png"
+          ]
         },
         {
           "itemId": "galil-ar-dusk-ruins-souvenir",
@@ -364,7 +431,13 @@
             "base": "0.008000000000000000",
             "nonStatTrak": "0.008000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--galil-ar-dusk-ruins.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--galil-ar-dusk-ruins--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--galil-ar-dusk-ruins--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--milspec--galil-ar-dusk-ruins--04.png"
+          ]
         }
       ],
       "restricted": [
@@ -389,7 +462,13 @@
             "base": "0.002133333334000000",
             "nonStatTrak": "0.002133333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--restricted--mac-10-gold-brick.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--restricted--mac-10-gold-brick--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--restricted--mac-10-gold-brick--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--restricted--mac-10-gold-brick--04.png"
+          ]
         },
         {
           "itemId": "usp-s-ancient-visions-souvenir",
@@ -412,7 +491,12 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--restricted--usp-s-ancient-visions.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--restricted--usp-s-ancient-visions--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--restricted--usp-s-ancient-visions--03.png"
+          ]
         },
         {
           "itemId": "xm1014-ancient-lore-souvenir",
@@ -435,7 +519,13 @@
             "base": "0.002133333333000000",
             "nonStatTrak": "0.002133333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--restricted--xm1014-ancient-lore.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--restricted--xm1014-ancient-lore--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--restricted--xm1014-ancient-lore--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--restricted--xm1014-ancient-lore--04.png"
+          ]
         }
       ],
       "classified": [
@@ -460,7 +550,13 @@
             "base": "0.000640000000000000",
             "nonStatTrak": "0.000640000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--classified--p90-run-and-hide.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--classified--p90-run-and-hide--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--classified--p90-run-and-hide--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--classified--p90-run-and-hide--04.png"
+          ]
         },
         {
           "itemId": "ak-47-panthera-onca-souvenir",
@@ -483,7 +579,13 @@
             "base": "0.000640000000000000",
             "nonStatTrak": "0.000640000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--classified--ak-47-panthera-onca.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--classified--ak-47-panthera-onca--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--classified--ak-47-panthera-onca--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--classified--ak-47-panthera-onca--04.png"
+          ]
         }
       ],
       "covert": [
@@ -508,11 +610,18 @@
             "base": "0.001320000000000000",
             "nonStatTrak": "0.001320000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--covert--m4a1-s-welcome-to-the-jungle.png",
+          "imageAlternates": [
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--covert--m4a1-s-welcome-to-the-jungle--02.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--covert--m4a1-s-welcome-to-the-jungle--03.png",
+            "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Weapons/budapest-2025-ancient-souvenir-package--covert--m4a1-s-welcome-to-the-jungle--04.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Budapest-2025-Ancient-Souvenir-Package/Icons/budapest-2025-ancient-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

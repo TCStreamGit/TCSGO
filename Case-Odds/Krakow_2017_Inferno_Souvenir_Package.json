@@ -81,7 +81,13 @@
             "base": "0.399600000000000000",
             "nonStatTrak": "0.399600000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--consumer--mag-7-sand-dune.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--consumer--mag-7-sand-dune--02.png",
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--consumer--mag-7-sand-dune--03.png",
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--consumer--mag-7-sand-dune--04.png"
+          ]
         },
         {
           "itemId": "nova-walnut-souvenir",
@@ -104,7 +110,13 @@
             "base": "0.399600000000000000",
             "nonStatTrak": "0.399600000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--consumer--nova-walnut.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--consumer--nova-walnut--02.png",
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--consumer--nova-walnut--03.png",
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--consumer--nova-walnut--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -129,7 +141,13 @@
             "base": "0.079900000000000000",
             "nonStatTrak": "0.079900000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--industrial--m4a4-tornado.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--industrial--m4a4-tornado--02.png",
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--industrial--m4a4-tornado--03.png",
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--industrial--m4a4-tornado--04.png"
+          ]
         },
         {
           "itemId": "p250-gunsmoke-souvenir",
@@ -152,7 +170,13 @@
             "base": "0.079900000000000000",
             "nonStatTrak": "0.079900000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--industrial--p250-gunsmoke.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--industrial--p250-gunsmoke--02.png",
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--industrial--p250-gunsmoke--03.png",
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--industrial--p250-gunsmoke--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -177,7 +201,11 @@
             "base": "0.020500000000000000",
             "nonStatTrak": "0.020500000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--milspec--dual-berettas-anodized-navy.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--milspec--dual-berettas-anodized-navy--02.png"
+          ]
         },
         {
           "itemId": "tec-9-brass-souvenir",
@@ -200,11 +228,18 @@
             "base": "0.020500000000000000",
             "nonStatTrak": "0.020500000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--milspec--tec-9-brass.png",
+          "imageAlternates": [
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--milspec--tec-9-brass--02.png",
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--milspec--tec-9-brass--03.png",
+            "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Weapons/krakow-2017-inferno-souvenir-package--milspec--tec-9-brass--04.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Krakow-2017-Inferno-Souvenir-Package/Icons/krakow-2017-inferno-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

@@ -60,7 +60,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--usp-s-blueprint.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--usp-s-blueprint--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--usp-s-blueprint--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--usp-s-blueprint--04.png"
+          ]
         },
         {
           "itemId": "famas-macabre",
@@ -83,7 +89,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--famas-macabre.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--famas-macabre--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--famas-macabre--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--famas-macabre--04.png"
+          ]
         },
         {
           "itemId": "m4a1-s-briefing",
@@ -106,7 +118,13 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--m4a1-s-briefing.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--m4a1-s-briefing--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--m4a1-s-briefing--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--m4a1-s-briefing--04.png"
+          ]
         },
         {
           "itemId": "mac-10-aloha",
@@ -129,7 +147,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--mac-10-aloha.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--mac-10-aloha--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--mac-10-aloha--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--mac-10-aloha--04.png"
+          ]
         },
         {
           "itemId": "mag-7-hard-water",
@@ -152,7 +176,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--mag-7-hard-water.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--mag-7-hard-water--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--mag-7-hard-water--03.png"
+          ]
         },
         {
           "itemId": "tec-9-cut-out",
@@ -175,7 +204,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--tec-9-cut-out.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--tec-9-cut-out--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--tec-9-cut-out--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--tec-9-cut-out--04.png"
+          ]
         },
         {
           "itemId": "ump-45-metal-flowers",
@@ -198,7 +233,13 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--ump-45-metal-flowers.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--ump-45-metal-flowers--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--ump-45-metal-flowers--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--mil-spec--ump-45-metal-flowers--04.png"
+          ]
         }
       ],
       "purple": [
@@ -223,7 +264,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--ak-47-orbit-mk01.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--ak-47-orbit-mk01--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--ak-47-orbit-mk01--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--ak-47-orbit-mk01--04.png"
+          ]
         },
         {
           "itemId": "p2000-woodsman",
@@ -246,7 +293,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--p2000-woodsman.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--p2000-woodsman--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--p2000-woodsman--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--p2000-woodsman--04.png"
+          ]
         },
         {
           "itemId": "p250-red-rock",
@@ -269,7 +322,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--p250-red-rock.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--p250-red-rock--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--p250-red-rock--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--p250-red-rock--04.png"
+          ]
         },
         {
           "itemId": "p90-death-grip",
@@ -292,7 +351,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--p90-death-grip.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--p90-death-grip--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--p90-death-grip--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--p90-death-grip--04.png"
+          ]
         },
         {
           "itemId": "ssg-08-deaths-head",
@@ -315,7 +380,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--ssg-08-deaths-head.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--ssg-08-deaths-head--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--ssg-08-deaths-head--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--restricted--ssg-08-deaths-head--04.png"
+          ]
         }
       ],
       "pink": [
@@ -340,7 +411,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--classified--dual-berettas-cobra-strike.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--classified--dual-berettas-cobra-strike--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--classified--dual-berettas-cobra-strike--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--classified--dual-berettas-cobra-strike--04.png"
+          ]
         },
         {
           "itemId": "galil-ar-sugar-rush",
@@ -363,7 +440,13 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--classified--galil-ar-sugar-rush.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--classified--galil-ar-sugar-rush--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--classified--galil-ar-sugar-rush--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--classified--galil-ar-sugar-rush--04.png"
+          ]
         },
         {
           "itemId": "m4a4-hellfire",
@@ -386,7 +469,13 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--classified--m4a4-hellfire.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--classified--m4a4-hellfire--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--classified--m4a4-hellfire--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--classified--m4a4-hellfire--04.png"
+          ]
         }
       ],
       "red": [
@@ -411,7 +500,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--covert--five-seven-hyper-beast.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--covert--five-seven-hyper-beast--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--covert--five-seven-hyper-beast--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--covert--five-seven-hyper-beast--04.png"
+          ]
         },
         {
           "itemId": "awp-oni-taiji",
@@ -434,7 +529,13 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--covert--awp-oni-taiji.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--covert--awp-oni-taiji--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--covert--awp-oni-taiji--03.png",
+            "Assets/Cases/Operation-Hydra-Case/Weapons/operation-hydra-case--covert--awp-oni-taiji--04.png"
+          ]
         }
       ]
     },
@@ -468,7 +569,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--moto-gloves-spearmint.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--moto-gloves-spearmint--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--moto-gloves-spearmint--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-crimson-kimono",
@@ -491,7 +597,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--specialist-gloves-crimson-kimono.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--specialist-gloves-crimson-kimono--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--specialist-gloves-crimson-kimono--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-hedge-maze",
@@ -514,7 +625,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--sport-gloves-hedge-maze.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--sport-gloves-hedge-maze--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--sport-gloves-hedge-maze--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-cool-mint",
@@ -537,7 +653,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--moto-gloves-cool-mint.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--moto-gloves-cool-mint--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--moto-gloves-cool-mint--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-lunar-weave",
@@ -560,7 +681,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--driver-gloves-lunar-weave.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--driver-gloves-lunar-weave--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--driver-gloves-lunar-weave--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-emerald-web",
@@ -583,7 +709,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--specialist-gloves-emerald-web.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--specialist-gloves-emerald-web--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--specialist-gloves-emerald-web--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-superconductor",
@@ -606,7 +737,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--sport-gloves-superconductor.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--sport-gloves-superconductor--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--sport-gloves-superconductor--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-arid",
@@ -629,7 +765,12 @@
             "base": "0.000108333334000000",
             "nonStatTrak": "0.000108333334000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--sport-gloves-arid.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--sport-gloves-arid--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--sport-gloves-arid--03.png"
+          ]
         },
         {
           "itemId": "sport-gloves-pandoras-box",
@@ -652,7 +793,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--sport-gloves-pandoras-box.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--sport-gloves-pandoras-box--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--sport-gloves-pandoras-box--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-leather",
@@ -675,7 +821,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--hand-wraps-leather.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--hand-wraps-leather--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--hand-wraps-leather--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-eclipse",
@@ -698,7 +849,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--moto-gloves-eclipse.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--moto-gloves-eclipse--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--moto-gloves-eclipse--03.png"
+          ]
         },
         {
           "itemId": "moto-gloves-boom",
@@ -721,7 +877,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--moto-gloves-boom.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--moto-gloves-boom--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--moto-gloves-boom--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-crimson-weave",
@@ -744,7 +905,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--driver-gloves-crimson-weave.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--driver-gloves-crimson-weave--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--driver-gloves-crimson-weave--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-foundation",
@@ -767,7 +933,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--specialist-gloves-foundation.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--specialist-gloves-foundation--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--specialist-gloves-foundation--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-badlands",
@@ -790,7 +961,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--hand-wraps-badlands.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--hand-wraps-badlands--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--hand-wraps-badlands--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-slaughter",
@@ -813,7 +989,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--hand-wraps-slaughter.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--hand-wraps-slaughter--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--hand-wraps-slaughter--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-convoy",
@@ -836,7 +1017,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--driver-gloves-convoy.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--driver-gloves-convoy--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--driver-gloves-convoy--03.png"
+          ]
         },
         {
           "itemId": "driver-gloves-diamondback",
@@ -859,7 +1045,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--driver-gloves-diamondback.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--driver-gloves-diamondback--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--driver-gloves-diamondback--03.png"
+          ]
         },
         {
           "itemId": "specialist-gloves-forest-ddpat",
@@ -882,7 +1073,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--specialist-gloves-forest-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--specialist-gloves-forest-ddpat--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--specialist-gloves-forest-ddpat--03.png"
+          ]
         },
         {
           "itemId": "bloodhound-gloves-charred",
@@ -905,7 +1101,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--bloodhound-gloves-charred.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--bloodhound-gloves-charred--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--bloodhound-gloves-charred--03.png"
+          ]
         },
         {
           "itemId": "bloodhound-gloves-bronzed",
@@ -928,7 +1129,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--bloodhound-gloves-bronzed.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--bloodhound-gloves-bronzed--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--bloodhound-gloves-bronzed--03.png"
+          ]
         },
         {
           "itemId": "bloodhound-gloves-snakebite",
@@ -951,7 +1157,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--bloodhound-gloves-snakebite.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--bloodhound-gloves-snakebite--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--bloodhound-gloves-snakebite--03.png"
+          ]
         },
         {
           "itemId": "bloodhound-gloves-guerrilla",
@@ -974,7 +1185,12 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--bloodhound-gloves-guerrilla.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--bloodhound-gloves-guerrilla--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--bloodhound-gloves-guerrilla--03.png"
+          ]
         },
         {
           "itemId": "hand-wraps-spruce-ddpat",
@@ -997,10 +1213,16 @@
             "base": "0.000108333333000000",
             "nonStatTrak": "0.000108333333000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--hand-wraps-spruce-ddpat.png",
+          "imageAlternates": [
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--hand-wraps-spruce-ddpat--02.png",
+            "Assets/Cases/Operation-Hydra-Case/Gloves/operation-hydra-case--extraordinary--hand-wraps-spruce-ddpat--03.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Operation-Hydra-Case/Icons/operation-hydra-case--icon.png"
   },
   "audit": {
     "tierCounts": {

@@ -60,7 +60,12 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--xm1014-mockingbird-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--xm1014-mockingbird-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--xm1014-mockingbird-none--03.png"
+          ]
         },
         {
           "itemId": "usp-s-pc-grn-none",
@@ -83,7 +88,12 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--usp-s-pc-grn-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--usp-s-pc-grn-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--usp-s-pc-grn-none--03.png"
+          ]
         },
         {
           "itemId": "ssg-08-memorial-none",
@@ -106,7 +116,12 @@
             "base": "0.114171428572000000",
             "nonStatTrak": "0.102754285715000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--ssg-08-memorial-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--ssg-08-memorial-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--ssg-08-memorial-none--03.png"
+          ]
         },
         {
           "itemId": "p2000-sure-grip-none",
@@ -129,7 +144,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--p2000-sure-grip-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--p2000-sure-grip-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--p2000-sure-grip-none--03.png"
+          ]
         },
         {
           "itemId": "mp9-nexus-none",
@@ -152,7 +172,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--mp9-nexus-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--mp9-nexus-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--mp9-nexus-none--03.png"
+          ]
         },
         {
           "itemId": "mag-7-resupply-none",
@@ -175,7 +200,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--mag-7-resupply-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--mag-7-resupply-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--mag-7-resupply-none--03.png"
+          ]
         },
         {
           "itemId": "m4a4-choppa-none",
@@ -198,7 +228,12 @@
             "base": "0.114171428571000000",
             "nonStatTrak": "0.102754285714000000",
             "statTrak": "0.011417142857000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--m4a4-choppa-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--m4a4-choppa-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--mil-spec--m4a4-choppa-none--03.png"
+          ]
         }
       ],
       "purple": [
@@ -223,7 +258,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--zeus-x27-tosai-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--zeus-x27-tosai-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--zeus-x27-tosai-none--03.png"
+          ]
         },
         {
           "itemId": "p90-wave-breaker-none",
@@ -246,7 +286,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--p90-wave-breaker-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--p90-wave-breaker-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--p90-wave-breaker-none--03.png"
+          ]
         },
         {
           "itemId": "nova-rising-sun-none",
@@ -269,7 +314,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--nova-rising-sun-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--nova-rising-sun-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--nova-rising-sun-none--03.png"
+          ]
         },
         {
           "itemId": "galil-ar-control-none",
@@ -292,7 +342,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--galil-ar-control-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--galil-ar-control-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--galil-ar-control-none--03.png"
+          ]
         },
         {
           "itemId": "desert-eagle-serpent-strike-none",
@@ -315,7 +370,12 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.028764000000000000",
             "statTrak": "0.003196000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--desert-eagle-serpent-strike-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--desert-eagle-serpent-strike-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--restricted--desert-eagle-serpent-strike-none--03.png"
+          ]
         }
       ],
       "pink": [
@@ -340,7 +400,12 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--classified--ump-45-k-o-factory-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--classified--ump-45-k-o-factory-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--classified--ump-45-k-o-factory-none--03.png"
+          ]
         },
         {
           "itemId": "glock-18-shinobu-none",
@@ -363,7 +428,12 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.009600000000000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--classified--glock-18-shinobu-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--classified--glock-18-shinobu-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--classified--glock-18-shinobu-none--03.png"
+          ]
         },
         {
           "itemId": "ak-47-searing-rage-none",
@@ -386,7 +456,12 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.009599999999000000",
             "statTrak": "0.001066666667000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--classified--ak-47-searing-rage-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--classified--ak-47-searing-rage-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--classified--ak-47-searing-rage-none--03.png"
+          ]
         }
       ],
       "red": [
@@ -411,7 +486,12 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--covert--awp-printstream-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--covert--awp-printstream-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--covert--awp-printstream-none--03.png"
+          ]
         },
         {
           "itemId": "famas-bad-trip-none",
@@ -434,7 +514,12 @@
             "base": "0.003200000000000000",
             "nonStatTrak": "0.002880000000000000",
             "statTrak": "0.000320000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Weapons/fever-case--covert--famas-bad-trip-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Weapons/fever-case--covert--famas-bad-trip-none--02.png",
+            "Assets/Cases/Fever-Case/Weapons/fever-case--covert--famas-bad-trip-none--03.png"
+          ]
         }
       ]
     },
@@ -468,7 +553,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-damascus-steel-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-damascus-steel-none--02.png",
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-damascus-steel-none--03.png"
+          ]
         },
         {
           "itemId": "nomad-knife-marble-fade-none",
@@ -491,7 +581,8 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-marble-fade-none.png"
         },
         {
           "itemId": "nomad-knife-tiger-tooth-none",
@@ -514,7 +605,8 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-tiger-tooth-none.png"
         },
         {
           "itemId": "nomad-knife-ultraviolet-none",
@@ -537,7 +629,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-ultraviolet-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-ultraviolet-none--02.png",
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-ultraviolet-none--03.png"
+          ]
         },
         {
           "itemId": "nomad-knife-rust-coat-none",
@@ -560,7 +657,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-rust-coat-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-rust-coat-none--02.png"
+          ]
         },
         {
           "itemId": "nomad-knife-doppler-none",
@@ -583,7 +684,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-none--02.png"
+          ]
         },
         {
           "itemId": "nomad-knife-doppler-phase-1",
@@ -606,7 +711,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-phase-1--02.png"
+          ]
         },
         {
           "itemId": "nomad-knife-doppler-phase-2",
@@ -629,7 +738,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-phase-2--02.png"
+          ]
         },
         {
           "itemId": "nomad-knife-doppler-phase-3",
@@ -652,7 +765,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-phase-3--02.png"
+          ]
         },
         {
           "itemId": "nomad-knife-doppler-phase-4",
@@ -675,7 +792,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-phase-4--02.png"
+          ]
         },
         {
           "itemId": "nomad-knife-doppler-ruby",
@@ -698,7 +819,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-ruby--02.png"
+          ]
         },
         {
           "itemId": "nomad-knife-doppler-sapphire",
@@ -721,7 +846,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-sapphire--02.png"
+          ]
         },
         {
           "itemId": "nomad-knife-doppler-black-pearl",
@@ -744,7 +873,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--nomad-knife-doppler-black-pearl--02.png"
+          ]
         },
         {
           "itemId": "paracord-knife-damascus-steel-none",
@@ -767,7 +900,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-damascus-steel-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-damascus-steel-none--02.png",
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-damascus-steel-none--03.png"
+          ]
         },
         {
           "itemId": "paracord-knife-marble-fade-none",
@@ -790,7 +928,8 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-marble-fade-none.png"
         },
         {
           "itemId": "paracord-knife-tiger-tooth-none",
@@ -813,7 +952,8 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-tiger-tooth-none.png"
         },
         {
           "itemId": "paracord-knife-ultraviolet-none",
@@ -836,7 +976,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-ultraviolet-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-ultraviolet-none--02.png",
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-ultraviolet-none--03.png"
+          ]
         },
         {
           "itemId": "paracord-knife-rust-coat-none",
@@ -859,7 +1004,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-rust-coat-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-rust-coat-none--02.png"
+          ]
         },
         {
           "itemId": "paracord-knife-doppler-none",
@@ -882,7 +1031,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-none--02.png"
+          ]
         },
         {
           "itemId": "paracord-knife-doppler-phase-1",
@@ -905,7 +1058,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-phase-1--02.png"
+          ]
         },
         {
           "itemId": "paracord-knife-doppler-phase-2",
@@ -928,7 +1085,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-phase-2--02.png"
+          ]
         },
         {
           "itemId": "paracord-knife-doppler-phase-3",
@@ -951,7 +1112,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-phase-3--02.png"
+          ]
         },
         {
           "itemId": "paracord-knife-doppler-phase-4",
@@ -974,7 +1139,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-phase-4--02.png"
+          ]
         },
         {
           "itemId": "paracord-knife-doppler-ruby",
@@ -997,7 +1166,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-ruby--02.png"
+          ]
         },
         {
           "itemId": "paracord-knife-doppler-sapphire",
@@ -1020,7 +1193,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-sapphire--02.png"
+          ]
         },
         {
           "itemId": "paracord-knife-doppler-black-pearl",
@@ -1043,7 +1220,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--paracord-knife-doppler-black-pearl--02.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-damascus-steel-none",
@@ -1066,7 +1247,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-damascus-steel-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-damascus-steel-none--02.png",
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-damascus-steel-none--03.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-marble-fade-none",
@@ -1089,7 +1275,8 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-marble-fade-none.png"
         },
         {
           "itemId": "skeleton-knife-tiger-tooth-none",
@@ -1112,7 +1299,8 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-tiger-tooth-none.png"
         },
         {
           "itemId": "skeleton-knife-ultraviolet-none",
@@ -1135,7 +1323,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-ultraviolet-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-ultraviolet-none--02.png",
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-ultraviolet-none--03.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-rust-coat-none",
@@ -1158,7 +1351,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-rust-coat-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-rust-coat-none--02.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-doppler-none",
@@ -1181,7 +1378,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-none--02.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-doppler-phase-1",
@@ -1204,7 +1405,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-phase-1--02.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-doppler-phase-2",
@@ -1227,7 +1432,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-phase-2--02.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-doppler-phase-3",
@@ -1250,7 +1459,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-phase-3--02.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-doppler-phase-4",
@@ -1273,7 +1486,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-phase-4--02.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-doppler-ruby",
@@ -1296,7 +1513,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-ruby--02.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-doppler-sapphire",
@@ -1319,7 +1540,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-sapphire--02.png"
+          ]
         },
         {
           "itemId": "skeleton-knife-doppler-black-pearl",
@@ -1342,7 +1567,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--skeleton-knife-doppler-black-pearl--02.png"
+          ]
         },
         {
           "itemId": "survival-knife-damascus-steel-none",
@@ -1365,7 +1594,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-damascus-steel-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-damascus-steel-none--02.png",
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-damascus-steel-none--03.png"
+          ]
         },
         {
           "itemId": "survival-knife-marble-fade-none",
@@ -1388,7 +1622,8 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-marble-fade-none.png"
         },
         {
           "itemId": "survival-knife-tiger-tooth-none",
@@ -1411,7 +1646,8 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-tiger-tooth-none.png"
         },
         {
           "itemId": "survival-knife-ultraviolet-none",
@@ -1434,7 +1670,12 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-ultraviolet-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-ultraviolet-none--02.png",
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-ultraviolet-none--03.png"
+          ]
         },
         {
           "itemId": "survival-knife-rust-coat-none",
@@ -1457,7 +1698,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-rust-coat-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-rust-coat-none--02.png"
+          ]
         },
         {
           "itemId": "survival-knife-doppler-none",
@@ -1480,7 +1725,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-none.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-none--02.png"
+          ]
         },
         {
           "itemId": "survival-knife-doppler-phase-1",
@@ -1503,7 +1752,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-phase-1.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-phase-1--02.png"
+          ]
         },
         {
           "itemId": "survival-knife-doppler-phase-2",
@@ -1526,7 +1779,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-phase-2.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-phase-2--02.png"
+          ]
         },
         {
           "itemId": "survival-knife-doppler-phase-3",
@@ -1549,7 +1806,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-phase-3.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-phase-3--02.png"
+          ]
         },
         {
           "itemId": "survival-knife-doppler-phase-4",
@@ -1572,7 +1833,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-phase-4.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-phase-4--02.png"
+          ]
         },
         {
           "itemId": "survival-knife-doppler-ruby",
@@ -1595,7 +1860,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-ruby.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-ruby--02.png"
+          ]
         },
         {
           "itemId": "survival-knife-doppler-sapphire",
@@ -1618,7 +1887,11 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-sapphire.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-sapphire--02.png"
+          ]
         },
         {
           "itemId": "survival-knife-doppler-black-pearl",
@@ -1641,10 +1914,15 @@
             "base": "0.000050000000000000",
             "nonStatTrak": "0.000045000000000000",
             "statTrak": "0.000005000000000000"
-          }
+          },
+          "image": "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-black-pearl.png",
+          "imageAlternates": [
+            "Assets/Cases/Fever-Case/Knives/fever-case--covert-knife--survival-knife-doppler-black-pearl--02.png"
+          ]
         }
       ]
-    }
+    },
+    "image": "Assets/Cases/Fever-Case/Icons/fever-case--icon.png"
   },
   "audit": {
     "tierCounts": {

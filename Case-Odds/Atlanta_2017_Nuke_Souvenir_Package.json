@@ -1,12 +1,28 @@
 {
   "schemaVersion": "3.1-container-export",
-  "unit": { "scale": 1000000000000, "name": "ppt" },
+  "unit": {
+    "scale": 1000000000000,
+    "name": "ppt"
+  },
   "meta": {
     "game": "CSGO/CS2",
     "generatedAt": "2026-01-18T21:38:27.198169Z",
     "defaultOdds": {
-      "case": { "blue": 0.7992, "purple": 0.1598, "pink": 0.032, "red": 0.0064, "gold": 0.0026 },
-      "collection": { "consumer": 0.7992, "industrial": 0.1598, "milspec": 0.032, "restricted": 0.0064, "classified": 0.00128, "covert": 0.000256 }
+      "case": {
+        "blue": 0.7992,
+        "purple": 0.1598,
+        "pink": 0.032,
+        "red": 0.0064,
+        "gold": 0.0026
+      },
+      "collection": {
+        "consumer": 0.7992,
+        "industrial": 0.1598,
+        "milspec": 0.032,
+        "restricted": 0.0064,
+        "classified": 0.00128,
+        "covert": 0.000256
+      }
     },
     "defaultStatTrakRate": 0.1
   },
@@ -59,8 +75,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Consumer Grade).",
-          "weights": { "base": 267094445559, "nonStatTrak": 267094445559, "statTrak": 0 },
-          "probs": { "base": "0.267094445559000000", "nonStatTrak": "0.267094445559000000", "statTrak": "0.000000000000000000" }
+          "weights": {
+            "base": 267094445559,
+            "nonStatTrak": 267094445559,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.267094445559000000",
+            "nonStatTrak": "0.267094445559000000",
+            "statTrak": "0.000000000000000000"
+          },
+          "image": "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--consumer--mag-7-irradiated-alert.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--consumer--mag-7-irradiated-alert--02.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--consumer--mag-7-irradiated-alert--03.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--consumer--mag-7-irradiated-alert--04.png"
+          ]
         },
         {
           "itemId": "souvenir-pp-bizon-irradiated-alert",
@@ -74,8 +104,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Consumer Grade).",
-          "weights": { "base": 267094445558, "nonStatTrak": 267094445558, "statTrak": 0 },
-          "probs": { "base": "0.267094445558000000", "nonStatTrak": "0.267094445558000000", "statTrak": "0.000000000000000000" }
+          "weights": {
+            "base": 267094445558,
+            "nonStatTrak": 267094445558,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.267094445558000000",
+            "nonStatTrak": "0.267094445558000000",
+            "statTrak": "0.000000000000000000"
+          },
+          "image": "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--consumer--pp-bizon-irradiated-alert.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--consumer--pp-bizon-irradiated-alert--02.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--consumer--pp-bizon-irradiated-alert--03.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--consumer--pp-bizon-irradiated-alert--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sawed-off-irradiated-alert",
@@ -89,8 +133,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Consumer Grade).",
-          "weights": { "base": 267094445558, "nonStatTrak": 267094445558, "statTrak": 0 },
-          "probs": { "base": "0.267094445558000000", "nonStatTrak": "0.267094445558000000", "statTrak": "0.000000000000000000" }
+          "weights": {
+            "base": 267094445558,
+            "nonStatTrak": 267094445558,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.267094445558000000",
+            "nonStatTrak": "0.267094445558000000",
+            "statTrak": "0.000000000000000000"
+          },
+          "image": "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--consumer--sawed-off-irradiated-alert.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--consumer--sawed-off-irradiated-alert--02.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--consumer--sawed-off-irradiated-alert--03.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--consumer--sawed-off-irradiated-alert--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -106,8 +164,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Industrial Grade).",
-          "weights": { "base": 53405521022, "nonStatTrak": 53405521022, "statTrak": 0 },
-          "probs": { "base": "0.053405521022000000", "nonStatTrak": "0.053405521022000000", "statTrak": "0.000000000000000000" }
+          "weights": {
+            "base": 53405521022,
+            "nonStatTrak": 53405521022,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.053405521022000000",
+            "nonStatTrak": "0.053405521022000000",
+            "statTrak": "0.000000000000000000"
+          },
+          "image": "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--industrial--p90-fallout-warning.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--industrial--p90-fallout-warning--02.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--industrial--p90-fallout-warning--03.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--industrial--p90-fallout-warning--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ump-45-fallout-warning",
@@ -121,8 +193,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Industrial Grade).",
-          "weights": { "base": 53405521021, "nonStatTrak": 53405521021, "statTrak": 0 },
-          "probs": { "base": "0.053405521021000000", "nonStatTrak": "0.053405521021000000", "statTrak": "0.000000000000000000" }
+          "weights": {
+            "base": 53405521021,
+            "nonStatTrak": 53405521021,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.053405521021000000",
+            "nonStatTrak": "0.053405521021000000",
+            "statTrak": "0.000000000000000000"
+          },
+          "image": "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--industrial--ump-45-fallout-warning.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--industrial--ump-45-fallout-warning--02.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--industrial--ump-45-fallout-warning--03.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--industrial--ump-45-fallout-warning--04.png"
+          ]
         },
         {
           "itemId": "souvenir-xm1014-fallout-warning",
@@ -136,8 +222,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Industrial Grade).",
-          "weights": { "base": 53405521021, "nonStatTrak": 53405521021, "statTrak": 0 },
-          "probs": { "base": "0.053405521021000000", "nonStatTrak": "0.053405521021000000", "statTrak": "0.000000000000000000" }
+          "weights": {
+            "base": 53405521021,
+            "nonStatTrak": 53405521021,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.053405521021000000",
+            "nonStatTrak": "0.053405521021000000",
+            "statTrak": "0.000000000000000000"
+          },
+          "image": "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--industrial--xm1014-fallout-warning.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--industrial--xm1014-fallout-warning--02.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--industrial--xm1014-fallout-warning--03.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--industrial--xm1014-fallout-warning--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -153,8 +253,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Mil-Spec Grade).",
-          "weights": { "base": 32083416884, "nonStatTrak": 32083416884, "statTrak": 0 },
-          "probs": { "base": "0.032083416884000000", "nonStatTrak": "0.032083416884000000", "statTrak": "0.000000000000000000" }
+          "weights": {
+            "base": 32083416884,
+            "nonStatTrak": 32083416884,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.032083416884000000",
+            "nonStatTrak": "0.032083416884000000",
+            "statTrak": "0.000000000000000000"
+          },
+          "image": "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--milspec--m4a4-radiation-hazard.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--milspec--m4a4-radiation-hazard--02.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--milspec--m4a4-radiation-hazard--03.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--milspec--m4a4-radiation-hazard--04.png"
+          ]
         }
       ],
       "restricted": [
@@ -170,8 +284,22 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Restricted).",
-          "weights": { "base": 3208341689, "nonStatTrak": 3208341689, "statTrak": 0 },
-          "probs": { "base": "0.003208341689000000", "nonStatTrak": "0.003208341689000000", "statTrak": "0.000000000000000000" }
+          "weights": {
+            "base": 3208341689,
+            "nonStatTrak": 3208341689,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.003208341689000000",
+            "nonStatTrak": "0.003208341689000000",
+            "statTrak": "0.000000000000000000"
+          },
+          "image": "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--restricted--p250-nuclear-threat.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--restricted--p250-nuclear-threat--02.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--restricted--p250-nuclear-threat--03.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--restricted--p250-nuclear-threat--04.png"
+          ]
         },
         {
           "itemId": "souvenir-tec-9-nuclear-threat",
@@ -185,14 +313,29 @@
           "verified": true,
           "confidence": "High",
           "rationale": "Listed As A Possible Drop From The Atlanta 2017 Nuke Souvenir Package And Part Of The Nuke Collection (Restricted).",
-          "weights": { "base": 3208341688, "nonStatTrak": 3208341688, "statTrak": 0 },
-          "probs": { "base": "0.003208341688000000", "nonStatTrak": "0.003208341688000000", "statTrak": "0.000000000000000000" }
+          "weights": {
+            "base": 3208341688,
+            "nonStatTrak": 3208341688,
+            "statTrak": 0
+          },
+          "probs": {
+            "base": "0.003208341688000000",
+            "nonStatTrak": "0.003208341688000000",
+            "statTrak": "0.000000000000000000"
+          },
+          "image": "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--restricted--tec-9-nuclear-threat.png",
+          "imageAlternates": [
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--restricted--tec-9-nuclear-threat--02.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--restricted--tec-9-nuclear-threat--03.png",
+            "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Weapons/atlanta-2017-nuke-souvenir-package--restricted--tec-9-nuclear-threat--04.png"
+          ]
         }
       ],
       "classified": [],
       "covert": []
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Atlanta-2017-Nuke-Souvenir-Package/Icons/atlanta-2017-nuke-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

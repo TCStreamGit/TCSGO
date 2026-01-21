@@ -84,7 +84,13 @@
             "base": "0.266400000000000000",
             "nonStatTrak": "0.266400000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--consumer--sawed-off-irradiated-alert.png",
+          "imageAlternates": [
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--consumer--sawed-off-irradiated-alert--02.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--consumer--sawed-off-irradiated-alert--03.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--consumer--sawed-off-irradiated-alert--04.png"
+          ]
         },
         {
           "itemId": "souvenir-pp-bizon-irradiated-alert",
@@ -107,7 +113,13 @@
             "base": "0.266400000000000000",
             "nonStatTrak": "0.266400000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--consumer--pp-bizon-irradiated-alert.png",
+          "imageAlternates": [
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--consumer--pp-bizon-irradiated-alert--02.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--consumer--pp-bizon-irradiated-alert--03.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--consumer--pp-bizon-irradiated-alert--04.png"
+          ]
         },
         {
           "itemId": "souvenir-mag-7-irradiated-alert",
@@ -130,7 +142,13 @@
             "base": "0.266400000000000000",
             "nonStatTrak": "0.266400000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--consumer--mag-7-irradiated-alert.png",
+          "imageAlternates": [
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--consumer--mag-7-irradiated-alert--02.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--consumer--mag-7-irradiated-alert--03.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--consumer--mag-7-irradiated-alert--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -155,7 +173,13 @@
             "base": "0.053266666667000000",
             "nonStatTrak": "0.053266666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--industrial--xm1014-fallout-warning.png",
+          "imageAlternates": [
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--industrial--xm1014-fallout-warning--02.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--industrial--xm1014-fallout-warning--03.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--industrial--xm1014-fallout-warning--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ump-45-fallout-warning",
@@ -178,7 +202,13 @@
             "base": "0.053266666667000000",
             "nonStatTrak": "0.053266666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--industrial--ump-45-fallout-warning.png",
+          "imageAlternates": [
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--industrial--ump-45-fallout-warning--02.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--industrial--ump-45-fallout-warning--03.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--industrial--ump-45-fallout-warning--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-fallout-warning",
@@ -201,7 +231,13 @@
             "base": "0.053266666666000000",
             "nonStatTrak": "0.053266666666000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--industrial--p90-fallout-warning.png",
+          "imageAlternates": [
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--industrial--p90-fallout-warning--02.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--industrial--p90-fallout-warning--03.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--industrial--p90-fallout-warning--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -226,7 +262,13 @@
             "base": "0.032000000000000000",
             "nonStatTrak": "0.032000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--milspec--m4a4-radiation-hazard.png",
+          "imageAlternates": [
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--milspec--m4a4-radiation-hazard--02.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--milspec--m4a4-radiation-hazard--03.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--milspec--m4a4-radiation-hazard--04.png"
+          ]
         }
       ],
       "restricted": [
@@ -251,7 +293,13 @@
             "base": "0.004500000000000000",
             "nonStatTrak": "0.004500000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--restricted--p250-nuclear-threat.png",
+          "imageAlternates": [
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--restricted--p250-nuclear-threat--02.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--restricted--p250-nuclear-threat--03.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--restricted--p250-nuclear-threat--04.png"
+          ]
         },
         {
           "itemId": "souvenir-tec-9-nuclear-threat",
@@ -274,11 +322,18 @@
             "base": "0.004500000000000000",
             "nonStatTrak": "0.004500000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--restricted--tec-9-nuclear-threat.png",
+          "imageAlternates": [
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--restricted--tec-9-nuclear-threat--02.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--restricted--tec-9-nuclear-threat--03.png",
+            "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Weapons/boston-2018-nuke-souvenir-package--restricted--tec-9-nuclear-threat--04.png"
+          ]
         }
       ]
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/Boston-2018-Nuke-Souvenir-Package/Icons/boston-2018-nuke-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {

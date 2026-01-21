@@ -83,7 +83,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--galil-ar-hunting-blind.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--galil-ar-hunting-blind--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--galil-ar-hunting-blind--03.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--galil-ar-hunting-blind--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p90-scorched",
@@ -106,7 +112,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--p90-scorched.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--p90-scorched--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--p90-scorched--03.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--p90-scorched--04.png"
+          ]
         },
         {
           "itemId": "souvenir-g3sg1-safari-mesh",
@@ -129,7 +141,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--g3sg1-safari-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--g3sg1-safari-mesh--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--g3sg1-safari-mesh--03.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--g3sg1-safari-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-aug-colony",
@@ -152,7 +170,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--aug-colony.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--aug-colony--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--aug-colony--03.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--aug-colony--04.png"
+          ]
         },
         {
           "itemId": "souvenir-five-seven-contractor",
@@ -175,7 +199,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--five-seven-contractor.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--five-seven-contractor--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--five-seven-contractor--03.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--five-seven-contractor--04.png"
+          ]
         },
         {
           "itemId": "souvenir-p250-bone-mask",
@@ -198,7 +228,13 @@
             "base": "0.133200000000000000",
             "nonStatTrak": "0.133200000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--p250-bone-mask.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--p250-bone-mask--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--p250-bone-mask--03.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--consumer--p250-bone-mask--04.png"
+          ]
         }
       ],
       "industrial": [
@@ -223,7 +259,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.031960000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--mp7-orange-peel.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--mp7-orange-peel--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--mp7-orange-peel--03.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--mp7-orange-peel--04.png"
+          ]
         },
         {
           "itemId": "souvenir-glock-18-groundwater",
@@ -246,7 +288,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.031960000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--glock-18-groundwater.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--glock-18-groundwater--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--glock-18-groundwater--03.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--glock-18-groundwater--04.png"
+          ]
         },
         {
           "itemId": "souvenir-sg-553-gator-mesh",
@@ -269,7 +317,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.031960000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--sg-553-gator-mesh.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--sg-553-gator-mesh--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--sg-553-gator-mesh--03.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--sg-553-gator-mesh--04.png"
+          ]
         },
         {
           "itemId": "souvenir-ssg-08-tropical-storm",
@@ -292,7 +346,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.031960000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--ssg-08-tropical-storm.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--ssg-08-tropical-storm--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--ssg-08-tropical-storm--03.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--ssg-08-tropical-storm--04.png"
+          ]
         },
         {
           "itemId": "souvenir-negev-calicamo",
@@ -315,7 +375,13 @@
             "base": "0.031960000000000000",
             "nonStatTrak": "0.031960000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--negev-calicamo.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--negev-calicamo--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--negev-calicamo--03.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--industrial--negev-calicamo--04.png"
+          ]
         }
       ],
       "milspec": [
@@ -340,7 +406,11 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.010666666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--milspec--mp9-hot-rod.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--milspec--mp9-hot-rod--02.png"
+          ]
         },
         {
           "itemId": "souvenir-ump-45-blaze",
@@ -363,7 +433,11 @@
             "base": "0.010666666667000000",
             "nonStatTrak": "0.010666666667000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--milspec--ump-45-blaze.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--milspec--ump-45-blaze--02.png"
+          ]
         },
         {
           "itemId": "souvenir-mac-10-amber-fade",
@@ -386,7 +460,12 @@
             "base": "0.010666666666000000",
             "nonStatTrak": "0.010666666666000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--milspec--mac-10-amber-fade.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--milspec--mac-10-amber-fade--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--milspec--mac-10-amber-fade--03.png"
+          ]
         }
       ],
       "restricted": [
@@ -411,13 +490,20 @@
             "base": "0.009000000000000000",
             "nonStatTrak": "0.009000000000000000",
             "statTrak": "0.000000000000000000"
-          }
+          },
+          "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--restricted--mag-7-bulldozer.png",
+          "imageAlternates": [
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--restricted--mag-7-bulldozer--02.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--restricted--mag-7-bulldozer--03.png",
+            "Assets/Cases/London-2018-Mirage-Souvenir-Package/Weapons/london-2018-mirage-souvenir-package--restricted--mag-7-bulldozer--04.png"
+          ]
         }
       ],
       "classified": [],
       "covert": []
     },
-    "goldPool": "None"
+    "goldPool": "None",
+    "image": "Assets/Cases/London-2018-Mirage-Souvenir-Package/Icons/london-2018-mirage-souvenir-package--icon.png"
   },
   "audit": {
     "tierCounts": {
