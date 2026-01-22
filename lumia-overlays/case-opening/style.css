@@ -1,15 +1,22 @@
-/* TCSGO Case Opening Overlay - CSS */
-/* ================================ */
+/**
+ * TCSGO Case Opening Controller V1 - Stylesheet
+ * ==============================================
+ * Minimal UI with rarity glows for winner card and toast system.
+ */
+
+/* ===========================
+   CSS VARIABLES / ROOT
+   =========================== */
 
 :root {
-    /* Standard Case Rarity Colors */
+    /* Standard Case Rarity Colors (blue/purple/pink/red/gold) */
     --rarity-blue: #4b69ff;
     --rarity-purple: #8847ff;
     --rarity-pink: #d32ce6;
     --rarity-red: #eb4b4b;
     --rarity-gold: #ffd700;
     
-    /* Collection/Souvenir Rarity Colors */
+    /* Collection Rarity Colors (consumer/industrial/milspec/restricted/classified/covert) */
     --rarity-consumer: #b0c3d9;
     --rarity-industrial: #5e98d9;
     --rarity-milspec: #4b69ff;
@@ -17,17 +24,32 @@
     --rarity-classified: #d32ce6;
     --rarity-covert: #eb4b4b;
     
+    /* Special */
+    --rarity-extraordinary: #ffd700;
+    
     /* UI Colors */
     --bg-dark: #1a1a2e;
     --bg-card: #16213e;
+    --bg-toast: rgba(22, 33, 62, 0.95);
     --text-primary: #ffffff;
-    --text-secondary: #b0b0b0;
+    --text-secondary: #a0a0a0;
+    --text-muted: #666666;
     --stattrak-orange: #cf6a32;
     
-    /* Animation Timing */
-    --spin-duration: 6s;
-    --reveal-duration: 0.5s;
+    /* Toast Types */
+    --toast-success: #22c55e;
+    --toast-error: #ef4444;
+    --toast-warning: #f59e0b;
+    --toast-info: #3b82f6;
+    
+    /* Timing */
+    --winner-show-duration: 8s;
+    --toast-duration: 5s;
 }
+
+/* ===========================
+   RESET & BASE
+   =========================== */
 
 * {
     margin: 0;
@@ -37,7 +59,7 @@
 
 body {
     background: transparent;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
     overflow: hidden;
     width: 100vw;
     height: 100vh;
@@ -47,149 +69,17 @@ body {
     display: none !important;
 }
 
-#tcsgo-container {
+#tcsgo-controller {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-/* =========================== */
-/* REEL VIEWPORT               */
-/* =========================== */
-
-#reel-viewport {
     position: relative;
-    width: 1200px;
-    height: 220px;
-    background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-card) 100%);
-    border: 3px solid #333;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
 }
 
-#reel-marker {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 4px;
-    height: 100%;
-    background: linear-gradient(180deg, #ffd700 0%, #ff8c00 100%);
-    z-index: 100;
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
-}
+/* ===========================
+   WINNER CARD CONTAINER
+   =========================== */
 
-#reel-marker::before,
-#reel-marker::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 0;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-}
-
-#reel-marker::before {
-    top: -2px;
-    border-top: 16px solid #ffd700;
-}
-
-#reel-marker::after {
-    bottom: -2px;
-    border-bottom: 16px solid #ffd700;
-}
-
-#reel-track {
-    position: absolute;
-    top: 10px;
-    left: 0;
-    height: 200px;
-    display: flex;
-    gap: 8px;
-    will-change: transform;
-}
-
-/* =========================== */
-/* REEL CARDS                  */
-/* =========================== */
-
-.reel-card {
-    flex-shrink: 0;
-    width: 160px;
-    height: 200px;
-    background: var(--bg-card);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.reel-card::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 6px;
-}
-
-/* Rarity-specific card styles */
-.reel-card.rarity-blue::before { background: var(--rarity-blue); }
-.reel-card.rarity-purple::before { background: var(--rarity-purple); }
-.reel-card.rarity-pink::before { background: var(--rarity-pink); }
-.reel-card.rarity-red::before { background: var(--rarity-red); }
-.reel-card.rarity-gold::before { background: var(--rarity-gold); }
-.reel-card.rarity-consumer::before { background: var(--rarity-consumer); }
-.reel-card.rarity-industrial::before { background: var(--rarity-industrial); }
-.reel-card.rarity-milspec::before { background: var(--rarity-milspec); }
-.reel-card.rarity-restricted::before { background: var(--rarity-restricted); }
-.reel-card.rarity-classified::before { background: var(--rarity-classified); }
-.reel-card.rarity-covert::before { background: var(--rarity-covert); }
-
-.reel-card.rarity-blue { border: 2px solid var(--rarity-blue); }
-.reel-card.rarity-purple { border: 2px solid var(--rarity-purple); }
-.reel-card.rarity-pink { border: 2px solid var(--rarity-pink); }
-.reel-card.rarity-red { border: 2px solid var(--rarity-red); }
-.reel-card.rarity-gold { border: 2px solid var(--rarity-gold); }
-.reel-card.rarity-consumer { border: 2px solid var(--rarity-consumer); }
-.reel-card.rarity-industrial { border: 2px solid var(--rarity-industrial); }
-.reel-card.rarity-milspec { border: 2px solid var(--rarity-milspec); }
-.reel-card.rarity-restricted { border: 2px solid var(--rarity-restricted); }
-.reel-card.rarity-classified { border: 2px solid var(--rarity-classified); }
-.reel-card.rarity-covert { border: 2px solid var(--rarity-covert); }
-
-.reel-card-image {
-    width: 140px;
-    height: 105px;
-    object-fit: contain;
-    margin-bottom: 8px;
-}
-
-.reel-card-name {
-    font-size: 11px;
-    color: var(--text-primary);
-    text-align: center;
-    padding: 0 8px;
-    line-height: 1.2;
-    max-height: 40px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-/* =========================== */
-/* REVEAL PANEL                */
-/* =========================== */
-
-#reveal-panel {
+#winner-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -199,8 +89,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 200;
-    animation: fadeIn var(--reveal-duration) ease-out;
+    z-index: 100;
+    animation: fadeIn 0.4s ease-out;
 }
 
 @keyframes fadeIn {
@@ -208,292 +98,365 @@ body {
     to { opacity: 1; }
 }
 
-#reveal-glow {
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+#winner-container.fade-out {
+    animation: fadeOut 0.4s ease-out forwards;
+}
+
+/* ===========================
+   WINNER GLOW (behind card)
+   =========================== */
+
+#winner-glow {
     position: absolute;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     filter: blur(80px);
-    opacity: 0.6;
+    opacity: 0.5;
     z-index: -1;
     animation: pulseGlow 2s ease-in-out infinite;
 }
 
 @keyframes pulseGlow {
-    0%, 100% { transform: scale(1); opacity: 0.6; }
-    50% { transform: scale(1.1); opacity: 0.8; }
+    0%, 100% { transform: scale(1); opacity: 0.5; }
+    50% { transform: scale(1.15); opacity: 0.7; }
 }
 
 /* Glow colors by rarity */
-#reveal-panel.rarity-blue #reveal-glow { background: var(--rarity-blue); }
-#reveal-panel.rarity-purple #reveal-glow { background: var(--rarity-purple); }
-#reveal-panel.rarity-pink #reveal-glow { background: var(--rarity-pink); }
-#reveal-panel.rarity-red #reveal-glow { background: var(--rarity-red); }
-#reveal-panel.rarity-gold #reveal-glow { background: var(--rarity-gold); }
-#reveal-panel.rarity-consumer #reveal-glow { background: var(--rarity-consumer); }
-#reveal-panel.rarity-industrial #reveal-glow { background: var(--rarity-industrial); }
-#reveal-panel.rarity-milspec #reveal-glow { background: var(--rarity-milspec); }
-#reveal-panel.rarity-restricted #reveal-glow { background: var(--rarity-restricted); }
-#reveal-panel.rarity-classified #reveal-glow { background: var(--rarity-classified); }
-#reveal-panel.rarity-covert #reveal-glow { background: var(--rarity-covert); }
+#winner-container.rarity-blue #winner-glow { background: var(--rarity-blue); }
+#winner-container.rarity-purple #winner-glow { background: var(--rarity-purple); }
+#winner-container.rarity-pink #winner-glow { background: var(--rarity-pink); }
+#winner-container.rarity-red #winner-glow { background: var(--rarity-red); }
+#winner-container.rarity-gold #winner-glow { background: var(--rarity-gold); }
+#winner-container.rarity-consumer #winner-glow { background: var(--rarity-consumer); }
+#winner-container.rarity-industrial #winner-glow { background: var(--rarity-industrial); }
+#winner-container.rarity-milspec #winner-glow { background: var(--rarity-milspec); }
+#winner-container.rarity-restricted #winner-glow { background: var(--rarity-restricted); }
+#winner-container.rarity-classified #winner-glow { background: var(--rarity-classified); }
+#winner-container.rarity-covert #winner-glow { background: var(--rarity-covert); }
+#winner-container.rarity-extraordinary #winner-glow { background: var(--rarity-extraordinary); }
 
-#reveal-particles {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: -1;
-}
+/* ===========================
+   WINNER CARD
+   =========================== */
 
-.particle {
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    animation: particleFall 3s linear forwards;
-}
-
-@keyframes particleFall {
-    0% {
-        transform: translateY(-100vh) rotate(0deg);
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(100vh) rotate(720deg);
-        opacity: 0;
-    }
-}
-
-#reveal-card {
+#winner-card {
     background: var(--bg-card);
     border-radius: 16px;
-    padding: 30px;
+    padding: 24px 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
     animation: cardPopIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: relative;
+    min-width: 320px;
 }
 
 @keyframes cardPopIn {
-    0% { transform: scale(0.5); opacity: 0; }
+    0% { transform: scale(0.6); opacity: 0; }
     100% { transform: scale(1); opacity: 1; }
 }
 
-/* Card border colors by rarity */
-#reveal-panel.rarity-blue #reveal-card { border: 4px solid var(--rarity-blue); }
-#reveal-panel.rarity-purple #reveal-card { border: 4px solid var(--rarity-purple); }
-#reveal-panel.rarity-pink #reveal-card { border: 4px solid var(--rarity-pink); }
-#reveal-panel.rarity-red #reveal-card { border: 4px solid var(--rarity-red); }
-#reveal-panel.rarity-gold #reveal-card { border: 4px solid var(--rarity-gold); }
-#reveal-panel.rarity-consumer #reveal-card { border: 4px solid var(--rarity-consumer); }
-#reveal-panel.rarity-industrial #reveal-card { border: 4px solid var(--rarity-industrial); }
-#reveal-panel.rarity-milspec #reveal-card { border: 4px solid var(--rarity-milspec); }
-#reveal-panel.rarity-restricted #reveal-card { border: 4px solid var(--rarity-restricted); }
-#reveal-panel.rarity-classified #reveal-card { border: 4px solid var(--rarity-classified); }
-#reveal-panel.rarity-covert #reveal-card { border: 4px solid var(--rarity-covert); }
+/* Card border by rarity */
+#winner-container.rarity-blue #winner-card { border: 3px solid var(--rarity-blue); }
+#winner-container.rarity-purple #winner-card { border: 3px solid var(--rarity-purple); }
+#winner-container.rarity-pink #winner-card { border: 3px solid var(--rarity-pink); }
+#winner-container.rarity-red #winner-card { border: 3px solid var(--rarity-red); }
+#winner-container.rarity-gold #winner-card { border: 3px solid var(--rarity-gold); }
+#winner-container.rarity-consumer #winner-card { border: 3px solid var(--rarity-consumer); }
+#winner-container.rarity-industrial #winner-card { border: 3px solid var(--rarity-industrial); }
+#winner-container.rarity-milspec #winner-card { border: 3px solid var(--rarity-milspec); }
+#winner-container.rarity-restricted #winner-card { border: 3px solid var(--rarity-restricted); }
+#winner-container.rarity-classified #winner-card { border: 3px solid var(--rarity-classified); }
+#winner-container.rarity-covert #winner-card { border: 3px solid var(--rarity-covert); }
+#winner-container.rarity-extraordinary #winner-card { border: 3px solid var(--rarity-extraordinary); }
 
-#reveal-image-wrapper {
-    width: 300px;
-    height: 225px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-#reveal-image {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    filter: drop-shadow(0 10px 30px rgba(0,0,0,0.5));
-}
-
-#reveal-info {
-    text-align: center;
-}
-
-#reveal-name {
-    font-size: 24px;
-    font-weight: bold;
-    color: var(--text-primary);
-    margin-bottom: 12px;
-    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
-}
-
-/* Reveal name colors by rarity */
-#reveal-panel.rarity-blue #reveal-name { color: var(--rarity-blue); }
-#reveal-panel.rarity-purple #reveal-name { color: var(--rarity-purple); }
-#reveal-panel.rarity-pink #reveal-name { color: var(--rarity-pink); }
-#reveal-panel.rarity-red #reveal-name { color: var(--rarity-red); }
-#reveal-panel.rarity-gold #reveal-name { color: var(--rarity-gold); }
-#reveal-panel.rarity-consumer #reveal-name { color: var(--rarity-consumer); }
-#reveal-panel.rarity-industrial #reveal-name { color: var(--rarity-industrial); }
-#reveal-panel.rarity-milspec #reveal-name { color: var(--rarity-milspec); }
-#reveal-panel.rarity-restricted #reveal-name { color: var(--rarity-restricted); }
-#reveal-panel.rarity-classified #reveal-name { color: var(--rarity-classified); }
-#reveal-panel.rarity-covert #reveal-name { color: var(--rarity-covert); }
-
-#reveal-badges {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin-bottom: 15px;
-}
-
-.badge {
-    padding: 6px 14px;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-#reveal-stattrak {
-    background: linear-gradient(135deg, var(--stattrak-orange) 0%, #e67e22 100%);
-    color: white;
-    animation: stattrakPulse 1.5s ease-in-out infinite;
-}
-
-@keyframes stattrakPulse {
-    0%, 100% { box-shadow: 0 0 10px rgba(207, 106, 50, 0.5); }
-    50% { box-shadow: 0 0 20px rgba(207, 106, 50, 0.8); }
-}
-
-#reveal-wear {
-    background: rgba(255,255,255,0.1);
-    color: var(--text-secondary);
-    border: 1px solid rgba(255,255,255,0.2);
-}
-
-#reveal-price {
-    font-size: 18px;
-    color: var(--text-secondary);
-}
-
-#reveal-price .coins {
-    color: #ffd700;
-    font-weight: bold;
-}
-
-#reveal-price .cad {
-    color: #4ade80;
-    margin-left: 10px;
-}
-
-#reveal-username {
-    margin-top: 30px;
-    font-size: 28px;
-    font-weight: bold;
-    color: var(--text-primary);
-    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
-}
-
-/* =========================== */
-/* GOLD TIER SPECIAL EFFECTS   */
-/* =========================== */
-
-#reveal-panel.rarity-gold #reveal-card {
+/* Gold special shine effect */
+#winner-container.rarity-gold #winner-card {
     animation: cardPopIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
-               goldShine 2s ease-in-out infinite;
+               goldShine 2s ease-in-out infinite 0.5s;
 }
 
 @keyframes goldShine {
     0%, 100% {
-        box-shadow: 0 0 30px rgba(255, 215, 0, 0.3),
-                    0 0 60px rgba(255, 215, 0, 0.2),
-                    0 20px 60px rgba(0,0,0,0.5);
+        box-shadow: 0 0 20px rgba(255, 215, 0, 0.3),
+                    0 0 40px rgba(255, 215, 0, 0.2),
+                    0 20px 60px rgba(0, 0, 0, 0.6);
     }
     50% {
-        box-shadow: 0 0 50px rgba(255, 215, 0, 0.5),
-                    0 0 100px rgba(255, 215, 0, 0.3),
-                    0 20px 60px rgba(0,0,0,0.5);
+        box-shadow: 0 0 40px rgba(255, 215, 0, 0.5),
+                    0 0 80px rgba(255, 215, 0, 0.3),
+                    0 20px 60px rgba(0, 0, 0, 0.6);
     }
 }
 
-#reveal-panel.rarity-gold #reveal-glow {
-    animation: goldPulse 1.5s ease-in-out infinite;
+/* ===========================
+   WINNER CARD CONTENT
+   =========================== */
+
+#winner-image-wrapper {
+    width: 280px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
 }
 
-@keyframes goldPulse {
-    0%, 100% { transform: scale(1); opacity: 0.7; }
-    50% { transform: scale(1.2); opacity: 0.9; }
+#winner-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.5));
 }
 
-/* =========================== */
-/* PINK/RED SHIMMER EFFECT     */
-/* =========================== */
-
-#reveal-panel.rarity-pink #reveal-card::after,
-#reveal-panel.rarity-red #reveal-card::after {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(
-        45deg,
-        transparent 30%,
-        rgba(255,255,255,0.1) 50%,
-        transparent 70%
-    );
-    animation: shimmer 3s linear infinite;
-    pointer-events: none;
+#winner-info {
+    text-align: center;
+    width: 100%;
 }
 
-@keyframes shimmer {
-    0% { transform: translateX(-100%) rotate(45deg); }
-    100% { transform: translateX(100%) rotate(45deg); }
+#winner-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
-/* =========================== */
-/* RESPONSIVE ADJUSTMENTS      */
-/* =========================== */
+/* Name color by rarity */
+#winner-container.rarity-blue #winner-name { color: var(--rarity-blue); }
+#winner-container.rarity-purple #winner-name { color: var(--rarity-purple); }
+#winner-container.rarity-pink #winner-name { color: var(--rarity-pink); }
+#winner-container.rarity-red #winner-name { color: var(--rarity-red); }
+#winner-container.rarity-gold #winner-name { color: var(--rarity-gold); }
+#winner-container.rarity-consumer #winner-name { color: var(--rarity-consumer); }
+#winner-container.rarity-industrial #winner-name { color: var(--rarity-industrial); }
+#winner-container.rarity-milspec #winner-name { color: var(--rarity-milspec); }
+#winner-container.rarity-restricted #winner-name { color: var(--rarity-restricted); }
+#winner-container.rarity-classified #winner-name { color: var(--rarity-classified); }
+#winner-container.rarity-covert #winner-name { color: var(--rarity-covert); }
+#winner-container.rarity-extraordinary #winner-name { color: var(--rarity-extraordinary); }
 
-@media (max-width: 1280px) {
-    #reel-viewport {
-        width: 900px;
+/* ===========================
+   BADGES
+   =========================== */
+
+#winner-badges {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.badge {
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge.stattrak {
+    background: linear-gradient(135deg, var(--stattrak-orange) 0%, #e67e22 100%);
+    color: #ffffff;
+    animation: stattrakPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes stattrakPulse {
+    0%, 100% { box-shadow: 0 0 8px rgba(207, 106, 50, 0.4); }
+    50% { box-shadow: 0 0 16px rgba(207, 106, 50, 0.7); }
+}
+
+.badge.wear {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-secondary);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* ===========================
+   PRICE DISPLAY
+   =========================== */
+
+#winner-price {
+    font-size: 16px;
+    color: var(--text-secondary);
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+#winner-price .coins {
+    color: #ffd700;
+    font-weight: 600;
+}
+
+#winner-price .cad {
+    color: #4ade80;
+}
+
+/* ===========================
+   USERNAME
+   =========================== */
+
+#winner-username {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-primary);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* ===========================
+   TOAST CONTAINER
+   =========================== */
+
+#toast-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 12px;
+    z-index: 200;
+    max-width: 400px;
+}
+
+/* ===========================
+   INDIVIDUAL TOAST
+   =========================== */
+
+.toast {
+    background: var(--bg-toast);
+    border-radius: 8px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    border-left: 4px solid var(--toast-info);
+    animation: slideInRight 0.3s ease-out;
+    max-width: 100%;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
     }
-    
-    .reel-card {
-        width: 130px;
-        height: 170px;
-    }
-    
-    .reel-card-image {
-        width: 110px;
-        height: 85px;
+    to {
+        transform: translateX(0);
+        opacity: 1;
     }
 }
 
-@media (max-width: 960px) {
-    #reel-viewport {
-        width: 700px;
-        height: 180px;
+.toast.fade-out {
+    animation: slideOutRight 0.3s ease-in forwards;
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+/* Toast types */
+.toast.success { border-left-color: var(--toast-success); }
+.toast.error { border-left-color: var(--toast-error); }
+.toast.warning { border-left-color: var(--toast-warning); }
+.toast.info { border-left-color: var(--toast-info); }
+
+/* ===========================
+   TOAST ICON
+   =========================== */
+
+.toast-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border-radius: 50%;
+}
+
+.toast.success .toast-icon { color: var(--toast-success); }
+.toast.error .toast-icon { color: var(--toast-error); }
+.toast.warning .toast-icon { color: var(--toast-warning); }
+.toast.info .toast-icon { color: var(--toast-info); }
+
+/* ===========================
+   TOAST CONTENT
+   =========================== */
+
+.toast-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.toast-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.toast-message {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+/* ===========================
+   TOAST USER TAG
+   =========================== */
+
+.toast-user {
+    font-weight: 600;
+    color: #60a5fa;
+}
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+
+@media (max-width: 768px) {
+    #winner-card {
+        padding: 20px 24px;
+        min-width: 280px;
     }
     
-    .reel-card {
-        width: 110px;
-        height: 150px;
-    }
-    
-    .reel-card-image {
-        width: 90px;
-        height: 70px;
-    }
-    
-    .reel-card-name {
-        font-size: 10px;
-    }
-    
-    #reveal-image-wrapper {
+    #winner-image-wrapper {
         width: 220px;
         height: 165px;
     }
     
-    #reveal-name {
+    #winner-name {
+        font-size: 18px;
+    }
+    
+    #winner-username {
         font-size: 20px;
+    }
+    
+    #toast-container {
+        right: 12px;
+        bottom: 12px;
+        max-width: 320px;
     }
 }

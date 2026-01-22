@@ -1,44 +1,56 @@
 {
-    "baseRawUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/TCSGO/main",
-    
-    "reelCardCount": 60,
-    "winnerPosition": 52,
-    "cardWidth": 160,
-    "cardGap": 8,
-    "spinDuration": 6000,
-    "revealDelay": 500,
-    "revealDuration": 8000,
-    
-    "tickVolume": 0.3,
-    "revealVolume": 0.5,
-    "rareVolume": 0.7,
-    "goldVolume": 0.8,
-    "audioPoolSize": 5,
-    
-    "debugMode": false,
-    "forceRarity": null,
-    
-    "codeId": "tcsgocaseopen",
-    
-    "rarityColors": {
-        "blue": "#4b69ff",
-        "purple": "#8847ff",
-        "pink": "#d32ce6",
-        "red": "#eb4b4b",
-        "gold": "#ffd700",
-        "consumer": "#b0c3d9",
-        "industrial": "#5e98d9",
-        "milspec": "#4b69ff",
-        "restricted": "#8847ff",
-        "classified": "#d32ce6",
-        "covert": "#eb4b4b"
+    "baseRawUrl": {
+        "type": "input",
+        "label": "Base Raw URL (GitHub raw content URL for data files)",
+        "order": 1,
+        "value": "https://raw.githubusercontent.com/YOUR_USERNAME/TCSGO/main"
     },
-    
-    "wearTable": [
-        { "name": "Factory New", "weight": 3 },
-        { "name": "Minimal Wear", "weight": 24 },
-        { "name": "Field-Tested", "weight": 33 },
-        { "name": "Well-Worn", "weight": 24 },
-        { "name": "Battle-Scarred", "weight": 16 }
-    ]
+    "pollIntervalMs": {
+        "type": "number",
+        "label": "Fallback Poll Interval (ms)",
+        "order": 2,
+        "value": 250
+    },
+    "ackTimeoutMs": {
+        "type": "number",
+        "label": "Command Acknowledgment Timeout (ms)",
+        "order": 3,
+        "value": 3000
+    },
+    "feePercent": {
+        "type": "number",
+        "label": "Market Fee Percent",
+        "order": 4,
+        "value": 10
+    },
+    "defaultKeyPriceCoins": {
+        "type": "number",
+        "label": "Default Key Price (coins) - fallback if prices.json unavailable",
+        "order": 5,
+        "value": 3500
+    },
+    "codeId": {
+        "type": "input",
+        "label": "Overlay Code ID (for routing)",
+        "order": 6,
+        "value": "tcsgo-controller"
+    },
+    "winnerDisplayMs": {
+        "type": "number",
+        "label": "Winner Card Display Duration (ms)",
+        "order": 7,
+        "value": 8000
+    },
+    "toastDurationMs": {
+        "type": "number",
+        "label": "Toast Notification Duration (ms)",
+        "order": 8,
+        "value": 5000
+    },
+    "debugMode": {
+        "type": "checkbox",
+        "label": "Enable Debug Logging",
+        "order": 9,
+        "value": false
+    }
 }

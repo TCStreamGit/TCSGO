@@ -11,7 +11,7 @@ Output Schema (data/case-aliases.json):
   "schemaVersion": "1.0-case-aliases",
   "generatedAt": "ISO-UTC",
   "sourceDir": "Case-Odds",
-  "cases": { "<caseId>": { caseId, filename, displayName, caseType, caseSchemaVersion, requiresKey, image } },
+  "cases": { "<caseId>": { caseId, filename, displayName, caseType, schemaVersion, requiresKey, image } },
   "aliases": { "<alias>": { caseId, filename, displayName, requiresKey } }
 }
 
@@ -61,6 +61,19 @@ NO_KEY_CASE_TYPES = {
     "collectionpackage",
     # other (e.g., Anubis Collection Package)
     "other",
+}
+
+# Known case types (normalized: lowercase, _ and spaces to -)
+KNOWN_CASE_TYPES = {
+    "case",
+    "weapon-case",
+    "operation-case",
+    "esports-case",
+    "special-event-case",
+    "souvenir-package",
+    "collection-package",
+    "other",
+    "unknown",
 }
 
 
@@ -161,13 +174,24 @@ def scan_case_odds():
         if case_image is None:
             case_image = ""
         
+        # Get and validate caseType
+        raw_case_type = case_obj.get("caseType") or "unknown"
+        normalized_type = normalize_case_type(raw_case_type)
+        
+        # Check for unknown caseType and warn
+        if normalized_type not in KNOWN_CASE_TYPES:
+            print(f"  Warning: Unknown caseType '{raw_case_type}' in {filepath.name}; defaulting requiresKey=True", file=sys.stderr)
+            requires_key = True
+        else:
+            requires_key = compute_requires_key(raw_case_type)
+        
         cases.append({
             "filename": filepath.name,
             "caseId": case_id,
             "displayName": case_obj.get("name") or case_id,
-            "caseType": case_obj.get("caseType") or "unknown",
-            "caseSchemaVersion": data.get("schemaVersion") or "unknown",
-            "requiresKey": compute_requires_key(case_obj.get("caseType")),
+            "caseType": raw_case_type,
+            "schemaVersion": data.get("schemaVersion") or "unknown",
+            "requiresKey": requires_key,
             "image": case_image,
         })
     
@@ -178,7 +202,7 @@ def build_maps(cases, manual_overrides):
     """
     Build cases and aliases mappings with collision detection.
     
-    Returns: (cases dict, aliases dict, warnings list)
+    Returns: (cases dict, aliases dict, warnings list, collisions_dropped count)
     """
     # Track which caseIds want each alias (for collision detection)
     alias_sources = {}
@@ -193,7 +217,7 @@ def build_maps(cases, manual_overrides):
             "filename": c["filename"],
             "displayName": c["displayName"],
             "caseType": c["caseType"],
-            "caseSchemaVersion": c["caseSchemaVersion"],
+            "schemaVersion": c["schemaVersion"],
             "requiresKey": c["requiresKey"],
             "image": c["image"],
         }
@@ -236,6 +260,7 @@ def build_maps(cases, manual_overrides):
     # Build final alias map
     aliases = {}
     warnings = []
+    collisions_dropped = 0
     
     for c in cases:
         case_id = c["caseId"]
@@ -246,6 +271,7 @@ def build_maps(cases, manual_overrides):
             if alias in collisions and alias != case_id_lower:
                 others = [x for x in alias_sources[alias] if x != case_id]
                 warnings.append(f"Alias '{alias}' collision: {case_id} vs {', '.join(others)}; dropped")
+                collisions_dropped += 1
                 continue
             
             # Don't overwrite existing alias (first-come wins for derived aliases)
@@ -257,10 +283,18 @@ def build_maps(cases, manual_overrides):
                     "requiresKey": c["requiresKey"],
                 }
     
-    # Merge manual overrides (always win - can overwrite)
+    # Build set of real caseIds (lowercased) for protection check
+    real_case_ids_lower = {cid.lower() for cid in cases_map.keys()}
+    
+    # Merge manual overrides (can overwrite, EXCEPT full caseId aliases)
     for alias, override in manual_overrides.items():
         alias_lower = alias.lower()
         target_case_id = override.get("caseId")
+        
+        # Protect full caseId aliases from manual overrides
+        if alias_lower in real_case_ids_lower:
+            warnings.append(f"Manual override tried to overwrite full caseId alias '{alias}'; skipped")
+            continue
         
         if target_case_id and target_case_id in cases_map:
             case_info = cases_map[target_case_id]
@@ -276,7 +310,7 @@ def build_maps(cases, manual_overrides):
     # Deduplicate warnings
     unique_warnings = list(dict.fromkeys(warnings))
     
-    return cases_map, aliases, unique_warnings
+    return cases_map, aliases, unique_warnings, collisions_dropped
 
 
 def main():
@@ -305,7 +339,7 @@ def main():
     
     # Build maps
     print("\nBuilding alias map...")
-    cases_map, aliases, warnings = build_maps(cases, manual_overrides)
+    cases_map, aliases, warnings, collisions_dropped = build_maps(cases, manual_overrides)
     print(f"   Generated {len(aliases)} aliases for {len(cases_map)} cases")
     
     if warnings:
@@ -354,6 +388,7 @@ def main():
     print(f"  Cases:   {len(cases_map)}")
     print(f"  Aliases: {len(aliases)}")
     print(f"  Key required: {key_req} | No key: {no_key}")
+    print(f"  Collisions dropped: {collisions_dropped}")
     print("=" * 60)
     
     return 0

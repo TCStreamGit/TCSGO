@@ -1,705 +1,920 @@
 /**
- * TCSGO Case Opening Overlay - JavaScript
- * ========================================
- * Handles the animated case opening reel and reveal
+ * TCSGO Case Opening Controller V1
+ * =================================
+ * 
+ * Handles chat commands, loyalty point validation, and orchestrates
+ * buy/open/sell flows. Implements dual-receive reliability pattern.
+ * 
+ * COMMANDS PARSED:
+ *   !buycase <alias> [qty]   - Buy case(s), deduct points
+ *   !buykey [qty]            - Buy key(s), deduct points
+ *   !open <alias>            - Open a case (no point deduction)
+ *   !sell <oid>              - Start selling an item
+ *   !sellconfirm <token>     - Confirm a pending sell
+ * 
+ * DUAL-RECEIVE:
+ *   1) Primary: Overlay.on('overlaycontent', ...) event listener
+ *   2) Fallback: Poll Overlay.getVariable('tcsgo_last_event_json') every 250ms
+ * 
+ * EVENT ROUTING:
+ *   - Commands generate an eventId before calling commit commands
+ *   - Router waits for matching eventId in response
+ *   - Timeout after ackTimeoutMs triggers refund (for buy flows)
  */
 
-(function() {
+(function () {
     'use strict';
 
-    // =========================
-    // CONFIGURATION
-    // =========================
-    
-    const CONFIG = {
-        // GitHub raw URL base (set from Configs tab)
+    // =========================================================================
+    // CONFIGURATION (loaded from configs.json via Lumia)
+    // =========================================================================
+
+    const DEFAULT_CONFIG = {
+        // Base URL for fetching data files (if needed)
         baseRawUrl: '',
-        
-        // Animation settings
-        reelCardCount: 60,          // Total cards in reel
-        winnerPosition: 52,         // Where winner is placed (near end)
-        cardWidth: 160,             // Card width in pixels
-        cardGap: 8,                 // Gap between cards
-        spinDuration: 6000,         // Total spin time in ms
-        revealDelay: 500,           // Delay before reveal after spin
-        revealDuration: 8000,       // How long reveal shows
-        
-        // Sound settings
-        tickVolume: 0.3,
-        revealVolume: 0.5,
-        rareVolume: 0.7,
-        goldVolume: 0.8,
-        
-        // Audio pool size (for rapid ticks)
-        audioPoolSize: 5,
-        
+
+        // Polling interval for fallback receive (ms)
+        pollIntervalMs: 250,
+
+        // Timeout waiting for commit command acknowledgment (ms)
+        ackTimeoutMs: 3000,
+
+        // Market fee percent for selling
+        feePercent: 10,
+
+        // Default key price (coins)
+        defaultKeyPriceCoins: 3500,
+
+        // Overlay codeId for routing
+        codeId: 'tcsgo-controller',
+
+        // Winner card display duration (ms)
+        winnerDisplayMs: 8000,
+
+        // Toast display duration (ms)
+        toastDurationMs: 5000,
+
         // Debug mode
-        debugMode: false,
-        forceRarity: null,          // Set to 'gold' to test gold pulls
-        
-        // Lumia message routing
-        codeId: 'tcsgocaseopen'
+        debugMode: false
     };
 
-    // =========================
-    // STATE
-    // =========================
-    
-    let state = {
-        isAnimating: false,
-        currentContainer: null,
-        assetManifest: null,
-        audioPool: [],
-        audioPoolIndex: 0
-    };
+    let CONFIG = { ...DEFAULT_CONFIG };
 
-    // =========================
-    // RARITY MAPPINGS
-    // =========================
-    
-    const STANDARD_RARITIES = ['blue', 'purple', 'pink', 'red', 'gold'];
-    const COLLECTION_RARITIES = ['consumer', 'industrial', 'milspec', 'restricted', 'classified', 'covert'];
-    
-    const RARITY_DISPLAY = {
-        blue: 'Mil-Spec',
-        purple: 'Restricted',
-        pink: 'Classified',
-        red: 'Covert',
-        gold: 'Rare Special Item',
-        consumer: 'Consumer Grade',
-        industrial: 'Industrial Grade',
-        milspec: 'Mil-Spec',
-        restricted: 'Restricted',
-        classified: 'Classified',
-        covert: 'Covert'
-    };
+    // =========================================================================
+    // CACHED DATA (aliases, prices)
+    // =========================================================================
 
-    // =========================
-    // WEAR TABLE
-    // =========================
-    
-    const WEAR_TABLE = [
-        { name: 'Factory New', weight: 3 },
-        { name: 'Minimal Wear', weight: 24 },
-        { name: 'Field-Tested', weight: 33 },
-        { name: 'Well-Worn', weight: 24 },
-        { name: 'Battle-Scarred', weight: 16 }
-    ];
-    const WEAR_TOTAL = WEAR_TABLE.reduce((s, w) => s + w.weight, 0);
+    let aliasCache = null;   // case-aliases.json contents
+    let pricesCache = null;  // prices.json contents
 
-    // =========================
+    // =========================================================================
+    // EVENT ROUTING STATE
+    // =========================================================================
+
+    // Map of eventId -> { resolve, reject, timeoutId }
+    const pendingEvents = new Map();
+
+    // Last processed eventId (to ignore duplicates in polling)
+    let lastProcessedEventId = null;
+
+    // Polling interval reference
+    let pollIntervalRef = null;
+
+    // =========================================================================
     // INITIALIZATION
-    // =========================
-    
-    function init() {
-        // Load config from Lumia Configs tab
+    // =========================================================================
+
+    async function init() {
+        log('[TCSGO Controller] Initializing...');
+
+        // Load config from Lumia (if available)
         loadConfig();
-        
-        // Setup audio pool
-        setupAudioPool();
-        
-        // Listen for Lumia messages
-        setupMessageListener();
-        
-        log('TCSGO Case Opening Overlay initialized');
+
+        // Load cached data files
+        await loadDataFiles();
+
+        // Setup event listeners
+        setupEventListeners();
+
+        // Start polling fallback
+        startPolling();
+
+        log('[TCSGO Controller] Initialized successfully.');
     }
 
+    /**
+     * Load configuration from Lumia's Configs tab (window.data)
+     */
     function loadConfig() {
-        // Lumia injects window.overlayConfigs from the Configs tab
-        if (window.overlayConfigs) {
-            Object.assign(CONFIG, window.overlayConfigs);
+        // Lumia injects configs via `data` global
+        if (typeof data !== 'undefined' && data) {
+            CONFIG = { ...DEFAULT_CONFIG, ...data };
         }
-        
-        // Also check for overlayData
-        if (window.overlayData) {
-            // Data tab content available here
-        }
+        log('[Config] Loaded:', CONFIG);
     }
 
-    function setupAudioPool() {
-        const pool = document.getElementById('audio-pool');
-        if (!pool || !CONFIG.baseRawUrl) return;
-        
-        // Create pool of tick audio elements
-        for (let i = 0; i < CONFIG.audioPoolSize; i++) {
-            const audio = document.createElement('audio');
-            audio.preload = 'auto';
-            audio.volume = CONFIG.tickVolume;
-            pool.appendChild(audio);
-            state.audioPool.push(audio);
-        }
-    }
-
-    function loadSound(type) {
-        const manifest = state.assetManifest;
-        if (!manifest || !manifest.sounds || !manifest.sounds[type]) return null;
-        
-        const url = `${CONFIG.baseRawUrl}/${manifest.sounds[type]}`;
-        const audio = new Audio(url);
-        audio.preload = 'auto';
-        return audio;
-    }
-
-    // =========================
-    // MESSAGE LISTENER
-    // =========================
-    
-    function setupMessageListener() {
-        // Lumia Custom Overlay messaging
-        window.addEventListener('message', (event) => {
-            try {
-                const data = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
-                handleMessage(data);
-            } catch (e) {
-                // Not a JSON message, ignore
+    /**
+     * Load alias and price data from Lumia storage or inline
+     * In V1, we assume data is accessible via Overlay.getStorage or fetched
+     */
+    async function loadDataFiles() {
+        try {
+            // Try loading from Lumia persistent storage first
+            const aliasJson = await safeGetStorage('tcsgo_aliases');
+            if (aliasJson) {
+                aliasCache = JSON.parse(aliasJson);
+                log('[Data] Loaded aliases from storage:', Object.keys(aliasCache.aliases || {}).length, 'aliases');
             }
-        });
-        
-        // Also listen for overlaycontent events (Lumia specific)
-        document.addEventListener('overlaycontent', (event) => {
-            try {
-                const data = event.detail || event.data;
-                handleMessage(data);
-            } catch (e) {
-                log('Error handling overlaycontent:', e);
-            }
-        });
-    }
 
-    function handleMessage(data) {
-        if (!data) return;
-        
-        // Check codeId for routing
-        if (data.codeId && data.codeId !== CONFIG.codeId) return;
-        
-        // Handle different message types
-        if (data.type === 'caseopen' || data.action === 'caseopen') {
-            handleCaseOpen(data);
-        } else if (data.type === 'test') {
-            runTestAnimation();
+            const pricesJson = await safeGetStorage('tcsgo_prices');
+            if (pricesJson) {
+                pricesCache = JSON.parse(pricesJson);
+                log('[Data] Loaded prices from storage');
+            }
+
+            // If not in storage and baseRawUrl is set, fetch from GitHub
+            if (!aliasCache && CONFIG.baseRawUrl) {
+                const resp = await fetch(`${CONFIG.baseRawUrl}/data/case-aliases.json`);
+                aliasCache = await resp.json();
+                log('[Data] Fetched aliases from URL');
+            }
+
+            if (!pricesCache && CONFIG.baseRawUrl) {
+                const resp = await fetch(`${CONFIG.baseRawUrl}/data/prices.json`);
+                pricesCache = await resp.json();
+                log('[Data] Fetched prices from URL');
+            }
+
+        } catch (err) {
+            log('[Data] Error loading data files:', err.message);
         }
     }
 
-    // =========================
-    // CASE OPEN HANDLER
-    // =========================
-    
-    async function handleCaseOpen(data) {
-        if (state.isAnimating) {
-            log('Animation already in progress, ignoring');
+    // =========================================================================
+    // EVENT LISTENERS (Dual-Receive Primary)
+    // =========================================================================
+
+    function setupEventListeners() {
+        // Primary: Listen for overlaycontent events from Lumia
+        if (typeof Overlay !== 'undefined' && Overlay.on) {
+            Overlay.on('overlaycontent', (eventData) => {
+                log('[Event] Received overlaycontent:', eventData);
+                handleIncomingEvent(eventData.content);
+            });
+
+            // Also listen for chat messages to parse commands
+            Overlay.on('chat', (chatData) => {
+                handleChatMessage(chatData);
+            });
+
+            log('[Events] Overlay.on listeners registered');
+        } else {
+            log('[Events] Overlay API not available, using fallback only');
+        }
+    }
+
+    // =========================================================================
+    // POLLING FALLBACK (Dual-Receive Secondary)
+    // =========================================================================
+
+    function startPolling() {
+        if (pollIntervalRef) return; // Already polling
+
+        pollIntervalRef = setInterval(async () => {
+            try {
+                const eventJson = await safeGetVariable('tcsgo_last_event_json');
+                if (eventJson && eventJson !== 'null' && eventJson !== '') {
+                    handleIncomingEvent(eventJson);
+                }
+            } catch (err) {
+                // Ignore polling errors
+            }
+        }, CONFIG.pollIntervalMs);
+
+        log('[Polling] Started with interval:', CONFIG.pollIntervalMs, 'ms');
+    }
+
+    function stopPolling() {
+        if (pollIntervalRef) {
+            clearInterval(pollIntervalRef);
+            pollIntervalRef = null;
+            log('[Polling] Stopped');
+        }
+    }
+
+    // =========================================================================
+    // EVENT ROUTER
+    // =========================================================================
+
+    /**
+     * Handle incoming event payload (from either overlaycontent or polling)
+     * @param {string} payloadStr - JSON string of the event payload
+     */
+    function handleIncomingEvent(payloadStr) {
+        if (!payloadStr) return;
+
+        let payload;
+        try {
+            payload = typeof payloadStr === 'string' ? JSON.parse(payloadStr) : payloadStr;
+        } catch (err) {
+            log('[Router] Failed to parse payload:', err.message);
             return;
         }
-        
-        state.isAnimating = true;
-        
-        try {
-            const {
-                username,
-                containerId,
-                containerData,
-                winnerItem,
-                statTrak,
-                wear,
-                priceCoins,
-                priceCAD
-            } = data;
-            
-            // Load asset manifest if not loaded
-            if (!state.assetManifest) {
-                await loadAssetManifest();
-            }
-            
-            // Use provided container data or load it
-            let container = containerData;
-            if (!container && containerId) {
-                container = await loadContainer(containerId);
-            }
-            
-            if (!container) {
-                log('No container data available');
-                state.isAnimating = false;
-                return;
-            }
-            
-            state.currentContainer = container;
-            
-            // Build the reel
-            const reelItems = buildReel(container, winnerItem);
-            
-            // Render the reel
-            renderReel(reelItems);
-            
-            // Show the overlay
-            showOverlay();
-            
-            // Start the animation
-            await animateReel(winnerItem, username, statTrak, wear, priceCoins, priceCAD);
-            
-        } catch (error) {
-            log('Error during case open:', error);
-        } finally {
-            state.isAnimating = false;
-        }
-    }
 
-    // =========================
-    // DATA LOADING
-    // =========================
-    
-    async function loadAssetManifest() {
-        try {
-            const url = `${CONFIG.baseRawUrl}/assets/asset-manifest.json`;
-            const response = await fetch(url);
-            state.assetManifest = await response.json();
-            log('Asset manifest loaded');
-        } catch (error) {
-            log('Failed to load asset manifest:', error);
-        }
-    }
+        const eventId = payload.eventId || payload.data?.eventId;
 
-    async function loadContainer(containerId) {
-        try {
-            // Try loading from Case-Odds folder (matches repo structure)
-            const filename = containerId.split('-').map((w, i) => 
-                w.charAt(0).toUpperCase() + w.slice(1)
-            ).join('_') + '.json';
-            
-            const url = `${CONFIG.baseRawUrl}/Case-Odds/${filename}`;
-            const response = await fetch(url);
-            return await response.json();
-        } catch (error) {
-            log('Failed to load container:', error);
-            return null;
+        // Deduplicate: ignore if we've already processed this eventId
+        if (eventId && eventId === lastProcessedEventId) {
+            log('[Router] Ignoring duplicate eventId:', eventId);
+            return;
         }
-    }
 
-    // =========================
-    // REEL BUILDING
-    // =========================
-    
-    function buildReel(container, winnerItem) {
-        const items = [];
-        const caseData = container.case || container;
-        const allItems = getAllItemsFromContainer(caseData);
-        
-        // Fill reel with random items
-        for (let i = 0; i < CONFIG.reelCardCount; i++) {
-            if (i === CONFIG.winnerPosition) {
-                // Insert the winner at the designated position
-                items.push({
-                    ...winnerItem,
-                    isWinner: true
-                });
+        if (eventId) {
+            lastProcessedEventId = eventId;
+        }
+
+        log('[Router] Processing event:', payload.type, eventId || '(no eventId)');
+
+        // Check if there's a pending promise waiting for this eventId
+        if (eventId && pendingEvents.has(eventId)) {
+            const pending = pendingEvents.get(eventId);
+            clearTimeout(pending.timeoutId);
+            pendingEvents.delete(eventId);
+
+            if (payload.ok) {
+                pending.resolve(payload);
             } else {
-                // Pick a random item weighted by tier odds
-                const randomItem = pickRandomItem(caseData, allItems);
-                items.push(randomItem);
+                pending.reject(payload);
             }
+            return;
         }
-        
-        return items;
+
+        // Otherwise, handle as an unsolicited event (e.g., external trigger)
+        handleUnsolicitedEvent(payload);
     }
 
-    function getAllItemsFromContainer(caseData) {
-        const items = [];
-        const tiers = caseData.tiers || {};
-        
-        // Collect items from all tiers
-        for (const [tierName, tierItems] of Object.entries(tiers)) {
-            if (Array.isArray(tierItems)) {
-                for (const item of tierItems) {
-                    items.push({ ...item, tier: tierName });
+    /**
+     * Handle events not matched to a pending promise
+     */
+    function handleUnsolicitedEvent(payload) {
+        const type = payload.type;
+
+        switch (type) {
+            case 'open-result':
+                // External open triggered - show winner card
+                if (payload.ok && payload.data?.winner) {
+                    showWinnerCard(payload.data, payload.username || 'Unknown');
                 }
-            }
-        }
-        
-        // Collect items from gold pool if present
-        if (caseData.goldPool && caseData.goldPool !== 'None' && caseData.goldPool.items) {
-            for (const item of caseData.goldPool.items) {
-                items.push({ ...item, tier: 'gold' });
-            }
-        }
-        
-        return items;
-    }
-
-    function pickRandomItem(caseData, allItems) {
-        const oddsWeights = caseData.oddsWeights || {};
-        const tiers = caseData.tiers || {};
-        
-        // Build tier weights array
-        const tierWeights = [];
-        for (const [tierName, weight] of Object.entries(oddsWeights)) {
-            if (weight > 0) {
-                tierWeights.push({ tier: tierName, weight: Number(weight) });
-            }
-        }
-        
-        // Pick a tier
-        const totalTierWeight = tierWeights.reduce((s, t) => s + t.weight, 0);
-        let roll = Math.random() * totalTierWeight;
-        let selectedTier = tierWeights[0].tier;
-        
-        for (const tw of tierWeights) {
-            roll -= tw.weight;
-            if (roll <= 0) {
-                selectedTier = tw.tier;
                 break;
-            }
-        }
-        
-        // Get items from selected tier
-        let tierItems = [];
-        if (selectedTier === 'gold' && caseData.goldPool && caseData.goldPool.items) {
-            tierItems = caseData.goldPool.items.map(i => ({ ...i, tier: 'gold' }));
-        } else if (tiers[selectedTier]) {
-            tierItems = tiers[selectedTier].map(i => ({ ...i, tier: selectedTier }));
-        }
-        
-        // Pick random item from tier
-        if (tierItems.length === 0) {
-            // Fallback to any item
-            return allItems[Math.floor(Math.random() * allItems.length)];
-        }
-        
-        return tierItems[Math.floor(Math.random() * tierItems.length)];
-    }
 
-    // =========================
-    // REEL RENDERING
-    // =========================
-    
-    function renderReel(items) {
-        const track = document.getElementById('reel-track');
-        track.innerHTML = '';
-        
-        for (const item of items) {
-            const card = createReelCard(item);
-            track.appendChild(card);
-        }
-    }
-
-    function createReelCard(item) {
-        const card = document.createElement('div');
-        card.className = `reel-card rarity-${item.tier || getRarityFromItem(item)}`;
-        
-        if (item.isWinner) {
-            card.dataset.winner = 'true';
-        }
-        
-        // Image
-        const img = document.createElement('img');
-        img.className = 'reel-card-image';
-        img.src = resolveItemImage(item);
-        img.alt = item.displayName || '';
-        img.onerror = () => { img.src = getFallbackImage(); };
-        card.appendChild(img);
-        
-        // Name
-        const name = document.createElement('div');
-        name.className = 'reel-card-name';
-        name.textContent = item.displayName || item.itemId || 'Unknown';
-        card.appendChild(name);
-        
-        return card;
-    }
-
-    function getRarityFromItem(item) {
-        if (item.tier) return item.tier;
-        
-        const rarity = (item.rarity || '').toLowerCase();
-        
-        // Map rarity names to tier colors
-        const rarityMap = {
-            'mil-spec': 'blue',
-            'milspec': 'milspec',
-            'restricted': 'purple',
-            'classified': 'pink',
-            'covert': 'red',
-            'extraordinary': 'gold',
-            'consumer': 'consumer',
-            'industrial': 'industrial'
-        };
-        
-        return rarityMap[rarity] || 'blue';
-    }
-
-    // =========================
-    // IMAGE RESOLUTION
-    // =========================
-    
-    function resolveItemImage(item) {
-        const manifest = state.assetManifest;
-        if (!manifest || !CONFIG.baseRawUrl) return getFallbackImage();
-        
-        const container = state.currentContainer;
-        const caseId = container?.case?.id || '';
-        
-        // Check for explicit glove mapping
-        if (item.category === 'gloves' && manifest.gloveImageMap && manifest.gloveImageMap[item.itemId]) {
-            const caseFolder = manifest.caseFolderMap?.[caseId] || '';
-            return `${CONFIG.baseRawUrl}/${caseFolder}/Weapons/${manifest.gloveImageMap[item.itemId]}`;
-        }
-        
-        // Standard resolution: displayName to filename
-        const caseFolder = manifest.caseFolderMap?.[caseId] || '';
-        const subfolder = (item.category === 'knife') ? 'Knives' : 'Weapons';
-        
-        let filename = item.displayName || item.itemId || '';
-        
-        // Remove star prefix from knife names
-        filename = filename.replace(/^★\s*/, '');
-        
-        // Handle Doppler variants
-        if (item.variant && item.variant !== 'None' && manifest.dopplerPhaseMap) {
-            const suffix = manifest.dopplerPhaseMap[item.variant];
-            if (suffix) {
-                // For Doppler phases, append the suffix
-                const baseName = filename.replace(` (${item.variant})`, '');
-                filename = `${baseName}${suffix}`;
-            }
-        }
-        
-        filename = `${filename}.png`;
-        
-        return `${CONFIG.baseRawUrl}/${caseFolder}/${subfolder}/${encodeURIComponent(filename)}`;
-    }
-
-    function getFallbackImage() {
-        return state.assetManifest?.fallbackImage 
-            ? `${CONFIG.baseRawUrl}/${state.assetManifest.fallbackImage}`
-            : 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect fill="%23333" width="100" height="100"/><text fill="%23666" x="50" y="55" text-anchor="middle" font-size="12">?</text></svg>';
-    }
-
-    // =========================
-    // ANIMATION
-    // =========================
-    
-    function showOverlay() {
-        const container = document.getElementById('tcsgo-container');
-        container.classList.remove('hidden');
-        
-        const revealPanel = document.getElementById('reveal-panel');
-        revealPanel.classList.add('hidden');
-    }
-
-    function hideOverlay() {
-        const container = document.getElementById('tcsgo-container');
-        container.classList.add('hidden');
-    }
-
-    async function animateReel(winnerItem, username, statTrak, wear, priceCoins, priceCAD) {
-        const track = document.getElementById('reel-track');
-        const viewport = document.getElementById('reel-viewport');
-        
-        // Calculate positions
-        const cardTotalWidth = CONFIG.cardWidth + CONFIG.cardGap;
-        const viewportCenter = viewport.offsetWidth / 2;
-        
-        // Final position: winner card center aligned with marker
-        const winnerOffset = CONFIG.winnerPosition * cardTotalWidth;
-        const finalX = -(winnerOffset - viewportCenter + CONFIG.cardWidth / 2);
-        
-        // Starting position (off to the right)
-        const startX = 100;
-        
-        // Set initial position
-        track.style.transition = 'none';
-        track.style.transform = `translate3d(${startX}px, 0, 0)`;
-        
-        // Force reflow
-        track.offsetHeight;
-        
-        // Load tick sound
-        const tickUrl = state.assetManifest?.sounds?.tick 
-            ? `${CONFIG.baseRawUrl}/${state.assetManifest.sounds.tick}`
-            : null;
-        
-        // Setup tick sound pool
-        if (tickUrl) {
-            for (const audio of state.audioPool) {
-                audio.src = tickUrl;
-                audio.load();
-            }
-        }
-        
-        // Start animation with custom easing
-        return new Promise((resolve) => {
-            const startTime = performance.now();
-            const duration = CONFIG.spinDuration;
-            let lastTickCard = -1;
-            
-            function animate(currentTime) {
-                const elapsed = currentTime - startTime;
-                const progress = Math.min(elapsed / duration, 1);
-                
-                // Custom easing: fast start, slow end (cubic-out with extra slow-down)
-                const eased = 1 - Math.pow(1 - progress, 4);
-                
-                // Calculate current position
-                const currentX = startX + (finalX - startX) * eased;
-                track.style.transform = `translate3d(${currentX}px, 0, 0)`;
-                
-                // Calculate which card is at the marker
-                const markerX = viewportCenter;
-                const trackOffset = -currentX;
-                const cardAtMarker = Math.floor((trackOffset + markerX) / cardTotalWidth);
-                
-                // Play tick when crossing card boundaries
-                if (cardAtMarker !== lastTickCard && cardAtMarker >= 0) {
-                    playTick();
-                    lastTickCard = cardAtMarker;
+            case 'buycase-result':
+            case 'buykey-result':
+                // External buy result - just show toast
+                if (payload.ok) {
+                    showToast('success', 'Purchase Complete', `${payload.data?.displayName || 'Item'} purchased.`);
                 }
-                
-                if (progress < 1) {
-                    requestAnimationFrame(animate);
-                } else {
-                    // Animation complete
-                    setTimeout(() => {
-                        showReveal(winnerItem, username, statTrak, wear, priceCoins, priceCAD);
-                        resolve();
-                    }, CONFIG.revealDelay);
+                break;
+
+            case 'sell-start-result':
+                if (payload.ok) {
+                    const d = payload.data;
+                    showToast('info', 'Sell Started', `Confirm with: !sellconfirm ${d.token} (${d.expiresInSeconds}s)`);
                 }
+                break;
+
+            case 'sell-confirm-result':
+                if (payload.ok) {
+                    const d = payload.data;
+                    showToast('success', 'Item Sold!', `+${formatNumber(d.creditedCoins)} coins. Balance: ${formatNumber(d.newBalance)}`);
+                }
+                break;
+
+            default:
+                log('[Router] Unhandled event type:', type);
+        }
+    }
+
+    // =========================================================================
+    // CHAT COMMAND PARSING
+    // =========================================================================
+
+    /**
+     * Handle incoming chat message and parse for TCSGO commands
+     */
+    function handleChatMessage(chatData) {
+        const message = (chatData.message || '').trim();
+        const username = chatData.username || chatData.displayname || 'Unknown';
+        const platform = chatData.platform || chatData.site || 'twitch';
+
+        // Skip if not a command
+        if (!message.startsWith('!')) return;
+
+        const parts = message.slice(1).split(/\s+/);
+        const command = parts[0].toLowerCase();
+        const args = parts.slice(1);
+
+        log('[Chat] Command:', command, 'Args:', args, 'User:', username);
+
+        switch (command) {
+            case 'buycase':
+                handleBuyCase(username, platform, args);
+                break;
+
+            case 'buykey':
+                handleBuyKey(username, platform, args);
+                break;
+
+            case 'open':
+                handleOpen(username, platform, args);
+                break;
+
+            case 'sell':
+                handleSell(username, platform, args);
+                break;
+
+            case 'sellconfirm':
+                handleSellConfirm(username, platform, args);
+                break;
+
+            default:
+                // Not a TCSGO command, ignore
+                break;
+        }
+    }
+
+    // =========================================================================
+    // BUY CASE FLOW
+    // =========================================================================
+
+    /**
+     * !buycase <alias> [qty]
+     */
+    async function handleBuyCase(username, platform, args) {
+        const alias = args[0];
+        const qty = Math.max(1, parseInt(args[1], 10) || 1);
+
+        if (!alias) {
+            await sendChatMessage(`@${username} Usage: !buycase <alias> [qty]`);
+            return;
+        }
+
+        // Resolve alias to case info
+        const caseInfo = resolveAlias(alias);
+        if (!caseInfo) {
+            await sendChatMessage(`@${username} Unknown case: ${alias}`);
+            return;
+        }
+
+        // Get case price
+        const pricePerCase = getCasePrice(caseInfo.caseId);
+        const totalCost = pricePerCase * qty;
+
+        log('[BuyCase] Case:', caseInfo.displayName, 'Price:', pricePerCase, 'Qty:', qty, 'Total:', totalCost);
+
+        // Get viewer's current points
+        const currentPoints = await getLoyaltyPoints(username, platform);
+        log('[BuyCase] User points:', currentPoints);
+
+        if (currentPoints < totalCost) {
+            await sendChatMessage(`@${username} Insufficient coins! Need ${formatNumber(totalCost)}, have ${formatNumber(currentPoints)}.`);
+            return;
+        }
+
+        // Deduct points immediately (optimistic)
+        const deducted = await addLoyaltyPoints(username, platform, -totalCost);
+        log('[BuyCase] Deducted points, new balance:', deducted);
+
+        // Generate eventId for correlation
+        const eventId = generateEventId();
+
+        // Call commit command
+        try {
+            const result = await callCommitCommand('tcsgo-commit-buycase', {
+                eventId,
+                platform,
+                username,
+                alias,
+                qty
+            }, eventId);
+
+            // Success
+            await sendChatMessage(`@${username} Bought ${qty}x ${caseInfo.displayName}! Balance: ${formatNumber(deducted)}`);
+            showToast('success', 'Case Purchased', `${username} bought ${qty}x ${caseInfo.displayName}`);
+
+        } catch (err) {
+            // Failed or timeout - refund points
+            log('[BuyCase] Failed, refunding:', totalCost);
+            await addLoyaltyPoints(username, platform, totalCost);
+            const errMsg = err?.error?.message || 'Purchase failed';
+            await sendChatMessage(`@${username} ${errMsg}. Points refunded.`);
+            showToast('error', 'Purchase Failed', errMsg);
+        }
+    }
+
+    // =========================================================================
+    // BUY KEY FLOW
+    // =========================================================================
+
+    /**
+     * !buykey [qty]
+     */
+    async function handleBuyKey(username, platform, args) {
+        const qty = Math.max(1, parseInt(args[0], 10) || 1);
+
+        // Get key price
+        const pricePerKey = getKeyPrice();
+        const totalCost = pricePerKey * qty;
+
+        log('[BuyKey] Price:', pricePerKey, 'Qty:', qty, 'Total:', totalCost);
+
+        // Get viewer's current points
+        const currentPoints = await getLoyaltyPoints(username, platform);
+
+        if (currentPoints < totalCost) {
+            await sendChatMessage(`@${username} Insufficient coins! Need ${formatNumber(totalCost)}, have ${formatNumber(currentPoints)}.`);
+            return;
+        }
+
+        // Deduct points immediately
+        const deducted = await addLoyaltyPoints(username, platform, -totalCost);
+
+        // Generate eventId
+        const eventId = generateEventId();
+
+        try {
+            const result = await callCommitCommand('tcsgo-commit-buykey', {
+                eventId,
+                platform,
+                username,
+                qty
+            }, eventId);
+
+            await sendChatMessage(`@${username} Bought ${qty}x Key(s)! Balance: ${formatNumber(deducted)}`);
+            showToast('success', 'Keys Purchased', `${username} bought ${qty}x keys`);
+
+        } catch (err) {
+            // Refund
+            log('[BuyKey] Failed, refunding:', totalCost);
+            await addLoyaltyPoints(username, platform, totalCost);
+            const errMsg = err?.error?.message || 'Purchase failed';
+            await sendChatMessage(`@${username} ${errMsg}. Points refunded.`);
+            showToast('error', 'Purchase Failed', errMsg);
+        }
+    }
+
+    // =========================================================================
+    // OPEN CASE FLOW
+    // =========================================================================
+
+    /**
+     * !open <alias>
+     * No point deduction - case/key already owned in inventory
+     */
+    async function handleOpen(username, platform, args) {
+        const alias = args[0];
+
+        if (!alias) {
+            await sendChatMessage(`@${username} Usage: !open <alias>`);
+            return;
+        }
+
+        // Resolve alias
+        const caseInfo = resolveAlias(alias);
+        if (!caseInfo) {
+            await sendChatMessage(`@${username} Unknown case: ${alias}`);
+            return;
+        }
+
+        const eventId = generateEventId();
+
+        try {
+            const result = await callCommitCommand('tcsgo-commit-open', {
+                eventId,
+                platform,
+                username,
+                alias
+            }, eventId);
+
+            // Show winner card
+            if (result.ok && result.data) {
+                showWinnerCard(result.data, username);
+
+                const winner = result.data.winner;
+                const stStr = winner.statTrak ? 'StatTrak™ ' : '';
+                await sendChatMessage(`@${username} opened ${stStr}${winner.displayName} (${winner.wear})!`);
             }
-            
-            requestAnimationFrame(animate);
+
+        } catch (err) {
+            const errMsg = err?.error?.message || 'Open failed';
+            await sendChatMessage(`@${username} ${errMsg}`);
+            showToast('error', 'Open Failed', errMsg);
+        }
+    }
+
+    // =========================================================================
+    // SELL FLOW
+    // =========================================================================
+
+    /**
+     * !sell <oid>
+     */
+    async function handleSell(username, platform, args) {
+        const oid = args[0];
+
+        if (!oid) {
+            await sendChatMessage(`@${username} Usage: !sell <oid>`);
+            return;
+        }
+
+        const eventId = generateEventId();
+
+        try {
+            const result = await callCommitCommand('tcsgo-commit-sell-start', {
+                eventId,
+                platform,
+                username,
+                oid
+            }, eventId);
+
+            if (result.ok && result.data) {
+                const d = result.data;
+                const msg = `@${username} Selling ${d.item.displayName} for ${formatNumber(d.creditAmount)} coins (${d.marketFeePercent}% fee). Type: !sellconfirm ${d.token} within ${d.expiresInSeconds}s`;
+                await sendChatMessage(msg);
+                showToast('info', 'Confirm Sale', `!sellconfirm ${d.token}`);
+            }
+
+        } catch (err) {
+            const errMsg = err?.error?.message || 'Sell failed';
+            await sendChatMessage(`@${username} ${errMsg}`);
+            showToast('error', 'Sell Failed', errMsg);
+        }
+    }
+
+    /**
+     * !sellconfirm <token>
+     */
+    async function handleSellConfirm(username, platform, args) {
+        const token = args[0];
+
+        if (!token) {
+            await sendChatMessage(`@${username} Usage: !sellconfirm <token>`);
+            return;
+        }
+
+        const eventId = generateEventId();
+
+        try {
+            const result = await callCommitCommand('tcsgo-commit-sell-confirm', {
+                eventId,
+                platform,
+                username,
+                token
+            }, eventId);
+
+            if (result.ok && result.data) {
+                const d = result.data;
+                // Credit loyalty points
+                await addLoyaltyPoints(username, platform, d.creditedCoins);
+
+                await sendChatMessage(`@${username} Sold ${d.item.displayName}! +${formatNumber(d.creditedCoins)} coins. Balance: ${formatNumber(d.newBalance)}`);
+                showToast('success', 'Item Sold!', `+${formatNumber(d.creditedCoins)} coins`);
+            }
+
+        } catch (err) {
+            const errMsg = err?.error?.message || 'Confirm failed';
+            await sendChatMessage(`@${username} ${errMsg}`);
+            showToast('error', 'Sell Failed', errMsg);
+        }
+    }
+
+    // =========================================================================
+    // COMMIT COMMAND INVOCATION
+    // =========================================================================
+
+    /**
+     * Call a Lumia commit command and wait for acknowledgment
+     * @param {string} commandName - e.g., 'tcsgo-commit-buycase'
+     * @param {object} params - Parameters to pass to the command
+     * @param {string} eventId - Event ID for correlation
+     * @returns {Promise<object>} - Resolves with the ack payload or rejects on error/timeout
+     */
+    function callCommitCommand(commandName, params, eventId) {
+        return new Promise((resolve, reject) => {
+            // Setup timeout
+            const timeoutId = setTimeout(() => {
+                if (pendingEvents.has(eventId)) {
+                    pendingEvents.delete(eventId);
+                    reject({ ok: false, error: { code: 'TIMEOUT', message: 'Command timed out' } });
+                }
+            }, CONFIG.ackTimeoutMs);
+
+            // Register pending event
+            pendingEvents.set(eventId, { resolve, reject, timeoutId });
+
+            // Call the command via Lumia
+            if (typeof Overlay !== 'undefined' && Overlay.callCommand) {
+                Overlay.callCommand(commandName, params);
+                log('[Commit] Called:', commandName, 'eventId:', eventId);
+            } else {
+                // Fallback: reject immediately if no Overlay API
+                clearTimeout(timeoutId);
+                pendingEvents.delete(eventId);
+                reject({ ok: false, error: { code: 'NO_OVERLAY', message: 'Overlay API unavailable' } });
+            }
         });
     }
 
-    function playTick() {
-        if (state.audioPool.length === 0) return;
-        
-        const audio = state.audioPool[state.audioPoolIndex];
-        state.audioPoolIndex = (state.audioPoolIndex + 1) % state.audioPool.length;
-        
-        audio.currentTime = 0;
-        audio.volume = CONFIG.tickVolume;
-        audio.play().catch(() => {});
-    }
+    // =========================================================================
+    // WINNER CARD UI
+    // =========================================================================
 
-    // =========================
-    // REVEAL PANEL
-    // =========================
-    
-    function showReveal(item, username, statTrak, wear, priceCoins, priceCAD) {
-        const panel = document.getElementById('reveal-panel');
-        const rarity = item.tier || getRarityFromItem(item);
-        
-        // Set rarity class
-        panel.className = `rarity-${rarity}`;
-        
+    /**
+     * Show the winner card with item details
+     */
+    function showWinnerCard(resultData, username) {
+        const container = document.getElementById('winner-container');
+        if (!container) return;
+
+        const winner = resultData.winner;
+        const priceSnapshot = resultData.priceSnapshot || {};
+
+        // Determine rarity class
+        const rarity = normalizeRarity(winner.rarity || winner.tier);
+
+        // Update container class
+        container.className = `rarity-${rarity}`;
+
         // Set image
-        const img = document.getElementById('reveal-image');
-        img.src = resolveItemImage(item);
-        img.onerror = () => { img.src = getFallbackImage(); };
-        
+        const imgEl = document.getElementById('winner-image');
+        if (imgEl) {
+            imgEl.src = resultData.imagePath || '';
+            imgEl.onerror = () => {
+                imgEl.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 75"><rect fill="%23333" width="100" height="75"/><text fill="%23666" x="50" y="40" text-anchor="middle" font-size="10">?</text></svg>';
+            };
+        }
+
         // Set name
-        const nameEl = document.getElementById('reveal-name');
-        nameEl.textContent = item.displayName || item.itemId || 'Unknown Item';
-        
+        const nameEl = document.getElementById('winner-name');
+        if (nameEl) {
+            nameEl.textContent = winner.displayName || 'Unknown Item';
+        }
+
         // Set StatTrak badge
-        const stEl = document.getElementById('reveal-stattrak');
-        if (statTrak) {
-            stEl.classList.remove('hidden');
-        } else {
-            stEl.classList.add('hidden');
+        const stEl = document.getElementById('winner-stattrak');
+        if (stEl) {
+            stEl.classList.toggle('hidden', !winner.statTrak);
         }
-        
+
         // Set wear badge
-        const wearEl = document.getElementById('reveal-wear');
-        wearEl.textContent = wear || rollWear();
-        
+        const wearEl = document.getElementById('winner-wear');
+        if (wearEl) {
+            wearEl.textContent = winner.wear || 'Unknown';
+        }
+
         // Set price
-        const priceEl = document.getElementById('reveal-price');
-        priceEl.innerHTML = '';
-        if (priceCoins) {
-            const coinsSpan = document.createElement('span');
-            coinsSpan.className = 'coins';
-            coinsSpan.textContent = `${formatNumber(priceCoins)} Coins`;
-            priceEl.appendChild(coinsSpan);
+        const priceEl = document.getElementById('winner-price');
+        if (priceEl) {
+            priceEl.innerHTML = '';
+            if (priceSnapshot.chosenCoins) {
+                const coinsSpan = document.createElement('span');
+                coinsSpan.className = 'coins';
+                coinsSpan.textContent = `${formatNumber(priceSnapshot.chosenCoins)} Coins`;
+                priceEl.appendChild(coinsSpan);
+            }
+            if (priceSnapshot.cad) {
+                const cadSpan = document.createElement('span');
+                cadSpan.className = 'cad';
+                cadSpan.textContent = `($${priceSnapshot.cad.toFixed(2)} CAD)`;
+                priceEl.appendChild(cadSpan);
+            }
         }
-        if (priceCAD) {
-            const cadSpan = document.createElement('span');
-            cadSpan.className = 'cad';
-            cadSpan.textContent = `($${priceCAD.toFixed(2)} CAD)`;
-            priceEl.appendChild(cadSpan);
-        }
-        
+
         // Set username
-        const userEl = document.getElementById('reveal-username');
-        userEl.textContent = username || '';
-        
-        // Play reveal sound
-        playRevealSound(rarity);
-        
-        // Create particles
-        createParticles(rarity);
-        
-        // Show panel
-        panel.classList.remove('hidden');
-        
-        // Hide after duration
+        const userEl = document.getElementById('winner-username');
+        if (userEl) {
+            userEl.textContent = username;
+        }
+
+        // Show container
+        container.classList.remove('hidden', 'fade-out');
+
+        // Auto-hide after duration
         setTimeout(() => {
-            panel.classList.add('hidden');
-            hideOverlay();
-        }, CONFIG.revealDuration);
+            container.classList.add('fade-out');
+            setTimeout(() => {
+                container.classList.add('hidden');
+            }, 400);
+        }, CONFIG.winnerDisplayMs);
     }
 
-    function rollWear() {
-        let roll = Math.random() * WEAR_TOTAL;
-        for (const w of WEAR_TABLE) {
-            roll -= w.weight;
-            if (roll <= 0) return w.name;
-        }
-        return WEAR_TABLE[0].name;
+    /**
+     * Normalize rarity string to CSS class name
+     */
+    function normalizeRarity(rarity) {
+        if (!rarity) return 'blue';
+        const r = rarity.toLowerCase().replace(/[-\s]/g, '');
+        const map = {
+            'milspec': 'milspec',
+            'mil-spec': 'milspec',
+            'restricted': 'restricted',
+            'classified': 'classified',
+            'covert': 'covert',
+            'consumer': 'consumer',
+            'industrial': 'industrial',
+            'extraordinary': 'gold',
+            'blue': 'blue',
+            'purple': 'purple',
+            'pink': 'pink',
+            'red': 'red',
+            'gold': 'gold'
+        };
+        return map[r] || 'blue';
     }
 
-    function playRevealSound(rarity) {
-        let soundType = 'reveal';
-        
-        if (rarity === 'gold') {
-            soundType = 'goldReveal';
-        } else if (['pink', 'red', 'classified', 'covert'].includes(rarity)) {
-            soundType = 'rare';
+    // =========================================================================
+    // TOAST SYSTEM
+    // =========================================================================
+
+    /**
+     * Show a toast notification
+     * @param {string} type - 'success' | 'error' | 'warning' | 'info'
+     * @param {string} title - Toast title
+     * @param {string} message - Toast message
+     */
+    function showToast(type, title, message) {
+        const container = document.getElementById('toast-container');
+        if (!container) return;
+
+        const toast = document.createElement('div');
+        toast.className = `toast ${type}`;
+
+        const icons = {
+            success: '✓',
+            error: '✕',
+            warning: '⚠',
+            info: 'ℹ'
+        };
+
+        toast.innerHTML = `
+            <div class="toast-icon">${icons[type] || 'ℹ'}</div>
+            <div class="toast-content">
+                <div class="toast-title">${escapeHtml(title)}</div>
+                <div class="toast-message">${escapeHtml(message)}</div>
+            </div>
+        `;
+
+        container.appendChild(toast);
+
+        // Auto-remove after duration
+        setTimeout(() => {
+            toast.classList.add('fade-out');
+            setTimeout(() => {
+                if (toast.parentNode) {
+                    toast.parentNode.removeChild(toast);
+                }
+            }, 300);
+        }, CONFIG.toastDurationMs);
+    }
+
+    // =========================================================================
+    // HELPER: ALIAS RESOLUTION
+    // =========================================================================
+
+    /**
+     * Resolve a user-provided alias to case info
+     */
+    function resolveAlias(alias) {
+        if (!aliasCache || !aliasCache.aliases) return null;
+        const key = alias.toLowerCase().trim();
+        return aliasCache.aliases[key] || null;
+    }
+
+    // =========================================================================
+    // HELPER: PRICE LOOKUPS
+    // =========================================================================
+
+    /**
+     * Get case price in coins
+     */
+    function getCasePrice(caseId) {
+        if (pricesCache && pricesCache.cases && pricesCache.cases[caseId] !== undefined) {
+            const cadPrice = pricesCache.cases[caseId];
+            const cadToCoins = pricesCache.cadToCoins || 1000;
+            return Math.round(cadPrice * cadToCoins);
         }
-        
-        const audio = loadSound(soundType);
-        if (audio) {
-            audio.volume = rarity === 'gold' ? CONFIG.goldVolume : 
-                          soundType === 'rare' ? CONFIG.rareVolume : CONFIG.revealVolume;
-            audio.play().catch(() => {});
+        // Default fallback
+        return 2000;
+    }
+
+    /**
+     * Get key price in coins
+     */
+    function getKeyPrice() {
+        if (pricesCache && pricesCache.keys && pricesCache.keys.default !== undefined) {
+            const cadPrice = pricesCache.keys.default;
+            const cadToCoins = pricesCache.cadToCoins || 1000;
+            return Math.round(cadPrice * cadToCoins);
+        }
+        return CONFIG.defaultKeyPriceCoins;
+    }
+
+    // =========================================================================
+    // HELPER: LOYALTY POINTS
+    // =========================================================================
+
+    /**
+     * Get user's loyalty points
+     */
+    async function getLoyaltyPoints(username, platform) {
+        if (typeof Overlay !== 'undefined' && Overlay.getLoyaltyPoints) {
+            try {
+                return await Overlay.getLoyaltyPoints({ username, platform });
+            } catch (err) {
+                log('[Points] getLoyaltyPoints error:', err);
+                return 0;
+            }
+        }
+        return 0;
+    }
+
+    /**
+     * Add (or subtract if negative) loyalty points
+     */
+    async function addLoyaltyPoints(username, platform, value) {
+        if (typeof Overlay !== 'undefined' && Overlay.addLoyaltyPoints) {
+            try {
+                return await Overlay.addLoyaltyPoints({ username, platform, value });
+            } catch (err) {
+                log('[Points] addLoyaltyPoints error:', err);
+                return 0;
+            }
+        }
+        return 0;
+    }
+
+    // =========================================================================
+    // HELPER: CHAT MESSAGES
+    // =========================================================================
+
+    /**
+     * Send a chat message via Lumia chatbot
+     */
+    async function sendChatMessage(message) {
+        if (typeof Overlay !== 'undefined' && Overlay.chatbot) {
+            try {
+                await Overlay.chatbot({ message, chatAsSelf: false });
+            } catch (err) {
+                log('[Chat] chatbot error:', err);
+            }
+        } else {
+            log('[Chat] (no chatbot):', message);
         }
     }
 
-    function createParticles(rarity) {
-        const container = document.getElementById('reveal-particles');
-        container.innerHTML = '';
-        
-        // Skip particles for common rarities
-        if (['blue', 'consumer', 'industrial'].includes(rarity)) return;
-        
-        const color = getComputedStyle(document.documentElement)
-            .getPropertyValue(`--rarity-${rarity}`).trim() || '#fff';
-        
-        const particleCount = rarity === 'gold' ? 50 : 30;
-        
-        for (let i = 0; i < particleCount; i++) {
-            const particle = document.createElement('div');
-            particle.className = 'particle';
-            particle.style.backgroundColor = color;
-            particle.style.left = `${Math.random() * 100}%`;
-            particle.style.animationDelay = `${Math.random() * 2}s`;
-            particle.style.animationDuration = `${2 + Math.random() * 2}s`;
-            container.appendChild(particle);
+    // =========================================================================
+    // HELPER: STORAGE ACCESS
+    // =========================================================================
+
+    async function safeGetStorage(key) {
+        if (typeof Overlay !== 'undefined' && Overlay.getStorage) {
+            try {
+                return Overlay.getStorage(key);
+            } catch (err) {
+                return null;
+            }
         }
+        return null;
     }
 
-    // =========================
+    async function safeGetVariable(name) {
+        if (typeof Overlay !== 'undefined' && Overlay.getVariable) {
+            try {
+                return Overlay.getVariable(name);
+            } catch (err) {
+                return null;
+            }
+        }
+        return null;
+    }
+
+    // =========================================================================
     // UTILITY FUNCTIONS
-    // =========================
-    
+    // =========================================================================
+
+    function generateEventId() {
+        const ts = Date.now().toString(36);
+        const rand = Math.random().toString(36).substring(2, 8);
+        return `evt_${ts}_${rand}`;
+    }
+
     function formatNumber(num) {
-        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        return (num || 0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    }
+
+    function escapeHtml(str) {
+        const div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
     }
 
     function log(...args) {
@@ -708,43 +923,23 @@
         }
     }
 
-    // =========================
-    // TEST MODE
-    // =========================
-    
-    async function runTestAnimation() {
-        // Test data for debugging
-        const testData = {
-            username: 'TestUser',
-            containerId: 'chroma-2-case',
-            winnerItem: {
-                itemId: 'm4a1-s-hyper-beast',
-                displayName: 'M4A1-S | Hyper Beast',
-                tier: CONFIG.forceRarity || 'red',
-                category: 'weapon',
-                rarity: 'covert'
-            },
-            statTrak: true,
-            wear: 'Factory New',
-            priceCoins: 15000,
-            priceCAD: 45.50
-        };
-        
-        await handleCaseOpen(testData);
-    }
-
-    // =========================
+    // =========================================================================
     // STARTUP
-    // =========================
-    
-    // Initialize when DOM is ready
+    // =========================================================================
+
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init);
     } else {
         init();
     }
 
-    // Expose test function for debugging
-    window.TCSGOTest = runTestAnimation;
+    // Expose for debugging
+    window.TCSGOController = {
+        showToast,
+        showWinnerCard,
+        getConfig: () => CONFIG,
+        getAliasCache: () => aliasCache,
+        getPricesCache: () => pricesCache
+    };
 
 })();

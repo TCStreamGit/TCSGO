@@ -3,39 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TCSGO Case Opening</title>
+    <title>TCSGO Case Opening Controller V1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="tcsgo-container" class="hidden">
-        <!-- Reel Container -->
-        <div id="reel-viewport">
-            <div id="reel-marker"></div>
-            <div id="reel-track"></div>
-        </div>
+    <!--
+        TCSGO Case Opening Controller V1
+        =================================
+        Handles chat commands, point validation, and dual-receive reliability.
         
-        <!-- Reveal Panel -->
-        <div id="reveal-panel" class="hidden">
-            <div id="reveal-glow"></div>
-            <div id="reveal-particles"></div>
-            <div id="reveal-card">
-                <div id="reveal-image-wrapper">
-                    <img id="reveal-image" src="" alt="">
+        Commands supported (parsed in overlay):
+        - !buycase <alias> [qty]
+        - !buykey [qty]
+        - !open <alias>
+        - !sell <oid>
+        - !sellconfirm <token>
+        
+        UI is minimal (V1): just a winner card and toast/status area.
+    -->
+    
+    <div id="tcsgo-controller">
+        
+        <!-- Winner Card (shown after successful !open) -->
+        <div id="winner-container" class="hidden">
+            <div id="winner-glow"></div>
+            <div id="winner-card">
+                <div id="winner-image-wrapper">
+                    <img id="winner-image" src="" alt="Winner Item">
                 </div>
-                <div id="reveal-info">
-                    <div id="reveal-name"></div>
-                    <div id="reveal-badges">
-                        <span id="reveal-stattrak" class="badge hidden">StatTrak™</span>
-                        <span id="reveal-wear" class="badge"></span>
+                <div id="winner-info">
+                    <div id="winner-name"></div>
+                    <div id="winner-badges">
+                        <span id="winner-stattrak" class="badge stattrak hidden">StatTrak™</span>
+                        <span id="winner-wear" class="badge wear"></span>
                     </div>
-                    <div id="reveal-price"></div>
+                    <div id="winner-price"></div>
                 </div>
+                <div id="winner-username"></div>
             </div>
-            <div id="reveal-username"></div>
         </div>
         
-        <!-- Audio Pool (hidden) -->
-        <div id="audio-pool" style="display:none;"></div>
+        <!-- Toast / Status Area -->
+        <div id="toast-container">
+            <!-- Toasts will be dynamically inserted here -->
+        </div>
+        
     </div>
     
     <script src="script.js"></script>
