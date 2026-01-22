@@ -1,70 +1,73 @@
 /**
  * TCSGO Commit: Buy Key
  * ======================
- * 
- * PORTABLE SETUP: Set Lumia working dir to TCSGO root, OR set TCSGO_BASE below.
+ * Lumia Custom Command - Correct Pattern
  */
 
-const TCSGO_BASE = 'A:\\Development\\Version Control\\Github\\TCSGO';  // ← Windows path
+async function() {
+    const TCSGO_BASE = 'A:\\Development\\Version Control\\Github\\TCSGO';
+    
+    const CONFIG = {
+        basePath: TCSGO_BASE,
+        paths: { inventories: 'data/inventories.json' }
+    };
 
-const CONFIG = {
-    basePath: TCSGO_BASE,
-    paths: { inventories: 'data/inventories.json' }
-};
-
-function buildPath(rel) { 
-    const b = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, ''); 
-    const r = rel.replace(/\\/g, '/').replace(/^\//, ''); 
-    return b ? `${b}/${r}` : r; 
-}
-
-async function loadJson(rel) { 
-    try { 
-        return JSON.parse(await readFile(buildPath(rel))); 
-    } catch (e) { 
-        log(`[TCSGO] loadJson: ${e.message}`); 
-        return null; 
-    } 
-}
-
-async function saveJson(rel, data) { 
-    try { 
-        await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); 
-        return true; 
-    } catch (e) { 
-        log(`[TCSGO] saveJson: ${e.message}`); 
-        return false; 
-    } 
-}
-
-function buildUserKey(p, u) { 
-    return `${p.toLowerCase()}:${u.toLowerCase()}`; 
-}
-
-function getOrCreateUser(inv, key) { 
-    if (!inv.users[key]) {
-        inv.users[key] = { 
-            userKey: key, 
-            createdAt: new Date().toISOString(), 
-            chosenCoins: 0, 
-            cases: {}, 
-            keys: {}, 
-            items: [], 
-            pendingSell: null 
-        }; 
+    function buildPath(rel) { 
+        const b = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, ''); 
+        const r = rel.replace(/\\/g, '/').replace(/^\//, ''); 
+        return b ? `${b}/${r}` : r; 
     }
-    return inv.users[key]; 
-}
 
-function successResponse(t, d) { 
-    return { type: t, ok: true, timestamp: new Date().toISOString(), data: d }; 
-}
+    async function loadJson(rel) { 
+        try { 
+            return JSON.parse(await readFile(buildPath(rel))); 
+        } catch (e) { 
+            log(`[TCSGO] loadJson: ${e.message}`); 
+            return null; 
+        } 
+    }
 
-function errorResponse(t, c, m, det = null) { 
-    return { type: t, ok: false, timestamp: new Date().toISOString(), error: { code: c, message: m, details: det } }; 
-}
+    async function saveJson(rel, data) { 
+        try { 
+            await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); 
+            return true; 
+        } catch (e) { 
+            log(`[TCSGO] saveJson: ${e.message}`); 
+            return false; 
+        } 
+    }
 
-async function main() {
+    function buildUserKey(p, u) { 
+        return `${p.toLowerCase()}:${u.toLowerCase()}`; 
+    }
+
+    function getOrCreateUser(inv, key) { 
+        if (!inv.users[key]) {
+            inv.users[key] = { 
+                userKey: key, 
+                createdAt: new Date().toISOString(), 
+                chosenCoins: 0, 
+                cases: {}, 
+                keys: {}, 
+                items: [], 
+                pendingSell: null 
+            }; 
+        }
+        return inv.users[key]; 
+    }
+
+    function successResponse(t, d) { 
+        return { type: t, ok: true, timestamp: new Date().toISOString(), data: d }; 
+    }
+
+    function errorResponse(t, c, m, det = null) { 
+        return { type: t, ok: false, timestamp: new Date().toISOString(), error: { code: c, message: m, details: det } }; 
+    }
+
+    // =========================================================================
+    // MAIN LOGIC
+    // =========================================================================
+
     const RT = 'buykey-result';
     const platform = '{{platform}}' !== '{{' + 'platform}}' ? '{{platform}}' : 'twitch';
     const username = '{{username}}' !== '{{' + 'username}}' ? '{{username}}' : null;
@@ -130,5 +133,3 @@ async function main() {
     log(payloadStr);
     done();
 }
-
-main();

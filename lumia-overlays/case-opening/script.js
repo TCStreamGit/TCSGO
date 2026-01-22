@@ -1,945 +1,1105 @@
 /**
  * TCSGO Case Opening Controller V1
- * =================================
- * 
- * Handles chat commands, loyalty point validation, and orchestrates
- * buy/open/sell flows. Implements dual-receive reliability pattern.
- * 
- * COMMANDS PARSED:
- *   !buycase <alias> [qty]   - Buy case(s), deduct points
- *   !buykey [qty]            - Buy key(s), deduct points
- *   !open <alias>            - Open a case (no point deduction)
- *   !sell <oid>              - Start selling an item
- *   !sellconfirm <token>     - Confirm a pending sell
- * 
- * DUAL-RECEIVE:
- *   1) Primary: Overlay.on('overlaycontent', ...) event listener
- *   2) Fallback: Poll Overlay.getVariable('tcsgo_last_event_json') every 250ms
- * 
- * EVENT ROUTING:
- *   - Commands generate an eventId before calling commit commands
- *   - Router waits for matching eventId in response
- *   - Timeout after ackTimeoutMs triggers refund (for buy flows)
+ * - Studio Toast Debug (Bottom-Right Like Multichat)
+ * - Leader Election + Chat Dedup (Prevents Double-Processing)
+ * - Fetch-First Data Load (Then Storage Fallback)
  */
 
 (function () {
-    'use strict';
+  "use strict";
 
-    // =========================================================================
-    // CONFIGURATION (loaded from configs.json via Lumia)
-    // =========================================================================
+  // Capture Lumia Host Toast (Do NOT Fall Back To Overlay.toast, That Shows Inside The Overlay)
+const HOST_TOAST =
+  (typeof toast === "function")
+    ? toast
+    : (typeof window !== "undefined" && typeof window.toast === "function")
+      ? window.toast
+      : null;
 
-    const DEFAULT_CONFIG = {
-        // Base URL for fetching data files (if needed)
-        baseRawUrl: '',
 
-        // Polling interval for fallback receive (ms)
-        pollIntervalMs: 250,
+function normalizeToastType(t) {
+  const x = String(t || "info").toLowerCase().trim();
+  if (x === "warn") return "warning";
+  if (x === "error") return "error";
+  if (x === "success") return "success";
+  if (x === "warning") return "warning";
+  return "info";
+}
 
-        // Timeout waiting for commit command acknowledgment (ms)
-        ackTimeoutMs: 3000,
+function hostToast(message, type = "info") {
+  if (!HOST_TOAST) return false;
+  const msg = String(message ?? "");
+  const tt = normalizeToastType(type);
 
-        // Market fee percent for selling
-        feePercent: 10,
+  // Support Both Common Host Signatures
+  try { HOST_TOAST(msg, tt); return true; } catch (_) {}
+  try { HOST_TOAST({ message: msg, type: tt }); return true; } catch (_) {}
 
-        // Default key price (coins)
-        defaultKeyPriceCoins: 3500,
+  return false;
+}
 
-        // Overlay codeId for routing
-        codeId: 'tcsgo-controller',
+  // =========================================================================
+  // DEFAULT CONFIG
+  // =========================================================================
 
-        // Winner card display duration (ms)
-        winnerDisplayMs: 8000,
+  const DEFAULT_CONFIG = {
+    /* Data Loading */
+    baseRawUrl: "https://raw.githubusercontent.com/TCStreamGit/TCSGO/main",
+    pollIntervalMs: 250,
+    ackTimeoutMs: 3000,
 
-        // Toast display duration (ms)
-        toastDurationMs: 5000,
+    /* Reply Behaviour */
+    chatReplyMode: "chat", // "off" | "toast" | "chat" | "both"
 
-        // Debug mode
-        debugMode: false
-    };
+    /* Economy */
+    feePercent: 10,
+    defaultKeyPriceCoins: 3500,
 
-    let CONFIG = { ...DEFAULT_CONFIG };
+    /* Overlay Routing */
+    codeId: "tcsgo-controller",
 
-    // =========================================================================
-    // CACHED DATA (aliases, prices)
-    // =========================================================================
+    /* UI */
+    winnerDisplayMs: 8000,
 
-    let aliasCache = null;   // case-aliases.json contents
-    let pricesCache = null;  // prices.json contents
+    /* Command Prefix + Viewer Command Names */
+    commandPrefix: "!",
+    cmdBuyCase: "buycase",
+    cmdBuyKey: "buykey",
+    cmdOpen: "open",
+    cmdSell: "sell",
+    cmdSellConfirm: "sellconfirm",
 
-    // =========================================================================
-    // EVENT ROUTING STATE
-    // =========================================================================
+    /* Commit Command Names */
+    commitBuyCase: "tcsgo-commit-buycase",
+    commitBuyKey: "tcsgo-commit-buykey",
+    commitOpen: "tcsgo-commit-open",
+    commitSellStart: "tcsgo-commit-sell-start",
+    commitSellConfirm: "tcsgo-commit-sell-confirm",
 
-    // Map of eventId -> { resolve, reject, timeoutId }
-    const pendingEvents = new Map();
+    /* Debug Master */
+    debugEnabled: true,
+    debugOutput: "toast", // "toast" | "console" | "both"
+    debugAll: false,
 
-    // Last processed eventId (to ignore duplicates in polling)
-    let lastProcessedEventId = null;
+    /* Debug Toggles */
+    debugInit: true,
+    debugConfig: true,
+    debugData: true,
+    debugStorage: true,
+    debugFetch: true,
+    debugVariables: true,
 
-    // Polling interval reference
-    let pollIntervalRef = null;
+    debugEventsPrimary: true,
+    debugEventsPoll: false,
 
-    // =========================================================================
-    // INITIALIZATION
-    // =========================================================================
+    debugRouter: true,
+    debugDedup: true,
+    debugUnsolicited: true,
 
-    async function init() {
-        log('[TCSGO Controller] Initializing...');
+    debugChatIn: true,
+    debugCommands: true,
 
-        // Load config from Lumia (if available)
-        loadConfig();
+    debugBuyCase: true,
+    debugBuyKey: true,
+    debugOpen: true,
+    debugSell: true,
+    debugSellConfirm: true,
 
-        // Load cached data files
-        await loadDataFiles();
+    debugCommit: true,
+    debugTimeouts: true,
 
-        // Setup event listeners
-        setupEventListeners();
+    debugPoints: true,
+    debugChatSend: true,
 
-        // Start polling fallback
-        startPolling();
+    debugWinnerCard: true,
+    debugErrors: true
+  };
 
-        log('[TCSGO Controller] Initialized successfully.');
+  let CONFIG = { ...DEFAULT_CONFIG };
+
+  // =========================================================================
+  // CACHED DATA
+  // =========================================================================
+
+  let aliasCache = null;  // Expected Shape: { aliases: { key: { caseId, displayName } } }
+  let pricesCache = null; // Expected Shape: { cadToCoins, cases: { caseId: cadPrice }, keys: { default: cadPrice } }
+
+  // =========================================================================
+  // EVENT ROUTING STATE
+  // =========================================================================
+
+  const pendingEvents = new Map(); // eventId -> { resolve, reject, timeoutId }
+  let lastProcessedEventId = null;
+
+  let pollIntervalRef = null;
+  let lastPolledRaw = "";
+
+  // =========================================================================
+  // LEADER + CHAT DEDUP (Fixes TikTok Double-Fires / Multi-Instance)
+  // =========================================================================
+
+  const INSTANCE_ID = `inst_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
+  let IS_LEADER = true;
+  const RECENT_CHAT = new Map(); // key -> ts
+
+  // =========================================================================
+  // CONFIG HELPERS
+  // =========================================================================
+
+  function getConfigSource() {
+    const od =
+      (typeof Overlay !== "undefined" && Overlay && Overlay.data) ||
+      (typeof data !== "undefined" && data) ||
+      (typeof window !== "undefined" && window && window.data) ||
+      {};
+    return od && typeof od === "object" ? od : {};
+  }
+
+  function cfgBoolFrom(src, key, fallback = false) {
+    const v = src ? src[key] : undefined;
+    if (typeof v === "boolean") return v;
+    if (typeof v === "number") return v !== 0;
+    if (typeof v === "string") return v.toLowerCase() === "true";
+    return fallback;
+  }
+
+  function cfgNumFrom(src, key, fallback = 0) {
+    const v = src ? src[key] : undefined;
+    const n = Number(v);
+    return Number.isFinite(n) ? n : fallback;
+  }
+
+  function cfgStrFrom(src, key, fallback = "") {
+    const v = src ? src[key] : undefined;
+    return typeof v === "string" && v.trim() ? v.trim() : fallback;
+  }
+
+  function clampNum(n, min, max, fallback) {
+    const x = Number(n);
+    if (!Number.isFinite(x)) return fallback;
+    return Math.max(min, Math.min(max, x));
+  }
+
+  // =========================================================================
+  // STUDIO TOAST (Bottom-Right Like Multichat)
+  // =========================================================================
+
+  function studioToast(message, type = "info") {
+  // Only Use Host Toast (Bottom-Right In Studio). Never Use Overlay.toast/Overlay.log.
+  const ok = hostToast(message, type);
+
+  if (!ok) {
+    // Safe Fallback That Does Not Touch Overlay UI
+    try {
+      const t = normalizeToastType(type);
+      console.log(`[${t}] ${String(message ?? "")}`);
+    } catch (_) {}
+  }
+
+  return ok;
+}
+
+
+
+  // =========================================================================
+  // DEBUG HELPERS (Now Uses CONFIG, Not Overlay.data)
+  // =========================================================================
+
+  function debugOn(key) {
+    if (!CONFIG.debugEnabled) return false;
+    if (CONFIG.debugAll) return true;
+    return key ? !!CONFIG[key] : true;
+  }
+
+  function debugEmit(message, toastType = "info", key = "") {
+    if (!CONFIG.debugEnabled) return;
+    if (key && !debugOn(key)) return;
+
+    const out = String(CONFIG.debugOutput || "toast").toLowerCase();
+    const msg = String(message ?? "");
+    const full = `[Debug] ${msg}`;
+
+  // Multichat Behaviour: Toasts Go To Studio (Not Overlay UI)
+    if (out === "toast" || out === "both") {
+      studioToast(full, toastType);
     }
 
-    /**
-     * Load configuration from Lumia's Configs tab (window.data)
-     */
-    function loadConfig() {
-        // Lumia injects configs via `data` global
-        if (typeof data !== 'undefined' && data) {
-            CONFIG = { ...DEFAULT_CONFIG, ...data };
-        }
-        log('[Config] Loaded:', CONFIG);
+    if (out === "console" || out === "both") {
+      try { console.log(full); } catch (_) {}
+    }
+  }
+
+
+
+  function debugError(prefix, err, key = "debugErrors") {
+    const e = err || {};
+    const msg = `${prefix} | ${e.message || String(e)}`;
+    debugEmit(msg, "error", key);
+    if (e && e.stack) debugEmit(String(e.stack).slice(0, 500), "error", key);
+  }
+
+  // =========================================================================
+  // INIT
+  // =========================================================================
+
+  async function init() {
+    loadConfig();
+    hostToast(`[Debug] Host Toast Available=${!!HOST_TOAST}`, "info");
+    debugEmit(`[Init] Starting | Instance=${INSTANCE_ID}`, "info", "debugInit");
+
+    await loadDataFiles();
+
+    setupEventListeners();
+    startLeaderElection();
+    startPolling();
+
+    debugEmit("[Init] Controller Ready", "success", "debugInit");
+  }
+
+  // =========================================================================
+  // LOAD CONFIG
+  // =========================================================================
+
+  function loadConfig() {
+    const src = getConfigSource();
+
+    CONFIG = { ...DEFAULT_CONFIG };
+
+    // Strings
+    CONFIG.baseRawUrl = cfgStrFrom(src, "baseRawUrl", DEFAULT_CONFIG.baseRawUrl);
+    CONFIG.codeId = cfgStrFrom(src, "codeId", DEFAULT_CONFIG.codeId);
+    CONFIG.chatReplyMode = cfgStrFrom(src, "chatReplyMode", DEFAULT_CONFIG.chatReplyMode).toLowerCase();
+
+    // Numbers
+    CONFIG.pollIntervalMs = clampNum(cfgNumFrom(src, "pollIntervalMs", DEFAULT_CONFIG.pollIntervalMs), 50, 5000, DEFAULT_CONFIG.pollIntervalMs);
+    CONFIG.ackTimeoutMs = clampNum(cfgNumFrom(src, "ackTimeoutMs", DEFAULT_CONFIG.ackTimeoutMs), 250, 30000, DEFAULT_CONFIG.ackTimeoutMs);
+    CONFIG.feePercent = clampNum(cfgNumFrom(src, "feePercent", DEFAULT_CONFIG.feePercent), 0, 100, DEFAULT_CONFIG.feePercent);
+    CONFIG.defaultKeyPriceCoins = clampNum(cfgNumFrom(src, "defaultKeyPriceCoins", DEFAULT_CONFIG.defaultKeyPriceCoins), 0, 1e12, DEFAULT_CONFIG.defaultKeyPriceCoins);
+    CONFIG.winnerDisplayMs = clampNum(cfgNumFrom(src, "winnerDisplayMs", DEFAULT_CONFIG.winnerDisplayMs), 500, 60000, DEFAULT_CONFIG.winnerDisplayMs);
+
+    // Viewer Commands
+    CONFIG.commandPrefix = cfgStrFrom(src, "commandPrefix", DEFAULT_CONFIG.commandPrefix);
+    CONFIG.cmdBuyCase = cfgStrFrom(src, "cmdBuyCase", DEFAULT_CONFIG.cmdBuyCase);
+    CONFIG.cmdBuyKey = cfgStrFrom(src, "cmdBuyKey", DEFAULT_CONFIG.cmdBuyKey);
+    CONFIG.cmdOpen = cfgStrFrom(src, "cmdOpen", DEFAULT_CONFIG.cmdOpen);
+    CONFIG.cmdSell = cfgStrFrom(src, "cmdSell", DEFAULT_CONFIG.cmdSell);
+    CONFIG.cmdSellConfirm = cfgStrFrom(src, "cmdSellConfirm", DEFAULT_CONFIG.cmdSellConfirm);
+
+    // Commit Commands
+    CONFIG.commitBuyCase = cfgStrFrom(src, "commitBuyCase", DEFAULT_CONFIG.commitBuyCase);
+    CONFIG.commitBuyKey = cfgStrFrom(src, "commitBuyKey", DEFAULT_CONFIG.commitBuyKey);
+    CONFIG.commitOpen = cfgStrFrom(src, "commitOpen", DEFAULT_CONFIG.commitOpen);
+    CONFIG.commitSellStart = cfgStrFrom(src, "commitSellStart", DEFAULT_CONFIG.commitSellStart);
+    CONFIG.commitSellConfirm = cfgStrFrom(src, "commitSellConfirm", DEFAULT_CONFIG.commitSellConfirm);
+
+    // Debug
+    CONFIG.debugEnabled = cfgBoolFrom(src, "debugEnabled", DEFAULT_CONFIG.debugEnabled);
+    CONFIG.debugOutput = cfgStrFrom(src, "debugOutput", DEFAULT_CONFIG.debugOutput).toLowerCase();
+    CONFIG.debugAll = cfgBoolFrom(src, "debugAll", DEFAULT_CONFIG.debugAll);
+
+    const debugKeys = [
+      "debugInit","debugConfig","debugData","debugStorage","debugFetch","debugVariables",
+      "debugEventsPrimary","debugEventsPoll","debugRouter","debugDedup","debugUnsolicited",
+      "debugChatIn","debugCommands","debugBuyCase","debugBuyKey","debugOpen","debugSell","debugSellConfirm",
+      "debugCommit","debugTimeouts","debugPoints","debugChatSend","debugWinnerCard","debugErrors"
+    ];
+    for (const k of debugKeys) CONFIG[k] = cfgBoolFrom(src, k, DEFAULT_CONFIG[k]);
+
+    if (!["toast", "console", "both"].includes(CONFIG.debugOutput)) {
+      CONFIG.debugOutput = DEFAULT_CONFIG.debugOutput;
+    }
+    if (!["off", "toast", "chat", "both"].includes(CONFIG.chatReplyMode)) {
+      CONFIG.chatReplyMode = DEFAULT_CONFIG.chatReplyMode;
     }
 
-    /**
-     * Load alias and price data from Lumia storage or inline
-     * In V1, we assume data is accessible via Overlay.getStorage or fetched
-     */
-    async function loadDataFiles() {
-        try {
-            // Try loading from Lumia persistent storage first
-            const aliasJson = await safeGetStorage('tcsgo_aliases');
-            if (aliasJson) {
-                aliasCache = JSON.parse(aliasJson);
-                log('[Data] Loaded aliases from storage:', Object.keys(aliasCache.aliases || {}).length, 'aliases');
-            }
+    debugEmit(
+      `[Config] baseRawUrl=${CONFIG.baseRawUrl} | prefix=${CONFIG.commandPrefix} | debugOutput=${CONFIG.debugOutput} | chatReplyMode=${CONFIG.chatReplyMode}`,
+      "info",
+      "debugConfig"
+    );
+  }
 
-            const pricesJson = await safeGetStorage('tcsgo_prices');
-            if (pricesJson) {
-                pricesCache = JSON.parse(pricesJson);
-                log('[Data] Loaded prices from storage');
-            }
+  // =========================================================================
+  // COMMAND HELPERS
+  // =========================================================================
 
-            // If not in storage and baseRawUrl is set, fetch from GitHub
-            if (!aliasCache && CONFIG.baseRawUrl) {
-                const resp = await fetch(`${CONFIG.baseRawUrl}/data/case-aliases.json`);
-                aliasCache = await resp.json();
-                log('[Data] Fetched aliases from URL');
-            }
+  function getPrefixes() {
+    return String(CONFIG.commandPrefix || "!")
+      .split(",")
+      .map((s) => s.trim())
+      .filter(Boolean);
+  }
 
-            if (!pricesCache && CONFIG.baseRawUrl) {
-                const resp = await fetch(`${CONFIG.baseRawUrl}/data/prices.json`);
-                pricesCache = await resp.json();
-                log('[Data] Fetched prices from URL');
-            }
-
-        } catch (err) {
-            log('[Data] Error loading data files:', err.message);
-        }
+  function matchPrefix(message) {
+    const msg = String(message || "");
+    for (const p of getPrefixes()) {
+      if (p && msg.startsWith(p)) return p;
     }
+    return "";
+  }
 
-    // =========================================================================
-    // EVENT LISTENERS (Dual-Receive Primary)
-    // =========================================================================
+  function getCmdFull(cmdKey) {
+    const pfx = getPrefixes()[0] || "!";
+    const name = String(CONFIG[cmdKey] || "").trim();
+    return `${pfx}${name}`;
+  }
 
-    function setupEventListeners() {
-        // Primary: Listen for overlaycontent events from Lumia
-        if (typeof Overlay !== 'undefined' && Overlay.on) {
-            Overlay.on('overlaycontent', (eventData) => {
-                log('[Event] Received overlaycontent:', eventData);
-                handleIncomingEvent(eventData.content);
-            });
+  // =========================================================================
+  // STORAGE / VARIABLES
+  // =========================================================================
 
-            // Also listen for chat messages to parse commands
-            Overlay.on('chat', (chatData) => {
-                handleChatMessage(chatData);
-            });
-
-            log('[Events] Overlay.on listeners registered');
-        } else {
-            log('[Events] Overlay API not available, using fallback only');
-        }
+  async function safeGetStorage(key) {
+    if (typeof Overlay !== "undefined" && Overlay.getStorage) {
+      try {
+        const v = await Overlay.getStorage(key);
+        debugEmit(`[Storage] Get | key=${key} | hit=${v != null && v !== ""}`, "info", "debugStorage");
+        return v;
+      } catch (err) {
+        debugError(`[Storage] Get Failed | key=${key}`, err, "debugStorage");
+      }
     }
+    return null;
+  }
 
-    // =========================================================================
-    // POLLING FALLBACK (Dual-Receive Secondary)
-    // =========================================================================
-
-    function startPolling() {
-        if (pollIntervalRef) return; // Already polling
-
-        pollIntervalRef = setInterval(async () => {
-            try {
-                const eventJson = await safeGetVariable('tcsgo_last_event_json');
-                if (eventJson && eventJson !== 'null' && eventJson !== '') {
-                    handleIncomingEvent(eventJson);
-                }
-            } catch (err) {
-                // Ignore polling errors
-            }
-        }, CONFIG.pollIntervalMs);
-
-        log('[Polling] Started with interval:', CONFIG.pollIntervalMs, 'ms');
+  async function safeSetStorage(key, value) {
+    if (typeof Overlay !== "undefined" && Overlay.setStorage) {
+      try {
+        await Overlay.setStorage(key, value);
+        debugEmit(`[Storage] Set | key=${key} | ok=true`, "success", "debugStorage");
+        return true;
+      } catch (err) {
+        debugError(`[Storage] Set Failed | key=${key}`, err, "debugStorage");
+      }
     }
+    return false;
+  }
 
-    function stopPolling() {
-        if (pollIntervalRef) {
-            clearInterval(pollIntervalRef);
-            pollIntervalRef = null;
-            log('[Polling] Stopped');
-        }
+  async function safeGetVariable(name) {
+    if (typeof Overlay !== "undefined" && Overlay.getVariable) {
+      try {
+        const v = await Overlay.getVariable(name);
+        debugEmit(`[Var] Get | name=${name} | hasValue=${!!v}`, "info", "debugVariables");
+        return v;
+      } catch (err) {
+        debugError(`[Var] Get Failed | name=${name}`, err, "debugVariables");
+      }
     }
+    return null;
+  }
 
-    // =========================================================================
-    // EVENT ROUTER
-    // =========================================================================
-
-    /**
-     * Handle incoming event payload (from either overlaycontent or polling)
-     * @param {string} payloadStr - JSON string of the event payload
-     */
-    function handleIncomingEvent(payloadStr) {
-        if (!payloadStr) return;
-
-        let payload;
-        try {
-            payload = typeof payloadStr === 'string' ? JSON.parse(payloadStr) : payloadStr;
-        } catch (err) {
-            log('[Router] Failed to parse payload:', err.message);
-            return;
-        }
-
-        const eventId = payload.eventId || payload.data?.eventId;
-
-        // Deduplicate: ignore if we've already processed this eventId
-        if (eventId && eventId === lastProcessedEventId) {
-            log('[Router] Ignoring duplicate eventId:', eventId);
-            return;
-        }
-
-        if (eventId) {
-            lastProcessedEventId = eventId;
-        }
-
-        log('[Router] Processing event:', payload.type, eventId || '(no eventId)');
-
-        // Check if there's a pending promise waiting for this eventId
-        if (eventId && pendingEvents.has(eventId)) {
-            const pending = pendingEvents.get(eventId);
-            clearTimeout(pending.timeoutId);
-            pendingEvents.delete(eventId);
-
-            if (payload.ok) {
-                pending.resolve(payload);
-            } else {
-                pending.reject(payload);
-            }
-            return;
-        }
-
-        // Otherwise, handle as an unsolicited event (e.g., external trigger)
-        handleUnsolicitedEvent(payload);
+  async function safeSetVariable(name, value) {
+    if (typeof Overlay !== "undefined" && Overlay.setVariable) {
+      try {
+        await Overlay.setVariable(name, value);
+        debugEmit(`[Var] Set | name=${name} | ok=true`, "success", "debugVariables");
+        return true;
+      } catch (err) {
+        debugError(`[Var] Set Failed | name=${name}`, err, "debugVariables");
+      }
     }
-
-    /**
-     * Handle events not matched to a pending promise
-     */
-    function handleUnsolicitedEvent(payload) {
-        const type = payload.type;
-
-        switch (type) {
-            case 'open-result':
-                // External open triggered - show winner card
-                if (payload.ok && payload.data?.winner) {
-                    showWinnerCard(payload.data, payload.username || 'Unknown');
-                }
-                break;
-
-            case 'buycase-result':
-            case 'buykey-result':
-                // External buy result - just show toast
-                if (payload.ok) {
-                    showToast('success', 'Purchase Complete', `${payload.data?.displayName || 'Item'} purchased.`);
-                }
-                break;
-
-            case 'sell-start-result':
-                if (payload.ok) {
-                    const d = payload.data;
-                    showToast('info', 'Sell Started', `Confirm with: !sellconfirm ${d.token} (${d.expiresInSeconds}s)`);
-                }
-                break;
-
-            case 'sell-confirm-result':
-                if (payload.ok) {
-                    const d = payload.data;
-                    showToast('success', 'Item Sold!', `+${formatNumber(d.creditedCoins)} coins. Balance: ${formatNumber(d.newBalance)}`);
-                }
-                break;
-
-            default:
-                log('[Router] Unhandled event type:', type);
-        }
-    }
-
-    // =========================================================================
-    // CHAT COMMAND PARSING
-    // =========================================================================
-
-    /**
-     * Handle incoming chat message and parse for TCSGO commands
-     */
-    function handleChatMessage(chatData) {
-        const message = (chatData.message || '').trim();
-        const username = chatData.username || chatData.displayname || 'Unknown';
-        const platform = chatData.platform || chatData.site || 'twitch';
-
-        // Skip if not a command
-        if (!message.startsWith('!')) return;
-
-        const parts = message.slice(1).split(/\s+/);
-        const command = parts[0].toLowerCase();
-        const args = parts.slice(1);
-
-        log('[Chat] Command:', command, 'Args:', args, 'User:', username);
-
-        switch (command) {
-            case 'buycase':
-                handleBuyCase(username, platform, args);
-                break;
-
-            case 'buykey':
-                handleBuyKey(username, platform, args);
-                break;
-
-            case 'open':
-                handleOpen(username, platform, args);
-                break;
-
-            case 'sell':
-                handleSell(username, platform, args);
-                break;
-
-            case 'sellconfirm':
-                handleSellConfirm(username, platform, args);
-                break;
-
-            default:
-                // Not a TCSGO command, ignore
-                break;
-        }
-    }
-
-    // =========================================================================
-    // BUY CASE FLOW
-    // =========================================================================
-
-    /**
-     * !buycase <alias> [qty]
-     */
-    async function handleBuyCase(username, platform, args) {
-        const alias = args[0];
-        const qty = Math.max(1, parseInt(args[1], 10) || 1);
-
-        if (!alias) {
-            await sendChatMessage(`@${username} Usage: !buycase <alias> [qty]`);
-            return;
-        }
-
-        // Resolve alias to case info
-        const caseInfo = resolveAlias(alias);
-        if (!caseInfo) {
-            await sendChatMessage(`@${username} Unknown case: ${alias}`);
-            return;
-        }
-
-        // Get case price
-        const pricePerCase = getCasePrice(caseInfo.caseId);
-        const totalCost = pricePerCase * qty;
-
-        log('[BuyCase] Case:', caseInfo.displayName, 'Price:', pricePerCase, 'Qty:', qty, 'Total:', totalCost);
-
-        // Get viewer's current points
-        const currentPoints = await getLoyaltyPoints(username, platform);
-        log('[BuyCase] User points:', currentPoints);
-
-        if (currentPoints < totalCost) {
-            await sendChatMessage(`@${username} Insufficient coins! Need ${formatNumber(totalCost)}, have ${formatNumber(currentPoints)}.`);
-            return;
-        }
-
-        // Deduct points immediately (optimistic)
-        const deducted = await addLoyaltyPoints(username, platform, -totalCost);
-        log('[BuyCase] Deducted points, new balance:', deducted);
-
-        // Generate eventId for correlation
-        const eventId = generateEventId();
-
-        // Call commit command
-        try {
-            const result = await callCommitCommand('tcsgo-commit-buycase', {
-                eventId,
-                platform,
-                username,
-                alias,
-                qty
-            }, eventId);
-
-            // Success
-            await sendChatMessage(`@${username} Bought ${qty}x ${caseInfo.displayName}! Balance: ${formatNumber(deducted)}`);
-            showToast('success', 'Case Purchased', `${username} bought ${qty}x ${caseInfo.displayName}`);
-
-        } catch (err) {
-            // Failed or timeout - refund points
-            log('[BuyCase] Failed, refunding:', totalCost);
-            await addLoyaltyPoints(username, platform, totalCost);
-            const errMsg = err?.error?.message || 'Purchase failed';
-            await sendChatMessage(`@${username} ${errMsg}. Points refunded.`);
-            showToast('error', 'Purchase Failed', errMsg);
-        }
-    }
-
-    // =========================================================================
-    // BUY KEY FLOW
-    // =========================================================================
-
-    /**
-     * !buykey [qty]
-     */
-    async function handleBuyKey(username, platform, args) {
-        const qty = Math.max(1, parseInt(args[0], 10) || 1);
-
-        // Get key price
-        const pricePerKey = getKeyPrice();
-        const totalCost = pricePerKey * qty;
-
-        log('[BuyKey] Price:', pricePerKey, 'Qty:', qty, 'Total:', totalCost);
-
-        // Get viewer's current points
-        const currentPoints = await getLoyaltyPoints(username, platform);
-
-        if (currentPoints < totalCost) {
-            await sendChatMessage(`@${username} Insufficient coins! Need ${formatNumber(totalCost)}, have ${formatNumber(currentPoints)}.`);
-            return;
-        }
-
-        // Deduct points immediately
-        const deducted = await addLoyaltyPoints(username, platform, -totalCost);
-
-        // Generate eventId
-        const eventId = generateEventId();
-
-        try {
-            const result = await callCommitCommand('tcsgo-commit-buykey', {
-                eventId,
-                platform,
-                username,
-                qty
-            }, eventId);
-
-            await sendChatMessage(`@${username} Bought ${qty}x Key(s)! Balance: ${formatNumber(deducted)}`);
-            showToast('success', 'Keys Purchased', `${username} bought ${qty}x keys`);
-
-        } catch (err) {
-            // Refund
-            log('[BuyKey] Failed, refunding:', totalCost);
-            await addLoyaltyPoints(username, platform, totalCost);
-            const errMsg = err?.error?.message || 'Purchase failed';
-            await sendChatMessage(`@${username} ${errMsg}. Points refunded.`);
-            showToast('error', 'Purchase Failed', errMsg);
-        }
-    }
-
-    // =========================================================================
-    // OPEN CASE FLOW
-    // =========================================================================
-
-    /**
-     * !open <alias>
-     * No point deduction - case/key already owned in inventory
-     */
-    async function handleOpen(username, platform, args) {
-        const alias = args[0];
-
-        if (!alias) {
-            await sendChatMessage(`@${username} Usage: !open <alias>`);
-            return;
-        }
-
-        // Resolve alias
-        const caseInfo = resolveAlias(alias);
-        if (!caseInfo) {
-            await sendChatMessage(`@${username} Unknown case: ${alias}`);
-            return;
-        }
-
-        const eventId = generateEventId();
-
-        try {
-            const result = await callCommitCommand('tcsgo-commit-open', {
-                eventId,
-                platform,
-                username,
-                alias
-            }, eventId);
-
-            // Show winner card
-            if (result.ok && result.data) {
-                showWinnerCard(result.data, username);
-
-                const winner = result.data.winner;
-                const stStr = winner.statTrak ? 'StatTrak™ ' : '';
-                await sendChatMessage(`@${username} opened ${stStr}${winner.displayName} (${winner.wear})!`);
-            }
-
-        } catch (err) {
-            const errMsg = err?.error?.message || 'Open failed';
-            await sendChatMessage(`@${username} ${errMsg}`);
-            showToast('error', 'Open Failed', errMsg);
-        }
-    }
-
-    // =========================================================================
-    // SELL FLOW
-    // =========================================================================
-
-    /**
-     * !sell <oid>
-     */
-    async function handleSell(username, platform, args) {
-        const oid = args[0];
-
-        if (!oid) {
-            await sendChatMessage(`@${username} Usage: !sell <oid>`);
-            return;
-        }
-
-        const eventId = generateEventId();
-
-        try {
-            const result = await callCommitCommand('tcsgo-commit-sell-start', {
-                eventId,
-                platform,
-                username,
-                oid
-            }, eventId);
-
-            if (result.ok && result.data) {
-                const d = result.data;
-                const msg = `@${username} Selling ${d.item.displayName} for ${formatNumber(d.creditAmount)} coins (${d.marketFeePercent}% fee). Type: !sellconfirm ${d.token} within ${d.expiresInSeconds}s`;
-                await sendChatMessage(msg);
-                showToast('info', 'Confirm Sale', `!sellconfirm ${d.token}`);
-            }
-
-        } catch (err) {
-            const errMsg = err?.error?.message || 'Sell failed';
-            await sendChatMessage(`@${username} ${errMsg}`);
-            showToast('error', 'Sell Failed', errMsg);
-        }
-    }
-
-    /**
-     * !sellconfirm <token>
-     */
-    async function handleSellConfirm(username, platform, args) {
-        const token = args[0];
-
-        if (!token) {
-            await sendChatMessage(`@${username} Usage: !sellconfirm <token>`);
-            return;
-        }
-
-        const eventId = generateEventId();
-
-        try {
-            const result = await callCommitCommand('tcsgo-commit-sell-confirm', {
-                eventId,
-                platform,
-                username,
-                token
-            }, eventId);
-
-            if (result.ok && result.data) {
-                const d = result.data;
-                // Credit loyalty points
-                await addLoyaltyPoints(username, platform, d.creditedCoins);
-
-                await sendChatMessage(`@${username} Sold ${d.item.displayName}! +${formatNumber(d.creditedCoins)} coins. Balance: ${formatNumber(d.newBalance)}`);
-                showToast('success', 'Item Sold!', `+${formatNumber(d.creditedCoins)} coins`);
-            }
-
-        } catch (err) {
-            const errMsg = err?.error?.message || 'Confirm failed';
-            await sendChatMessage(`@${username} ${errMsg}`);
-            showToast('error', 'Sell Failed', errMsg);
-        }
-    }
-
-    // =========================================================================
-    // COMMIT COMMAND INVOCATION
-    // =========================================================================
-
-    /**
-     * Call a Lumia commit command and wait for acknowledgment
-     * @param {string} commandName - e.g., 'tcsgo-commit-buycase'
-     * @param {object} params - Parameters to pass to the command
-     * @param {string} eventId - Event ID for correlation
-     * @returns {Promise<object>} - Resolves with the ack payload or rejects on error/timeout
-     */
-    function callCommitCommand(commandName, params, eventId) {
-        return new Promise((resolve, reject) => {
-            // Setup timeout
-            const timeoutId = setTimeout(() => {
-                if (pendingEvents.has(eventId)) {
-                    pendingEvents.delete(eventId);
-                    reject({ ok: false, error: { code: 'TIMEOUT', message: 'Command timed out' } });
-                }
-            }, CONFIG.ackTimeoutMs);
-
-            // Register pending event
-            pendingEvents.set(eventId, { resolve, reject, timeoutId });
-
-            // Call the command via Lumia
-            if (typeof Overlay !== 'undefined' && Overlay.callCommand) {
-                Overlay.callCommand(commandName, params);
-                log('[Commit] Called:', commandName, 'eventId:', eventId);
-            } else {
-                // Fallback: reject immediately if no Overlay API
-                clearTimeout(timeoutId);
-                pendingEvents.delete(eventId);
-                reject({ ok: false, error: { code: 'NO_OVERLAY', message: 'Overlay API unavailable' } });
-            }
-        });
-    }
-
-    // =========================================================================
-    // WINNER CARD UI
-    // =========================================================================
-
-    /**
-     * Show the winner card with item details
-     */
-    function showWinnerCard(resultData, username) {
-        const container = document.getElementById('winner-container');
-        if (!container) return;
-
-        const winner = resultData.winner;
-        const priceSnapshot = resultData.priceSnapshot || {};
-
-        // Determine rarity class
-        const rarity = normalizeRarity(winner.rarity || winner.tier);
-
-        // Update container class
-        container.className = `rarity-${rarity}`;
-
-        // Set image
-        const imgEl = document.getElementById('winner-image');
-        if (imgEl) {
-            imgEl.src = resultData.imagePath || '';
-            imgEl.onerror = () => {
-                imgEl.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 75"><rect fill="%23333" width="100" height="75"/><text fill="%23666" x="50" y="40" text-anchor="middle" font-size="10">?</text></svg>';
-            };
-        }
-
-        // Set name
-        const nameEl = document.getElementById('winner-name');
-        if (nameEl) {
-            nameEl.textContent = winner.displayName || 'Unknown Item';
-        }
-
-        // Set StatTrak badge
-        const stEl = document.getElementById('winner-stattrak');
-        if (stEl) {
-            stEl.classList.toggle('hidden', !winner.statTrak);
-        }
-
-        // Set wear badge
-        const wearEl = document.getElementById('winner-wear');
-        if (wearEl) {
-            wearEl.textContent = winner.wear || 'Unknown';
-        }
-
-        // Set price
-        const priceEl = document.getElementById('winner-price');
-        if (priceEl) {
-            priceEl.innerHTML = '';
-            if (priceSnapshot.chosenCoins) {
-                const coinsSpan = document.createElement('span');
-                coinsSpan.className = 'coins';
-                coinsSpan.textContent = `${formatNumber(priceSnapshot.chosenCoins)} Coins`;
-                priceEl.appendChild(coinsSpan);
-            }
-            if (priceSnapshot.cad) {
-                const cadSpan = document.createElement('span');
-                cadSpan.className = 'cad';
-                cadSpan.textContent = `($${priceSnapshot.cad.toFixed(2)} CAD)`;
-                priceEl.appendChild(cadSpan);
-            }
-        }
-
-        // Set username
-        const userEl = document.getElementById('winner-username');
-        if (userEl) {
-            userEl.textContent = username;
-        }
-
-        // Show container
-        container.classList.remove('hidden', 'fade-out');
-
-        // Auto-hide after duration
-        setTimeout(() => {
-            container.classList.add('fade-out');
-            setTimeout(() => {
-                container.classList.add('hidden');
-            }, 400);
-        }, CONFIG.winnerDisplayMs);
-    }
-
-    /**
-     * Normalize rarity string to CSS class name
-     */
-    function normalizeRarity(rarity) {
-        if (!rarity) return 'blue';
-        const r = rarity.toLowerCase().replace(/[-\s]/g, '');
-        const map = {
-            'milspec': 'milspec',
-            'mil-spec': 'milspec',
-            'restricted': 'restricted',
-            'classified': 'classified',
-            'covert': 'covert',
-            'consumer': 'consumer',
-            'industrial': 'industrial',
-            'extraordinary': 'gold',
-            'blue': 'blue',
-            'purple': 'purple',
-            'pink': 'pink',
-            'red': 'red',
-            'gold': 'gold'
-        };
-        return map[r] || 'blue';
-    }
-
-    // =========================================================================
-    // TOAST SYSTEM
-    // =========================================================================
-
-    /**
-     * Show a toast notification
-     * @param {string} type - 'success' | 'error' | 'warning' | 'info'
-     * @param {string} title - Toast title
-     * @param {string} message - Toast message
-     */
-    function showToast(type, title, message) {
-        const container = document.getElementById('toast-container');
-        if (!container) return;
-
-        const toast = document.createElement('div');
-        toast.className = `toast ${type}`;
-
-        const icons = {
-            success: '✓',
-            error: '✕',
-            warning: '⚠',
-            info: 'ℹ'
-        };
-
-        toast.innerHTML = `
-            <div class="toast-icon">${icons[type] || 'ℹ'}</div>
-            <div class="toast-content">
-                <div class="toast-title">${escapeHtml(title)}</div>
-                <div class="toast-message">${escapeHtml(message)}</div>
-            </div>
-        `;
-
-        container.appendChild(toast);
-
-        // Auto-remove after duration
-        setTimeout(() => {
-            toast.classList.add('fade-out');
-            setTimeout(() => {
-                if (toast.parentNode) {
-                    toast.parentNode.removeChild(toast);
-                }
-            }, 300);
-        }, CONFIG.toastDurationMs);
-    }
-
-    // =========================================================================
-    // HELPER: ALIAS RESOLUTION
-    // =========================================================================
-
-    /**
-     * Resolve a user-provided alias to case info
-     */
-    function resolveAlias(alias) {
-        if (!aliasCache || !aliasCache.aliases) return null;
-        const key = alias.toLowerCase().trim();
-        return aliasCache.aliases[key] || null;
-    }
-
-    // =========================================================================
-    // HELPER: PRICE LOOKUPS
-    // =========================================================================
-
-    /**
-     * Get case price in coins
-     */
-    function getCasePrice(caseId) {
-        if (pricesCache && pricesCache.cases && pricesCache.cases[caseId] !== undefined) {
-            const cadPrice = pricesCache.cases[caseId];
-            const cadToCoins = pricesCache.cadToCoins || 1000;
-            return Math.round(cadPrice * cadToCoins);
-        }
-        // Default fallback
-        return 2000;
-    }
-
-    /**
-     * Get key price in coins
-     */
-    function getKeyPrice() {
-        if (pricesCache && pricesCache.keys && pricesCache.keys.default !== undefined) {
-            const cadPrice = pricesCache.keys.default;
-            const cadToCoins = pricesCache.cadToCoins || 1000;
-            return Math.round(cadPrice * cadToCoins);
-        }
-        return CONFIG.defaultKeyPriceCoins;
-    }
-
-    // =========================================================================
-    // HELPER: LOYALTY POINTS
-    // =========================================================================
-
-    /**
-     * Get user's loyalty points
-     */
-    async function getLoyaltyPoints(username, platform) {
-        if (typeof Overlay !== 'undefined' && Overlay.getLoyaltyPoints) {
-            try {
-                return await Overlay.getLoyaltyPoints({ username, platform });
-            } catch (err) {
-                log('[Points] getLoyaltyPoints error:', err);
-                return 0;
-            }
-        }
-        return 0;
-    }
-
-    /**
-     * Add (or subtract if negative) loyalty points
-     */
-    async function addLoyaltyPoints(username, platform, value) {
-        if (typeof Overlay !== 'undefined' && Overlay.addLoyaltyPoints) {
-            try {
-                return await Overlay.addLoyaltyPoints({ username, platform, value });
-            } catch (err) {
-                log('[Points] addLoyaltyPoints error:', err);
-                return 0;
-            }
-        }
-        return 0;
-    }
-
-    // =========================================================================
-    // HELPER: CHAT MESSAGES
-    // =========================================================================
-
-    /**
-     * Send a chat message via Lumia chatbot
-     */
-    async function sendChatMessage(message) {
-        if (typeof Overlay !== 'undefined' && Overlay.chatbot) {
-            try {
-                await Overlay.chatbot({ message, chatAsSelf: false });
-            } catch (err) {
-                log('[Chat] chatbot error:', err);
-            }
-        } else {
-            log('[Chat] (no chatbot):', message);
-        }
-    }
-
-    // =========================================================================
-    // HELPER: STORAGE ACCESS
-    // =========================================================================
-
-    async function safeGetStorage(key) {
-        if (typeof Overlay !== 'undefined' && Overlay.getStorage) {
-            try {
-                return Overlay.getStorage(key);
-            } catch (err) {
-                return null;
-            }
-        }
-        return null;
-    }
-
-    async function safeGetVariable(name) {
-        if (typeof Overlay !== 'undefined' && Overlay.getVariable) {
-            try {
-                return Overlay.getVariable(name);
-            } catch (err) {
-                return null;
-            }
-        }
-        return null;
-    }
-
-    // =========================================================================
-    // UTILITY FUNCTIONS
-    // =========================================================================
-
-    function generateEventId() {
-        const ts = Date.now().toString(36);
-        const rand = Math.random().toString(36).substring(2, 8);
-        return `evt_${ts}_${rand}`;
-    }
-
-    function formatNumber(num) {
-        return (num || 0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-    }
-
-    function escapeHtml(str) {
-        const div = document.createElement('div');
-        div.textContent = str;
-        return div.innerHTML;
-    }
-
-    function log(...args) {
-        if (CONFIG.debugMode) {
-            console.log('[TCSGO]', ...args);
-        }
-    }
-
-    // =========================================================================
-    // STARTUP
-    // =========================================================================
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
+    return false;
+  }
+
+  // =========================================================================
+  // DATA LOADING (Fetch First, Then Storage)
+  // =========================================================================
+
+  async function loadDataFiles() {
+    debugEmit("[Data] Load Start", "info", "debugData");
+
+    const base = String(CONFIG.baseRawUrl || "").replace(/\/+$/g, "");
+
+    // 1) Fetch First
+    if (base) {
+      try {
+        const aUrl = `${base}/data/case-aliases.json`;
+        debugEmit(`[Data] Fetch Aliases | ${aUrl}`, "info", "debugFetch");
+        const resp = await fetch(aUrl, { cache: "no-store" });
+        if (!resp.ok) throw new Error(`Aliases Fetch Failed (${resp.status})`);
+        aliasCache = await resp.json();
+        await safeSetStorage("tcsgo_aliases", JSON.stringify(aliasCache));
+        debugEmit(`[Data] Aliases Fetched | aliases=${Object.keys(aliasCache?.aliases || {}).length}`, "success", "debugData");
+      } catch (e) {
+        debugError("[Data] Fetch Aliases Failed", e, "debugFetch");
+      }
+
+      try {
+        const pUrl = `${base}/data/prices.json`;
+        debugEmit(`[Data] Fetch Prices | ${pUrl}`, "info", "debugFetch");
+        const resp = await fetch(pUrl, { cache: "no-store" });
+        if (!resp.ok) throw new Error(`Prices Fetch Failed (${resp.status})`);
+        pricesCache = await resp.json();
+        await safeSetStorage("tcsgo_prices", JSON.stringify(pricesCache));
+        debugEmit("[Data] Prices Fetched", "success", "debugData");
+      } catch (e) {
+        debugError("[Data] Fetch Prices Failed", e, "debugFetch");
+      }
     } else {
-        init();
+      debugEmit("[Data] baseRawUrl Empty (Skipping Fetch)", "warning", "debugData");
     }
 
-    // Expose for debugging
-    window.TCSGOController = {
-        showToast,
-        showWinnerCard,
-        getConfig: () => CONFIG,
-        getAliasCache: () => aliasCache,
-        getPricesCache: () => pricesCache
-    };
+    // 2) Storage Fallback
+    if (!aliasCache) {
+      const raw = await safeGetStorage("tcsgo_aliases");
+      if (raw) {
+        try {
+          aliasCache = typeof raw === "string" ? JSON.parse(raw) : raw;
+          debugEmit(`[Data] Aliases From Storage | aliases=${Object.keys(aliasCache?.aliases || {}).length}`, "success", "debugData");
+        } catch (e) {
+          debugError("[Data] Aliases Storage Parse Failed", e, "debugData");
+        }
+      }
+    }
 
+    if (!pricesCache) {
+      const raw = await safeGetStorage("tcsgo_prices");
+      if (raw) {
+        try {
+          pricesCache = typeof raw === "string" ? JSON.parse(raw) : raw;
+          debugEmit("[Data] Prices From Storage", "success", "debugData");
+        } catch (e) {
+          debugError("[Data] Prices Storage Parse Failed", e, "debugData");
+        }
+      }
+    }
+
+    // Validation (This Will Tell You Exactly Why "Dream" Misses)
+    const aliasCount = Object.keys(aliasCache?.aliases || {}).length;
+    debugEmit(`[Data] Alias Shape | hasAliasesProp=${!!aliasCache?.aliases} | aliasCount=${aliasCount}`, "info", "debugData");
+
+    debugEmit("[Data] Load Complete", "success", "debugData");
+  }
+
+  // =========================================================================
+  // EVENTS (PRIMARY)
+  // =========================================================================
+
+  function setupEventListeners() {
+    if (typeof Overlay !== "undefined" && Overlay.on) {
+      Overlay.on("overlaycontent", (eventData) => {
+        debugEmit(`[Events] overlaycontent | hasContent=${!!eventData?.content}`, "info", "debugEventsPrimary");
+        handleIncomingEvent(eventData.content, "overlaycontent");
+      });
+
+      Overlay.on("chat", (chatData) => {
+        if (debugOn("debugChatIn")) {
+          const m = String(chatData?.message || "").slice(0, 140);
+          debugEmit(
+            `[Chat] In | platform=${chatData?.platform || chatData?.site || ""} | user=${chatData?.username || chatData?.displayname || ""} | msg="${m}"`,
+            "info",
+            "debugChatIn"
+          );
+        }
+        handleChatMessage(chatData);
+      });
+
+      debugEmit("[Events] Registered overlaycontent + chat", "success", "debugEventsPrimary");
+    } else {
+      debugEmit("[Events] Overlay.on Missing", "warning", "debugEventsPrimary");
+    }
+  }
+
+  // =========================================================================
+  // POLLING (FALLBACK)
+  // =========================================================================
+
+  function startPolling() {
+    if (pollIntervalRef) return;
+
+    pollIntervalRef = setInterval(async () => {
+      try {
+        const eventJson = await safeGetVariable("tcsgo_last_event_json");
+        if (!eventJson || eventJson === "null" || eventJson === "") return;
+        if (String(eventJson) === String(lastPolledRaw)) return;
+        lastPolledRaw = String(eventJson);
+
+        debugEmit("[Polling] New Variable Payload", "info", "debugEventsPoll");
+        handleIncomingEvent(eventJson, "poll");
+      } catch (err) {
+        debugError("[Polling] Error", err, "debugErrors");
+      }
+    }, CONFIG.pollIntervalMs);
+
+    debugEmit(`[Polling] Started | intervalMs=${CONFIG.pollIntervalMs}`, "success", "debugEventsPoll");
+  }
+
+  function stopPolling() {
+    if (!pollIntervalRef) return;
+    clearInterval(pollIntervalRef);
+    pollIntervalRef = null;
+    debugEmit("[Polling] Stopped", "warning", "debugEventsPoll");
+  }
+
+  // =========================================================================
+  // ROUTER
+  // =========================================================================
+
+  function handleIncomingEvent(payloadStr, sourceLabel) {
+    if (!payloadStr) return;
+
+    let payload;
+    try {
+      payload = typeof payloadStr === "string" ? JSON.parse(payloadStr) : payloadStr;
+    } catch (err) {
+      debugError(`[Router] Payload Parse Failed | source=${sourceLabel || ""}`, err, "debugErrors");
+      return;
+    }
+
+    const eventId = payload.eventId || payload.data?.eventId || "";
+    const type = payload.type || "(missing type)";
+    const ok = payload.ok;
+
+    debugEmit(`[Router] In | source=${sourceLabel} | type=${type} | ok=${ok} | eventId=${eventId || "(none)"}`, ok ? "info" : "warning", "debugRouter");
+
+    if (eventId && eventId === lastProcessedEventId) {
+      debugEmit(`[Router] Duplicate Ignored | eventId=${eventId}`, "warning", "debugDedup");
+      return;
+    }
+    if (eventId) lastProcessedEventId = eventId;
+
+    if (eventId && pendingEvents.has(eventId)) {
+      const pending = pendingEvents.get(eventId);
+      clearTimeout(pending.timeoutId);
+      pendingEvents.delete(eventId);
+
+      debugEmit(`[Router] Matched Pending | eventId=${eventId} | ok=${ok}`, ok ? "success" : "error", "debugCommit");
+      if (payload.ok) pending.resolve(payload);
+      else pending.reject(payload);
+      return;
+    }
+
+    handleUnsolicitedEvent(payload);
+  }
+
+  function handleUnsolicitedEvent(payload) {
+    const type = payload.type;
+    debugEmit(`[Router] Unsolicited | type=${String(type || "")}`, "info", "debugUnsolicited");
+
+    switch (type) {
+      case "open-result":
+        if (payload.ok && payload.data?.winner) showWinnerCard(payload.data, payload.username || "Unknown");
+        break;
+
+      case "buycase-result":
+      case "buykey-result":
+        studioToast(payload.ok ? "Purchase Complete" : "Purchase Failed", payload.ok ? "success" : "error");
+        break;
+
+      case "sell-start-result":
+        if (payload.ok) {
+          const d = payload.data || {};
+          studioToast(`Sell Started | Confirm: ${getCmdFull("cmdSellConfirm")} ${d.token}`, "info");
+        } else {
+          studioToast(payload?.error?.message || "Sell Failed", "error");
+        }
+        break;
+
+      case "sell-confirm-result":
+        if (payload.ok) {
+          const d = payload.data || {};
+          studioToast(`Sold | +${formatNumber(d.creditedCoins)} Coins`, "success");
+        } else {
+          studioToast(payload?.error?.message || "Sell Failed", "error");
+        }
+        break;
+
+      default:
+        debugEmit(`[Router] Unhandled Type | ${String(type || "")}`, "warning", "debugRouter");
+    }
+  }
+
+  // =========================================================================
+  // LEADER ELECTION + CHAT DEDUP
+  // =========================================================================
+
+  async function leaderTick() {
+    const varName = "tcsgo_controller_leader_v1";
+    const ttlMs = 6000;
+
+    const now = Date.now();
+    const raw = await safeGetVariable(varName);
+
+    let rec = null;
+    try { rec = raw ? JSON.parse(raw) : null; } catch (_) {}
+
+    const stale = !rec || !rec.ts || (now - Number(rec.ts)) > ttlMs;
+
+    if (stale || rec.id === INSTANCE_ID) {
+      await safeSetVariable(varName, JSON.stringify({ id: INSTANCE_ID, ts: now }));
+      IS_LEADER = true;
+      return;
+    }
+
+    IS_LEADER = rec.id === INSTANCE_ID;
+  }
+
+  function startLeaderElection() {
+    setInterval(() => { leaderTick(); }, 2000);
+    leaderTick();
+  }
+
+  function shouldProcessChat(chatData) {
+    const platform = String(chatData?.platform || chatData?.site || "").toLowerCase();
+    const user = String(chatData?.username || chatData?.displayname || "").toLowerCase();
+    const msg = String(chatData?.message || "").trim();
+
+    const key = `${platform}|${user}|${msg}`;
+    const now = Date.now();
+    const dedupMs = 1500;
+
+    const last = RECENT_CHAT.get(key);
+    if (last && (now - last) < dedupMs) return false;
+
+    RECENT_CHAT.set(key, now);
+
+    if (RECENT_CHAT.size > 300) {
+      for (const [k, t] of RECENT_CHAT) {
+        if ((now - t) > 6000) RECENT_CHAT.delete(k);
+      }
+    }
+    return true;
+  }
+
+  // =========================================================================
+  // CHAT PARSING
+  // =========================================================================
+
+  function handleChatMessage(chatData) {
+    if (!IS_LEADER) return;
+    if (!shouldProcessChat(chatData)) return;
+
+    const messageRaw = String(chatData?.message || "").trim();
+    const username = chatData?.username || chatData?.displayname || "Unknown";
+    const platform = chatData?.platform || chatData?.site || "twitch";
+
+    const pfx = matchPrefix(messageRaw);
+    if (!pfx) return;
+
+    const content = messageRaw.slice(pfx.length).trim();
+    if (!content) return;
+
+    const parts = content.split(/\s+/);
+    const command = String(parts[0] || "").toLowerCase();
+    const args = parts.slice(1);
+
+    debugEmit(
+      `[Chat] Command Parsed | cmd=${command} | args=${JSON.stringify(args)} | user=${username} | platform=${platform}`,
+      "info",
+      "debugCommands"
+    );
+
+    const cBuyCase = String(CONFIG.cmdBuyCase || "buycase").toLowerCase();
+    const cBuyKey = String(CONFIG.cmdBuyKey || "buykey").toLowerCase();
+    const cOpen = String(CONFIG.cmdOpen || "open").toLowerCase();
+    const cSell = String(CONFIG.cmdSell || "sell").toLowerCase();
+    const cSellConfirm = String(CONFIG.cmdSellConfirm || "sellconfirm").toLowerCase();
+
+    if (command === cBuyCase) return void handleBuyCase(username, platform, args);
+    if (command === cBuyKey) return void handleBuyKey(username, platform, args);
+    if (command === cOpen) return void handleOpen(username, platform, args);
+    if (command === cSell) return void handleSell(username, platform, args);
+    if (command === cSellConfirm) return void handleSellConfirm(username, platform, args);
+  }
+
+  // =========================================================================
+  // ALIAS + PRICES
+  // =========================================================================
+
+  function resolveAlias(alias) {
+    const key = String(alias || "").toLowerCase().trim();
+
+    if (!aliasCache) {
+      debugEmit(`[Alias] Cache Missing | key=${key}`, "error", "debugData");
+      return null;
+    }
+    if (!aliasCache.aliases) {
+      debugEmit(`[Alias] Invalid Shape (Missing .aliases) | key=${key}`, "error", "debugData");
+      return null;
+    }
+
+    const hit = aliasCache.aliases[key] || null;
+    if (!hit) {
+      const all = Object.keys(aliasCache.aliases || {});
+      const suggestions = all
+        .filter((k) => k.includes(key) || key.includes(k))
+        .slice(0, 8);
+
+      debugEmit(
+        `[Alias] Miss | key=${key} | aliasCount=${all.length} | suggestions=${suggestions.join(",") || "(none)"}`,
+        "warning",
+        "debugData"
+      );
+    }
+    return hit;
+  }
+
+  function getCasePrice(caseId) {
+    try {
+      if (pricesCache && pricesCache.cases && pricesCache.cases[caseId] !== undefined) {
+        const cadPrice = Number(pricesCache.cases[caseId]);
+        const cadToCoins = Number(pricesCache.cadToCoins || 1000);
+        const coins = Math.round(cadPrice * cadToCoins);
+        return Number.isFinite(coins) ? coins : 2000;
+      }
+    } catch (e) {
+      debugError("[Prices] getCasePrice Error", e, "debugErrors");
+    }
+    return 2000;
+  }
+
+  function getKeyPrice() {
+    try {
+      if (pricesCache && pricesCache.keys && pricesCache.keys.default !== undefined) {
+        const cadPrice = Number(pricesCache.keys.default);
+        const cadToCoins = Number(pricesCache.cadToCoins || 1000);
+        const coins = Math.round(cadPrice * cadToCoins);
+        return Number.isFinite(coins) ? coins : CONFIG.defaultKeyPriceCoins;
+      }
+    } catch (e) {
+      debugError("[Prices] getKeyPrice Error", e, "debugErrors");
+    }
+    return CONFIG.defaultKeyPriceCoins;
+  }
+
+  // =========================================================================
+  // LOYALTY POINTS
+  // =========================================================================
+
+  async function getLoyaltyPoints(username, platform) {
+    if (typeof Overlay !== "undefined" && Overlay.getLoyaltyPoints) {
+      try {
+        const v = await Overlay.getLoyaltyPoints({ username, platform });
+        debugEmit(`[Points] Get | user=${username} | platform=${platform} | value=${v}`, "success", "debugPoints");
+        return Number(v) || 0;
+      } catch (err) {
+        debugError(`[Points] Get Failed | user=${username} | platform=${platform}`, err, "debugPoints");
+        return 0;
+      }
+    }
+    debugEmit("[Points] Get Skipped (API Missing)", "warning", "debugPoints");
+    return 0;
+  }
+
+  async function addLoyaltyPoints(username, platform, value) {
+    if (typeof Overlay !== "undefined" && Overlay.addLoyaltyPoints) {
+      try {
+        const v = await Overlay.addLoyaltyPoints({ username, platform, value });
+        debugEmit(`[Points] Add | user=${username} | platform=${platform} | delta=${value} | new=${v}`, "success", "debugPoints");
+        return Number(v) || 0;
+      } catch (err) {
+        debugError(`[Points] Add Failed | user=${username} | platform=${platform} | delta=${value}`, err, "debugPoints");
+        return 0;
+      }
+    }
+    debugEmit("[Points] Add Skipped (API Missing)", "warning", "debugPoints");
+    return 0;
+  }
+
+  // =========================================================================
+  // CHAT SEND (Uses Studio Toast When You Set chatReplyMode="toast")
+  // =========================================================================
+
+  async function sendChatMessage(message, platform) {
+    const msg = String(message || "").trim();
+    if (!msg) return;
+
+    const mode = String(CONFIG.chatReplyMode || "chat").toLowerCase();
+    if (mode === "off") return;
+
+    if (mode === "toast" || mode === "both") studioToast(msg, "info");
+    if (mode === "toast") return;
+
+    if (typeof Overlay !== "undefined" && Overlay.chatbot) {
+      try {
+        await Overlay.chatbot({ message: msg, platform, chatAsSelf: false });
+        debugEmit(`[ChatSend] OK | platform=${platform} | msg="${msg.slice(0, 120)}"`, "success", "debugChatSend");
+        return;
+      } catch (err) {
+        debugError(`[ChatSend] Failed | platform=${platform}`, err, "debugChatSend");
+      }
+    }
+
+    debugEmit(`[ChatSend] (No Send) ${msg}`, "warning", "debugChatSend");
+  }
+
+  // =========================================================================
+  // COMMIT COMMAND INVOCATION
+  // =========================================================================
+
+  function callCommitCommand(commandName, params, eventId) {
+    return new Promise((resolve, reject) => {
+      const cmd = String(commandName || "").trim();
+      if (!cmd) return reject({ ok: false, error: { code: "NO_CMD", message: "Commit Command Name Missing" } });
+
+      debugEmit(`[Commit] Call | cmd=${cmd} | eventId=${eventId}`, "info", "debugCommit");
+
+      const timeoutId = setTimeout(() => {
+        if (!pendingEvents.has(eventId)) return;
+        pendingEvents.delete(eventId);
+        debugEmit(`[Commit] Timeout | cmd=${cmd} | eventId=${eventId} | ms=${CONFIG.ackTimeoutMs}`, "error", "debugTimeouts");
+        reject({ ok: false, error: { code: "TIMEOUT", message: "Command timed out" } });
+      }, CONFIG.ackTimeoutMs);
+
+      pendingEvents.set(eventId, { resolve, reject, timeoutId });
+
+      if (typeof Overlay !== "undefined" && Overlay.callCommand) {
+        try {
+          Overlay.callCommand(cmd, params);
+          debugEmit(`[Commit] Called | cmd=${cmd} | eventId=${eventId}`, "success", "debugCommit");
+        } catch (e) {
+          clearTimeout(timeoutId);
+          pendingEvents.delete(eventId);
+          debugError(`[Commit] callCommand Threw | cmd=${cmd}`, e, "debugErrors");
+          reject({ ok: false, error: { code: "CALL_FAILED", message: "Overlay.callCommand failed" } });
+        }
+      } else {
+        clearTimeout(timeoutId);
+        pendingEvents.delete(eventId);
+        reject({ ok: false, error: { code: "NO_OVERLAY", message: "Overlay API unavailable" } });
+      }
+    });
+  }
+
+  // =========================================================================
+  // BUY CASE
+  // =========================================================================
+
+  async function handleBuyCase(username, platform, args) {
+    const alias = args[0];
+    const qty = Math.max(1, parseInt(args[1], 10) || 1);
+
+    debugEmit(`[BuyCase] Start | user=${username} | alias=${alias || ""} | qty=${qty}`, "info", "debugBuyCase");
+
+    if (!alias) return void sendChatMessage(`@${username} Usage: ${getCmdFull("cmdBuyCase")} <alias> [qty]`, platform);
+
+    const caseInfo = resolveAlias(alias);
+    if (!caseInfo) {
+      debugEmit(`[BuyCase] Unknown Alias | alias=${alias}`, "warning", "debugBuyCase");
+      return void sendChatMessage(`@${username} Unknown case: ${alias}`, platform);
+    }
+
+    const pricePerCase = getCasePrice(caseInfo.caseId);
+    const totalCost = pricePerCase * qty;
+
+    const currentPoints = await getLoyaltyPoints(username, platform);
+    debugEmit(`[BuyCase] Balance | have=${currentPoints} | need=${totalCost}`, "info", "debugPoints");
+
+    if (currentPoints < totalCost) {
+      return void sendChatMessage(`@${username} Need ${formatNumber(totalCost)}, Have ${formatNumber(currentPoints)}.`, platform);
+    }
+
+    const deducted = await addLoyaltyPoints(username, platform, -totalCost);
+
+    const eventId = generateEventId();
+    try {
+      await callCommitCommand(CONFIG.commitBuyCase, { eventId, platform, username, alias, qty }, eventId);
+      await sendChatMessage(`@${username} Bought ${qty}x ${caseInfo.displayName}! Balance: ${formatNumber(deducted)}`, platform);
+      studioToast(`Case Purchased | ${username} | ${qty}x ${caseInfo.displayName}`, "success");
+    } catch (errPayload) {
+      await addLoyaltyPoints(username, platform, totalCost);
+      const errMsg = errPayload?.error?.message || "Purchase failed";
+      await sendChatMessage(`@${username} ${errMsg}. Points Refunded.`, platform);
+      studioToast(`Purchase Failed | ${errMsg}`, "error");
+    }
+  }
+
+  // =========================================================================
+  // BUY KEY
+  // =========================================================================
+
+  async function handleBuyKey(username, platform, args) {
+    const qty = Math.max(1, parseInt(args[0], 10) || 1);
+
+    debugEmit(`[BuyKey] Start | user=${username} | qty=${qty}`, "info", "debugBuyKey");
+
+    const pricePerKey = getKeyPrice();
+    const totalCost = pricePerKey * qty;
+
+    const currentPoints = await getLoyaltyPoints(username, platform);
+
+    if (currentPoints < totalCost) {
+      return void sendChatMessage(`@${username} Need ${formatNumber(totalCost)}, Have ${formatNumber(currentPoints)}.`, platform);
+    }
+
+    const deducted = await addLoyaltyPoints(username, platform, -totalCost);
+
+    const eventId = generateEventId();
+    try {
+      await callCommitCommand(CONFIG.commitBuyKey, { eventId, platform, username, qty }, eventId);
+      await sendChatMessage(`@${username} Bought ${qty}x Key(s)! Balance: ${formatNumber(deducted)}`, platform);
+      studioToast(`Keys Purchased | ${username} | ${qty}x`, "success");
+    } catch (errPayload) {
+      await addLoyaltyPoints(username, platform, totalCost);
+      const errMsg = errPayload?.error?.message || "Purchase failed";
+      await sendChatMessage(`@${username} ${errMsg}. Points Refunded.`, platform);
+      studioToast(`Purchase Failed | ${errMsg}`, "error");
+    }
+  }
+
+  // =========================================================================
+  // OPEN
+  // =========================================================================
+
+  async function handleOpen(username, platform, args) {
+    const alias = args[0];
+
+    debugEmit(`[Open] Start | user=${username} | alias=${alias || ""}`, "info", "debugOpen");
+
+    if (!alias) return void sendChatMessage(`@${username} Usage: ${getCmdFull("cmdOpen")} <alias>`, platform);
+
+    const caseInfo = resolveAlias(alias);
+    if (!caseInfo) return void sendChatMessage(`@${username} Unknown case: ${alias}`, platform);
+
+    const eventId = generateEventId();
+
+    try {
+      const result = await callCommitCommand(CONFIG.commitOpen, { eventId, platform, username, alias }, eventId);
+      if (result.ok && result.data) {
+        showWinnerCard(result.data, username);
+        const winner = result.data.winner || {};
+        const stStr = winner.statTrak ? "StatTrak™ " : "";
+        await sendChatMessage(`@${username} Opened ${stStr}${winner.displayName} (${winner.wear})!`, platform);
+      }
+    } catch (errPayload) {
+      const errMsg = errPayload?.error?.message || "Open failed";
+      await sendChatMessage(`@${username} ${errMsg}`, platform);
+      studioToast(`Open Failed | ${errMsg}`, "error");
+    }
+  }
+
+  // =========================================================================
+  // SELL START / CONFIRM
+  // =========================================================================
+
+  async function handleSell(username, platform, args) {
+    const oid = args[0];
+    if (!oid) return void sendChatMessage(`@${username} Usage: ${getCmdFull("cmdSell")} <oid>`, platform);
+
+    const eventId = generateEventId();
+    try {
+      const result = await callCommitCommand(CONFIG.commitSellStart, { eventId, platform, username, oid }, eventId);
+      if (result.ok && result.data) {
+        const d = result.data;
+        await sendChatMessage(
+          `@${username} Selling ${d.item.displayName} For ${formatNumber(d.creditAmount)} Coins (${d.marketFeePercent}% Fee). ` +
+          `Confirm: ${getCmdFull("cmdSellConfirm")} ${d.token} (${d.expiresInSeconds}s)`,
+          platform
+        );
+        studioToast(`Sell Started | Token=${d.token}`, "info");
+      }
+    } catch (errPayload) {
+      const errMsg = errPayload?.error?.message || "Sell failed";
+      await sendChatMessage(`@${username} ${errMsg}`, platform);
+      studioToast(`Sell Failed | ${errMsg}`, "error");
+    }
+  }
+
+  async function handleSellConfirm(username, platform, args) {
+    const token = args[0];
+    if (!token) return void sendChatMessage(`@${username} Usage: ${getCmdFull("cmdSellConfirm")} <token>`, platform);
+
+    const eventId = generateEventId();
+    try {
+      const result = await callCommitCommand(CONFIG.commitSellConfirm, { eventId, platform, username, token }, eventId);
+      if (result.ok && result.data) {
+        const d = result.data;
+        await addLoyaltyPoints(username, platform, d.creditedCoins);
+        await sendChatMessage(`@${username} Sold ${d.item.displayName}! +${formatNumber(d.creditedCoins)} Coins.`, platform);
+        studioToast(`Sold | +${formatNumber(d.creditedCoins)} Coins`, "success");
+      }
+    } catch (errPayload) {
+      const errMsg = errPayload?.error?.message || "Confirm failed";
+      await sendChatMessage(`@${username} ${errMsg}`, platform);
+      studioToast(`Sell Confirm Failed | ${errMsg}`, "error");
+    }
+  }
+
+  // =========================================================================
+  // WINNER CARD UI
+  // =========================================================================
+
+  function showWinnerCard(resultData, username) {
+    debugEmit(`[Winner] Show | user=${username}`, "info", "debugWinnerCard");
+
+    const container = document.getElementById("winner-container");
+    if (!container) return;
+
+    const winner = resultData?.winner || {};
+    const rarity = normalizeRarity(winner.rarity || winner.tier);
+    container.className = `rarity-${rarity}`;
+
+    const imgEl = document.getElementById("winner-image");
+    if (imgEl) imgEl.src = resultData?.imagePath || "";
+
+    const nameEl = document.getElementById("winner-name");
+    if (nameEl) nameEl.textContent = winner.displayName || "Unknown Item";
+
+    const stEl = document.getElementById("winner-stattrak");
+    if (stEl) stEl.classList.toggle("hidden", !winner.statTrak);
+
+    const wearEl = document.getElementById("winner-wear");
+    if (wearEl) wearEl.textContent = winner.wear || "Unknown";
+
+    const userEl = document.getElementById("winner-username");
+    if (userEl) userEl.textContent = username;
+
+    container.classList.remove("hidden", "fade-out");
+
+    setTimeout(() => {
+      container.classList.add("fade-out");
+      setTimeout(() => container.classList.add("hidden"), 400);
+    }, CONFIG.winnerDisplayMs);
+  }
+
+  function normalizeRarity(rarity) {
+    if (!rarity) return "blue";
+    const r = String(rarity).toLowerCase().replace(/[-\s]/g, "");
+    const map = {
+      milspec: "milspec",
+      restricted: "restricted",
+      classified: "classified",
+      covert: "covert",
+      consumer: "consumer",
+      industrial: "industrial",
+      extraordinary: "gold",
+      blue: "blue",
+      purple: "purple",
+      pink: "pink",
+      red: "red",
+      gold: "gold"
+    };
+    return map[r] || "blue";
+  }
+
+  // =========================================================================
+  // UTILS
+  // =========================================================================
+
+  function generateEventId() {
+    const ts = Date.now().toString(36);
+    const rand = Math.random().toString(36).substring(2, 8);
+    return `evt_${ts}_${rand}`;
+  }
+
+  function formatNumber(num) {
+    return (Number(num) || 0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
+  // =========================================================================
+  // STARTUP + EXPORTS
+  // =========================================================================
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+  else init();
+
+  window.TCSGOController = {
+    studioToast,
+    debugEmit,
+    debugOn: (k) => debugOn(k),
+    getConfig: () => ({ ...CONFIG }),
+    getAliasCache: () => aliasCache,
+    getPricesCache: () => pricesCache,
+    stopPolling,
+    startPolling
+  };
 })();

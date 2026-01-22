@@ -1,171 +1,175 @@
 /**
  * TCSGO Commit: Open Case
  * ========================
- * 
- * PORTABLE SETUP: Set Lumia working dir to TCSGO root, OR set TCSGO_BASE below.
+ * Lumia Custom Command - Correct Pattern
  */
 
-const TCSGO_BASE = 'A:\\Development\\Version Control\\Github\\TCSGO';  // ← Windows path
+async function() {
+    const TCSGO_BASE = 'A:\\Development\\Version Control\\Github\\TCSGO';
 
-const CONFIG = {
-    basePath: TCSGO_BASE,
-    paths: { 
-        inventories: 'data/inventories.json', 
-        aliases: 'data/case-aliases.json', 
-        prices: 'data/prices.json', 
-        caseOdds: 'Case-Odds' 
-    },
-    tradeLockDays: 7,
-    wearTable: [
-        { name: 'Factory New', weight: 3 }, 
-        { name: 'Minimal Wear', weight: 24 }, 
-        { name: 'Field-Tested', weight: 33 }, 
-        { name: 'Well-Worn', weight: 24 }, 
-        { name: 'Battle-Scarred', weight: 16 }
-    ]
-};
-const WEAR_TOTAL = CONFIG.wearTable.reduce((s, w) => s + w.weight, 0);
-
-function buildPath(rel) { 
-    const b = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, ''); 
-    const r = rel.replace(/\\/g, '/').replace(/^\//, ''); 
-    return b ? `${b}/${r}` : r; 
-}
-
-async function loadJson(rel) { 
-    try { 
-        return JSON.parse(await readFile(buildPath(rel))); 
-    } catch (e) { 
-        log(`[TCSGO] loadJson: ${e.message}`); 
-        return null; 
-    } 
-}
-
-async function saveJson(rel, data) { 
-    try { 
-        await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); 
-        return true; 
-    } catch (e) { 
-        log(`[TCSGO] saveJson: ${e.message}`); 
-        return false; 
-    } 
-}
-
-function buildUserKey(p, u) { 
-    return `${p.toLowerCase()}:${u.toLowerCase()}`; 
-}
-
-function getOrCreateUser(inv, key) { 
-    if (!inv.users[key]) {
-        inv.users[key] = { 
-            userKey: key, 
-            createdAt: new Date().toISOString(), 
-            chosenCoins: 0, 
-            cases: {}, 
-            keys: {}, 
-            items: [], 
-            pendingSell: null 
-        }; 
-    }
-    return inv.users[key]; 
-}
-
-function removeCases(u, id, q) { 
-    const c = u.cases[id] || 0; 
-    if (c < q) return false; 
-    u.cases[id] = c - q; 
-    if (!u.cases[id]) delete u.cases[id]; 
-    return true; 
-}
-
-function removeKeys(u, id, q) { 
-    const c = u.keys[id] || 0; 
-    if (c < q) return false; 
-    u.keys[id] = c - q; 
-    if (!u.keys[id]) delete u.keys[id]; 
-    return true; 
-}
-
-function generateOid() { 
-    return `oid_${Date.now().toString(36)}_${Math.random().toString(36).substring(2, 11)}`; 
-}
-
-function enforceLock(at) { 
-    return new Date(new Date(at).getTime() + CONFIG.tradeLockDays * 86400000).toISOString(); 
-}
-
-function rollWear() { 
-    let r = Math.random() * WEAR_TOTAL; 
-    for (const w of CONFIG.wearTable) { 
-        r -= w.weight; 
-        if (r <= 0) return w.name; 
-    } 
-    return CONFIG.wearTable[0].name; 
-}
-
-function rollCaseFromJson(cj) {
-    const cd = cj.case, unit = BigInt(cj.unit?.scale || 1e12), ow = cd.oddsWeights || {};
-    const tr = BigInt(Math.floor(Math.random() * Number(unit)));
-    let cum = 0n, selTier = null;
+    const CONFIG = {
+        basePath: TCSGO_BASE,
+        paths: { 
+            inventories: 'data/inventories.json', 
+            aliases: 'data/case-aliases.json', 
+            prices: 'data/prices.json', 
+            caseOdds: 'Case-Odds' 
+        },
+        tradeLockDays: 7,
+        wearTable: [
+            { name: 'Factory New', weight: 3 }, 
+            { name: 'Minimal Wear', weight: 24 }, 
+            { name: 'Field-Tested', weight: 33 }, 
+            { name: 'Well-Worn', weight: 24 }, 
+            { name: 'Battle-Scarred', weight: 16 }
+        ]
+    };
     
-    for (const [t, w] of Object.entries(ow)) { 
-        cum += BigInt(w); 
-        if (tr < cum) { 
-            selTier = t; 
-            break; 
+    const WEAR_TOTAL = CONFIG.wearTable.reduce((s, w) => s + w.weight, 0);
+
+    function buildPath(rel) { 
+        const b = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, ''); 
+        const r = rel.replace(/\\/g, '/').replace(/^\//, ''); 
+        return b ? `${b}/${r}` : r; 
+    }
+
+    async function loadJson(rel) { 
+        try { 
+            return JSON.parse(await readFile(buildPath(rel))); 
+        } catch (e) { 
+            log(`[TCSGO] loadJson: ${e.message}`); 
+            return null; 
         } 
     }
-    
-    if (!selTier) selTier = Object.keys(ow)[0];
-    
-    let items = selTier === 'gold' && cd.goldPool?.items ? cd.goldPool.items : cd.tiers?.[selTier] || [];
-    if (!items.length) return null;
-    
-    const iw = items.map(i => ({ item: i, weight: BigInt(i.weights?.base || 1) }));
-    const tt = iw.reduce((s, x) => s + x.weight, 0n), ir = BigInt(Math.floor(Math.random() * Number(tt)));
-    let ic = 0n, si = items[0];
-    
-    for (const { item, weight } of iw) { 
-        ic += weight; 
-        if (ir < ic) { 
-            si = item; 
-            break; 
+
+    async function saveJson(rel, data) { 
+        try { 
+            await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); 
+            return true; 
+        } catch (e) { 
+            log(`[TCSGO] saveJson: ${e.message}`); 
+            return false; 
         } 
     }
-    
-    let st = false;
-    if (si.statTrakEligible && cd.supportsStatTrak) { 
-        const sw = BigInt(si.weights?.statTrak || 0), nw = BigInt(si.weights?.nonStatTrak || 0), tw = sw + nw; 
-        if (tw > 0n && sw > 0n) {
-            st = BigInt(Math.floor(Math.random() * Number(tw))) < sw; 
+
+    function buildUserKey(p, u) { 
+        return `${p.toLowerCase()}:${u.toLowerCase()}`; 
+    }
+
+    function getOrCreateUser(inv, key) { 
+        if (!inv.users[key]) {
+            inv.users[key] = { 
+                userKey: key, 
+                createdAt: new Date().toISOString(), 
+                chosenCoins: 0, 
+                cases: {}, 
+                keys: {}, 
+                items: [], 
+                pendingSell: null 
+            }; 
         }
+        return inv.users[key]; 
     }
-    
-    return { item: si, tier: selTier, statTrak: st, wear: rollWear() };
-}
 
-function selectRandomImage(item) { 
-    const imgs = [item.image, ...(item.imageAlternates || [])].filter(Boolean); 
-    return imgs.length ? imgs[Math.floor(Math.random() * imgs.length)] : null; 
-}
+    function removeCases(u, id, q) { 
+        const c = u.cases[id] || 0; 
+        if (c < q) return false; 
+        u.cases[id] = c - q; 
+        if (!u.cases[id]) delete u.cases[id]; 
+        return true; 
+    }
 
-function getPriceSnapshot(pr, item, wear, st) { 
-    const r = item.rarity || 'mil-spec', fb = pr.rarityFallbackPrices?.[r]; 
-    if (!fb) return { cad: 0.1, chosenCoins: 100 }; 
-    let c = fb.cad * (pr.wearMultipliers?.[wear] || 1); 
-    if (st) c *= pr.statTrakMultiplier || 2; 
-    return { cad: Math.round(c * 100) / 100, chosenCoins: Math.round(c * pr.cadToCoins) }; 
-}
+    function removeKeys(u, id, q) { 
+        const c = u.keys[id] || 0; 
+        if (c < q) return false; 
+        u.keys[id] = c - q; 
+        if (!u.keys[id]) delete u.keys[id]; 
+        return true; 
+    }
 
-function successResponse(t, d) { 
-    return { type: t, ok: true, timestamp: new Date().toISOString(), data: d }; 
-}
+    function generateOid() { 
+        return `oid_${Date.now().toString(36)}_${Math.random().toString(36).substring(2, 11)}`; 
+    }
 
-function errorResponse(t, c, m, det = null) { 
-    return { type: t, ok: false, timestamp: new Date().toISOString(), error: { code: c, message: m, details: det } }; 
-}
+    function enforceLock(at) { 
+        return new Date(new Date(at).getTime() + CONFIG.tradeLockDays * 86400000).toISOString(); 
+    }
 
-async function main() {
+    function rollWear() { 
+        let r = Math.random() * WEAR_TOTAL; 
+        for (const w of CONFIG.wearTable) { 
+            r -= w.weight; 
+            if (r <= 0) return w.name; 
+        } 
+        return CONFIG.wearTable[0].name; 
+    }
+
+    function rollCaseFromJson(cj) {
+        const cd = cj.case, unit = BigInt(cj.unit?.scale || 1e12), ow = cd.oddsWeights || {};
+        const tr = BigInt(Math.floor(Math.random() * Number(unit)));
+        let cum = 0n, selTier = null;
+        
+        for (const [t, w] of Object.entries(ow)) { 
+            cum += BigInt(w); 
+            if (tr < cum) { 
+                selTier = t; 
+                break; 
+            } 
+        }
+        
+        if (!selTier) selTier = Object.keys(ow)[0];
+        
+        let items = selTier === 'gold' && cd.goldPool?.items ? cd.goldPool.items : cd.tiers?.[selTier] || [];
+        if (!items.length) return null;
+        
+        const iw = items.map(i => ({ item: i, weight: BigInt(i.weights?.base || 1) }));
+        const tt = iw.reduce((s, x) => s + x.weight, 0n), ir = BigInt(Math.floor(Math.random() * Number(tt)));
+        let ic = 0n, si = items[0];
+        
+        for (const { item, weight } of iw) { 
+            ic += weight; 
+            if (ir < ic) { 
+                si = item; 
+                break; 
+            } 
+        }
+        
+        let st = false;
+        if (si.statTrakEligible && cd.supportsStatTrak) { 
+            const sw = BigInt(si.weights?.statTrak || 0), nw = BigInt(si.weights?.nonStatTrak || 0), tw = sw + nw; 
+            if (tw > 0n && sw > 0n) {
+                st = BigInt(Math.floor(Math.random() * Number(tw))) < sw; 
+            }
+        }
+        
+        return { item: si, tier: selTier, statTrak: st, wear: rollWear() };
+    }
+
+    function selectRandomImage(item) { 
+        const imgs = [item.image, ...(item.imageAlternates || [])].filter(Boolean); 
+        return imgs.length ? imgs[Math.floor(Math.random() * imgs.length)] : null; 
+    }
+
+    function getPriceSnapshot(pr, item, wear, st) { 
+        const r = item.rarity || 'mil-spec', fb = pr.rarityFallbackPrices?.[r]; 
+        if (!fb) return { cad: 0.1, chosenCoins: 100 }; 
+        let c = fb.cad * (pr.wearMultipliers?.[wear] || 1); 
+        if (st) c *= pr.statTrakMultiplier || 2; 
+        return { cad: Math.round(c * 100) / 100, chosenCoins: Math.round(c * pr.cadToCoins) }; 
+    }
+
+    function successResponse(t, d) { 
+        return { type: t, ok: true, timestamp: new Date().toISOString(), data: d }; 
+    }
+
+    function errorResponse(t, c, m, det = null) { 
+        return { type: t, ok: false, timestamp: new Date().toISOString(), error: { code: c, message: m, details: det } }; 
+    }
+
+    // =========================================================================
+    // MAIN LOGIC
+    // =========================================================================
+
     const RT = 'open-result';
     const platform = '{{platform}}' !== '{{' + 'platform}}' ? '{{platform}}' : 'twitch';
     const username = '{{username}}' !== '{{' + 'username}}' ? '{{username}}' : null;
@@ -219,7 +223,7 @@ async function main() {
     }
     
     const { caseId, requiresKey, filename } = ca;
-    const keyId = 'csgo-case-key';  // Changed from 'default' to standard key name
+    const keyId = 'csgo-case-key';
     const userKey = buildUserKey(platform, username);
     const user = getOrCreateUser(inv, userKey);
     
@@ -363,5 +367,3 @@ async function main() {
     log(payloadStr);
     done();
 }
-
-main();

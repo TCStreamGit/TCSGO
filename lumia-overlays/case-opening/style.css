@@ -1,7 +1,7 @@
 /**
  * TCSGO Case Opening Controller V1 - Stylesheet
  * ==============================================
- * Minimal UI with rarity glows for winner card and toast system.
+ * Minimal UI with rarity glows for winner card
  */
 
 /* ===========================
@@ -15,7 +15,7 @@
     --rarity-pink: #d32ce6;
     --rarity-red: #eb4b4b;
     --rarity-gold: #ffd700;
-    
+
     /* Collection Rarity Colors (consumer/industrial/milspec/restricted/classified/covert) */
     --rarity-consumer: #b0c3d9;
     --rarity-industrial: #5e98d9;
@@ -23,28 +23,21 @@
     --rarity-restricted: #8847ff;
     --rarity-classified: #d32ce6;
     --rarity-covert: #eb4b4b;
-    
+
     /* Special */
     --rarity-extraordinary: #ffd700;
-    
+
     /* UI Colors */
     --bg-dark: #1a1a2e;
     --bg-card: #16213e;
-    --bg-toast: rgba(22, 33, 62, 0.95);
     --text-primary: #ffffff;
     --text-secondary: #a0a0a0;
     --text-muted: #666666;
     --stattrak-orange: #cf6a32;
-    
-    /* Toast Types */
-    --toast-success: #22c55e;
-    --toast-error: #ef4444;
-    --toast-warning: #f59e0b;
-    --toast-info: #3b82f6;
-    
+
+
     /* Timing */
     --winner-show-duration: 8s;
-    --toast-duration: 5s;
 }
 
 /* ===========================
@@ -315,121 +308,7 @@ body {
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
-/* ===========================
-   TOAST CONTAINER
-   =========================== */
 
-#toast-container {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 12px;
-    z-index: 200;
-    max-width: 400px;
-}
-
-/* ===========================
-   INDIVIDUAL TOAST
-   =========================== */
-
-.toast {
-    background: var(--bg-toast);
-    border-radius: 8px;
-    padding: 14px 18px;
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-    border-left: 4px solid var(--toast-info);
-    animation: slideInRight 0.3s ease-out;
-    max-width: 100%;
-}
-
-@keyframes slideInRight {
-    from {
-        transform: translateX(100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-.toast.fade-out {
-    animation: slideOutRight 0.3s ease-in forwards;
-}
-
-@keyframes slideOutRight {
-    from {
-        transform: translateX(0);
-        opacity: 1;
-    }
-    to {
-        transform: translateX(100%);
-        opacity: 0;
-    }
-}
-
-/* Toast types */
-.toast.success { border-left-color: var(--toast-success); }
-.toast.error { border-left-color: var(--toast-error); }
-.toast.warning { border-left-color: var(--toast-warning); }
-.toast.info { border-left-color: var(--toast-info); }
-
-/* ===========================
-   TOAST ICON
-   =========================== */
-
-.toast-icon {
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    border-radius: 50%;
-}
-
-.toast.success .toast-icon { color: var(--toast-success); }
-.toast.error .toast-icon { color: var(--toast-error); }
-.toast.warning .toast-icon { color: var(--toast-warning); }
-.toast.info .toast-icon { color: var(--toast-info); }
-
-/* ===========================
-   TOAST CONTENT
-   =========================== */
-
-.toast-content {
-    flex: 1;
-    min-width: 0;
-}
-
-.toast-title {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 4px;
-}
-
-.toast-message {
-    font-size: 13px;
-    color: var(--text-secondary);
-    line-height: 1.4;
-    word-wrap: break-word;
-}
-
-/* ===========================
-   TOAST USER TAG
-   =========================== */
-
-.toast-user {
-    font-weight: 600;
-    color: #60a5fa;
-}
 
 /* ===========================
    RESPONSIVE
@@ -440,23 +319,18 @@ body {
         padding: 20px 24px;
         min-width: 280px;
     }
-    
+
     #winner-image-wrapper {
         width: 220px;
         height: 165px;
     }
-    
+
     #winner-name {
         font-size: 18px;
     }
-    
+
     #winner-username {
         font-size: 20px;
     }
-    
-    #toast-container {
-        right: 12px;
-        bottom: 12px;
-        max-width: 320px;
-    }
+
 }

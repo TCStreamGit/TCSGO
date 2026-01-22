@@ -1,19 +1,19 @@
 {
   "baseRawUrl": {
     "type": "input",
-    "label": "Base Raw URL (GitHub raw content URL for data files)",
+    "label": "Base Raw URL (GitHub Raw Repo Root)",
     "order": 1,
-    "value": "https://raw.githubusercontent.com/YOUR_USERNAME/TCSGO/main"
+    "value": "https://raw.githubusercontent.com/TCStreamGit/TCSGO/main"
   },
   "pollIntervalMs": {
     "type": "number",
-    "label": "Fallback Poll Interval (ms)",
+    "label": "Fallback Poll Interval (Ms)",
     "order": 2,
     "value": 250
   },
   "ackTimeoutMs": {
     "type": "number",
-    "label": "Command Acknowledgment Timeout (ms)",
+    "label": "Commit Ack Timeout (Ms)",
     "order": 3,
     "value": 3000
   },
@@ -25,32 +25,378 @@
   },
   "defaultKeyPriceCoins": {
     "type": "number",
-    "label": "Default Key Price (coins) - fallback if prices.json unavailable",
+    "label": "Default Key Price (Coins) (Fallback If prices.json Missing)",
     "order": 5,
     "value": 3500
   },
   "codeId": {
     "type": "input",
-    "label": "Overlay Code ID (for routing)",
+    "label": "Overlay Code Id (For Routing)",
     "order": 6,
     "value": "tcsgo-controller"
   },
   "winnerDisplayMs": {
     "type": "number",
-    "label": "Winner Card Display Duration (ms)",
+    "label": "Winner Card Display Duration (Ms)",
     "order": 7,
     "value": 8000
   },
   "toastDurationMs": {
     "type": "number",
-    "label": "Toast Notification Duration (ms)",
+    "label": "Toast Duration (Ms)",
     "order": 8,
     "value": 5000
   },
-  "debugMode": {
-    "type": "checkbox",
-    "label": "Enable Debug Logging",
+  "commandPrefix": {
+    "type": "input",
+    "label": "Command Prefix (Default !). Supports Comma-Separated Prefixes.",
     "order": 9,
+    "value": "!"
+  },
+  "cmdBuyCase": {
+    "type": "input",
+    "label": "Viewer Command Name: Buy Case",
+    "order": 10,
+    "value": "buycase"
+  },
+  "cmdBuyKey": {
+    "type": "input",
+    "label": "Viewer Command Name: Buy Key",
+    "order": 11,
+    "value": "buykey"
+  },
+  "cmdOpen": {
+    "type": "input",
+    "label": "Viewer Command Name: Open",
+    "order": 12,
+    "value": "open"
+  },
+  "cmdSell": {
+    "type": "input",
+    "label": "Viewer Command Name: Sell Start",
+    "order": 13,
+    "value": "sell"
+  },
+  "cmdSellConfirm": {
+    "type": "input",
+    "label": "Viewer Command Name: Sell Confirm",
+    "order": 14,
+    "value": "sellconfirm"
+  },
+  "commitBuyCase": {
+    "type": "input",
+    "label": "Commit Command Name: Buy Case",
+    "order": 15,
+    "value": "tcsgo-commit-buycase"
+  },
+  "commitBuyKey": {
+    "type": "input",
+    "label": "Commit Command Name: Buy Key",
+    "order": 16,
+    "value": "tcsgo-commit-buykey"
+  },
+  "commitOpen": {
+    "type": "input",
+    "label": "Commit Command Name: Open",
+    "order": 17,
+    "value": "tcsgo-commit-open"
+  },
+  "commitSellStart": {
+    "type": "input",
+    "label": "Commit Command Name: Sell Start",
+    "order": 18,
+    "value": "tcsgo-commit-sell-start"
+  },
+  "commitSellConfirm": {
+    "type": "input",
+    "label": "Commit Command Name: Sell Confirm",
+    "order": 19,
+    "value": "tcsgo-commit-sell-confirm"
+  },
+  "debugInit": {
+    "type": "checkbox",
+    "label": "Debug: Init",
+    "order": 23,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugConfig": {
+    "type": "checkbox",
+    "label": "Debug: Config",
+    "order": 24,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugData": {
+    "type": "checkbox",
+    "label": "Debug: Data",
+    "order": 25,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugStorage": {
+    "type": "checkbox",
+    "label": "Debug: Storage",
+    "order": 26,
+    "value": false,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugFetch": {
+    "type": "checkbox",
+    "label": "Debug: Fetch",
+    "order": 27,
+    "value": false,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugVariables": {
+    "type": "checkbox",
+    "label": "Debug: Variables",
+    "order": 28,
+    "value": false,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugEventsPrimary": {
+    "type": "checkbox",
+    "label": "Debug: Events Primary (Overlaycontent + Chat)",
+    "order": 29,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugEventsPoll": {
+    "type": "checkbox",
+    "label": "Debug: Events Poll (Fallback Variable)",
+    "order": 30,
+    "value": false,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugRouter": {
+    "type": "checkbox",
+    "label": "Debug: Router",
+    "order": 31,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugDedup": {
+    "type": "checkbox",
+    "label": "Debug: Dedup",
+    "order": 32,
+    "value": false,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugUnsolicited": {
+    "type": "checkbox",
+    "label": "Debug: Unsolicited Events",
+    "order": 33,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugChatIn": {
+    "type": "checkbox",
+    "label": "Debug: Chat In",
+    "order": 34,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugCommands": {
+    "type": "checkbox",
+    "label": "Debug: Command Parsing",
+    "order": 35,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugBuyCase": {
+    "type": "checkbox",
+    "label": "Debug: Buy Case Flow",
+    "order": 36,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugBuyKey": {
+    "type": "checkbox",
+    "label": "Debug: Buy Key Flow",
+    "order": 37,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugOpen": {
+    "type": "checkbox",
+    "label": "Debug: Open Flow",
+    "order": 38,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugSell": {
+    "type": "checkbox",
+    "label": "Debug: Sell Start Flow",
+    "order": 39,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugSellConfirm": {
+    "type": "checkbox",
+    "label": "Debug: Sell Confirm Flow",
+    "order": 40,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugCommit": {
+    "type": "checkbox",
+    "label": "Debug: Commit Calls",
+    "order": 41,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugTimeouts": {
+    "type": "checkbox",
+    "label": "Debug: Timeouts",
+    "order": 42,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugPoints": {
+    "type": "checkbox",
+    "label": "Debug: Loyalty Points",
+    "order": 43,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugChatSend": {
+    "type": "checkbox",
+    "label": "Debug: Chat Send",
+    "order": 44,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugWinnerCard": {
+    "type": "checkbox",
+    "label": "Debug: Winner Card UI",
+    "order": 45,
+    "value": false,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugToast": {
+    "type": "checkbox",
+    "label": "Debug: Toast Calls",
+    "order": 46,
+    "value": false,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugErrors": {
+    "type": "checkbox",
+    "label": "Debug: Errors",
+    "order": 47,
+    "value": true,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "section_debug": {
+    "type": "label",
+    "label": "Debug",
+    "order": 9990
+  },
+  "debugEnabled": {
+    "type": "checkbox",
+    "label": "Debug Enabled",
+    "order": 9991,
     "value": false
+  },
+  "debugOutput": {
+    "type": "dropdown",
+    "label": "Debug Output",
+    "order": 9992,
+    "value": "toast",
+    "options": {
+      "both": "Both",
+      "toast": "Toast",
+      "console": "Console"
+    },
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
+  },
+  "debugAll": {
+    "type": "checkbox",
+    "label": "Debug Everything (Overrides All Toggles)",
+    "order": 9993,
+    "value": false,
+    "visibleIf": {
+      "key": "debugEnabled",
+      "equals": true
+    }
   }
 }

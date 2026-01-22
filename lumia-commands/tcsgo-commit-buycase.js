@@ -1,46 +1,49 @@
 /**
  * TCSGO Commit: Buy Case
  * =======================
- * 
- * PORTABLE SETUP: Set Lumia working dir to TCSGO root, OR set TCSGO_BASE below.
+ * Lumia Custom Command - Correct Pattern
  */
 
-const TCSGO_BASE = 'A:\\Development\\Version Control\\Github\\TCSGO';  // ← Windows path
+async function() {
+    const TCSGO_BASE = 'A:\\Development\\Version Control\\Github\\TCSGO';
+    
+    const CONFIG = {
+        basePath: TCSGO_BASE,
+        paths: { inventories: 'data/inventories.json', aliases: 'data/case-aliases.json' }
+    };
 
-const CONFIG = {
-    basePath: TCSGO_BASE,
-    paths: { inventories: 'data/inventories.json', aliases: 'data/case-aliases.json' }
-};
-
-function buildPath(rel) {
-    const base = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, '');
-    const r = rel.replace(/\\/g, '/').replace(/^\//, '');
-    return base ? `${base}/${r}` : r;
-}
-
-async function loadJson(rel) {
-    try { return JSON.parse(await readFile(buildPath(rel))); }
-    catch (e) { log(`[TCSGO] loadJson error: ${e.message}`); return null; }
-}
-
-async function saveJson(rel, data) {
-    try { await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); return true; }
-    catch (e) { log(`[TCSGO] saveJson error: ${e.message}`); return false; }
-}
-
-function buildUserKey(p, u) { return `${p.toLowerCase()}:${u.toLowerCase()}`; }
-
-function getOrCreateUser(inv, key) {
-    if (!inv.users[key]) {
-        inv.users[key] = { userKey: key, createdAt: new Date().toISOString(), chosenCoins: 0, cases: {}, keys: {}, items: [], pendingSell: null };
+    function buildPath(rel) {
+        const base = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, '');
+        const r = rel.replace(/\\/g, '/').replace(/^\//, '');
+        return base ? `${base}/${r}` : r;
     }
-    return inv.users[key];
-}
 
-function successResponse(type, data) { return { type, ok: true, timestamp: new Date().toISOString(), data }; }
-function errorResponse(type, code, msg, det = null) { return { type, ok: false, timestamp: new Date().toISOString(), error: { code, message: msg, details: det } }; }
+    async function loadJson(rel) {
+        try { return JSON.parse(await readFile(buildPath(rel))); }
+        catch (e) { log(`[TCSGO] loadJson error: ${e.message}`); return null; }
+    }
 
-async function main() {
+    async function saveJson(rel, data) {
+        try { await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); return true; }
+        catch (e) { log(`[TCSGO] saveJson error: ${e.message}`); return false; }
+    }
+
+    function buildUserKey(p, u) { return `${p.toLowerCase()}:${u.toLowerCase()}`; }
+
+    function getOrCreateUser(inv, key) {
+        if (!inv.users[key]) {
+            inv.users[key] = { userKey: key, createdAt: new Date().toISOString(), chosenCoins: 0, cases: {}, keys: {}, items: [], pendingSell: null };
+        }
+        return inv.users[key];
+    }
+
+    function successResponse(type, data) { return { type, ok: true, timestamp: new Date().toISOString(), data }; }
+    function errorResponse(type, code, msg, det = null) { return { type, ok: false, timestamp: new Date().toISOString(), error: { code, message: msg, details: det } }; }
+
+    // =========================================================================
+    // MAIN LOGIC
+    // =========================================================================
+    
     const RT = 'buycase-result';
     const platform = '{{platform}}' !== '{{' + 'platform}}' ? '{{platform}}' : 'twitch';
     const username = '{{username}}' !== '{{' + 'username}}' ? '{{username}}' : null;
@@ -139,5 +142,3 @@ async function main() {
     log(payloadStr);
     done();
 }
-
-main();
