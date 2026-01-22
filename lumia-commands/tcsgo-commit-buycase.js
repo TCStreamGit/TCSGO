@@ -5,7 +5,7 @@
  * PORTABLE SETUP: Set Lumia working dir to TCSGO root, OR set TCSGO_BASE below.
  */
 
-const TCSGO_BASE = '';  // e.g., 'A:\Development\Version Control\Github\TCSGO'
+const TCSGO_BASE = 'A:\\Development\\Version Control\\Github\\TCSGO';  // ← Windows path
 
 const CONFIG = {
     basePath: TCSGO_BASE,
@@ -47,25 +47,96 @@ async function main() {
     const alias = '{{alias}}' !== '{{' + 'alias}}' ? '{{alias}}' : '{{message}}';
     const qty = Math.max(1, parseInt('{{qty}}' !== '{{' + 'qty}}' ? '{{qty}}' : '1', 10) || 1);
     
-    if (!username) { log(JSON.stringify(errorResponse(RT, 'MISSING_USERNAME', 'Username required'))); done(); return; }
-    if (!alias) { log(JSON.stringify(errorResponse(RT, 'MISSING_ALIAS', 'Alias required'))); done(); return; }
+    if (!username) {
+        const err = errorResponse(RT, 'MISSING_USERNAME', 'Username required');
+        const errStr = JSON.stringify(err);
+        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
+        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
+        log(errStr);
+        done();
+        return;
+    }
+    
+    if (!alias) {
+        const err = errorResponse(RT, 'MISSING_ALIAS', 'Alias required');
+        const errStr = JSON.stringify(err);
+        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
+        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
+        log(errStr);
+        done();
+        return;
+    }
     
     const aliasData = await loadJson(CONFIG.paths.aliases);
-    if (!aliasData) { log(JSON.stringify(errorResponse(RT, 'LOAD_ERROR', 'Failed to load aliases'))); done(); return; }
+    if (!aliasData) {
+        const err = errorResponse(RT, 'LOAD_ERROR', 'Failed to load aliases');
+        const errStr = JSON.stringify(err);
+        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
+        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
+        log(errStr);
+        done();
+        return;
+    }
     
     const ca = aliasData.aliases[alias.toLowerCase().trim()];
-    if (!ca) { log(JSON.stringify(errorResponse(RT, 'UNKNOWN_ALIAS', `Unknown: ${alias}`))); done(); return; }
+    if (!ca) {
+        const err = errorResponse(RT, 'UNKNOWN_ALIAS', `Unknown: ${alias}`);
+        const errStr = JSON.stringify(err);
+        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
+        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
+        log(errStr);
+        done();
+        return;
+    }
     
     const inv = await loadJson(CONFIG.paths.inventories);
-    if (!inv) { log(JSON.stringify(errorResponse(RT, 'LOAD_ERROR', 'Failed to load inventories'))); done(); return; }
+    if (!inv) {
+        const err = errorResponse(RT, 'LOAD_ERROR', 'Failed to load inventories');
+        const errStr = JSON.stringify(err);
+        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
+        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
+        log(errStr);
+        done();
+        return;
+    }
     
     const user = getOrCreateUser(inv, buildUserKey(platform, username));
     user.cases[ca.caseId] = (user.cases[ca.caseId] || 0) + qty;
     inv.lastModified = new Date().toISOString();
     
-    if (!await saveJson(CONFIG.paths.inventories, inv)) { log(JSON.stringify(errorResponse(RT, 'SAVE_ERROR', 'Save failed'))); done(); return; }
+    if (!await saveJson(CONFIG.paths.inventories, inv)) {
+        const err = errorResponse(RT, 'SAVE_ERROR', 'Save failed');
+        const errStr = JSON.stringify(err);
+        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
+        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
+        log(errStr);
+        done();
+        return;
+    }
     
-    log(JSON.stringify(successResponse(RT, { userKey: user.userKey, caseId: ca.caseId, displayName: ca.displayName, qty, newCount: user.cases[ca.caseId] })));
+    // SUCCESS - Build final result
+    const result = successResponse(RT, { 
+        userKey: user.userKey, 
+        caseId: ca.caseId, 
+        displayName: ca.displayName, 
+        qty, 
+        newCount: user.cases[ca.caseId] 
+    });
+    
+    // DUAL-RECEIVE: Send via both event system and variable polling
+    const payloadStr = JSON.stringify(result);
+    
+    overlaySendCustomContent({
+        codeId: 'tcsgo-controller',
+        content: payloadStr
+    });
+    
+    setVariable({
+        name: 'tcsgo_last_event_json',
+        value: payloadStr
+    });
+    
+    log(payloadStr);
     done();
 }
 
