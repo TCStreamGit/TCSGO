@@ -11,7 +11,7 @@
 // =============================================================================
 // PORTABLE CONFIG
 // =============================================================================
-const TCSGO_BASE = '';  // e.g., '/Users/nike/Github/TCSGO'
+const TCSGO_BASE = '';  // e.g., 'A:\Development\Version Control\Github\TCSGO'
 
 const CONFIG = {
     basePath: TCSGO_BASE,

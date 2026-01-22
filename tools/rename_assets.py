@@ -48,7 +48,7 @@ except ImportError:
 
 # DEFAULT_ROOT = r"A:\Development Environment\Source Control\GitHub\TCSGO"
 
-DEFAULT_ROOT = r"/Users/nike/Github/TCSGO"
+DEFAULT_ROOT = r"A:\Development\Version Control\Github\TCSGO"
 
 # Maximum dimension for any side of the image (maintains aspect ratio)
 MAX_IMAGE_DIMENSION = 512

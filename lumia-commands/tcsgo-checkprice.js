@@ -5,7 +5,7 @@
  * PORTABLE SETUP: Set Lumia working dir to TCSGO root, OR set TCSGO_BASE below.
  */
 
-const TCSGO_BASE = '';  // e.g., '/Users/nike/Github/TCSGO'
+const TCSGO_BASE = '';  // e.g., 'A:\Development\Version Control\Github\TCSGO'
 
 const CONFIG = {
     basePath: TCSGO_BASE,

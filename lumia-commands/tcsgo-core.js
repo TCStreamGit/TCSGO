@@ -18,7 +18,7 @@
 
 // Option 1: Set Lumia working dir to TCSGO root, leave this empty
 // Option 2: Set full path here if Lumia working dir is different
-const TCSGO_BASE = '';  // e.g., '/Users/nike/Github/TCSGO' or 'C:\\Users\\You\\TCSGO'
+const TCSGO_BASE = '';  // e.g., 'A:\Development\Version Control\Github\TCSGO' or 'C:\\Users\\You\\TCSGO'
 
 const TCSGO_CONFIG = {
     basePath: TCSGO_BASE,

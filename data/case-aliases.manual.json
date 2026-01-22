@@ -1,5 +1,5 @@
 {
-  "description": "Manual alias overrides - these always win over auto-generated aliases",
+  "description": "Manual alias overrides - these always win over auto-generated aliases. Each alias maps to a caseId that must exist in the cases index.",
   "aliases": {
     "c2": { "caseId": "chroma-2-case" },
     "c3": { "caseId": "chroma-3-case" },
