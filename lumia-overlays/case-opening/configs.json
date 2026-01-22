@@ -1,56 +1,56 @@
 {
-    "baseRawUrl": {
-        "type": "input",
-        "label": "Base Raw URL (GitHub raw content URL for data files)",
-        "order": 1,
-        "value": "https://raw.githubusercontent.com/YOUR_USERNAME/TCSGO/main"
-    },
-    "pollIntervalMs": {
-        "type": "number",
-        "label": "Fallback Poll Interval (ms)",
-        "order": 2,
-        "value": 250
-    },
-    "ackTimeoutMs": {
-        "type": "number",
-        "label": "Command Acknowledgment Timeout (ms)",
-        "order": 3,
-        "value": 3000
-    },
-    "feePercent": {
-        "type": "number",
-        "label": "Market Fee Percent",
-        "order": 4,
-        "value": 10
-    },
-    "defaultKeyPriceCoins": {
-        "type": "number",
-        "label": "Default Key Price (coins) - fallback if prices.json unavailable",
-        "order": 5,
-        "value": 3500
-    },
-    "codeId": {
-        "type": "input",
-        "label": "Overlay Code ID (for routing)",
-        "order": 6,
-        "value": "tcsgo-controller"
-    },
-    "winnerDisplayMs": {
-        "type": "number",
-        "label": "Winner Card Display Duration (ms)",
-        "order": 7,
-        "value": 8000
-    },
-    "toastDurationMs": {
-        "type": "number",
-        "label": "Toast Notification Duration (ms)",
-        "order": 8,
-        "value": 5000
-    },
-    "debugMode": {
-        "type": "checkbox",
-        "label": "Enable Debug Logging",
-        "order": 9,
-        "value": false
-    }
+  "baseRawUrl": {
+    "type": "input",
+    "label": "Base Raw URL (GitHub raw content URL for data files)",
+    "order": 1,
+    "value": "https://raw.githubusercontent.com/YOUR_USERNAME/TCSGO/main"
+  },
+  "pollIntervalMs": {
+    "type": "number",
+    "label": "Fallback Poll Interval (ms)",
+    "order": 2,
+    "value": 250
+  },
+  "ackTimeoutMs": {
+    "type": "number",
+    "label": "Command Acknowledgment Timeout (ms)",
+    "order": 3,
+    "value": 3000
+  },
+  "feePercent": {
+    "type": "number",
+    "label": "Market Fee Percent",
+    "order": 4,
+    "value": 10
+  },
+  "defaultKeyPriceCoins": {
+    "type": "number",
+    "label": "Default Key Price (coins) - fallback if prices.json unavailable",
+    "order": 5,
+    "value": 3500
+  },
+  "codeId": {
+    "type": "input",
+    "label": "Overlay Code ID (for routing)",
+    "order": 6,
+    "value": "tcsgo-controller"
+  },
+  "winnerDisplayMs": {
+    "type": "number",
+    "label": "Winner Card Display Duration (ms)",
+    "order": 7,
+    "value": 8000
+  },
+  "toastDurationMs": {
+    "type": "number",
+    "label": "Toast Notification Duration (ms)",
+    "order": 8,
+    "value": 5000
+  },
+  "debugMode": {
+    "type": "checkbox",
+    "label": "Enable Debug Logging",
+    "order": 9,
+    "value": false
+  }
 }

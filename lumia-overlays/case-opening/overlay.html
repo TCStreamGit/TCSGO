@@ -1,55 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TCSGO Case Opening Controller V1</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TCSGO Case Opening Controller V1</title>
+
+  <!-- TODO: Replace These With Your Real Raw URLs -->
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/TCStreamGit/TCSGO/main/lumia-overlays/case-opening/style.css">
 </head>
 <body>
-    <!--
-        TCSGO Case Opening Controller V1
-        =================================
-        Handles chat commands, point validation, and dual-receive reliability.
-        
-        Commands supported (parsed in overlay):
-        - !buycase <alias> [qty]
-        - !buykey [qty]
-        - !open <alias>
-        - !sell <oid>
-        - !sellconfirm <token>
-        
-        UI is minimal (V1): just a winner card and toast/status area.
-    -->
-    
-    <div id="tcsgo-controller">
-        
-        <!-- Winner Card (shown after successful !open) -->
-        <div id="winner-container" class="hidden">
-            <div id="winner-glow"></div>
-            <div id="winner-card">
-                <div id="winner-image-wrapper">
-                    <img id="winner-image" src="" alt="Winner Item">
-                </div>
-                <div id="winner-info">
-                    <div id="winner-name"></div>
-                    <div id="winner-badges">
-                        <span id="winner-stattrak" class="badge stattrak hidden">StatTrak™</span>
-                        <span id="winner-wear" class="badge wear"></span>
-                    </div>
-                    <div id="winner-price"></div>
-                </div>
-                <div id="winner-username"></div>
-            </div>
+  <div id="tcsgo-controller">
+
+    <div id="winner-container" class="hidden">
+      <div id="winner-glow"></div>
+      <div id="winner-card">
+        <div id="winner-image-wrapper">
+          <img id="winner-image" src="" alt="Winner Item">
         </div>
-        
-        <!-- Toast / Status Area -->
-        <div id="toast-container">
-            <!-- Toasts will be dynamically inserted here -->
+        <div id="winner-info">
+          <div id="winner-name"></div>
+          <div id="winner-badges">
+            <span id="winner-stattrak" class="badge stattrak hidden">StatTrak™</span>
+            <span id="winner-wear" class="badge wear"></span>
+          </div>
+          <div id="winner-price"></div>
         </div>
-        
+        <div id="winner-username"></div>
+      </div>
     </div>
-    
-    <script src="script.js"></script>
+
+    <div id="toast-container"></div>
+
+  </div>
+
+  <!-- TODO: Replace This With Your Real Raw URL -->
+  <script src="https://raw.githubusercontent.com/TCStreamGit/TCSGO/main/lumia-overlays/case-opening/script.js"></script>
 </body>
 </html>

@@ -1,45 +1,180 @@
 {
-    "name": "TCSGO Case Opening Animation",
-    "version": "1.0.0",
-    "description": "CS:GO/CS2 style case opening reel animation with reveal panel",
-    
-    "lumia": {
-        "eventSubscriptions": [
-            {
-                "type": "custom",
-                "codeId": "tcsgocaseopen"
-            }
-        ]
-    },
-    
-    "messageSchema": {
-        "type": "caseopen",
-        "codeId": "tcsgocaseopen",
-        "required": ["username", "winnerItem"],
-        "optional": ["containerId", "containerData", "statTrak", "wear", "priceCoins", "priceCAD"],
-        "example": {
-            "type": "caseopen",
-            "codeId": "tcsgocaseopen",
-            "username": "ViewerName",
-            "containerId": "chroma-2-case",
-            "winnerItem": {
-                "itemId": "m4a1-s-hyper-beast",
-                "displayName": "M4A1-S | Hyper Beast",
-                "tier": "red",
-                "category": "weapon",
-                "rarity": "covert"
-            },
-            "statTrak": true,
-            "wear": "Factory New",
-            "priceCoins": 15000,
-            "priceCAD": 45.50
-        }
-    },
-    
-    "notes": [
-        "This overlay receives messages from the Lumia !open command.",
-        "The winnerItem object must include at minimum: itemId, displayName, tier.",
-        "Set baseRawUrl in configs to your GitHub repository raw URL.",
-        "Test with window.TCSGOTest() in browser console."
+  "name": "TCSGO Case Opening Controller V1",
+  "version": "1.0.0",
+  "description": "Chat-Driven CS:GO/CS2 Case System Controller For Buying, Opening, And Selling With Dual-Receive ACK Routing (OverlayContent + Variable Poll Fallback).",
+  "lumia": {
+    "eventSubscriptions": [
+      {
+        "type": "custom",
+        "codeId": "tcsgo-controller"
+      }
+    ],
+    "variables": [
+      {
+        "name": "tcsgo_last_event_json",
+        "purpose": "Fallback ACK Channel. Commit Commands Write The Latest Result Payload Here So The Overlay Can Poll And Deduplicate By eventId."
+      }
     ]
+  },
+  "dataFiles": {
+    "aliases": {
+      "path": "data/case-aliases.json",
+      "description": "Auto-Generated Case Alias Map And Case Metadata Index.",
+      "storageKey": "tcsgo_aliases"
+    },
+    "prices": {
+      "path": "data/prices.json",
+      "description": "Cached Prices (Cases, Keys, And Optional Item Pricing).",
+      "storageKey": "tcsgo_prices"
+    },
+    "inventories": {
+      "path": "data/inventories.json",
+      "description": "Viewer Inventories (Cases, Keys, Items).",
+      "storageKey": "tcsgo_inventories",
+      "optional": true
+    }
+  },
+  "messageSchema": {
+    "type": "tcsgo-event",
+    "codeId": "tcsgo-controller",
+    "required": [
+      "type",
+      "codeId",
+      "eventId",
+      "ok"
+    ],
+    "optional": [
+      "platform",
+      "username",
+      "data",
+      "error",
+      "ts"
+    ],
+    "eventTypes": [
+      "buycase-result",
+      "buykey-result",
+      "open-result",
+      "sell-start-result",
+      "sell-confirm-result",
+      "error"
+    ],
+    "examples": {
+      "openResult": {
+        "type": "open-result",
+        "codeId": "tcsgo-controller",
+        "eventId": "evt_kx9m3p_ab12cd",
+        "ok": true,
+        "platform": "twitch",
+        "username": "ViewerName",
+        "ts": "2026-01-22T20:30:00Z",
+        "data": {
+          "caseId": "chroma-2-case",
+          "caseDisplayName": "Chroma 2 Case",
+          "winner": {
+            "itemId": "m4a1-s-hyper-beast",
+            "displayName": "M4A1-S | Hyper Beast",
+            "tier": "red",
+            "rarity": "covert",
+            "category": "weapon",
+            "statTrak": true,
+            "wear": "Factory New"
+          },
+          "imagePath": "Assets-Renamed/Items/chroma-2-case--covert--m4a1-s-hyper-beast.png",
+          "priceSnapshot": {
+            "chosenCoins": 15000,
+            "cad": 45.5
+          }
+        }
+      },
+      "buyCaseResult": {
+        "type": "buycase-result",
+        "codeId": "tcsgo-controller",
+        "eventId": "evt_kx9m3p_zz88yy",
+        "ok": true,
+        "platform": "twitch",
+        "username": "ViewerName",
+        "ts": "2026-01-22T20:31:00Z",
+        "data": {
+          "caseId": "chroma-2-case",
+          "displayName": "Chroma 2 Case",
+          "qty": 2,
+          "spentCoins": 4000,
+          "newBalance": 123456
+        }
+      },
+      "sellStartResult": {
+        "type": "sell-start-result",
+        "codeId": "tcsgo-controller",
+        "eventId": "evt_kx9m3p_ss11tt",
+        "ok": true,
+        "platform": "twitch",
+        "username": "ViewerName",
+        "ts": "2026-01-22T20:32:00Z",
+        "data": {
+          "oid": "inv_01J2ABCDEF123",
+          "token": "SELL-7H2K9Q",
+          "expiresInSeconds": 60,
+          "marketFeePercent": 10,
+          "creditAmount": 13500,
+          "item": {
+            "itemId": "m4a1-s-hyper-beast",
+            "displayName": "M4A1-S | Hyper Beast",
+            "rarity": "covert",
+            "wear": "Factory New",
+            "statTrak": true
+          }
+        }
+      },
+      "sellConfirmResult": {
+        "type": "sell-confirm-result",
+        "codeId": "tcsgo-controller",
+        "eventId": "evt_kx9m3p_cc44dd",
+        "ok": true,
+        "platform": "twitch",
+        "username": "ViewerName",
+        "ts": "2026-01-22T20:33:00Z",
+        "data": {
+          "oid": "inv_01J2ABCDEF123",
+          "creditedCoins": 13500,
+          "newBalance": 136999,
+          "item": {
+            "itemId": "m4a1-s-hyper-beast",
+            "displayName": "M4a1-S | Hyper Beast"
+          }
+        }
+      },
+      "errorResult": {
+        "type": "buykey-result",
+        "codeId": "tcsgo-controller",
+        "eventId": "evt_kx9m3p_er55rr",
+        "ok": false,
+        "platform": "twitch",
+        "username": "ViewerName",
+        "ts": "2026-01-22T20:34:00Z",
+        "error": {
+          "code": "INSUFFICIENT_FUNDS",
+          "message": "Not Enough Coins For Purchase."
+        }
+      }
+    }
+  },
+  "notes": [
+    "This Overlay Expects Commit Commands To Send Results Back Using overlaySendCustomContent({ codeId: 'tcsgo-controller', content: JSON.stringify(payload) }).",
+    "For Dual-Receive Reliability, Commit Commands Should Also setVariable({ name: 'tcsgo_last_event_json', value: JSON.stringify(payload) }).",
+    "The Overlay Deduplicates Responses By eventId (Required).",
+    "Set baseRawUrl In configs.json To Your GitHub Raw Repo Root So The Overlay Can Fetch data/case-aliases.json And data/prices.json If Storage Is Empty."
+  ],
+  "optionalScreenshots": [
+    "Overlay Editor: Verify HTML Uses Absolute Raw URLs For style.css And script.js",
+    "Overlay Console: Confirm No 'Unexpected Token <' Errors",
+    "Chat Test: Send !buycase <alias> And Confirm Toast + Chatbot Output"
+  ],
+  "baseRawUrl": "https://raw.githubusercontent.com/TCStreamGit/TCSGO/main",
+  "pollIntervalMs": 250,
+  "ackTimeoutMs": 3000,
+  "feePercent": 10,
+  "defaultKeyPriceCoins": 3500,
+  "codeId": "tcsgo-controller",
+  "winnerDisplayMs": 8000,
+  "toastDurationMs": 5000
 }
