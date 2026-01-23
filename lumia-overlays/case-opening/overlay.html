@@ -1,21 +1,50 @@
 <div id="tcsgo-controller">
-
-  <div id="winner-container" class="hidden">
-    <div id="winner-glow"></div>
-    <div id="winner-card">
-      <div id="winner-image-wrapper">
-        <img id="winner-image" src="" alt="Winner Item">
+  <div id="case-opening" class="hidden" data-state="idle">
+    <div class="stage stage-intro">
+      <div class="case-intro-card">
+        <img id="case-icon" src="" alt="Case icon">
+        <div id="case-title" class="case-title"></div>
+        <div class="case-subtitle">Unlocking Container</div>
       </div>
-      <div id="winner-info">
-        <div id="winner-name"></div>
-        <div id="winner-badges">
-          <span id="winner-stattrak" class="badge stattrak hidden">StatTrak™</span>
-          <span id="winner-wear" class="badge wear"></span>
-        </div>
-        <div id="winner-price"></div>
+      <div id="case-key-card" class="case-key-card">
+        <img id="case-key-image" src="" alt="Case key">
+        <div class="case-key-label">Case Key</div>
       </div>
-      <div id="winner-username"></div>
     </div>
-  </div>
 
+    <div class="stage stage-roulette">
+      <div id="roulette-frame">
+        <div id="roulette-window">
+          <div id="roulette-strip"></div>
+        </div>
+        <div id="roulette-center-line"></div>
+      </div>
+      <div id="roulette-meta">
+        <div id="roulette-case"></div>
+        <div id="roulette-user"></div>
+      </div>
+    </div>
+
+    <div class="stage stage-reveal">
+      <div id="reveal-glow"></div>
+      <div id="reveal-card">
+        <div id="reveal-image-wrapper">
+          <img id="reveal-image" src="" alt="Winner item">
+        </div>
+        <div id="reveal-name"></div>
+        <div id="reveal-badges">
+          <span id="reveal-stattrak" class="badge stattrak hidden">StatTrak™</span>
+          <span id="reveal-wear" class="badge wear"></span>
+        </div>
+        <div id="reveal-price"></div>
+      </div>
+      <div id="reveal-user"></div>
+    </div>
+
+    <audio id="sfx-open" preload="auto"></audio>
+    <audio id="sfx-tick" preload="auto"></audio>
+    <audio id="sfx-reveal" preload="auto"></audio>
+    <audio id="sfx-rare" preload="auto"></audio>
+    <audio id="sfx-gold" preload="auto"></audio>
+  </div>
 </div>

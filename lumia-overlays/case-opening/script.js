@@ -70,6 +70,18 @@
     defaultKeyPriceCoins: 3500,
     codeId: "tcsgo-controller",
     winnerDisplayMs: 8000,
+    caseIntroMs: 900,
+    caseSpinMs: 5200,
+    caseSpinItems: 38,
+    caseWinnerIndex: 30,
+    caseKeyImage: "",
+    sfxOpen: "Assets/Sounds/MP3/csgo_ui_crate_open.mp3",
+    sfxTick: "Assets/Sounds/TCSGO_Sound_Assets/tick.mp3",
+    sfxReveal: "Assets/Sounds/TCSGO_Sound_Assets/reveal.mp3",
+    sfxRare: "Assets/Sounds/TCSGO_Sound_Assets/rare.mp3",
+    sfxGold: "Assets/Sounds/TCSGO_Sound_Assets/gold-reveal.mp3",
+    sfxVolume: 0.65,
+    sfxTickVolume: 0.45,
     commandPrefix: "!",
     cmdBuyCase: "buycase",
     cmdBuyKey: "buykey",
@@ -118,6 +130,40 @@
 
   let aliasCache = null;
   let pricesCache = null;
+  const caseJsonCache = new Map();
+
+  const openQueue = [];
+  let openBusy = false;
+
+  const UI = {
+    root: null,
+    caseOpening: null,
+    stageIntro: null,
+    stageRoulette: null,
+    stageReveal: null,
+    caseIcon: null,
+    caseTitle: null,
+    caseKeyCard: null,
+    caseKeyImage: null,
+    rouletteStrip: null,
+    rouletteWindow: null,
+    rouletteCase: null,
+    rouletteUser: null,
+    revealImage: null,
+    revealName: null,
+    revealStattrak: null,
+    revealWear: null,
+    revealPrice: null,
+    revealUser: null,
+    sfxOpen: null,
+    sfxTick: null,
+    sfxReveal: null,
+    sfxRare: null,
+    sfxGold: null
+  };
+
+  const tickPool = [];
+  let stripX = 0;
 
   // =========================================================================
   // EVENT ROUTING STATE
@@ -213,6 +259,8 @@
 
   async function init() {
     loadConfig();
+    cacheUi();
+    initAudio();
 
     debugEmit(`[Init] Starting | Instance=${INSTANCE_ID}`, "info", "debugInit");
 
@@ -249,6 +297,18 @@
     CONFIG.feePercent = clampNum(cfgNumFrom(src, "feePercent", DEFAULT_CONFIG.feePercent), 0, 100, DEFAULT_CONFIG.feePercent);
     CONFIG.defaultKeyPriceCoins = clampNum(cfgNumFrom(src, "defaultKeyPriceCoins", DEFAULT_CONFIG.defaultKeyPriceCoins), 0, 1e12, DEFAULT_CONFIG.defaultKeyPriceCoins);
     CONFIG.winnerDisplayMs = clampNum(cfgNumFrom(src, "winnerDisplayMs", DEFAULT_CONFIG.winnerDisplayMs), 500, 60000, DEFAULT_CONFIG.winnerDisplayMs);
+    CONFIG.caseIntroMs = clampNum(cfgNumFrom(src, "caseIntroMs", DEFAULT_CONFIG.caseIntroMs), 0, 10000, DEFAULT_CONFIG.caseIntroMs);
+    CONFIG.caseSpinMs = clampNum(cfgNumFrom(src, "caseSpinMs", DEFAULT_CONFIG.caseSpinMs), 800, 20000, DEFAULT_CONFIG.caseSpinMs);
+    CONFIG.caseSpinItems = clampNum(cfgNumFrom(src, "caseSpinItems", DEFAULT_CONFIG.caseSpinItems), 12, 120, DEFAULT_CONFIG.caseSpinItems);
+    CONFIG.caseWinnerIndex = clampNum(cfgNumFrom(src, "caseWinnerIndex", DEFAULT_CONFIG.caseWinnerIndex), 6, 120, DEFAULT_CONFIG.caseWinnerIndex);
+    CONFIG.caseKeyImage = cfgStrFrom(src, "caseKeyImage", DEFAULT_CONFIG.caseKeyImage);
+    CONFIG.sfxOpen = cfgStrFrom(src, "sfxOpen", DEFAULT_CONFIG.sfxOpen);
+    CONFIG.sfxTick = cfgStrFrom(src, "sfxTick", DEFAULT_CONFIG.sfxTick);
+    CONFIG.sfxReveal = cfgStrFrom(src, "sfxReveal", DEFAULT_CONFIG.sfxReveal);
+    CONFIG.sfxRare = cfgStrFrom(src, "sfxRare", DEFAULT_CONFIG.sfxRare);
+    CONFIG.sfxGold = cfgStrFrom(src, "sfxGold", DEFAULT_CONFIG.sfxGold);
+    CONFIG.sfxVolume = clampNum(cfgNumFrom(src, "sfxVolume", DEFAULT_CONFIG.sfxVolume), 0, 1, DEFAULT_CONFIG.sfxVolume);
+    CONFIG.sfxTickVolume = clampNum(cfgNumFrom(src, "sfxTickVolume", DEFAULT_CONFIG.sfxTickVolume), 0, 1, DEFAULT_CONFIG.sfxTickVolume);
 
     CONFIG.commandPrefix = cfgStrFrom(src, "commandPrefix", DEFAULT_CONFIG.commandPrefix);
     CONFIG.cmdBuyCase = cfgStrFrom(src, "cmdBuyCase", DEFAULT_CONFIG.cmdBuyCase);
@@ -544,7 +604,7 @@
 
     switch (type) {
       case "open-result":
-        if (payload.ok && payload.data?.winner) showWinnerCard(payload.data, payload.username || "Unknown");
+        if (payload.ok && payload.data?.winner) showRevealOnly(payload.data, payload.username || "Unknown");
         break;
 
       case "buycase-result":
@@ -1138,7 +1198,7 @@
     try {
       const result = await callCommitCommand(CONFIG.commitOpen, { eventId, platform, username, alias }, eventId);
       if (result.ok && result.data) {
-        showWinnerCard(result.data, username);
+        enqueueCaseOpening({ resultData: result.data, username, caseInfo });
         const winner = result.data.winner || {};
         const stStr = winner.statTrak ? "StatTrak™ " : "";
         await sendChatMessage(`@${username} Opened ${stStr}${winner.displayName} (${winner.wear})!`, platform);
@@ -1198,40 +1258,552 @@
   }
 
   // =========================================================================
-  // WINNER CARD UI
+  // CASE OPENING UI
   // =========================================================================
 
-  function showWinnerCard(resultData, username) {
-    debugEmit(`[Winner] Show | user=${username}`, "info", "debugWinnerCard");
+  function cacheUi() {
+    UI.root = document.getElementById("tcsgo-controller");
+    UI.caseOpening = document.getElementById("case-opening");
+    if (!UI.caseOpening) return;
 
-    const container = document.getElementById("winner-container");
-    if (!container) return;
+    UI.stageIntro = UI.caseOpening.querySelector(".stage-intro");
+    UI.stageRoulette = UI.caseOpening.querySelector(".stage-roulette");
+    UI.stageReveal = UI.caseOpening.querySelector(".stage-reveal");
+
+    UI.caseIcon = document.getElementById("case-icon");
+    UI.caseTitle = document.getElementById("case-title");
+    UI.caseKeyCard = document.getElementById("case-key-card");
+    UI.caseKeyImage = document.getElementById("case-key-image");
+
+    UI.rouletteStrip = document.getElementById("roulette-strip");
+    UI.rouletteWindow = document.getElementById("roulette-window");
+    UI.rouletteCase = document.getElementById("roulette-case");
+    UI.rouletteUser = document.getElementById("roulette-user");
+
+    UI.revealImage = document.getElementById("reveal-image");
+    UI.revealName = document.getElementById("reveal-name");
+    UI.revealStattrak = document.getElementById("reveal-stattrak");
+    UI.revealWear = document.getElementById("reveal-wear");
+    UI.revealPrice = document.getElementById("reveal-price");
+    UI.revealUser = document.getElementById("reveal-user");
+
+    UI.sfxOpen = document.getElementById("sfx-open");
+    UI.sfxTick = document.getElementById("sfx-tick");
+    UI.sfxReveal = document.getElementById("sfx-reveal");
+    UI.sfxRare = document.getElementById("sfx-rare");
+    UI.sfxGold = document.getElementById("sfx-gold");
+  }
+
+  function initAudio() {
+    if (!UI.caseOpening) return;
+
+    setAudioSource(UI.sfxOpen, CONFIG.sfxOpen, CONFIG.sfxVolume);
+    setAudioSource(UI.sfxTick, CONFIG.sfxTick, CONFIG.sfxTickVolume);
+    setAudioSource(UI.sfxReveal, CONFIG.sfxReveal, CONFIG.sfxVolume);
+    setAudioSource(UI.sfxRare, CONFIG.sfxRare, CONFIG.sfxVolume);
+    setAudioSource(UI.sfxGold, CONFIG.sfxGold, CONFIG.sfxVolume);
+
+    tickPool.length = 0;
+    if (UI.sfxTick) tickPool.push(UI.sfxTick);
+  }
+
+  function setAudioSource(el, path, volume) {
+    if (!el) return;
+    const src = resolveAssetPath(path);
+    if (src) el.src = src;
+    if (Number.isFinite(volume)) el.volume = volume;
+  }
+
+  function playAudio(el, volume) {
+    if (!el) return;
+    if (Number.isFinite(volume)) el.volume = volume;
+    try { el.currentTime = 0; } catch (_) {}
+    const p = el.play();
+    if (p && typeof p.catch === "function") p.catch(() => {});
+  }
+
+  function playTick() {
+    if (!UI.sfxTick) return;
+
+    let audio = tickPool.find((a) => a && a.paused);
+    if (!audio && tickPool.length < 6) {
+      audio = UI.sfxTick.cloneNode();
+      tickPool.push(audio);
+      setAudioSource(audio, CONFIG.sfxTick, CONFIG.sfxTickVolume);
+    }
+    if (audio) playAudio(audio, CONFIG.sfxTickVolume);
+  }
+
+  function setOverlayActive(active) {
+    if (!UI.caseOpening) return;
+    if (active) {
+      UI.caseOpening.classList.remove("hidden");
+      requestAnimationFrame(() => UI.caseOpening.classList.add("active"));
+    } else {
+      UI.caseOpening.classList.remove("active");
+      setTimeout(() => UI.caseOpening.classList.add("hidden"), 260);
+    }
+  }
+
+  function setOverlayState(state) {
+    if (!UI.caseOpening) return;
+    UI.caseOpening.setAttribute("data-state", state);
+  }
+
+  function enqueueCaseOpening(job) {
+    openQueue.push(job);
+    processOpenQueue();
+  }
+
+  async function processOpenQueue() {
+    if (openBusy) return;
+    const job = openQueue.shift();
+    if (!job) return;
+    openBusy = true;
+    try {
+      await playCaseOpening(job);
+    } catch (err) {
+      debugError("[CaseOpen] Failed", err, "debugWinnerCard");
+    } finally {
+      openBusy = false;
+      if (openQueue.length) processOpenQueue();
+    }
+  }
+
+  async function playCaseOpening(job) {
+    if (!UI.caseOpening) return;
+
+    const resultData = job?.resultData || {};
+    const username = job?.username || "Unknown";
+    const caseInfo = job?.caseInfo || null;
+    const winner = resultData?.winner || {};
+    const winnerRarity = normalizeRarity(winner.tier || winner.rarity);
+
+    if (UI.caseOpening) UI.caseOpening.classList.remove("no-roulette");
+    applyRarityClass(winnerRarity);
+    updateReveal(resultData, username);
+
+    const caseJson = caseInfo ? await loadCaseJson(caseInfo) : null;
+    if (!caseJson) {
+      await showRevealOnly(resultData, username);
+      return;
+    }
+
+    updateCaseIntro(caseInfo);
+    updateRouletteMeta(caseInfo, username);
+
+    const spinBuild = buildSpinSequence(caseJson, winner, resultData?.imagePath || "");
+    const winnerTile = renderRouletteItems(spinBuild.items);
+    const metrics = measureRoulette();
+
+    if (!metrics) {
+      await showRevealOnly(resultData, username);
+      return;
+    }
+
+    const targetX = metrics.windowWidth / 2 -
+      (metrics.paddingLeft + spinBuild.winnerIndex * metrics.tileStep + metrics.tileWidth / 2);
+
+    setStripX(0);
+    setOverlayActive(true);
+    setOverlayState("intro");
+    playAudio(UI.sfxOpen, CONFIG.sfxVolume);
+
+    if (CONFIG.caseIntroMs > 0) await sleep(CONFIG.caseIntroMs);
+
+    setOverlayState("roulette");
+    await animateRoulette(targetX, CONFIG.caseSpinMs, metrics.tileStep);
+
+    if (winnerTile) winnerTile.classList.add("is-winner");
+
+    setOverlayState("reveal");
+    playRevealSound(winnerRarity);
+
+    await sleep(CONFIG.winnerDisplayMs);
+
+    setOverlayActive(false);
+    setOverlayState("idle");
+  }
+
+  async function showRevealOnly(resultData, username) {
+    if (!UI.caseOpening) return;
 
     const winner = resultData?.winner || {};
-    const rarity = normalizeRarity(winner.rarity || winner.tier);
-    container.className = `rarity-${rarity}`;
+    const winnerRarity = normalizeRarity(winner.tier || winner.rarity);
 
-    const imgEl = document.getElementById("winner-image");
-    if (imgEl) imgEl.src = resultData?.imagePath || "";
+    if (UI.caseOpening) UI.caseOpening.classList.add("no-roulette");
+    if (UI.rouletteStrip) UI.rouletteStrip.innerHTML = "";
+    applyRarityClass(winnerRarity);
+    updateReveal(resultData, username);
 
-    const nameEl = document.getElementById("winner-name");
-    if (nameEl) nameEl.textContent = winner.displayName || "Unknown Item";
+    setOverlayActive(true);
+    setOverlayState("reveal");
+    playRevealSound(winnerRarity);
 
-    const stEl = document.getElementById("winner-stattrak");
-    if (stEl) stEl.classList.toggle("hidden", !winner.statTrak);
+    await sleep(CONFIG.winnerDisplayMs);
 
-    const wearEl = document.getElementById("winner-wear");
-    if (wearEl) wearEl.textContent = winner.wear || "Unknown";
+    setOverlayActive(false);
+    setOverlayState("idle");
+  }
 
-    const userEl = document.getElementById("winner-username");
-    if (userEl) userEl.textContent = username;
+  function playRevealSound(rarity) {
+    const key = String(rarity || "").toLowerCase();
+    if (key === "gold" || key === "extraordinary") return playAudio(UI.sfxGold, CONFIG.sfxVolume);
+    if (key === "red" || key === "pink" || key === "covert" || key === "classified") return playAudio(UI.sfxRare, CONFIG.sfxVolume);
+    return playAudio(UI.sfxReveal, CONFIG.sfxVolume);
+  }
 
-    container.classList.remove("hidden", "fade-out");
+  function updateCaseIntro(caseInfo) {
+    if (!caseInfo) return;
 
-    setTimeout(() => {
-      container.classList.add("fade-out");
-      setTimeout(() => container.classList.add("hidden"), 400);
-    }, CONFIG.winnerDisplayMs);
+    const caseId = String(caseInfo.caseId || "");
+    const caseName = String(caseInfo.displayName || caseId || "Unknown Case");
+    const iconPath = buildCaseIconPath(caseId);
+    const iconSrc = iconPath ? resolveAssetPath(iconPath) : "";
+
+    if (UI.caseTitle) UI.caseTitle.textContent = caseName;
+    if (UI.caseIcon) {
+      UI.caseIcon.src = iconSrc;
+      UI.caseIcon.classList.toggle("hidden", !iconSrc);
+    }
+
+    const keySrc = CONFIG.caseKeyImage ? resolveAssetPath(CONFIG.caseKeyImage) : "";
+    if (UI.caseKeyImage) {
+      UI.caseKeyImage.src = keySrc;
+      UI.caseKeyImage.classList.toggle("hidden", !keySrc);
+    }
+    if (UI.caseKeyCard) {
+      UI.caseKeyCard.classList.toggle("placeholder", !keySrc);
+      UI.caseKeyCard.classList.toggle("hidden", !keySrc);
+    }
+  }
+
+  function updateRouletteMeta(caseInfo, username) {
+    if (UI.rouletteCase) UI.rouletteCase.textContent = caseInfo?.displayName || caseInfo?.caseId || "Case";
+    if (UI.rouletteUser) UI.rouletteUser.textContent = username || "Unknown";
+  }
+
+  function updateReveal(resultData, username) {
+    const winner = resultData?.winner || {};
+    const imageSrc = resolveAssetPath(resultData?.imagePath || "");
+    const priceText = formatPrice(resultData?.priceSnapshot);
+
+    if (UI.revealImage) {
+      UI.revealImage.src = imageSrc;
+      UI.revealImage.classList.toggle("hidden", !imageSrc);
+    }
+    if (UI.revealName) UI.revealName.textContent = winner.displayName || "Unknown Item";
+    if (UI.revealStattrak) UI.revealStattrak.classList.toggle("hidden", !winner.statTrak);
+    if (UI.revealWear) {
+      UI.revealWear.textContent = winner.wear || "";
+      UI.revealWear.classList.toggle("hidden", !winner.wear);
+    }
+    if (UI.revealPrice) {
+      UI.revealPrice.textContent = priceText;
+      UI.revealPrice.classList.toggle("hidden", !priceText);
+    }
+    if (UI.revealUser) UI.revealUser.textContent = username || "";
+  }
+
+  function applyRarityClass(rarityKey) {
+    if (!UI.caseOpening) return;
+    const classes = [
+      "rarity-blue",
+      "rarity-purple",
+      "rarity-pink",
+      "rarity-red",
+      "rarity-gold",
+      "rarity-consumer",
+      "rarity-industrial",
+      "rarity-milspec",
+      "rarity-restricted",
+      "rarity-classified",
+      "rarity-covert",
+      "rarity-extraordinary"
+    ];
+    for (const c of classes) UI.caseOpening.classList.remove(c);
+    if (rarityKey) UI.caseOpening.classList.add(`rarity-${rarityKey}`);
+  }
+
+  function resolveAssetPath(path) {
+    const raw = String(path || "").trim();
+    if (!raw) return "";
+    if (/^(https?:)?\/\//i.test(raw) || raw.startsWith("data:") || raw.startsWith("file:")) return raw;
+
+    const cleaned = raw.replace(/\\/g, "/").replace(/^\/+/, "");
+    const base = String(CONFIG.baseRawUrl || "").replace(/\/+$/g, "");
+    if (!base) return cleaned;
+    return `${base}/${cleaned}`;
+  }
+
+  function toCaseFolderName(caseId) {
+    return String(caseId || "")
+      .split("-")
+      .filter(Boolean)
+      .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+      .join("-");
+  }
+
+  function buildCaseIconPath(caseId) {
+    const id = String(caseId || "").trim();
+    if (!id) return "";
+    const folder = toCaseFolderName(id);
+    return `Assets/Cases/${folder}/Icons/${id}--icon.png`;
+  }
+
+  async function loadCaseJson(caseInfo) {
+    const filename = String(caseInfo?.filename || "").trim();
+    const caseId = String(caseInfo?.caseId || "").trim();
+    if (!filename) return null;
+
+    const cacheKey = filename.toLowerCase();
+    if (caseJsonCache.has(cacheKey)) return caseJsonCache.get(cacheKey);
+
+    const storageKey = `tcsgo_case_${caseId || cacheKey}`;
+    let data = null;
+
+    const base = String(CONFIG.baseRawUrl || "").replace(/\/+$/g, "");
+    if (base) {
+      try {
+        const url = `${base}/Case-Odds/${filename}`;
+        debugEmit(`[CaseData] Fetch | ${url}`, "info", "debugFetch");
+        const resp = await fetch(url, { cache: "no-store" });
+        if (resp.ok) data = await resp.json();
+      } catch (err) {
+        debugError("[CaseData] Fetch Failed", err, "debugFetch");
+      }
+    }
+
+    if (!data) {
+      const raw = await safeGetStorage(storageKey);
+      if (raw) {
+        try { data = typeof raw === "string" ? JSON.parse(raw) : raw; } catch (err) {
+          debugError("[CaseData] Storage Parse Failed", err, "debugData");
+        }
+      }
+    }
+
+    if (data) {
+      caseJsonCache.set(cacheKey, data);
+      try { await safeSetStorage(storageKey, JSON.stringify(data)); } catch (_) {}
+    }
+
+    return data;
+  }
+
+  function buildCasePool(caseJson) {
+    if (!caseJson || !caseJson.case) return [];
+    if (Array.isArray(caseJson._pool)) return caseJson._pool;
+
+    const pool = [];
+    const tiers = caseJson.case.tiers || {};
+    for (const [tier, items] of Object.entries(tiers)) {
+      if (!Array.isArray(items)) continue;
+      for (const item of items) pool.push({ item, tier });
+    }
+
+    const goldItems = caseJson.case.goldPool?.items;
+    if (Array.isArray(goldItems)) {
+      for (const item of goldItems) pool.push({ item, tier: "gold" });
+    }
+
+    caseJson._pool = pool;
+    return pool;
+  }
+
+  function findCaseItem(caseJson, itemId) {
+    if (!itemId) return null;
+    const pool = buildCasePool(caseJson);
+    return pool.find((entry) => entry.item?.itemId === itemId) || null;
+  }
+
+  function pickTier(caseJson) {
+    const weights = caseJson?.case?.oddsWeights;
+    const entries = weights ? Object.entries(weights) : [];
+    if (!entries.length) {
+      const tiers = Object.keys(caseJson?.case?.tiers || {});
+      return tiers[0] || "blue";
+    }
+
+    const total = entries.reduce((sum, [, weight]) => sum + Number(weight || 0), 0);
+    if (total <= 0) return entries[0][0];
+
+    let roll = Math.random() * total;
+    for (const [tier, weight] of entries) {
+      roll -= Number(weight || 0);
+      if (roll <= 0) return tier;
+    }
+    return entries[0][0];
+  }
+
+  function pickCaseItem(caseJson) {
+    const tier = pickTier(caseJson);
+    const pool = tier === "gold"
+      ? caseJson?.case?.goldPool?.items
+      : caseJson?.case?.tiers?.[tier];
+
+    if (!Array.isArray(pool) || pool.length === 0) {
+      const fallbackPool = buildCasePool(caseJson);
+      if (!fallbackPool.length) return null;
+      const fallback = fallbackPool[Math.floor(Math.random() * fallbackPool.length)];
+      return fallback ? { item: fallback.item, tier: fallback.tier } : null;
+    }
+
+    let total = 0;
+    for (const item of pool) total += Number(item.weights?.base ?? 1);
+    let roll = Math.random() * total;
+    for (const item of pool) {
+      roll -= Number(item.weights?.base ?? 1);
+      if (roll <= 0) return { item, tier };
+    }
+    return { item: pool[0], tier };
+  }
+
+  function selectRandomImage(item) {
+    if (!item) return "";
+    const images = [item.image, ...(item.imageAlternates || [])].filter(Boolean);
+    return images.length ? images[Math.floor(Math.random() * images.length)] : "";
+  }
+
+  function buildSpinSequence(caseJson, winner, winnerImagePath) {
+    const count = Math.max(12, Math.floor(CONFIG.caseSpinItems) || 0);
+    const maxWinnerIndex = Math.max(6, count - 6);
+    const winnerIndex = Math.min(Math.max(Math.floor(CONFIG.caseWinnerIndex) || 0, 3), maxWinnerIndex);
+
+    const winnerEntry = findCaseItem(caseJson, winner.itemId);
+    const winnerTier = winner.tier || winnerEntry?.tier || winner.rarity || "blue";
+    const winnerImage = winnerImagePath || selectRandomImage(winnerEntry?.item) || "";
+
+    const items = [];
+    for (let i = 0; i < count; i++) {
+      if (i === winnerIndex) {
+        items.push({
+          displayName: winner.displayName || "Unknown Item",
+          image: winnerImage,
+          tier: winnerTier,
+          rarity: winner.rarity,
+          isWinner: true
+        });
+        continue;
+      }
+
+      const pick = pickCaseItem(caseJson);
+      if (pick && pick.item) {
+        items.push({
+          displayName: pick.item.displayName || "Unknown Item",
+          image: selectRandomImage(pick.item),
+          tier: pick.tier,
+          rarity: pick.item.rarity
+        });
+      } else {
+        items.push({
+          displayName: winner.displayName || "Unknown Item",
+          image: winnerImage,
+          tier: winnerTier,
+          rarity: winner.rarity
+        });
+      }
+    }
+
+    return { items, winnerIndex };
+  }
+
+  function renderRouletteItems(items) {
+    if (!UI.rouletteStrip) return null;
+
+    UI.rouletteStrip.innerHTML = "";
+    let winnerTile = null;
+
+    for (const item of items) {
+      const rarityKey = normalizeRarity(item.tier || item.rarity);
+      const tile = document.createElement("div");
+      tile.className = `roulette-item rarity-${rarityKey}`;
+      if (item.isWinner) winnerTile = tile;
+
+      const img = document.createElement("img");
+      img.src = resolveAssetPath(item.image || "");
+      img.alt = item.displayName || "Item";
+      img.draggable = false;
+
+      const name = document.createElement("div");
+      name.className = "item-name";
+      name.textContent = item.displayName || "Unknown Item";
+
+      tile.appendChild(img);
+      tile.appendChild(name);
+      UI.rouletteStrip.appendChild(tile);
+    }
+
+    return winnerTile;
+  }
+
+  function measureRoulette() {
+    if (!UI.rouletteStrip || !UI.rouletteWindow) return null;
+    const tile = UI.rouletteStrip.querySelector(".roulette-item");
+    if (!tile) return null;
+
+    const tileWidth = tile.getBoundingClientRect().width;
+    const windowWidth = UI.rouletteWindow.getBoundingClientRect().width;
+    const style = getComputedStyle(UI.rouletteStrip);
+    const gap = parseFloat(style.columnGap || style.gap || "0") || 0;
+    const paddingLeft = parseFloat(style.paddingLeft || "0") || 0;
+
+    return {
+      tileWidth,
+      tileStep: tileWidth + gap,
+      windowWidth,
+      paddingLeft
+    };
+  }
+
+  function setStripX(x) {
+    stripX = x;
+    if (UI.rouletteStrip) UI.rouletteStrip.style.transform = `translateX(${x}px)`;
+  }
+
+  function animateRoulette(targetX, durationMs, tileStep) {
+    if (!Number.isFinite(tileStep) || tileStep <= 0) {
+      setStripX(targetX);
+      return Promise.resolve();
+    }
+
+    const startX = stripX;
+    const start = performance.now();
+    let lastTick = Math.floor(Math.abs(startX) / tileStep);
+
+    return new Promise((resolve) => {
+      function frame(now) {
+        const t = Math.min(1, (now - start) / Math.max(1, durationMs));
+        const eased = 1 - Math.pow(1 - t, 3);
+        const x = startX + (targetX - startX) * eased;
+        setStripX(x);
+
+        const delta = Math.abs(x - startX);
+        const tickIndex = Math.floor(delta / tileStep);
+        if (tickIndex > lastTick) {
+          for (let i = lastTick; i < tickIndex; i++) playTick();
+          lastTick = tickIndex;
+        }
+
+        if (t < 1) requestAnimationFrame(frame);
+        else resolve();
+      }
+      requestAnimationFrame(frame);
+    });
+  }
+
+  function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
+
+  function formatPrice(priceSnapshot) {
+    if (!priceSnapshot || typeof priceSnapshot !== "object") return "";
+    const coins = Number(priceSnapshot.chosenCoins);
+    const cad = Number(priceSnapshot.cad);
+    const parts = [];
+    if (Number.isFinite(coins)) parts.push(`${formatNumber(coins)} Coins`);
+    if (Number.isFinite(cad)) parts.push(`$${cad.toFixed(2)} CAD`);
+    return parts.join(" | ");
   }
 
   function normalizeRarity(rarity) {

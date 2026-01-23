@@ -1,48 +1,36 @@
 /**
- * TCSGO Case Opening Controller V1 - Stylesheet
- * ==============================================
- * Minimal UI with rarity glows for winner card
+ * TCSGO Case Opening Overlay - CS:GO style
  */
 
-/* ===========================
-   CSS VARIABLES / ROOT
-   =========================== */
-
 :root {
-    /* Standard Case Rarity Colors (blue/purple/pink/red/gold) */
     --rarity-blue: #4b69ff;
     --rarity-purple: #8847ff;
     --rarity-pink: #d32ce6;
     --rarity-red: #eb4b4b;
     --rarity-gold: #ffd700;
 
-    /* Collection Rarity Colors (consumer/industrial/milspec/restricted/classified/covert) */
     --rarity-consumer: #b0c3d9;
     --rarity-industrial: #5e98d9;
     --rarity-milspec: #4b69ff;
     --rarity-restricted: #8847ff;
     --rarity-classified: #d32ce6;
     --rarity-covert: #eb4b4b;
-
-    /* Special */
     --rarity-extraordinary: #ffd700;
 
-    /* UI Colors */
-    --bg-dark: #1a1a2e;
-    --bg-card: #16213e;
-    --text-primary: #ffffff;
-    --text-secondary: #a0a0a0;
-    --text-muted: #666666;
-    --stattrak-orange: #cf6a32;
+    --bg-deep: #0a0f16;
+    --bg-panel: #101923;
+    --bg-panel-strong: #111c29;
+    --text-primary: #e6eef8;
+    --text-muted: #96a6b7;
+    --text-subtle: #6b7c90;
+    --accent: #cbd6e2;
 
+    --tile-width: 170px;
+    --tile-height: 210px;
+    --tile-gap: 14px;
 
-    /* Timing */
-    --winner-show-duration: 8s;
+    --rarity-current: var(--rarity-blue);
 }
-
-/* ===========================
-   RESET & BASE
-   =========================== */
 
 * {
     margin: 0;
@@ -52,7 +40,8 @@
 
 body {
     background: transparent;
-    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    font-family: "Bahnschrift", "Franklin Gothic Medium", "Trebuchet MS", sans-serif;
+    color: var(--text-primary);
     overflow: hidden;
     width: 100vw;
     height: 100vh;
@@ -68,183 +57,328 @@ body {
     position: relative;
 }
 
-/* ===========================
-   WINNER CARD CONTAINER
-   =========================== */
+#case-opening {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(1200px 600px at 50% 20%, rgba(75, 105, 255, 0.15), transparent 60%),
+        radial-gradient(900px 500px at 20% 80%, rgba(255, 215, 0, 0.08), transparent 65%),
+        linear-gradient(180deg, #0b1119 0%, #0a0f16 55%, #070b11 100%);
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s ease;
+}
 
-#winner-container {
-    position: fixed;
+#case-opening.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+#case-opening::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.02) 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.015) 0 2px, transparent 2px 6px);
+    opacity: 0.35;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#case-opening::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 50%, transparent 35%, rgba(0, 0, 0, 0.7) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.stage {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+    z-index: 2;
+    pointer-events: none;
+}
+
+#case-opening[data-state="intro"] .stage-intro,
+#case-opening[data-state="roulette"] .stage-roulette,
+#case-opening[data-state="reveal"] .stage-reveal {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+}
+
+#case-opening[data-state="reveal"] .stage-roulette {
+    opacity: 0.2;
+    filter: blur(2px);
+}
+
+#case-opening.no-roulette .stage-roulette {
+    opacity: 0;
+    filter: none;
+}
+
+.stage-intro {
+    gap: 60px;
+}
+
+.case-intro-card {
+    background: var(--bg-panel-strong);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 26px 36px;
+    text-align: center;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.6);
+    min-width: 280px;
+}
+
+#case-icon {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    filter: drop-shadow(0 14px 24px rgba(0, 0, 0, 0.6));
+    margin-bottom: 14px;
+}
+
+.case-title {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.case-subtitle {
+    margin-top: 8px;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--text-subtle);
+}
+
+.case-key-card {
+    width: 180px;
+    height: 230px;
+    background: #0c131b;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+}
+
+.case-key-card.placeholder {
+    border-style: dashed;
+    color: var(--text-subtle);
+    background: rgba(10, 15, 22, 0.6);
+}
+
+#case-key-image {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.6));
+}
+
+.case-key-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--text-muted);
+}
+
+.stage-roulette {
+    flex-direction: column;
+    gap: 18px;
+}
+
+#roulette-frame {
+    position: relative;
+    width: min(1400px, 92vw);
+    height: 260px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    background: linear-gradient(180deg, #0e141b 0%, #0c1218 100%);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.65);
+    overflow: hidden;
+}
+
+#roulette-window {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+}
+
+#roulette-window::before,
+#roulette-window::after {
+    content: "";
+    position: absolute;
     top: 0;
+    bottom: 0;
+    width: 180px;
+    z-index: 3;
+    pointer-events: none;
+}
+
+#roulette-window::before {
     left: 0;
-    width: 100%;
+    background: linear-gradient(90deg, rgba(10, 15, 22, 0.95) 0%, rgba(10, 15, 22, 0) 100%);
+}
+
+#roulette-window::after {
+    right: 0;
+    background: linear-gradient(-90deg, rgba(10, 15, 22, 0.95) 0%, rgba(10, 15, 22, 0) 100%);
+}
+
+#roulette-strip {
+    position: absolute;
+    left: 0;
+    top: 0;
     height: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    z-index: 100;
-    animation: fadeIn 0.4s ease-out;
+    gap: var(--tile-gap);
+    padding: 0 48px;
+    will-change: transform;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes fadeOut {
-    from { opacity: 1; }
-    to { opacity: 0; }
-}
-
-#winner-container.fade-out {
-    animation: fadeOut 0.4s ease-out forwards;
-}
-
-/* ===========================
-   WINNER GLOW (behind card)
-   =========================== */
-
-#winner-glow {
+#roulette-center-line {
     position: absolute;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    filter: blur(80px);
-    opacity: 0.5;
-    z-index: -1;
-    animation: pulseGlow 2s ease-in-out infinite;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 3px;
+    background: linear-gradient(180deg, transparent 0%, var(--rarity-current) 30%, var(--rarity-current) 70%, transparent 100%);
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.35);
+    z-index: 4;
 }
 
-@keyframes pulseGlow {
-    0%, 100% { transform: scale(1); opacity: 0.5; }
-    50% { transform: scale(1.15); opacity: 0.7; }
+#roulette-meta {
+    width: min(1200px, 92vw);
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: var(--text-subtle);
 }
 
-/* Glow colors by rarity */
-#winner-container.rarity-blue #winner-glow { background: var(--rarity-blue); }
-#winner-container.rarity-purple #winner-glow { background: var(--rarity-purple); }
-#winner-container.rarity-pink #winner-glow { background: var(--rarity-pink); }
-#winner-container.rarity-red #winner-glow { background: var(--rarity-red); }
-#winner-container.rarity-gold #winner-glow { background: var(--rarity-gold); }
-#winner-container.rarity-consumer #winner-glow { background: var(--rarity-consumer); }
-#winner-container.rarity-industrial #winner-glow { background: var(--rarity-industrial); }
-#winner-container.rarity-milspec #winner-glow { background: var(--rarity-milspec); }
-#winner-container.rarity-restricted #winner-glow { background: var(--rarity-restricted); }
-#winner-container.rarity-classified #winner-glow { background: var(--rarity-classified); }
-#winner-container.rarity-covert #winner-glow { background: var(--rarity-covert); }
-#winner-container.rarity-extraordinary #winner-glow { background: var(--rarity-extraordinary); }
+#roulette-user {
+    color: var(--text-primary);
+    font-weight: 600;
+}
 
-/* ===========================
-   WINNER CARD
-   =========================== */
-
-#winner-card {
-    background: var(--bg-card);
-    border-radius: 16px;
-    padding: 24px 32px;
+.roulette-item {
+    width: var(--tile-width);
+    height: var(--tile-height);
+    background: #0f1722;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-top: 4px solid var(--rarity-color);
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
-    animation: cardPopIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    justify-content: center;
+    padding: 12px 10px;
+    text-align: center;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
+.roulette-item img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5));
+}
+
+.roulette-item .item-name {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.2;
+    color: var(--text-primary);
+    max-height: 2.4em;
+    overflow: hidden;
+}
+
+.roulette-item .item-sub {
+    margin-top: 2px;
+    font-size: 10px;
+    color: var(--text-muted);
+}
+
+.roulette-item.is-winner {
+    box-shadow: 0 0 28px rgba(255, 255, 255, 0.25);
+    border-color: var(--rarity-color);
+}
+
+.stage-reveal {
+    flex-direction: column;
+    gap: 18px;
+}
+
+#reveal-glow {
+    position: absolute;
+    width: 620px;
+    height: 620px;
+    border-radius: 50%;
+    background: var(--rarity-current);
+    filter: blur(120px);
+    opacity: 0.35;
+    z-index: 1;
+}
+
+#reveal-card {
     position: relative;
-    min-width: 320px;
+    z-index: 2;
+    background: var(--bg-panel-strong);
+    border: 2px solid var(--rarity-current);
+    border-radius: 16px;
+    padding: 28px 36px;
+    text-align: center;
+    box-shadow: 0 22px 60px rgba(0, 0, 0, 0.7);
+    min-width: 340px;
 }
 
-@keyframes cardPopIn {
-    0% { transform: scale(0.6); opacity: 0; }
-    100% { transform: scale(1); opacity: 1; }
-}
-
-/* Card border by rarity */
-#winner-container.rarity-blue #winner-card { border: 3px solid var(--rarity-blue); }
-#winner-container.rarity-purple #winner-card { border: 3px solid var(--rarity-purple); }
-#winner-container.rarity-pink #winner-card { border: 3px solid var(--rarity-pink); }
-#winner-container.rarity-red #winner-card { border: 3px solid var(--rarity-red); }
-#winner-container.rarity-gold #winner-card { border: 3px solid var(--rarity-gold); }
-#winner-container.rarity-consumer #winner-card { border: 3px solid var(--rarity-consumer); }
-#winner-container.rarity-industrial #winner-card { border: 3px solid var(--rarity-industrial); }
-#winner-container.rarity-milspec #winner-card { border: 3px solid var(--rarity-milspec); }
-#winner-container.rarity-restricted #winner-card { border: 3px solid var(--rarity-restricted); }
-#winner-container.rarity-classified #winner-card { border: 3px solid var(--rarity-classified); }
-#winner-container.rarity-covert #winner-card { border: 3px solid var(--rarity-covert); }
-#winner-container.rarity-extraordinary #winner-card { border: 3px solid var(--rarity-extraordinary); }
-
-/* Gold special shine effect */
-#winner-container.rarity-gold #winner-card {
-    animation: cardPopIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
-               goldShine 2s ease-in-out infinite 0.5s;
-}
-
-@keyframes goldShine {
-    0%, 100% {
-        box-shadow: 0 0 20px rgba(255, 215, 0, 0.3),
-                    0 0 40px rgba(255, 215, 0, 0.2),
-                    0 20px 60px rgba(0, 0, 0, 0.6);
-    }
-    50% {
-        box-shadow: 0 0 40px rgba(255, 215, 0, 0.5),
-                    0 0 80px rgba(255, 215, 0, 0.3),
-                    0 20px 60px rgba(0, 0, 0, 0.6);
-    }
-}
-
-/* ===========================
-   WINNER CARD CONTENT
-   =========================== */
-
-#winner-image-wrapper {
-    width: 280px;
-    height: 210px;
+#reveal-image-wrapper {
+    width: 340px;
+    height: 220px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 16px;
 }
 
-#winner-image {
+#reveal-image {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-    filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.6));
 }
 
-#winner-info {
-    text-align: center;
-    width: 100%;
+#reveal-name {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--rarity-current);
+    text-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
 }
 
-#winner-name {
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--text-primary);
-    margin-bottom: 10px;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-}
-
-/* Name color by rarity */
-#winner-container.rarity-blue #winner-name { color: var(--rarity-blue); }
-#winner-container.rarity-purple #winner-name { color: var(--rarity-purple); }
-#winner-container.rarity-pink #winner-name { color: var(--rarity-pink); }
-#winner-container.rarity-red #winner-name { color: var(--rarity-red); }
-#winner-container.rarity-gold #winner-name { color: var(--rarity-gold); }
-#winner-container.rarity-consumer #winner-name { color: var(--rarity-consumer); }
-#winner-container.rarity-industrial #winner-name { color: var(--rarity-industrial); }
-#winner-container.rarity-milspec #winner-name { color: var(--rarity-milspec); }
-#winner-container.rarity-restricted #winner-name { color: var(--rarity-restricted); }
-#winner-container.rarity-classified #winner-name { color: var(--rarity-classified); }
-#winner-container.rarity-covert #winner-name { color: var(--rarity-covert); }
-#winner-container.rarity-extraordinary #winner-name { color: var(--rarity-extraordinary); }
-
-/* ===========================
-   BADGES
-   =========================== */
-
-#winner-badges {
+#reveal-badges {
+    margin-top: 10px;
     display: flex;
     gap: 10px;
     justify-content: center;
-    margin-bottom: 12px;
     flex-wrap: wrap;
 }
 
@@ -258,79 +392,90 @@ body {
 }
 
 .badge.stattrak {
-    background: linear-gradient(135deg, var(--stattrak-orange) 0%, #e67e22 100%);
+    background: linear-gradient(135deg, #cf6a32 0%, #e67e22 100%);
     color: #ffffff;
-    animation: stattrakPulse 1.5s ease-in-out infinite;
-}
-
-@keyframes stattrakPulse {
-    0%, 100% { box-shadow: 0 0 8px rgba(207, 106, 50, 0.4); }
-    50% { box-shadow: 0 0 16px rgba(207, 106, 50, 0.7); }
 }
 
 .badge.wear {
     background: rgba(255, 255, 255, 0.08);
-    color: var(--text-secondary);
+    color: var(--text-muted);
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-/* ===========================
-   PRICE DISPLAY
-   =========================== */
-
-#winner-price {
-    font-size: 16px;
-    color: var(--text-secondary);
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    align-items: center;
+#reveal-price {
+    margin-top: 12px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
 }
 
-#winner-price .coins {
-    color: #ffd700;
+#reveal-user {
+    font-size: 20px;
     font-weight: 600;
-}
-
-#winner-price .cad {
-    color: #4ade80;
-}
-
-/* ===========================
-   USERNAME
-   =========================== */
-
-#winner-username {
-    margin-top: 20px;
-    font-size: 24px;
-    font-weight: bold;
     color: var(--text-primary);
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
 }
 
+#case-opening.rarity-blue { --rarity-current: var(--rarity-blue); }
+#case-opening.rarity-purple { --rarity-current: var(--rarity-purple); }
+#case-opening.rarity-pink { --rarity-current: var(--rarity-pink); }
+#case-opening.rarity-red { --rarity-current: var(--rarity-red); }
+#case-opening.rarity-gold { --rarity-current: var(--rarity-gold); }
+#case-opening.rarity-consumer { --rarity-current: var(--rarity-consumer); }
+#case-opening.rarity-industrial { --rarity-current: var(--rarity-industrial); }
+#case-opening.rarity-milspec { --rarity-current: var(--rarity-milspec); }
+#case-opening.rarity-restricted { --rarity-current: var(--rarity-restricted); }
+#case-opening.rarity-classified { --rarity-current: var(--rarity-classified); }
+#case-opening.rarity-covert { --rarity-current: var(--rarity-covert); }
+#case-opening.rarity-extraordinary { --rarity-current: var(--rarity-extraordinary); }
 
+.roulette-item.rarity-blue { --rarity-color: var(--rarity-blue); }
+.roulette-item.rarity-purple { --rarity-color: var(--rarity-purple); }
+.roulette-item.rarity-pink { --rarity-color: var(--rarity-pink); }
+.roulette-item.rarity-red { --rarity-color: var(--rarity-red); }
+.roulette-item.rarity-gold { --rarity-color: var(--rarity-gold); }
+.roulette-item.rarity-consumer { --rarity-color: var(--rarity-consumer); }
+.roulette-item.rarity-industrial { --rarity-color: var(--rarity-industrial); }
+.roulette-item.rarity-milspec { --rarity-color: var(--rarity-milspec); }
+.roulette-item.rarity-restricted { --rarity-color: var(--rarity-restricted); }
+.roulette-item.rarity-classified { --rarity-color: var(--rarity-classified); }
+.roulette-item.rarity-covert { --rarity-color: var(--rarity-covert); }
+.roulette-item.rarity-extraordinary { --rarity-color: var(--rarity-extraordinary); }
 
-/* ===========================
-   RESPONSIVE
-   =========================== */
+@media (max-width: 900px) {
+    :root {
+        --tile-width: 140px;
+        --tile-height: 190px;
+    }
 
-@media (max-width: 768px) {
-    #winner-card {
-        padding: 20px 24px;
+    .stage-intro {
+        flex-direction: column;
+        gap: 22px;
+    }
+
+    #roulette-frame {
+        height: 220px;
+    }
+
+    #roulette-meta {
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #reveal-image-wrapper {
+        width: 260px;
+        height: 180px;
+    }
+
+    #reveal-card {
+        padding: 22px 26px;
         min-width: 280px;
     }
 
-    #winner-image-wrapper {
-        width: 220px;
-        height: 165px;
-    }
-
-    #winner-name {
-        font-size: 18px;
-    }
-
-    #winner-username {
+    .case-title {
         font-size: 20px;
     }
-
 }

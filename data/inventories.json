@@ -1,24 +1,50 @@
 {
   "schemaVersion": "1.0-inventories",
-  "lastModified": "2026-01-23T21:42:26.569Z",
+  "lastModified": "2026-01-23T22:39:14.916Z",
   "users": {
     "tanchosenlive:twitch": {
       "platform": "twitch",
       "username": "tanchosenlive",
       "cases": {
-        "cs20-case": 2
+        "cs20-case": 1
       },
       "keys": {
-        "csgo-case-key": 5
+        "csgo-case-key": 4
       },
-      "items": [],
+      "items": [
+        {
+          "oid": "oid_mkrgqiuc_vr4brclfl",
+          "itemId": "mag-7-popdog",
+          "displayName": "MAG-7 | Popdog",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "MAG-7",
+          "skin": "Popdog",
+          "variant": "None",
+          "statTrak": true,
+          "wear": "Well-Worn",
+          "acquiredAt": "2026-01-23T22:39:14.916Z",
+          "lockedUntil": "2026-01-30T22:39:14.916Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.16,
+            "chosenCoins": 160
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mag-7-popdog--02.png"
+        }
+      ],
       "pendingSell": null
     },
     "tanthebananaman:twitch": {
       "platform": "twitch",
       "username": "tanthebananaman",
-      "cases": {},
-      "keys": {},
+      "cases": {
+        "cs20-case": 9
+      },
+      "keys": {
+        "csgo-case-key": 9
+      },
       "items": [
         {
           "oid": "oid_mkrepgy1_deqivejc1",
@@ -40,6 +66,48 @@
             "chosenCoins": 80
           },
           "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--famas-decommissioned--03.png"
+        },
+        {
+          "oid": "oid_mkrfl11m_zmnez6z7j",
+          "itemId": "tec-9-flash-out",
+          "displayName": "Tec-9 | Flash Out",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "Tec-9",
+          "skin": "Flash Out",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Minimal Wear",
+          "acquiredAt": "2026-01-23T22:06:58.954Z",
+          "lockedUntil": "2026-01-30T22:06:58.954Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.12,
+            "chosenCoins": 120
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--tec-9-flash-out.png"
+        },
+        {
+          "oid": "oid_mkrgkq3c_3xqe5ttqf",
+          "itemId": "dual-berettas-elite-1-6",
+          "displayName": "Dual Berettas | Elite 1.6",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "Dual Berettas",
+          "skin": "Elite 1.6",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Well-Worn",
+          "acquiredAt": "2026-01-23T22:34:44.376Z",
+          "lockedUntil": "2026-01-30T22:34:44.376Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.08,
+            "chosenCoins": 80
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--dual-berettas-elite-1-6--02.png"
         }
       ],
       "pendingSell": null

@@ -41,6 +41,78 @@
     "order": 7,
     "value": 8000
   },
+  "caseIntroMs": {
+    "type": "number",
+    "label": "Case Intro Duration (Ms)",
+    "order": 7.1,
+    "value": 900
+  },
+  "caseSpinMs": {
+    "type": "number",
+    "label": "Case Spin Duration (Ms)",
+    "order": 7.2,
+    "value": 5200
+  },
+  "caseSpinItems": {
+    "type": "number",
+    "label": "Spin Item Count",
+    "order": 7.3,
+    "value": 38
+  },
+  "caseWinnerIndex": {
+    "type": "number",
+    "label": "Winner Tile Index",
+    "order": 7.4,
+    "value": 30
+  },
+  "caseKeyImage": {
+    "type": "input",
+    "label": "Case Key Image Path (Optional)",
+    "order": 7.5,
+    "value": ""
+  },
+  "sfxVolume": {
+    "type": "number",
+    "label": "SFX Volume (0-1)",
+    "order": 7.6,
+    "value": 0.65
+  },
+  "sfxTickVolume": {
+    "type": "number",
+    "label": "Tick SFX Volume (0-1)",
+    "order": 7.7,
+    "value": 0.45
+  },
+  "sfxOpen": {
+    "type": "input",
+    "label": "SFX: Case Open",
+    "order": 7.8,
+    "value": "Assets/Sounds/MP3/csgo_ui_crate_open.mp3"
+  },
+  "sfxTick": {
+    "type": "input",
+    "label": "SFX: Case Tick",
+    "order": 7.9,
+    "value": "Assets/Sounds/TCSGO_Sound_Assets/tick.mp3"
+  },
+  "sfxReveal": {
+    "type": "input",
+    "label": "SFX: Reveal",
+    "order": 7.91,
+    "value": "Assets/Sounds/TCSGO_Sound_Assets/reveal.mp3"
+  },
+  "sfxRare": {
+    "type": "input",
+    "label": "SFX: Rare Reveal",
+    "order": 7.92,
+    "value": "Assets/Sounds/TCSGO_Sound_Assets/rare.mp3"
+  },
+  "sfxGold": {
+    "type": "input",
+    "label": "SFX: Gold Reveal",
+    "order": 7.93,
+    "value": "Assets/Sounds/TCSGO_Sound_Assets/gold-reveal.mp3"
+  },
   "toastDurationMs": {
     "type": "number",
     "label": "Toast Duration (Ms)",
