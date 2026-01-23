@@ -1,8 +1,8 @@
-# TCSGO Lumia Commands - v2 Foundation
+# TCSGO Lumia Commands - v2.1 Commit Commands
 
 ## Overview
 
-This directory contains Lumia Custom JavaScript commands for the TCSGO case opening simulation system. These commands mutate local JSON files and return structured payloads for overlay consumption.
+This directory contains Lumia Custom JavaScript commit commands for the TCSGO case opening simulation system. These commands mutate local JSON files and return structured payloads for overlay consumption (overlaycontent + polling variable).
 
 **Important:** File names must match Lumia command names exactly.
 
@@ -33,30 +33,30 @@ This directory contains Lumia Custom JavaScript commands for the TCSGO case open
 
 | File | Lumia Command Name | Description |
 |------|-------------------|-------------|
-| `tcsgo-open.js` | `tcsgo-open` | Open a case and roll winner |
-| `tcsgo-buycase.js` | `tcsgo-buycase` | Add cases to inventory |
-| `tcsgo-buykey.js` | `tcsgo-buykey` | Add keys to inventory |
-| `tcsgo-sell-start.js` | `tcsgo-sell-start` | Initiate sell with 60s token |
-| `tcsgo-sell-confirm.js` | `tcsgo-sell-confirm` | Confirm sell and remove item |
+| `tcsgo-commit-open.js` | `tcsgo-commit-open` | Open a case and roll winner |
+| `tcsgo-commit-buycase.js` | `tcsgo-commit-buycase` | Add cases to inventory |
+| `tcsgo-commit-buykey.js` | `tcsgo-commit-buykey` | Add keys to inventory |
+| `tcsgo-commit-sell-start.js` | `tcsgo-commit-sell-start` | Initiate sell with 60s token |
+| `tcsgo-commit-sell-confirm.js` | `tcsgo-commit-sell-confirm` | Confirm sell and remove item |
 | `tcsgo-checkprice.js` | `tcsgo-checkprice` | Look up item price |
 | `tcsgo-core.js` | N/A | Reference module (not a command) |
 
 ## Data Files
 
 ### `data/inventories.json`
-User inventory storage:
+User inventory storage (keyed by `username:platform`, lowercased):
 ```json
 {
   "schemaVersion": "1.0-inventories",
   "lastModified": "ISO-timestamp",
   "users": {
-    "platform:username": {
-      "userKey": "platform:username",
-      "createdAt": "ISO-timestamp",
+    "username:platform": {
+      "platform": "twitch",
+      "username": "viewer",
       "chosenCoins": 0,
       "cases": { "case-id": count },
       "keys": { "key-id": count },
-      "items": [ { "oid", "itemId", "priceKey", ... } ],
+      "items": [ { "oid", "itemId", "displayName", "priceSnapshot", ... } ],
       "pendingSell": { "token", "oid", "expiresAt" } | null
     }
   }
@@ -67,7 +67,7 @@ User inventory storage:
 Maps user-friendly aliases to case definitions:
 ```json
 {
-  "schemaVersion": "1.0-aliases",
+  "schemaVersion": "1.0-case-aliases",
   "aliases": {
     "chroma": {
       "caseId": "chroma-case",
@@ -83,7 +83,6 @@ Maps user-friendly aliases to case definitions:
 Pricing data with priceKey-based lookups:
 ```json
 {
-  "schemaVersion": "2.0-prices",
   "cadToCoins": 1000,
   "marketFeePercent": 10,
   "tradeLockDays": 7,
@@ -121,10 +120,11 @@ Example: `"ak-47-elite-build|Factory New|1|None"`
 
 ## Command Details
 
-### `tcsgo-open`
+### `tcsgo-commit-open`
 Opens a case and rolls a winner.
 
 **Input:**
+- `eventId` (required)
 - `platform`: string (e.g., "twitch")
 - `username`: string
 - `alias`: string (case alias like "chroma")
@@ -134,7 +134,11 @@ Opens a case and rolls a winner.
 {
   "type": "open-result",
   "ok": true,
+  "eventId": "evt_abc123_xyz",
+  "platform": "twitch",
+  "username": "viewer123",
   "data": {
+    "eventId": "evt_abc123_xyz",
     "winner": {
       "oid": "oid_abc123_xyz",
       "itemId": "awp-man-o-war",
@@ -147,26 +151,26 @@ Opens a case and rolls a winner.
       "variant": "None"
     },
     "imagePath": "Assets/Cases/...",
-    "priceKey": "awp-man-o-war|Minimal Wear|0|None",
     "priceSnapshot": {
       "cad": 18.00,
-      "chosenCoins": 18000,
-      "isEstimated": true
+      "chosenCoins": 18000
     },
     "acquiredAt": "2026-01-21T...",
     "lockedUntil": "2026-01-28T...",
     "newCounts": {
       "cases": { "chroma-case": 0 },
-      "keys": { "default": 4 }
-    }
+      "keys": { "csgo-case-key": 4 }
+    },
+    "timings": { "msTotal": 5 }
   }
 }
 ```
 
-### `tcsgo-buycase`
+### `tcsgo-commit-buycase`
 Adds cases to user inventory.
 
 **Input:**
+- `eventId` (required)
 - `platform`, `username`, `alias`, `qty` (default 1)
 
 **Output:**
@@ -174,29 +178,50 @@ Adds cases to user inventory.
 {
   "type": "buycase-result",
   "ok": true,
-  "data": { "caseId": "chroma-case", "qty": 1, "newCount": 5 }
+  "eventId": "evt_abc123_xyz",
+  "platform": "twitch",
+  "username": "viewer123",
+  "data": {
+    "eventId": "evt_abc123_xyz",
+    "caseId": "chroma-case",
+    "displayName": "Chroma Case",
+    "qty": 1,
+    "newCount": 5,
+    "timings": { "msTotal": 5 }
+  }
 }
 ```
 
-### `tcsgo-buykey`
+### `tcsgo-commit-buykey`
 Adds keys to user inventory.
 
 **Input:**
-- `platform`, `username`, `keyId` (default "default"), `qty`
+- `eventId` (required)
+- `platform`, `username`, `keyId` (default "csgo-case-key"), `qty`
 
 **Output:**
 ```json
 {
   "type": "buykey-result",
   "ok": true,
-  "data": { "keyId": "default", "qty": 5, "newCount": 10 }
+  "eventId": "evt_abc123_xyz",
+  "platform": "twitch",
+  "username": "viewer123",
+  "data": {
+    "eventId": "evt_abc123_xyz",
+    "keyId": "csgo-case-key",
+    "qty": 1,
+    "newCount": 10,
+    "timings": { "msTotal": 5 }
+  }
 }
 ```
 
-### `tcsgo-sell-start`
+### `tcsgo-commit-sell-start`
 Initiates a sell with 60-second confirmation token.
 
 **Input:**
+- `eventId` (required)
 - `platform`, `username`, `oid`
 
 **Output:**
@@ -204,13 +229,19 @@ Initiates a sell with 60-second confirmation token.
 {
   "type": "sell-start-result",
   "ok": true,
+  "eventId": "evt_abc123_xyz",
+  "platform": "twitch",
+  "username": "viewer123",
   "data": {
+    "eventId": "evt_abc123_xyz",
     "token": "sell_abc123_xyz",
     "oid": "oid_...",
     "expiresAt": "2026-01-21T...",
+    "expiresInSeconds": 60,
     "item": { ... },
     "creditAmount": 16200,
-    "marketFeePercent": 10
+    "marketFeePercent": 10,
+    "timings": { "msTotal": 5 }
   }
 }
 ```
@@ -219,10 +250,11 @@ Initiates a sell with 60-second confirmation token.
 - `ITEM_LOCKED`: Item still trade locked (returns remaining time)
 - `PENDING_SELL_EXISTS`: Already have an active sell token
 
-### `tcsgo-sell-confirm`
+### `tcsgo-commit-sell-confirm`
 Confirms a sell and removes the item.
 
 **Input:**
+- `eventId` (required)
 - `platform`, `username`, `token`
 
 **Output:**
@@ -230,10 +262,16 @@ Confirms a sell and removes the item.
 {
   "type": "sell-confirm-result",
   "ok": true,
+  "eventId": "evt_abc123_xyz",
+  "platform": "twitch",
+  "username": "viewer123",
   "data": {
     "oid": "...",
+    "item": { ... },
     "creditedCoins": 16200,
-    "feeAmount": 1800
+    "newBalance": 48200,
+    "marketFeePercent": 10,
+    "timings": { "msTotal": 5 }
   }
 }
 ```
@@ -242,6 +280,9 @@ Confirms a sell and removes the item.
 
 ### `tcsgo-checkprice`
 Looks up price for an item.
+
+**Optional Input (for correlation):**
+- `eventId`
 
 **Input (by OID):**
 - `platform`, `username`, `oid`
@@ -254,7 +295,11 @@ Looks up price for an item.
 {
   "type": "checkprice-result",
   "ok": true,
+  "eventId": "evt_abc123_xyz",
+  "platform": "twitch",
+  "username": "viewer123",
   "data": {
+    "eventId": "evt_abc123_xyz",
     "oid": "oid_...",
     "itemId": "awp-man-o-war",
     "displayName": "AWP | Man-o'-war",
@@ -302,19 +347,16 @@ Prices are refreshed by an **external script** (not Lumia commands):
 
 1. **Update Configuration**
    
-   In each command file, update the `basePath` in the CONFIG object:
+   In each command file, update `TCSGO_BASE` to the full path of your repo:
    ```javascript
-   const CONFIG = {
-       basePath: '/YOUR/PATH/TO/TCSGO',  // <-- UPDATE THIS
-       ...
-   };
+   const TCSGO_BASE = "A:\\Development\\Version Control\\Github\\TCSGO"; // <-- UPDATE THIS
    ```
 
 2. **Create Lumia Commands**
    
    For each `.js` file (except `tcsgo-core.js`):
    1. Open Lumia Stream → Commands → Custom JavaScript
-   2. Create new command with **exact name** matching file (e.g., `tcsgo-open`)
+   2. Create new command with **exact name** matching file (e.g., `tcsgo-commit-open`)
    3. Paste entire file contents into JavaScript tab
    4. Configure trigger (chat command, etc.)
 
@@ -330,19 +372,22 @@ Prices are refreshed by an **external script** (not Lumia commands):
 All commands return consistent error format:
 ```json
 {
-  "type": "command-result",
+  "type": "buycase-result",
   "ok": false,
-  "timestamp": "ISO-timestamp",
+  "eventId": "evt_abc123_xyz",
+  "platform": "twitch",
+  "username": "viewer123",
   "error": {
     "code": "ERROR_CODE",
     "message": "Human readable message",
     "details": { ... }
-  }
+  },
+  "data": { "timings": { "msTotal": 5 } }
 }
 ```
 
 Common error codes:
-- `MISSING_USERNAME` / `MISSING_ALIAS` / `MISSING_OID` / `MISSING_TOKEN`
+- `MISSING_EVENT_ID` / `MISSING_USERNAME` / `MISSING_ALIAS` / `MISSING_KEY_ID` / `MISSING_OID` / `MISSING_TOKEN`
 - `LOAD_ERROR` / `SAVE_ERROR`
 - `UNKNOWN_ALIAS`
 - `USER_NOT_FOUND` / `ITEM_NOT_FOUND`
@@ -357,11 +402,11 @@ Common error codes:
 lumia-commands/
 ├── README.md                 # This file
 ├── tcsgo-core.js             # Shared utilities (reference only)
-├── tcsgo-open.js             # Command: tcsgo-open
-├── tcsgo-buycase.js          # Command: tcsgo-buycase
-├── tcsgo-buykey.js           # Command: tcsgo-buykey
-├── tcsgo-sell-start.js       # Command: tcsgo-sell-start
-├── tcsgo-sell-confirm.js     # Command: tcsgo-sell-confirm
+├── tcsgo-commit-open.js      # Command: tcsgo-commit-open
+├── tcsgo-commit-buycase.js   # Command: tcsgo-commit-buycase
+├── tcsgo-commit-buykey.js    # Command: tcsgo-commit-buykey
+├── tcsgo-commit-sell-start.js  # Command: tcsgo-commit-sell-start
+├── tcsgo-commit-sell-confirm.js # Command: tcsgo-commit-sell-confirm
 └── tcsgo-checkprice.js       # Command: tcsgo-checkprice
 
 data/
@@ -377,27 +422,35 @@ Case-Odds/
 
 ### Overlay Integration
 The overlay should:
-1. Call commands via `Overlay.callCommand('tcsgo-open', { platform, username, alias })`
-2. Parse the JSON response from the command log
-3. Display animations/UI based on response
-4. For sell-confirm, call `Overlay.addLoyaltyPoints({ value: creditedCoins, username, platform })`
+1. Generate an `eventId`, then call `Overlay.callCommand('tcsgo-commit-open', { eventId, platform, username, alias })`
+2. Listen for results via `Overlay.on("overlaycontent")` or poll `tcsgo_last_event_json`
+3. Match responses by `eventId` to resolve pending commands
+4. Handle loyalty points in the overlay (deduct on buycase/buykey, credit on sell-confirm)
+5. For sell-confirm, call `Overlay.addLoyaltyPoints({ value: creditedCoins, username, platform })`
+
+### Event Acknowledgement (Commit Commands)
+Each commit command emits a JSON payload in two ways:
+- `overlaySendCustomContent(...)` → `overlaycontent` event
+- `setVariable("tcsgo_last_event_json", payload)` → polling fallback
 
 ### Trade Lock
 Items are locked for 7 days after acquisition. The `lockedUntil` timestamp is stored on each item. Sell attempts before this time return `ITEM_LOCKED` with remaining time.
 
 ### priceKey Usage
-- Stored on each owned item for fast lookup
+- Derived from item fields (`itemId`, `wear`, `statTrak`, `variant`)
 - Used by `tcsgo-checkprice` for price queries
-- Populated by external price refresh script
+- `prices.items[priceKey]` is populated by the external price refresh script
 
 ## Changelog
 
+### v2.1 (2026-01-23)
+- Switched to commit command names (`tcsgo-commit-*`) with `eventId` correlation and dual-ack delivery
+- Standardized safe file writes + verification across commit commands
+- Normalized inventory user keys to `username:platform`
+- Updated README to match current inputs/outputs
+
 ### v2.0 (2026-01-21)
-- Renamed command files to match Lumia command names (removed `commit-` prefix)
-- Fixed `newCounts` in open response to only include relevant caseId/keyId
-- Added `priceKey` field to items and responses
-- Updated prices.json to v2.0 schema with `items` dict for priceKey lookups
+- Updated prices.json to support priceKey lookups
 - Added `tcsgo-checkprice` command
 - Support for both `3.0-case-export` and `3.1-container-export` schemas
-- Added `isEstimated` flag to price snapshots
 - Added refresh timestamps to prices.json

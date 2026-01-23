@@ -1,14 +1,3 @@
-# PATCH
-
-## Target: `services/PRICE-REFRESHER-README.md`
-
-### Operation: REPLACE (Entire File)
-
-### Anchor: Entire File
-
-### Code:
-
-````markdown
 # TCSGO Price Refresher
 
 ## What This Does
@@ -45,6 +34,39 @@ python services\price-refresher.py --dry-run
 ```bat
 python services\price-refresher.py
 ```
+
+## Seed prices.json (Pre-Fill All Item Keys)
+
+If `prices.json` Has An Empty Or Partial `items` Object, You Can Pre-Fill Every Item Key Found In `Case-Odds\*.json`
+So The Refresher Only Needs To Update Values (No Missing Keys).
+
+### Dry Run (Shows How Many Entries Would Be Added)
+
+```bat
+python services\seed-prices.py --dry-run --value 1
+```
+
+### Seed Items (Creates Backup + Writes prices.json)
+
+```bat
+python services\seed-prices.py --value 1
+```
+
+### Optional: Seed Cases And Keys Too
+
+```bat
+python services\seed-prices.py --value 1 --seed-cases --seed-keys
+```
+
+### Notes
+
+* Default Key Format:
+
+  * `itemId|wear|statTrak01|variant`
+* Seeding Does Not Remove Or Modify Existing Prices Unless You Add `--overwrite`
+* Seeding Creates Backups Like:
+
+  * `data\prices.json.backup.seed.YYYYMMDD_HHMMSS`
 
 ## Skinport Support (Free Bulk Provider)
 

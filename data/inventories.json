@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0-inventories",
-  "lastModified": "2026-01-23T20:56:26.286Z",
+  "lastModified": "2026-01-23T21:42:26.569Z",
   "users": {
     "tanchosenlive:twitch": {
       "platform": "twitch",
@@ -9,9 +9,39 @@
         "cs20-case": 2
       },
       "keys": {
-        "csgo-case-key": 4
+        "csgo-case-key": 5
       },
       "items": [],
+      "pendingSell": null
+    },
+    "tanthebananaman:twitch": {
+      "platform": "twitch",
+      "username": "tanthebananaman",
+      "cases": {},
+      "keys": {},
+      "items": [
+        {
+          "oid": "oid_mkrepgy1_deqivejc1",
+          "itemId": "famas-decommissioned",
+          "displayName": "FAMAS | Decommissioned",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "FAMAS",
+          "skin": "Decommissioned",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Well-Worn",
+          "acquiredAt": "2026-01-23T21:42:26.569Z",
+          "lockedUntil": "2026-01-30T21:42:26.569Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.08,
+            "chosenCoins": 80
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--famas-decommissioned--03.png"
+        }
+      ],
       "pendingSell": null
     }
   }

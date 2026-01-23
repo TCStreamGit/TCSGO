@@ -807,17 +807,24 @@
     // 1) adjustLoyaltyPoints(username, platform, delta, label?)
     // 2) adjustLoyaltyPoints({ username, platform, delta, label? })
 
-    let username, platform, delta, label;
+    let username, platform, delta, label, strict;
+    strict = false;
     if (a && typeof a === "object") {
       username = a.username;
       platform = a.platform;
       delta = a.delta;
       label = a.label ?? a.reason ?? "";
+      strict = !!a.strict;
     } else {
       username = a;
       platform = b;
       delta = c;
-      label = d ?? "";
+      if (d && typeof d === "object") {
+        label = d.label ?? d.reason ?? "";
+        strict = !!d.strict;
+      } else {
+        label = d ?? "";
+      }
     }
 
     const u = String(username || "").trim();
@@ -869,7 +876,7 @@
 
     // Poll Briefly For Persistence (Silent)
     let after = before;
-    const deadline = Date.now() + 1500;
+    const deadline = Date.now() + (strict ? 4000 : 1500);
 
     while (Date.now() < deadline) {
       try {
@@ -900,6 +907,17 @@
         "debugPoints"
       );
       return addNumber;
+    }
+
+    if (strict) {
+      debugEmit(
+        `[Points] Adjust Failed | delta=${dlt} | before=${before} | after=${after}` +
+          ` | addReturn=${addNumber ?? "n/a"} | strict=true` +
+          (label ? ` | label=${label}` : ""),
+        "error",
+        "debugPoints"
+      );
+      return null;
     }
 
     // If Still Unchanged, Fall Back To Optimistic Balance (Avoid False Failures)
@@ -1017,7 +1035,13 @@
     debugEmit(`[BuyCase] Deduct Start | cost=${totalCost}`, "info", "debugPoints");
 
     // Use negative value to deduct points (matching working overlay pattern)
-    const deducted = await adjustLoyaltyPoints(username, platform, -totalCost);
+    const deducted = await adjustLoyaltyPoints({
+      username,
+      platform,
+      delta: -totalCost,
+      label: "buycase",
+      strict: true
+    });
 
     if (deducted == null) {
       const msg = "Points Deduction Failed. Please Try Again.";
@@ -1065,7 +1089,13 @@
       );
     }
 
-    const deducted = await adjustLoyaltyPoints(username, platform, -totalCost);
+    const deducted = await adjustLoyaltyPoints({
+      username,
+      platform,
+      delta: -totalCost,
+      label: "buykey",
+      strict: true
+    });
 
     if (deducted == null) {
       const msg = "Points Deduction Failed. Please Try Again.";
