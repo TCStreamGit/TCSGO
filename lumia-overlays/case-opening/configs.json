@@ -398,5 +398,14 @@
       "key": "debugEnabled",
       "equals": true
     }
+  },
+  "events": {
+    "type": "multiselect",
+    "label": "Events To Listen To",
+    "value": ["chat"],
+    "hidden": true,
+    "options": {
+      "chat": "Chat Messages"
+    }
   }
 }

@@ -12,11 +12,19 @@ async function() {
         paths: { inventories: 'data/inventories.json' }
     };
 
-    function buildPath(rel) { 
-        const b = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, ''); 
-        const r = rel.replace(/\\/g, '/').replace(/^\//, ''); 
-        return b ? `${b}/${r}` : r; 
-    }
+    function normalizeWinPath(p) {
+        return String(p || "")
+          .trim()
+          .replace(/[\\/]+/g, "\\")
+          .replace(/\\$/, "");
+      }
+      
+      function buildPath(rel) {
+        const base = normalizeWinPath(CONFIG.basePath);
+        const r = normalizeWinPath(rel).replace(/^\\+/, "");
+        return base ? `${base}\\${r}` : r;
+      }
+          
 
     async function loadJson(rel) { 
         try { 
@@ -27,15 +35,28 @@ async function() {
         } 
     }
 
-    async function saveJson(rel, data) { 
-        try { 
-            await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); 
-            return true; 
-        } catch (e) { 
-            log(`[TCSGO] saveJson: ${e.message}`); 
-            return false; 
-        } 
-    }
+    async function saveJson(rel, data) {
+        try {
+          const path = buildPath(rel);
+          const content = JSON.stringify(data, null, 2);
+      
+          await writeFile(path, content);
+      
+          // Verify (Handles Silent Failures + CRLF Differences)
+          const verify = await readFile(path);
+          const norm = (s) => String(s ?? "").replace(/\r\n/g, "\n");
+      
+          if (norm(verify) !== norm(content)) {
+            throw new Error("Write Verification Failed");
+          }
+      
+          return true;
+        } catch (e) {
+          log(`[TCSGO] saveJson: ${e.message}`);
+          return false;
+        }
+      }
+      
 
     function buildUserKey(p, u) { 
         return `${p.toLowerCase()}:${u.toLowerCase()}`; 

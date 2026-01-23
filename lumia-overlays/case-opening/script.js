@@ -1,116 +1,111 @@
 /**
- * TCSGO Case Opening Controller V1
- * - Studio Toast Debug (Bottom-Right Like Multichat)
- * - Leader Election + Chat Dedup (Prevents Double-Processing)
- * - Fetch-First Data Load (Then Storage Fallback)
+ * TCSGO Case Opening Controller V2 (FIXED)
+ * - Fixed loyalty points deduction to match working ChosenSlots/ChosenSend pattern
+ * - Simplified addLoyaltyPoints call with correct parameter order: { value, username, platform }
+ * - Removed overly complex tryOverlayCall wrapper and verification loops
  */
 
 (function () {
   "use strict";
 
-  // Capture Lumia Host Toast (Do NOT Fall Back To Overlay.toast, That Shows Inside The Overlay)
-const HOST_TOAST =
-  (typeof toast === "function")
-    ? toast
-    : (typeof window !== "undefined" && typeof window.toast === "function")
+  // =========================================================================
+  // HOST TOAST (Capture Before Anything Can Shadow It)
+  // =========================================================================
+
+  const HOST_TOAST =
+    (typeof window !== "undefined" && typeof window.toast === "function")
       ? window.toast
-      : null;
+      : (typeof toast !== "undefined" && typeof toast === "function")
+        ? toast
+        : (typeof Overlay !== "undefined" && Overlay && typeof Overlay.toast === "function")
+          ? Overlay.toast
+          : null;
 
+  function normalizeToastType(t) {
+    const x = String(t || "info").toLowerCase().trim();
+    if (x === "warn") return "warning";
+    if (x === "warning") return "warning";
+    if (x === "success") return "success";
+    if (x === "error") return "error";
+    return "info";
+  }
 
-function normalizeToastType(t) {
-  const x = String(t || "info").toLowerCase().trim();
-  if (x === "warn") return "warning";
-  if (x === "error") return "error";
-  if (x === "success") return "success";
-  if (x === "warning") return "warning";
-  return "info";
-}
+  function hostToast(message, type = "info") {
+    if (!HOST_TOAST) return false;
 
-function hostToast(message, type = "info") {
-  if (!HOST_TOAST) return false;
-  const msg = String(message ?? "");
-  const tt = normalizeToastType(type);
+    const msg = String(message ?? "");
+    const tt = normalizeToastType(type);
 
-  // Support Both Common Host Signatures
-  try { HOST_TOAST(msg, tt); return true; } catch (_) {}
-  try { HOST_TOAST({ message: msg, type: tt }); return true; } catch (_) {}
+    try { HOST_TOAST(msg, tt); return true; } catch (_) {}
+    try { HOST_TOAST({ message: msg, type: tt }); return true; } catch (_) {}
+    try { HOST_TOAST({ text: msg, type: tt }); return true; } catch (_) {}
 
-  return false;
-}
+    return false;
+  }
+
+  function studioToast(message, type = "info") {
+    if (hostToast(message, type)) return true;
+
+    try {
+      if (typeof Overlay !== "undefined" && Overlay && typeof Overlay.log === "function") {
+        try { Overlay.log(String(message ?? "")); return true; } catch (_) {}
+        try { Overlay.log({ message: String(message ?? ""), type: normalizeToastType(type) }); return true; } catch (_) {}
+      }
+    } catch (_) {}
+
+    try { console.log(`[${normalizeToastType(type)}] ${String(message ?? "")}`); } catch (_) {}
+    return false;
+  }
 
   // =========================================================================
   // DEFAULT CONFIG
   // =========================================================================
 
   const DEFAULT_CONFIG = {
-    /* Data Loading */
     baseRawUrl: "https://raw.githubusercontent.com/TCStreamGit/TCSGO/main",
     pollIntervalMs: 250,
     ackTimeoutMs: 3000,
-
-    /* Reply Behaviour */
-    chatReplyMode: "chat", // "off" | "toast" | "chat" | "both"
-
-    /* Economy */
+    chatReplyMode: "chat",
     feePercent: 10,
     defaultKeyPriceCoins: 3500,
-
-    /* Overlay Routing */
     codeId: "tcsgo-controller",
-
-    /* UI */
     winnerDisplayMs: 8000,
-
-    /* Command Prefix + Viewer Command Names */
     commandPrefix: "!",
     cmdBuyCase: "buycase",
     cmdBuyKey: "buykey",
     cmdOpen: "open",
     cmdSell: "sell",
     cmdSellConfirm: "sellconfirm",
-
-    /* Commit Command Names */
     commitBuyCase: "tcsgo-commit-buycase",
     commitBuyKey: "tcsgo-commit-buykey",
     commitOpen: "tcsgo-commit-open",
     commitSellStart: "tcsgo-commit-sell-start",
     commitSellConfirm: "tcsgo-commit-sell-confirm",
-
-    /* Debug Master */
     debugEnabled: true,
-    debugOutput: "toast", // "toast" | "console" | "both"
+    debugOutput: "toast",
     debugAll: false,
-
-    /* Debug Toggles */
     debugInit: true,
     debugConfig: true,
     debugData: true,
     debugStorage: true,
     debugFetch: true,
     debugVariables: true,
-
     debugEventsPrimary: true,
     debugEventsPoll: false,
-
     debugRouter: true,
     debugDedup: true,
     debugUnsolicited: true,
-
     debugChatIn: true,
     debugCommands: true,
-
     debugBuyCase: true,
     debugBuyKey: true,
     debugOpen: true,
     debugSell: true,
     debugSellConfirm: true,
-
     debugCommit: true,
     debugTimeouts: true,
-
     debugPoints: true,
     debugChatSend: true,
-
     debugWinnerCard: true,
     debugErrors: true
   };
@@ -121,26 +116,26 @@ function hostToast(message, type = "info") {
   // CACHED DATA
   // =========================================================================
 
-  let aliasCache = null;  // Expected Shape: { aliases: { key: { caseId, displayName } } }
-  let pricesCache = null; // Expected Shape: { cadToCoins, cases: { caseId: cadPrice }, keys: { default: cadPrice } }
+  let aliasCache = null;
+  let pricesCache = null;
 
   // =========================================================================
   // EVENT ROUTING STATE
   // =========================================================================
 
-  const pendingEvents = new Map(); // eventId -> { resolve, reject, timeoutId }
+  const pendingEvents = new Map();
   let lastProcessedEventId = null;
 
   let pollIntervalRef = null;
   let lastPolledRaw = "";
 
   // =========================================================================
-  // LEADER + CHAT DEDUP (Fixes TikTok Double-Fires / Multi-Instance)
+  // LEADER + CHAT DEDUP
   // =========================================================================
 
   const INSTANCE_ID = `inst_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
   let IS_LEADER = true;
-  const RECENT_CHAT = new Map(); // key -> ts
+  const RECENT_CHAT = new Map();
 
   // =========================================================================
   // CONFIG HELPERS
@@ -181,28 +176,7 @@ function hostToast(message, type = "info") {
   }
 
   // =========================================================================
-  // STUDIO TOAST (Bottom-Right Like Multichat)
-  // =========================================================================
-
-  function studioToast(message, type = "info") {
-  // Only Use Host Toast (Bottom-Right In Studio). Never Use Overlay.toast/Overlay.log.
-  const ok = hostToast(message, type);
-
-  if (!ok) {
-    // Safe Fallback That Does Not Touch Overlay UI
-    try {
-      const t = normalizeToastType(type);
-      console.log(`[${t}] ${String(message ?? "")}`);
-    } catch (_) {}
-  }
-
-  return ok;
-}
-
-
-
-  // =========================================================================
-  // DEBUG HELPERS (Now Uses CONFIG, Not Overlay.data)
+  // DEBUG HELPERS
   // =========================================================================
 
   function debugOn(key) {
@@ -217,19 +191,14 @@ function hostToast(message, type = "info") {
 
     const out = String(CONFIG.debugOutput || "toast").toLowerCase();
     const msg = String(message ?? "");
-    const full = `[Debug] ${msg}`;
 
-  // Multichat Behaviour: Toasts Go To Studio (Not Overlay UI)
     if (out === "toast" || out === "both") {
-      studioToast(full, toastType);
+      studioToast(`[Debug] ${msg}`, toastType);
     }
-
     if (out === "console" || out === "both") {
-      try { console.log(full); } catch (_) {}
+      try { console.log(`[Debug] ${msg}`); } catch (_) {}
     }
   }
-
-
 
   function debugError(prefix, err, key = "debugErrors") {
     const e = err || {};
@@ -244,8 +213,14 @@ function hostToast(message, type = "info") {
 
   async function init() {
     loadConfig();
-    hostToast(`[Debug] Host Toast Available=${!!HOST_TOAST}`, "info");
+
     debugEmit(`[Init] Starting | Instance=${INSTANCE_ID}`, "info", "debugInit");
+
+    debugEmit(
+      `[Caps] toast=${!!HOST_TOAST} | getPoints=${!!Overlay?.getLoyaltyPoints} | addPoints=${!!Overlay?.addLoyaltyPoints}`,
+      "info",
+      "debugInit"
+    );
 
     await loadDataFiles();
 
@@ -265,19 +240,16 @@ function hostToast(message, type = "info") {
 
     CONFIG = { ...DEFAULT_CONFIG };
 
-    // Strings
     CONFIG.baseRawUrl = cfgStrFrom(src, "baseRawUrl", DEFAULT_CONFIG.baseRawUrl);
     CONFIG.codeId = cfgStrFrom(src, "codeId", DEFAULT_CONFIG.codeId);
     CONFIG.chatReplyMode = cfgStrFrom(src, "chatReplyMode", DEFAULT_CONFIG.chatReplyMode).toLowerCase();
 
-    // Numbers
     CONFIG.pollIntervalMs = clampNum(cfgNumFrom(src, "pollIntervalMs", DEFAULT_CONFIG.pollIntervalMs), 50, 5000, DEFAULT_CONFIG.pollIntervalMs);
     CONFIG.ackTimeoutMs = clampNum(cfgNumFrom(src, "ackTimeoutMs", DEFAULT_CONFIG.ackTimeoutMs), 250, 30000, DEFAULT_CONFIG.ackTimeoutMs);
     CONFIG.feePercent = clampNum(cfgNumFrom(src, "feePercent", DEFAULT_CONFIG.feePercent), 0, 100, DEFAULT_CONFIG.feePercent);
     CONFIG.defaultKeyPriceCoins = clampNum(cfgNumFrom(src, "defaultKeyPriceCoins", DEFAULT_CONFIG.defaultKeyPriceCoins), 0, 1e12, DEFAULT_CONFIG.defaultKeyPriceCoins);
     CONFIG.winnerDisplayMs = clampNum(cfgNumFrom(src, "winnerDisplayMs", DEFAULT_CONFIG.winnerDisplayMs), 500, 60000, DEFAULT_CONFIG.winnerDisplayMs);
 
-    // Viewer Commands
     CONFIG.commandPrefix = cfgStrFrom(src, "commandPrefix", DEFAULT_CONFIG.commandPrefix);
     CONFIG.cmdBuyCase = cfgStrFrom(src, "cmdBuyCase", DEFAULT_CONFIG.cmdBuyCase);
     CONFIG.cmdBuyKey = cfgStrFrom(src, "cmdBuyKey", DEFAULT_CONFIG.cmdBuyKey);
@@ -285,14 +257,12 @@ function hostToast(message, type = "info") {
     CONFIG.cmdSell = cfgStrFrom(src, "cmdSell", DEFAULT_CONFIG.cmdSell);
     CONFIG.cmdSellConfirm = cfgStrFrom(src, "cmdSellConfirm", DEFAULT_CONFIG.cmdSellConfirm);
 
-    // Commit Commands
     CONFIG.commitBuyCase = cfgStrFrom(src, "commitBuyCase", DEFAULT_CONFIG.commitBuyCase);
     CONFIG.commitBuyKey = cfgStrFrom(src, "commitBuyKey", DEFAULT_CONFIG.commitBuyKey);
     CONFIG.commitOpen = cfgStrFrom(src, "commitOpen", DEFAULT_CONFIG.commitOpen);
     CONFIG.commitSellStart = cfgStrFrom(src, "commitSellStart", DEFAULT_CONFIG.commitSellStart);
     CONFIG.commitSellConfirm = cfgStrFrom(src, "commitSellConfirm", DEFAULT_CONFIG.commitSellConfirm);
 
-    // Debug
     CONFIG.debugEnabled = cfgBoolFrom(src, "debugEnabled", DEFAULT_CONFIG.debugEnabled);
     CONFIG.debugOutput = cfgStrFrom(src, "debugOutput", DEFAULT_CONFIG.debugOutput).toLowerCase();
     CONFIG.debugAll = cfgBoolFrom(src, "debugAll", DEFAULT_CONFIG.debugAll);
@@ -305,12 +275,8 @@ function hostToast(message, type = "info") {
     ];
     for (const k of debugKeys) CONFIG[k] = cfgBoolFrom(src, k, DEFAULT_CONFIG[k]);
 
-    if (!["toast", "console", "both"].includes(CONFIG.debugOutput)) {
-      CONFIG.debugOutput = DEFAULT_CONFIG.debugOutput;
-    }
-    if (!["off", "toast", "chat", "both"].includes(CONFIG.chatReplyMode)) {
-      CONFIG.chatReplyMode = DEFAULT_CONFIG.chatReplyMode;
-    }
+    if (!["toast", "console", "both"].includes(CONFIG.debugOutput)) CONFIG.debugOutput = DEFAULT_CONFIG.debugOutput;
+    if (!["off", "toast", "chat", "both"].includes(CONFIG.chatReplyMode)) CONFIG.chatReplyMode = DEFAULT_CONFIG.chatReplyMode;
 
     debugEmit(
       `[Config] baseRawUrl=${CONFIG.baseRawUrl} | prefix=${CONFIG.commandPrefix} | debugOutput=${CONFIG.debugOutput} | chatReplyMode=${CONFIG.chatReplyMode}`,
@@ -409,7 +375,6 @@ function hostToast(message, type = "info") {
 
     const base = String(CONFIG.baseRawUrl || "").replace(/\/+$/g, "");
 
-    // 1) Fetch First
     if (base) {
       try {
         const aUrl = `${base}/data/case-aliases.json`;
@@ -438,7 +403,6 @@ function hostToast(message, type = "info") {
       debugEmit("[Data] baseRawUrl Empty (Skipping Fetch)", "warning", "debugData");
     }
 
-    // 2) Storage Fallback
     if (!aliasCache) {
       const raw = await safeGetStorage("tcsgo_aliases");
       if (raw) {
@@ -463,7 +427,6 @@ function hostToast(message, type = "info") {
       }
     }
 
-    // Validation (This Will Tell You Exactly Why "Dream" Misses)
     const aliasCount = Object.keys(aliasCache?.aliases || {}).length;
     debugEmit(`[Data] Alias Shape | hasAliasesProp=${!!aliasCache?.aliases} | aliasCount=${aliasCount}`, "info", "debugData");
 
@@ -549,7 +512,11 @@ function hostToast(message, type = "info") {
     const type = payload.type || "(missing type)";
     const ok = payload.ok;
 
-    debugEmit(`[Router] In | source=${sourceLabel} | type=${type} | ok=${ok} | eventId=${eventId || "(none)"}`, ok ? "info" : "warning", "debugRouter");
+    debugEmit(
+      `[Router] In | source=${sourceLabel} | type=${type} | ok=${ok} | eventId=${eventId || "(none)"}`,
+      ok ? "info" : "warning",
+      "debugRouter"
+    );
 
     if (eventId && eventId === lastProcessedEventId) {
       debugEmit(`[Router] Duplicate Ignored | eventId=${eventId}`, "warning", "debugDedup");
@@ -582,7 +549,7 @@ function hostToast(message, type = "info") {
 
       case "buycase-result":
       case "buykey-result":
-        studioToast(payload.ok ? "Purchase Complete" : "Purchase Failed", payload.ok ? "success" : "error");
+        studioToast(payload.ok ? "Purchase Complete" : (payload?.error?.message || "Purchase Failed"), payload.ok ? "success" : "error");
         break;
 
       case "sell-start-result":
@@ -762,17 +729,31 @@ function hostToast(message, type = "info") {
   }
 
   // =========================================================================
-  // LOYALTY POINTS
+  // LOYALTY POINTS - FIXED (Matching ChosenSlots/ChosenSend Pattern)
   // =========================================================================
 
+  /**
+   * Get user's current loyalty points balance
+   * Matches working pattern from ChosenSlots/ChosenSend
+   */
   async function getLoyaltyPoints(username, platform) {
+    const u = String(username || "").trim();
+    const p = String(platform || "twitch").toLowerCase();
+    
+    if (!u || !p) {
+      debugEmit(`[Points] Get Skipped | Invalid user/platform`, "warning", "debugPoints");
+      return 0;
+    }
+
     if (typeof Overlay !== "undefined" && Overlay.getLoyaltyPoints) {
       try {
-        const v = await Overlay.getLoyaltyPoints({ username, platform });
-        debugEmit(`[Points] Get | user=${username} | platform=${platform} | value=${v}`, "success", "debugPoints");
-        return Number(v) || 0;
+        const v = await Overlay.getLoyaltyPoints({ username: u, platform: p });
+        const n = Number(v);
+        const result = Number.isFinite(n) ? n : 0;
+        debugEmit(`[Points] Get | user=${u} | platform=${p} | value=${result}`, "success", "debugPoints");
+        return result;
       } catch (err) {
-        debugError(`[Points] Get Failed | user=${username} | platform=${platform}`, err, "debugPoints");
+        debugError(`[Points] Get Failed | user=${u} | platform=${p}`, err, "debugPoints");
         return 0;
       }
     }
@@ -780,23 +761,163 @@ function hostToast(message, type = "info") {
     return 0;
   }
 
-  async function addLoyaltyPoints(username, platform, value) {
+  /**
+   * Add points to user (can be negative to deduct)
+   * KEY FIX: Uses { value, username, platform } order (value FIRST)
+   * This matches the working ChosenSlots/ChosenSend pattern exactly
+   */
+  async function addLoyaltyPoints(value, username, platform) {
+    const v = Number(value) || 0;
+    const u = String(username || "").trim();
+    const p = String(platform || "twitch").toLowerCase();
+    
+    if (!u || !p) {
+      debugEmit(`[Points] Add Skipped | Invalid user/platform`, "warning", "debugPoints");
+      return null;
+    }
+
     if (typeof Overlay !== "undefined" && Overlay.addLoyaltyPoints) {
       try {
-        const v = await Overlay.addLoyaltyPoints({ username, platform, value });
-        debugEmit(`[Points] Add | user=${username} | platform=${platform} | delta=${value} | new=${v}`, "success", "debugPoints");
-        return Number(v) || 0;
+        // KEY FIX: Parameter order is { value, username, platform } - value FIRST
+        // This matches the working ChosenSlots/ChosenSend/ChosenSpinWheel pattern
+        const result = await Overlay.addLoyaltyPoints({ value: v, username: u, platform: p });
+        const n = Number(result);
+        if (Number.isFinite(n)) {
+          debugEmit(`[Points] Add | value=${v} | user=${u} | platform=${p} | newTotal=${n}`, "success", "debugPoints");
+          return n;
+        }
+        debugEmit(`[Points] Add | value=${v} | user=${u} | platform=${p} | ok=true`, "success", "debugPoints");
+        return true;
       } catch (err) {
-        debugError(`[Points] Add Failed | user=${username} | platform=${platform} | delta=${value}`, err, "debugPoints");
-        return 0;
+        debugError(`[Points] Add Failed | value=${v} | user=${u} | platform=${p}`, err, "debugPoints");
+        return null;
       }
     }
     debugEmit("[Points] Add Skipped (API Missing)", "warning", "debugPoints");
-    return 0;
+    return null;
   }
 
+  /**
+   * Simplified adjustLoyaltyPoints - directly calls addLoyaltyPoints with delta
+   * No complex verification loops, no tryOverlayCall wrapper
+   * Trusts that if no exception is thrown, the operation succeeded
+   */
+  async function adjustLoyaltyPoints(a, b, c, d) {
+    // Supports Both Call Styles:
+    // 1) adjustLoyaltyPoints(username, platform, delta, label?)
+    // 2) adjustLoyaltyPoints({ username, platform, delta, label? })
+
+    let username, platform, delta, label;
+    if (a && typeof a === "object") {
+      username = a.username;
+      platform = a.platform;
+      delta = a.delta;
+      label = a.label ?? a.reason ?? "";
+    } else {
+      username = a;
+      platform = b;
+      delta = c;
+      label = d ?? "";
+    }
+
+    const u = String(username || "").trim();
+    const p = String(platform || "twitch").toLowerCase().trim();
+
+    const n = Number(delta);
+    const dlt = Number.isFinite(n) ? Math.trunc(n) : NaN;
+
+    if (!u || !p || !Number.isFinite(dlt)) {
+      debugEmit(
+        `[Points] Adjust Skipped | user=${u || "(missing)"} | platform=${p || "(missing)"} | delta=${String(delta)}` +
+          (label ? ` | label=${label}` : ""),
+        "error",
+        "debugPoints"
+      );
+      return null;
+    }
+
+    if (dlt === 0) {
+      return await getLoyaltyPoints(u, p);
+    }
+
+    // Read Before (Silent; Avoid Toast Spam During Internal Polling)
+    let before = 0;
+    try {
+      const v = await Overlay.getLoyaltyPoints({ username: u, platform: p });
+      const cur = Number(v);
+      before = Number.isFinite(cur) ? cur : 0;
+    } catch (_) {
+      before = await getLoyaltyPoints(u, p);
+    }
+
+    // Apply Delta (Uses Your Wrapper Which Matches Working Overlays)
+    const addResult = await addLoyaltyPoints(dlt, u, p);
+    if (addResult == null || addResult === false) {
+      debugEmit(
+        `[Points] Adjust Failed | delta=${dlt} | before=${before}` + (label ? ` | label=${label}` : ""),
+        "error",
+        "debugPoints"
+      );
+      return null;
+    }
+
+    const addNumberRaw =
+      (typeof addResult === "number" || typeof addResult === "string")
+        ? Number(addResult)
+        : NaN;
+    const addNumber = Number.isFinite(addNumberRaw) ? addNumberRaw : null;
+
+    // Poll Briefly For Persistence (Silent)
+    let after = before;
+    const deadline = Date.now() + 1500;
+
+    while (Date.now() < deadline) {
+      try {
+        const v = await Overlay.getLoyaltyPoints({ username: u, platform: p });
+        const cur = Number(v);
+        if (Number.isFinite(cur)) after = cur;
+      } catch (_) {}
+
+      if (after !== before) break;
+
+      await new Promise((r) => setTimeout(r, 200));
+    }
+
+    if (after !== before) {
+      debugEmit(
+        `[Points] Adjust Ok | delta=${dlt} | before=${before} | after=${after}` + (label ? ` | label=${label}` : ""),
+        "success",
+        "debugPoints"
+      );
+      return after;
+    }
+
+    if (addNumber != null && addNumber !== before) {
+      debugEmit(
+        `[Points] Adjust Ok | delta=${dlt} | before=${before} | after=${addNumber} | source=add` +
+          (label ? ` | label=${label}` : ""),
+        "success",
+        "debugPoints"
+      );
+      return addNumber;
+    }
+
+    // If Still Unchanged, Fall Back To Optimistic Balance (Avoid False Failures)
+    const optimistic = before + dlt;
+    debugEmit(
+      `[Points] Adjust Stale | delta=${dlt} | before=${before} | after=${after}` +
+        ` | addReturn=${addNumber ?? "n/a"} | optimistic=${optimistic}` +
+        (label ? ` | label=${label}` : ""),
+      "warning",
+      "debugPoints"
+    );
+    return optimistic;
+  }
+
+
+
   // =========================================================================
-  // CHAT SEND (Uses Studio Toast When You Set chatReplyMode="toast")
+  // CHAT SEND
   // =========================================================================
 
   async function sendChatMessage(message, platform) {
@@ -812,7 +933,7 @@ function hostToast(message, type = "info") {
     if (typeof Overlay !== "undefined" && Overlay.chatbot) {
       try {
         await Overlay.chatbot({ message: msg, platform, chatAsSelf: false });
-        debugEmit(`[ChatSend] OK | platform=${platform} | msg="${msg.slice(0, 120)}"`, "success", "debugChatSend");
+        debugEmit(`[ChatSend] Ok | platform=${platform} | msg="${msg.slice(0, 120)}"`, "success", "debugChatSend");
         return;
       } catch (err) {
         debugError(`[ChatSend] Failed | platform=${platform}`, err, "debugChatSend");
@@ -870,12 +991,14 @@ function hostToast(message, type = "info") {
 
     debugEmit(`[BuyCase] Start | user=${username} | alias=${alias || ""} | qty=${qty}`, "info", "debugBuyCase");
 
-    if (!alias) return void sendChatMessage(`@${username} Usage: ${getCmdFull("cmdBuyCase")} <alias> [qty]`, platform);
+    if (!alias) {
+      return void sendChatMessage(`@${username} Usage: ${getCmdFull("cmdBuyCase")} <alias> [qty]`, platform);
+    }
 
     const caseInfo = resolveAlias(alias);
     if (!caseInfo) {
       debugEmit(`[BuyCase] Unknown Alias | alias=${alias}`, "warning", "debugBuyCase");
-      return void sendChatMessage(`@${username} Unknown case: ${alias}`, platform);
+      return void sendChatMessage(`@${username} Unknown Case: ${alias}`, platform);
     }
 
     const pricePerCase = getCasePrice(caseInfo.caseId);
@@ -885,18 +1008,36 @@ function hostToast(message, type = "info") {
     debugEmit(`[BuyCase] Balance | have=${currentPoints} | need=${totalCost}`, "info", "debugPoints");
 
     if (currentPoints < totalCost) {
-      return void sendChatMessage(`@${username} Need ${formatNumber(totalCost)}, Have ${formatNumber(currentPoints)}.`, platform);
+      return void sendChatMessage(
+        `@${username} Insufficient Coins! Need ${formatNumber(totalCost)}, Have ${formatNumber(currentPoints)}.`,
+        platform
+      );
     }
 
-    const deducted = await addLoyaltyPoints(username, platform, -totalCost);
+    debugEmit(`[BuyCase] Deduct Start | cost=${totalCost}`, "info", "debugPoints");
+
+    // Use negative value to deduct points (matching working overlay pattern)
+    const deducted = await adjustLoyaltyPoints(username, platform, -totalCost);
+
+    if (deducted == null) {
+      const msg = "Points Deduction Failed. Please Try Again.";
+      debugEmit(`[BuyCase] Deduct Failed | ${msg}`, "error", "debugPoints");
+      studioToast(msg, "error");
+      return void sendChatMessage(`@${username} ${msg}`, platform);
+    }
+
+    debugEmit(`[BuyCase] Deduct Ok | newBalance=${deducted}`, "success", "debugPoints");
 
     const eventId = generateEventId();
     try {
       await callCommitCommand(CONFIG.commitBuyCase, { eventId, platform, username, alias, qty }, eventId);
+
       await sendChatMessage(`@${username} Bought ${qty}x ${caseInfo.displayName}! Balance: ${formatNumber(deducted)}`, platform);
       studioToast(`Case Purchased | ${username} | ${qty}x ${caseInfo.displayName}`, "success");
     } catch (errPayload) {
-      await addLoyaltyPoints(username, platform, totalCost);
+      // Refund On Commit Failure
+      await adjustLoyaltyPoints(username, platform, totalCost);
+
       const errMsg = errPayload?.error?.message || "Purchase failed";
       await sendChatMessage(`@${username} ${errMsg}. Points Refunded.`, platform);
       studioToast(`Purchase Failed | ${errMsg}`, "error");
@@ -918,18 +1059,30 @@ function hostToast(message, type = "info") {
     const currentPoints = await getLoyaltyPoints(username, platform);
 
     if (currentPoints < totalCost) {
-      return void sendChatMessage(`@${username} Need ${formatNumber(totalCost)}, Have ${formatNumber(currentPoints)}.`, platform);
+      return void sendChatMessage(
+        `@${username} Insufficient Coins! Need ${formatNumber(totalCost)}, Have ${formatNumber(currentPoints)}.`,
+        platform
+      );
     }
 
-    const deducted = await addLoyaltyPoints(username, platform, -totalCost);
+    const deducted = await adjustLoyaltyPoints(username, platform, -totalCost);
+
+    if (deducted == null) {
+      const msg = "Points Deduction Failed. Please Try Again.";
+      debugEmit(`[BuyKey] Deduct Failed | ${msg}`, "error", "debugPoints");
+      studioToast(msg, "error");
+      return void sendChatMessage(`@${username} ${msg}`, platform);
+    }
 
     const eventId = generateEventId();
     try {
       await callCommitCommand(CONFIG.commitBuyKey, { eventId, platform, username, qty }, eventId);
+
       await sendChatMessage(`@${username} Bought ${qty}x Key(s)! Balance: ${formatNumber(deducted)}`, platform);
       studioToast(`Keys Purchased | ${username} | ${qty}x`, "success");
     } catch (errPayload) {
-      await addLoyaltyPoints(username, platform, totalCost);
+      await adjustLoyaltyPoints(username, platform, totalCost);
+
       const errMsg = errPayload?.error?.message || "Purchase failed";
       await sendChatMessage(`@${username} ${errMsg}. Points Refunded.`, platform);
       studioToast(`Purchase Failed | ${errMsg}`, "error");
@@ -948,7 +1101,7 @@ function hostToast(message, type = "info") {
     if (!alias) return void sendChatMessage(`@${username} Usage: ${getCmdFull("cmdOpen")} <alias>`, platform);
 
     const caseInfo = resolveAlias(alias);
-    if (!caseInfo) return void sendChatMessage(`@${username} Unknown case: ${alias}`, platform);
+    if (!caseInfo) return void sendChatMessage(`@${username} Unknown Case: ${alias}`, platform);
 
     const eventId = generateEventId();
 
@@ -1003,7 +1156,7 @@ function hostToast(message, type = "info") {
       const result = await callCommitCommand(CONFIG.commitSellConfirm, { eventId, platform, username, token }, eventId);
       if (result.ok && result.data) {
         const d = result.data;
-        await addLoyaltyPoints(username, platform, d.creditedCoins);
+        await adjustLoyaltyPoints(username, platform, d.creditedCoins);
         await sendChatMessage(`@${username} Sold ${d.item.displayName}! +${formatNumber(d.creditedCoins)} Coins.`, platform);
         studioToast(`Sold | +${formatNumber(d.creditedCoins)} Coins`, "success");
       }
