@@ -45,13 +45,13 @@
     "type": "number",
     "label": "Case Intro Duration (Ms)",
     "order": 7.1,
-    "value": 900
+    "value": 950
   },
   "caseSpinMs": {
     "type": "number",
     "label": "Case Spin Duration (Ms)",
     "order": 7.2,
-    "value": 5200
+    "value": 6050
   },
   "caseSpinItems": {
     "type": "number",

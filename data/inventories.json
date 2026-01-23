@@ -1,15 +1,13 @@
 {
   "schemaVersion": "1.0-inventories",
-  "lastModified": "2026-01-23T22:39:14.916Z",
+  "lastModified": "2026-01-23T23:34:19.214Z",
   "users": {
     "tanchosenlive:twitch": {
       "platform": "twitch",
       "username": "tanchosenlive",
-      "cases": {
-        "cs20-case": 1
-      },
+      "cases": {},
       "keys": {
-        "csgo-case-key": 4
+        "csgo-case-key": 3
       },
       "items": [
         {
@@ -32,6 +30,27 @@
             "chosenCoins": 160
           },
           "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mag-7-popdog--02.png"
+        },
+        {
+          "oid": "oid_mkrhpg3r_30zcfi8sv",
+          "itemId": "famas-decommissioned",
+          "displayName": "FAMAS | Decommissioned",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "FAMAS",
+          "skin": "Decommissioned",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Field-Tested",
+          "acquiredAt": "2026-01-23T23:06:24.327Z",
+          "lockedUntil": "2026-01-30T23:06:24.327Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.1,
+            "chosenCoins": 100
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--famas-decommissioned--02.png"
         }
       ],
       "pendingSell": null
@@ -40,10 +59,10 @@
       "platform": "twitch",
       "username": "tanthebananaman",
       "cases": {
-        "cs20-case": 9
+        "cs20-case": 4
       },
       "keys": {
-        "csgo-case-key": 9
+        "csgo-case-key": 4
       },
       "items": [
         {
@@ -108,6 +127,111 @@
             "chosenCoins": 80
           },
           "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--dual-berettas-elite-1-6--02.png"
+        },
+        {
+          "oid": "oid_mkrh3wyv_5z3nxukdh",
+          "itemId": "dual-berettas-elite-1-6",
+          "displayName": "Dual Berettas | Elite 1.6",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "Dual Berettas",
+          "skin": "Elite 1.6",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Battle-Scarred",
+          "acquiredAt": "2026-01-23T22:49:39.751Z",
+          "lockedUntil": "2026-01-30T22:49:39.751Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.06,
+            "chosenCoins": 60
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--dual-berettas-elite-1-6.png"
+        },
+        {
+          "oid": "oid_mkrh5q65_tv7j8c0hm",
+          "itemId": "mac-10-classic-crate",
+          "displayName": "MAC-10 | Classic Crate",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "MAC-10",
+          "skin": "Classic Crate",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Battle-Scarred",
+          "acquiredAt": "2026-01-23T22:51:04.253Z",
+          "lockedUntil": "2026-01-30T22:51:04.253Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.06,
+            "chosenCoins": 60
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mac-10-classic-crate.png"
+        },
+        {
+          "oid": "oid_mkrhsloz_7699wbbci",
+          "itemId": "glock-18-sacrifice",
+          "displayName": "Glock-18 | Sacrifice",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "Glock-18",
+          "skin": "Sacrifice",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Field-Tested",
+          "acquiredAt": "2026-01-23T23:08:51.539Z",
+          "lockedUntil": "2026-01-30T23:08:51.539Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.1,
+            "chosenCoins": 100
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--glock-18-sacrifice--03.png"
+        },
+        {
+          "oid": "oid_mkrilszj_d35ygg6q8",
+          "itemId": "five-seven-buddy",
+          "displayName": "Five-SeveN | Buddy",
+          "rarity": "restricted",
+          "tier": "purple",
+          "category": "weapon_skin",
+          "weapon": "Five-SeveN",
+          "skin": "Buddy",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Field-Tested",
+          "acquiredAt": "2026-01-23T23:31:34.015Z",
+          "lockedUntil": "2026-01-30T23:31:34.015Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.5,
+            "chosenCoins": 500
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--five-seven-buddy--04.png"
+        },
+        {
+          "oid": "oid_mkripcge_sq0lo9pac",
+          "itemId": "tec-9-flash-out",
+          "displayName": "Tec-9 | Flash Out",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "Tec-9",
+          "skin": "Flash Out",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Field-Tested",
+          "acquiredAt": "2026-01-23T23:34:19.214Z",
+          "lockedUntil": "2026-01-30T23:34:19.214Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.1,
+            "chosenCoins": 100
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--tec-9-flash-out--04.png"
         }
       ],
       "pendingSell": null

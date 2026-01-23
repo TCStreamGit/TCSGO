@@ -70,8 +70,8 @@
     defaultKeyPriceCoins: 3500,
     codeId: "tcsgo-controller",
     winnerDisplayMs: 8000,
-    caseIntroMs: 900,
-    caseSpinMs: 5200,
+    caseIntroMs: 950,
+    caseSpinMs: 6050,
     caseSpinItems: 38,
     caseWinnerIndex: 30,
     caseKeyImage: "",
@@ -123,6 +123,28 @@
   };
 
   let CONFIG = { ...DEFAULT_CONFIG };
+
+  const SPIN_TIMING_DEFAULT = {
+    spinUpMs: 250,
+    highSpeedMs: 2800,
+    decelMs: 2600,
+    finalLockMs: 400,
+    overshootPx: 6,
+    openSfxDelayMs: 200,
+    tickCurve: [
+      { t: 0, interval: 83 },
+      { t: 1800, interval: 100 },
+      { t: 2800, interval: 140 },
+      { t: 3800, interval: 220 },
+      { t: 4600, interval: 320 },
+      { t: 5100, interval: 450 }
+    ]
+  };
+  const SPIN_TIMING_TOTAL_MS =
+    SPIN_TIMING_DEFAULT.spinUpMs +
+    SPIN_TIMING_DEFAULT.highSpeedMs +
+    SPIN_TIMING_DEFAULT.decelMs +
+    SPIN_TIMING_DEFAULT.finalLockMs;
 
   // =========================================================================
   // CACHED DATA
@@ -1394,8 +1416,11 @@
 
     const spinBuild = buildSpinSequence(caseJson, winner, resultData?.imagePath || "");
     const winnerTile = renderRouletteItems(spinBuild.items);
-    const metrics = measureRoulette();
+    setStripX(0);
+    setOverlayActive(true);
+    setOverlayState("intro");
 
+    const metrics = await ensureRouletteMetrics();
     if (!metrics) {
       await showRevealOnly(resultData, username);
       return;
@@ -1404,15 +1429,15 @@
     const targetX = metrics.windowWidth / 2 -
       (metrics.paddingLeft + spinBuild.winnerIndex * metrics.tileStep + metrics.tileWidth / 2);
 
-    setStripX(0);
-    setOverlayActive(true);
-    setOverlayState("intro");
-    playAudio(UI.sfxOpen, CONFIG.sfxVolume);
+    const timing = getSpinTiming();
 
-    if (CONFIG.caseIntroMs > 0) await sleep(CONFIG.caseIntroMs);
+    if (timing.openDelayMs > 0) await sleep(timing.openDelayMs);
+    playAudio(UI.sfxOpen, CONFIG.sfxVolume);
+    const introRemainder = Math.max(0, CONFIG.caseIntroMs - timing.openDelayMs);
+    if (introRemainder > 0) await sleep(introRemainder);
 
     setOverlayState("roulette");
-    await animateRoulette(targetX, CONFIG.caseSpinMs, metrics.tileStep);
+    await animateRoulette(targetX, timing);
 
     if (winnerTile) winnerTile.classList.add("is-winner");
 
@@ -1756,37 +1781,195 @@
     };
   }
 
+  function nextFrame() {
+    return new Promise((resolve) => requestAnimationFrame(() => resolve()));
+  }
+
+  async function ensureRouletteMetrics(attempts = 5) {
+    for (let i = 0; i < attempts; i++) {
+      await nextFrame();
+      const metrics = measureRoulette();
+      if (metrics && metrics.tileWidth > 0 && metrics.windowWidth > 0) return metrics;
+    }
+    return null;
+  }
+
   function setStripX(x) {
     stripX = x;
     if (UI.rouletteStrip) UI.rouletteStrip.style.transform = `translateX(${x}px)`;
   }
 
-  function animateRoulette(targetX, durationMs, tileStep) {
-    if (!Number.isFinite(tileStep) || tileStep <= 0) {
-      setStripX(targetX);
-      return Promise.resolve();
-    }
+  function getSpinTiming() {
+    const baseTotal = Math.max(1, SPIN_TIMING_TOTAL_MS);
+    const requestedTotal = Math.max(800, Math.min(20000, Number(CONFIG.caseSpinMs) || DEFAULT_CONFIG.caseSpinMs));
+    const scale = requestedTotal / baseTotal;
 
+    const spinUpMs = Math.max(0, Math.round(SPIN_TIMING_DEFAULT.spinUpMs * scale));
+    const highSpeedMs = Math.max(0, Math.round(SPIN_TIMING_DEFAULT.highSpeedMs * scale));
+    const decelMs = Math.max(0, Math.round(SPIN_TIMING_DEFAULT.decelMs * scale));
+    const finalLockMs = Math.max(0, Math.round(SPIN_TIMING_DEFAULT.finalLockMs * scale));
+    const tickCurve = SPIN_TIMING_DEFAULT.tickCurve.map((point) => ({
+      t: Math.max(0, Math.round(point.t * scale)),
+      interval: Math.max(30, Math.round(point.interval * scale))
+    }));
+
+    const introBase = Math.max(1, DEFAULT_CONFIG.caseIntroMs);
+    const openDelayScaled = Math.round(SPIN_TIMING_DEFAULT.openSfxDelayMs * (CONFIG.caseIntroMs / introBase));
+    const openDelayMs = Math.max(0, Math.min(CONFIG.caseIntroMs, openDelayScaled));
+
+    return {
+      spinUpMs,
+      highSpeedMs,
+      decelMs,
+      finalLockMs,
+      overshootPx: SPIN_TIMING_DEFAULT.overshootPx,
+      tickCurve,
+      tickStartMs: spinUpMs,
+      tickDurationMs: Math.max(0, highSpeedMs + decelMs),
+      openDelayMs
+    };
+  }
+
+  function lerp(a, b, t) {
+    return a + (b - a) * t;
+  }
+
+  function easeInQuad(t) {
+    return t * t;
+  }
+
+  function easeOutQuad(t) {
+    return 1 - (1 - t) * (1 - t);
+  }
+
+  function easeOutCubic(t) {
+    return 1 - Math.pow(1 - t, 3);
+  }
+
+  function tickIntervalAt(curve, elapsedMs) {
+    if (!Array.isArray(curve) || curve.length === 0) return 120;
+    if (elapsedMs <= curve[0].t) return curve[0].interval;
+    for (let i = 1; i < curve.length; i++) {
+      const prev = curve[i - 1];
+      const next = curve[i];
+      if (elapsedMs <= next.t) {
+        const span = Math.max(1, next.t - prev.t);
+        const t = (elapsedMs - prev.t) / span;
+        return Math.max(30, Math.round(lerp(prev.interval, next.interval, t)));
+      }
+    }
+    return curve[curve.length - 1].interval;
+  }
+
+  function startTickSchedule(timing) {
+    if (!UI.sfxTick) return () => {};
+
+    const tickStartMs = Math.max(0, Number(timing?.tickStartMs) || 0);
+    const tickDurationMs = Math.max(0, Number(timing?.tickDurationMs) || 0);
+    if (tickDurationMs <= 0) return () => {};
+
+    const curve = timing?.tickCurve || [];
+    let active = true;
+    let timer = null;
+    let startAt = 0;
+
+    const stop = () => {
+      active = false;
+      if (timer) clearTimeout(timer);
+    };
+
+    const scheduleNext = () => {
+      if (!active) return;
+      const elapsed = performance.now() - startAt;
+      if (elapsed >= tickDurationMs) return;
+      playTick();
+      const interval = tickIntervalAt(curve, elapsed);
+      timer = setTimeout(scheduleNext, interval);
+    };
+
+    timer = setTimeout(() => {
+      if (!active) return;
+      startAt = performance.now();
+      scheduleNext();
+    }, tickStartMs);
+
+    return stop;
+  }
+
+  function spinProgress(elapsed, spinUpMs, highSpeedMs, decelMs, accelPortion, cruisePortion, decelPortion) {
+    if (spinUpMs > 0 && elapsed <= spinUpMs) {
+      const t = elapsed / spinUpMs;
+      return easeInQuad(t) * accelPortion;
+    }
+    if (highSpeedMs > 0 && elapsed <= spinUpMs + highSpeedMs) {
+      const t = (elapsed - spinUpMs) / highSpeedMs;
+      return accelPortion + t * cruisePortion;
+    }
+    if (decelMs > 0) {
+      const t = Math.min(1, (elapsed - spinUpMs - highSpeedMs) / decelMs);
+      return accelPortion + cruisePortion + easeOutQuad(t) * decelPortion;
+    }
+    return 1;
+  }
+
+  function animateRoulette(targetX, timing) {
+    const spinTiming = timing || getSpinTiming();
     const startX = stripX;
-    const start = performance.now();
-    let lastTick = Math.floor(Math.abs(startX) / tileStep);
+    const distance = targetX - startX;
+    const direction = distance === 0 ? 1 : Math.sign(distance);
+    const overshootPx = Number(spinTiming.overshootPx) || 0;
+    const overshootX = distance === 0 ? targetX : targetX + direction * overshootPx;
+
+    const mainMs = Math.max(1, spinTiming.spinUpMs + spinTiming.highSpeedMs + spinTiming.decelMs);
+    const lockMs = Math.max(0, spinTiming.finalLockMs);
+
+    const accelDist = 0.5 * spinTiming.spinUpMs;
+    const cruiseDist = spinTiming.highSpeedMs;
+    const decelDist = 0.5 * spinTiming.decelMs;
+    const distDenom = Math.max(1, accelDist + cruiseDist + decelDist);
+    const accelPortion = accelDist / distDenom;
+    const cruisePortion = cruiseDist / distDenom;
+    const decelPortion = decelDist / distDenom;
+
+    const stopTicks = startTickSchedule(spinTiming);
 
     return new Promise((resolve) => {
+      const start = performance.now();
       function frame(now) {
-        const t = Math.min(1, (now - start) / Math.max(1, durationMs));
-        const eased = 1 - Math.pow(1 - t, 3);
-        const x = startX + (targetX - startX) * eased;
-        setStripX(x);
-
-        const delta = Math.abs(x - startX);
-        const tickIndex = Math.floor(delta / tileStep);
-        if (tickIndex > lastTick) {
-          for (let i = lastTick; i < tickIndex; i++) playTick();
-          lastTick = tickIndex;
+        const elapsed = now - start;
+        if (elapsed < mainMs) {
+          const progress = spinProgress(
+            elapsed,
+            spinTiming.spinUpMs,
+            spinTiming.highSpeedMs,
+            spinTiming.decelMs,
+            accelPortion,
+            cruisePortion,
+            decelPortion
+          );
+          setStripX(lerp(startX, overshootX, progress));
+          requestAnimationFrame(frame);
+          return;
         }
 
-        if (t < 1) requestAnimationFrame(frame);
-        else resolve();
+        setStripX(overshootX);
+        if (lockMs <= 0) {
+          stopTicks();
+          resolve();
+          return;
+        }
+
+        const lockStart = performance.now();
+        function lockFrame(now2) {
+          const t = Math.min(1, (now2 - lockStart) / lockMs);
+          setStripX(lerp(overshootX, targetX, easeOutCubic(t)));
+          if (t < 1) requestAnimationFrame(lockFrame);
+          else {
+            stopTicks();
+            resolve();
+          }
+        }
+        requestAnimationFrame(lockFrame);
       }
       requestAnimationFrame(frame);
     });
