@@ -1,0 +1,74 @@
+{
+  "schedule": {
+    "enabled": true,
+    "bootTimeRefresh": true,
+    "daysOfWeek": ["sunday"],
+    "time": "03:00",
+    "checkIntervalSeconds": 30.0
+  },
+  "api": {
+    "retries": {
+      "maxAttempts": 3,
+      "backoffSeconds": 10
+    }
+  },
+  "cache": {
+    "maxAgeHours": 168,
+    "forceRefresh": false
+  },
+  "providers": {
+    "skinport": {
+      "enabled": true,
+      "baseUrl": "https://api.skinport.com/v1",
+      "appid": 730,
+      "currency": "CAD",
+      "tradable": 0,
+      "useSalesHistory": true,
+      "historyWindow": "last_7_days",
+      "historyField": "median",
+      "timeoutSeconds": 180
+    },
+    "steam": {
+      "enabled": true,
+      "appid": 730,
+      "currency": 20,
+      "delaySeconds": 3.0,
+      "timeoutSeconds": 30,
+      "keyMarketHashNames": {
+        "csgo-case-key": "CS:GO Case Key",
+        "default": "CS:GO Case Key"
+      }    
+    },
+    "csfloat": {
+      "enabled": true,
+      "apiKey": "",
+      "apiKeyEnvVar": "CSFLOAT_API_KEY",
+      "delaySeconds": 0.5,
+      "timeoutSeconds": 30
+    },
+    "fx": {
+      "timeoutSeconds": 20
+    }
+  },
+  "http": {
+    "userAgent": "TCSGO-Price-Refresher/1.1 (+https://api.skinport.com; https://steamcommunity.com)"
+  },
+  "logging": {
+    "level": "INFO",
+    "rotateAfterDays": 7,
+    "maxLogFiles": 7
+  },
+  "git": {
+    "enabled": true
+  },
+  "paths": {
+    "base": "A:\\Development\\Version Control\\Github\\TCSGO",
+    "pricesJson": "data/prices.json",
+    "caseOddsDir": "Case-Odds",
+    "logsDir": "logs\\price-refresher",
+    "overridesJson": "services\\market-hash-overrides.json",
+    "secretsJson": "services\\price-refresher-secrets.json",
+    "lockFile": "services\\price-refresher.lock",
+    "daemonStateJson": "services\\price-refresher-daemon-state.json"
+  }
+}

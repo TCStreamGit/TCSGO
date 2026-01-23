@@ -1,224 +1,249 @@
-/**
- * TCSGO Commit: Sell Start
- * =========================
- * Lumia Custom Command - Correct Pattern
- */
+async function () {
+  "use strict";
 
-async function() {
-    const TCSGO_BASE = 'A:\\Development\\Version Control\\Github\\TCSGO';
+  const TCSGO_BASE = "A:\\Development\\Version Control\\Github\\TCSGO";
+  const CODE_ID = "tcsgo-controller";
+  const ACK_VAR = "tcsgo_last_event_json";
+  const SELL_TOKEN_EXPIRATION_SECONDS = 60;
 
-    const CONFIG = {
-        basePath: TCSGO_BASE,
-        paths: { inventories: 'data/inventories.json', prices: 'data/prices.json' },
-        sellTokenExpirationSeconds: 60
-    };
+  // ============================================================
+  // HELPERS
+  // ============================================================
 
-    function buildPath(rel) { 
-        const b = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, ''); 
-        const r = rel.replace(/\\/g, '/').replace(/^\//, ''); 
-        return b ? `${b}/${r}` : r; 
+  function lowerTrim(raw) {
+    return String(raw ?? "").trim().toLowerCase();
+  }
+
+  function normSite(raw) {
+    const s = String(raw ?? "").toLowerCase();
+    if (s.includes("tiktok")) return "tiktok";
+    if (s.includes("youtube")) return "youtube";
+    if (s.includes("twitch")) return "twitch";
+    if (s.includes("kick")) return "kick";
+    return s || "twitch";
+  }
+
+  function joinPath(base, rel) {
+    const b = String(base ?? "").replace(/[\\/]+$/g, "");
+    const r = String(rel ?? "").replace(/^[\\/]+/g, "");
+    return `${b}\\${r}`.replace(/\//g, "\\");
+  }
+
+  function mkError(code, message) {
+    return { code: String(code || "ERROR"), message: String(message || "Unknown Error") };
+  }
+
+  function dualAck(payloadObj) {
+    const payloadStr = JSON.stringify(payloadObj);
+
+    try {
+      overlaySendCustomContent({ codeId: CODE_ID, content: payloadStr });
+    } catch (_) {}
+
+    try {
+      setVariable({ name: ACK_VAR, value: payloadStr, global: true });
+    } catch (_) {}
+
+    try { log(payloadStr); } catch (_) {}
+  }
+
+  async function safeReadJson(fullPath, fallbackObj = null) {
+    try {
+      const raw = await readFile(fullPath);
+      const txt = String(raw ?? "");
+      return JSON.parse(txt);
+    } catch (e) {
+      return fallbackObj;
+    }
+  }
+
+  function normalizeNewlines(raw) {
+    return String(raw ?? "").replace(/\r\n/g, "\n");
+  }
+
+  async function verifyWrite(path, content) {
+    const verify = await readFile(path);
+    if (normalizeNewlines(verify) !== normalizeNewlines(content)) {
+      throw new Error("Write Verification Failed");
+    }
+  }
+
+  async function safeWriteFile(path, content) {
+    // Prefer the command-style signature first to avoid worker errors.
+    const attempts = [
+      () => writeFile({ path, message: content, append: false }),
+      () => writeFile(path, content)
+    ];
+
+    let lastErr = null;
+
+    for (const attempt of attempts) {
+      try {
+        await attempt();
+        await verifyWrite(path, content);
+        return true;
+      } catch (e) {
+        lastErr = e;
+      }
     }
 
-    async function loadJson(rel) { 
-        try { 
-            return JSON.parse(await readFile(buildPath(rel))); 
-        } catch (e) { 
-            log(`[TCSGO] loadJson: ${e.message}`); 
-            return null; 
-        } 
-    }
+    log(`[WriteFile] Error | path=${path} | ${lastErr?.message ?? lastErr}`);
+    return false;
+  }
 
-    async function saveJson(rel, data) { 
-        try { 
-            await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); 
-            return true; 
-        } catch (e) { 
-            log(`[TCSGO] saveJson: ${e.message}`); 
-            return false; 
-        } 
-    }
+  async function safeWriteJson(fullPath, obj) {
+    const out = JSON.stringify(obj, null, 2) + "\n";
+    const ok = await safeWriteFile(fullPath, out);
+    if (!ok) throw new Error("Write Failed (All Methods)");
+  }
 
-    function buildUserKey(p, u) { 
-        return `${p.toLowerCase()}:${u.toLowerCase()}`; 
-    }
+  function generateSellToken() {
+    return `sell_${Date.now().toString(36)}_${Math.random().toString(36).substring(2, 12)}`;
+  }
 
-    function generateSellToken() { 
-        return `sell_${Date.now().toString(36)}_${Math.random().toString(36).substring(2, 12)}`; 
-    }
+  function checkLock(lu) {
+    const r = Math.max(0, new Date(lu).getTime() - Date.now());
+    return { locked: r > 0, remainingMs: r, remainingFormatted: formatDuration(r) };
+  }
 
-    function checkLock(lu) { 
-        const r = Math.max(0, new Date(lu).getTime() - Date.now()); 
-        return { locked: r > 0, remainingMs: r, remainingFormatted: formatDuration(r) }; 
-    }
+  function formatDuration(ms) {
+    if (ms <= 0) return "0s";
+    const s = Math.floor(ms / 1000), m = Math.floor(s / 60), h = Math.floor(m / 60), d = Math.floor(h / 24);
+    if (d > 0) return `${d}d ${h % 24}h`;
+    if (h > 0) return `${h}h ${m % 60}m`;
+    if (m > 0) return `${m}m ${s % 60}s`;
+    return `${s}s`;
+  }
 
-    function formatDuration(ms) { 
-        if (ms <= 0) return '0s'; 
-        const s = Math.floor(ms / 1000), m = Math.floor(s / 60), h = Math.floor(m / 60), d = Math.floor(h / 24); 
-        if (d > 0) return `${d}d ${h % 24}h`; 
-        if (h > 0) return `${h}h ${m % 60}m`; 
-        if (m > 0) return `${m}m ${s % 60}s`; 
-        return `${s}s`; 
-    }
+  function calculateCreditAfterFee(coins, fee) {
+    return Math.floor(coins * (1 - fee / 100));
+  }
 
-    function calculateCreditAfterFee(coins, fee) { 
-        return Math.floor(coins * (1 - fee / 100)); 
-    }
+  // ============================================================
+  // INPUTS (From Overlay.callCommand)
+  // ============================================================
 
-    function successResponse(t, d) { 
-        return { type: t, ok: true, timestamp: new Date().toISOString(), data: d }; 
-    }
+  const t0 = Date.now();
 
-    function errorResponse(t, c, m, det = null) { 
-        return { type: t, ok: false, timestamp: new Date().toISOString(), error: { code: c, message: m, details: det } }; 
-    }
+  const eventId = String(await getVariable("eventId") ?? "");
+  const platform = normSite(String(await getVariable("platform") ?? "twitch"));
+  const username = String(await getVariable("username") ?? "");
+  const oid = String(await getVariable("oid") ?? "");
 
-    // =========================================================================
-    // MAIN LOGIC
-    // =========================================================================
+  log(`[SELLSTART] Vars | eventId=${eventId} | platform=${platform} | username=${username} | oid=${oid}`);
 
-    const RT = 'sell-start-result';
-    const platform = '{{platform}}' !== '{{' + 'platform}}' ? '{{platform}}' : 'twitch';
-    const username = '{{username}}' !== '{{' + 'username}}' ? '{{username}}' : null;
-    const oid = '{{oid}}' !== '{{' + 'oid}}' ? '{{oid}}' : '{{message}}';
-    
-    if (!username) { 
-        const err = errorResponse(RT, 'MISSING_USERNAME', 'Username required');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
-    if (!oid) { 
-        const err = errorResponse(RT, 'MISSING_OID', 'OID required');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
+  let result;
+
+  try {
+    if (!eventId) throw mkError("MISSING_EVENT_ID", "Missing eventId.");
+    if (!username) throw mkError("MISSING_USERNAME", "Missing username.");
+    if (!oid) throw mkError("MISSING_OID", "Missing oid.");
+
+    const invPath = joinPath(TCSGO_BASE, "data\\inventories.json");
+    const pricesPath = joinPath(TCSGO_BASE, "data\\prices.json");
+
     const [inv, prices] = await Promise.all([
-        loadJson(CONFIG.paths.inventories), 
-        loadJson(CONFIG.paths.prices)
+      safeReadJson(invPath, null),
+      safeReadJson(pricesPath, null)
     ]);
-    
-    if (!inv || !prices) { 
-        const err = errorResponse(RT, 'LOAD_ERROR', 'Failed to load data');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
-    const user = inv.users[buildUserKey(platform, username)];
-    if (!user) { 
-        const err = errorResponse(RT, 'USER_NOT_FOUND', 'User not found');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
+
+    if (!inv || !prices) throw mkError("LOAD_ERROR", "Failed to load data.");
+
+    if (!inv.users || typeof inv.users !== "object") inv.users = {};
+
+    const user = inv.users[`${lowerTrim(username)}:${lowerTrim(platform)}`];
+    if (!user) throw mkError("USER_NOT_FOUND", "User not found");
+
+    if (!Array.isArray(user.items)) user.items = [];
+
     const item = user.items.find(i => i.oid === oid);
-    if (!item) { 
-        const err = errorResponse(RT, 'ITEM_NOT_FOUND', 'Item not found', { oid });
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
+    if (!item) throw { code: "ITEM_NOT_FOUND", message: "Item not found", details: { oid } };
+
     const ls = checkLock(item.lockedUntil);
-    if (ls.locked) { 
-        const err = errorResponse(RT, 'ITEM_LOCKED', `Locked for ${ls.remainingFormatted}`, { lockedUntil: item.lockedUntil });
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
+    if (ls.locked) {
+      throw {
+        code: "ITEM_LOCKED",
+        message: `Locked for ${ls.remainingFormatted}`,
+        details: { lockedUntil: item.lockedUntil }
+      };
     }
-    
+
     if (user.pendingSell && Date.now() < new Date(user.pendingSell.expiresAt).getTime()) {
-        const err = errorResponse(RT, 'PENDING_SELL_EXISTS', 'Pending sell exists', { existingOid: user.pendingSell.oid });
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
+      throw {
+        code: "PENDING_SELL_EXISTS",
+        message: "Pending sell exists",
+        details: { existingOid: user.pendingSell.oid }
+      };
     }
-    
+
     const fee = prices.marketFeePercent || 10;
     const credit = calculateCreditAfterFee(item.priceSnapshot?.chosenCoins || 0, fee);
     const token = generateSellToken();
-    const expiresAt = new Date(Date.now() + CONFIG.sellTokenExpirationSeconds * 1000).toISOString();
-    
-    user.pendingSell = { 
-        token, 
-        oid, 
-        expiresAt, 
-        itemSummary: { 
-            displayName: item.displayName, 
-            rarity: item.rarity, 
-            statTrak: item.statTrak, 
-            wear: item.wear 
-        }, 
-        creditAmount: credit 
+    const expiresAt = new Date(Date.now() + SELL_TOKEN_EXPIRATION_SECONDS * 1000).toISOString();
+
+    user.pendingSell = {
+      token,
+      oid,
+      expiresAt,
+      itemSummary: {
+        displayName: item.displayName,
+        rarity: item.rarity,
+        statTrak: item.statTrak,
+        wear: item.wear
+      },
+      creditAmount: credit
     };
     inv.lastModified = new Date().toISOString();
-    
-    if (!await saveJson(CONFIG.paths.inventories, inv)) { 
-        const err = errorResponse(RT, 'SAVE_ERROR', 'Save failed');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
-    // SUCCESS - Build final result
-    const result = successResponse(RT, { 
-        token, 
-        oid, 
-        expiresAt, 
-        expiresInSeconds: CONFIG.sellTokenExpirationSeconds, 
-        item: { 
-            displayName: item.displayName, 
-            rarity: item.rarity, 
-            tier: item.tier, 
-            statTrak: item.statTrak, 
-            wear: item.wear, 
-            priceSnapshot: item.priceSnapshot 
-        }, 
-        creditAmount: credit, 
-        marketFeePercent: fee 
-    });
-    
-    // DUAL-RECEIVE: Send via both event system and variable polling
-    const payloadStr = JSON.stringify(result);
-    
-    overlaySendCustomContent({
-        codeId: 'tcsgo-controller',
-        content: payloadStr
-    });
-    
-    setVariable({
-        name: 'tcsgo_last_event_json',
-        value: payloadStr
-    });
-    
-    log(payloadStr);
-    done();
+
+    await safeWriteJson(invPath, inv);
+
+    result = {
+      type: "sell-start-result",
+      ok: true,
+      eventId,
+      platform,
+      username,
+      data: {
+        eventId,
+        token,
+        oid,
+        expiresAt,
+        expiresInSeconds: SELL_TOKEN_EXPIRATION_SECONDS,
+        item: {
+          displayName: item.displayName,
+          rarity: item.rarity,
+          tier: item.tier,
+          statTrak: item.statTrak,
+          wear: item.wear,
+          priceSnapshot: item.priceSnapshot
+        },
+        creditAmount: credit,
+        marketFeePercent: fee,
+        timings: { msTotal: Date.now() - t0 }
+      }
+    };
+
+    log(`[SELLSTART] Success | ${username} token=${token} | oid=${oid}`);
+
+  } catch (err) {
+    const e =
+      (err && typeof err === "object" && ("code" in err) && ("message" in err))
+        ? err
+        : mkError("SELL_START_FAILED", (err && err.message) ? err.message : String(err));
+
+    result = {
+      type: "sell-start-result",
+      ok: false,
+      eventId: eventId || "",
+      platform,
+      username,
+      error: e,
+      data: { timings: { msTotal: Date.now() - t0 } }
+    };
+
+    log(`[SELLSTART] Error | ${e.code} - ${e.message}`);
+  }
+
+  dualAck(result);
+  done();
 }

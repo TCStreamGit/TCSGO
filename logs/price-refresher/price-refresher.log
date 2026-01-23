@@ -1,0 +1,131 @@
+2026-01-23 13:35:16,926 | INFO | Price Refresher Starting.
+2026-01-23 13:35:16,926 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 13:35:17,221 | INFO | USD->CAD FXUSDCAD=1.379800
+2026-01-23 13:35:17,221 | ERROR | Unhandled Error: name 'user_agent' is not defined
+2026-01-23 13:35:17,222 | ERROR | Traceback (most recent call last):
+  File "A:\Development\Version Control\Github\TCSGO\services\price-refresher.py", line 623, in refresh_once
+    user_agent=user_agent,
+               ^^^^^^^^^^
+NameError: name 'user_agent' is not defined
+
+2026-01-23 13:39:23,675 | INFO | Price Refresher Starting.
+2026-01-23 13:39:23,676 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 13:39:23,886 | INFO | USD->CAD FXUSDCAD=1.379800
+2026-01-23 13:39:23,886 | WARNING | Case Market Hash Missing: chroma-case
+2026-01-23 13:39:23,886 | WARNING | Case Market Hash Missing: chroma-2-case
+2026-01-23 13:39:23,886 | WARNING | Case Market Hash Missing: chroma-3-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: clutch-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: cs20-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: csgo-weapon-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: csgo-weapon-case-2
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: csgo-weapon-case-3
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: danger-zone-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: dreams-nightmares-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: esports-2013-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: esports-2013-winter-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: esports-2014-summer-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: falchion-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: fever-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: fracture-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: gallery-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: gamma-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: gamma-2-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: glove-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: horizon-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: huntsman-weapon-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: kilowatt-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-bravo-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-breakout-weapon-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-broken-fang-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-hydra-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-phoenix-weapon-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-riptide-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-vanguard-weapon-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-wildfire-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: shattered-web-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: prisma-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: prisma-2-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: recoil-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: revolution-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: revolver-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: shadow-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: snakebite-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: spectrum-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: spectrum-2-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: winter-offensive-weapon-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: anubis-collection-package
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: x-ray-p250-package
+2026-01-23 13:39:23,889 | WARNING | Key Market Hash Missing: default
+2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): ak-47-steel-delta
+2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): awp-black-nile
+2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): mag-7-copper-coated
+2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): tec-9-mummys-rot
+2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): mac-10-echoing-sands
+2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): m4a1-s-mud-spec
+2026-01-23 13:39:23,890 | WARNING | Unknown ItemId (No displayName Found): ssg-08-azure-glyph
+2026-01-23 13:39:23,890 | WARNING | Unknown ItemId (No displayName Found): usp-s-desert-tactical
+2026-01-23 13:39:23,890 | WARNING | Unknown ItemId (No displayName Found): aug-snake-pit
+2026-01-23 13:39:23,890 | WARNING | Unknown ItemId (No displayName Found): m249-submerged
+2026-01-23 13:39:23,890 | INFO | Summary | Cases 0/44 Updated | Keys 0/1 Updated | Items 0/10 Updated | Steam Ok/Fail 0/0 | CSFloat Ok/Fail 0/0
+2026-01-23 13:39:23,890 | INFO | Dry Run Enabled; No Files Were Written.
+2026-01-23 13:43:51,062 | INFO | Price Refresher Starting.
+2026-01-23 13:43:51,062 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 13:43:51,312 | INFO | USD->CAD FXUSDCAD=1.379800
+2026-01-23 13:43:51,602 | INFO | Case Price Changed | chroma-case | 2.00 -> 8.58
+2026-01-23 13:43:54,325 | INFO | Case Price Changed | chroma-2-case | 1.50 -> 7.00
+2026-01-23 13:43:57,259 | INFO | Case Price Changed | chroma-3-case | 1.25 -> 6.53
+2026-01-23 13:43:59,834 | INFO | Case Price Changed | clutch-case | 1.00 -> 1.58
+2026-01-23 13:44:03,225 | INFO | Case Price Changed | cs20-case | 0.75 -> 2.40
+2026-01-23 13:44:06,654 | INFO | Case Price Changed | csgo-weapon-case | 15.00 -> 192.04
+2026-01-23 13:44:10,039 | INFO | Case Price Changed | csgo-weapon-case-2 | 12.00 -> 26.23
+2026-01-23 13:44:12,645 | INFO | Case Price Changed | csgo-weapon-case-3 | 10.00 -> 21.64
+2026-01-23 13:44:15,307 | INFO | Case Price Changed | danger-zone-case | 1.50 -> 2.75
+2026-01-23 13:44:15,307 | WARNING | Case Market Hash Missing: dreams-nightmares-case
+2026-01-23 13:44:18,341 | INFO | Case Price Changed | esports-2013-case | 8.00 -> 94.57
+2026-01-23 13:44:21,591 | INFO | Case Price Changed | esports-2013-winter-case | 6.00 -> 20.47
+2026-01-23 13:44:24,495 | INFO | Case Price Changed | esports-2014-summer-case | 5.00 -> 19.62
+2026-01-23 13:44:27,622 | INFO | Case Price Changed | falchion-case | 1.75 -> 3.43
+2026-01-23 13:44:30,666 | INFO | Case Price Changed | fever-case | 3.00 -> 1.35
+2026-01-23 13:44:34,070 | INFO | Case Price Changed | fracture-case | 1.25 -> 0.99
+2026-01-23 13:44:36,994 | INFO | Case Price Changed | gallery-case | 2.00 -> 2.04
+2026-01-23 13:44:40,417 | INFO | Case Price Changed | gamma-case | 2.00 -> 6.59
+2026-01-23 13:44:43,442 | INFO | Case Price Changed | gamma-2-case | 1.50 -> 6.38
+2026-01-23 13:44:46,590 | INFO | Case Price Changed | glove-case | 3.50 -> 29.31
+2026-01-23 13:44:49,368 | INFO | Case Price Changed | horizon-case | 1.25 -> 3.11
+2026-01-23 13:44:52,440 | INFO | Case Price Changed | huntsman-weapon-case | 3.00 -> 17.36
+2026-01-23 13:44:55,325 | INFO | Case Price Changed | kilowatt-case | 4.00 -> 0.45
+2026-01-23 13:44:58,430 | INFO | Case Price Changed | operation-bravo-case | 25.00 -> 88.41
+2026-01-23 13:45:01,669 | INFO | Case Price Changed | operation-breakout-weapon-case | 4.00 -> 16.72
+2026-01-23 13:45:04,287 | INFO | Case Price Changed | operation-broken-fang-case | 2.50 -> 14.38
+2026-01-23 13:45:07,168 | INFO | Case Price Changed | operation-hydra-case | 8.00 -> 61.56
+2026-01-23 13:45:10,484 | INFO | Case Price Changed | operation-phoenix-weapon-case | 5.00 -> 8.16
+2026-01-23 13:45:13,324 | INFO | Case Price Changed | operation-riptide-case | 2.00 -> 25.12
+2026-01-23 13:45:16,303 | INFO | Case Price Changed | operation-vanguard-weapon-case | 4.50 -> 8.38
+2026-01-23 13:45:18,952 | INFO | Case Price Changed | operation-wildfire-case | 6.00 -> 6.60
+2026-01-23 13:45:21,713 | INFO | Case Price Changed | shattered-web-case | 3.00 -> 11.74
+2026-01-23 13:45:24,983 | INFO | Case Price Changed | prisma-case | 1.25 -> 2.75
+2026-01-23 13:45:27,750 | INFO | Case Price Changed | prisma-2-case | 1.00 -> 2.85
+2026-01-23 13:45:30,667 | INFO | Case Price Changed | recoil-case | 1.50 -> 0.53
+2026-01-23 13:45:33,702 | INFO | Case Price Changed | revolution-case | 2.00 -> 0.54
+2026-01-23 13:45:36,901 | INFO | Case Price Changed | revolver-case | 2.50 -> 5.54
+2026-01-23 13:45:39,617 | INFO | Case Price Changed | shadow-case | 1.75 -> 3.21
+2026-01-23 13:45:42,636 | INFO | Case Price Changed | snakebite-case | 2.00 -> 1.20
+2026-01-23 13:45:45,564 | INFO | Case Price Changed | spectrum-case | 2.00 -> 7.40
+2026-01-23 13:45:48,658 | INFO | Case Price Changed | spectrum-2-case | 1.50 -> 6.26
+2026-01-23 13:46:02,377 | INFO | Case Price Changed | winter-offensive-weapon-case | 6.00 -> 16.31
+2026-01-23 13:46:05,114 | INFO | Case Price Changed | anubis-collection-package | 5.00 -> 4.18
+2026-01-23 13:46:08,375 | INFO | Case Price Changed | x-ray-p250-package | 2.00 -> 3.39
+2026-01-23 13:46:11,511 | INFO | Key Price Changed | default | 3.50 -> 10.97
+2026-01-23 13:46:14,859 | INFO | Item Price Changed | ak-47-steel-delta|Field-Tested|0|None | 3.13 -> 4.30
+2026-01-23 13:46:18,076 | INFO | Item Price Changed | awp-black-nile|Field-Tested|0|None | 4.87 -> 6.51
+2026-01-23 13:46:21,205 | INFO | Item Price Changed | mag-7-copper-coated|Field-Tested|0|None | 3.21 -> 3.97
+2026-01-23 13:46:24,460 | INFO | Item Price Changed | tec-9-mummys-rot|Field-Tested|0|None | 3.44 -> 4.53
+2026-01-23 13:46:27,565 | INFO | Item Price Changed | mac-10-echoing-sands|Field-Tested|0|None | 0.41 -> 0.57
+2026-01-23 13:46:30,774 | INFO | Item Price Changed | m4a1-s-mud-spec|Field-Tested|0|None | 0.48 -> 0.74
+2026-01-23 13:46:33,437 | INFO | Item Price Changed | ssg-08-azure-glyph|Field-Tested|0|None | 0.41 -> 0.59
+2026-01-23 13:46:36,637 | INFO | Item Price Changed | usp-s-desert-tactical|Field-Tested|0|None | 0.44 -> 0.61
+2026-01-23 13:46:39,681 | INFO | Item Price Changed | aug-snake-pit|Field-Tested|0|None | 0.07 -> 0.09
+2026-01-23 13:46:42,809 | INFO | Item Price Changed | m249-submerged|Field-Tested|0|None | 0.05 -> 0.07
+2026-01-23 13:46:42,809 | INFO | Progress | Items 10/10 | Updated=10 | Skipped=0
+2026-01-23 13:46:42,810 | INFO | Summary | Cases 43/44 Updated | Keys 1/1 Updated | Items 10/10 Updated | Steam Ok/Fail 54/0 | CSFloat Ok/Fail 0/0
+2026-01-23 13:46:42,810 | INFO | Dry Run Enabled; No Files Were Written.

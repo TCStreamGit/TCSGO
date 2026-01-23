@@ -1,369 +1,368 @@
-/**
- * TCSGO Commit: Open Case
- * ========================
- * Lumia Custom Command - Correct Pattern
- */
+async function () {
+  "use strict";
 
-async function() {
-    const TCSGO_BASE = 'A:\\Development\\Version Control\\Github\\TCSGO';
+  const TCSGO_BASE = "A:\\Development\\Version Control\\Github\\TCSGO";
+  const CODE_ID = "tcsgo-controller";
+  const ACK_VAR = "tcsgo_last_event_json";
+  const TRADE_LOCK_DAYS = 7;
+  const WEAR_TABLE = [
+    { name: "Factory New", weight: 3 },
+    { name: "Minimal Wear", weight: 24 },
+    { name: "Field-Tested", weight: 33 },
+    { name: "Well-Worn", weight: 24 },
+    { name: "Battle-Scarred", weight: 16 }
+  ];
+  const WEAR_TOTAL = WEAR_TABLE.reduce((s, w) => s + w.weight, 0);
 
-    const CONFIG = {
-        basePath: TCSGO_BASE,
-        paths: { 
-            inventories: 'data/inventories.json', 
-            aliases: 'data/case-aliases.json', 
-            prices: 'data/prices.json', 
-            caseOdds: 'Case-Odds' 
-        },
-        tradeLockDays: 7,
-        wearTable: [
-            { name: 'Factory New', weight: 3 }, 
-            { name: 'Minimal Wear', weight: 24 }, 
-            { name: 'Field-Tested', weight: 33 }, 
-            { name: 'Well-Worn', weight: 24 }, 
-            { name: 'Battle-Scarred', weight: 16 }
-        ]
-    };
-    
-    const WEAR_TOTAL = CONFIG.wearTable.reduce((s, w) => s + w.weight, 0);
+  // ============================================================
+  // HELPERS
+  // ============================================================
 
-    function buildPath(rel) { 
-        const b = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, ''); 
-        const r = rel.replace(/\\/g, '/').replace(/^\//, ''); 
-        return b ? `${b}/${r}` : r; 
+  function lowerTrim(raw) {
+    return String(raw ?? "").trim().toLowerCase();
+  }
+
+  function normSite(raw) {
+    const s = String(raw ?? "").toLowerCase();
+    if (s.includes("tiktok")) return "tiktok";
+    if (s.includes("youtube")) return "youtube";
+    if (s.includes("twitch")) return "twitch";
+    if (s.includes("kick")) return "kick";
+    return s || "twitch";
+  }
+
+  function joinPath(base, rel) {
+    const b = String(base ?? "").replace(/[\\/]+$/g, "");
+    const r = String(rel ?? "").replace(/^[\\/]+/g, "");
+    return `${b}\\${r}`.replace(/\//g, "\\");
+  }
+
+  function mkError(code, message) {
+    return { code: String(code || "ERROR"), message: String(message || "Unknown Error") };
+  }
+
+  function dualAck(payloadObj) {
+    const payloadStr = JSON.stringify(payloadObj);
+
+    try {
+      overlaySendCustomContent({ codeId: CODE_ID, content: payloadStr });
+    } catch (_) {}
+
+    try {
+      setVariable({ name: ACK_VAR, value: payloadStr, global: true });
+    } catch (_) {}
+
+    try { log(payloadStr); } catch (_) {}
+  }
+
+  async function safeReadJson(fullPath, fallbackObj = null) {
+    try {
+      const raw = await readFile(fullPath);
+      const txt = String(raw ?? "");
+      return JSON.parse(txt);
+    } catch (e) {
+      return fallbackObj;
+    }
+  }
+
+  function normalizeNewlines(raw) {
+    return String(raw ?? "").replace(/\r\n/g, "\n");
+  }
+
+  async function verifyWrite(path, content) {
+    const verify = await readFile(path);
+    if (normalizeNewlines(verify) !== normalizeNewlines(content)) {
+      throw new Error("Write Verification Failed");
+    }
+  }
+
+  async function safeWriteFile(path, content) {
+    // Prefer the command-style signature first to avoid worker errors.
+    const attempts = [
+      () => writeFile({ path, message: content, append: false }),
+      () => writeFile(path, content)
+    ];
+
+    let lastErr = null;
+
+    for (const attempt of attempts) {
+      try {
+        await attempt();
+        await verifyWrite(path, content);
+        return true;
+      } catch (e) {
+        lastErr = e;
+      }
     }
 
-    async function loadJson(rel) { 
-        try { 
-            return JSON.parse(await readFile(buildPath(rel))); 
-        } catch (e) { 
-            log(`[TCSGO] loadJson: ${e.message}`); 
-            return null; 
-        } 
+    log(`[WriteFile] Error | path=${path} | ${lastErr?.message ?? lastErr}`);
+    return false;
+  }
+
+  async function safeWriteJson(fullPath, obj) {
+    const out = JSON.stringify(obj, null, 2) + "\n";
+    const ok = await safeWriteFile(fullPath, out);
+    if (!ok) throw new Error("Write Failed (All Methods)");
+  }
+
+  function removeCases(u, id, q) {
+    const c = u.cases[id] || 0;
+    if (c < q) return false;
+    u.cases[id] = c - q;
+    if (!u.cases[id]) delete u.cases[id];
+    return true;
+  }
+
+  function removeKeys(u, id, q) {
+    const c = u.keys[id] || 0;
+    if (c < q) return false;
+    u.keys[id] = c - q;
+    if (!u.keys[id]) delete u.keys[id];
+    return true;
+  }
+
+  function generateOid() {
+    return `oid_${Date.now().toString(36)}_${Math.random().toString(36).substring(2, 11)}`;
+  }
+
+  function enforceLock(at) {
+    return new Date(new Date(at).getTime() + TRADE_LOCK_DAYS * 86400000).toISOString();
+  }
+
+  function rollWear() {
+    let r = Math.random() * WEAR_TOTAL;
+    for (const w of WEAR_TABLE) {
+      r -= w.weight;
+      if (r <= 0) return w.name;
+    }
+    return WEAR_TABLE[0].name;
+  }
+
+  function rollCaseFromJson(cj) {
+    const cd = cj.case, unit = BigInt(cj.unit?.scale || 1e12), ow = cd.oddsWeights || {};
+    const tr = BigInt(Math.floor(Math.random() * Number(unit)));
+    let cum = 0n, selTier = null;
+
+    for (const [t, w] of Object.entries(ow)) {
+      cum += BigInt(w);
+      if (tr < cum) {
+        selTier = t;
+        break;
+      }
     }
 
-    async function saveJson(rel, data) { 
-        try { 
-            await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); 
-            return true; 
-        } catch (e) { 
-            log(`[TCSGO] saveJson: ${e.message}`); 
-            return false; 
-        } 
+    if (!selTier) selTier = Object.keys(ow)[0];
+
+    let items = selTier === "gold" && cd.goldPool?.items ? cd.goldPool.items : cd.tiers?.[selTier] || [];
+    if (!items.length) return null;
+
+    const iw = items.map(i => ({ item: i, weight: BigInt(i.weights?.base || 1) }));
+    const tt = iw.reduce((s, x) => s + x.weight, 0n), ir = BigInt(Math.floor(Math.random() * Number(tt)));
+    let ic = 0n, si = items[0];
+
+    for (const { item, weight } of iw) {
+      ic += weight;
+      if (ir < ic) {
+        si = item;
+        break;
+      }
     }
 
-    function buildUserKey(p, u) { 
-        return `${p.toLowerCase()}:${u.toLowerCase()}`; 
+    let st = false;
+    if (si.statTrakEligible && cd.supportsStatTrak) {
+      const sw = BigInt(si.weights?.statTrak || 0), nw = BigInt(si.weights?.nonStatTrak || 0), tw = sw + nw;
+      if (tw > 0n && sw > 0n) {
+        st = BigInt(Math.floor(Math.random() * Number(tw))) < sw;
+      }
     }
 
-    function getOrCreateUser(inv, key) { 
-        if (!inv.users[key]) {
-            inv.users[key] = { 
-                userKey: key, 
-                createdAt: new Date().toISOString(), 
-                chosenCoins: 0, 
-                cases: {}, 
-                keys: {}, 
-                items: [], 
-                pendingSell: null 
-            }; 
-        }
-        return inv.users[key]; 
-    }
+    return { item: si, tier: selTier, statTrak: st, wear: rollWear() };
+  }
 
-    function removeCases(u, id, q) { 
-        const c = u.cases[id] || 0; 
-        if (c < q) return false; 
-        u.cases[id] = c - q; 
-        if (!u.cases[id]) delete u.cases[id]; 
-        return true; 
-    }
+  function selectRandomImage(item) {
+    const imgs = [item.image, ...(item.imageAlternates || [])].filter(Boolean);
+    return imgs.length ? imgs[Math.floor(Math.random() * imgs.length)] : null;
+  }
 
-    function removeKeys(u, id, q) { 
-        const c = u.keys[id] || 0; 
-        if (c < q) return false; 
-        u.keys[id] = c - q; 
-        if (!u.keys[id]) delete u.keys[id]; 
-        return true; 
-    }
+  function getPriceSnapshot(pr, item, wear, st) {
+    const r = item.rarity || "mil-spec", fb = pr.rarityFallbackPrices?.[r];
+    if (!fb) return { cad: 0.1, chosenCoins: 100 };
+    let c = fb.cad * (pr.wearMultipliers?.[wear] || 1);
+    if (st) c *= pr.statTrakMultiplier || 2;
+    return { cad: Math.round(c * 100) / 100, chosenCoins: Math.round(c * pr.cadToCoins) };
+  }
 
-    function generateOid() { 
-        return `oid_${Date.now().toString(36)}_${Math.random().toString(36).substring(2, 11)}`; 
-    }
+  // ============================================================
+  // INPUTS (From Overlay.callCommand)
+  // ============================================================
 
-    function enforceLock(at) { 
-        return new Date(new Date(at).getTime() + CONFIG.tradeLockDays * 86400000).toISOString(); 
-    }
+  const t0 = Date.now();
 
-    function rollWear() { 
-        let r = Math.random() * WEAR_TOTAL; 
-        for (const w of CONFIG.wearTable) { 
-            r -= w.weight; 
-            if (r <= 0) return w.name; 
-        } 
-        return CONFIG.wearTable[0].name; 
-    }
+  const eventId = String(await getVariable("eventId") ?? "");
+  const platform = normSite(String(await getVariable("platform") ?? "twitch"));
+  const username = String(await getVariable("username") ?? "");
+  const alias = String(await getVariable("alias") ?? "");
 
-    function rollCaseFromJson(cj) {
-        const cd = cj.case, unit = BigInt(cj.unit?.scale || 1e12), ow = cd.oddsWeights || {};
-        const tr = BigInt(Math.floor(Math.random() * Number(unit)));
-        let cum = 0n, selTier = null;
-        
-        for (const [t, w] of Object.entries(ow)) { 
-            cum += BigInt(w); 
-            if (tr < cum) { 
-                selTier = t; 
-                break; 
-            } 
-        }
-        
-        if (!selTier) selTier = Object.keys(ow)[0];
-        
-        let items = selTier === 'gold' && cd.goldPool?.items ? cd.goldPool.items : cd.tiers?.[selTier] || [];
-        if (!items.length) return null;
-        
-        const iw = items.map(i => ({ item: i, weight: BigInt(i.weights?.base || 1) }));
-        const tt = iw.reduce((s, x) => s + x.weight, 0n), ir = BigInt(Math.floor(Math.random() * Number(tt)));
-        let ic = 0n, si = items[0];
-        
-        for (const { item, weight } of iw) { 
-            ic += weight; 
-            if (ir < ic) { 
-                si = item; 
-                break; 
-            } 
-        }
-        
-        let st = false;
-        if (si.statTrakEligible && cd.supportsStatTrak) { 
-            const sw = BigInt(si.weights?.statTrak || 0), nw = BigInt(si.weights?.nonStatTrak || 0), tw = sw + nw; 
-            if (tw > 0n && sw > 0n) {
-                st = BigInt(Math.floor(Math.random() * Number(tw))) < sw; 
-            }
-        }
-        
-        return { item: si, tier: selTier, statTrak: st, wear: rollWear() };
-    }
+  log(`[OPEN] Vars | eventId=${eventId} | platform=${platform} | username=${username} | alias=${alias}`);
 
-    function selectRandomImage(item) { 
-        const imgs = [item.image, ...(item.imageAlternates || [])].filter(Boolean); 
-        return imgs.length ? imgs[Math.floor(Math.random() * imgs.length)] : null; 
-    }
+  let result;
 
-    function getPriceSnapshot(pr, item, wear, st) { 
-        const r = item.rarity || 'mil-spec', fb = pr.rarityFallbackPrices?.[r]; 
-        if (!fb) return { cad: 0.1, chosenCoins: 100 }; 
-        let c = fb.cad * (pr.wearMultipliers?.[wear] || 1); 
-        if (st) c *= pr.statTrakMultiplier || 2; 
-        return { cad: Math.round(c * 100) / 100, chosenCoins: Math.round(c * pr.cadToCoins) }; 
-    }
+  try {
+    if (!eventId) throw mkError("MISSING_EVENT_ID", "Missing eventId.");
+    if (!username) throw mkError("MISSING_USERNAME", "Missing username.");
+    if (!alias) throw mkError("MISSING_ALIAS", "Missing alias.");
 
-    function successResponse(t, d) { 
-        return { type: t, ok: true, timestamp: new Date().toISOString(), data: d }; 
-    }
+    const aliasesPath = joinPath(TCSGO_BASE, "data\\case-aliases.json");
+    const invPath = joinPath(TCSGO_BASE, "data\\inventories.json");
+    const pricesPath = joinPath(TCSGO_BASE, "data\\prices.json");
 
-    function errorResponse(t, c, m, det = null) { 
-        return { type: t, ok: false, timestamp: new Date().toISOString(), error: { code: c, message: m, details: det } }; 
-    }
-
-    // =========================================================================
-    // MAIN LOGIC
-    // =========================================================================
-
-    const RT = 'open-result';
-    const platform = '{{platform}}' !== '{{' + 'platform}}' ? '{{platform}}' : 'twitch';
-    const username = '{{username}}' !== '{{' + 'username}}' ? '{{username}}' : null;
-    const alias = '{{alias}}' !== '{{' + 'alias}}' ? '{{alias}}' : '{{message}}';
-    
-    if (!username) { 
-        const err = errorResponse(RT, 'MISSING_USERNAME', 'Username required');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
-    if (!alias) { 
-        const err = errorResponse(RT, 'MISSING_ALIAS', 'Alias required');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
-    const [aliasData, inv, prices] = await Promise.all([
-        loadJson(CONFIG.paths.aliases), 
-        loadJson(CONFIG.paths.inventories), 
-        loadJson(CONFIG.paths.prices)
+    const [aliasDb, inv, prices] = await Promise.all([
+      safeReadJson(aliasesPath, null),
+      safeReadJson(invPath, null),
+      safeReadJson(pricesPath, null)
     ]);
-    
-    if (!aliasData || !inv || !prices) { 
-        const err = errorResponse(RT, 'LOAD_ERROR', 'Failed to load data');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
+
+    if (!aliasDb || !inv || !prices) throw mkError("LOAD_ERROR", "Failed to load data.");
+
+    const aliasKey = lowerTrim(alias);
+    const ca = aliasDb?.aliases?.[aliasKey];
+    if (!ca) throw mkError("UNKNOWN_ALIAS", `Unknown: ${aliasKey}`);
+
+    const caseId = String(ca.caseId || "");
+    const displayName = String(ca.displayName || ca.name || caseId || aliasKey);
+    const requiresKey = !!ca.requiresKey;
+    const filename = String(ca.filename || "");
+
+    if (!caseId) throw mkError("BAD_ALIAS_RECORD", `Alias Missing caseId: ${aliasKey}`);
+    if (!filename) throw mkError("CASE_NOT_FOUND", `Missing filename for alias: ${aliasKey}`);
+
+    if (!inv.users || typeof inv.users !== "object") inv.users = {};
+
+    const userKey = `${lowerTrim(username)}:${lowerTrim(platform)}`;
+
+    if (!inv.users[userKey]) {
+      inv.users[userKey] = {
+        platform,
+        username,
+        cases: {},
+        keys: {},
+        items: [],
+        pendingSell: null
+      };
     }
-    
-    const ca = aliasData.aliases[alias.toLowerCase().trim()];
-    if (!ca) { 
-        const err = errorResponse(RT, 'UNKNOWN_ALIAS', `Unknown: ${alias}`);
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
+
+    const user = inv.users[userKey];
+    if (!user.cases || typeof user.cases !== "object") user.cases = {};
+    if (!user.keys || typeof user.keys !== "object") user.keys = {};
+    if (!Array.isArray(user.items)) user.items = [];
+
+    if ((user.cases[caseId] || 0) < 1) {
+      throw mkError("NO_CASE", `No ${displayName}`);
     }
-    
-    const { caseId, requiresKey, filename } = ca;
-    const keyId = 'csgo-case-key';
-    const userKey = buildUserKey(platform, username);
-    const user = getOrCreateUser(inv, userKey);
-    
-    if ((user.cases[caseId] || 0) < 1) { 
-        const err = errorResponse(RT, 'NO_CASE', `No ${ca.displayName}`);
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
+
+    const keyId = "csgo-case-key";
+    if (requiresKey && (user.keys[keyId] || 0) < 1) {
+      throw mkError("NO_KEY", "Key required");
     }
-    
-    if (requiresKey && (user.keys[keyId] || 0) < 1) { 
-        const err = errorResponse(RT, 'NO_KEY', 'Key required');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
-    const caseJson = await loadJson(`${CONFIG.paths.caseOdds}/${filename}`);
-    if (!caseJson) { 
-        const err = errorResponse(RT, 'CASE_NOT_FOUND', `Load failed: ${filename}`);
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
+
+    const caseJsonPath = joinPath(TCSGO_BASE, `Case-Odds\\${filename}`);
+    const caseJson = await safeReadJson(caseJsonPath, null);
+    if (!caseJson) throw mkError("CASE_NOT_FOUND", `Load failed: ${filename}`);
+
     const roll = rollCaseFromJson(caseJson);
-    if (!roll) { 
-        const err = errorResponse(RT, 'ROLL_ERROR', 'Roll failed');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
+    if (!roll) throw mkError("ROLL_ERROR", "Roll failed");
+
+    if (!removeCases(user, caseId, 1)) {
+      throw mkError("CONSUME_ERROR", "Case consume failed");
     }
-    
-    if (!removeCases(user, caseId, 1)) { 
-        const err = errorResponse(RT, 'CONSUME_ERROR', 'Case consume failed');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
+
+    if (requiresKey && !removeKeys(user, keyId, 1)) {
+      // Rollback case consumption
+      user.cases[caseId] = (user.cases[caseId] || 0) + 1;
+      throw mkError("CONSUME_ERROR", "Key consume failed");
     }
-    
-    if (requiresKey && !removeKeys(user, keyId, 1)) { 
-        // Rollback case consumption
-        user.cases[caseId] = (user.cases[caseId] || 0) + 1; 
-        const err = errorResponse(RT, 'CONSUME_ERROR', 'Key consume failed');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
+
     const at = new Date().toISOString();
     const ps = getPriceSnapshot(prices, roll.item, roll.wear, roll.statTrak);
-    
-    const oi = { 
-        oid: generateOid(), 
-        itemId: roll.item.itemId, 
-        displayName: roll.item.displayName, 
-        rarity: roll.item.rarity, 
-        tier: roll.tier, 
-        category: roll.item.category || 'weapon', 
-        weapon: roll.item.weapon, 
-        skin: roll.item.skin, 
-        variant: roll.item.variant || 'None', 
-        statTrak: roll.statTrak, 
-        wear: roll.wear, 
-        acquiredAt: at, 
-        lockedUntil: enforceLock(at), 
-        fromCaseId: caseId, 
-        priceSnapshot: ps, 
-        imagePath: selectRandomImage(roll.item) 
+
+    const oi = {
+      oid: generateOid(),
+      itemId: roll.item.itemId,
+      displayName: roll.item.displayName,
+      rarity: roll.item.rarity,
+      tier: roll.tier,
+      category: roll.item.category || "weapon",
+      weapon: roll.item.weapon,
+      skin: roll.item.skin,
+      variant: roll.item.variant || "None",
+      statTrak: roll.statTrak,
+      wear: roll.wear,
+      acquiredAt: at,
+      lockedUntil: enforceLock(at),
+      fromCaseId: caseId,
+      priceSnapshot: ps,
+      imagePath: selectRandomImage(roll.item)
     };
-    
+
     user.items.push(oi);
     inv.lastModified = new Date().toISOString();
-    
-    if (!await saveJson(CONFIG.paths.inventories, inv)) { 
-        const err = errorResponse(RT, 'SAVE_ERROR', 'Save failed');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
-    // SUCCESS - Build final result
-    const result = successResponse(RT, { 
-        winner: { 
-            oid: oi.oid, 
-            itemId: oi.itemId, 
-            displayName: oi.displayName, 
-            rarity: oi.rarity, 
-            tier: oi.tier, 
-            category: oi.category, 
-            weapon: oi.weapon, 
-            skin: oi.skin, 
-            variant: oi.variant, 
-            statTrak: oi.statTrak, 
-            wear: oi.wear 
-        }, 
-        imagePath: oi.imagePath, 
-        priceSnapshot: ps, 
-        acquiredAt: at, 
-        lockedUntil: oi.lockedUntil, 
-        newCounts: { 
-            cases: { ...user.cases }, 
-            keys: { ...user.keys } 
-        } 
-    });
-    
-    // DUAL-RECEIVE: Send via both event system and variable polling
-    const payloadStr = JSON.stringify(result);
-    
-    overlaySendCustomContent({
-        codeId: 'tcsgo-controller',
-        content: payloadStr
-    });
-    
-    setVariable({
-        name: 'tcsgo_last_event_json',
-        value: payloadStr
-    });
-    
-    log(payloadStr);
-    done();
+
+    await safeWriteJson(invPath, inv);
+
+    result = {
+      type: "open-result",
+      ok: true,
+      eventId,
+      platform,
+      username,
+      data: {
+        eventId,
+        winner: {
+          oid: oi.oid,
+          itemId: oi.itemId,
+          displayName: oi.displayName,
+          rarity: oi.rarity,
+          tier: oi.tier,
+          category: oi.category,
+          weapon: oi.weapon,
+          skin: oi.skin,
+          variant: oi.variant,
+          statTrak: oi.statTrak,
+          wear: oi.wear
+        },
+        imagePath: oi.imagePath,
+        priceSnapshot: ps,
+        acquiredAt: at,
+        lockedUntil: oi.lockedUntil,
+        newCounts: {
+          cases: { ...user.cases },
+          keys: { ...user.keys }
+        },
+        timings: { msTotal: Date.now() - t0 }
+      }
+    };
+
+    log(`[OPEN] Success | ${username} Opened ${oi.displayName} | oid=${oi.oid}`);
+
+  } catch (err) {
+    const e =
+      (err && typeof err === "object" && ("code" in err) && ("message" in err))
+        ? err
+        : mkError("OPEN_FAILED", (err && err.message) ? err.message : String(err));
+
+    result = {
+      type: "open-result",
+      ok: false,
+      eventId: eventId || "",
+      platform,
+      username,
+      error: e,
+      data: { timings: { msTotal: Date.now() - t0 } }
+    };
+
+    log(`[OPEN] Error | ${e.code} - ${e.message}`);
+  }
+
+  dualAck(result);
+  done();
 }

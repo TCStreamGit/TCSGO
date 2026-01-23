@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0-inventories",
-  "lastModified": "2026-01-21T00:00:00Z",
+  "lastModified": "2026-01-23T20:56:26.286Z",
   "users": {
     "tanchosenlive:twitch": {
       "platform": "twitch",
@@ -8,7 +8,9 @@
       "cases": {
         "cs20-case": 2
       },
-      "keys": {},
+      "keys": {
+        "csgo-case-key": 4
+      },
       "items": [],
       "pendingSell": null
     }

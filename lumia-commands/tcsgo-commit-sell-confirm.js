@@ -1,195 +1,204 @@
-/**
- * TCSGO Commit: Sell Confirm
- * ===========================
- * Lumia Custom Command - Correct Pattern
- */
+async function () {
+  "use strict";
 
-async function() {
-    const TCSGO_BASE = 'A:\\Development\\Version Control\\Github\\TCSGO';
+  const TCSGO_BASE = "A:\\Development\\Version Control\\Github\\TCSGO";
+  const CODE_ID = "tcsgo-controller";
+  const ACK_VAR = "tcsgo_last_event_json";
 
-    const CONFIG = {
-        basePath: TCSGO_BASE,
-        paths: { inventories: 'data/inventories.json', prices: 'data/prices.json' }
-    };
+  // ============================================================
+  // HELPERS
+  // ============================================================
 
-    function buildPath(rel) { 
-        const b = CONFIG.basePath.replace(/\\/g, '/').replace(/\/$/, ''); 
-        const r = rel.replace(/\\/g, '/').replace(/^\//, ''); 
-        return b ? `${b}/${r}` : r; 
+  function lowerTrim(raw) {
+    return String(raw ?? "").trim().toLowerCase();
+  }
+
+  function normSite(raw) {
+    const s = String(raw ?? "").toLowerCase();
+    if (s.includes("tiktok")) return "tiktok";
+    if (s.includes("youtube")) return "youtube";
+    if (s.includes("twitch")) return "twitch";
+    if (s.includes("kick")) return "kick";
+    return s || "twitch";
+  }
+
+  function joinPath(base, rel) {
+    const b = String(base ?? "").replace(/[\\/]+$/g, "");
+    const r = String(rel ?? "").replace(/^[\\/]+/g, "");
+    return `${b}\\${r}`.replace(/\//g, "\\");
+  }
+
+  function mkError(code, message) {
+    return { code: String(code || "ERROR"), message: String(message || "Unknown Error") };
+  }
+
+  function dualAck(payloadObj) {
+    const payloadStr = JSON.stringify(payloadObj);
+
+    try {
+      overlaySendCustomContent({ codeId: CODE_ID, content: payloadStr });
+    } catch (_) {}
+
+    try {
+      setVariable({ name: ACK_VAR, value: payloadStr, global: true });
+    } catch (_) {}
+
+    try { log(payloadStr); } catch (_) {}
+  }
+
+  async function safeReadJson(fullPath, fallbackObj = null) {
+    try {
+      const raw = await readFile(fullPath);
+      const txt = String(raw ?? "");
+      return JSON.parse(txt);
+    } catch (e) {
+      return fallbackObj;
+    }
+  }
+
+  function normalizeNewlines(raw) {
+    return String(raw ?? "").replace(/\r\n/g, "\n");
+  }
+
+  async function verifyWrite(path, content) {
+    const verify = await readFile(path);
+    if (normalizeNewlines(verify) !== normalizeNewlines(content)) {
+      throw new Error("Write Verification Failed");
+    }
+  }
+
+  async function safeWriteFile(path, content) {
+    // Prefer the command-style signature first to avoid worker errors.
+    const attempts = [
+      () => writeFile({ path, message: content, append: false }),
+      () => writeFile(path, content)
+    ];
+
+    let lastErr = null;
+
+    for (const attempt of attempts) {
+      try {
+        await attempt();
+        await verifyWrite(path, content);
+        return true;
+      } catch (e) {
+        lastErr = e;
+      }
     }
 
-    async function loadJson(rel) { 
-        try { 
-            return JSON.parse(await readFile(buildPath(rel))); 
-        } catch (e) { 
-            log(`[TCSGO] loadJson: ${e.message}`); 
-            return null; 
-        } 
-    }
+    log(`[WriteFile] Error | path=${path} | ${lastErr?.message ?? lastErr}`);
+    return false;
+  }
 
-    async function saveJson(rel, data) { 
-        try { 
-            await writeFile(buildPath(rel), JSON.stringify(data, null, 2)); 
-            return true; 
-        } catch (e) { 
-            log(`[TCSGO] saveJson: ${e.message}`); 
-            return false; 
-        } 
-    }
+  async function safeWriteJson(fullPath, obj) {
+    const out = JSON.stringify(obj, null, 2) + "\n";
+    const ok = await safeWriteFile(fullPath, out);
+    if (!ok) throw new Error("Write Failed (All Methods)");
+  }
 
-    function buildUserKey(p, u) { 
-        return `${p.toLowerCase()}:${u.toLowerCase()}`; 
-    }
+  // ============================================================
+  // INPUTS (From Overlay.callCommand)
+  // ============================================================
 
-    function successResponse(t, d) { 
-        return { type: t, ok: true, timestamp: new Date().toISOString(), data: d }; 
-    }
+  const t0 = Date.now();
 
-    function errorResponse(t, c, m, det = null) { 
-        return { type: t, ok: false, timestamp: new Date().toISOString(), error: { code: c, message: m, details: det } }; 
-    }
+  const eventId = String(await getVariable("eventId") ?? "");
+  const platform = normSite(String(await getVariable("platform") ?? "twitch"));
+  const username = String(await getVariable("username") ?? "");
+  const token = String(await getVariable("token") ?? "");
 
-    // =========================================================================
-    // MAIN LOGIC
-    // =========================================================================
+  log(`[SELLCONFIRM] Vars | eventId=${eventId} | platform=${platform} | username=${username} | token=${token}`);
 
-    const RT = 'sell-confirm-result';
-    const platform = '{{platform}}' !== '{{' + 'platform}}' ? '{{platform}}' : 'twitch';
-    const username = '{{username}}' !== '{{' + 'username}}' ? '{{username}}' : null;
-    const token = '{{token}}' !== '{{' + 'token}}' ? '{{token}}' : '{{message}}';
-    
-    if (!username) { 
-        const err = errorResponse(RT, 'MISSING_USERNAME', 'Username required');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
-    if (!token) { 
-        const err = errorResponse(RT, 'MISSING_TOKEN', 'Token required');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
+  let result;
+
+  try {
+    if (!eventId) throw mkError("MISSING_EVENT_ID", "Missing eventId.");
+    if (!username) throw mkError("MISSING_USERNAME", "Missing username.");
+    if (!token) throw mkError("MISSING_TOKEN", "Missing token.");
+
+    const invPath = joinPath(TCSGO_BASE, "data\\inventories.json");
+    const pricesPath = joinPath(TCSGO_BASE, "data\\prices.json");
+
     const [inv, prices] = await Promise.all([
-        loadJson(CONFIG.paths.inventories), 
-        loadJson(CONFIG.paths.prices)
+      safeReadJson(invPath, null),
+      safeReadJson(pricesPath, {})
     ]);
-    
-    if (!inv) { 
-        const err = errorResponse(RT, 'LOAD_ERROR', 'Failed to load inventories');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
+
+    if (!inv) throw mkError("LOAD_ERROR", "Failed to load inventories.");
+
+    if (!inv.users || typeof inv.users !== "object") inv.users = {};
+
+    const user = inv.users[`${lowerTrim(username)}:${lowerTrim(platform)}`];
+    if (!user) throw mkError("USER_NOT_FOUND", "User not found");
+
+    if (!user.pendingSell) throw mkError("NO_PENDING_SELL", "No pending sell");
+
+    if (user.pendingSell.token !== token) throw mkError("INVALID_TOKEN", "Invalid token");
+
+    if (Date.now() >= new Date(user.pendingSell.expiresAt).getTime()) {
+      user.pendingSell = null;
+      throw mkError("TOKEN_EXPIRED", "Token expired");
     }
-    
-    const user = inv.users[buildUserKey(platform, username)];
-    if (!user) { 
-        const err = errorResponse(RT, 'USER_NOT_FOUND', 'User not found');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
-    if (!user.pendingSell) { 
-        const err = errorResponse(RT, 'NO_PENDING_SELL', 'No pending sell');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
-    if (user.pendingSell.token !== token) { 
-        const err = errorResponse(RT, 'INVALID_TOKEN', 'Invalid token');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
-    if (Date.now() >= new Date(user.pendingSell.expiresAt).getTime()) { 
-        user.pendingSell = null; 
-        const err = errorResponse(RT, 'TOKEN_EXPIRED', 'Token expired');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
+
+    if (!Array.isArray(user.items)) user.items = [];
+
     const oid = user.pendingSell.oid;
     const idx = user.items.findIndex(i => i.oid === oid);
-    
-    if (idx === -1) { 
-        user.pendingSell = null; 
-        const err = errorResponse(RT, 'ITEM_NOT_FOUND', 'Item gone');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
+
+    if (idx === -1) {
+      user.pendingSell = null;
+      throw mkError("ITEM_NOT_FOUND", "Item gone");
     }
-    
+
     const credit = user.pendingSell.creditAmount;
     const fee = prices?.marketFeePercent || 10;
-    
+
     user.items.splice(idx, 1);
     user.chosenCoins = (user.chosenCoins || 0) + credit;
     const soldItem = { ...user.pendingSell.itemSummary, oid };
     user.pendingSell = null;
     inv.lastModified = new Date().toISOString();
-    
-    if (!await saveJson(CONFIG.paths.inventories, inv)) { 
-        const err = errorResponse(RT, 'SAVE_ERROR', 'Save failed');
-        const errStr = JSON.stringify(err);
-        overlaySendCustomContent({ codeId: 'tcsgo-controller', content: errStr });
-        setVariable({ name: 'tcsgo_last_event_json', value: errStr });
-        log(errStr);
-        done();
-        return;
-    }
-    
-    // SUCCESS - Build final result
-    const result = successResponse(RT, { 
-        oid, 
-        item: soldItem, 
-        creditedCoins: credit, 
-        newBalance: user.chosenCoins, 
-        marketFeePercent: fee 
-    });
-    
-    // DUAL-RECEIVE: Send via both event system and variable polling
-    const payloadStr = JSON.stringify(result);
-    
-    overlaySendCustomContent({
-        codeId: 'tcsgo-controller',
-        content: payloadStr
-    });
-    
-    setVariable({
-        name: 'tcsgo_last_event_json',
-        value: payloadStr
-    });
-    
-    log(payloadStr);
-    done();
+
+    await safeWriteJson(invPath, inv);
+
+    result = {
+      type: "sell-confirm-result",
+      ok: true,
+      eventId,
+      platform,
+      username,
+      data: {
+        eventId,
+        oid,
+        item: soldItem,
+        creditedCoins: credit,
+        newBalance: user.chosenCoins,
+        marketFeePercent: fee,
+        timings: { msTotal: Date.now() - t0 }
+      }
+    };
+
+    log(`[SELLCONFIRM] Success | ${username} oid=${oid} | +${credit}`);
+
+  } catch (err) {
+    const e =
+      (err && typeof err === "object" && ("code" in err) && ("message" in err))
+        ? err
+        : mkError("SELL_CONFIRM_FAILED", (err && err.message) ? err.message : String(err));
+
+    result = {
+      type: "sell-confirm-result",
+      ok: false,
+      eventId: eventId || "",
+      platform,
+      username,
+      error: e,
+      data: { timings: { msTotal: Date.now() - t0 } }
+    };
+
+    log(`[SELLCONFIRM] Error | ${e.code} - ${e.message}`);
+  }
+
+  dualAck(result);
+  done();
 }
