@@ -30,6 +30,10 @@
     return "info";
   }
 
+  function lowerTrim(raw) {
+    return String(raw ?? "").trim().toLowerCase();
+  }
+
   function hostToast(message, type = "info") {
     if (!HOST_TOAST) return false;
 
@@ -66,6 +70,8 @@
     pollIntervalMs: 250,
     ackTimeoutMs: 3000,
     chatReplyMode: "chat",
+    chatAsSelf: false,
+    tiktokCommandName: "tiktok_chat_send",
     feePercent: 10,
     defaultKeyPriceCoins: 3500,
     codeId: "tcsgo-controller",
@@ -90,6 +96,10 @@
     cmdOpen: "open",
     cmdSell: "sell",
     cmdSellConfirm: "sellconfirm",
+    cooldownDefaultSec: 60,
+    cooldownSupporterSec: 30,
+    cooldownModSec: 45,
+    cooldownStreamerSec: 0,
     commitBuyCase: "tcsgo-commit-buycase",
     commitBuyKey: "tcsgo-commit-buykey",
     commitOpen: "tcsgo-commit-open",
@@ -211,6 +221,9 @@
   const INSTANCE_ID = `inst_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
   let IS_LEADER = true;
   const RECENT_CHAT = new Map();
+  const COMMAND_QUEUE = [];
+  let COMMAND_QUEUE_ACTIVE = false;
+  const COOLDOWN_STORE_KEY = "tcsgo_command_cooldowns_v1";
 
   // =========================================================================
   // CONFIG HELPERS
@@ -325,6 +338,8 @@
     CONFIG.baseRawUrl = cfgStrFrom(src, "baseRawUrl", DEFAULT_CONFIG.baseRawUrl);
     CONFIG.codeId = cfgStrFrom(src, "codeId", DEFAULT_CONFIG.codeId);
     CONFIG.chatReplyMode = cfgStrFrom(src, "chatReplyMode", DEFAULT_CONFIG.chatReplyMode).toLowerCase();
+    CONFIG.chatAsSelf = cfgBoolFrom(src, "chatAsSelf", DEFAULT_CONFIG.chatAsSelf);
+    CONFIG.tiktokCommandName = cfgStrFrom(src, "tiktokCommandName", DEFAULT_CONFIG.tiktokCommandName);
 
     CONFIG.pollIntervalMs = clampNum(cfgNumFrom(src, "pollIntervalMs", DEFAULT_CONFIG.pollIntervalMs), 50, 5000, DEFAULT_CONFIG.pollIntervalMs);
     CONFIG.ackTimeoutMs = clampNum(cfgNumFrom(src, "ackTimeoutMs", DEFAULT_CONFIG.ackTimeoutMs), 250, 30000, DEFAULT_CONFIG.ackTimeoutMs);
@@ -352,6 +367,10 @@
     CONFIG.cmdOpen = cfgStrFrom(src, "cmdOpen", DEFAULT_CONFIG.cmdOpen);
     CONFIG.cmdSell = cfgStrFrom(src, "cmdSell", DEFAULT_CONFIG.cmdSell);
     CONFIG.cmdSellConfirm = cfgStrFrom(src, "cmdSellConfirm", DEFAULT_CONFIG.cmdSellConfirm);
+    CONFIG.cooldownDefaultSec = clampNum(cfgNumFrom(src, "cooldownDefaultSec", DEFAULT_CONFIG.cooldownDefaultSec), 0, 86400, DEFAULT_CONFIG.cooldownDefaultSec);
+    CONFIG.cooldownSupporterSec = clampNum(cfgNumFrom(src, "cooldownSupporterSec", DEFAULT_CONFIG.cooldownSupporterSec), 0, 86400, DEFAULT_CONFIG.cooldownSupporterSec);
+    CONFIG.cooldownModSec = clampNum(cfgNumFrom(src, "cooldownModSec", DEFAULT_CONFIG.cooldownModSec), 0, 86400, DEFAULT_CONFIG.cooldownModSec);
+    CONFIG.cooldownStreamerSec = clampNum(cfgNumFrom(src, "cooldownStreamerSec", DEFAULT_CONFIG.cooldownStreamerSec), 0, 86400, DEFAULT_CONFIG.cooldownStreamerSec);
 
     CONFIG.commitBuyCase = cfgStrFrom(src, "commitBuyCase", DEFAULT_CONFIG.commitBuyCase);
     CONFIG.commitBuyKey = cfgStrFrom(src, "commitBuyKey", DEFAULT_CONFIG.commitBuyKey);
@@ -544,7 +563,7 @@
         if (debugOn("debugChatIn")) {
           const m = String(chatData?.message || "").slice(0, 140);
           debugEmit(
-            `[Chat] In | platform=${chatData?.platform || chatData?.site || ""} | user=${chatData?.username || chatData?.displayname || ""} | msg="${m}"`,
+            `[Chat] In | platform=${chatData?.origin || chatData?.platform || chatData?.site || ""} | user=${chatData?.username || chatData?.displayname || ""} | msg="${m}"`,
             "info",
             "debugChatIn"
           );
@@ -737,7 +756,7 @@
   }
 
   function shouldProcessChat(chatData) {
-    const platform = String(chatData?.platform || chatData?.site || "").toLowerCase();
+    const platform = String(chatData?.origin || chatData?.platform || chatData?.site || "").toLowerCase();
     const user = String(chatData?.username || chatData?.displayname || "").toLowerCase();
     const msg = String(chatData?.message || "").trim();
 
@@ -758,6 +777,129 @@
     return true;
   }
 
+  function formatSecsShort(totalSecs) {
+    const s = Math.max(0, Math.ceil(Number(totalSecs) || 0));
+    return `${s} Secs`;
+  }
+
+  function pickCooldownSeconds(chatData) {
+    const levels = chatData?.userLevels || {};
+    const isStreamer = !!levels.isSelf;
+    const isMod = !!levels.mod;
+    const isVip = !!levels.vip;
+    const isSub = !!levels.subscriber || !!levels.tier1 || !!levels.tier2 || !!levels.tier3;
+    const isMember = !!levels.member;
+    const isSupporter = isVip || isSub || isMember;
+
+    if (isStreamer) return Math.max(0, Number(CONFIG.cooldownStreamerSec || 0));
+    if (isMod) return Math.max(0, Number(CONFIG.cooldownModSec || 0));
+    if (isSupporter) return Math.max(0, Number(CONFIG.cooldownSupporterSec || 0));
+    return Math.max(0, Number(CONFIG.cooldownDefaultSec || 0));
+  }
+
+  async function loadCooldownStore() {
+    const raw = await safeGetStorage(COOLDOWN_STORE_KEY);
+    if (!raw) return {};
+    if (typeof raw === "object") return raw;
+    try {
+      const parsed = JSON.parse(String(raw));
+      return parsed && typeof parsed === "object" ? parsed : {};
+    } catch (_) {
+      return {};
+    }
+  }
+
+  async function saveCooldownStore(store) {
+    await safeSetStorage(COOLDOWN_STORE_KEY, JSON.stringify(store));
+  }
+
+  async function checkCommandCooldown(username, platform, commandKey, commandLabel, chatData) {
+    const cooldownSeconds = pickCooldownSeconds(chatData);
+    if (cooldownSeconds <= 0) return true;
+
+    const nowMs = Date.now();
+    const store = await loadCooldownStore();
+    const key = `${lowerTrim(platform)}:${lowerTrim(username)}:${lowerTrim(commandKey)}`;
+    const replyKey = `${key}:lastReplyCooldownStartMs`;
+    const lastUseMs = Number(store[key] || 0);
+    const remaining = Math.max(0, Math.ceil(((lastUseMs + (cooldownSeconds * 1000)) - nowMs) / 1000));
+
+    if (remaining > 0) {
+      const lastReplyCooldownStartMs = Number(store[replyKey] || 0);
+      if (lastReplyCooldownStartMs !== lastUseMs) {
+        store[replyKey] = lastUseMs;
+        await saveCooldownStore(store);
+        const remainingLabel = formatSecsShort(remaining);
+        await sendChatMessage(
+          `@${username} ${commandLabel} is on cooldown for you. ${remainingLabel} Remaining.`,
+          platform
+        );
+      }
+      return false;
+    }
+
+    store[key] = nowMs;
+    store[replyKey] = 0;
+    await saveCooldownStore(store);
+    return true;
+  }
+
+  function enqueueCommand(job) {
+    COMMAND_QUEUE.push(job);
+    processCommandQueue();
+  }
+
+  async function processCommandQueue() {
+    if (COMMAND_QUEUE_ACTIVE) return;
+    COMMAND_QUEUE_ACTIVE = true;
+
+    while (COMMAND_QUEUE.length) {
+      const job = COMMAND_QUEUE.shift();
+      try {
+        await runCommandJob(job);
+      } catch (err) {
+        debugError("[Queue] Command Failed", err, "debugErrors");
+      }
+    }
+
+    COMMAND_QUEUE_ACTIVE = false;
+  }
+
+  async function runCommandJob(job) {
+    const username = job?.username || "Unknown";
+    const platform = job?.platform || "twitch";
+    const command = String(job?.command || "").toLowerCase();
+    const args = Array.isArray(job?.args) ? job.args : [];
+    const chatData = job?.chatData || {};
+
+    const cBuyCase = String(CONFIG.cmdBuyCase || "buycase").toLowerCase();
+    const cBuyKey = String(CONFIG.cmdBuyKey || "buykey").toLowerCase();
+    const cOpen = String(CONFIG.cmdOpen || "open").toLowerCase();
+    const cSell = String(CONFIG.cmdSell || "sell").toLowerCase();
+    const cSellConfirm = String(CONFIG.cmdSellConfirm || "sellconfirm").toLowerCase();
+
+    if (command === cBuyCase) {
+      if (!(await checkCommandCooldown(username, platform, cBuyCase, getCmdFull("cmdBuyCase"), chatData))) return;
+      return void handleBuyCase(username, platform, args);
+    }
+    if (command === cBuyKey) {
+      if (!(await checkCommandCooldown(username, platform, cBuyKey, getCmdFull("cmdBuyKey"), chatData))) return;
+      return void handleBuyKey(username, platform, args);
+    }
+    if (command === cOpen) {
+      if (!(await checkCommandCooldown(username, platform, cOpen, getCmdFull("cmdOpen"), chatData))) return;
+      return void handleOpen(username, platform, args);
+    }
+    if (command === cSell) {
+      if (!(await checkCommandCooldown(username, platform, cSell, getCmdFull("cmdSell"), chatData))) return;
+      return void handleSell(username, platform, args);
+    }
+    if (command === cSellConfirm) {
+      if (!(await checkCommandCooldown(username, platform, cSellConfirm, getCmdFull("cmdSellConfirm"), chatData))) return;
+      return void handleSellConfirm(username, platform, args);
+    }
+  }
+
   // =========================================================================
   // CHAT PARSING
   // =========================================================================
@@ -768,7 +910,7 @@
 
     const messageRaw = String(chatData?.message || "").trim();
     const username = chatData?.username || chatData?.displayname || "Unknown";
-    const platform = chatData?.platform || chatData?.site || "twitch";
+    const platform = chatData?.origin || chatData?.platform || chatData?.site || "twitch";
 
     const pfx = matchPrefix(messageRaw);
     if (!pfx) return;
@@ -786,17 +928,7 @@
       "debugCommands"
     );
 
-    const cBuyCase = String(CONFIG.cmdBuyCase || "buycase").toLowerCase();
-    const cBuyKey = String(CONFIG.cmdBuyKey || "buykey").toLowerCase();
-    const cOpen = String(CONFIG.cmdOpen || "open").toLowerCase();
-    const cSell = String(CONFIG.cmdSell || "sell").toLowerCase();
-    const cSellConfirm = String(CONFIG.cmdSellConfirm || "sellconfirm").toLowerCase();
-
-    if (command === cBuyCase) return void handleBuyCase(username, platform, args);
-    if (command === cBuyKey) return void handleBuyKey(username, platform, args);
-    if (command === cOpen) return void handleOpen(username, platform, args);
-    if (command === cSell) return void handleSell(username, platform, args);
-    if (command === cSellConfirm) return void handleSellConfirm(username, platform, args);
+    enqueueCommand({ username, platform, command, args, chatData });
   }
 
   // =========================================================================
@@ -1069,7 +1201,30 @@
   // CHAT SEND
   // =========================================================================
 
-  async function sendChatMessage(message, platform) {
+  function normalizeChatPlatform(raw) {
+    const s = String(raw || "").toLowerCase();
+    if (s.includes("tiktok")) return "tiktok";
+    if (s.includes("youtube")) return "youtube";
+    if (s.includes("twitch")) return "twitch";
+    if (s.includes("kick")) return "kick";
+    return "";
+  }
+
+  function sendToTikTok(message) {
+    const cmd = String(CONFIG.tiktokCommandName || "").trim();
+    if (!cmd) return false;
+    if (typeof Overlay === "undefined" || !Overlay || !Overlay.callCommand) return false;
+
+    try {
+      Overlay.callCommand(cmd, { message });
+      return true;
+    } catch (err) {
+      debugError(`[ChatSend] TikTok Send Failed | cmd=${cmd}`, err, "debugChatSend");
+      return false;
+    }
+  }
+
+  async function sendChatMessage(message, platformRaw) {
     const msg = String(message || "").trim();
     if (!msg) return;
 
@@ -1079,9 +1234,25 @@
     if (mode === "toast" || mode === "both") studioToast(msg, "info");
     if (mode === "toast") return;
 
+    const platform = normalizeChatPlatform(platformRaw);
+    if (!platform) {
+      debugEmit(`[ChatSend] Skipped | Unknown platform=${String(platformRaw || "")}`, "warning", "debugChatSend");
+      return;
+    }
+
+    if (platform === "tiktok") {
+      const ok = sendToTikTok(msg);
+      if (ok) {
+        debugEmit(`[ChatSend] Ok | platform=tiktok | msg="${msg.slice(0, 120)}"`, "success", "debugChatSend");
+      } else {
+        debugEmit(`[ChatSend] (No Send) ${msg}`, "warning", "debugChatSend");
+      }
+      return;
+    }
+
     if (typeof Overlay !== "undefined" && Overlay.chatbot) {
       try {
-        await Overlay.chatbot({ message: msg, platform, chatAsSelf: false });
+        await Overlay.chatbot({ message: msg, platform, chatAsSelf: CONFIG.chatAsSelf });
         debugEmit(`[ChatSend] Ok | platform=${platform} | msg="${msg.slice(0, 120)}"`, "success", "debugChatSend");
         return;
       } catch (err) {
@@ -1286,12 +1457,15 @@
   // =========================================================================
 
   async function handleSell(username, platform, args) {
-    const oid = args[0];
-    if (!oid) return void sendChatMessage(`@${username} Usage: ${getCmdFull("cmdSell")} <oid>`, platform);
+    const rawArg = String(args[0] || "").trim();
+    if (!rawArg) return void sendChatMessage(`@${username} Usage: ${getCmdFull("cmdSell")} <oid|itemId|itemName>`, platform);
+    const isOid = rawArg.toLowerCase().startsWith("oid_");
+    const oid = isOid ? rawArg : "";
+    const query = isOid ? "" : rawArg;
 
     const eventId = generateEventId();
     try {
-      const result = await callCommitCommand(CONFIG.commitSellStart, { eventId, platform, username, oid }, eventId);
+      const result = await callCommitCommand(CONFIG.commitSellStart, { eventId, platform, username, oid, query }, eventId);
       if (result.ok && result.data) {
         const d = result.data;
         await sendChatMessage(

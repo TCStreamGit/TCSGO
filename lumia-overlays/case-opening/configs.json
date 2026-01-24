@@ -137,6 +137,18 @@
     "order": 9,
     "value": "!"
   },
+  "chatAsSelf": {
+    "type": "checkbox",
+    "label": "Send Chat As Streamer Account",
+    "order": 9.1,
+    "value": false
+  },
+  "tiktokCommandName": {
+    "type": "input",
+    "label": "TikTok Chat Command Name",
+    "order": 9.2,
+    "value": "tiktok_chat_send"
+  },
   "cmdBuyCase": {
     "type": "input",
     "label": "Viewer Command Name: Buy Case",
@@ -166,6 +178,30 @@
     "label": "Viewer Command Name: Sell Confirm",
     "order": 14,
     "value": "sellconfirm"
+  },
+  "cooldownDefaultSec": {
+    "type": "number",
+    "label": "Cooldown: Default (Seconds)",
+    "order": 14.5,
+    "value": 60
+  },
+  "cooldownSupporterSec": {
+    "type": "number",
+    "label": "Cooldown: Supporter (Seconds)",
+    "order": 14.6,
+    "value": 30
+  },
+  "cooldownModSec": {
+    "type": "number",
+    "label": "Cooldown: Mod (Seconds)",
+    "order": 14.7,
+    "value": 45
+  },
+  "cooldownStreamerSec": {
+    "type": "number",
+    "label": "Cooldown: Streamer (Seconds)",
+    "order": 14.8,
+    "value": 0
   },
   "commitBuyCase": {
     "type": "input",

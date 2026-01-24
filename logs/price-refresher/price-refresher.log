@@ -129,3 +129,66 @@ NameError: name 'user_agent' is not defined
 2026-01-23 13:46:42,809 | INFO | Progress | Items 10/10 | Updated=10 | Skipped=0
 2026-01-23 13:46:42,810 | INFO | Summary | Cases 43/44 Updated | Keys 1/1 Updated | Items 10/10 Updated | Steam Ok/Fail 54/0 | CSFloat Ok/Fail 0/0
 2026-01-23 13:46:42,810 | INFO | Dry Run Enabled; No Files Were Written.
+2026-01-23 20:49:40,691 | INFO | Price Refresher Starting.
+2026-01-23 20:49:40,691 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 20:49:41,292 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-23 20:49:41,522 | INFO | Case Price Changed | anubis-collection-package | 5.00 -> 4.23
+2026-01-23 20:49:44,477 | INFO | Case Price Changed | chroma-2-case | 1.50 -> 7.68
+2026-01-23 20:49:47,460 | INFO | Case Price Changed | chroma-3-case | 1.25 -> 7.02
+2026-01-23 20:49:50,529 | INFO | Case Price Changed | chroma-case | 2.00 -> 9.24
+2026-01-23 20:49:53,314 | INFO | Case Price Changed | clutch-case | 1.00 -> 1.55
+2026-01-23 20:49:56,546 | INFO | Case Price Changed | cs20-case | 0.75 -> 2.46
+2026-01-23 20:49:59,209 | INFO | Case Price Changed | csgo-weapon-case | 15.00 -> 191.47
+2026-01-23 20:50:02,045 | INFO | Case Price Changed | csgo-weapon-case-2 | 12.00 -> 26.89
+2026-01-23 20:50:05,213 | INFO | Case Price Changed | csgo-weapon-case-3 | 10.00 -> 20.63
+2026-01-23 20:50:08,001 | INFO | Case Price Changed | danger-zone-case | 1.50 -> 2.77
+2026-01-23 20:50:08,001 | WARNING | Case Market Hash Missing: dreams-nightmares-case
+2026-01-23 20:50:10,975 | INFO | Case Price Changed | esports-2013-case | 8.00 -> 89.54
+2026-01-23 20:50:14,141 | INFO | Case Price Changed | esports-2013-winter-case | 6.00 -> 20.89
+2026-01-23 20:50:17,085 | INFO | Case Price Changed | esports-2014-summer-case | 5.00 -> 20.98
+2026-01-23 20:50:20,436 | INFO | Case Price Changed | falchion-case | 1.75 -> 3.45
+2026-01-23 20:50:23,135 | INFO | Case Price Changed | fever-case | 3.00 -> 1.35
+2026-01-23 20:50:26,288 | INFO | Case Price Changed | fracture-case | 1.25 -> 1.01
+2026-01-23 20:50:29,467 | INFO | Case Price Changed | gallery-case | 2.00 -> 2.04
+2026-01-23 20:50:32,149 | INFO | Case Price Changed | gamma-2-case | 1.50 -> 6.91
+2026-01-23 20:50:34,910 | INFO | Case Price Changed | gamma-case | 2.00 -> 7.10
+2026-01-23 20:50:37,541 | INFO | Case Price Changed | glove-case | 3.50 -> 28.59
+2026-01-23 20:50:49,502 | INFO | Case Price Changed | horizon-case | 1.25 -> 3.19
+2026-01-23 20:50:52,420 | INFO | Case Price Changed | huntsman-weapon-case | 3.00 -> 16.01
+2026-01-23 20:50:55,482 | INFO | Case Price Changed | kilowatt-case | 4.00 -> 0.47
+2026-01-23 20:50:58,858 | INFO | Case Price Changed | operation-bravo-case | 25.00 -> 88.78
+2026-01-23 20:51:02,185 | INFO | Case Price Changed | operation-breakout-weapon-case | 4.00 -> 15.01
+2026-01-23 20:51:05,273 | INFO | Case Price Changed | operation-broken-fang-case | 2.50 -> 14.52
+2026-01-23 20:51:08,362 | INFO | Case Price Changed | operation-hydra-case | 8.00 -> 66.23
+2026-01-23 20:51:10,974 | INFO | Case Price Changed | operation-phoenix-weapon-case | 5.00 -> 8.23
+2026-01-23 20:51:14,059 | INFO | Case Price Changed | operation-riptide-case | 2.00 -> 24.67
+2026-01-23 20:51:16,715 | INFO | Case Price Changed | operation-vanguard-weapon-case | 4.50 -> 8.09
+2026-01-23 20:51:19,623 | INFO | Case Price Changed | operation-wildfire-case | 6.00 -> 6.59
+2026-01-23 20:51:22,635 | INFO | Case Price Changed | prisma-2-case | 1.00 -> 2.90
+2026-01-23 20:51:25,540 | INFO | Case Price Changed | prisma-case | 1.25 -> 2.76
+2026-01-23 20:51:28,257 | INFO | Case Price Changed | recoil-case | 1.50 -> 0.55
+2026-01-23 20:51:31,249 | INFO | Case Price Changed | revolution-case | 2.00 -> 0.56
+2026-01-23 20:51:34,550 | INFO | Case Price Changed | revolver-case | 2.50 -> 5.67
+2026-01-23 20:51:37,231 | INFO | Case Price Changed | shadow-case | 1.75 -> 3.20
+2026-01-23 20:51:40,231 | INFO | Case Price Changed | shattered-web-case | 3.00 -> 11.83
+2026-01-23 20:51:42,894 | INFO | Case Price Changed | snakebite-case | 2.00 -> 1.20
+2026-01-23 20:51:46,209 | INFO | Case Price Changed | spectrum-2-case | 1.50 -> 6.34
+2026-01-23 20:51:49,537 | INFO | Case Price Changed | spectrum-case | 2.00 -> 7.69
+2026-01-23 20:51:52,275 | INFO | Case Price Changed | winter-offensive-weapon-case | 6.00 -> 16.09
+2026-01-23 20:51:54,913 | INFO | Case Price Changed | x-ray-p250-package | 2.00 -> 3.45
+2026-01-23 20:51:57,962 | INFO | Key Price Changed | default | 3.50 -> 13.02
+2026-01-23 20:52:01,114 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Battle-Scarred|0|None | 1.00 -> 73.76
+2026-01-23 20:52:04,154 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Battle-Scarred|1|None | 1.00 -> 125.17
+2026-01-23 20:52:07,544 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Factory New|0|None | 1.00 -> 565.22
+2026-01-23 20:52:10,729 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Factory New|1|None | 1.00 -> 688.74
+2026-01-23 20:52:13,644 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Field-Tested|0|None | 1.00 -> 89.25
+2026-01-23 20:52:17,023 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Field-Tested|1|None | 1.00 -> 199.74
+2026-01-23 20:52:19,659 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Minimal Wear|0|None | 1.00 -> 144.65
+2026-01-23 20:52:22,502 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Minimal Wear|1|None | 1.00 -> 314.27
+2026-01-23 20:52:25,700 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Well-Worn|0|None | 1.00 -> 75.55
+2026-01-23 20:52:29,046 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Well-Worn|1|None | 1.00 -> 130.29
+2026-01-23 20:52:29,046 | INFO | Progress | Items 10/10 | Updated=10 | Skipped=0
+2026-01-23 20:52:29,046 | INFO | Summary | Cases 43/44 Updated | Keys 1/1 Updated | Items 10/10 Updated | Steam Ok/Fail 54/0 | CSFloat Ok/Fail 0/0
+2026-01-23 20:52:29,049 | INFO | Backup Created: A:\Development\Version Control\Github\TCSGO\data/prices.json.backup.20260123_205229
+2026-01-23 20:52:29,075 | INFO | prices.json Updated Successfully.
+2026-01-23 20:52:29,678 | INFO | Git Commit Created.

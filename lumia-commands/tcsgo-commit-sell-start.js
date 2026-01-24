@@ -136,15 +136,21 @@ async function () {
   const platform = normSite(String(await getVariable("platform") ?? "twitch"));
   const username = String(await getVariable("username") ?? "");
   const oid = String(await getVariable("oid") ?? "");
+  const query = String(
+    (await getVariable("query")) ??
+    (await getVariable("itemId")) ??
+    (await getVariable("itemName")) ??
+    ""
+  ).trim();
 
-  logMsg(`[SELLSTART] Vars | eventId=${eventId} | platform=${platform} | username=${username} | oid=${oid}`);
+  logMsg(`[SELLSTART] Vars | eventId=${eventId} | platform=${platform} | username=${username} | oid=${oid} | query=${query}`);
 
   let result;
 
   try {
     if (!eventId) throw mkError("MISSING_EVENT_ID", "Missing eventId.");
     if (!username) throw mkError("MISSING_USERNAME", "Missing username.");
-    if (!oid) throw mkError("MISSING_OID", "Missing oid.");
+    if (!oid && !query) throw mkError("MISSING_IDENTIFIER", "Missing oid or item identifier.");
 
     const invPath = joinPath(TCSGO_BASE, "data\\inventories.json");
     const pricesPath = joinPath(TCSGO_BASE, "data\\prices.json");
@@ -163,8 +169,32 @@ async function () {
 
     if (!Array.isArray(user.items)) user.items = [];
 
-    const item = user.items.find(i => i.oid === oid);
-    if (!item) throw { code: "ITEM_NOT_FOUND", message: "Item not found", details: { oid } };
+    let item = null;
+    let resolvedOid = oid;
+
+    if (oid) {
+      item = user.items.find(i => lowerTrim(i.oid) === lowerTrim(oid));
+    }
+
+    if (!item && query) {
+      const q = lowerTrim(query);
+      const matches = user.items.filter(i => lowerTrim(i.itemId) === q || lowerTrim(i.displayName) === q);
+      if (matches.length > 1) {
+        throw {
+          code: "AMBIGUOUS_ITEM",
+          message: `Multiple items match "${query}". Use oid.`,
+          details: { count: matches.length }
+        };
+      }
+      if (matches.length === 1) {
+        item = matches[0];
+        resolvedOid = item.oid;
+      }
+    }
+
+    if (!item) {
+      throw { code: "ITEM_NOT_FOUND", message: "Item not found", details: { oid, query } };
+    }
 
     const ls = checkLock(item.lockedUntil);
     if (ls.locked) {
@@ -190,7 +220,7 @@ async function () {
 
     user.pendingSell = {
       token,
-      oid,
+      oid: resolvedOid,
       expiresAt,
       itemSummary: {
         displayName: item.displayName,
@@ -213,7 +243,7 @@ async function () {
       data: {
         eventId,
         token,
-        oid,
+        oid: resolvedOid,
         expiresAt,
         expiresInSeconds: SELL_TOKEN_EXPIRATION_SECONDS,
         item: {
@@ -230,7 +260,7 @@ async function () {
       }
     };
 
-    logMsg(`[SELLSTART] Success | ${username} token=${token} | oid=${oid}`);
+    logMsg(`[SELLSTART] Success | ${username} token=${token} | oid=${resolvedOid}`);
 
   } catch (err) {
     const e =
