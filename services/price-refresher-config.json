@@ -14,14 +14,54 @@
   },
   "cache": {
     "maxAgeHours": 168,
-    "forceRefresh": false
+    "forceRefresh": false,
+    "checkpointEveryItems": 25
   },
   "providers": {
+    "rotationMode": "round_robin",
+    "fallbackOnFailure": true,
+    "skipRoundsOnFailure": 10,
+    "itemDelaySecondsMin": 3.0,
+    "itemDelaySecondsMax": 5.0,
+    "bulkCache": {
+      "dir": "services\\bulk-cache",
+      "maxAgeHours": 12,
+      "timeoutSeconds": 120,
+      "staggerDelaySecondsMin": 2.0,
+      "staggerDelaySecondsMax": 6.0
+    },
+    "aggregator": {
+      "method": "mean",
+      "minSources": 1,
+      "outlierClampCadMin": 0.01,
+      "outlierClampCadMax": 99999.99
+    },
+    "white_market": {
+      "enabled": true,
+      "url": "https://s3.white.market/export/v1/prices/730.json",
+      "currency": "USD"
+    },
+    "market_csgo": {
+      "enabled": true,
+      "mode": "class_instance",
+      "urlPrices": "https://market.csgo.com/api/v2/prices/USD.json",
+      "urlClassInstance": "https://market.csgo.com/api/v2/prices/class_instance/USD.json",
+      "priceField": "avg_price",
+      "currency": "USD",
+      "apiKey": "",
+      "apiKeyEnvVar": "MARKET_CSGO_API_KEY"
+    },
+    "csgotrader": {
+      "enabled": false,
+      "url": "https://prices.csgotrader.app/latest/prices_v6.json",
+      "currency": "USD"
+    },
     "skinport": {
       "enabled": true,
       "baseUrl": "https://api.skinport.com/v1",
       "appid": 730,
       "currency": "CAD",
+      "pricesAreUsd": true,
       "tradable": 0,
       "useSalesHistory": true,
       "historyWindow": "last_7_days",
@@ -43,6 +83,9 @@
       "enabled": true,
       "apiKey": "",
       "apiKeyEnvVar": "CSFLOAT_API_KEY",
+      "useForCases": false,
+      "useForKeys": false,
+      "useForItems": true,
       "delaySeconds": 0.5,
       "timeoutSeconds": 30
     },
@@ -68,6 +111,7 @@
     "logsDir": "logs\\price-refresher",
     "overridesJson": "services\\market-hash-overrides.json",
     "secretsJson": "services\\price-refresher-secrets.json",
+    "skippedJson": "services\\price-refresher-skipped.json",
     "lockFile": "services\\price-refresher.lock",
     "daemonStateJson": "services\\price-refresher-daemon-state.json"
   }

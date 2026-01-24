@@ -27,7 +27,14 @@ import traceback
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass
-from typing import Any, Dict, Optional, Tuple
+from typing import Any, Dict, Optional, Tuple, List
+
+try:
+    import brotli  # type: ignore
+    _HAS_BROTLI = True
+except Exception:
+    brotli = None  # type: ignore
+    _HAS_BROTLI = False
 
 
 # ---------------------------
@@ -80,6 +87,57 @@ def checkpoint_save(path: str, data: Any, logger: logging.Logger) -> None:
         logger.warning(f"Checkpoint Save Failed: {e}")
 
 
+def validate_prices_schema(prices: Any) -> bool:
+    if not isinstance(prices, dict):
+        return False
+    for k in ("cases", "keys", "items"):
+        if k not in prices or not isinstance(prices.get(k), dict):
+            return False
+    return True
+
+
+def load_skipped(path: str) -> Dict[str, Dict[str, Dict[str, Any]]]:
+    if not path or not os.path.isfile(path):
+        return {"cases": {}, "keys": {}, "items": {}}
+    try:
+        data = read_json(path)
+    except Exception:
+        return {"cases": {}, "keys": {}, "items": {}}
+    if not isinstance(data, dict):
+        return {"cases": {}, "keys": {}, "items": {}}
+    out: Dict[str, Dict[str, Dict[str, Any]]] = {"cases": {}, "keys": {}, "items": {}}
+    for k in ("cases", "keys", "items"):
+        v = data.get(k, {})
+        if isinstance(v, dict):
+            out[k] = {str(kk): vv for kk, vv in v.items() if isinstance(kk, str) and isinstance(vv, dict)}
+    return out
+
+
+def save_skipped(path: str, skipped: Dict[str, Dict[str, Dict[str, Any]]]) -> None:
+    write_json_atomic(path, skipped)
+
+
+def record_skip(
+    skipped: Dict[str, Dict[str, Dict[str, Any]]],
+    bucket: str,
+    key: str,
+    reason: str,
+) -> None:
+    entry = skipped.setdefault(bucket, {}).get(key)
+    if not isinstance(entry, dict):
+        entry = {"count": 0}
+    entry["reason"] = reason
+    entry["lastAttemptUtc"] = utc_now_iso()
+    entry["count"] = int(entry.get("count", 0)) + 1
+    skipped[bucket][key] = entry
+
+
+def clear_skip(skipped: Dict[str, Dict[str, Dict[str, Any]]], bucket: str, key: str) -> None:
+    b = skipped.get(bucket)
+    if isinstance(b, dict) and key in b:
+        del b[key]
+
+
 def safe_copy(src: str, dst: str) -> None:
     shutil.copy2(src, dst)
 
@@ -109,6 +167,29 @@ def http_get_json(url: str, headers: Optional[Dict[str, str]] = None, timeout: i
         return status, json.loads(text)
 
 
+def http_get_raw(url: str, headers: Optional[Dict[str, str]] = None, timeout: int = 30) -> Tuple[int, bytes]:
+    req = urllib.request.Request(url, headers=headers or {}, method="GET")
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        status = getattr(resp, "status", 200)
+        raw = resp.read()
+        return status, raw
+
+
+def http_get_json_brotli(url: str, headers: Optional[Dict[str, str]] = None, timeout: int = 30) -> Tuple[int, Any]:
+    req = urllib.request.Request(url, headers=headers or {}, method="GET")
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        status = getattr(resp, "status", 200)
+        raw = resp.read()
+        encoding = (resp.headers.get("Content-Encoding") or "").lower()
+        if encoding == "br":
+            if not _HAS_BROTLI:
+                raise RuntimeError("Brotli Not Installed")
+            raw = brotli.decompress(raw)  # type: ignore
+        charset = resp.headers.get_content_charset() or "utf-8"
+        text = raw.decode(charset, errors="replace")
+        return status, json.loads(text)
+
+
 def run_cmd(cmd: list[str], cwd: Optional[str] = None) -> Tuple[int, str]:
     p = subprocess.Popen(
         cmd,
@@ -120,6 +201,39 @@ def run_cmd(cmd: list[str], cwd: Optional[str] = None) -> Tuple[int, str]:
     )
     out, _ = p.communicate()
     return p.returncode, out or ""
+
+
+def is_cache_stale(path: str, max_age_hours: float) -> bool:
+    if not os.path.isfile(path):
+        return True
+    try:
+        age_seconds = time.time() - os.path.getmtime(path)
+    except Exception:
+        return True
+    return age_seconds >= max(0.0, max_age_hours) * 3600.0
+
+
+def parse_float(value: Any) -> Optional[float]:
+    if isinstance(value, (int, float)):
+        return float(value)
+    if isinstance(value, str):
+        try:
+            return float(value)
+        except Exception:
+            return None
+    return None
+
+
+def aggregate_prices(prices: List[float], method: str) -> Optional[float]:
+    if not prices:
+        return None
+    if method == "median":
+        s = sorted(prices)
+        mid = len(s) // 2
+        if len(s) % 2 == 0:
+            return (s[mid - 1] + s[mid]) / 2.0
+        return s[mid]
+    return sum(prices) / float(len(prices))
 
 
 # ---------------------------
@@ -233,6 +347,418 @@ def parse_price_text_to_float(price_text: str) -> Optional[float]:
 # ---------------------------
 # Providers
 # ---------------------------
+
+class SkinportProvider:
+    """
+    Uses Skinport Bulk Cache (CAD) For Pricing.
+    Loads /v1/items And Optional /v1/sales/history Once Per Run.
+    """
+    def __init__(
+        self,
+        base_url: str,
+        appid: int,
+        currency: str,
+        tradable: int,
+        use_sales_history: bool,
+        history_window: str,
+        history_field: str,
+        timeout: int,
+        user_agent: str,
+        prices_are_usd: bool,
+        usd_to_cad: Optional[float],
+    ) -> None:
+        self.base_url = base_url.rstrip("/")
+        self.appid = appid
+        self.currency = currency
+        self.tradable = tradable
+        self.use_sales_history = use_sales_history
+        self.history_window = history_window
+        self.history_field = history_field
+        self.timeout = timeout
+        self.user_agent = user_agent
+        self.prices_are_usd = prices_are_usd
+        self.usd_to_cad = usd_to_cad
+        self.items_cache: Dict[str, float] = {}
+        self.history_cache: Dict[str, float] = {}
+
+    def _headers(self) -> Dict[str, str]:
+        headers = {
+            "User-Agent": self.user_agent,
+            "Accept": "application/json,text/plain,*/*",
+        }
+        if _HAS_BROTLI:
+            headers["Accept-Encoding"] = "br"
+        return headers
+
+    def _parse_price(self, value: Any) -> Optional[float]:
+        if isinstance(value, (int, float)):
+            return float(value)
+        if isinstance(value, str):
+            try:
+                return float(value)
+            except Exception:
+                return None
+        return None
+
+    def _extract_item_price(self, item: Dict[str, Any]) -> Optional[float]:
+        for key in ("min_price", "suggested_price", "mean_price", "median_price", "last_sale_price", "price"):
+            if key in item:
+                v = self._parse_price(item.get(key))
+                if v is not None:
+                    if self.prices_are_usd and self.usd_to_cad:
+                        v = v * self.usd_to_cad
+                    return v
+        return None
+
+    def load_bulk_cache(self, logger: logging.Logger) -> bool:
+        if not _HAS_BROTLI:
+            logger.warning("Skinport Disabled (Brotli Not Installed).")
+            return False
+
+        params = {
+            "app_id": str(self.appid),
+            "currency": str(self.currency),
+            "tradable": str(self.tradable),
+        }
+        items_url = f"{self.base_url}/items?{urllib.parse.urlencode(params)}"
+        logger.info("Loading Skinport Items Cache...")
+        try:
+            status, data = http_get_json_brotli(items_url, headers=self._headers(), timeout=self.timeout)
+            if status != 200 or not isinstance(data, list):
+                logger.warning("Skinport Items Cache Failed (Unexpected Response).")
+                return False
+            items_cache: Dict[str, float] = {}
+            for it in data:
+                if not isinstance(it, dict):
+                    continue
+                mh = it.get("market_hash_name")
+                if not isinstance(mh, str) or not mh.strip():
+                    continue
+                price = self._extract_item_price(it)
+                if price is None:
+                    continue
+                items_cache[mh] = money_round(price)
+            if not items_cache:
+                logger.warning("Skinport Items Cache Empty.")
+                return False
+            self.items_cache = items_cache
+            logger.info(f"Skinport Items Cache Loaded: {len(items_cache)} entries.")
+        except Exception as e:
+            logger.warning(f"Skinport Items Cache Failed: {e}")
+            return False
+
+        if not self.use_sales_history:
+            return True
+
+        history_params = {
+            "app_id": str(self.appid),
+            "currency": str(self.currency),
+            "tradable": str(self.tradable),
+            "window": str(self.history_window),
+        }
+        history_url = f"{self.base_url}/sales/history?{urllib.parse.urlencode(history_params)}"
+        logger.info("Loading Skinport Sales History Cache...")
+        try:
+            status, data = http_get_json_brotli(history_url, headers=self._headers(), timeout=self.timeout)
+            if status != 200 or not isinstance(data, list):
+                logger.warning("Skinport Sales History Cache Failed (Unexpected Response).")
+                return True
+            history_cache: Dict[str, float] = {}
+            for it in data:
+                if not isinstance(it, dict):
+                    continue
+                mh = it.get("market_hash_name")
+                if not isinstance(mh, str) or not mh.strip():
+                    continue
+                v = self._parse_price(it.get(self.history_field))
+                if v is None:
+                    continue
+                history_cache[mh] = money_round(v)
+            if history_cache:
+                self.history_cache = history_cache
+                logger.info(f"Skinport Sales History Cache Loaded: {len(history_cache)} entries.")
+        except Exception as e:
+            logger.warning(f"Skinport Sales History Cache Failed: {e}")
+
+        return True
+
+    def fetch_cad(self, market_hash_name: str) -> Tuple[Optional[float], str]:
+        if self.use_sales_history:
+            v = self.history_cache.get(market_hash_name)
+            if v is not None:
+                return v, "ok"
+        v = self.items_cache.get(market_hash_name)
+        if v is not None:
+            return v, "ok"
+        return None, "no_price"
+
+
+class WhiteMarketBulkProvider:
+    def __init__(self, url: str, currency: str, cache_path: str, timeout: int, user_agent: str) -> None:
+        self.url = url
+        self.currency = currency.upper().strip()
+        self.cache_path = cache_path
+        self.timeout = timeout
+        self.user_agent = user_agent
+
+    def _headers(self) -> Dict[str, str]:
+        return {"User-Agent": self.user_agent, "Accept": "application/json,text/plain,*/*"}
+
+    def _load_from_cache(self) -> Optional[Any]:
+        try:
+            return read_json(self.cache_path)
+        except Exception:
+            return None
+
+    def _save_cache(self, raw: bytes) -> None:
+        ensure_dir(os.path.dirname(self.cache_path) or ".")
+        with open(self.cache_path, "wb") as f:
+            f.write(raw)
+
+    def load_prices(self, logger: logging.Logger, max_age_hours: float, usd_to_cad: Optional[float]) -> Dict[str, float]:
+        if self.currency == "USD" and usd_to_cad is None:
+            logger.warning("White.Market Bulk Disabled (Missing USD->CAD FX Rate).")
+            return {}
+        data = None
+        if is_cache_stale(self.cache_path, max_age_hours):
+            logger.info("White.Market Bulk Cache Stale; Downloading...")
+            try:
+                status, raw = http_get_raw(self.url, headers=self._headers(), timeout=self.timeout)
+                if status != 200:
+                    logger.warning(f"White.Market Bulk Download Failed (Status={status}).")
+                else:
+                    self._save_cache(raw)
+                    data = json.loads(raw.decode("utf-8", errors="replace"))
+                    logger.info("White.Market Bulk Cache Updated.")
+            except Exception as e:
+                logger.warning(f"White.Market Bulk Download Failed: {e}")
+        if data is None:
+            logger.info("White.Market Bulk Cache Hit.")
+            data = self._load_from_cache()
+        if not data:
+            return {}
+        out: Dict[str, float] = {}
+        if isinstance(data, list):
+            for it in data:
+                if not isinstance(it, dict):
+                    continue
+                mh = it.get("market_hash_name") or it.get("market_hash") or it.get("name")
+                price = it.get("price") or it.get("price_usd") or it.get("avg") or it.get("avg_price")
+                if isinstance(mh, str):
+                    v = parse_float(price)
+                    if v is None:
+                        continue
+                    if self.currency == "USD" and usd_to_cad:
+                        v = v * usd_to_cad
+                    out[mh] = money_round(v)
+        elif isinstance(data, dict):
+            items = data.get("items", data)
+            if isinstance(items, list):
+                for it in items:
+                    if not isinstance(it, dict):
+                        continue
+                    mh = it.get("market_hash_name") or it.get("market_hash") or it.get("name")
+                    price = it.get("price") or it.get("price_usd") or it.get("avg") or it.get("avg_price")
+                    if isinstance(mh, str):
+                        v = parse_float(price)
+                        if v is None:
+                            continue
+                        if self.currency == "USD" and usd_to_cad:
+                            v = v * usd_to_cad
+                        out[mh] = money_round(v)
+            elif isinstance(items, dict):
+                for mh, price in items.items():
+                    if not isinstance(mh, str):
+                        continue
+                    v = parse_float(price)
+                    if v is None:
+                        continue
+                    if self.currency == "USD" and usd_to_cad:
+                        v = v * usd_to_cad
+                    out[mh] = money_round(v)
+        return out
+
+
+class MarketCsgoBulkProvider:
+    def __init__(
+        self,
+        url_prices: str,
+        url_class_instance: str,
+        mode: str,
+        price_field: str,
+        currency: str,
+        cache_path: str,
+        timeout: int,
+        user_agent: str,
+        api_key: str = "",
+    ) -> None:
+        self.url_prices = url_prices
+        self.url_class_instance = url_class_instance
+        self.mode = mode.lower().strip()
+        self.price_field = price_field
+        self.currency = currency.upper().strip()
+        self.cache_path = cache_path
+        self.timeout = timeout
+        self.user_agent = user_agent
+        self.api_key = api_key.strip()
+
+    def _headers(self) -> Dict[str, str]:
+        headers = {"User-Agent": self.user_agent, "Accept": "application/json,text/plain,*/*"}
+        if self.api_key:
+            headers["Authorization"] = self.api_key
+        return headers
+
+    def _load_from_cache(self) -> Optional[Any]:
+        try:
+            return read_json(self.cache_path)
+        except Exception:
+            return None
+
+    def _save_cache(self, raw: bytes) -> None:
+        ensure_dir(os.path.dirname(self.cache_path) or ".")
+        with open(self.cache_path, "wb") as f:
+            f.write(raw)
+
+    def _select_url(self) -> str:
+        if self.mode == "class_instance":
+            return self.url_class_instance
+        return self.url_prices
+
+    def load_prices(self, logger: logging.Logger, max_age_hours: float, usd_to_cad: Optional[float]) -> Dict[str, float]:
+        if self.currency == "USD" and usd_to_cad is None:
+            logger.warning("Market.CSGO Bulk Disabled (Missing USD->CAD FX Rate).")
+            return {}
+        data = None
+        if is_cache_stale(self.cache_path, max_age_hours):
+            logger.info("Market.CSGO Bulk Cache Stale; Downloading...")
+            try:
+                status, raw = http_get_raw(self._select_url(), headers=self._headers(), timeout=self.timeout)
+                if status != 200:
+                    logger.warning(f"Market.CSGO Bulk Download Failed (Status={status}).")
+                else:
+                    self._save_cache(raw)
+                    data = json.loads(raw.decode("utf-8", errors="replace"))
+                    logger.info("Market.CSGO Bulk Cache Updated.")
+            except Exception as e:
+                logger.warning(f"Market.CSGO Bulk Download Failed: {e}")
+        if data is None:
+            logger.info("Market.CSGO Bulk Cache Hit.")
+            data = self._load_from_cache()
+        if not data:
+            return {}
+        out: Dict[str, float] = {}
+        items = data.get("items") if isinstance(data, dict) else None
+        if isinstance(items, list):
+            for it in items:
+                if not isinstance(it, dict):
+                    continue
+                mh = it.get("market_hash_name") or it.get("market_hash") or it.get("name")
+                price = it.get(self.price_field) or it.get("avg_price") or it.get("price")
+                if isinstance(mh, str):
+                    v = parse_float(price)
+                    if v is None:
+                        continue
+                    if self.currency == "USD" and usd_to_cad:
+                        v = v * usd_to_cad
+                    out[mh] = money_round(v)
+        elif isinstance(items, dict):
+            for mh, it in items.items():
+                if not isinstance(mh, str):
+                    continue
+                if isinstance(it, dict):
+                    price = it.get(self.price_field) or it.get("avg_price") or it.get("price")
+                else:
+                    price = it
+                v = parse_float(price)
+                if v is None:
+                    continue
+                if self.currency == "USD" and usd_to_cad:
+                    v = v * usd_to_cad
+                out[mh] = money_round(v)
+        return out
+
+
+class CsgotraderBulkProvider:
+    def __init__(self, url: str, currency: str, cache_path: str, timeout: int, user_agent: str) -> None:
+        self.url = url
+        self.currency = currency.upper().strip()
+        self.cache_path = cache_path
+        self.timeout = timeout
+        self.user_agent = user_agent
+
+    def _headers(self) -> Dict[str, str]:
+        return {"User-Agent": self.user_agent, "Accept": "application/json,text/plain,*/*"}
+
+    def _load_from_cache(self) -> Optional[Any]:
+        try:
+            return read_json(self.cache_path)
+        except Exception:
+            return None
+
+    def _save_cache(self, raw: bytes) -> None:
+        ensure_dir(os.path.dirname(self.cache_path) or ".")
+        with open(self.cache_path, "wb") as f:
+            f.write(raw)
+
+    def load_prices(self, logger: logging.Logger, max_age_hours: float, usd_to_cad: Optional[float]) -> Dict[str, float]:
+        if self.currency == "USD" and usd_to_cad is None:
+            logger.warning("CSGOTrader Bulk Disabled (Missing USD->CAD FX Rate).")
+            return {}
+        data = None
+        if is_cache_stale(self.cache_path, max_age_hours):
+            logger.info("CSGOTrader Bulk Cache Stale; Downloading...")
+            try:
+                status, raw = http_get_raw(self.url, headers=self._headers(), timeout=self.timeout)
+                if status != 200:
+                    logger.warning(f"CSGOTrader Bulk Download Failed (Status={status}).")
+                else:
+                    self._save_cache(raw)
+                    data = json.loads(raw.decode("utf-8", errors="replace"))
+                    logger.info("CSGOTrader Bulk Cache Updated.")
+            except Exception as e:
+                logger.warning(f"CSGOTrader Bulk Download Failed: {e}")
+        if data is None:
+            logger.info("CSGOTrader Bulk Cache Hit.")
+            data = self._load_from_cache()
+        if not data:
+            return {}
+        out: Dict[str, float] = {}
+        items = data.get("items") if isinstance(data, dict) else None
+        if isinstance(items, dict):
+            for mh, price in items.items():
+                if not isinstance(mh, str):
+                    continue
+                v = parse_float(price)
+                if v is None:
+                    continue
+                if self.currency == "USD" and usd_to_cad:
+                    v = v * usd_to_cad
+                out[mh] = money_round(v)
+        elif isinstance(items, list):
+            for it in items:
+                if not isinstance(it, dict):
+                    continue
+                mh = it.get("market_hash_name") or it.get("market_hash") or it.get("name")
+                price = it.get("price") or it.get("avg_price") or it.get("median")
+                if isinstance(mh, str):
+                    v = parse_float(price)
+                    if v is None:
+                        continue
+                    if self.currency == "USD" and usd_to_cad:
+                        v = v * usd_to_cad
+                    out[mh] = money_round(v)
+        elif isinstance(data, dict):
+            for mh, price in data.items():
+                if not isinstance(mh, str):
+                    continue
+                v = parse_float(price)
+                if v is None:
+                    continue
+                if self.currency == "USD" and usd_to_cad:
+                    v = v * usd_to_cad
+                out[mh] = money_round(v)
+        return out
+
 
 class SteamProvider:
     def __init__(self, appid: int, currency: int, delay_seconds: float, timeout: int, user_agent: str) -> None:
@@ -435,6 +961,7 @@ class ProviderState:
     enabled: bool
     cooldown_until: float = 0.0
     consecutive_hard_failures: int = 0
+    skip_rounds_remaining: int = 0
 
     def is_available(self, now_ts: float, logger: logging.Logger) -> bool:
         if not self.enabled:
@@ -447,6 +974,15 @@ class ProviderState:
             logger.info(f"Provider {self.name} back online; resuming.")
             return True
         return False
+
+    def should_skip_round(self) -> bool:
+        if self.skip_rounds_remaining > 0:
+            self.skip_rounds_remaining -= 1
+            return True
+        return False
+
+    def record_failure(self, skip_rounds: int) -> None:
+        self.skip_rounds_remaining = max(self.skip_rounds_remaining, max(0, skip_rounds))
 
     def record_success(self) -> None:
         self.consecutive_hard_failures = 0
@@ -751,21 +1287,27 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
     logs_dir = os.path.join(base, config["paths"]["logsDir"])
     overrides_path = os.path.join(base, config["paths"]["overridesJson"])
     lock_path = os.path.join(base, config["paths"]["lockFile"])
+    skipped_path = os.path.join(base, config["paths"].get("skippedJson", "services\\price-refresher-skipped.json"))
+    bulk_cfg = config.get("providers", {}).get("bulkCache", {})
+    bulk_dir = os.path.join(base, str(bulk_cfg.get("dir", "services\\bulk-cache")))
 
     ensure_dir(os.path.dirname(prices_path))
     ensure_dir(case_odds_dir)
     ensure_dir(logs_dir)
+    ensure_dir(os.path.dirname(skipped_path) or ".")
+    ensure_dir(bulk_dir)
 
     lock = SingleInstanceLock(lock_path)
     lock.acquire()
     try:
         # Load Inputs
         prices = read_json(prices_path)
-        if not isinstance(prices, dict):
-            logger.error("prices.json Is Not A JSON Object.")
+        if not validate_prices_schema(prices):
+            logger.error("prices.json Schema Invalid (Missing cases/keys/items). Aborting To Avoid Data Loss.")
             return 2
 
         overrides = load_overrides(overrides_path)
+        skipped = load_skipped(skipped_path)
 
         id_to_case_name = load_case_index(case_odds_dir)
         item_id_to_display = load_item_id_to_display_name(case_odds_dir)
@@ -793,6 +1335,96 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
         else:
             logger.info(f"USD->CAD FXUSDCAD={usd_to_cad:.6f}")
 
+        bulk_cache_max_age = float(bulk_cfg.get("maxAgeHours", 12))
+        bulk_timeout = int(bulk_cfg.get("timeoutSeconds", 120))
+        bulk_stagger_min = float(bulk_cfg.get("staggerDelaySecondsMin", 2.0))
+        bulk_stagger_max = float(bulk_cfg.get("staggerDelaySecondsMax", 6.0))
+        if bulk_stagger_max < bulk_stagger_min:
+            bulk_stagger_min, bulk_stagger_max = bulk_stagger_max, bulk_stagger_min
+
+        def bulk_sleep() -> None:
+            time.sleep(random.uniform(bulk_stagger_min, bulk_stagger_max))
+
+        bulk_sources: List[Tuple[str, Dict[str, float]]] = []
+        white_cfg = config.get("providers", {}).get("white_market", {})
+        if bool(white_cfg.get("enabled", False)):
+            white_cache = os.path.join(bulk_dir, "white-market-730.json")
+            white = WhiteMarketBulkProvider(
+                url=str(white_cfg.get("url", "")),
+                currency=str(white_cfg.get("currency", "USD")),
+                cache_path=white_cache,
+                timeout=bulk_timeout,
+                user_agent=user_agent,
+            )
+            bulk_prices = white.load_prices(logger, bulk_cache_max_age, usd_to_cad)
+            if bulk_prices:
+                bulk_sources.append(("white_market", bulk_prices))
+            bulk_sleep()
+
+        market_cfg = config.get("providers", {}).get("market_csgo", {})
+        market_api_key = ""
+        if isinstance(market_cfg, dict):
+            env_var = str(market_cfg.get("apiKeyEnvVar", "MARKET_CSGO_API_KEY")).strip() or "MARKET_CSGO_API_KEY"
+            market_api_key = str(market_cfg.get("apiKey", "")).strip()
+            if not market_api_key:
+                v = os.environ.get(env_var, "")
+                if isinstance(v, str) and v.strip():
+                    market_api_key = v.strip()
+        if bool(market_cfg.get("enabled", False)):
+            market_cache = os.path.join(bulk_dir, "market-csgo-usd.json")
+            market = MarketCsgoBulkProvider(
+                url_prices=str(market_cfg.get("urlPrices", "")),
+                url_class_instance=str(market_cfg.get("urlClassInstance", "")),
+                mode=str(market_cfg.get("mode", "class_instance")),
+                price_field=str(market_cfg.get("priceField", "avg_price")),
+                currency=str(market_cfg.get("currency", "USD")),
+                cache_path=market_cache,
+                timeout=bulk_timeout,
+                user_agent=user_agent,
+                api_key=market_api_key,
+            )
+            bulk_prices = market.load_prices(logger, bulk_cache_max_age, usd_to_cad)
+            if bulk_prices:
+                bulk_sources.append(("market_csgo", bulk_prices))
+            bulk_sleep()
+
+        csgotrader_cfg = config.get("providers", {}).get("csgotrader", {})
+        if bool(csgotrader_cfg.get("enabled", False)):
+            csgotrader_cache = os.path.join(bulk_dir, "csgotrader.json")
+            csgotrader = CsgotraderBulkProvider(
+                url=str(csgotrader_cfg.get("url", "")),
+                currency=str(csgotrader_cfg.get("currency", "USD")),
+                cache_path=csgotrader_cache,
+                timeout=bulk_timeout,
+                user_agent=user_agent,
+            )
+            bulk_prices = csgotrader.load_prices(logger, bulk_cache_max_age, usd_to_cad)
+            if bulk_prices:
+                bulk_sources.append(("csgotrader", bulk_prices))
+            bulk_sleep()
+
+        skinport_cfg = config["providers"].get("skinport", {})
+        skinport_enabled = bool(skinport_cfg.get("enabled", False))
+        skinport = None
+        if skinport_enabled:
+            skinport_prices_are_usd = bool(skinport_cfg.get("pricesAreUsd", False))
+            if skinport_prices_are_usd and usd_to_cad is None:
+                logger.warning("Skinport USD Conversion Enabled But FX Rate Missing.")
+            skinport = SkinportProvider(
+                base_url=str(skinport_cfg.get("baseUrl", "https://api.skinport.com/v1")),
+                appid=int(skinport_cfg.get("appid", 730)),
+                currency=str(skinport_cfg.get("currency", "CAD")),
+                tradable=int(skinport_cfg.get("tradable", 0)),
+                use_sales_history=bool(skinport_cfg.get("useSalesHistory", False)),
+                history_window=str(skinport_cfg.get("historyWindow", "last_7_days")),
+                history_field=str(skinport_cfg.get("historyField", "median")),
+                timeout=int(skinport_cfg.get("timeoutSeconds", 180)),
+                user_agent=user_agent,
+                prices_are_usd=skinport_prices_are_usd,
+                usd_to_cad=usd_to_cad,
+            )
+            skinport_enabled = skinport.load_bulk_cache(logger)
+
         csf_cfg = config["providers"]["csfloat"]
 
         # Prefer Secrets File, Then Env Var, Then Config (Config Is Discouraged To Avoid Leaks)
@@ -816,17 +1448,25 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             v = secrets.get("csfloatApiKey")
             if isinstance(v, str) and v.strip():
                 api_key = v.strip()
+                logger.info("CSFloat API Key Loaded From Secrets.")
 
         if not api_key:
             v = os.environ.get(env_var, "")
             if isinstance(v, str) and v.strip():
                 api_key = v.strip()
+                logger.info(f"CSFloat API Key Loaded From Env: {env_var}.")
 
         cfg_key = str(csf_cfg.get("apiKey", "")).strip()
         if cfg_key:
             logger.warning("CSFloat Api Key Is Present In Config. Move It To Secrets Or Env To Avoid Git Leaks.")
             if not api_key:
                 api_key = cfg_key
+                logger.info("CSFloat API Key Loaded From Config.")
+
+        if api_key:
+            logger.info("CSFloat API Key Loaded.")
+        else:
+            logger.warning("CSFloat API Key Missing (Public Access Only).")
 
         csfloat = CSFloatProvider(
             delay_seconds=float(csf_cfg["delaySeconds"]),
@@ -845,11 +1485,26 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
         cooldown_seconds = float(failover_cfg.get("cooldownSeconds", 120.0))
         fail_threshold = max(1, fail_threshold)
         cooldown_seconds = max(10.0, cooldown_seconds)
+        rotation_mode = str(config.get("providers", {}).get("rotationMode", "round_robin")).strip().lower()
+        fallback_on_failure = bool(config.get("providers", {}).get("fallbackOnFailure", True))
+        skip_rounds_on_failure = int(config.get("providers", {}).get("skipRoundsOnFailure", 10))
+        skip_rounds_on_failure = max(0, skip_rounds_on_failure)
+        item_delay_min = float(config.get("providers", {}).get("itemDelaySecondsMin", 3.0))
+        item_delay_max = float(config.get("providers", {}).get("itemDelaySecondsMax", 5.0))
+        if item_delay_max < item_delay_min:
+            item_delay_min, item_delay_max = item_delay_max, item_delay_min
 
+        csfloat_use_cases = bool(csf_cfg.get("useForCases", False))
+        csfloat_use_keys = bool(csf_cfg.get("useForKeys", False))
+        csfloat_use_items = bool(csf_cfg.get("useForItems", True))
+
+        skinport_state = ProviderState(name="Skinport", enabled=skinport_enabled)
         steam_state = ProviderState(name="Steam", enabled=steam_enabled)
         csfloat_state = ProviderState(name="CSFloat", enabled=csfloat_enabled)
         hard_fail_reasons = {"rate_limited", "http_error", "network_error", "unauthorized"}
         provider_order = []
+        if skinport_enabled:
+            provider_order.append("skinport")
         if steam_enabled:
             provider_order.append("steam")
         if csfloat_enabled:
@@ -869,78 +1524,187 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             "cases_total": 0, "cases_updated": 0, "cases_skipped": 0,
             "keys_total": 0, "keys_updated": 0, "keys_skipped": 0,
             "items_total": 0, "items_updated": 0, "items_skipped": 0,
+            "skinport_ok": 0, "skinport_fail": 0,
             "steam_ok": 0, "steam_fail": 0,
             "csfloat_ok": 0, "csfloat_fail": 0,
         }
 
-        def fetch_with_fallback(market_hash: str) -> Tuple[Optional[float], Optional[str]]:
+        agg_cfg = config.get("providers", {}).get("aggregator", {})
+        agg_method = str(agg_cfg.get("method", "mean")).strip().lower()
+        agg_min_sources = int(agg_cfg.get("minSources", 2))
+        agg_min_sources = max(1, agg_min_sources)
+        agg_clamp_min = float(agg_cfg.get("outlierClampCadMin", 0.01))
+        agg_clamp_max = float(agg_cfg.get("outlierClampCadMax", 99999.99))
+
+        def bulk_price_for(market_hash: str) -> Tuple[Optional[float], int]:
+            vals = []
+            for _, source_prices in bulk_sources:
+                v = source_prices.get(market_hash)
+                if isinstance(v, (int, float)):
+                    vals.append(float(v))
+            if len(vals) < agg_min_sources:
+                return None, len(vals)
+            agg = aggregate_prices(vals, agg_method)
+            if agg is None:
+                return None, len(vals)
+            agg = clamp(agg, agg_clamp_min, agg_clamp_max)
+            return money_round(agg), len(vals)
+
+        retry_skipped_only = bool(getattr(args, "retry_skipped", False))
+        if retry_skipped_only:
+            total_skipped = (
+                len(skipped.get("cases", {}))
+                + len(skipped.get("keys", {}))
+                + len(skipped.get("items", {}))
+            )
+            if total_skipped == 0:
+                logger.info("Retry-Skipped Mode: No Skipped Entries Found.")
+                return 0
+
+        def fetch_with_fallback(
+            market_hash: str,
+            item_type: str,
+            preferred_order: Optional[List[str]] = None,
+        ) -> Tuple[Optional[float], Optional[str], Optional[str]]:
             nonlocal rr_index
             if not provider_order:
-                return None, None
+                return None, None, "no_provider"
 
-            start = rr_index % len(provider_order)
-            rr_index = (rr_index + 1) % len(provider_order)
+            if preferred_order:
+                ordered = [p for p in preferred_order if p in provider_order]
+            else:
+                if rotation_mode == "fixed":
+                    start = 0
+                else:
+                    start = rr_index % len(provider_order)
+                    rr_index = (rr_index + 1) % len(provider_order)
+                ordered = provider_order[start:] + provider_order[:start]
+                if not fallback_on_failure:
+                    ordered = ordered[:1]
 
-            ordered = provider_order[start:] + provider_order[:start]
+            attempts_per_provider = 1 if len(ordered) > 1 else retries
+            last_reason = None
             for provider in ordered:
                 now_ts = time.time()
+                if provider == "skinport":
+                    if not skinport_state.is_available(now_ts, logger):
+                        last_reason = "skinport_unavailable"
+                        continue
+                    if skinport_state.should_skip_round():
+                        last_reason = "skinport_skipped"
+                        continue
+                    if not skinport_enabled or skinport is None:
+                        last_reason = "skinport_disabled"
+                        continue
+                    v, reason = skinport.fetch_cad(market_hash)
+                    if v is not None:
+                        stats["skinport_ok"] += 1
+                        return v, "Skinport", "ok"
+                    stats["skinport_fail"] += 1
+                    skinport_state.record_failure(skip_rounds_on_failure)
+                    last_reason = f"skinport_{reason}"
+                    continue
                 if provider == "steam":
                     if not steam_state.is_available(now_ts, logger):
+                        last_reason = "steam_unavailable"
                         continue
-                    v, reason = steam.fetch_cad(market_hash, retries=retries, backoff_seconds=backoff)
+                    if steam_state.should_skip_round():
+                        last_reason = "steam_skipped"
+                        continue
+                    v, reason = steam.fetch_cad(market_hash, retries=attempts_per_provider, backoff_seconds=backoff)
                     if v is not None:
                         steam_state.record_success()
                         stats["steam_ok"] += 1
-                        return v, "Steam"
+                        return v, "Steam", "ok"
                     stats["steam_fail"] += 1
+                    steam_state.record_failure(skip_rounds_on_failure)
                     if reason in hard_fail_reasons:
                         steam_state.record_hard_failure(now_ts, fail_threshold, cooldown_seconds, logger)
+                    last_reason = f"steam_{reason}"
                     continue
 
                 if provider == "csfloat":
                     if not csfloat_state.is_available(now_ts, logger):
+                        last_reason = "csfloat_unavailable"
+                        continue
+                    if csfloat_state.should_skip_round():
+                        last_reason = "csfloat_skipped"
                         continue
                     if not csfloat_enabled or usd_to_cad is None:
+                        last_reason = "csfloat_disabled"
                         continue
-                    usd, reason = csfloat.fetch_usd_lowest(market_hash, retries=retries, backoff_seconds=backoff)
+                    if item_type == "cases" and not csfloat_use_cases:
+                        last_reason = "csfloat_disabled_cases"
+                        continue
+                    if item_type == "keys" and not csfloat_use_keys:
+                        last_reason = "csfloat_disabled_keys"
+                        continue
+                    if item_type == "items" and not csfloat_use_items:
+                        last_reason = "csfloat_disabled_items"
+                        continue
+                    usd, reason = csfloat.fetch_usd_lowest(market_hash, retries=attempts_per_provider, backoff_seconds=backoff)
                     if usd is None:
                         stats["csfloat_fail"] += 1
+                        if reason == "no_price":
+                            logger.info("CSFloat No Price For Item; Falling Back.")
+                        csfloat_state.record_failure(skip_rounds_on_failure)
                         if reason in hard_fail_reasons:
                             csfloat_state.record_hard_failure(now_ts, fail_threshold, cooldown_seconds, logger)
+                        last_reason = f"csfloat_{reason}"
                         continue
                     csfloat_state.record_success()
                     stats["csfloat_ok"] += 1
-                    return money_round(usd * usd_to_cad), "CSFloat"
+                    return money_round(usd * usd_to_cad), "CSFloat", "ok"
 
-            return None, None
+            return None, None, last_reason or "no_provider"
 
         # Refresh Cases
         cases = prices.get("cases", {})
         if isinstance(cases, dict):
-            total = len(cases)
+            case_ids = list(cases.keys())
+            if retry_skipped_only:
+                case_ids = list(skipped.get("cases", {}).keys())
+            total = len(case_ids)
             if total:
                 logger.info(f"Refreshing Cases | Total={total}")
-            for cid in list(cases.keys()):
+            for cid in case_ids:
                 stats["cases_total"] += 1
                 existing = cases.get(cid)
                 if not isinstance(existing, (int, float)):
+                    record_skip(skipped, "cases", cid, "missing_in_prices")
                     continue
 
                 updated_iso = updated_at["cases"].get(cid)
-                if not should_refresh(updated_iso, max_age_hours, force):
+                if not retry_skipped_only and not should_refresh(updated_iso, max_age_hours, force):
                     stats["cases_skipped"] += 1
                     continue
 
                 market_hash = overrides["cases"].get(cid) or id_to_case_name.get(cid)
                 if not market_hash:
                     logger.warning(f"Case Market Hash Missing: {cid}")
+                    record_skip(skipped, "cases", cid, "missing_market_hash")
                     stats["cases_skipped"] += 1
                     continue
 
-                new_price, used_provider = fetch_with_fallback(market_hash)
+                bulk_price, bulk_count = bulk_price_for(market_hash)
+                if bulk_price is not None:
+                    logger.info(f"Bulk Price Used | {cid} | Sources={bulk_count} | Price={bulk_price:.2f}")
+                    new_price = bulk_price
+                    used_provider = f"Bulk[{bulk_count}]"
+                    reason = "ok"
+                else:
+                    logger.info(f"Bulk Missing | {cid} | Sources={bulk_count} | Falling Back")
+                    time.sleep(random.uniform(item_delay_min, item_delay_max))
+                    new_price, used_provider, reason = fetch_with_fallback(
+                        market_hash,
+                        "cases",
+                        preferred_order=["skinport", "csfloat", "steam"],
+                    )
                 if new_price is None:
+                    record_skip(skipped, "cases", cid, reason or "provider_failed")
                     stats["cases_skipped"] += 1
                     continue
+                clear_skip(skipped, "cases", cid)
 
                 if abs(float(existing) - new_price) >= 0.01:
                     provider_tag = f" | Provider={used_provider}" if used_provider else ""
@@ -949,11 +1713,14 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     updated_at["cases"][cid] = utc_now_iso()
                     stats["cases_updated"] += 1
                 else:
+                    updated_at["cases"][cid] = utc_now_iso()
                     stats["cases_skipped"] += 1
                 if stats["cases_total"] % 5 == 0 or stats["cases_total"] == total:
                     logger.info(
                         f"Progress | Cases {stats['cases_total']}/{total} | "
-                        f"Updated={stats['cases_updated']} | Skipped={stats['cases_skipped']}"
+                        f"Updated={stats['cases_updated']} | Skipped={stats['cases_skipped']} | "
+                        f"Providers S/Sf/Cf {stats['skinport_ok']}/{stats['skinport_fail']} "
+                        f"{stats['steam_ok']}/{stats['steam_fail']} {stats['csfloat_ok']}/{stats['csfloat_fail']}"
                     )
         else:
             logger.warning("prices.cases Is Not An Object; Skipping Cases.")
@@ -961,17 +1728,21 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
         # Refresh Keys
         keys = prices.get("keys", {})
         if isinstance(keys, dict):
-            total = len(keys)
+            key_ids = list(keys.keys())
+            if retry_skipped_only:
+                key_ids = list(skipped.get("keys", {}).keys())
+            total = len(key_ids)
             if total:
                 logger.info(f"Refreshing Keys | Total={total}")
-            for kid in list(keys.keys()):
+            for kid in key_ids:
                 stats["keys_total"] += 1
                 existing = keys.get(kid)
                 if not isinstance(existing, (int, float)):
+                    record_skip(skipped, "keys", kid, "missing_in_prices")
                     continue
 
                 updated_iso = updated_at["keys"].get(kid)
-                if not should_refresh(updated_iso, max_age_hours, force):
+                if not retry_skipped_only and not should_refresh(updated_iso, max_age_hours, force):
                     stats["keys_skipped"] += 1
                     continue
 
@@ -979,13 +1750,29 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                 market_hash = overrides["keys"].get(kid) or config["providers"]["steam"]["keyMarketHashNames"].get(kid)
                 if not market_hash:
                     logger.warning(f"Key Market Hash Missing: {kid}")
+                    record_skip(skipped, "keys", kid, "missing_market_hash")
                     stats["keys_skipped"] += 1
                     continue
 
-                new_price, used_provider = fetch_with_fallback(market_hash)
+                bulk_price, bulk_count = bulk_price_for(market_hash)
+                if bulk_price is not None:
+                    logger.info(f"Bulk Price Used | {kid} | Sources={bulk_count} | Price={bulk_price:.2f}")
+                    new_price = bulk_price
+                    used_provider = f"Bulk[{bulk_count}]"
+                    reason = "ok"
+                else:
+                    logger.info(f"Bulk Missing | {kid} | Sources={bulk_count} | Falling Back")
+                    time.sleep(random.uniform(item_delay_min, item_delay_max))
+                    new_price, used_provider, reason = fetch_with_fallback(
+                        market_hash,
+                        "keys",
+                        preferred_order=["skinport", "csfloat", "steam"],
+                    )
                 if new_price is None:
+                    record_skip(skipped, "keys", kid, reason or "provider_failed")
                     stats["keys_skipped"] += 1
                     continue
+                clear_skip(skipped, "keys", kid)
 
                 if abs(float(existing) - new_price) >= 0.01:
                     provider_tag = f" | Provider={used_provider}" if used_provider else ""
@@ -994,11 +1781,14 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     updated_at["keys"][kid] = utc_now_iso()
                     stats["keys_updated"] += 1
                 else:
+                    updated_at["keys"][kid] = utc_now_iso()
                     stats["keys_skipped"] += 1
                 if stats["keys_total"] % 5 == 0 or stats["keys_total"] == total:
                     logger.info(
                         f"Progress | Keys {stats['keys_total']}/{total} | "
-                        f"Updated={stats['keys_updated']} | Skipped={stats['keys_skipped']}"
+                        f"Updated={stats['keys_updated']} | Skipped={stats['keys_skipped']} | "
+                        f"Providers S/Sf/Cf {stats['skinport_ok']}/{stats['skinport_fail']} "
+                        f"{stats['steam_ok']}/{stats['steam_fail']} {stats['csfloat_ok']}/{stats['csfloat_fail']}"
                     )
         else:
             logger.warning("prices.keys Is Not An Object; Skipping Keys.")
@@ -1007,6 +1797,8 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
         items = prices.get("items", {})
         if isinstance(items, dict):
             item_keys = list(items.keys())
+            if retry_skipped_only:
+                item_keys = list(skipped.get("items", {}).keys())
 
             if args.max_items is not None:
                 item_keys = item_keys[: max(0, int(args.max_items))]
@@ -1018,10 +1810,11 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                 stats["items_total"] += 1
                 existing = items.get(ik)
                 if not isinstance(existing, (int, float)):
+                    record_skip(skipped, "items", ik, "missing_in_prices")
                     continue
 
                 updated_iso = updated_at["items"].get(ik)
-                if not should_refresh(updated_iso, max_age_hours, force):
+                if not retry_skipped_only and not should_refresh(updated_iso, max_age_hours, force):
                     stats["items_skipped"] += 1
                     continue
 
@@ -1030,6 +1823,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                 parsed = parse_item_key(ik)
                 if not parsed:
                     logger.warning(f"Invalid Item Key Format: {ik}")
+                    record_skip(skipped, "items", ik, "invalid_item_key")
                     stats["items_skipped"] += 1
                     continue
 
@@ -1038,20 +1832,37 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
 
                 if variant and variant.lower() not in ("none", "na", "n/a") and not override_mh:
                     logger.warning(f"Variant Requires Override | {ik} | Variant={variant}")
+                    record_skip(skipped, "items", ik, "variant_requires_override")
                     stats["items_skipped"] += 1
                     continue
 
                 display = item_id_to_display.get(item_id)
                 if not display and not override_mh:
                     logger.warning(f"Unknown ItemId (No displayName Found): {item_id}")
+                    record_skip(skipped, "items", ik, "unknown_item_id")
                     stats["items_skipped"] += 1
                     continue
 
                 market_hash = override_mh or build_item_market_hash(display, wear, is_st)
-                new_price, used_provider = fetch_with_fallback(market_hash)
+                bulk_price, bulk_count = bulk_price_for(market_hash)
+                if bulk_price is not None:
+                    logger.info(f"Bulk Price Used | {ik} | Sources={bulk_count} | Price={bulk_price:.2f}")
+                    new_price = bulk_price
+                    used_provider = f"Bulk[{bulk_count}]"
+                    reason = "ok"
+                else:
+                    logger.info(f"Bulk Missing | {ik} | Sources={bulk_count} | Falling Back")
+                    time.sleep(random.uniform(item_delay_min, item_delay_max))
+                    new_price, used_provider, reason = fetch_with_fallback(
+                        market_hash,
+                        "items",
+                        preferred_order=["skinport", "csfloat", "steam"],
+                    )
                 if new_price is None:
+                    record_skip(skipped, "items", ik, reason or "provider_failed")
                     stats["items_skipped"] += 1
                     continue
+                clear_skip(skipped, "items", ik)
 
                 if abs(float(existing) - new_price) >= 0.01:
                     provider_tag = f" | Provider={used_provider}" if used_provider else ""
@@ -1060,10 +1871,16 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     updated_at["items"][ik] = utc_now_iso()
                     stats["items_updated"] += 1
                 else:
+                    updated_at["items"][ik] = utc_now_iso()
                     stats["items_skipped"] += 1
 
                 if i % 25 == 0 or i == total:
-                    logger.info(f"Progress | Items {i}/{total} | Updated={stats['items_updated']} | Skipped={stats['items_skipped']}")
+                    logger.info(
+                        f"Progress | Items {i}/{total} | Updated={stats['items_updated']} | "
+                        f"Skipped={stats['items_skipped']} | Providers S/Sf/Cf "
+                        f"{stats['skinport_ok']}/{stats['skinport_fail']} "
+                        f"{stats['steam_ok']}/{stats['steam_fail']} {stats['csfloat_ok']}/{stats['csfloat_fail']}"
+                    )
                 if checkpoint_every_items and (i % checkpoint_every_items == 0):
                     checkpoint_save(prices_path, prices, logger)
         else:
@@ -1075,6 +1892,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             f"Cases {stats['cases_updated']}/{stats['cases_total']} Updated | "
             f"Keys {stats['keys_updated']}/{stats['keys_total']} Updated | "
             f"Items {stats['items_updated']}/{stats['items_total']} Updated | "
+            f"Skinport Ok/Fail {stats['skinport_ok']}/{stats['skinport_fail']} | "
             f"Steam Ok/Fail {stats['steam_ok']}/{stats['steam_fail']} | "
             f"CSFloat Ok/Fail {stats['csfloat_ok']}/{stats['csfloat_fail']}"
         )
@@ -1082,6 +1900,9 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
         if args.dry_run:
             logger.info("Dry Run Enabled; No Files Were Written.")
             return 0
+
+        save_skipped(skipped_path, skipped)
+        logger.info(f"Skipped Log Updated: {skipped_path}")
 
         # Backup
         ts = _dt.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -1200,6 +2021,7 @@ def main() -> int:
     ap.add_argument("--force", action="store_true", help="Ignore Cache Age And Refresh Everything")
     ap.add_argument("--daemon", action="store_true", help="Run Forever And Execute On Schedule From Config")
     ap.add_argument("--max-items", type=int, default=None, help="Limit Items Processed (Testing)")
+    ap.add_argument("--retry-skipped", action="store_true", help="Only Retry Entries In The Skipped Log")
     args = ap.parse_args()
 
     # Resolve Repo Root As Parent Of /services
