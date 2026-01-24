@@ -14,8 +14,10 @@
   },
   "cache": {
     "maxAgeHours": 168,
+    "maxAgeDays": 7,
     "forceRefresh": false,
-    "checkpointEveryItems": 25
+    "checkpointEveryItems": 25,
+    "alwaysRefreshPriceAtOrBelow": 1.0
   },
   "providers": {
     "rotationMode": "round_robin",
@@ -56,8 +58,13 @@
       "url": "https://prices.csgotrader.app/latest/prices_v6.json",
       "currency": "USD"
     },
+    "variantHandling": {
+      "allowSouvenirAuto": true,
+      "souvenirPrefix": "Souvenir "
+    },
     "skinport": {
       "enabled": true,
+      "bulkEnabled": true,
       "baseUrl": "https://api.skinport.com/v1",
       "appid": 730,
       "currency": "CAD",

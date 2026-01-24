@@ -1206,9 +1206,18 @@ def load_item_id_to_display_name(case_odds_dir: str) -> Dict[str, str]:
 # Core Refresh Logic
 # ---------------------------
 
-def should_refresh(updated_at_iso: Optional[str], max_age_hours: float, force: bool) -> bool:
+def should_refresh(
+    updated_at_iso: Optional[str],
+    max_age_hours: float,
+    force: bool,
+    existing_price: Optional[float] = None,
+    force_price_threshold: Optional[float] = None,
+) -> bool:
     if force:
         return True
+    if force_price_threshold is not None and existing_price is not None:
+        if existing_price <= force_price_threshold:
+            return True
     if not updated_at_iso:
         return True
     dt = parse_iso_dt(updated_at_iso)
@@ -1346,6 +1355,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             time.sleep(random.uniform(bulk_stagger_min, bulk_stagger_max))
 
         bulk_sources: List[Tuple[str, Dict[str, float]]] = []
+        bulk_source_counts: Dict[str, int] = {}
         white_cfg = config.get("providers", {}).get("white_market", {})
         if bool(white_cfg.get("enabled", False)):
             white_cache = os.path.join(bulk_dir, "white-market-730.json")
@@ -1359,6 +1369,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             bulk_prices = white.load_prices(logger, bulk_cache_max_age, usd_to_cad)
             if bulk_prices:
                 bulk_sources.append(("white_market", bulk_prices))
+                bulk_source_counts["white_market"] = len(bulk_prices)
             bulk_sleep()
 
         market_cfg = config.get("providers", {}).get("market_csgo", {})
@@ -1386,6 +1397,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             bulk_prices = market.load_prices(logger, bulk_cache_max_age, usd_to_cad)
             if bulk_prices:
                 bulk_sources.append(("market_csgo", bulk_prices))
+                bulk_source_counts["market_csgo"] = len(bulk_prices)
             bulk_sleep()
 
         csgotrader_cfg = config.get("providers", {}).get("csgotrader", {})
@@ -1401,10 +1413,12 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             bulk_prices = csgotrader.load_prices(logger, bulk_cache_max_age, usd_to_cad)
             if bulk_prices:
                 bulk_sources.append(("csgotrader", bulk_prices))
+                bulk_source_counts["csgotrader"] = len(bulk_prices)
             bulk_sleep()
 
         skinport_cfg = config["providers"].get("skinport", {})
         skinport_enabled = bool(skinport_cfg.get("enabled", False))
+        skinport_bulk_enabled = bool(skinport_cfg.get("bulkEnabled", False))
         skinport = None
         if skinport_enabled:
             skinport_prices_are_usd = bool(skinport_cfg.get("pricesAreUsd", False))
@@ -1424,6 +1438,21 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                 usd_to_cad=usd_to_cad,
             )
             skinport_enabled = skinport.load_bulk_cache(logger)
+            if skinport_enabled and skinport_bulk_enabled:
+                skinport_bulk = dict(skinport.items_cache)
+                if skinport.use_sales_history and skinport.history_cache:
+                    skinport_bulk.update(skinport.history_cache)
+                if skinport_bulk:
+                    bulk_sources.append(("skinport", skinport_bulk))
+                    bulk_source_counts["skinport"] = len(skinport_bulk)
+
+        if bulk_source_counts:
+            logger.info(
+                "Bulk Sources Loaded | "
+                + " | ".join(f"{k}={v}" for k, v in bulk_source_counts.items())
+            )
+        else:
+            logger.warning("Bulk Sources Loaded | None (Will Use Per-Item Providers).")
 
         csf_cfg = config["providers"]["csfloat"]
 
@@ -1513,10 +1542,18 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
 
         retries = int(config["api"]["retries"]["maxAttempts"])
         backoff = float(config["api"]["retries"]["backoffSeconds"])
-        max_age_hours = float(config["cache"]["maxAgeHours"])
+        max_age_days = config.get("cache", {}).get("maxAgeDays", None)
+        if max_age_days is not None:
+            max_age_hours = float(max_age_days) * 24.0
+        else:
+            max_age_hours = float(config["cache"]["maxAgeHours"])
+        max_age_hours = max(0.0, max_age_hours)
         force = bool(args.force) or bool(config["cache"].get("forceRefresh", False))
         checkpoint_every_items = int(config["cache"].get("checkpointEveryItems", 250))
         checkpoint_every_items = max(0, checkpoint_every_items)
+        force_price_threshold = config.get("cache", {}).get("alwaysRefreshPriceAtOrBelow", None)
+        if force_price_threshold is not None:
+            force_price_threshold = float(force_price_threshold)
 
         updated_at = get_updated_at_bucket(prices)
 
@@ -1524,6 +1561,9 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             "cases_total": 0, "cases_updated": 0, "cases_skipped": 0,
             "keys_total": 0, "keys_updated": 0, "keys_skipped": 0,
             "items_total": 0, "items_updated": 0, "items_skipped": 0,
+            "cases_unchanged": 0, "keys_unchanged": 0, "items_unchanged": 0,
+            "bulk_used_cases": 0, "bulk_used_keys": 0, "bulk_used_items": 0,
+            "bulk_missing_cases": 0, "bulk_missing_keys": 0, "bulk_missing_items": 0,
             "skinport_ok": 0, "skinport_fail": 0,
             "steam_ok": 0, "steam_fail": 0,
             "csfloat_ok": 0, "csfloat_fail": 0,
@@ -1535,6 +1575,10 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
         agg_min_sources = max(1, agg_min_sources)
         agg_clamp_min = float(agg_cfg.get("outlierClampCadMin", 0.01))
         agg_clamp_max = float(agg_cfg.get("outlierClampCadMax", 99999.99))
+
+        variant_cfg = config.get("providers", {}).get("variantHandling", {})
+        allow_souvenir_auto = bool(variant_cfg.get("allowSouvenirAuto", True))
+        souvenir_prefix = str(variant_cfg.get("souvenirPrefix", "Souvenir "))
 
         def bulk_price_for(market_hash: str) -> Tuple[Optional[float], int]:
             vals = []
@@ -1664,6 +1708,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             case_ids = list(cases.keys())
             if retry_skipped_only:
                 case_ids = list(skipped.get("cases", {}).keys())
+            case_fallback: List[Tuple[str, str]] = []
             total = len(case_ids)
             if total:
                 logger.info(f"Refreshing Cases | Total={total}")
@@ -1675,7 +1720,13 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     continue
 
                 updated_iso = updated_at["cases"].get(cid)
-                if not retry_skipped_only and not should_refresh(updated_iso, max_age_hours, force):
+                if not retry_skipped_only and not should_refresh(
+                    updated_iso,
+                    max_age_hours,
+                    force,
+                    existing_price=float(existing),
+                    force_price_threshold=force_price_threshold,
+                ):
                     stats["cases_skipped"] += 1
                     continue
 
@@ -1689,17 +1740,15 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                 bulk_price, bulk_count = bulk_price_for(market_hash)
                 if bulk_price is not None:
                     logger.info(f"Bulk Price Used | {cid} | Sources={bulk_count} | Price={bulk_price:.2f}")
+                    stats["bulk_used_cases"] += 1
                     new_price = bulk_price
                     used_provider = f"Bulk[{bulk_count}]"
                     reason = "ok"
                 else:
                     logger.info(f"Bulk Missing | {cid} | Sources={bulk_count} | Falling Back")
-                    time.sleep(random.uniform(item_delay_min, item_delay_max))
-                    new_price, used_provider, reason = fetch_with_fallback(
-                        market_hash,
-                        "cases",
-                        preferred_order=["skinport", "csfloat", "steam"],
-                    )
+                    stats["bulk_missing_cases"] += 1
+                    case_fallback.append((cid, market_hash))
+                    continue
                 if new_price is None:
                     record_skip(skipped, "cases", cid, reason or "provider_failed")
                     stats["cases_skipped"] += 1
@@ -1714,6 +1763,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     stats["cases_updated"] += 1
                 else:
                     updated_at["cases"][cid] = utc_now_iso()
+                    stats["cases_unchanged"] += 1
                     stats["cases_skipped"] += 1
                 if stats["cases_total"] % 5 == 0 or stats["cases_total"] == total:
                     logger.info(
@@ -1722,6 +1772,41 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                         f"Providers S/Sf/Cf {stats['skinport_ok']}/{stats['skinport_fail']} "
                         f"{stats['steam_ok']}/{stats['steam_fail']} {stats['csfloat_ok']}/{stats['csfloat_fail']}"
                     )
+            if case_fallback:
+                total_fb = len(case_fallback)
+                logger.info(f"Fallback Pass | Cases {total_fb}")
+                for idx, (cid, market_hash) in enumerate(case_fallback, start=1):
+                    existing = cases.get(cid)
+                    if not isinstance(existing, (int, float)):
+                        record_skip(skipped, "cases", cid, "missing_in_prices")
+                        stats["cases_skipped"] += 1
+                        continue
+                    time.sleep(random.uniform(item_delay_min, item_delay_max))
+                    new_price, used_provider, reason = fetch_with_fallback(
+                        market_hash,
+                        "cases",
+                        preferred_order=["skinport", "csfloat", "steam"],
+                    )
+                    if new_price is None:
+                        record_skip(skipped, "cases", cid, reason or "provider_failed")
+                        stats["cases_skipped"] += 1
+                        continue
+                    clear_skip(skipped, "cases", cid)
+                    if abs(float(existing) - new_price) >= 0.01:
+                        provider_tag = f" | Provider={used_provider}" if used_provider else ""
+                        logger.info(f"Case Price Changed | {cid} | {existing:.2f} -> {new_price:.2f}{provider_tag}")
+                        cases[cid] = new_price
+                        updated_at["cases"][cid] = utc_now_iso()
+                        stats["cases_updated"] += 1
+                    else:
+                        updated_at["cases"][cid] = utc_now_iso()
+                        stats["cases_unchanged"] += 1
+                        stats["cases_skipped"] += 1
+                    if idx % 5 == 0 or idx == total_fb:
+                        logger.info(
+                            f"Fallback Progress | Cases {idx}/{total_fb} | "
+                            f"Updated={stats['cases_updated']} | Skipped={stats['cases_skipped']}"
+                        )
         else:
             logger.warning("prices.cases Is Not An Object; Skipping Cases.")
 
@@ -1731,6 +1816,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             key_ids = list(keys.keys())
             if retry_skipped_only:
                 key_ids = list(skipped.get("keys", {}).keys())
+            key_fallback: List[Tuple[str, str]] = []
             total = len(key_ids)
             if total:
                 logger.info(f"Refreshing Keys | Total={total}")
@@ -1742,7 +1828,13 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     continue
 
                 updated_iso = updated_at["keys"].get(kid)
-                if not retry_skipped_only and not should_refresh(updated_iso, max_age_hours, force):
+                if not retry_skipped_only and not should_refresh(
+                    updated_iso,
+                    max_age_hours,
+                    force,
+                    existing_price=float(existing),
+                    force_price_threshold=force_price_threshold,
+                ):
                     stats["keys_skipped"] += 1
                     continue
 
@@ -1757,17 +1849,15 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                 bulk_price, bulk_count = bulk_price_for(market_hash)
                 if bulk_price is not None:
                     logger.info(f"Bulk Price Used | {kid} | Sources={bulk_count} | Price={bulk_price:.2f}")
+                    stats["bulk_used_keys"] += 1
                     new_price = bulk_price
                     used_provider = f"Bulk[{bulk_count}]"
                     reason = "ok"
                 else:
                     logger.info(f"Bulk Missing | {kid} | Sources={bulk_count} | Falling Back")
-                    time.sleep(random.uniform(item_delay_min, item_delay_max))
-                    new_price, used_provider, reason = fetch_with_fallback(
-                        market_hash,
-                        "keys",
-                        preferred_order=["skinport", "csfloat", "steam"],
-                    )
+                    stats["bulk_missing_keys"] += 1
+                    key_fallback.append((kid, market_hash))
+                    continue
                 if new_price is None:
                     record_skip(skipped, "keys", kid, reason or "provider_failed")
                     stats["keys_skipped"] += 1
@@ -1782,6 +1872,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     stats["keys_updated"] += 1
                 else:
                     updated_at["keys"][kid] = utc_now_iso()
+                    stats["keys_unchanged"] += 1
                     stats["keys_skipped"] += 1
                 if stats["keys_total"] % 5 == 0 or stats["keys_total"] == total:
                     logger.info(
@@ -1790,6 +1881,41 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                         f"Providers S/Sf/Cf {stats['skinport_ok']}/{stats['skinport_fail']} "
                         f"{stats['steam_ok']}/{stats['steam_fail']} {stats['csfloat_ok']}/{stats['csfloat_fail']}"
                     )
+            if key_fallback:
+                total_fb = len(key_fallback)
+                logger.info(f"Fallback Pass | Keys {total_fb}")
+                for idx, (kid, market_hash) in enumerate(key_fallback, start=1):
+                    existing = keys.get(kid)
+                    if not isinstance(existing, (int, float)):
+                        record_skip(skipped, "keys", kid, "missing_in_prices")
+                        stats["keys_skipped"] += 1
+                        continue
+                    time.sleep(random.uniform(item_delay_min, item_delay_max))
+                    new_price, used_provider, reason = fetch_with_fallback(
+                        market_hash,
+                        "keys",
+                        preferred_order=["skinport", "csfloat", "steam"],
+                    )
+                    if new_price is None:
+                        record_skip(skipped, "keys", kid, reason or "provider_failed")
+                        stats["keys_skipped"] += 1
+                        continue
+                    clear_skip(skipped, "keys", kid)
+                    if abs(float(existing) - new_price) >= 0.01:
+                        provider_tag = f" | Provider={used_provider}" if used_provider else ""
+                        logger.info(f"Key Price Changed | {kid} | {existing:.2f} -> {new_price:.2f}{provider_tag}")
+                        keys[kid] = new_price
+                        updated_at["keys"][kid] = utc_now_iso()
+                        stats["keys_updated"] += 1
+                    else:
+                        updated_at["keys"][kid] = utc_now_iso()
+                        stats["keys_unchanged"] += 1
+                        stats["keys_skipped"] += 1
+                    if idx % 5 == 0 or idx == total_fb:
+                        logger.info(
+                            f"Fallback Progress | Keys {idx}/{total_fb} | "
+                            f"Updated={stats['keys_updated']} | Skipped={stats['keys_skipped']}"
+                        )
         else:
             logger.warning("prices.keys Is Not An Object; Skipping Keys.")
 
@@ -1803,6 +1929,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             if args.max_items is not None:
                 item_keys = item_keys[: max(0, int(args.max_items))]
 
+            items_fallback: List[Tuple[str, str]] = []
             total = len(item_keys)
             if total:
                 logger.info(f"Refreshing Items | Total={total}")
@@ -1814,7 +1941,13 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     continue
 
                 updated_iso = updated_at["items"].get(ik)
-                if not retry_skipped_only and not should_refresh(updated_iso, max_age_hours, force):
+                if not retry_skipped_only and not should_refresh(
+                    updated_iso,
+                    max_age_hours,
+                    force,
+                    existing_price=float(existing),
+                    force_price_threshold=force_price_threshold,
+                ):
                     stats["items_skipped"] += 1
                     continue
 
@@ -1829,12 +1962,16 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
 
                 item_id, wear, is_st, variant = parsed
                 override_mh = overrides["items"].get(ik)
-
-                if variant and variant.lower() not in ("none", "na", "n/a") and not override_mh:
-                    logger.warning(f"Variant Requires Override | {ik} | Variant={variant}")
-                    record_skip(skipped, "items", ik, "variant_requires_override")
-                    stats["items_skipped"] += 1
-                    continue
+                variant_norm = variant.lower()
+                auto_variant_prefix = ""
+                if variant and variant_norm not in ("none", "na", "n/a") and not override_mh:
+                    if allow_souvenir_auto and variant_norm == "souvenir":
+                        auto_variant_prefix = souvenir_prefix
+                    else:
+                        logger.warning(f"Variant Requires Override | {ik} | Variant={variant}")
+                        record_skip(skipped, "items", ik, "variant_requires_override")
+                        stats["items_skipped"] += 1
+                        continue
 
                 display = item_id_to_display.get(item_id)
                 if not display and not override_mh:
@@ -1844,20 +1981,21 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     continue
 
                 market_hash = override_mh or build_item_market_hash(display, wear, is_st)
+                if auto_variant_prefix:
+                    if not market_hash.lower().startswith(auto_variant_prefix.lower()):
+                        market_hash = f"{auto_variant_prefix}{market_hash}"
                 bulk_price, bulk_count = bulk_price_for(market_hash)
                 if bulk_price is not None:
                     logger.info(f"Bulk Price Used | {ik} | Sources={bulk_count} | Price={bulk_price:.2f}")
+                    stats["bulk_used_items"] += 1
                     new_price = bulk_price
                     used_provider = f"Bulk[{bulk_count}]"
                     reason = "ok"
                 else:
                     logger.info(f"Bulk Missing | {ik} | Sources={bulk_count} | Falling Back")
-                    time.sleep(random.uniform(item_delay_min, item_delay_max))
-                    new_price, used_provider, reason = fetch_with_fallback(
-                        market_hash,
-                        "items",
-                        preferred_order=["skinport", "csfloat", "steam"],
-                    )
+                    stats["bulk_missing_items"] += 1
+                    items_fallback.append((ik, market_hash))
+                    continue
                 if new_price is None:
                     record_skip(skipped, "items", ik, reason or "provider_failed")
                     stats["items_skipped"] += 1
@@ -1872,6 +2010,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     stats["items_updated"] += 1
                 else:
                     updated_at["items"][ik] = utc_now_iso()
+                    stats["items_unchanged"] += 1
                     stats["items_skipped"] += 1
 
                 if i % 25 == 0 or i == total:
@@ -1883,6 +2022,43 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     )
                 if checkpoint_every_items and (i % checkpoint_every_items == 0):
                     checkpoint_save(prices_path, prices, logger)
+            if items_fallback:
+                total_fb = len(items_fallback)
+                logger.info(f"Fallback Pass | Items {total_fb}")
+                for idx, (ik, market_hash) in enumerate(items_fallback, start=1):
+                    existing = items.get(ik)
+                    if not isinstance(existing, (int, float)):
+                        record_skip(skipped, "items", ik, "missing_in_prices")
+                        stats["items_skipped"] += 1
+                        continue
+                    time.sleep(random.uniform(item_delay_min, item_delay_max))
+                    new_price, used_provider, reason = fetch_with_fallback(
+                        market_hash,
+                        "items",
+                        preferred_order=["skinport", "csfloat", "steam"],
+                    )
+                    if new_price is None:
+                        record_skip(skipped, "items", ik, reason or "provider_failed")
+                        stats["items_skipped"] += 1
+                        continue
+                    clear_skip(skipped, "items", ik)
+                    if abs(float(existing) - new_price) >= 0.01:
+                        provider_tag = f" | Provider={used_provider}" if used_provider else ""
+                        logger.info(f"Item Price Changed | {ik} | {existing:.2f} -> {new_price:.2f}{provider_tag}")
+                        items[ik] = new_price
+                        updated_at["items"][ik] = utc_now_iso()
+                        stats["items_updated"] += 1
+                    else:
+                        updated_at["items"][ik] = utc_now_iso()
+                        stats["items_unchanged"] += 1
+                        stats["items_skipped"] += 1
+                    if idx % 25 == 0 or idx == total_fb:
+                        logger.info(
+                            f"Fallback Progress | Items {idx}/{total_fb} | Updated={stats['items_updated']} | "
+                            f"Skipped={stats['items_skipped']}"
+                        )
+                    if checkpoint_every_items and (idx % checkpoint_every_items == 0):
+                        checkpoint_save(prices_path, prices, logger)
         else:
             logger.warning("prices.items Is Not An Object; Skipping Items.")
 
@@ -1892,6 +2068,9 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             f"Cases {stats['cases_updated']}/{stats['cases_total']} Updated | "
             f"Keys {stats['keys_updated']}/{stats['keys_total']} Updated | "
             f"Items {stats['items_updated']}/{stats['items_total']} Updated | "
+            f"Unchanged C/K/I {stats['cases_unchanged']}/{stats['keys_unchanged']}/{stats['items_unchanged']} | "
+            f"Bulk Used C/K/I {stats['bulk_used_cases']}/{stats['bulk_used_keys']}/{stats['bulk_used_items']} | "
+            f"Bulk Missing C/K/I {stats['bulk_missing_cases']}/{stats['bulk_missing_keys']}/{stats['bulk_missing_items']} | "
             f"Skinport Ok/Fail {stats['skinport_ok']}/{stats['skinport_fail']} | "
             f"Steam Ok/Fail {stats['steam_ok']}/{stats['steam_fail']} | "
             f"CSFloat Ok/Fail {stats['csfloat_ok']}/{stats['csfloat_fail']}"
