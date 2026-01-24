@@ -1,6 +1,8 @@
 async function () {
   "use strict";
 
+  const LOG_ENABLED = true;
+
   const TCSGO_BASE = "A:\\Development\\Version Control\\Github\\TCSGO";
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";
@@ -8,6 +10,11 @@ async function () {
   // ============================================================
   // HELPERS
   // ============================================================
+
+  function logMsg(message) {
+    if (!LOG_ENABLED) return;
+    try { log(message); } catch (_) {}
+  }
 
   function lowerTrim(raw) {
     return String(raw ?? "").trim().toLowerCase();
@@ -43,7 +50,7 @@ async function () {
       setVariable({ name: ACK_VAR, value: payloadStr, global: true });
     } catch (_) {}
 
-    try { log(payloadStr); } catch (_) {}
+    logMsg(payloadStr);
   }
 
   async function safeReadJson(fullPath, fallbackObj = null) {
@@ -86,7 +93,7 @@ async function () {
       }
     }
 
-    log(`[WriteFile] Error | path=${path} | ${lastErr?.message ?? lastErr}`);
+    logMsg(`[WriteFile] Error | path=${path} | ${lastErr?.message ?? lastErr}`);
     return false;
   }
 
@@ -109,7 +116,7 @@ async function () {
   const qtyRaw = await getVariable("qty");
   const qty = Math.max(1, parseInt(qtyRaw, 10) || 1);
 
-  log(`[BUYKEY] Vars | eventId=${eventId} | platform=${platform} | username=${username} | keyId=${keyId} | qty=${qty}`);
+  logMsg(`[BUYKEY] Vars | eventId=${eventId} | platform=${platform} | username=${username} | keyId=${keyId} | qty=${qty}`);
 
   let result;
 
@@ -163,7 +170,7 @@ async function () {
       }
     };
 
-    log(`[BUYKEY] Success | ${username} Bought ${qty}x ${keyId} | NewCount=${next}`);
+    logMsg(`[BUYKEY] Success | ${username} Bought ${qty}x ${keyId} | NewCount=${next}`);
 
   } catch (err) {
     const e =
@@ -181,7 +188,7 @@ async function () {
       data: { timings: { msTotal: Date.now() - t0 } }
     };
 
-    log(`[BUYKEY] Error | ${e.code} - ${e.message}`);
+    logMsg(`[BUYKEY] Error | ${e.code} - ${e.message}`);
   }
 
   dualAck(result);

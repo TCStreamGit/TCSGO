@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0-inventories",
-  "lastModified": "2026-01-23T23:34:19.214Z",
+  "lastModified": "2026-01-24T00:16:22.006Z",
   "users": {
     "tanchosenlive:twitch": {
       "platform": "twitch",
@@ -59,11 +59,9 @@
       "platform": "twitch",
       "username": "tanthebananaman",
       "cases": {
-        "cs20-case": 4
+        "cs20-case": 5
       },
-      "keys": {
-        "csgo-case-key": 4
-      },
+      "keys": {},
       "items": [
         {
           "oid": "oid_mkrepgy1_deqivejc1",
@@ -232,6 +230,237 @@
             "chosenCoins": 100
           },
           "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--tec-9-flash-out--04.png"
+        },
+        {
+          "oid": "oid_mkrjlyua_x9njlx2b8",
+          "itemId": "mac-10-classic-crate",
+          "displayName": "MAC-10 | Classic Crate",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "MAC-10",
+          "skin": "Classic Crate",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Factory New",
+          "acquiredAt": "2026-01-23T23:59:41.218Z",
+          "lockedUntil": "2026-01-30T23:59:41.218Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.15,
+            "chosenCoins": 150
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mac-10-classic-crate--03.png"
+        },
+        {
+          "oid": "oid_mkrjnnee_fpthsbbuy",
+          "itemId": "dual-berettas-elite-1-6",
+          "displayName": "Dual Berettas | Elite 1.6",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "Dual Berettas",
+          "skin": "Elite 1.6",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Battle-Scarred",
+          "acquiredAt": "2026-01-24T00:00:59.702Z",
+          "lockedUntil": "2026-01-31T00:00:59.702Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.06,
+            "chosenCoins": 60
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--dual-berettas-elite-1-6--02.png"
+        },
+        {
+          "oid": "oid_mkrjocq7_ia0auf551",
+          "itemId": "famas-decommissioned",
+          "displayName": "FAMAS | Decommissioned",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "FAMAS",
+          "skin": "Decommissioned",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Field-Tested",
+          "acquiredAt": "2026-01-24T00:01:32.527Z",
+          "lockedUntil": "2026-01-31T00:01:32.527Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.1,
+            "chosenCoins": 100
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--famas-decommissioned--04.png"
+        },
+        {
+          "oid": "oid_mkrjsqzc_42tj4l2mt",
+          "itemId": "mac-10-classic-crate",
+          "displayName": "MAC-10 | Classic Crate",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "MAC-10",
+          "skin": "Classic Crate",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Minimal Wear",
+          "acquiredAt": "2026-01-24T00:04:57.624Z",
+          "lockedUntil": "2026-01-31T00:04:57.624Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.12,
+            "chosenCoins": 120
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mac-10-classic-crate--02.png"
+        },
+        {
+          "oid": "oid_mkrjsvx3_w0d1dwbu1",
+          "itemId": "dual-berettas-elite-1-6",
+          "displayName": "Dual Berettas | Elite 1.6",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "Dual Berettas",
+          "skin": "Elite 1.6",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Well-Worn",
+          "acquiredAt": "2026-01-24T00:05:04.023Z",
+          "lockedUntil": "2026-01-31T00:05:04.023Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.08,
+            "chosenCoins": 80
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--dual-berettas-elite-1-6.png"
+        },
+        {
+          "oid": "oid_mkrjtqx2_u2vncqonb",
+          "itemId": "scar-20-assault",
+          "displayName": "SCAR-20 | Assault",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "SCAR-20",
+          "skin": "Assault",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Field-Tested",
+          "acquiredAt": "2026-01-24T00:05:44.198Z",
+          "lockedUntil": "2026-01-31T00:05:44.198Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.1,
+            "chosenCoins": 100
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--scar-20-assault.png"
+        },
+        {
+          "oid": "oid_mkrjuhct_katf6t3i0",
+          "itemId": "tec-9-flash-out",
+          "displayName": "Tec-9 | Flash Out",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "Tec-9",
+          "skin": "Flash Out",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Minimal Wear",
+          "acquiredAt": "2026-01-24T00:06:18.461Z",
+          "lockedUntil": "2026-01-31T00:06:18.461Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.12,
+            "chosenCoins": 120
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--tec-9-flash-out.png"
+        },
+        {
+          "oid": "oid_mkrjwnm5_92vhbo4lf",
+          "itemId": "glock-18-sacrifice",
+          "displayName": "Glock-18 | Sacrifice",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "Glock-18",
+          "skin": "Sacrifice",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Battle-Scarred",
+          "acquiredAt": "2026-01-24T00:07:59.885Z",
+          "lockedUntil": "2026-01-31T00:07:59.885Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.06,
+            "chosenCoins": 60
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--glock-18-sacrifice.png"
+        },
+        {
+          "oid": "oid_mkrjwqt0_ambct9396",
+          "itemId": "mag-7-popdog",
+          "displayName": "MAG-7 | Popdog",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "MAG-7",
+          "skin": "Popdog",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Minimal Wear",
+          "acquiredAt": "2026-01-24T00:08:04.020Z",
+          "lockedUntil": "2026-01-31T00:08:04.020Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.12,
+            "chosenCoins": 120
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--mag-7-popdog--03.png"
+        },
+        {
+          "oid": "oid_mkrjyccv_pvot0zen4",
+          "itemId": "tec-9-flash-out",
+          "displayName": "Tec-9 | Flash Out",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "Tec-9",
+          "skin": "Flash Out",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Battle-Scarred",
+          "acquiredAt": "2026-01-24T00:09:18.607Z",
+          "lockedUntil": "2026-01-31T00:09:18.607Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.06,
+            "chosenCoins": 60
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--tec-9-flash-out--03.png"
+        },
+        {
+          "oid": "oid_mkrk7f1y_na89bdcug",
+          "itemId": "famas-decommissioned",
+          "displayName": "FAMAS | Decommissioned",
+          "rarity": "mil-spec",
+          "tier": "blue",
+          "category": "weapon_skin",
+          "weapon": "FAMAS",
+          "skin": "Decommissioned",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Battle-Scarred",
+          "acquiredAt": "2026-01-24T00:16:22.006Z",
+          "lockedUntil": "2026-01-31T00:16:22.006Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.06,
+            "chosenCoins": 60
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--famas-decommissioned--04.png"
         }
       ],
       "pendingSell": null

@@ -1,6 +1,8 @@
 async function () {
   "use strict";
 
+  const LOG_ENABLED = true;
+
   const TCSGO_BASE = "A:\\Development\\Version Control\\Github\\TCSGO";
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";
@@ -17,6 +19,11 @@ async function () {
   // ============================================================
   // HELPERS
   // ============================================================
+
+  function logMsg(message) {
+    if (!LOG_ENABLED) return;
+    try { log(message); } catch (_) {}
+  }
 
   function lowerTrim(raw) {
     return String(raw ?? "").trim().toLowerCase();
@@ -52,7 +59,7 @@ async function () {
       setVariable({ name: ACK_VAR, value: payloadStr, global: true });
     } catch (_) {}
 
-    try { log(payloadStr); } catch (_) {}
+    logMsg(payloadStr);
   }
 
   async function safeReadJson(fullPath, fallbackObj = null) {
@@ -95,7 +102,7 @@ async function () {
       }
     }
 
-    log(`[WriteFile] Error | path=${path} | ${lastErr?.message ?? lastErr}`);
+    logMsg(`[WriteFile] Error | path=${path} | ${lastErr?.message ?? lastErr}`);
     return false;
   }
 
@@ -203,7 +210,7 @@ async function () {
   const username = String(await getVariable("username") ?? "");
   const alias = String(await getVariable("alias") ?? "");
 
-  log(`[OPEN] Vars | eventId=${eventId} | platform=${platform} | username=${username} | alias=${alias}`);
+  logMsg(`[OPEN] Vars | eventId=${eventId} | platform=${platform} | username=${username} | alias=${alias}`);
 
   let result;
 
@@ -342,7 +349,7 @@ async function () {
       }
     };
 
-    log(`[OPEN] Success | ${username} Opened ${oi.displayName} | oid=${oi.oid}`);
+    logMsg(`[OPEN] Success | ${username} Opened ${oi.displayName} | oid=${oi.oid}`);
 
   } catch (err) {
     const e =
@@ -360,7 +367,7 @@ async function () {
       data: { timings: { msTotal: Date.now() - t0 } }
     };
 
-    log(`[OPEN] Error | ${e.code} - ${e.message}`);
+    logMsg(`[OPEN] Error | ${e.code} - ${e.message}`);
   }
 
   dualAck(result);

@@ -70,11 +70,13 @@
     defaultKeyPriceCoins: 3500,
     codeId: "tcsgo-controller",
     winnerDisplayMs: 8000,
-    caseIntroMs: 950,
+    caseIntroMs: 200,
+    caseSpinPauseMs: 1000,
     caseSpinMs: 6050,
-    caseSpinItems: 38,
-    caseWinnerIndex: 30,
+    caseSpinItems: 60,
+    caseWinnerIndex: 50,
     caseKeyImage: "",
+    sfxAccept: "Assets/Sounds/TCSGO_Sound_Assets/menu_accept.mp3",
     sfxOpen: "Assets/Sounds/MP3/csgo_ui_crate_open.mp3",
     sfxTick: "Assets/Sounds/TCSGO_Sound_Assets/tick.mp3",
     sfxReveal: "Assets/Sounds/TCSGO_Sound_Assets/reveal.mp3",
@@ -123,6 +125,8 @@
   };
 
   let CONFIG = { ...DEFAULT_CONFIG };
+  const BOOT_TS = Date.now();
+  let pollPrimed = false;
 
   const SPIN_TIMING_DEFAULT = {
     spinUpMs: 250,
@@ -131,6 +135,7 @@
     finalLockMs: 400,
     overshootPx: 6,
     openSfxDelayMs: 200,
+    cruiseBoost: 1.5,
     tickCurve: [
       { t: 0, interval: 83 },
       { t: 1800, interval: 100 },
@@ -169,6 +174,7 @@
     caseKeyImage: null,
     rouletteStrip: null,
     rouletteWindow: null,
+    rouletteMarker: null,
     rouletteCase: null,
     rouletteUser: null,
     revealImage: null,
@@ -177,6 +183,7 @@
     revealWear: null,
     revealPrice: null,
     revealUser: null,
+    sfxAccept: null,
     sfxOpen: null,
     sfxTick: null,
     sfxReveal: null,
@@ -283,6 +290,10 @@
     loadConfig();
     cacheUi();
     initAudio();
+    if (UI.caseOpening) {
+      setOverlayState("idle");
+      setOverlayActive(false);
+    }
 
     debugEmit(`[Init] Starting | Instance=${INSTANCE_ID}`, "info", "debugInit");
 
@@ -293,6 +304,7 @@
     );
 
     await loadDataFiles();
+    await primePollingCache();
 
     setupEventListeners();
     startLeaderElection();
@@ -320,10 +332,12 @@
     CONFIG.defaultKeyPriceCoins = clampNum(cfgNumFrom(src, "defaultKeyPriceCoins", DEFAULT_CONFIG.defaultKeyPriceCoins), 0, 1e12, DEFAULT_CONFIG.defaultKeyPriceCoins);
     CONFIG.winnerDisplayMs = clampNum(cfgNumFrom(src, "winnerDisplayMs", DEFAULT_CONFIG.winnerDisplayMs), 500, 60000, DEFAULT_CONFIG.winnerDisplayMs);
     CONFIG.caseIntroMs = clampNum(cfgNumFrom(src, "caseIntroMs", DEFAULT_CONFIG.caseIntroMs), 0, 10000, DEFAULT_CONFIG.caseIntroMs);
+    CONFIG.caseSpinPauseMs = clampNum(cfgNumFrom(src, "caseSpinPauseMs", DEFAULT_CONFIG.caseSpinPauseMs), 0, 10000, DEFAULT_CONFIG.caseSpinPauseMs);
     CONFIG.caseSpinMs = clampNum(cfgNumFrom(src, "caseSpinMs", DEFAULT_CONFIG.caseSpinMs), 800, 20000, DEFAULT_CONFIG.caseSpinMs);
     CONFIG.caseSpinItems = clampNum(cfgNumFrom(src, "caseSpinItems", DEFAULT_CONFIG.caseSpinItems), 12, 120, DEFAULT_CONFIG.caseSpinItems);
     CONFIG.caseWinnerIndex = clampNum(cfgNumFrom(src, "caseWinnerIndex", DEFAULT_CONFIG.caseWinnerIndex), 6, 120, DEFAULT_CONFIG.caseWinnerIndex);
     CONFIG.caseKeyImage = cfgStrFrom(src, "caseKeyImage", DEFAULT_CONFIG.caseKeyImage);
+    CONFIG.sfxAccept = cfgStrFrom(src, "sfxAccept", DEFAULT_CONFIG.sfxAccept);
     CONFIG.sfxOpen = cfgStrFrom(src, "sfxOpen", DEFAULT_CONFIG.sfxOpen);
     CONFIG.sfxTick = cfgStrFrom(src, "sfxTick", DEFAULT_CONFIG.sfxTick);
     CONFIG.sfxReveal = cfgStrFrom(src, "sfxReveal", DEFAULT_CONFIG.sfxReveal);
@@ -548,6 +562,20 @@
   // POLLING (FALLBACK)
   // =========================================================================
 
+  async function primePollingCache() {
+    if (pollPrimed) return;
+    pollPrimed = true;
+    try {
+      const eventJson = await safeGetVariable("tcsgo_last_event_json");
+      if (eventJson != null && eventJson !== "") {
+        lastPolledRaw = String(eventJson);
+        debugEmit("[Polling] Primed Last Payload", "info", "debugEventsPoll");
+      }
+    } catch (err) {
+      debugError("[Polling] Prime Failed", err, "debugErrors");
+    }
+  }
+
   function startPolling() {
     if (pollIntervalRef) return;
 
@@ -620,13 +648,34 @@
     handleUnsolicitedEvent(payload);
   }
 
+  function getEventTimestamp(eventId) {
+    const raw = String(eventId || "");
+    const match = /^evt_([0-9a-z]+)_/i.exec(raw);
+    if (!match) return null;
+    const ts = parseInt(match[1], 36);
+    return Number.isFinite(ts) ? ts : null;
+  }
+
+  function shouldIgnoreOpenResult(payload) {
+    const eventId = payload?.eventId || payload?.data?.eventId || "";
+    const ts = getEventTimestamp(eventId);
+    if (!ts) return false;
+    return ts < (BOOT_TS - 1000);
+  }
+
   function handleUnsolicitedEvent(payload) {
     const type = payload.type;
     debugEmit(`[Router] Unsolicited | type=${String(type || "")}`, "info", "debugUnsolicited");
 
     switch (type) {
       case "open-result":
-        if (payload.ok && payload.data?.winner) showRevealOnly(payload.data, payload.username || "Unknown");
+        if (payload.ok && payload.data?.winner) {
+          if (shouldIgnoreOpenResult(payload)) {
+            debugEmit("[Router] Ignored Stale Open Result On Boot", "warning", "debugRouter");
+            return;
+          }
+          showRevealOnly(payload.data, payload.username || "Unknown");
+        }
         break;
 
       case "buycase-result":
@@ -1299,6 +1348,7 @@
 
     UI.rouletteStrip = document.getElementById("roulette-strip");
     UI.rouletteWindow = document.getElementById("roulette-window");
+    UI.rouletteMarker = document.getElementById("roulette-center-line");
     UI.rouletteCase = document.getElementById("roulette-case");
     UI.rouletteUser = document.getElementById("roulette-user");
 
@@ -1309,6 +1359,7 @@
     UI.revealPrice = document.getElementById("reveal-price");
     UI.revealUser = document.getElementById("reveal-user");
 
+    UI.sfxAccept = document.getElementById("sfx-accept");
     UI.sfxOpen = document.getElementById("sfx-open");
     UI.sfxTick = document.getElementById("sfx-tick");
     UI.sfxReveal = document.getElementById("sfx-reveal");
@@ -1319,6 +1370,7 @@
   function initAudio() {
     if (!UI.caseOpening) return;
 
+    setAudioSource(UI.sfxAccept, CONFIG.sfxAccept, CONFIG.sfxVolume);
     setAudioSource(UI.sfxOpen, CONFIG.sfxOpen, CONFIG.sfxVolume);
     setAudioSource(UI.sfxTick, CONFIG.sfxTick, CONFIG.sfxTickVolume);
     setAudioSource(UI.sfxReveal, CONFIG.sfxReveal, CONFIG.sfxVolume);
@@ -1414,11 +1466,22 @@
     updateCaseIntro(caseInfo);
     updateRouletteMeta(caseInfo, username);
 
-    const spinBuild = buildSpinSequence(caseJson, winner, resultData?.imagePath || "");
+    const timing = getSpinTiming();
+    const spinBuild = buildSpinSequence(caseJson, winner, resultData?.imagePath || "", timing);
     const winnerTile = renderRouletteItems(spinBuild.items);
     setStripX(0);
     setOverlayActive(true);
     setOverlayState("intro");
+
+    playAudio(UI.sfxAccept, CONFIG.sfxVolume);
+    if (timing.openDelayMs > 0) await sleep(timing.openDelayMs);
+    playAudio(UI.sfxOpen, CONFIG.sfxVolume);
+    const introRemainder = Math.max(0, CONFIG.caseIntroMs - timing.openDelayMs);
+    if (introRemainder > 0) await sleep(introRemainder);
+
+    setOverlayState("roulette");
+    const pauseMs = Math.max(0, Number(CONFIG.caseSpinPauseMs) || 0);
+    if (pauseMs > 0) await sleep(pauseMs);
 
     const metrics = await ensureRouletteMetrics();
     if (!metrics) {
@@ -1426,18 +1489,12 @@
       return;
     }
 
-    const targetX = metrics.windowWidth / 2 -
+    const fallbackTargetX = metrics.windowWidth / 2 -
       (metrics.paddingLeft + spinBuild.winnerIndex * metrics.tileStep + metrics.tileWidth / 2);
+    const computedTargetX = computeTargetX(metrics, winnerTile);
+    const targetX = Number.isFinite(computedTargetX) ? computedTargetX : fallbackTargetX;
 
-    const timing = getSpinTiming();
-
-    if (timing.openDelayMs > 0) await sleep(timing.openDelayMs);
-    playAudio(UI.sfxOpen, CONFIG.sfxVolume);
-    const introRemainder = Math.max(0, CONFIG.caseIntroMs - timing.openDelayMs);
-    if (introRemainder > 0) await sleep(introRemainder);
-
-    setOverlayState("roulette");
-    await animateRoulette(targetX, timing);
+    await animateRoulette(targetX, timing, metrics.tileStep);
 
     if (winnerTile) winnerTile.classList.add("is-winner");
 
@@ -1690,10 +1747,19 @@
     return images.length ? images[Math.floor(Math.random() * images.length)] : "";
   }
 
-  function buildSpinSequence(caseJson, winner, winnerImagePath) {
-    const count = Math.max(12, Math.floor(CONFIG.caseSpinItems) || 0);
+  function buildSpinSequence(caseJson, winner, winnerImagePath, timing) {
+    const requestedCount = Math.floor(CONFIG.caseSpinItems) || 0;
+    const requestedWinnerIndex = Math.floor(CONFIG.caseWinnerIndex) || 0;
+    const spinMs = timing
+      ? Math.max(0, Number(timing.spinUpMs) + Number(timing.highSpeedMs) + Number(timing.decelMs))
+      : Number(CONFIG.caseSpinMs) || 0;
+    const minWinnerIndex = Math.max(30, Math.round(spinMs / 120));
+
+    let winnerIndex = Math.max(requestedWinnerIndex, minWinnerIndex);
+    let count = Math.max(12, requestedCount, winnerIndex + 6);
+    count = Math.min(120, count);
     const maxWinnerIndex = Math.max(6, count - 6);
-    const winnerIndex = Math.min(Math.max(Math.floor(CONFIG.caseWinnerIndex) || 0, 3), maxWinnerIndex);
+    winnerIndex = Math.min(Math.max(winnerIndex, 3), maxWinnerIndex);
 
     const winnerEntry = findCaseItem(caseJson, winner.itemId);
     const winnerTier = winner.tier || winnerEntry?.tier || winner.rarity || "blue";
@@ -1794,6 +1860,21 @@
     return null;
   }
 
+  function computeTargetX(metrics, winnerTile) {
+    if (!metrics || !UI.rouletteWindow || !winnerTile) return null;
+    const windowRect = UI.rouletteWindow.getBoundingClientRect();
+    const tileRect = winnerTile.getBoundingClientRect();
+    if (!windowRect.width || !tileRect.width) return null;
+
+    const markerRect = UI.rouletteMarker ? UI.rouletteMarker.getBoundingClientRect() : null;
+    const markerX = markerRect
+      ? markerRect.left + markerRect.width * 0.5
+      : windowRect.left + windowRect.width * 0.5;
+
+    const currentCenter = tileRect.left + tileRect.width * 0.5;
+    return stripX + (markerX - currentCenter);
+  }
+
   function setStripX(x) {
     stripX = x;
     if (UI.rouletteStrip) UI.rouletteStrip.style.transform = `translateX(${x}px)`;
@@ -1823,8 +1904,9 @@
       decelMs,
       finalLockMs,
       overshootPx: SPIN_TIMING_DEFAULT.overshootPx,
+      cruiseBoost: SPIN_TIMING_DEFAULT.cruiseBoost,
       tickCurve,
-      tickStartMs: spinUpMs,
+      tickStartMs: 0,
       tickDurationMs: Math.max(0, highSpeedMs + decelMs),
       openDelayMs
     };
@@ -1861,41 +1943,6 @@
     return curve[curve.length - 1].interval;
   }
 
-  function startTickSchedule(timing) {
-    if (!UI.sfxTick) return () => {};
-
-    const tickStartMs = Math.max(0, Number(timing?.tickStartMs) || 0);
-    const tickDurationMs = Math.max(0, Number(timing?.tickDurationMs) || 0);
-    if (tickDurationMs <= 0) return () => {};
-
-    const curve = timing?.tickCurve || [];
-    let active = true;
-    let timer = null;
-    let startAt = 0;
-
-    const stop = () => {
-      active = false;
-      if (timer) clearTimeout(timer);
-    };
-
-    const scheduleNext = () => {
-      if (!active) return;
-      const elapsed = performance.now() - startAt;
-      if (elapsed >= tickDurationMs) return;
-      playTick();
-      const interval = tickIntervalAt(curve, elapsed);
-      timer = setTimeout(scheduleNext, interval);
-    };
-
-    timer = setTimeout(() => {
-      if (!active) return;
-      startAt = performance.now();
-      scheduleNext();
-    }, tickStartMs);
-
-    return stop;
-  }
-
   function spinProgress(elapsed, spinUpMs, highSpeedMs, decelMs, accelPortion, cruisePortion, decelPortion) {
     if (spinUpMs > 0 && elapsed <= spinUpMs) {
       const t = elapsed / spinUpMs;
@@ -1912,7 +1959,7 @@
     return 1;
   }
 
-  function animateRoulette(targetX, timing) {
+  function animateRoulette(targetX, timing, tileStep) {
     const spinTiming = timing || getSpinTiming();
     const startX = stripX;
     const distance = targetX - startX;
@@ -1924,14 +1971,42 @@
     const lockMs = Math.max(0, spinTiming.finalLockMs);
 
     const accelDist = 0.5 * spinTiming.spinUpMs;
-    const cruiseDist = spinTiming.highSpeedMs;
+    const cruiseBoost = Math.max(1, Number(spinTiming.cruiseBoost) || 1);
+    const cruiseDist = spinTiming.highSpeedMs * cruiseBoost;
     const decelDist = 0.5 * spinTiming.decelMs;
     const distDenom = Math.max(1, accelDist + cruiseDist + decelDist);
     const accelPortion = accelDist / distDenom;
     const cruisePortion = cruiseDist / distDenom;
     const decelPortion = decelDist / distDenom;
 
-    const stopTicks = startTickSchedule(spinTiming);
+    const step = Number(tileStep) || 0;
+    const tickStartMs = Math.max(0, Number(spinTiming.tickStartMs) || 0);
+    const tickDurationMs = Math.max(0, Number(spinTiming.tickDurationMs) || 0);
+    const tickEndMs = tickStartMs + tickDurationMs;
+    const tickCurve = spinTiming.tickCurve || [];
+    let lastTickIndex = 0;
+    let nextTickAt = tickStartMs;
+    const totalMs = mainMs + Math.max(0, lockMs);
+
+    function maybeTick(elapsed, x) {
+      if (!step || tickDurationMs <= 0) return;
+
+      const distanceTravelled = Math.abs(x - startX);
+      const tickIndex = Math.floor(distanceTravelled / step);
+
+      if (elapsed < tickStartMs) {
+        lastTickIndex = tickIndex;
+        return;
+      }
+      if (elapsed > tickEndMs) return;
+      if (tickIndex <= lastTickIndex) return;
+      if (elapsed < nextTickAt) return;
+
+      playTick();
+      lastTickIndex = tickIndex;
+      const interval = tickIntervalAt(tickCurve, elapsed - tickStartMs);
+      nextTickAt = elapsed + interval;
+    }
 
     return new Promise((resolve) => {
       const start = performance.now();
@@ -1947,29 +2022,22 @@
             cruisePortion,
             decelPortion
           );
-          setStripX(lerp(startX, overshootX, progress));
+          const x = lerp(startX, overshootX, progress);
+          setStripX(x);
+          maybeTick(elapsed, x);
           requestAnimationFrame(frame);
           return;
         }
 
-        setStripX(overshootX);
-        if (lockMs <= 0) {
-          stopTicks();
-          resolve();
+        if (lockMs > 0 && elapsed < totalMs) {
+          const t = Math.min(1, (elapsed - mainMs) / lockMs);
+          setStripX(lerp(overshootX, targetX, easeOutCubic(t)));
+          requestAnimationFrame(frame);
           return;
         }
 
-        const lockStart = performance.now();
-        function lockFrame(now2) {
-          const t = Math.min(1, (now2 - lockStart) / lockMs);
-          setStripX(lerp(overshootX, targetX, easeOutCubic(t)));
-          if (t < 1) requestAnimationFrame(lockFrame);
-          else {
-            stopTicks();
-            resolve();
-          }
-        }
-        requestAnimationFrame(lockFrame);
+        setStripX(targetX);
+        resolve();
       }
       requestAnimationFrame(frame);
     });

@@ -16,6 +16,13 @@
 // CONFIGURATION - PORTABLE PATH SETUP
 // =============================================================================
 
+const LOG_ENABLED = true;
+
+function logMsg(message) {
+    if (!LOG_ENABLED) return;
+    try { log(message); } catch (_) {}
+}
+
 // Option 1: Set Lumia working dir to TCSGO root, leave this empty
 // Option 2: Set full path here if Lumia working dir is different
 const TCSGO_BASE = '';  // e.g., 'A:\\Development\\Version Control\\Github\\TCSGO' or 'C:\\Users\\You\\TCSGO'
@@ -57,7 +64,7 @@ async function loadJson(relativePath) {
         const content = await readFile(fullPath);
         return JSON.parse(content);
     } catch (e) {
-        log(`[TCSGO] loadJson error for ${relativePath}: ${e.message}`);
+        logMsg(`[TCSGO] loadJson error for ${relativePath}: ${e.message}`);
         return null;
     }
 }
@@ -69,7 +76,7 @@ async function saveJson(relativePath, data) {
         await writeFile(fullPath, json);
         return true;
     } catch (e) {
-        log(`[TCSGO] saveJson error for ${relativePath}: ${e.message}`);
+        logMsg(`[TCSGO] saveJson error for ${relativePath}: ${e.message}`);
         return false;
     }
 }
@@ -225,7 +232,7 @@ function rollCaseFromJson(caseJson) {
     }
     
     if (tierItems.length === 0) {
-        log(`[TCSGO] No items in tier: ${selectedTier}`);
+        logMsg(`[TCSGO] No items in tier: ${selectedTier}`);
         return null;
     }
     
@@ -348,4 +355,4 @@ function selectRandomImage(item) {
     return validImages[Math.floor(Math.random() * validImages.length)];
 }
 
-log('[TCSGO Core] Module loaded. Copy needed functions into command files.');
+logMsg('[TCSGO Core] Module loaded. Copy needed functions into command files.');

@@ -1,6 +1,8 @@
 async function () {
   "use strict";
 
+  const LOG_ENABLED = true;
+
   const TCSGO_BASE = "A:\\Development\\Version Control\\Github\\TCSGO";
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";
@@ -8,6 +10,11 @@ async function () {
   // ============================================================
   // HELPERS
   // ============================================================
+
+  function logMsg(message) {
+    if (!LOG_ENABLED) return;
+    try { log(message); } catch (_) {}
+  }
 
   function lowerTrim(raw) {
     return String(raw ?? "").trim().toLowerCase();
@@ -43,7 +50,7 @@ async function () {
       setVariable({ name: ACK_VAR, value: payloadStr, global: true });
     } catch (_) {}
 
-    try { log(payloadStr); } catch (_) {}
+    logMsg(payloadStr);
   }
 
   async function safeReadJson(fullPath, fallbackObj = null) {
@@ -108,7 +115,7 @@ async function () {
   const oid = String(await getVariable("oid") ?? "");
   const itemIdInput = String(await getVariable("itemId") ?? "");
 
-  log(`[CHECKPRICE] Vars | eventId=${eventId} | platform=${platform} | username=${username} | oid=${oid} | itemId=${itemIdInput}`);
+  logMsg(`[CHECKPRICE] Vars | eventId=${eventId} | platform=${platform} | username=${username} | oid=${oid} | itemId=${itemIdInput}`);
 
   let result;
 
