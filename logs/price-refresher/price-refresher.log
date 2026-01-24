@@ -1,194 +1,1253 @@
-2026-01-23 13:35:16,926 | INFO | Price Refresher Starting.
-2026-01-23 13:35:16,926 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
-2026-01-23 13:35:17,221 | INFO | USD->CAD FXUSDCAD=1.379800
-2026-01-23 13:35:17,221 | ERROR | Unhandled Error: name 'user_agent' is not defined
-2026-01-23 13:35:17,222 | ERROR | Traceback (most recent call last):
-  File "A:\Development\Version Control\Github\TCSGO\services\price-refresher.py", line 623, in refresh_once
-    user_agent=user_agent,
-               ^^^^^^^^^^
-NameError: name 'user_agent' is not defined
-
-2026-01-23 13:39:23,675 | INFO | Price Refresher Starting.
-2026-01-23 13:39:23,676 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
-2026-01-23 13:39:23,886 | INFO | USD->CAD FXUSDCAD=1.379800
-2026-01-23 13:39:23,886 | WARNING | Case Market Hash Missing: chroma-case
-2026-01-23 13:39:23,886 | WARNING | Case Market Hash Missing: chroma-2-case
-2026-01-23 13:39:23,886 | WARNING | Case Market Hash Missing: chroma-3-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: clutch-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: cs20-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: csgo-weapon-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: csgo-weapon-case-2
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: csgo-weapon-case-3
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: danger-zone-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: dreams-nightmares-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: esports-2013-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: esports-2013-winter-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: esports-2014-summer-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: falchion-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: fever-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: fracture-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: gallery-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: gamma-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: gamma-2-case
-2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: glove-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: horizon-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: huntsman-weapon-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: kilowatt-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-bravo-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-breakout-weapon-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-broken-fang-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-hydra-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-phoenix-weapon-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-riptide-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-vanguard-weapon-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-wildfire-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: shattered-web-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: prisma-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: prisma-2-case
-2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: recoil-case
-2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: revolution-case
-2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: revolver-case
-2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: shadow-case
-2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: snakebite-case
-2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: spectrum-case
-2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: spectrum-2-case
-2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: winter-offensive-weapon-case
-2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: anubis-collection-package
-2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: x-ray-p250-package
-2026-01-23 13:39:23,889 | WARNING | Key Market Hash Missing: default
-2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): ak-47-steel-delta
-2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): awp-black-nile
-2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): mag-7-copper-coated
-2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): tec-9-mummys-rot
-2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): mac-10-echoing-sands
-2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): m4a1-s-mud-spec
-2026-01-23 13:39:23,890 | WARNING | Unknown ItemId (No displayName Found): ssg-08-azure-glyph
-2026-01-23 13:39:23,890 | WARNING | Unknown ItemId (No displayName Found): usp-s-desert-tactical
-2026-01-23 13:39:23,890 | WARNING | Unknown ItemId (No displayName Found): aug-snake-pit
-2026-01-23 13:39:23,890 | WARNING | Unknown ItemId (No displayName Found): m249-submerged
-2026-01-23 13:39:23,890 | INFO | Summary | Cases 0/44 Updated | Keys 0/1 Updated | Items 0/10 Updated | Steam Ok/Fail 0/0 | CSFloat Ok/Fail 0/0
-2026-01-23 13:39:23,890 | INFO | Dry Run Enabled; No Files Were Written.
-2026-01-23 13:43:51,062 | INFO | Price Refresher Starting.
-2026-01-23 13:43:51,062 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
-2026-01-23 13:43:51,312 | INFO | USD->CAD FXUSDCAD=1.379800
-2026-01-23 13:43:51,602 | INFO | Case Price Changed | chroma-case | 2.00 -> 8.58
-2026-01-23 13:43:54,325 | INFO | Case Price Changed | chroma-2-case | 1.50 -> 7.00
-2026-01-23 13:43:57,259 | INFO | Case Price Changed | chroma-3-case | 1.25 -> 6.53
-2026-01-23 13:43:59,834 | INFO | Case Price Changed | clutch-case | 1.00 -> 1.58
-2026-01-23 13:44:03,225 | INFO | Case Price Changed | cs20-case | 0.75 -> 2.40
-2026-01-23 13:44:06,654 | INFO | Case Price Changed | csgo-weapon-case | 15.00 -> 192.04
-2026-01-23 13:44:10,039 | INFO | Case Price Changed | csgo-weapon-case-2 | 12.00 -> 26.23
-2026-01-23 13:44:12,645 | INFO | Case Price Changed | csgo-weapon-case-3 | 10.00 -> 21.64
-2026-01-23 13:44:15,307 | INFO | Case Price Changed | danger-zone-case | 1.50 -> 2.75
-2026-01-23 13:44:15,307 | WARNING | Case Market Hash Missing: dreams-nightmares-case
-2026-01-23 13:44:18,341 | INFO | Case Price Changed | esports-2013-case | 8.00 -> 94.57
-2026-01-23 13:44:21,591 | INFO | Case Price Changed | esports-2013-winter-case | 6.00 -> 20.47
-2026-01-23 13:44:24,495 | INFO | Case Price Changed | esports-2014-summer-case | 5.00 -> 19.62
-2026-01-23 13:44:27,622 | INFO | Case Price Changed | falchion-case | 1.75 -> 3.43
-2026-01-23 13:44:30,666 | INFO | Case Price Changed | fever-case | 3.00 -> 1.35
-2026-01-23 13:44:34,070 | INFO | Case Price Changed | fracture-case | 1.25 -> 0.99
-2026-01-23 13:44:36,994 | INFO | Case Price Changed | gallery-case | 2.00 -> 2.04
-2026-01-23 13:44:40,417 | INFO | Case Price Changed | gamma-case | 2.00 -> 6.59
-2026-01-23 13:44:43,442 | INFO | Case Price Changed | gamma-2-case | 1.50 -> 6.38
-2026-01-23 13:44:46,590 | INFO | Case Price Changed | glove-case | 3.50 -> 29.31
-2026-01-23 13:44:49,368 | INFO | Case Price Changed | horizon-case | 1.25 -> 3.11
-2026-01-23 13:44:52,440 | INFO | Case Price Changed | huntsman-weapon-case | 3.00 -> 17.36
-2026-01-23 13:44:55,325 | INFO | Case Price Changed | kilowatt-case | 4.00 -> 0.45
-2026-01-23 13:44:58,430 | INFO | Case Price Changed | operation-bravo-case | 25.00 -> 88.41
-2026-01-23 13:45:01,669 | INFO | Case Price Changed | operation-breakout-weapon-case | 4.00 -> 16.72
-2026-01-23 13:45:04,287 | INFO | Case Price Changed | operation-broken-fang-case | 2.50 -> 14.38
-2026-01-23 13:45:07,168 | INFO | Case Price Changed | operation-hydra-case | 8.00 -> 61.56
-2026-01-23 13:45:10,484 | INFO | Case Price Changed | operation-phoenix-weapon-case | 5.00 -> 8.16
-2026-01-23 13:45:13,324 | INFO | Case Price Changed | operation-riptide-case | 2.00 -> 25.12
-2026-01-23 13:45:16,303 | INFO | Case Price Changed | operation-vanguard-weapon-case | 4.50 -> 8.38
-2026-01-23 13:45:18,952 | INFO | Case Price Changed | operation-wildfire-case | 6.00 -> 6.60
-2026-01-23 13:45:21,713 | INFO | Case Price Changed | shattered-web-case | 3.00 -> 11.74
-2026-01-23 13:45:24,983 | INFO | Case Price Changed | prisma-case | 1.25 -> 2.75
-2026-01-23 13:45:27,750 | INFO | Case Price Changed | prisma-2-case | 1.00 -> 2.85
-2026-01-23 13:45:30,667 | INFO | Case Price Changed | recoil-case | 1.50 -> 0.53
-2026-01-23 13:45:33,702 | INFO | Case Price Changed | revolution-case | 2.00 -> 0.54
-2026-01-23 13:45:36,901 | INFO | Case Price Changed | revolver-case | 2.50 -> 5.54
-2026-01-23 13:45:39,617 | INFO | Case Price Changed | shadow-case | 1.75 -> 3.21
-2026-01-23 13:45:42,636 | INFO | Case Price Changed | snakebite-case | 2.00 -> 1.20
-2026-01-23 13:45:45,564 | INFO | Case Price Changed | spectrum-case | 2.00 -> 7.40
-2026-01-23 13:45:48,658 | INFO | Case Price Changed | spectrum-2-case | 1.50 -> 6.26
-2026-01-23 13:46:02,377 | INFO | Case Price Changed | winter-offensive-weapon-case | 6.00 -> 16.31
-2026-01-23 13:46:05,114 | INFO | Case Price Changed | anubis-collection-package | 5.00 -> 4.18
-2026-01-23 13:46:08,375 | INFO | Case Price Changed | x-ray-p250-package | 2.00 -> 3.39
-2026-01-23 13:46:11,511 | INFO | Key Price Changed | default | 3.50 -> 10.97
-2026-01-23 13:46:14,859 | INFO | Item Price Changed | ak-47-steel-delta|Field-Tested|0|None | 3.13 -> 4.30
-2026-01-23 13:46:18,076 | INFO | Item Price Changed | awp-black-nile|Field-Tested|0|None | 4.87 -> 6.51
-2026-01-23 13:46:21,205 | INFO | Item Price Changed | mag-7-copper-coated|Field-Tested|0|None | 3.21 -> 3.97
-2026-01-23 13:46:24,460 | INFO | Item Price Changed | tec-9-mummys-rot|Field-Tested|0|None | 3.44 -> 4.53
-2026-01-23 13:46:27,565 | INFO | Item Price Changed | mac-10-echoing-sands|Field-Tested|0|None | 0.41 -> 0.57
-2026-01-23 13:46:30,774 | INFO | Item Price Changed | m4a1-s-mud-spec|Field-Tested|0|None | 0.48 -> 0.74
-2026-01-23 13:46:33,437 | INFO | Item Price Changed | ssg-08-azure-glyph|Field-Tested|0|None | 0.41 -> 0.59
-2026-01-23 13:46:36,637 | INFO | Item Price Changed | usp-s-desert-tactical|Field-Tested|0|None | 0.44 -> 0.61
-2026-01-23 13:46:39,681 | INFO | Item Price Changed | aug-snake-pit|Field-Tested|0|None | 0.07 -> 0.09
-2026-01-23 13:46:42,809 | INFO | Item Price Changed | m249-submerged|Field-Tested|0|None | 0.05 -> 0.07
-2026-01-23 13:46:42,809 | INFO | Progress | Items 10/10 | Updated=10 | Skipped=0
-2026-01-23 13:46:42,810 | INFO | Summary | Cases 43/44 Updated | Keys 1/1 Updated | Items 10/10 Updated | Steam Ok/Fail 54/0 | CSFloat Ok/Fail 0/0
-2026-01-23 13:46:42,810 | INFO | Dry Run Enabled; No Files Were Written.
-2026-01-23 20:49:40,691 | INFO | Price Refresher Starting.
-2026-01-23 20:49:40,691 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
-2026-01-23 20:49:41,292 | INFO | USD->CAD FXUSDCAD=1.373200
-2026-01-23 20:49:41,522 | INFO | Case Price Changed | anubis-collection-package | 5.00 -> 4.23
-2026-01-23 20:49:44,477 | INFO | Case Price Changed | chroma-2-case | 1.50 -> 7.68
-2026-01-23 20:49:47,460 | INFO | Case Price Changed | chroma-3-case | 1.25 -> 7.02
-2026-01-23 20:49:50,529 | INFO | Case Price Changed | chroma-case | 2.00 -> 9.24
-2026-01-23 20:49:53,314 | INFO | Case Price Changed | clutch-case | 1.00 -> 1.55
-2026-01-23 20:49:56,546 | INFO | Case Price Changed | cs20-case | 0.75 -> 2.46
-2026-01-23 20:49:59,209 | INFO | Case Price Changed | csgo-weapon-case | 15.00 -> 191.47
-2026-01-23 20:50:02,045 | INFO | Case Price Changed | csgo-weapon-case-2 | 12.00 -> 26.89
-2026-01-23 20:50:05,213 | INFO | Case Price Changed | csgo-weapon-case-3 | 10.00 -> 20.63
-2026-01-23 20:50:08,001 | INFO | Case Price Changed | danger-zone-case | 1.50 -> 2.77
-2026-01-23 20:50:08,001 | WARNING | Case Market Hash Missing: dreams-nightmares-case
-2026-01-23 20:50:10,975 | INFO | Case Price Changed | esports-2013-case | 8.00 -> 89.54
-2026-01-23 20:50:14,141 | INFO | Case Price Changed | esports-2013-winter-case | 6.00 -> 20.89
-2026-01-23 20:50:17,085 | INFO | Case Price Changed | esports-2014-summer-case | 5.00 -> 20.98
-2026-01-23 20:50:20,436 | INFO | Case Price Changed | falchion-case | 1.75 -> 3.45
-2026-01-23 20:50:23,135 | INFO | Case Price Changed | fever-case | 3.00 -> 1.35
-2026-01-23 20:50:26,288 | INFO | Case Price Changed | fracture-case | 1.25 -> 1.01
-2026-01-23 20:50:29,467 | INFO | Case Price Changed | gallery-case | 2.00 -> 2.04
-2026-01-23 20:50:32,149 | INFO | Case Price Changed | gamma-2-case | 1.50 -> 6.91
-2026-01-23 20:50:34,910 | INFO | Case Price Changed | gamma-case | 2.00 -> 7.10
-2026-01-23 20:50:37,541 | INFO | Case Price Changed | glove-case | 3.50 -> 28.59
-2026-01-23 20:50:49,502 | INFO | Case Price Changed | horizon-case | 1.25 -> 3.19
-2026-01-23 20:50:52,420 | INFO | Case Price Changed | huntsman-weapon-case | 3.00 -> 16.01
-2026-01-23 20:50:55,482 | INFO | Case Price Changed | kilowatt-case | 4.00 -> 0.47
-2026-01-23 20:50:58,858 | INFO | Case Price Changed | operation-bravo-case | 25.00 -> 88.78
-2026-01-23 20:51:02,185 | INFO | Case Price Changed | operation-breakout-weapon-case | 4.00 -> 15.01
-2026-01-23 20:51:05,273 | INFO | Case Price Changed | operation-broken-fang-case | 2.50 -> 14.52
-2026-01-23 20:51:08,362 | INFO | Case Price Changed | operation-hydra-case | 8.00 -> 66.23
-2026-01-23 20:51:10,974 | INFO | Case Price Changed | operation-phoenix-weapon-case | 5.00 -> 8.23
-2026-01-23 20:51:14,059 | INFO | Case Price Changed | operation-riptide-case | 2.00 -> 24.67
-2026-01-23 20:51:16,715 | INFO | Case Price Changed | operation-vanguard-weapon-case | 4.50 -> 8.09
-2026-01-23 20:51:19,623 | INFO | Case Price Changed | operation-wildfire-case | 6.00 -> 6.59
-2026-01-23 20:51:22,635 | INFO | Case Price Changed | prisma-2-case | 1.00 -> 2.90
-2026-01-23 20:51:25,540 | INFO | Case Price Changed | prisma-case | 1.25 -> 2.76
-2026-01-23 20:51:28,257 | INFO | Case Price Changed | recoil-case | 1.50 -> 0.55
-2026-01-23 20:51:31,249 | INFO | Case Price Changed | revolution-case | 2.00 -> 0.56
-2026-01-23 20:51:34,550 | INFO | Case Price Changed | revolver-case | 2.50 -> 5.67
-2026-01-23 20:51:37,231 | INFO | Case Price Changed | shadow-case | 1.75 -> 3.20
-2026-01-23 20:51:40,231 | INFO | Case Price Changed | shattered-web-case | 3.00 -> 11.83
-2026-01-23 20:51:42,894 | INFO | Case Price Changed | snakebite-case | 2.00 -> 1.20
-2026-01-23 20:51:46,209 | INFO | Case Price Changed | spectrum-2-case | 1.50 -> 6.34
-2026-01-23 20:51:49,537 | INFO | Case Price Changed | spectrum-case | 2.00 -> 7.69
-2026-01-23 20:51:52,275 | INFO | Case Price Changed | winter-offensive-weapon-case | 6.00 -> 16.09
-2026-01-23 20:51:54,913 | INFO | Case Price Changed | x-ray-p250-package | 2.00 -> 3.45
-2026-01-23 20:51:57,962 | INFO | Key Price Changed | default | 3.50 -> 13.02
-2026-01-23 20:52:01,114 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Battle-Scarred|0|None | 1.00 -> 73.76
-2026-01-23 20:52:04,154 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Battle-Scarred|1|None | 1.00 -> 125.17
-2026-01-23 20:52:07,544 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Factory New|0|None | 1.00 -> 565.22
-2026-01-23 20:52:10,729 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Factory New|1|None | 1.00 -> 688.74
-2026-01-23 20:52:13,644 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Field-Tested|0|None | 1.00 -> 89.25
-2026-01-23 20:52:17,023 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Field-Tested|1|None | 1.00 -> 199.74
-2026-01-23 20:52:19,659 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Minimal Wear|0|None | 1.00 -> 144.65
-2026-01-23 20:52:22,502 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Minimal Wear|1|None | 1.00 -> 314.27
-2026-01-23 20:52:25,700 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Well-Worn|0|None | 1.00 -> 75.55
-2026-01-23 20:52:29,046 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Well-Worn|1|None | 1.00 -> 130.29
-2026-01-23 20:52:29,046 | INFO | Progress | Items 10/10 | Updated=10 | Skipped=0
-2026-01-23 20:52:29,046 | INFO | Summary | Cases 43/44 Updated | Keys 1/1 Updated | Items 10/10 Updated | Steam Ok/Fail 54/0 | CSFloat Ok/Fail 0/0
-2026-01-23 20:52:29,049 | INFO | Backup Created: A:\Development\Version Control\Github\TCSGO\data/prices.json.backup.20260123_205229
-2026-01-23 20:52:29,075 | INFO | prices.json Updated Successfully.
-2026-01-23 20:52:29,678 | INFO | Git Commit Created.
+2026-01-24 00:00:41,805 | INFO | Item Price Changed | ak-47-fire-serpent|Well-Worn|0|None | 1.00 -> 2376.13
+2026-01-24 00:01:44,620 | INFO | Item Price Changed | ak-47-frontside-misty-none|Battle-Scarred|0|None | 1.00 -> 33.53
+2026-01-24 00:01:47,740 | INFO | Item Price Changed | ak-47-frontside-misty-none|Battle-Scarred|1|None | 1.00 -> 66.22
+2026-01-24 00:01:50,458 | INFO | Item Price Changed | ak-47-frontside-misty-none|Factory New|0|None | 1.00 -> 363.79
+2026-01-24 00:01:53,603 | INFO | Item Price Changed | ak-47-frontside-misty-none|Factory New|1|None | 1.00 -> 353.33
+2026-01-24 00:01:56,585 | INFO | Item Price Changed | ak-47-frontside-misty-none|Field-Tested|0|None | 1.00 -> 39.27
+2026-01-24 00:01:59,267 | INFO | Item Price Changed | ak-47-frontside-misty-none|Field-Tested|1|None | 1.00 -> 69.15
+2026-01-24 00:02:02,125 | INFO | Item Price Changed | ak-47-frontside-misty-none|Minimal Wear|0|None | 1.00 -> 68.90
+2026-01-24 00:02:04,934 | INFO | Item Price Changed | ak-47-frontside-misty-none|Minimal Wear|1|None | 1.00 -> 137.99
+2026-01-24 00:02:07,771 | INFO | Item Price Changed | ak-47-frontside-misty-none|Well-Worn|0|None | 1.00 -> 33.48
+2026-01-24 00:02:10,849 | INFO | Item Price Changed | ak-47-frontside-misty-none|Well-Worn|1|None | 1.00 -> 62.50
+2026-01-24 00:02:13,383 | INFO | Item Price Changed | ak-47-fuel-injector|Battle-Scarred|0|None | 1.00 -> 235.82
+2026-01-24 00:02:16,544 | INFO | Item Price Changed | ak-47-fuel-injector|Battle-Scarred|1|None | 1.00 -> 460.16
+2026-01-24 00:02:19,845 | INFO | Item Price Changed | ak-47-fuel-injector|Factory New|0|None | 1.00 -> 1653.48
+2026-01-24 00:02:22,629 | INFO | Item Price Changed | ak-47-fuel-injector|Factory New|1|None | 1.00 -> 2410.57
+2026-01-24 00:02:25,352 | INFO | Item Price Changed | ak-47-fuel-injector|Field-Tested|0|None | 1.00 -> 375.84
+2026-01-24 00:02:25,352 | INFO | Progress | Items 100/16285 | Updated=78 | Skipped=22
+2026-01-24 00:02:28,268 | INFO | Item Price Changed | ak-47-fuel-injector|Field-Tested|1|None | 1.00 -> 918.76
+2026-01-24 00:02:31,172 | INFO | Item Price Changed | ak-47-fuel-injector|Minimal Wear|0|None | 1.00 -> 639.83
+2026-01-24 00:02:33,994 | INFO | Item Price Changed | ak-47-fuel-injector|Minimal Wear|1|None | 1.00 -> 1721.85
+2026-01-24 00:02:36,837 | INFO | Item Price Changed | ak-47-fuel-injector|Well-Worn|0|None | 1.00 -> 288.69
+2026-01-24 00:02:39,711 | INFO | Item Price Changed | ak-47-fuel-injector|Well-Worn|1|None | 1.00 -> 448.34
+2026-01-24 00:02:53,553 | INFO | Item Price Changed | ak-47-head-shot|Battle-Scarred|0|None | 1.00 -> 61.44
+2026-01-24 00:02:56,563 | INFO | Item Price Changed | ak-47-head-shot|Battle-Scarred|1|None | 1.00 -> 52.31
+2026-01-24 00:02:59,532 | INFO | Item Price Changed | ak-47-head-shot|Factory New|0|None | 1.00 -> 278.45
+2026-01-24 00:03:02,856 | INFO | Item Price Changed | ak-47-head-shot|Factory New|1|None | 1.00 -> 247.95
+2026-01-24 00:03:05,937 | INFO | Item Price Changed | ak-47-head-shot|Field-Tested|0|None | 1.00 -> 72.73
+2026-01-24 00:03:08,729 | INFO | Item Price Changed | ak-47-head-shot|Field-Tested|1|None | 1.00 -> 64.47
+2026-01-24 00:03:11,864 | INFO | Item Price Changed | ak-47-head-shot|Minimal Wear|0|None | 1.00 -> 147.39
+2026-01-24 00:03:14,860 | INFO | Item Price Changed | ak-47-head-shot|Minimal Wear|1|None | 1.00 -> 96.06
+2026-01-24 00:03:18,204 | INFO | Item Price Changed | ak-47-head-shot|Well-Worn|0|None | 1.00 -> 62.01
+2026-01-24 00:03:20,836 | INFO | Item Price Changed | ak-47-head-shot|Well-Worn|1|None | 1.00 -> 55.16
+2026-01-24 00:03:24,295 | INFO | Item Price Changed | ak-47-ice-coaled|Battle-Scarred|0|None | 1.00 -> 8.81
+2026-01-24 00:03:27,628 | INFO | Item Price Changed | ak-47-ice-coaled|Battle-Scarred|1|None | 1.00 -> 18.85
+2026-01-24 00:03:30,647 | INFO | Item Price Changed | ak-47-ice-coaled|Factory New|0|None | 1.00 -> 35.20
+2026-01-24 00:03:33,999 | INFO | Item Price Changed | ak-47-ice-coaled|Factory New|1|None | 1.00 -> 79.95
+2026-01-24 00:03:36,651 | INFO | Item Price Changed | ak-47-ice-coaled|Field-Tested|0|None | 1.00 -> 9.88
+2026-01-24 00:03:39,349 | INFO | Item Price Changed | ak-47-ice-coaled|Field-Tested|1|None | 1.00 -> 22.81
+2026-01-24 00:03:42,347 | INFO | Item Price Changed | ak-47-ice-coaled|Minimal Wear|0|None | 1.00 -> 18.47
+2026-01-24 00:03:45,055 | INFO | Item Price Changed | ak-47-ice-coaled|Minimal Wear|1|None | 1.00 -> 45.16
+2026-01-24 00:03:48,300 | INFO | Item Price Changed | ak-47-ice-coaled|Well-Worn|0|None | 1.00 -> 10.48
+2026-01-24 00:03:50,865 | INFO | Item Price Changed | ak-47-ice-coaled|Well-Worn|1|None | 1.00 -> 25.11
+2026-01-24 00:03:53,620 | INFO | Item Price Changed | ak-47-inheritance|Battle-Scarred|0|None | 1.00 -> 81.28
+2026-01-24 00:03:56,681 | INFO | Item Price Changed | ak-47-inheritance|Battle-Scarred|1|None | 1.00 -> 155.31
+2026-01-24 00:03:59,795 | INFO | Item Price Changed | ak-47-inheritance|Factory New|0|None | 1.00 -> 307.25
+2026-01-24 00:04:02,549 | INFO | Item Price Changed | ak-47-inheritance|Factory New|1|None | 1.00 -> 771.61
+2026-01-24 00:04:05,674 | INFO | Item Price Changed | ak-47-inheritance|Field-Tested|0|None | 1.00 -> 98.66
+2026-01-24 00:04:08,785 | INFO | Item Price Changed | ak-47-inheritance|Field-Tested|1|None | 1.00 -> 210.23
+2026-01-24 00:04:11,991 | INFO | Item Price Changed | ak-47-inheritance|Minimal Wear|0|None | 1.00 -> 162.59
+2026-01-24 00:04:14,551 | INFO | Item Price Changed | ak-47-inheritance|Minimal Wear|1|None | 1.00 -> 339.58
+2026-01-24 00:04:17,397 | INFO | Item Price Changed | ak-47-inheritance|Well-Worn|0|None | 1.00 -> 110.90
+2026-01-24 00:04:20,211 | INFO | Item Price Changed | ak-47-inheritance|Well-Worn|1|None | 1.00 -> 209.38
+2026-01-24 00:04:23,291 | INFO | Item Price Changed | ak-47-jaguar|Battle-Scarred|0|None | 1.00 -> 152.03
+2026-01-24 00:04:26,634 | INFO | Item Price Changed | ak-47-jaguar|Battle-Scarred|1|None | 1.00 -> 254.63
+2026-01-24 00:04:29,540 | INFO | Item Price Changed | ak-47-jaguar|Factory New|0|None | 1.00 -> 1108.86
+2026-01-24 00:04:32,843 | INFO | Item Price Changed | ak-47-jaguar|Factory New|1|None | 1.00 -> 1842.90
+2026-01-24 00:04:35,917 | INFO | Item Price Changed | ak-47-jaguar|Field-Tested|0|None | 1.00 -> 145.85
+2026-01-24 00:04:38,959 | INFO | Item Price Changed | ak-47-jaguar|Field-Tested|1|None | 1.00 -> 351.16
+2026-01-24 00:04:42,032 | INFO | Item Price Changed | ak-47-jaguar|Minimal Wear|0|None | 1.00 -> 380.19
+2026-01-24 00:04:44,957 | INFO | Item Price Changed | ak-47-jaguar|Minimal Wear|1|None | 1.00 -> 711.51
+2026-01-24 00:04:48,003 | INFO | Item Price Changed | ak-47-jaguar|Well-Worn|0|None | 1.00 -> 157.11
+2026-01-24 00:04:50,914 | INFO | Item Price Changed | ak-47-jaguar|Well-Worn|1|None | 1.00 -> 238.31
+2026-01-24 00:04:53,754 | INFO | Item Price Changed | ak-47-leet-museo|Battle-Scarred|0|None | 1.00 -> 253.92
+2026-01-24 00:04:56,400 | INFO | Item Price Changed | ak-47-leet-museo|Battle-Scarred|1|None | 1.00 -> 156.39
+2026-01-24 00:04:59,859 | INFO | Item Price Changed | ak-47-leet-museo|Factory New|0|None | 1.00 -> 1565.08
+2026-01-24 00:05:02,815 | INFO | Item Price Changed | ak-47-leet-museo|Factory New|1|None | 1.00 -> 800.00
+2026-01-24 00:05:05,618 | INFO | Item Price Changed | ak-47-leet-museo|Field-Tested|0|None | 1.00 -> 553.18
+2026-01-24 00:05:08,674 | INFO | Item Price Changed | ak-47-leet-museo|Field-Tested|1|None | 1.00 -> 218.68
+2026-01-24 00:05:11,540 | INFO | Item Price Changed | ak-47-leet-museo|Minimal Wear|0|None | 1.00 -> 811.46
+2026-01-24 00:05:14,310 | INFO | Item Price Changed | ak-47-leet-museo|Minimal Wear|1|None | 1.00 -> 408.96
+2026-01-24 00:05:17,294 | INFO | Item Price Changed | ak-47-leet-museo|Well-Worn|0|None | 1.00 -> 317.51
+2026-01-24 00:05:19,955 | INFO | Item Price Changed | ak-47-leet-museo|Well-Worn|1|None | 1.00 -> 185.04
+2026-01-24 00:05:22,566 | INFO | Item Price Changed | ak-47-legion-of-anubis|Battle-Scarred|0|None | 1.00 -> 68.88
+2026-01-24 00:05:25,177 | INFO | Item Price Changed | ak-47-legion-of-anubis|Battle-Scarred|1|None | 1.00 -> 64.30
+2026-01-24 00:05:28,325 | INFO | Item Price Changed | ak-47-legion-of-anubis|Factory New|0|None | 1.00 -> 113.19
+2026-01-24 00:05:31,071 | INFO | Item Price Changed | ak-47-legion-of-anubis|Factory New|1|None | 1.00 -> 134.14
+2026-01-24 00:05:33,769 | INFO | Item Price Changed | ak-47-legion-of-anubis|Field-Tested|0|None | 1.00 -> 70.63
+2026-01-24 00:05:36,645 | INFO | Item Price Changed | ak-47-legion-of-anubis|Field-Tested|1|None | 1.00 -> 69.07
+2026-01-24 00:05:40,171 | INFO | Item Price Changed | ak-47-legion-of-anubis|Minimal Wear|0|None | 1.00 -> 79.02
+2026-01-24 00:05:42,750 | INFO | Item Price Changed | ak-47-legion-of-anubis|Minimal Wear|1|None | 1.00 -> 91.92
+2026-01-24 00:05:45,467 | INFO | Item Price Changed | ak-47-legion-of-anubis|Well-Worn|0|None | 1.00 -> 70.67
+2026-01-24 00:05:48,157 | INFO | Item Price Changed | ak-47-legion-of-anubis|Well-Worn|1|None | 1.00 -> 82.63
+2026-01-24 00:06:02,358 | INFO | Item Price Changed | ak-47-neon-revolution|Battle-Scarred|0|None | 1.00 -> 183.61
+2026-01-24 00:06:05,288 | INFO | Item Price Changed | ak-47-neon-revolution|Battle-Scarred|1|None | 1.00 -> 164.39
+2026-01-24 00:06:08,002 | INFO | Item Price Changed | ak-47-neon-revolution|Factory New|0|None | 1.00 -> 866.76
+2026-01-24 00:06:11,090 | INFO | Item Price Changed | ak-47-neon-revolution|Factory New|1|None | 1.00 -> 404.30
+2026-01-24 00:06:14,110 | INFO | Item Price Changed | ak-47-neon-revolution|Field-Tested|0|None | 1.00 -> 198.11
+2026-01-24 00:06:17,188 | INFO | Item Price Changed | ak-47-neon-revolution|Field-Tested|1|None | 1.00 -> 197.73
+2026-01-24 00:06:20,252 | INFO | Item Price Changed | ak-47-neon-revolution|Minimal Wear|0|None | 1.00 -> 204.72
+2026-01-24 00:06:23,110 | INFO | Item Price Changed | ak-47-neon-revolution|Minimal Wear|1|None | 1.00 -> 246.57
+2026-01-24 00:06:26,091 | INFO | Item Price Changed | ak-47-neon-revolution|Well-Worn|0|None | 1.00 -> 198.37
+2026-01-24 00:06:29,327 | INFO | Item Price Changed | ak-47-neon-revolution|Well-Worn|1|None | 1.00 -> 161.60
+2026-01-24 00:06:32,578 | INFO | Item Price Changed | ak-47-neon-rider|Battle-Scarred|0|None | 1.00 -> 78.54
+2026-01-24 00:06:35,751 | INFO | Item Price Changed | ak-47-neon-rider|Battle-Scarred|1|None | 1.00 -> 165.23
+2026-01-24 00:06:39,216 | INFO | Item Price Changed | ak-47-neon-rider|Factory New|0|None | 1.00 -> 617.45
+2026-01-24 00:06:41,931 | INFO | Item Price Changed | ak-47-neon-rider|Factory New|1|None | 1.00 -> 889.41
+2026-01-24 00:06:44,665 | INFO | Item Price Changed | ak-47-neon-rider|Field-Tested|0|None | 1.00 -> 100.27
+2026-01-24 00:06:47,153 | INFO | Item Price Changed | ak-47-neon-rider|Field-Tested|1|None | 1.00 -> 151.54
+2026-01-24 00:06:50,111 | INFO | Item Price Changed | ak-47-neon-rider|Minimal Wear|0|None | 1.00 -> 156.61
+2026-01-24 00:06:53,073 | INFO | Item Price Changed | ak-47-neon-rider|Minimal Wear|1|None | 1.00 -> 367.69
+2026-01-24 00:06:55,697 | INFO | Item Price Changed | ak-47-neon-rider|Well-Worn|0|None | 1.00 -> 100.74
+2026-01-24 00:06:58,304 | INFO | Item Price Changed | ak-47-neon-rider|Well-Worn|1|None | 1.00 -> 174.67
+2026-01-24 00:07:13,321 | INFO | Item Price Changed | ak-47-nightwish|Battle-Scarred|0|None | 1.00 -> 139.78
+2026-01-24 00:07:16,450 | INFO | Item Price Changed | ak-47-nightwish|Battle-Scarred|1|None | 1.00 -> 123.49
+2026-01-24 00:07:19,570 | INFO | Item Price Changed | ak-47-nightwish|Factory New|0|None | 1.00 -> 275.49
+2026-01-24 00:07:22,203 | INFO | Item Price Changed | ak-47-nightwish|Factory New|1|None | 1.00 -> 292.11
+2026-01-24 00:07:25,247 | INFO | Item Price Changed | ak-47-nightwish|Field-Tested|0|None | 1.00 -> 141.97
+2026-01-24 00:07:27,884 | INFO | Item Price Changed | ak-47-nightwish|Field-Tested|1|None | 1.00 -> 133.56
+2026-01-24 00:07:31,270 | INFO | Item Price Changed | ak-47-nightwish|Minimal Wear|0|None | 1.00 -> 162.55
+2026-01-24 00:07:34,407 | INFO | Item Price Changed | ak-47-nightwish|Minimal Wear|1|None | 1.00 -> 123.99
+2026-01-24 00:07:37,235 | INFO | Item Price Changed | ak-47-nightwish|Well-Worn|0|None | 1.00 -> 133.81
+2026-01-24 00:07:39,878 | INFO | Item Price Changed | ak-47-nightwish|Well-Worn|1|None | 1.00 -> 124.53
+2026-01-24 00:07:43,103 | INFO | Item Price Changed | ak-47-orbit-mk01|Battle-Scarred|0|None | 1.00 -> 54.25
+2026-01-24 00:07:45,945 | INFO | Item Price Changed | ak-47-orbit-mk01|Battle-Scarred|1|None | 1.00 -> 95.76
+2026-01-24 00:07:49,255 | INFO | Item Price Changed | ak-47-orbit-mk01|Factory New|0|None | 1.00 -> 167.37
+2026-01-24 00:07:52,613 | INFO | Item Price Changed | ak-47-orbit-mk01|Factory New|1|None | 1.00 -> 199.79
+2026-01-24 00:07:55,890 | INFO | Item Price Changed | ak-47-orbit-mk01|Field-Tested|0|None | 1.00 -> 53.93
+2026-01-24 00:07:55,890 | INFO | Progress | Items 200/16285 | Updated=178 | Skipped=22
+2026-01-24 00:07:58,817 | INFO | Item Price Changed | ak-47-orbit-mk01|Field-Tested|1|None | 1.00 -> 107.33
+2026-01-24 00:08:02,401 | INFO | Item Price Changed | ak-47-orbit-mk01|Minimal Wear|0|None | 1.00 -> 71.85
+2026-01-24 00:08:04,928 | INFO | Item Price Changed | ak-47-orbit-mk01|Minimal Wear|1|None | 1.00 -> 121.28
+2026-01-24 00:08:07,595 | INFO | Item Price Changed | ak-47-orbit-mk01|Well-Worn|0|None | 1.00 -> 53.86
+2026-01-24 00:08:10,301 | INFO | Item Price Changed | ak-47-orbit-mk01|Well-Worn|1|None | 1.00 -> 130.38
+2026-01-24 00:08:10,302 | WARNING | Variant Requires Override | ak-47-panthera-onca-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 00:08:10,302 | WARNING | Variant Requires Override | ak-47-panthera-onca-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 00:08:10,302 | WARNING | Variant Requires Override | ak-47-panthera-onca-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 00:08:10,302 | WARNING | Variant Requires Override | ak-47-panthera-onca-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 00:08:10,303 | WARNING | Variant Requires Override | ak-47-panthera-onca-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 00:08:13,175 | INFO | Item Price Changed | ak-47-phantom-disruptor|Battle-Scarred|0|None | 1.00 -> 10.30
+2026-01-24 00:08:15,969 | INFO | Item Price Changed | ak-47-phantom-disruptor|Battle-Scarred|1|None | 1.00 -> 27.19
+2026-01-24 00:08:19,006 | INFO | Item Price Changed | ak-47-phantom-disruptor|Factory New|0|None | 1.00 -> 69.58
+2026-01-24 00:08:22,285 | INFO | Item Price Changed | ak-47-phantom-disruptor|Factory New|1|None | 1.00 -> 68.88
+2026-01-24 00:08:25,415 | INFO | Item Price Changed | ak-47-phantom-disruptor|Field-Tested|0|None | 1.00 -> 11.41
+2026-01-24 00:08:28,291 | INFO | Item Price Changed | ak-47-phantom-disruptor|Field-Tested|1|None | 1.00 -> 26.38
+2026-01-24 00:08:31,473 | INFO | Item Price Changed | ak-47-phantom-disruptor|Minimal Wear|0|None | 1.00 -> 18.71
+2026-01-24 00:08:34,310 | INFO | Item Price Changed | ak-47-phantom-disruptor|Minimal Wear|1|None | 1.00 -> 41.19
+2026-01-24 00:08:37,575 | INFO | Item Price Changed | ak-47-phantom-disruptor|Well-Worn|0|None | 1.00 -> 13.56
+2026-01-24 00:08:40,356 | INFO | Item Price Changed | ak-47-phantom-disruptor|Well-Worn|1|None | 1.00 -> 32.00
+2026-01-24 00:08:43,337 | INFO | Item Price Changed | ak-47-point-disarray|Battle-Scarred|0|None | 1.00 -> 25.11
+2026-01-24 00:08:46,408 | INFO | Item Price Changed | ak-47-point-disarray|Battle-Scarred|1|None | 1.00 -> 59.77
+2026-01-24 00:08:49,344 | INFO | Item Price Changed | ak-47-point-disarray|Factory New|0|None | 1.00 -> 144.72
+2026-01-24 00:08:52,147 | INFO | Item Price Changed | ak-47-point-disarray|Factory New|1|None | 1.00 -> 167.09
+2026-01-24 00:08:55,083 | INFO | Item Price Changed | ak-47-point-disarray|Field-Tested|0|None | 1.00 -> 27.61
+2026-01-24 00:08:58,351 | INFO | Item Price Changed | ak-47-point-disarray|Field-Tested|1|None | 1.00 -> 56.48
+2026-01-24 00:09:00,960 | INFO | Item Price Changed | ak-47-point-disarray|Minimal Wear|0|None | 1.00 -> 45.47
+2026-01-24 00:09:04,335 | INFO | Item Price Changed | ak-47-point-disarray|Minimal Wear|1|None | 1.00 -> 99.36
+2026-01-24 00:09:07,439 | INFO | Item Price Changed | ak-47-point-disarray|Well-Worn|0|None | 1.00 -> 34.00
+2026-01-24 00:09:10,426 | INFO | Item Price Changed | ak-47-point-disarray|Well-Worn|1|None | 1.00 -> 71.30
+2026-01-24 00:09:13,082 | INFO | Item Price Changed | ak-47-rat-rod|Battle-Scarred|0|None | 1.00 -> 9.68
+2026-01-24 00:09:15,682 | INFO | Item Price Changed | ak-47-rat-rod|Battle-Scarred|1|None | 1.00 -> 24.51
+2026-01-24 00:09:18,364 | INFO | Item Price Changed | ak-47-rat-rod|Factory New|0|None | 1.00 -> 174.96
+2026-01-24 00:09:21,054 | INFO | Item Price Changed | ak-47-rat-rod|Factory New|1|None | 1.00 -> 110.57
+2026-01-24 00:09:24,164 | INFO | Item Price Changed | ak-47-rat-rod|Field-Tested|0|None | 1.00 -> 9.96
+2026-01-24 00:09:27,453 | INFO | Item Price Changed | ak-47-rat-rod|Field-Tested|1|None | 1.00 -> 28.97
+2026-01-24 00:09:30,828 | INFO | Item Price Changed | ak-47-rat-rod|Minimal Wear|0|None | 1.00 -> 20.49
+2026-01-24 00:09:34,130 | INFO | Item Price Changed | ak-47-rat-rod|Minimal Wear|1|None | 1.00 -> 38.66
+2026-01-24 00:09:36,738 | INFO | Item Price Changed | ak-47-rat-rod|Well-Worn|0|None | 1.00 -> 7.94
+2026-01-24 00:09:39,803 | INFO | Item Price Changed | ak-47-rat-rod|Well-Worn|1|None | 1.00 -> 23.34
+2026-01-24 00:09:42,728 | INFO | Item Price Changed | ak-47-red-laminate|Battle-Scarred|0|None | 1.00 -> 103.31
+2026-01-24 00:09:45,965 | INFO | Item Price Changed | ak-47-red-laminate|Battle-Scarred|1|None | 1.00 -> 370.64
+2026-01-24 00:09:48,648 | INFO | Item Price Changed | ak-47-red-laminate|Factory New|0|None | 1.00 -> 943.47
+2026-01-24 00:10:51,421 | INFO | Item Price Changed | ak-47-red-laminate|Field-Tested|0|None | 1.00 -> 108.50
+2026-01-24 00:10:54,172 | INFO | Item Price Changed | ak-47-red-laminate|Field-Tested|1|None | 1.00 -> 394.51
+2026-01-24 00:10:57,136 | INFO | Item Price Changed | ak-47-red-laminate|Minimal Wear|0|None | 1.00 -> 300.42
+2026-01-24 00:11:00,482 | INFO | Item Price Changed | ak-47-red-laminate|Minimal Wear|1|None | 1.00 -> 669.13
+2026-01-24 00:11:03,287 | INFO | Item Price Changed | ak-47-red-laminate|Well-Worn|0|None | 1.00 -> 109.67
+2026-01-24 00:11:06,244 | INFO | Item Price Changed | ak-47-red-laminate|Well-Worn|1|None | 1.00 -> 436.51
+2026-01-24 00:11:09,655 | INFO | Item Price Changed | ak-47-redline|Battle-Scarred|0|None | 1.00 -> 48.82
+2026-01-24 00:11:12,793 | INFO | Item Price Changed | ak-47-redline|Battle-Scarred|1|None | 1.00 -> 97.58
+2026-01-24 00:13:13,659 | INFO | Item Price Changed | ak-47-redline|Field-Tested|0|None | 1.00 -> 65.47
+2026-01-24 00:13:16,608 | INFO | Item Price Changed | ak-47-redline|Field-Tested|1|None | 1.00 -> 141.85
+2026-01-24 00:13:19,484 | INFO | Item Price Changed | ak-47-redline|Minimal Wear|0|None | 1.00 -> 403.02
+2026-01-24 00:13:22,829 | INFO | Item Price Changed | ak-47-redline|Minimal Wear|1|None | 1.00 -> 802.67
+2026-01-24 00:13:25,713 | INFO | Item Price Changed | ak-47-redline|Well-Worn|0|None | 1.00 -> 64.62
+2026-01-24 00:13:28,676 | INFO | Item Price Changed | ak-47-redline|Well-Worn|1|None | 1.00 -> 100.99
+2026-01-24 00:13:28,676 | WARNING | Variant Requires Override | ak-47-safari-mesh-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 00:13:28,676 | WARNING | Variant Requires Override | ak-47-safari-mesh-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 00:13:28,676 | WARNING | Variant Requires Override | ak-47-safari-mesh-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 00:13:28,676 | WARNING | Variant Requires Override | ak-47-safari-mesh-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 00:13:28,676 | WARNING | Variant Requires Override | ak-47-safari-mesh-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 00:13:28,676 | WARNING | Variant Requires Override | ak-47-safety-net-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 00:13:28,676 | WARNING | Variant Requires Override | ak-47-safety-net-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 00:13:28,677 | WARNING | Variant Requires Override | ak-47-safety-net-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 00:13:28,677 | WARNING | Variant Requires Override | ak-47-safety-net-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 00:13:28,677 | WARNING | Variant Requires Override | ak-47-safety-net-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 00:13:31,371 | INFO | Item Price Changed | ak-47-searing-rage-none|Battle-Scarred|0|None | 1.00 -> 7.69
+2026-01-24 00:13:34,325 | INFO | Item Price Changed | ak-47-searing-rage-none|Battle-Scarred|1|None | 1.00 -> 18.74
+2026-01-24 00:13:37,635 | INFO | Item Price Changed | ak-47-searing-rage-none|Factory New|0|None | 1.00 -> 90.36
+2026-01-24 00:13:40,566 | INFO | Item Price Changed | ak-47-searing-rage-none|Factory New|1|None | 1.00 -> 92.52
+2026-01-24 00:13:43,253 | INFO | Item Price Changed | ak-47-searing-rage-none|Field-Tested|0|None | 1.00 -> 10.53
+2026-01-24 00:13:46,108 | INFO | Item Price Changed | ak-47-searing-rage-none|Field-Tested|1|None | 1.00 -> 24.72
+2026-01-24 00:13:49,413 | INFO | Item Price Changed | ak-47-searing-rage-none|Minimal Wear|0|None | 1.00 -> 18.54
+2026-01-24 00:13:52,683 | INFO | Item Price Changed | ak-47-searing-rage-none|Minimal Wear|1|None | 1.00 -> 44.21
+2026-01-24 00:13:55,688 | INFO | Item Price Changed | ak-47-searing-rage-none|Well-Worn|0|None | 1.00 -> 9.84
+2026-01-24 00:13:59,067 | INFO | Item Price Changed | ak-47-searing-rage-none|Well-Worn|1|None | 1.00 -> 20.03
+2026-01-24 00:14:01,821 | INFO | Item Price Changed | ak-47-slate|Battle-Scarred|0|None | 1.00 -> 7.95
+2026-01-24 00:14:05,151 | INFO | Item Price Changed | ak-47-slate|Battle-Scarred|1|None | 1.00 -> 24.11
+2026-01-24 00:14:08,294 | INFO | Item Price Changed | ak-47-slate|Factory New|0|None | 1.00 -> 32.97
+2026-01-24 00:14:11,219 | INFO | Item Price Changed | ak-47-slate|Factory New|1|None | 1.00 -> 102.01
+2026-01-24 00:14:14,052 | INFO | Item Price Changed | ak-47-slate|Field-Tested|0|None | 1.00 -> 9.85
+2026-01-24 00:14:17,376 | INFO | Item Price Changed | ak-47-slate|Field-Tested|1|None | 1.00 -> 31.65
+2026-01-24 00:14:20,684 | INFO | Item Price Changed | ak-47-slate|Minimal Wear|0|None | 1.00 -> 14.32
+2026-01-24 00:14:23,462 | INFO | Item Price Changed | ak-47-slate|Minimal Wear|1|None | 1.00 -> 46.80
+2026-01-24 00:14:26,050 | INFO | Item Price Changed | ak-47-slate|Well-Worn|0|None | 1.00 -> 8.37
+2026-01-24 00:14:29,221 | INFO | Item Price Changed | ak-47-slate|Well-Worn|1|None | 1.00 -> 25.34
+2026-01-24 00:14:32,256 | INFO | Item Price Changed | ak-47-steel-delta|Battle-Scarred|0|None | 1.00 -> 4.29
+2026-01-24 00:14:34,986 | INFO | Item Price Changed | ak-47-steel-delta|Factory New|0|None | 1.00 -> 46.81
+2026-01-24 00:14:38,117 | INFO | Item Price Changed | ak-47-steel-delta|Field-Tested|0|None | 1.00 -> 4.44
+2026-01-24 00:14:41,325 | INFO | Item Price Changed | ak-47-steel-delta|Minimal Wear|0|None | 1.00 -> 10.19
+2026-01-24 00:14:44,124 | INFO | Item Price Changed | ak-47-steel-delta|Well-Worn|0|None | 1.00 -> 4.76
+2026-01-24 00:14:47,277 | INFO | Item Price Changed | ak-47-the-empress|Battle-Scarred|0|None | 1.00 -> 176.33
+2026-01-24 00:14:50,165 | INFO | Item Price Changed | ak-47-the-empress|Battle-Scarred|1|None | 1.00 -> 150.27
+2026-01-24 00:14:53,136 | INFO | Item Price Changed | ak-47-the-empress|Factory New|0|None | 1.00 -> 700.95
+2026-01-24 00:14:55,928 | INFO | Item Price Changed | ak-47-the-empress|Factory New|1|None | 1.00 -> 798.94
+2026-01-24 00:14:59,243 | INFO | Item Price Changed | ak-47-the-empress|Field-Tested|0|None | 1.00 -> 174.66
+2026-01-24 00:14:59,244 | INFO | Progress | Items 300/16285 | Updated=260 | Skipped=40
+2026-01-24 00:15:02,453 | INFO | Item Price Changed | ak-47-the-empress|Field-Tested|1|None | 1.00 -> 219.04
+2026-01-24 00:15:05,314 | INFO | Item Price Changed | ak-47-the-empress|Minimal Wear|0|None | 1.00 -> 194.23
+2026-01-24 00:15:08,093 | INFO | Item Price Changed | ak-47-the-empress|Minimal Wear|1|None | 1.00 -> 330.60
+2026-01-24 00:15:10,935 | INFO | Item Price Changed | ak-47-the-empress|Well-Worn|0|None | 1.00 -> 169.66
+2026-01-24 00:15:13,875 | INFO | Item Price Changed | ak-47-the-empress|Well-Worn|1|None | 1.00 -> 169.31
+2026-01-24 00:15:16,585 | INFO | Item Price Changed | ak-47-the-oligarch|Battle-Scarred|0|None | 1.00 -> 89.19
+2026-01-24 00:15:19,390 | INFO | Item Price Changed | ak-47-the-oligarch|Battle-Scarred|1|None | 1.00 -> 150.21
+2026-01-24 00:15:22,035 | INFO | Item Price Changed | ak-47-the-oligarch|Factory New|0|None | 1.00 -> 1043.61
+2026-01-24 00:15:24,712 | INFO | Item Price Changed | ak-47-the-oligarch|Factory New|1|None | 1.00 -> 1657.44
+2026-01-24 00:15:27,817 | INFO | Item Price Changed | ak-47-the-oligarch|Field-Tested|0|None | 1.00 -> 172.83
+2026-01-24 00:15:30,644 | INFO | Item Price Changed | ak-47-the-oligarch|Field-Tested|1|None | 1.00 -> 348.52
+2026-01-24 00:15:33,807 | INFO | Item Price Changed | ak-47-the-oligarch|Minimal Wear|0|None | 1.00 -> 323.43
+2026-01-24 00:15:36,852 | INFO | Item Price Changed | ak-47-the-oligarch|Minimal Wear|1|None | 1.00 -> 578.53
+2026-01-24 00:15:39,957 | INFO | Item Price Changed | ak-47-the-oligarch|Well-Worn|0|None | 1.00 -> 102.97
+2026-01-24 00:15:42,935 | INFO | Item Price Changed | ak-47-the-oligarch|Well-Worn|1|None | 1.00 -> 210.34
+2026-01-24 00:15:45,656 | INFO | Item Price Changed | ak-47-the-outsiders|Battle-Scarred|0|None | 1.00 -> 14.64
+2026-01-24 00:15:48,315 | INFO | Item Price Changed | ak-47-the-outsiders|Battle-Scarred|1|None | 1.00 -> 39.37
+2026-01-24 00:15:51,180 | INFO | Item Price Changed | ak-47-the-outsiders|Factory New|0|None | 1.00 -> 222.19
+2026-01-24 00:15:53,970 | INFO | Item Price Changed | ak-47-the-outsiders|Factory New|1|None | 1.00 -> 194.08
+2026-01-24 00:15:57,140 | INFO | Item Price Changed | ak-47-the-outsiders|Field-Tested|0|None | 1.00 -> 17.71
+2026-01-24 00:15:59,863 | INFO | Item Price Changed | ak-47-the-outsiders|Field-Tested|1|None | 1.00 -> 40.34
+2026-01-24 00:16:03,103 | INFO | Item Price Changed | ak-47-the-outsiders|Minimal Wear|0|None | 1.00 -> 41.32
+2026-01-24 00:16:06,322 | INFO | Item Price Changed | ak-47-the-outsiders|Minimal Wear|1|None | 1.00 -> 64.59
+2026-01-24 00:16:09,431 | INFO | Item Price Changed | ak-47-the-outsiders|Well-Worn|0|None | 1.00 -> 15.40
+2026-01-24 00:16:23,732 | INFO | Item Price Changed | ak-47-the-outsiders|Well-Worn|1|None | 1.00 -> 41.69
+2026-01-24 00:16:26,613 | INFO | Item Price Changed | ak-47-uncharted|Battle-Scarred|0|None | 1.00 -> 1.70
+2026-01-24 00:16:29,816 | INFO | Item Price Changed | ak-47-uncharted|Battle-Scarred|1|None | 1.00 -> 6.28
+2026-01-24 00:16:32,917 | INFO | Item Price Changed | ak-47-uncharted|Factory New|0|None | 1.00 -> 4.36
+2026-01-24 00:16:36,335 | INFO | Item Price Changed | ak-47-uncharted|Factory New|1|None | 1.00 -> 13.78
+2026-01-24 00:16:39,531 | INFO | Item Price Changed | ak-47-uncharted|Field-Tested|0|None | 1.00 -> 1.57
+2026-01-24 00:16:42,910 | INFO | Item Price Changed | ak-47-uncharted|Field-Tested|1|None | 1.00 -> 6.04
+2026-01-24 00:16:46,060 | INFO | Item Price Changed | ak-47-uncharted|Minimal Wear|0|None | 1.00 -> 2.14
+2026-01-24 00:16:48,759 | INFO | Item Price Changed | ak-47-uncharted|Minimal Wear|1|None | 1.00 -> 7.19
+2026-01-24 00:16:51,575 | INFO | Item Price Changed | ak-47-uncharted|Well-Worn|0|None | 1.00 -> 2.87
+2026-01-24 00:16:54,802 | INFO | Item Price Changed | ak-47-uncharted|Well-Worn|1|None | 1.00 -> 7.29
+2026-01-24 00:16:57,994 | INFO | Item Price Changed | ak-47-vulcan|Battle-Scarred|0|None | 1.00 -> 223.37
+2026-01-24 00:17:00,749 | INFO | Item Price Changed | ak-47-vulcan|Battle-Scarred|1|None | 1.00 -> 420.65
+2026-01-24 00:17:03,711 | INFO | Item Price Changed | ak-47-vulcan|Factory New|0|None | 1.00 -> 1654.87
+2026-01-24 00:18:09,045 | INFO | Item Price Changed | ak-47-vulcan|Field-Tested|0|None | 1.00 -> 371.91
+2026-01-24 00:18:12,480 | INFO | Item Price Changed | ak-47-vulcan|Field-Tested|1|None | 1.00 -> 730.91
+2026-01-24 00:18:15,502 | INFO | Item Price Changed | ak-47-vulcan|Minimal Wear|0|None | 1.00 -> 751.03
+2026-01-24 00:18:18,197 | INFO | Item Price Changed | ak-47-vulcan|Minimal Wear|1|None | 1.00 -> 1504.88
+2026-01-24 00:18:20,851 | INFO | Item Price Changed | ak-47-vulcan|Well-Worn|0|None | 1.00 -> 285.14
+2026-01-24 00:18:23,620 | INFO | Item Price Changed | ak-47-vulcan|Well-Worn|1|None | 1.00 -> 493.14
+2026-01-24 00:18:26,968 | INFO | Item Price Changed | ak-47-wasteland-rebel|Battle-Scarred|0|None | 1.00 -> 140.42
+2026-01-24 00:18:29,514 | INFO | Item Price Changed | ak-47-wasteland-rebel|Battle-Scarred|1|None | 1.00 -> 201.02
+2026-01-24 00:18:32,873 | INFO | Item Price Changed | ak-47-wasteland-rebel|Factory New|0|None | 1.00 -> 964.23
+2026-01-24 00:19:40,571 | INFO | Item Price Changed | ak-47-wasteland-rebel|Field-Tested|0|None | 1.00 -> 126.14
+2026-01-24 00:19:43,729 | INFO | Item Price Changed | ak-47-wasteland-rebel|Field-Tested|1|None | 1.00 -> 220.98
+2026-01-24 00:19:46,768 | INFO | Item Price Changed | ak-47-wasteland-rebel|Minimal Wear|0|None | 1.00 -> 286.67
+2026-01-24 00:19:49,983 | INFO | Item Price Changed | ak-47-wasteland-rebel|Minimal Wear|1|None | 1.00 -> 290.80
+2026-01-24 00:19:52,662 | INFO | Item Price Changed | ak-47-wasteland-rebel|Well-Worn|0|None | 1.00 -> 143.70
+2026-01-24 00:19:55,996 | INFO | Item Price Changed | ak-47-wasteland-rebel|Well-Worn|1|None | 1.00 -> 232.07
+2026-01-24 00:19:58,681 | INFO | Item Price Changed | aug-amber-slipstream|Battle-Scarred|0|None | 1.00 -> 0.87
+2026-01-24 00:53:46,586 | INFO | Price Refresher Starting.
+2026-01-24 00:53:46,586 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-24 00:53:57,992 | INFO | Price Refresher Starting.
+2026-01-24 00:53:57,992 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-24 00:53:58,303 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-24 00:57:36,411 | INFO | Price Refresher Starting.
+2026-01-24 00:57:36,411 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-24 00:57:36,685 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-24 00:58:28,042 | INFO | Price Refresher Starting.
+2026-01-24 00:58:28,042 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-24 00:58:28,274 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-24 01:03:10,017 | INFO | Price Refresher Starting.
+2026-01-24 01:03:10,017 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-24 01:03:10,305 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-24 01:09:42,233 | INFO | Price Refresher Starting.
+2026-01-24 01:09:42,233 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-24 01:09:42,543 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-24 01:17:47,471 | INFO | Price Refresher Starting.
+2026-01-24 01:17:47,471 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-24 01:17:47,877 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-24 01:17:47,877 | INFO | Refreshing Cases | Total=44
+2026-01-24 01:17:48,065 | INFO | Case Price Changed | anubis-collection-package | 4.23 -> 4.19
+2026-01-24 01:17:51,264 | INFO | Case Price Changed | chroma-2-case | 7.68 -> 7.69
+2026-01-24 01:17:54,359 | INFO | Case Price Changed | chroma-3-case | 7.02 -> 7.04
+2026-01-24 01:18:07,126 | INFO | Price Refresher Starting.
+2026-01-24 01:18:07,126 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-24 01:18:07,330 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-24 01:18:07,331 | INFO | Refreshing Cases | Total=44
+2026-01-24 01:18:07,526 | INFO | Case Price Changed | anubis-collection-package | 4.23 -> 4.19
+2026-01-24 01:18:10,886 | INFO | Case Price Changed | chroma-2-case | 7.68 -> 7.69
+2026-01-24 01:18:13,698 | INFO | Case Price Changed | chroma-3-case | 7.02 -> 7.04
+2026-01-24 01:18:17,046 | INFO | Case Price Changed | chroma-case | 9.24 -> 9.38
+2026-01-24 01:18:20,010 | INFO | Case Price Changed | clutch-case | 1.55 -> 1.58
+2026-01-24 01:18:20,010 | INFO | Progress | Cases 5/44 | Updated=5 | Skipped=0
+2026-01-24 01:18:22,552 | INFO | Case Price Changed | cs20-case | 2.46 -> 2.47
+2026-01-24 01:18:25,235 | INFO | Case Price Changed | csgo-weapon-case | 191.47 -> 196.84
+2026-01-24 01:18:28,136 | INFO | Case Price Changed | csgo-weapon-case-2 | 26.89 -> 27.15
+2026-01-24 01:18:30,942 | INFO | Case Price Changed | csgo-weapon-case-3 | 20.63 -> 21.40
+2026-01-24 01:18:33,550 | INFO | Case Price Changed | danger-zone-case | 2.77 -> 2.79
+2026-01-24 01:18:33,550 | INFO | Progress | Cases 10/44 | Updated=10 | Skipped=0
+2026-01-24 01:18:36,349 | INFO | Case Price Changed | dreams-nightmares-case | 2.50 -> 2.55
+2026-01-24 01:18:42,686 | INFO | Case Price Changed | esports-2013-winter-case | 20.89 -> 20.94
+2026-01-24 01:18:45,461 | INFO | Case Price Changed | esports-2014-summer-case | 20.98 -> 19.00
+2026-01-24 01:18:48,071 | INFO | Case Price Changed | falchion-case | 3.45 -> 3.52
+2026-01-24 01:18:48,071 | INFO | Progress | Cases 15/44 | Updated=14 | Skipped=1
+2026-01-24 01:18:57,027 | INFO | Case Price Changed | gallery-case | 2.04 -> 2.07
+2026-01-24 01:19:00,360 | INFO | Case Price Changed | gamma-2-case | 6.91 -> 6.67
+2026-01-24 01:19:03,144 | INFO | Case Price Changed | gamma-case | 7.10 -> 7.31
+2026-01-24 01:19:03,145 | INFO | Progress | Cases 20/44 | Updated=17 | Skipped=3
+2026-01-24 01:19:06,076 | INFO | Case Price Changed | glove-case | 28.59 -> 28.13
+2026-01-24 01:19:09,399 | INFO | Case Price Changed | horizon-case | 3.19 -> 3.21
+2026-01-24 01:19:12,384 | INFO | Case Price Changed | huntsman-weapon-case | 16.01 -> 17.59
+2026-01-24 01:19:18,607 | INFO | Case Price Changed | operation-bravo-case | 88.78 -> 88.71
+2026-01-24 01:19:18,608 | INFO | Progress | Cases 25/44 | Updated=21 | Skipped=4
+2026-01-24 01:19:21,280 | INFO | Case Price Changed | operation-breakout-weapon-case | 15.01 -> 17.40
+2026-01-24 01:19:26,955 | INFO | Case Price Changed | operation-hydra-case | 66.23 -> 62.98
+2026-01-24 01:19:30,344 | INFO | Case Price Changed | operation-phoenix-weapon-case | 8.23 -> 8.20
+2026-01-24 01:19:33,187 | INFO | Case Price Changed | operation-riptide-case | 24.67 -> 25.07
+2026-01-24 01:19:33,188 | INFO | Progress | Cases 30/44 | Updated=25 | Skipped=5
+2026-01-24 01:19:35,932 | INFO | Case Price Changed | operation-vanguard-weapon-case | 8.09 -> 8.29
+2026-01-24 01:19:38,753 | INFO | Case Price Changed | operation-wildfire-case | 6.59 -> 6.66
+2026-01-24 01:19:41,563 | INFO | Case Price Changed | prisma-2-case | 2.90 -> 2.93
+2026-01-24 01:19:48,042 | INFO | Progress | Cases 35/44 | Updated=28 | Skipped=7
+2026-01-24 01:19:51,357 | INFO | Case Price Changed | revolution-case | 0.56 -> 0.55
+2026-01-24 01:19:54,156 | INFO | Case Price Changed | revolver-case | 5.67 -> 5.57
+2026-01-24 01:19:56,918 | INFO | Case Price Changed | shadow-case | 3.20 -> 3.09
+2026-01-24 01:20:00,077 | INFO | Case Price Changed | shattered-web-case | 11.83 -> 11.81
+2026-01-24 01:20:02,833 | INFO | Case Price Changed | snakebite-case | 1.20 -> 1.22
+2026-01-24 01:20:02,834 | INFO | Progress | Cases 40/44 | Updated=33 | Skipped=7
+2026-01-24 01:20:05,785 | INFO | Case Price Changed | spectrum-2-case | 6.34 -> 6.12
+2026-01-24 01:20:09,078 | INFO | Case Price Changed | spectrum-case | 7.69 -> 7.76
+2026-01-24 01:20:11,798 | INFO | Case Price Changed | winter-offensive-weapon-case | 16.09 -> 16.54
+2026-01-24 01:20:14,527 | INFO | Case Price Changed | x-ray-p250-package | 3.45 -> 3.01
+2026-01-24 01:20:14,528 | INFO | Progress | Cases 44/44 | Updated=37 | Skipped=7
+2026-01-24 01:20:14,528 | INFO | Refreshing Keys | Total=1
+2026-01-24 01:20:17,884 | INFO | Progress | Keys 1/1 | Updated=0 | Skipped=1
+2026-01-24 01:20:17,884 | INFO | Refreshing Items | Total=16285
+2026-01-24 01:20:21,203 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Battle-Scarred|0|None | 73.76 -> 73.67
+2026-01-24 01:20:29,673 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Factory New|1|None | 688.74 -> 776.18
+2026-01-24 01:20:32,354 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Field-Tested|0|None | 89.25 -> 87.13
+2026-01-24 01:20:35,151 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Field-Tested|1|None | 199.74 -> 202.13
+2026-01-24 01:21:00,217 | INFO | Item Price Changed | ak-47-asiimov|Battle-Scarred|0|None | 1.00 -> 74.97
+2026-01-24 01:21:03,083 | INFO | Item Price Changed | ak-47-asiimov|Battle-Scarred|1|None | 1.00 -> 116.83
+2026-01-24 01:21:05,817 | INFO | Item Price Changed | ak-47-asiimov|Factory New|0|None | 1.00 -> 1253.50
+2026-01-24 01:21:09,255 | INFO | Item Price Changed | ak-47-asiimov|Factory New|1|None | 1.00 -> 1080.25
+2026-01-24 01:21:12,429 | INFO | Item Price Changed | ak-47-asiimov|Field-Tested|0|None | 1.00 -> 82.29
+2026-01-24 01:21:15,432 | INFO | Item Price Changed | ak-47-asiimov|Field-Tested|1|None | 1.00 -> 123.64
+2026-01-24 01:21:18,120 | INFO | Item Price Changed | ak-47-asiimov|Minimal Wear|0|None | 1.00 -> 96.43
+2026-01-24 01:21:20,730 | INFO | Item Price Changed | ak-47-asiimov|Minimal Wear|1|None | 1.00 -> 201.11
+2026-01-24 01:21:23,347 | INFO | Item Price Changed | ak-47-asiimov|Well-Worn|0|None | 1.00 -> 77.19
+2026-01-24 01:21:26,605 | INFO | Item Price Changed | ak-47-asiimov|Well-Worn|1|None | 1.00 -> 136.00
+2026-01-24 01:21:26,606 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:21:26,606 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:21:26,606 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:21:26,606 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:21:26,606 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:23:26,085 | INFO | Item Price Changed | ak-47-bloodsport|Factory New|0|None | 1.00 -> 442.33
+2026-01-24 01:23:28,939 | INFO | Item Price Changed | ak-47-bloodsport|Factory New|1|None | 1.00 -> 764.20
+2026-01-24 01:23:32,055 | INFO | Item Price Changed | ak-47-bloodsport|Field-Tested|0|None | 1.00 -> 254.55
+2026-01-24 01:23:34,775 | INFO | Item Price Changed | ak-47-bloodsport|Field-Tested|1|None | 1.00 -> 530.56
+2026-01-24 01:23:37,683 | INFO | Item Price Changed | ak-47-bloodsport|Minimal Wear|0|None | 1.00 -> 303.51
+2026-01-24 01:23:40,406 | INFO | Item Price Changed | ak-47-bloodsport|Minimal Wear|1|None | 1.00 -> 625.11
+2026-01-24 01:23:42,942 | INFO | Item Price Changed | ak-47-bloodsport|Well-Worn|0|None | 1.00 -> 236.44
+2026-01-24 01:23:45,711 | INFO | Item Price Changed | ak-47-bloodsport|Well-Worn|1|None | 1.00 -> 552.37
+2026-01-24 01:25:48,426 | INFO | Item Price Changed | ak-47-blue-laminate|Factory New|0|None | 1.00 -> 46.59
+2026-01-24 01:25:51,714 | INFO | Item Price Changed | ak-47-blue-laminate|Factory New|1|None | 1.00 -> 95.62
+2026-01-24 01:25:54,719 | INFO | Item Price Changed | ak-47-blue-laminate|Field-Tested|0|None | 1.00 -> 27.18
+2026-01-24 01:25:57,966 | INFO | Item Price Changed | ak-47-blue-laminate|Field-Tested|1|None | 1.00 -> 63.95
+2026-01-24 01:26:01,016 | INFO | Item Price Changed | ak-47-blue-laminate|Minimal Wear|0|None | 1.00 -> 41.25
+2026-01-24 01:26:03,601 | INFO | Item Price Changed | ak-47-blue-laminate|Minimal Wear|1|None | 1.00 -> 66.39
+2026-01-24 01:26:06,439 | INFO | Item Price Changed | ak-47-blue-laminate|Well-Worn|0|None | 1.00 -> 40.76
+2026-01-24 01:26:09,197 | INFO | Item Price Changed | ak-47-blue-laminate|Well-Worn|1|None | 1.00 -> 98.73
+2026-01-24 01:26:11,967 | INFO | Item Price Changed | ak-47-cartel|Battle-Scarred|0|None | 1.00 -> 32.42
+2026-01-24 01:26:14,513 | INFO | Item Price Changed | ak-47-cartel|Battle-Scarred|1|None | 1.00 -> 63.50
+2026-01-24 01:26:17,337 | INFO | Item Price Changed | ak-47-cartel|Factory New|0|None | 1.00 -> 163.22
+2026-01-24 01:26:20,694 | INFO | Item Price Changed | ak-47-cartel|Factory New|1|None | 1.00 -> 181.33
+2026-01-24 01:26:23,433 | INFO | Item Price Changed | ak-47-cartel|Field-Tested|0|None | 1.00 -> 31.87
+2026-01-24 01:26:23,433 | INFO | Progress | Items 50/16285 | Updated=35 | Skipped=15
+2026-01-24 01:26:26,138 | INFO | Item Price Changed | ak-47-cartel|Field-Tested|1|None | 1.00 -> 84.29
+2026-01-24 01:26:29,226 | INFO | Item Price Changed | ak-47-cartel|Minimal Wear|0|None | 1.00 -> 45.75
+2026-01-24 01:26:32,003 | INFO | Item Price Changed | ak-47-cartel|Minimal Wear|1|None | 1.00 -> 113.85
+2026-01-24 01:26:34,766 | INFO | Item Price Changed | ak-47-cartel|Well-Worn|0|None | 1.00 -> 55.45
+2026-01-24 01:26:37,813 | INFO | Item Price Changed | ak-47-cartel|Well-Worn|1|None | 1.00 -> 94.96
+2026-01-24 01:26:41,014 | INFO | Item Price Changed | ak-47-case-hardened|Battle-Scarred|0|None | 1.00 -> 298.88
+2026-01-24 01:26:43,739 | INFO | Item Price Changed | ak-47-case-hardened|Battle-Scarred|1|None | 1.00 -> 705.23
+2026-01-24 01:26:46,454 | INFO | Item Price Changed | ak-47-case-hardened|Factory New|0|None | 1.00 -> 1782.09
+2026-01-24 01:26:49,804 | INFO | Item Price Changed | ak-47-case-hardened|Factory New|1|None | 1.00 -> 1831.74
+2026-01-24 01:27:04,603 | INFO | Item Price Changed | ak-47-case-hardened|Field-Tested|0|None | 1.00 -> 716.73
+2026-01-24 01:27:07,231 | INFO | Item Price Changed | ak-47-case-hardened|Field-Tested|1|None | 1.00 -> 929.81
+2026-01-24 01:27:10,404 | INFO | Item Price Changed | ak-47-case-hardened|Minimal Wear|0|None | 1.00 -> 520.90
+2026-01-24 01:27:13,124 | INFO | Item Price Changed | ak-47-case-hardened|Minimal Wear|1|None | 1.00 -> 1212.83
+2026-01-24 01:27:16,107 | INFO | Item Price Changed | ak-47-case-hardened|Well-Worn|0|None | 1.00 -> 334.02
+2026-01-24 01:27:18,651 | INFO | Item Price Changed | ak-47-case-hardened|Well-Worn|1|None | 1.00 -> 691.51
+2026-01-24 01:27:21,836 | INFO | Item Price Changed | ak-47-elite-build|Battle-Scarred|0|None | 1.00 -> 3.24
+2026-01-24 01:27:24,562 | INFO | Item Price Changed | ak-47-elite-build|Battle-Scarred|1|None | 1.00 -> 8.28
+2026-01-24 01:27:27,680 | INFO | Item Price Changed | ak-47-elite-build|Factory New|0|None | 1.00 -> 19.32
+2026-01-24 01:27:30,256 | INFO | Item Price Changed | ak-47-elite-build|Factory New|1|None | 1.00 -> 64.57
+2026-01-24 01:27:33,116 | INFO | Item Price Changed | ak-47-elite-build|Field-Tested|0|None | 1.00 -> 4.14
+2026-01-24 01:27:35,898 | INFO | Item Price Changed | ak-47-elite-build|Field-Tested|1|None | 1.00 -> 11.48
+2026-01-24 01:27:38,656 | INFO | Item Price Changed | ak-47-elite-build|Minimal Wear|0|None | 1.00 -> 6.26
+2026-01-24 01:27:41,614 | INFO | Item Price Changed | ak-47-elite-build|Minimal Wear|1|None | 1.00 -> 18.82
+2026-01-24 01:27:44,305 | INFO | Item Price Changed | ak-47-elite-build|Well-Worn|0|None | 1.00 -> 3.37
+2026-01-24 01:27:47,255 | INFO | Item Price Changed | ak-47-elite-build|Well-Worn|1|None | 1.00 -> 9.50
+2026-01-24 01:27:47,255 | INFO | Progress | Items 75/16285 | Updated=60 | Skipped=15
+2026-01-24 01:27:50,172 | INFO | Item Price Changed | ak-47-fire-serpent|Battle-Scarred|0|None | 1.00 -> 1318.26
+2026-01-24 01:30:49,713 | INFO | Item Price Changed | ak-47-fire-serpent|Field-Tested|0|None | 1.00 -> 1819.22
+2026-01-24 01:31:50,153 | INFO | Item Price Changed | ak-47-fire-serpent|Minimal Wear|0|None | 1.00 -> 2767.22
+2026-01-24 01:32:54,434 | INFO | Item Price Changed | ak-47-fire-serpent|Well-Worn|0|None | 1.00 -> 2376.13
+2026-01-24 01:33:57,414 | INFO | Item Price Changed | ak-47-frontside-misty-none|Battle-Scarred|0|None | 1.00 -> 33.63
+2026-01-24 01:34:00,544 | INFO | Item Price Changed | ak-47-frontside-misty-none|Battle-Scarred|1|None | 1.00 -> 66.22
+2026-01-24 01:34:03,182 | INFO | Item Price Changed | ak-47-frontside-misty-none|Factory New|0|None | 1.00 -> 363.79
+2026-01-24 01:34:06,563 | INFO | Item Price Changed | ak-47-frontside-misty-none|Factory New|1|None | 1.00 -> 353.33
+2026-01-24 01:34:09,257 | INFO | Item Price Changed | ak-47-frontside-misty-none|Field-Tested|0|None | 1.00 -> 38.70
+2026-01-24 01:34:12,217 | INFO | Item Price Changed | ak-47-frontside-misty-none|Field-Tested|1|None | 1.00 -> 69.15
+2026-01-24 01:34:15,044 | INFO | Item Price Changed | ak-47-frontside-misty-none|Minimal Wear|0|None | 1.00 -> 66.03
+2026-01-24 01:34:18,079 | INFO | Item Price Changed | ak-47-frontside-misty-none|Minimal Wear|1|None | 1.00 -> 137.99
+2026-01-24 01:34:20,761 | INFO | Item Price Changed | ak-47-frontside-misty-none|Well-Worn|0|None | 1.00 -> 33.06
+2026-01-24 01:34:23,844 | INFO | Item Price Changed | ak-47-frontside-misty-none|Well-Worn|1|None | 1.00 -> 62.50
+2026-01-24 01:34:27,016 | INFO | Item Price Changed | ak-47-fuel-injector|Battle-Scarred|0|None | 1.00 -> 235.82
+2026-01-24 01:34:29,595 | INFO | Item Price Changed | ak-47-fuel-injector|Battle-Scarred|1|None | 1.00 -> 460.16
+2026-01-24 01:34:32,566 | INFO | Item Price Changed | ak-47-fuel-injector|Factory New|0|None | 1.00 -> 1653.48
+2026-01-24 01:34:35,457 | INFO | Item Price Changed | ak-47-fuel-injector|Factory New|1|None | 1.00 -> 2410.57
+2026-01-24 01:34:38,497 | INFO | Item Price Changed | ak-47-fuel-injector|Field-Tested|0|None | 1.00 -> 375.84
+2026-01-24 01:34:38,497 | INFO | Progress | Items 100/16285 | Updated=79 | Skipped=21
+2026-01-24 01:34:41,556 | INFO | Item Price Changed | ak-47-fuel-injector|Field-Tested|1|None | 1.00 -> 918.76
+2026-01-24 01:34:44,870 | INFO | Item Price Changed | ak-47-fuel-injector|Minimal Wear|0|None | 1.00 -> 639.83
+2026-01-24 01:34:47,989 | INFO | Item Price Changed | ak-47-fuel-injector|Minimal Wear|1|None | 1.00 -> 1721.85
+2026-01-24 01:34:51,395 | INFO | Item Price Changed | ak-47-fuel-injector|Well-Worn|0|None | 1.00 -> 288.69
+2026-01-24 01:34:54,118 | INFO | Item Price Changed | ak-47-fuel-injector|Well-Worn|1|None | 1.00 -> 448.34
+2026-01-24 01:34:56,950 | INFO | Item Price Changed | ak-47-head-shot|Battle-Scarred|0|None | 1.00 -> 56.16
+2026-01-24 01:35:00,398 | INFO | Item Price Changed | ak-47-head-shot|Battle-Scarred|1|None | 1.00 -> 48.93
+2026-01-24 01:35:03,024 | INFO | Item Price Changed | ak-47-head-shot|Factory New|0|None | 1.00 -> 278.45
+2026-01-24 01:35:05,986 | INFO | Item Price Changed | ak-47-head-shot|Factory New|1|None | 1.00 -> 247.95
+2026-01-24 01:35:08,837 | INFO | Item Price Changed | ak-47-head-shot|Field-Tested|0|None | 1.00 -> 74.59
+2026-01-24 01:35:11,611 | INFO | Item Price Changed | ak-47-head-shot|Field-Tested|1|None | 1.00 -> 64.47
+2026-01-24 01:35:14,276 | INFO | Item Price Changed | ak-47-head-shot|Minimal Wear|0|None | 1.00 -> 147.39
+2026-01-24 01:35:17,615 | INFO | Item Price Changed | ak-47-head-shot|Minimal Wear|1|None | 1.00 -> 85.41
+2026-01-24 01:35:20,590 | INFO | Item Price Changed | ak-47-head-shot|Well-Worn|0|None | 1.00 -> 61.99
+2026-01-24 01:35:23,424 | INFO | Item Price Changed | ak-47-head-shot|Well-Worn|1|None | 1.00 -> 57.13
+2026-01-24 01:35:25,967 | INFO | Item Price Changed | ak-47-ice-coaled|Battle-Scarred|0|None | 1.00 -> 8.86
+2026-01-24 01:35:28,981 | INFO | Item Price Changed | ak-47-ice-coaled|Battle-Scarred|1|None | 1.00 -> 19.44
+2026-01-24 01:35:31,749 | INFO | Item Price Changed | ak-47-ice-coaled|Factory New|0|None | 1.00 -> 38.70
+2026-01-24 01:35:34,682 | INFO | Item Price Changed | ak-47-ice-coaled|Factory New|1|None | 1.00 -> 69.15
+2026-01-24 01:35:37,794 | INFO | Item Price Changed | ak-47-ice-coaled|Field-Tested|0|None | 1.00 -> 9.87
+2026-01-24 01:35:40,796 | INFO | Item Price Changed | ak-47-ice-coaled|Field-Tested|1|None | 1.00 -> 22.64
+2026-01-24 01:35:43,374 | INFO | Item Price Changed | ak-47-ice-coaled|Minimal Wear|0|None | 1.00 -> 18.22
+2026-01-24 01:35:46,624 | INFO | Item Price Changed | ak-47-ice-coaled|Minimal Wear|1|None | 1.00 -> 45.16
+2026-01-24 01:35:49,382 | INFO | Item Price Changed | ak-47-ice-coaled|Well-Worn|0|None | 1.00 -> 10.62
+2026-01-24 01:35:52,208 | INFO | Item Price Changed | ak-47-ice-coaled|Well-Worn|1|None | 1.00 -> 24.83
+2026-01-24 01:35:52,208 | INFO | Progress | Items 125/16285 | Updated=104 | Skipped=21
+2026-01-24 01:36:07,017 | INFO | Item Price Changed | ak-47-inheritance|Battle-Scarred|0|None | 1.00 -> 83.41
+2026-01-24 01:36:09,892 | INFO | Item Price Changed | ak-47-inheritance|Battle-Scarred|1|None | 1.00 -> 174.14
+2026-01-24 01:36:13,265 | INFO | Item Price Changed | ak-47-inheritance|Factory New|0|None | 1.00 -> 307.25
+2026-01-24 01:36:16,159 | INFO | Item Price Changed | ak-47-inheritance|Factory New|1|None | 1.00 -> 771.61
+2026-01-24 01:36:19,369 | INFO | Item Price Changed | ak-47-inheritance|Field-Tested|0|None | 1.00 -> 107.88
+2026-01-24 01:36:22,721 | INFO | Item Price Changed | ak-47-inheritance|Field-Tested|1|None | 1.00 -> 190.30
+2026-01-24 01:36:25,438 | INFO | Item Price Changed | ak-47-inheritance|Minimal Wear|0|None | 1.00 -> 167.92
+2026-01-24 01:36:28,531 | INFO | Item Price Changed | ak-47-inheritance|Minimal Wear|1|None | 1.00 -> 339.58
+2026-01-24 01:36:31,467 | INFO | Item Price Changed | ak-47-inheritance|Well-Worn|0|None | 1.00 -> 96.44
+2026-01-24 01:36:34,172 | INFO | Item Price Changed | ak-47-inheritance|Well-Worn|1|None | 1.00 -> 209.38
+2026-01-24 01:36:36,783 | INFO | Item Price Changed | ak-47-jaguar|Battle-Scarred|0|None | 1.00 -> 152.03
+2026-01-24 01:36:39,611 | INFO | Item Price Changed | ak-47-jaguar|Battle-Scarred|1|None | 1.00 -> 254.63
+2026-01-24 01:36:42,776 | INFO | Item Price Changed | ak-47-jaguar|Factory New|0|None | 1.00 -> 1108.86
+2026-01-24 01:36:46,206 | INFO | Item Price Changed | ak-47-jaguar|Factory New|1|None | 1.00 -> 1842.90
+2026-01-24 01:36:49,028 | INFO | Item Price Changed | ak-47-jaguar|Field-Tested|0|None | 1.00 -> 145.85
+2026-01-24 01:36:52,278 | INFO | Item Price Changed | ak-47-jaguar|Field-Tested|1|None | 1.00 -> 351.16
+2026-01-24 01:36:55,396 | INFO | Item Price Changed | ak-47-jaguar|Minimal Wear|0|None | 1.00 -> 380.19
+2026-01-24 01:36:57,970 | INFO | Item Price Changed | ak-47-jaguar|Minimal Wear|1|None | 1.00 -> 711.51
+2026-01-24 01:37:01,247 | INFO | Item Price Changed | ak-47-jaguar|Well-Worn|0|None | 1.00 -> 157.11
+2026-01-24 01:37:03,800 | INFO | Item Price Changed | ak-47-jaguar|Well-Worn|1|None | 1.00 -> 238.31
+2026-01-24 01:37:07,263 | INFO | Item Price Changed | ak-47-leet-museo|Battle-Scarred|0|None | 1.00 -> 253.92
+2026-01-24 01:37:10,442 | INFO | Item Price Changed | ak-47-leet-museo|Battle-Scarred|1|None | 1.00 -> 156.39
+2026-01-24 01:37:13,316 | INFO | Item Price Changed | ak-47-leet-museo|Factory New|0|None | 1.00 -> 1565.08
+2026-01-24 01:37:16,424 | INFO | Item Price Changed | ak-47-leet-museo|Factory New|1|None | 1.00 -> 800.00
+2026-01-24 01:37:19,685 | INFO | Item Price Changed | ak-47-leet-museo|Field-Tested|0|None | 1.00 -> 571.65
+2026-01-24 01:37:19,685 | INFO | Progress | Items 150/16285 | Updated=129 | Skipped=21
+2026-01-24 01:37:22,631 | INFO | Item Price Changed | ak-47-leet-museo|Field-Tested|1|None | 1.00 -> 218.68
+2026-01-24 01:37:26,093 | INFO | Item Price Changed | ak-47-leet-museo|Minimal Wear|0|None | 1.00 -> 811.46
+2026-01-24 01:37:28,656 | INFO | Item Price Changed | ak-47-leet-museo|Minimal Wear|1|None | 1.00 -> 408.96
+2026-01-24 01:37:31,851 | INFO | Item Price Changed | ak-47-leet-museo|Well-Worn|0|None | 1.00 -> 317.51
+2026-01-24 01:37:34,872 | INFO | Item Price Changed | ak-47-leet-museo|Well-Worn|1|None | 1.00 -> 185.04
+2026-01-24 01:37:37,889 | INFO | Item Price Changed | ak-47-legion-of-anubis|Battle-Scarred|0|None | 1.00 -> 74.39
+2026-01-24 01:37:40,632 | INFO | Item Price Changed | ak-47-legion-of-anubis|Battle-Scarred|1|None | 1.00 -> 64.30
+2026-01-24 01:37:43,204 | INFO | Item Price Changed | ak-47-legion-of-anubis|Factory New|0|None | 1.00 -> 117.13
+2026-01-24 01:37:46,371 | INFO | Item Price Changed | ak-47-legion-of-anubis|Factory New|1|None | 1.00 -> 134.14
+2026-01-24 01:37:49,056 | INFO | Item Price Changed | ak-47-legion-of-anubis|Field-Tested|0|None | 1.00 -> 60.09
+2026-01-24 01:37:51,878 | INFO | Item Price Changed | ak-47-legion-of-anubis|Field-Tested|1|None | 1.00 -> 64.57
+2026-01-24 01:37:54,627 | INFO | Item Price Changed | ak-47-legion-of-anubis|Minimal Wear|0|None | 1.00 -> 79.90
+2026-01-24 01:37:57,776 | INFO | Item Price Changed | ak-47-legion-of-anubis|Minimal Wear|1|None | 1.00 -> 91.92
+2026-01-24 01:38:01,062 | INFO | Item Price Changed | ak-47-legion-of-anubis|Well-Worn|0|None | 1.00 -> 70.67
+2026-01-24 01:38:03,970 | INFO | Item Price Changed | ak-47-legion-of-anubis|Well-Worn|1|None | 1.00 -> 82.63
+2026-01-24 01:38:07,409 | INFO | Item Price Changed | ak-47-neon-revolution|Battle-Scarred|0|None | 1.00 -> 183.61
+2026-01-24 01:38:10,637 | INFO | Item Price Changed | ak-47-neon-revolution|Battle-Scarred|1|None | 1.00 -> 164.39
+2026-01-24 01:38:13,804 | INFO | Item Price Changed | ak-47-neon-revolution|Factory New|0|None | 1.00 -> 866.76
+2026-01-24 01:38:16,900 | INFO | Item Price Changed | ak-47-neon-revolution|Factory New|1|None | 1.00 -> 404.30
+2026-01-24 01:38:19,656 | INFO | Item Price Changed | ak-47-neon-revolution|Field-Tested|0|None | 1.00 -> 201.35
+2026-01-24 01:38:22,829 | INFO | Item Price Changed | ak-47-neon-revolution|Field-Tested|1|None | 1.00 -> 197.73
+2026-01-24 01:38:25,516 | INFO | Item Price Changed | ak-47-neon-revolution|Minimal Wear|0|None | 1.00 -> 205.94
+2026-01-24 01:38:28,600 | INFO | Item Price Changed | ak-47-neon-revolution|Minimal Wear|1|None | 1.00 -> 246.57
+2026-01-24 01:38:32,048 | INFO | Item Price Changed | ak-47-neon-revolution|Well-Worn|0|None | 1.00 -> 184.35
+2026-01-24 01:38:35,262 | INFO | Item Price Changed | ak-47-neon-revolution|Well-Worn|1|None | 1.00 -> 161.60
+2026-01-24 01:38:35,262 | INFO | Progress | Items 175/16285 | Updated=154 | Skipped=21
+2026-01-24 01:38:38,163 | INFO | Item Price Changed | ak-47-neon-rider|Battle-Scarred|0|None | 1.00 -> 78.54
+2026-01-24 01:38:41,149 | INFO | Item Price Changed | ak-47-neon-rider|Battle-Scarred|1|None | 1.00 -> 165.23
+2026-01-24 01:38:43,913 | INFO | Item Price Changed | ak-47-neon-rider|Factory New|0|None | 1.00 -> 617.45
+2026-01-24 01:38:46,996 | INFO | Item Price Changed | ak-47-neon-rider|Factory New|1|None | 1.00 -> 889.41
+2026-01-24 01:38:49,883 | INFO | Item Price Changed | ak-47-neon-rider|Field-Tested|0|None | 1.00 -> 83.99
+2026-01-24 01:38:52,710 | INFO | Item Price Changed | ak-47-neon-rider|Field-Tested|1|None | 1.00 -> 151.54
+2026-01-24 01:38:55,959 | INFO | Item Price Changed | ak-47-neon-rider|Minimal Wear|0|None | 1.00 -> 153.98
+2026-01-24 01:38:59,166 | INFO | Item Price Changed | ak-47-neon-rider|Minimal Wear|1|None | 1.00 -> 367.69
+2026-01-24 01:39:02,319 | INFO | Item Price Changed | ak-47-neon-rider|Well-Worn|0|None | 1.00 -> 100.74
+2026-01-24 01:39:05,420 | INFO | Item Price Changed | ak-47-neon-rider|Well-Worn|1|None | 1.00 -> 174.67
+2026-01-24 01:39:08,155 | INFO | Item Price Changed | ak-47-nightwish|Battle-Scarred|0|None | 1.00 -> 139.78
+2026-01-24 01:39:10,715 | INFO | Item Price Changed | ak-47-nightwish|Battle-Scarred|1|None | 1.00 -> 124.38
+2026-01-24 01:39:13,770 | INFO | Item Price Changed | ak-47-nightwish|Factory New|0|None | 1.00 -> 275.49
+2026-01-24 01:39:17,041 | INFO | Item Price Changed | ak-47-nightwish|Factory New|1|None | 1.00 -> 292.11
+2026-01-24 01:39:19,736 | INFO | Item Price Changed | ak-47-nightwish|Field-Tested|0|None | 1.00 -> 145.55
+2026-01-24 01:39:22,541 | INFO | Item Price Changed | ak-47-nightwish|Field-Tested|1|None | 1.00 -> 133.54
+2026-01-24 01:39:25,567 | INFO | Item Price Changed | ak-47-nightwish|Minimal Wear|0|None | 1.00 -> 158.41
+2026-01-24 01:39:28,513 | INFO | Item Price Changed | ak-47-nightwish|Minimal Wear|1|None | 1.00 -> 123.99
+2026-01-24 01:39:31,684 | INFO | Item Price Changed | ak-47-nightwish|Well-Worn|0|None | 1.00 -> 135.20
+2026-01-24 01:39:34,882 | INFO | Item Price Changed | ak-47-nightwish|Well-Worn|1|None | 1.00 -> 124.53
+2026-01-24 01:39:38,125 | INFO | Item Price Changed | ak-47-orbit-mk01|Battle-Scarred|0|None | 1.00 -> 54.25
+2026-01-24 01:39:41,129 | INFO | Item Price Changed | ak-47-orbit-mk01|Battle-Scarred|1|None | 1.00 -> 95.76
+2026-01-24 01:39:44,250 | INFO | Item Price Changed | ak-47-orbit-mk01|Factory New|0|None | 1.00 -> 167.37
+2026-01-24 01:39:47,197 | INFO | Item Price Changed | ak-47-orbit-mk01|Factory New|1|None | 1.00 -> 198.72
+2026-01-24 01:39:49,678 | INFO | Item Price Changed | ak-47-orbit-mk01|Field-Tested|0|None | 1.00 -> 53.93
+2026-01-24 01:39:49,678 | INFO | Progress | Items 200/16285 | Updated=179 | Skipped=21
+2026-01-24 01:39:52,503 | INFO | Item Price Changed | ak-47-orbit-mk01|Field-Tested|1|None | 1.00 -> 107.33
+2026-01-24 01:39:55,282 | INFO | Item Price Changed | ak-47-orbit-mk01|Minimal Wear|0|None | 1.00 -> 71.85
+2026-01-24 01:39:57,871 | INFO | Item Price Changed | ak-47-orbit-mk01|Minimal Wear|1|None | 1.00 -> 122.89
+2026-01-24 01:40:00,555 | INFO | Item Price Changed | ak-47-orbit-mk01|Well-Worn|0|None | 1.00 -> 53.86
+2026-01-24 01:40:03,688 | INFO | Item Price Changed | ak-47-orbit-mk01|Well-Worn|1|None | 1.00 -> 130.38
+2026-01-24 01:40:03,688 | WARNING | Variant Requires Override | ak-47-panthera-onca-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:40:03,688 | WARNING | Variant Requires Override | ak-47-panthera-onca-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:40:03,688 | WARNING | Variant Requires Override | ak-47-panthera-onca-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:40:03,688 | WARNING | Variant Requires Override | ak-47-panthera-onca-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:40:03,688 | WARNING | Variant Requires Override | ak-47-panthera-onca-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:40:16,850 | INFO | Item Price Changed | ak-47-phantom-disruptor|Battle-Scarred|0|None | 1.00 -> 10.90
+2026-01-24 01:40:19,630 | INFO | Item Price Changed | ak-47-phantom-disruptor|Battle-Scarred|1|None | 1.00 -> 25.72
+2026-01-24 01:40:22,447 | INFO | Item Price Changed | ak-47-phantom-disruptor|Factory New|0|None | 1.00 -> 63.89
+2026-01-24 01:40:25,757 | INFO | Item Price Changed | ak-47-phantom-disruptor|Factory New|1|None | 1.00 -> 68.88
+2026-01-24 01:40:28,535 | INFO | Item Price Changed | ak-47-phantom-disruptor|Field-Tested|0|None | 1.00 -> 11.51
+2026-01-24 01:40:31,770 | INFO | Item Price Changed | ak-47-phantom-disruptor|Field-Tested|1|None | 1.00 -> 27.14
+2026-01-24 01:40:34,748 | INFO | Item Price Changed | ak-47-phantom-disruptor|Minimal Wear|0|None | 1.00 -> 18.71
+2026-01-24 01:40:37,862 | INFO | Item Price Changed | ak-47-phantom-disruptor|Minimal Wear|1|None | 1.00 -> 41.19
+2026-01-24 01:40:40,827 | INFO | Item Price Changed | ak-47-phantom-disruptor|Well-Worn|0|None | 1.00 -> 14.62
+2026-01-24 01:40:43,904 | INFO | Item Price Changed | ak-47-phantom-disruptor|Well-Worn|1|None | 1.00 -> 32.00
+2026-01-24 01:40:46,814 | INFO | Item Price Changed | ak-47-point-disarray|Battle-Scarred|0|None | 1.00 -> 25.47
+2026-01-24 01:40:49,726 | INFO | Item Price Changed | ak-47-point-disarray|Battle-Scarred|1|None | 1.00 -> 59.77
+2026-01-24 01:40:53,159 | INFO | Item Price Changed | ak-47-point-disarray|Factory New|0|None | 1.00 -> 144.72
+2026-01-24 01:40:56,062 | INFO | Item Price Changed | ak-47-point-disarray|Factory New|1|None | 1.00 -> 167.09
+2026-01-24 01:40:59,054 | INFO | Item Price Changed | ak-47-point-disarray|Field-Tested|0|None | 1.00 -> 28.84
+2026-01-24 01:40:59,054 | INFO | Progress | Items 225/16285 | Updated=199 | Skipped=26
+2026-01-24 01:41:01,942 | INFO | Item Price Changed | ak-47-point-disarray|Field-Tested|1|None | 1.00 -> 61.11
+2026-01-24 01:41:04,556 | INFO | Item Price Changed | ak-47-point-disarray|Minimal Wear|0|None | 1.00 -> 48.21
+2026-01-24 01:41:07,645 | INFO | Item Price Changed | ak-47-point-disarray|Minimal Wear|1|None | 1.00 -> 99.36
+2026-01-24 01:41:10,629 | INFO | Item Price Changed | ak-47-point-disarray|Well-Worn|0|None | 1.00 -> 35.44
+2026-01-24 01:41:13,526 | INFO | Item Price Changed | ak-47-point-disarray|Well-Worn|1|None | 1.00 -> 71.30
+2026-01-24 01:41:25,216 | INFO | Item Price Changed | ak-47-rat-rod|Battle-Scarred|0|None | 1.00 -> 8.91
+2026-01-24 01:41:28,057 | INFO | Item Price Changed | ak-47-rat-rod|Battle-Scarred|1|None | 1.00 -> 24.51
+2026-01-24 01:41:30,919 | INFO | Item Price Changed | ak-47-rat-rod|Factory New|0|None | 1.00 -> 179.68
+2026-01-24 01:41:33,646 | INFO | Item Price Changed | ak-47-rat-rod|Factory New|1|None | 1.00 -> 110.57
+2026-01-24 01:41:36,440 | INFO | Item Price Changed | ak-47-rat-rod|Field-Tested|0|None | 1.00 -> 10.01
+2026-01-24 01:41:39,163 | INFO | Item Price Changed | ak-47-rat-rod|Field-Tested|1|None | 1.00 -> 28.97
+2026-01-24 01:41:41,789 | INFO | Item Price Changed | ak-47-rat-rod|Minimal Wear|0|None | 1.00 -> 20.49
+2026-01-24 01:41:44,704 | INFO | Item Price Changed | ak-47-rat-rod|Minimal Wear|1|None | 1.00 -> 38.66
+2026-01-24 01:41:47,724 | INFO | Item Price Changed | ak-47-rat-rod|Well-Worn|0|None | 1.00 -> 8.64
+2026-01-24 01:41:50,479 | INFO | Item Price Changed | ak-47-rat-rod|Well-Worn|1|None | 1.00 -> 23.34
+2026-01-24 01:41:53,053 | INFO | Item Price Changed | ak-47-red-laminate|Battle-Scarred|0|None | 1.00 -> 103.31
+2026-01-24 01:41:56,385 | INFO | Item Price Changed | ak-47-red-laminate|Battle-Scarred|1|None | 1.00 -> 370.64
+2026-01-24 01:41:59,220 | INFO | Item Price Changed | ak-47-red-laminate|Factory New|0|None | 1.00 -> 943.47
+2026-01-24 01:43:06,438 | INFO | Item Price Changed | ak-47-red-laminate|Field-Tested|0|None | 1.00 -> 108.50
+2026-01-24 01:43:09,038 | INFO | Item Price Changed | ak-47-red-laminate|Field-Tested|1|None | 1.00 -> 394.51
+2026-01-24 01:43:12,300 | INFO | Item Price Changed | ak-47-red-laminate|Minimal Wear|0|None | 1.00 -> 300.42
+2026-01-24 01:43:14,986 | INFO | Item Price Changed | ak-47-red-laminate|Minimal Wear|1|None | 1.00 -> 669.13
+2026-01-24 01:43:17,903 | INFO | Item Price Changed | ak-47-red-laminate|Well-Worn|0|None | 1.00 -> 109.67
+2026-01-24 01:43:21,006 | INFO | Item Price Changed | ak-47-red-laminate|Well-Worn|1|None | 1.00 -> 436.51
+2026-01-24 01:43:21,007 | INFO | Progress | Items 250/16285 | Updated=223 | Skipped=27
+2026-01-24 01:43:24,035 | INFO | Item Price Changed | ak-47-redline|Battle-Scarred|0|None | 1.00 -> 51.61
+2026-01-24 01:43:26,814 | INFO | Item Price Changed | ak-47-redline|Battle-Scarred|1|None | 1.00 -> 97.58
+2026-01-24 01:45:27,278 | INFO | Item Price Changed | ak-47-redline|Field-Tested|0|None | 1.00 -> 65.61
+2026-01-24 01:45:30,392 | INFO | Item Price Changed | ak-47-redline|Field-Tested|1|None | 1.00 -> 127.76
+2026-01-24 01:45:33,237 | INFO | Item Price Changed | ak-47-redline|Minimal Wear|0|None | 1.00 -> 372.67
+2026-01-24 01:45:35,908 | INFO | Item Price Changed | ak-47-redline|Minimal Wear|1|None | 1.00 -> 802.67
+2026-01-24 01:45:38,931 | INFO | Item Price Changed | ak-47-redline|Well-Worn|0|None | 1.00 -> 56.39
+2026-01-24 01:45:42,232 | INFO | Item Price Changed | ak-47-redline|Well-Worn|1|None | 1.00 -> 100.99
+2026-01-24 01:45:42,233 | WARNING | Variant Requires Override | ak-47-safari-mesh-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:45:42,233 | WARNING | Variant Requires Override | ak-47-safari-mesh-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:45:42,233 | WARNING | Variant Requires Override | ak-47-safari-mesh-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:45:42,233 | WARNING | Variant Requires Override | ak-47-safari-mesh-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:45:42,233 | WARNING | Variant Requires Override | ak-47-safari-mesh-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:45:42,233 | WARNING | Variant Requires Override | ak-47-safety-net-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:45:42,233 | WARNING | Variant Requires Override | ak-47-safety-net-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:45:42,234 | WARNING | Variant Requires Override | ak-47-safety-net-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:45:42,234 | WARNING | Variant Requires Override | ak-47-safety-net-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:45:42,234 | WARNING | Variant Requires Override | ak-47-safety-net-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:45:45,542 | INFO | Item Price Changed | ak-47-searing-rage-none|Battle-Scarred|0|None | 1.00 -> 8.97
+2026-01-24 01:45:48,426 | INFO | Item Price Changed | ak-47-searing-rage-none|Battle-Scarred|1|None | 1.00 -> 18.74
+2026-01-24 01:45:51,574 | INFO | Item Price Changed | ak-47-searing-rage-none|Factory New|0|None | 1.00 -> 90.36
+2026-01-24 01:45:54,941 | INFO | Item Price Changed | ak-47-searing-rage-none|Factory New|1|None | 1.00 -> 92.52
+2026-01-24 01:45:58,036 | INFO | Item Price Changed | ak-47-searing-rage-none|Field-Tested|0|None | 1.00 -> 10.71
+2026-01-24 01:45:58,036 | INFO | Progress | Items 275/16285 | Updated=236 | Skipped=39
+2026-01-24 01:46:00,843 | INFO | Item Price Changed | ak-47-searing-rage-none|Field-Tested|1|None | 1.00 -> 23.68
+2026-01-24 01:46:04,015 | INFO | Item Price Changed | ak-47-searing-rage-none|Minimal Wear|0|None | 1.00 -> 19.01
+2026-01-24 01:46:06,972 | INFO | Item Price Changed | ak-47-searing-rage-none|Minimal Wear|1|None | 1.00 -> 44.21
+2026-01-24 01:46:09,917 | INFO | Item Price Changed | ak-47-searing-rage-none|Well-Worn|0|None | 1.00 -> 9.73
+2026-01-24 01:46:13,085 | INFO | Item Price Changed | ak-47-searing-rage-none|Well-Worn|1|None | 1.00 -> 20.03
+2026-01-24 01:46:15,871 | INFO | Item Price Changed | ak-47-slate|Battle-Scarred|0|None | 1.00 -> 7.65
+2026-01-24 01:46:18,613 | INFO | Item Price Changed | ak-47-slate|Battle-Scarred|1|None | 1.00 -> 23.37
+2026-01-24 01:46:21,923 | INFO | Item Price Changed | ak-47-slate|Factory New|0|None | 1.00 -> 32.57
+2026-01-24 01:46:24,780 | INFO | Item Price Changed | ak-47-slate|Factory New|1|None | 1.00 -> 102.01
+2026-01-24 01:46:27,555 | INFO | Item Price Changed | ak-47-slate|Field-Tested|0|None | 1.00 -> 9.62
+2026-01-24 01:46:30,733 | INFO | Item Price Changed | ak-47-slate|Field-Tested|1|None | 1.00 -> 31.59
+2026-01-24 01:46:33,435 | INFO | Item Price Changed | ak-47-slate|Minimal Wear|0|None | 1.00 -> 13.79
+2026-01-24 01:46:36,735 | INFO | Item Price Changed | ak-47-slate|Minimal Wear|1|None | 1.00 -> 41.17
+2026-01-24 01:46:39,514 | INFO | Item Price Changed | ak-47-slate|Well-Worn|0|None | 1.00 -> 8.50
+2026-01-24 01:46:42,843 | INFO | Item Price Changed | ak-47-slate|Well-Worn|1|None | 1.00 -> 24.95
+2026-01-24 01:46:45,415 | INFO | Item Price Changed | ak-47-steel-delta|Battle-Scarred|0|None | 1.00 -> 4.29
+2026-01-24 01:46:48,476 | INFO | Item Price Changed | ak-47-steel-delta|Factory New|0|None | 1.00 -> 46.81
+2026-01-24 01:46:51,113 | INFO | Item Price Changed | ak-47-steel-delta|Field-Tested|0|None | 1.00 -> 4.33
+2026-01-24 01:46:53,658 | INFO | Item Price Changed | ak-47-steel-delta|Minimal Wear|0|None | 1.00 -> 10.52
+2026-01-24 01:46:56,924 | INFO | Item Price Changed | ak-47-steel-delta|Well-Worn|0|None | 1.00 -> 4.76
+2026-01-24 01:47:00,116 | INFO | Item Price Changed | ak-47-the-empress|Battle-Scarred|0|None | 1.00 -> 176.33
+2026-01-24 01:47:02,943 | INFO | Item Price Changed | ak-47-the-empress|Battle-Scarred|1|None | 1.00 -> 150.27
+2026-01-24 01:47:05,605 | INFO | Item Price Changed | ak-47-the-empress|Factory New|0|None | 1.00 -> 700.95
+2026-01-24 01:47:08,910 | INFO | Item Price Changed | ak-47-the-empress|Factory New|1|None | 1.00 -> 798.94
+2026-01-24 01:47:11,878 | INFO | Item Price Changed | ak-47-the-empress|Field-Tested|0|None | 1.00 -> 165.22
+2026-01-24 01:47:11,878 | INFO | Progress | Items 300/16285 | Updated=261 | Skipped=39
+2026-01-24 01:47:14,964 | INFO | Item Price Changed | ak-47-the-empress|Field-Tested|1|None | 1.00 -> 219.04
+2026-01-24 01:47:17,836 | INFO | Item Price Changed | ak-47-the-empress|Minimal Wear|0|None | 1.00 -> 194.23
+2026-01-24 01:47:20,717 | INFO | Item Price Changed | ak-47-the-empress|Minimal Wear|1|None | 1.00 -> 330.60
+2026-01-24 01:47:23,464 | INFO | Item Price Changed | ak-47-the-empress|Well-Worn|0|None | 1.00 -> 169.66
+2026-01-24 01:47:26,674 | INFO | Item Price Changed | ak-47-the-empress|Well-Worn|1|None | 1.00 -> 169.31
+2026-01-24 01:47:41,106 | INFO | Item Price Changed | ak-47-the-oligarch|Battle-Scarred|0|None | 1.00 -> 89.19
+2026-01-24 01:47:43,917 | INFO | Item Price Changed | ak-47-the-oligarch|Battle-Scarred|1|None | 1.00 -> 150.21
+2026-01-24 01:47:47,154 | INFO | Item Price Changed | ak-47-the-oligarch|Factory New|0|None | 1.00 -> 1043.61
+2026-01-24 01:47:50,191 | INFO | Item Price Changed | ak-47-the-oligarch|Factory New|1|None | 1.00 -> 1657.44
+2026-01-24 01:47:53,592 | INFO | Item Price Changed | ak-47-the-oligarch|Field-Tested|0|None | 1.00 -> 172.83
+2026-01-24 01:47:56,915 | INFO | Item Price Changed | ak-47-the-oligarch|Field-Tested|1|None | 1.00 -> 348.52
+2026-01-24 01:48:00,316 | INFO | Item Price Changed | ak-47-the-oligarch|Minimal Wear|0|None | 1.00 -> 323.43
+2026-01-24 01:48:03,157 | INFO | Item Price Changed | ak-47-the-oligarch|Minimal Wear|1|None | 1.00 -> 578.53
+2026-01-24 01:48:05,921 | INFO | Item Price Changed | ak-47-the-oligarch|Well-Worn|0|None | 1.00 -> 102.97
+2026-01-24 01:48:09,098 | INFO | Item Price Changed | ak-47-the-oligarch|Well-Worn|1|None | 1.00 -> 206.68
+2026-01-24 01:48:11,871 | INFO | Item Price Changed | ak-47-the-outsiders|Battle-Scarred|0|None | 1.00 -> 14.64
+2026-01-24 01:48:14,947 | INFO | Item Price Changed | ak-47-the-outsiders|Battle-Scarred|1|None | 1.00 -> 39.37
+2026-01-24 01:48:17,835 | INFO | Item Price Changed | ak-47-the-outsiders|Factory New|0|None | 1.00 -> 222.19
+2026-01-24 01:48:20,732 | INFO | Item Price Changed | ak-47-the-outsiders|Factory New|1|None | 1.00 -> 194.08
+2026-01-24 01:48:24,148 | INFO | Item Price Changed | ak-47-the-outsiders|Field-Tested|0|None | 1.00 -> 17.91
+2026-01-24 01:48:27,310 | INFO | Item Price Changed | ak-47-the-outsiders|Field-Tested|1|None | 1.00 -> 39.30
+2026-01-24 01:48:30,353 | INFO | Item Price Changed | ak-47-the-outsiders|Minimal Wear|0|None | 1.00 -> 44.36
+2026-01-24 01:48:33,011 | INFO | Item Price Changed | ak-47-the-outsiders|Minimal Wear|1|None | 1.00 -> 64.59
+2026-01-24 01:48:36,617 | INFO | Item Price Changed | ak-47-the-outsiders|Well-Worn|0|None | 1.00 -> 15.74
+2026-01-24 01:48:39,211 | INFO | Item Price Changed | ak-47-the-outsiders|Well-Worn|1|None | 1.00 -> 41.69
+2026-01-24 01:48:39,212 | INFO | Progress | Items 325/16285 | Updated=286 | Skipped=39
+2026-01-24 01:48:42,401 | INFO | Item Price Changed | ak-47-uncharted|Battle-Scarred|0|None | 1.00 -> 1.60
+2026-01-24 01:48:45,148 | INFO | Item Price Changed | ak-47-uncharted|Battle-Scarred|1|None | 1.00 -> 5.60
+2026-01-24 01:48:47,818 | INFO | Item Price Changed | ak-47-uncharted|Factory New|0|None | 1.00 -> 4.36
+2026-01-24 01:48:50,580 | INFO | Item Price Changed | ak-47-uncharted|Factory New|1|None | 1.00 -> 13.39
+2026-01-24 01:48:53,907 | INFO | Item Price Changed | ak-47-uncharted|Field-Tested|0|None | 1.00 -> 1.81
+2026-01-24 01:48:57,360 | INFO | Item Price Changed | ak-47-uncharted|Field-Tested|1|None | 1.00 -> 5.59
+2026-01-24 01:48:59,910 | INFO | Item Price Changed | ak-47-uncharted|Minimal Wear|0|None | 1.00 -> 2.11
+2026-01-24 01:49:03,110 | INFO | Item Price Changed | ak-47-uncharted|Minimal Wear|1|None | 1.00 -> 7.19
+2026-01-24 01:49:06,330 | INFO | Item Price Changed | ak-47-uncharted|Well-Worn|0|None | 1.00 -> 2.90
+2026-01-24 01:49:09,654 | INFO | Item Price Changed | ak-47-uncharted|Well-Worn|1|None | 1.00 -> 7.29
+2026-01-24 01:49:12,930 | INFO | Item Price Changed | ak-47-vulcan|Battle-Scarred|0|None | 1.00 -> 223.37
+2026-01-24 01:49:15,922 | INFO | Item Price Changed | ak-47-vulcan|Battle-Scarred|1|None | 1.00 -> 420.65
+2026-01-24 01:49:19,123 | INFO | Item Price Changed | ak-47-vulcan|Factory New|0|None | 1.00 -> 1654.87
+2026-01-24 01:50:19,876 | INFO | Item Price Changed | ak-47-vulcan|Field-Tested|0|None | 1.00 -> 371.91
+2026-01-24 01:50:22,855 | INFO | Item Price Changed | ak-47-vulcan|Field-Tested|1|None | 1.00 -> 730.91
+2026-01-24 01:50:25,878 | INFO | Item Price Changed | ak-47-vulcan|Minimal Wear|0|None | 1.00 -> 792.05
+2026-01-24 01:50:29,028 | INFO | Item Price Changed | ak-47-vulcan|Minimal Wear|1|None | 1.00 -> 1504.88
+2026-01-24 01:50:32,451 | INFO | Item Price Changed | ak-47-vulcan|Well-Worn|0|None | 1.00 -> 285.14
+2026-01-24 01:50:35,525 | INFO | Item Price Changed | ak-47-vulcan|Well-Worn|1|None | 1.00 -> 493.14
+2026-01-24 01:50:38,139 | INFO | Item Price Changed | ak-47-wasteland-rebel|Battle-Scarred|0|None | 1.00 -> 140.42
+2026-01-24 01:50:41,227 | INFO | Item Price Changed | ak-47-wasteland-rebel|Battle-Scarred|1|None | 1.00 -> 201.02
+2026-01-24 01:50:43,880 | INFO | Item Price Changed | ak-47-wasteland-rebel|Factory New|0|None | 1.00 -> 964.23
+2026-01-24 01:51:49,315 | INFO | Item Price Changed | ak-47-wasteland-rebel|Field-Tested|0|None | 1.00 -> 126.14
+2026-01-24 01:51:49,316 | INFO | Progress | Items 350/16285 | Updated=309 | Skipped=41
+2026-01-24 01:51:52,425 | INFO | Item Price Changed | ak-47-wasteland-rebel|Field-Tested|1|None | 1.00 -> 220.98
+2026-01-24 01:51:55,616 | INFO | Item Price Changed | ak-47-wasteland-rebel|Minimal Wear|0|None | 1.00 -> 286.67
+2026-01-24 01:51:58,901 | INFO | Item Price Changed | ak-47-wasteland-rebel|Minimal Wear|1|None | 1.00 -> 290.80
+2026-01-24 01:52:01,572 | INFO | Item Price Changed | ak-47-wasteland-rebel|Well-Worn|0|None | 1.00 -> 143.70
+2026-01-24 01:52:04,696 | INFO | Item Price Changed | ak-47-wasteland-rebel|Well-Worn|1|None | 1.00 -> 232.07
+2026-01-24 01:52:07,411 | INFO | Item Price Changed | aug-amber-slipstream|Battle-Scarred|0|None | 1.00 -> 0.87
+2026-01-24 01:52:10,264 | INFO | Item Price Changed | aug-amber-slipstream|Battle-Scarred|1|None | 1.00 -> 0.38
+2026-01-24 01:52:13,039 | INFO | Item Price Changed | aug-amber-slipstream|Factory New|0|None | 1.00 -> 1.45
+2026-01-24 01:52:16,307 | INFO | Item Price Changed | aug-amber-slipstream|Factory New|1|None | 1.00 -> 2.02
+2026-01-24 01:52:19,621 | INFO | Item Price Changed | aug-amber-slipstream|Field-Tested|0|None | 1.00 -> 0.85
+2026-01-24 01:52:22,348 | INFO | Item Price Changed | aug-amber-slipstream|Field-Tested|1|None | 1.00 -> 0.62
+2026-01-24 01:52:25,445 | INFO | Item Price Changed | aug-amber-slipstream|Minimal Wear|0|None | 1.00 -> 0.82
+2026-01-24 01:52:28,681 | INFO | Item Price Changed | aug-amber-slipstream|Minimal Wear|1|None | 1.00 -> 1.01
+2026-01-24 01:52:31,973 | INFO | Item Price Changed | aug-amber-slipstream|Well-Worn|0|None | 1.00 -> 0.60
+2026-01-24 01:52:35,348 | INFO | Item Price Changed | aug-amber-slipstream|Well-Worn|1|None | 1.00 -> 0.64
+2026-01-24 01:52:38,490 | INFO | Item Price Changed | aug-arctic-wolf|Battle-Scarred|0|None | 1.00 -> 4.12
+2026-01-24 01:52:41,452 | INFO | Item Price Changed | aug-arctic-wolf|Battle-Scarred|1|None | 1.00 -> 6.46
+2026-01-24 01:52:44,455 | INFO | Item Price Changed | aug-arctic-wolf|Factory New|0|None | 1.00 -> 18.42
+2026-01-24 01:52:47,050 | INFO | Item Price Changed | aug-arctic-wolf|Factory New|1|None | 1.00 -> 31.94
+2026-01-24 01:52:50,333 | INFO | Item Price Changed | aug-arctic-wolf|Field-Tested|0|None | 1.00 -> 3.89
+2026-01-24 01:52:53,006 | INFO | Item Price Changed | aug-arctic-wolf|Field-Tested|1|None | 1.00 -> 8.62
+2026-01-24 01:52:56,409 | INFO | Item Price Changed | aug-arctic-wolf|Minimal Wear|0|None | 1.00 -> 6.52
+2026-01-24 01:52:59,617 | INFO | Item Price Changed | aug-arctic-wolf|Minimal Wear|1|None | 1.00 -> 16.74
+2026-01-24 01:53:02,269 | INFO | Item Price Changed | aug-arctic-wolf|Well-Worn|0|None | 1.00 -> 4.61
+2026-01-24 01:53:05,028 | INFO | Item Price Changed | aug-arctic-wolf|Well-Worn|1|None | 1.00 -> 16.72
+2026-01-24 01:53:05,029 | INFO | Progress | Items 375/16285 | Updated=334 | Skipped=41
+2026-01-24 01:53:07,973 | INFO | Item Price Changed | aug-aristocrat|Battle-Scarred|0|None | 1.00 -> 2.41
+2026-01-24 01:53:11,131 | INFO | Item Price Changed | aug-aristocrat|Battle-Scarred|1|None | 1.00 -> 3.64
+2026-01-24 01:53:13,929 | INFO | Item Price Changed | aug-aristocrat|Factory New|0|None | 1.00 -> 11.39
+2026-01-24 01:53:16,698 | INFO | Item Price Changed | aug-aristocrat|Factory New|1|None | 1.00 -> 13.93
+2026-01-24 01:53:19,340 | INFO | Item Price Changed | aug-aristocrat|Field-Tested|0|None | 1.00 -> 2.48
+2026-01-24 01:53:22,022 | INFO | Item Price Changed | aug-aristocrat|Field-Tested|1|None | 1.00 -> 3.13
+2026-01-24 01:53:24,725 | INFO | Item Price Changed | aug-aristocrat|Minimal Wear|0|None | 1.00 -> 3.99
+2026-01-24 01:53:27,290 | INFO | Item Price Changed | aug-aristocrat|Minimal Wear|1|None | 1.00 -> 6.85
+2026-01-24 01:53:30,587 | INFO | Item Price Changed | aug-aristocrat|Well-Worn|0|None | 1.00 -> 2.37
+2026-01-24 01:53:33,754 | INFO | Item Price Changed | aug-aristocrat|Well-Worn|1|None | 1.00 -> 4.67
+2026-01-24 01:53:36,639 | INFO | Item Price Changed | aug-bengal-tiger|Battle-Scarred|0|None | 1.00 -> 21.92
+2026-01-24 01:53:39,891 | INFO | Item Price Changed | aug-bengal-tiger|Battle-Scarred|1|None | 1.00 -> 34.60
+2026-01-24 01:53:42,927 | INFO | Item Price Changed | aug-bengal-tiger|Factory New|0|None | 1.00 -> 282.44
+2026-01-24 01:53:46,182 | INFO | Item Price Changed | aug-bengal-tiger|Factory New|1|None | 1.00 -> 485.12
+2026-01-24 01:53:59,131 | INFO | Item Price Changed | aug-bengal-tiger|Field-Tested|0|None | 1.00 -> 23.47
+2026-01-24 01:54:01,994 | INFO | Item Price Changed | aug-bengal-tiger|Field-Tested|1|None | 1.00 -> 45.47
+2026-01-24 01:54:05,197 | INFO | Item Price Changed | aug-bengal-tiger|Minimal Wear|0|None | 1.00 -> 61.73
+2026-01-24 01:54:08,202 | INFO | Item Price Changed | aug-bengal-tiger|Minimal Wear|1|None | 1.00 -> 61.83
+2026-01-24 01:54:11,239 | INFO | Item Price Changed | aug-bengal-tiger|Well-Worn|0|None | 1.00 -> 17.88
+2026-01-24 01:54:14,234 | INFO | Item Price Changed | aug-bengal-tiger|Well-Worn|1|None | 1.00 -> 30.93
+2026-01-24 01:54:14,235 | WARNING | Variant Requires Override | aug-carved-jade-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:14,235 | WARNING | Variant Requires Override | aug-carved-jade-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:14,235 | WARNING | Variant Requires Override | aug-carved-jade-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:14,235 | WARNING | Variant Requires Override | aug-carved-jade-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:14,235 | WARNING | Variant Requires Override | aug-carved-jade-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:17,614 | INFO | Item Price Changed | aug-chameleon|Battle-Scarred|0|None | 1.00 -> 126.59
+2026-01-24 01:54:21,030 | INFO | Item Price Changed | aug-chameleon|Battle-Scarred|1|None | 1.00 -> 141.17
+2026-01-24 01:54:24,315 | INFO | Item Price Changed | aug-chameleon|Factory New|0|None | 1.00 -> 192.78
+2026-01-24 01:54:27,514 | INFO | Item Price Changed | aug-chameleon|Factory New|1|None | 1.00 -> 182.17
+2026-01-24 01:54:30,801 | INFO | Item Price Changed | aug-chameleon|Field-Tested|0|None | 1.00 -> 148.72
+2026-01-24 01:54:33,779 | INFO | Item Price Changed | aug-chameleon|Field-Tested|1|None | 1.00 -> 128.51
+2026-01-24 01:54:36,359 | INFO | Item Price Changed | aug-chameleon|Minimal Wear|0|None | 1.00 -> 148.77
+2026-01-24 01:54:39,747 | INFO | Item Price Changed | aug-chameleon|Minimal Wear|1|None | 1.00 -> 129.82
+2026-01-24 01:54:42,558 | INFO | Item Price Changed | aug-chameleon|Well-Worn|0|None | 1.00 -> 142.87
+2026-01-24 01:54:45,331 | INFO | Item Price Changed | aug-chameleon|Well-Worn|1|None | 1.00 -> 146.41
+2026-01-24 01:54:45,331 | WARNING | Variant Requires Override | aug-colony-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,331 | WARNING | Variant Requires Override | aug-colony-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-colony-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-colony-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-colony-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-condemned-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-condemned-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-condemned-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-condemned-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-condemned-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-contractor-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-contractor-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-contractor-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-contractor-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:54:45,332 | WARNING | Variant Requires Override | aug-contractor-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:56:45,950 | INFO | Item Price Changed | aug-death-by-puppy|Factory New|0|None | 1.00 -> 30.66
+2026-01-24 01:56:49,119 | INFO | Item Price Changed | aug-death-by-puppy|Factory New|1|None | 1.00 -> 23.78
+2026-01-24 01:56:51,745 | INFO | Item Price Changed | aug-death-by-puppy|Field-Tested|0|None | 1.00 -> 7.85
+2026-01-24 01:56:54,961 | INFO | Item Price Changed | aug-death-by-puppy|Field-Tested|1|None | 1.00 -> 17.12
+2026-01-24 01:56:58,362 | INFO | Item Price Changed | aug-death-by-puppy|Minimal Wear|0|None | 1.00 -> 10.06
+2026-01-24 01:57:01,205 | INFO | Item Price Changed | aug-death-by-puppy|Minimal Wear|1|None | 1.00 -> 19.32
+2026-01-24 01:57:04,227 | INFO | Item Price Changed | aug-death-by-puppy|Well-Worn|0|None | 1.00 -> 10.76
+2026-01-24 01:57:07,226 | INFO | Item Price Changed | aug-death-by-puppy|Well-Worn|1|None | 1.00 -> 17.75
+2026-01-24 01:57:07,226 | WARNING | Variant Requires Override | aug-eye-of-zapems-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:57:07,226 | WARNING | Variant Requires Override | aug-eye-of-zapems-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:57:07,226 | WARNING | Variant Requires Override | aug-eye-of-zapems-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:57:07,226 | WARNING | Variant Requires Override | aug-eye-of-zapems-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:57:07,227 | WARNING | Variant Requires Override | aug-eye-of-zapems-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:57:10,368 | INFO | Item Price Changed | aug-fleet-flock|Battle-Scarred|0|None | 1.00 -> 20.67
+2026-01-24 01:57:13,773 | INFO | Item Price Changed | aug-fleet-flock|Battle-Scarred|1|None | 1.00 -> 19.94
+2026-01-24 01:57:16,418 | INFO | Item Price Changed | aug-fleet-flock|Factory New|0|None | 1.00 -> 69.88
+2026-01-24 01:57:19,092 | INFO | Item Price Changed | aug-fleet-flock|Factory New|1|None | 1.00 -> 63.36
+2026-01-24 01:57:21,769 | INFO | Item Price Changed | aug-fleet-flock|Field-Tested|0|None | 1.00 -> 20.67
+2026-01-24 01:57:25,068 | INFO | Item Price Changed | aug-fleet-flock|Field-Tested|1|None | 1.00 -> 20.59
+2026-01-24 01:57:27,724 | INFO | Item Price Changed | aug-fleet-flock|Minimal Wear|0|None | 1.00 -> 24.99
+2026-01-24 01:57:30,481 | INFO | Item Price Changed | aug-fleet-flock|Minimal Wear|1|None | 1.00 -> 25.18
+2026-01-24 01:57:33,567 | INFO | Item Price Changed | aug-fleet-flock|Well-Worn|0|None | 1.00 -> 20.83
+2026-01-24 01:57:36,598 | INFO | Item Price Changed | aug-fleet-flock|Well-Worn|1|None | 1.00 -> 19.10
+2026-01-24 01:57:36,598 | INFO | Progress | Items 450/16285 | Updated=382 | Skipped=68
+2026-01-24 01:57:39,796 | INFO | Item Price Changed | aug-luxe-trim|Battle-Scarred|0|None | 1.00 -> 0.22
+2026-01-24 01:57:42,415 | INFO | Item Price Changed | aug-luxe-trim|Battle-Scarred|1|None | 1.00 -> 0.58
+2026-01-24 01:57:45,741 | INFO | Item Price Changed | aug-luxe-trim|Factory New|0|None | 1.00 -> 4.55
+2026-01-24 01:57:48,378 | INFO | Item Price Changed | aug-luxe-trim|Factory New|1|None | 1.00 -> 6.75
+2026-01-24 01:57:51,509 | INFO | Item Price Changed | aug-luxe-trim|Field-Tested|0|None | 1.00 -> 0.47
+2026-01-24 01:57:54,334 | INFO | Item Price Changed | aug-luxe-trim|Field-Tested|1|None | 1.00 -> 0.58
+2026-01-24 01:57:57,500 | INFO | Item Price Changed | aug-luxe-trim|Minimal Wear|0|None | 1.00 -> 0.74
+2026-01-24 01:58:00,582 | INFO | Item Price Changed | aug-luxe-trim|Minimal Wear|1|None | 1.00 -> 1.86
+2026-01-24 01:58:03,602 | INFO | Item Price Changed | aug-luxe-trim|Well-Worn|0|None | 1.00 -> 0.26
+2026-01-24 01:58:06,513 | INFO | Item Price Changed | aug-luxe-trim|Well-Worn|1|None | 1.00 -> 0.54
+2026-01-24 01:58:09,861 | INFO | Item Price Changed | aug-momentum|Battle-Scarred|0|None | 1.00 -> 9.55
+2026-01-24 01:58:12,968 | INFO | Item Price Changed | aug-momentum|Battle-Scarred|1|None | 1.00 -> 9.38
+2026-01-24 01:58:16,274 | INFO | Item Price Changed | aug-momentum|Factory New|0|None | 1.00 -> 116.68
+2026-01-24 01:58:19,704 | INFO | Item Price Changed | aug-momentum|Factory New|1|None | 1.00 -> 132.57
+2026-01-24 01:58:22,307 | INFO | Item Price Changed | aug-momentum|Field-Tested|0|None | 1.00 -> 11.31
+2026-01-24 01:58:25,191 | INFO | Item Price Changed | aug-momentum|Field-Tested|1|None | 1.00 -> 14.12
+2026-01-24 01:58:28,229 | INFO | Item Price Changed | aug-momentum|Minimal Wear|0|None | 1.00 -> 28.99
+2026-01-24 01:58:31,154 | INFO | Item Price Changed | aug-momentum|Minimal Wear|1|None | 1.00 -> 38.24
+2026-01-24 01:58:33,891 | INFO | Item Price Changed | aug-momentum|Well-Worn|0|None | 1.00 -> 10.03
+2026-01-24 01:58:37,196 | INFO | Item Price Changed | aug-momentum|Well-Worn|1|None | 1.00 -> 13.65
+2026-01-24 01:58:40,353 | INFO | Item Price Changed | aug-plague|Battle-Scarred|0|None | 1.00 -> 1.57
+2026-01-24 01:58:43,394 | INFO | Item Price Changed | aug-plague|Battle-Scarred|1|None | 1.00 -> 1.53
+2026-01-24 01:58:46,281 | INFO | Item Price Changed | aug-plague|Factory New|0|None | 1.00 -> 5.46
+2026-01-24 01:58:49,000 | INFO | Item Price Changed | aug-plague|Factory New|1|None | 1.00 -> 8.66
+2026-01-24 01:58:51,947 | INFO | Item Price Changed | aug-plague|Field-Tested|0|None | 1.00 -> 1.90
+2026-01-24 01:58:51,948 | INFO | Progress | Items 475/16285 | Updated=407 | Skipped=68
+2026-01-24 01:58:54,766 | INFO | Item Price Changed | aug-plague|Field-Tested|1|None | 1.00 -> 1.86
+2026-01-24 01:58:57,559 | INFO | Item Price Changed | aug-plague|Minimal Wear|0|None | 1.00 -> 3.70
+2026-01-24 01:59:00,333 | INFO | Item Price Changed | aug-plague|Minimal Wear|1|None | 1.00 -> 5.42
+2026-01-24 01:59:03,241 | INFO | Item Price Changed | aug-plague|Well-Worn|0|None | 1.00 -> 1.67
+2026-01-24 01:59:05,901 | INFO | Item Price Changed | aug-plague|Well-Worn|1|None | 1.00 -> 1.88
+2026-01-24 01:59:05,902 | WARNING | Variant Requires Override | aug-radiation-hazard-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,902 | WARNING | Variant Requires Override | aug-radiation-hazard-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,902 | WARNING | Variant Requires Override | aug-radiation-hazard-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,902 | WARNING | Variant Requires Override | aug-radiation-hazard-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,902 | WARNING | Variant Requires Override | aug-radiation-hazard-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,902 | WARNING | Variant Requires Override | aug-radiation-hazard|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,903 | WARNING | Variant Requires Override | aug-radiation-hazard|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,903 | WARNING | Variant Requires Override | aug-radiation-hazard|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,903 | WARNING | Variant Requires Override | aug-radiation-hazard|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,903 | WARNING | Variant Requires Override | aug-radiation-hazard|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,903 | WARNING | Variant Requires Override | aug-random-access-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,903 | WARNING | Variant Requires Override | aug-random-access-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,904 | WARNING | Variant Requires Override | aug-random-access-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,904 | WARNING | Variant Requires Override | aug-random-access-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:05,904 | WARNING | Variant Requires Override | aug-random-access-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:09,039 | INFO | Item Price Changed | aug-ricochet|Battle-Scarred|0|None | 1.00 -> 0.25
+2026-01-24 01:59:12,312 | INFO | Item Price Changed | aug-ricochet|Battle-Scarred|1|None | 1.00 -> 0.66
+2026-01-24 01:59:15,729 | INFO | Item Price Changed | aug-ricochet|Factory New|0|None | 1.00 -> 1.92
+2026-01-24 01:59:18,609 | INFO | Item Price Changed | aug-ricochet|Factory New|1|None | 1.00 -> 4.19
+2026-01-24 01:59:21,639 | INFO | Item Price Changed | aug-ricochet|Field-Tested|0|None | 1.00 -> 0.37
+2026-01-24 01:59:21,639 | INFO | Progress | Items 500/16285 | Updated=417 | Skipped=83
+2026-01-24 01:59:25,044 | INFO | Item Price Changed | aug-ricochet|Field-Tested|1|None | 1.00 -> 0.57
+2026-01-24 01:59:28,198 | INFO | Item Price Changed | aug-ricochet|Minimal Wear|0|None | 1.00 -> 0.69
+2026-01-24 01:59:30,743 | INFO | Item Price Changed | aug-ricochet|Minimal Wear|1|None | 1.00 -> 1.58
+2026-01-24 01:59:34,064 | INFO | Item Price Changed | aug-ricochet|Well-Worn|0|None | 1.00 -> 0.41
+2026-01-24 01:59:37,185 | INFO | Item Price Changed | aug-ricochet|Well-Worn|1|None | 1.00 -> 1.49
+2026-01-24 01:59:40,126 | INFO | Item Price Changed | aug-snake-pit|Battle-Scarred|0|None | 1.00 -> 0.09
+2026-01-24 01:59:43,489 | INFO | Item Price Changed | aug-snake-pit|Factory New|0|None | 1.00 -> 0.47
+2026-01-24 01:59:46,276 | INFO | Item Price Changed | aug-snake-pit|Field-Tested|0|None | 1.00 -> 0.10
+2026-01-24 01:59:49,327 | INFO | Item Price Changed | aug-snake-pit|Minimal Wear|0|None | 1.00 -> 0.21
+2026-01-24 01:59:52,283 | INFO | Item Price Changed | aug-snake-pit|Well-Worn|0|None | 1.00 -> 0.10
+2026-01-24 01:59:52,283 | WARNING | Variant Requires Override | aug-steel-sentinel-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:52,283 | WARNING | Variant Requires Override | aug-steel-sentinel-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:52,283 | WARNING | Variant Requires Override | aug-steel-sentinel-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:52,283 | WARNING | Variant Requires Override | aug-steel-sentinel-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:52,283 | WARNING | Variant Requires Override | aug-steel-sentinel-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:52,284 | WARNING | Variant Requires Override | aug-storm-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:52,284 | WARNING | Variant Requires Override | aug-storm-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:52,284 | WARNING | Variant Requires Override | aug-storm-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:52,284 | WARNING | Variant Requires Override | aug-storm-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:52,284 | WARNING | Variant Requires Override | aug-storm-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 01:59:55,590 | INFO | Item Price Changed | aug-stymphalian|Battle-Scarred|0|None | 1.00 -> 6.75
+2026-01-24 01:59:59,052 | INFO | Item Price Changed | aug-stymphalian|Battle-Scarred|1|None | 1.00 -> 8.11
+2026-01-24 02:00:01,769 | INFO | Item Price Changed | aug-stymphalian|Factory New|0|None | 1.00 -> 23.60
+2026-01-24 02:00:04,605 | INFO | Item Price Changed | aug-stymphalian|Factory New|1|None | 1.00 -> 26.82
+2026-01-24 02:00:07,216 | INFO | Item Price Changed | aug-stymphalian|Field-Tested|0|None | 1.00 -> 6.89
+2026-01-24 02:00:07,216 | INFO | Progress | Items 525/16285 | Updated=432 | Skipped=93
+2026-01-24 02:00:09,957 | INFO | Item Price Changed | aug-stymphalian|Field-Tested|1|None | 1.00 -> 7.49
+2026-01-24 02:00:12,787 | INFO | Item Price Changed | aug-stymphalian|Minimal Wear|0|None | 1.00 -> 10.94
+2026-01-24 02:00:15,997 | INFO | Item Price Changed | aug-stymphalian|Minimal Wear|1|None | 1.00 -> 11.36
+2026-01-24 02:00:18,723 | INFO | Item Price Changed | aug-stymphalian|Well-Worn|0|None | 1.00 -> 8.07
+2026-01-24 02:00:21,992 | INFO | Item Price Changed | aug-stymphalian|Well-Worn|1|None | 1.00 -> 8.41
+2026-01-24 02:00:21,993 | WARNING | Variant Requires Override | aug-sweeper-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 02:00:21,993 | WARNING | Variant Requires Override | aug-sweeper-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 02:00:21,993 | WARNING | Variant Requires Override | aug-sweeper-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 02:00:21,993 | WARNING | Variant Requires Override | aug-sweeper-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 02:00:21,993 | WARNING | Variant Requires Override | aug-sweeper-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 02:00:24,718 | INFO | Item Price Changed | aug-syd-mead|Battle-Scarred|0|None | 1.00 -> 18.50
+2026-01-24 02:00:27,977 | INFO | Item Price Changed | aug-syd-mead|Battle-Scarred|1|None | 1.00 -> 19.22
+2026-01-24 02:00:30,695 | INFO | Item Price Changed | aug-syd-mead|Factory New|0|None | 1.00 -> 64.70
+2026-01-24 02:00:33,366 | INFO | Item Price Changed | aug-syd-mead|Factory New|1|None | 1.00 -> 50.68
+2026-01-24 02:00:36,095 | INFO | Item Price Changed | aug-syd-mead|Field-Tested|0|None | 1.00 -> 17.56
+2026-01-24 02:00:39,062 | INFO | Item Price Changed | aug-syd-mead|Field-Tested|1|None | 1.00 -> 19.94
+2026-01-24 02:00:41,731 | INFO | Item Price Changed | aug-syd-mead|Minimal Wear|0|None | 1.00 -> 22.61
+2026-01-24 02:00:45,098 | INFO | Item Price Changed | aug-syd-mead|Minimal Wear|1|None | 1.00 -> 23.60
+2026-01-24 02:00:48,332 | INFO | Item Price Changed | aug-syd-mead|Well-Worn|0|None | 1.00 -> 19.89
+2026-01-24 02:01:00,926 | INFO | Item Price Changed | aug-syd-mead|Well-Worn|1|None | 1.00 -> 15.89
+2026-01-24 02:01:03,669 | INFO | Item Price Changed | aug-tom-cat|Battle-Scarred|0|None | 1.00 -> 0.22
+2026-01-24 02:01:06,555 | INFO | Item Price Changed | aug-tom-cat|Battle-Scarred|1|None | 1.00 -> 0.32
+2026-01-24 02:01:09,277 | INFO | Item Price Changed | aug-tom-cat|Factory New|0|None | 1.00 -> 1.38
+2026-01-24 02:01:11,930 | INFO | Item Price Changed | aug-tom-cat|Factory New|1|None | 1.00 -> 2.12
+2026-01-24 02:01:15,246 | INFO | Item Price Changed | aug-tom-cat|Field-Tested|0|None | 1.00 -> 0.55
+2026-01-24 02:01:15,246 | INFO | Progress | Items 550/16285 | Updated=452 | Skipped=98
+2026-01-24 02:01:18,340 | INFO | Item Price Changed | aug-tom-cat|Field-Tested|1|None | 1.00 -> 0.35
+2026-01-24 02:01:21,344 | INFO | Item Price Changed | aug-tom-cat|Minimal Wear|0|None | 1.00 -> 0.43
+2026-01-24 02:01:24,684 | INFO | Item Price Changed | aug-tom-cat|Minimal Wear|1|None | 1.00 -> 0.64
+2026-01-24 02:01:27,865 | INFO | Item Price Changed | aug-tom-cat|Well-Worn|0|None | 1.00 -> 0.25
+2026-01-24 02:01:30,585 | INFO | Item Price Changed | aug-tom-cat|Well-Worn|1|None | 1.00 -> 0.52
+2026-01-24 02:01:33,316 | INFO | Item Price Changed | aug-torque|Battle-Scarred|0|None | 1.00 -> 9.58
+2026-01-24 02:01:36,082 | INFO | Item Price Changed | aug-torque|Battle-Scarred|1|None | 1.00 -> 14.32
+2026-01-24 02:01:38,660 | INFO | Item Price Changed | aug-torque|Factory New|0|None | 1.00 -> 24.20
+2026-01-24 02:01:41,824 | INFO | Item Price Changed | aug-torque|Factory New|1|None | 1.00 -> 24.22
+2026-01-24 02:01:44,714 | INFO | Item Price Changed | aug-torque|Field-Tested|0|None | 1.00 -> 10.85
+2026-01-24 02:01:47,789 | INFO | Item Price Changed | aug-torque|Field-Tested|1|None | 1.00 -> 13.35
+2026-01-24 02:01:50,506 | INFO | Item Price Changed | aug-torque|Minimal Wear|0|None | 1.00 -> 16.35
+2026-01-24 02:01:53,197 | INFO | Item Price Changed | aug-torque|Minimal Wear|1|None | 1.00 -> 16.04
+2026-01-24 02:01:56,004 | INFO | Item Price Changed | aug-torque|Well-Worn|0|None | 1.00 -> 9.07
+2026-01-24 02:02:10,929 | INFO | Item Price Changed | aug-torque|Well-Worn|1|None | 1.00 -> 12.28
+2026-01-24 02:02:14,094 | INFO | Item Price Changed | aug-trigger-discipline|Battle-Scarred|0|None | 1.00 -> 0.15
+2026-01-24 02:02:16,910 | INFO | Item Price Changed | aug-trigger-discipline|Battle-Scarred|1|None | 1.00 -> 0.36
+2026-01-24 02:02:19,957 | INFO | Item Price Changed | aug-trigger-discipline|Factory New|0|None | 1.00 -> 3.16
+2026-01-24 02:02:22,858 | INFO | Item Price Changed | aug-trigger-discipline|Factory New|1|None | 1.00 -> 4.04
+2026-01-24 02:02:26,144 | INFO | Item Price Changed | aug-trigger-discipline|Field-Tested|0|None | 1.00 -> 0.34
+2026-01-24 02:02:29,047 | INFO | Item Price Changed | aug-trigger-discipline|Field-Tested|1|None | 1.00 -> 0.68
+2026-01-24 02:02:32,339 | INFO | Item Price Changed | aug-trigger-discipline|Minimal Wear|0|None | 1.00 -> 0.64
+2026-01-24 02:02:35,361 | INFO | Item Price Changed | aug-trigger-discipline|Minimal Wear|1|None | 1.00 -> 1.30
+2026-01-24 02:02:38,742 | INFO | Item Price Changed | aug-trigger-discipline|Well-Worn|0|None | 1.00 -> 0.20
+2026-01-24 02:02:41,471 | INFO | Item Price Changed | aug-trigger-discipline|Well-Worn|1|None | 1.00 -> 0.35
+2026-01-24 02:02:41,471 | INFO | Progress | Items 575/16285 | Updated=477 | Skipped=98
+2026-01-24 02:02:44,725 | INFO | Item Price Changed | aug-triqua|Battle-Scarred|0|None | 1.00 -> 0.34
+2026-01-24 02:02:47,423 | INFO | Item Price Changed | aug-triqua|Battle-Scarred|1|None | 1.00 -> 0.38
+2026-01-24 02:02:50,711 | INFO | Item Price Changed | aug-triqua|Factory New|0|None | 1.00 -> 2.35
+2026-01-24 02:02:53,834 | INFO | Item Price Changed | aug-triqua|Factory New|1|None | 1.00 -> 3.94
+2026-01-24 02:02:56,711 | INFO | Item Price Changed | aug-triqua|Field-Tested|0|None | 1.00 -> 0.96
+2026-01-24 02:02:59,390 | INFO | Item Price Changed | aug-triqua|Field-Tested|1|None | 1.00 -> 0.34
+2026-01-24 02:03:02,748 | INFO | Item Price Changed | aug-triqua|Minimal Wear|0|None | 1.00 -> 0.67
+2026-01-24 02:03:05,629 | INFO | Item Price Changed | aug-triqua|Minimal Wear|1|None | 1.00 -> 0.94
+2026-01-24 02:03:08,570 | INFO | Item Price Changed | aug-triqua|Well-Worn|0|None | 1.00 -> 0.33
+2026-01-24 02:03:11,899 | INFO | Item Price Changed | aug-triqua|Well-Worn|1|None | 1.00 -> 0.38
+2026-01-24 02:05:16,753 | INFO | Item Price Changed | aug-wings|Factory New|0|None | 1.00 -> 27.90
+2026-01-24 02:05:20,125 | INFO | Item Price Changed | aug-wings|Factory New|1|None | 1.00 -> 34.31
+2026-01-24 02:07:13,738 | INFO | Item Price Changed | aug-wings|Minimal Wear|0|None | 1.00 -> 25.38
+2026-01-24 02:07:16,425 | INFO | Item Price Changed | aug-wings|Minimal Wear|1|None | 1.00 -> 32.24
+2026-01-24 02:09:23,745 | WARNING | Variant Requires Override | awp-acheron-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 02:09:23,745 | WARNING | Variant Requires Override | awp-acheron-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 02:09:23,745 | WARNING | Variant Requires Override | awp-acheron-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 02:09:23,745 | WARNING | Variant Requires Override | awp-acheron-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 02:09:23,745 | WARNING | Variant Requires Override | awp-acheron-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 02:09:23,918 | INFO | Item Price Changed | awp-asiimov|Battle-Scarred|0|None | 1.00 -> 153.63
+2026-01-24 02:09:26,814 | INFO | Item Price Changed | awp-asiimov|Battle-Scarred|1|None | 1.00 -> 338.25
+2026-01-24 02:11:28,798 | INFO | Item Price Changed | awp-asiimov|Field-Tested|0|None | 1.00 -> 233.68
+2026-01-24 02:11:31,575 | INFO | Item Price Changed | awp-asiimov|Field-Tested|1|None | 1.00 -> 440.61
+2026-01-24 02:13:29,800 | INFO | Item Price Changed | awp-asiimov|Well-Worn|0|None | 1.00 -> 163.34
+2026-01-24 02:13:32,617 | INFO | Item Price Changed | awp-asiimov|Well-Worn|1|None | 1.00 -> 303.06
+2026-01-24 02:13:35,779 | INFO | Item Price Changed | awp-atheris|Battle-Scarred|0|None | 1.00 -> 6.60
+2026-01-24 02:13:38,467 | INFO | Item Price Changed | awp-atheris|Battle-Scarred|1|None | 1.00 -> 14.65
+2026-01-24 02:13:41,274 | INFO | Item Price Changed | awp-atheris|Factory New|0|None | 1.00 -> 20.68
+2026-01-24 02:13:44,275 | INFO | Item Price Changed | awp-atheris|Factory New|1|None | 1.00 -> 68.80
+2026-01-24 02:13:47,248 | INFO | Item Price Changed | awp-atheris|Field-Tested|0|None | 1.00 -> 9.59
+2026-01-24 02:13:49,839 | INFO | Item Price Changed | awp-atheris|Field-Tested|1|None | 1.00 -> 20.83
+2026-01-24 02:13:52,828 | INFO | Item Price Changed | awp-atheris|Minimal Wear|0|None | 1.00 -> 14.40
+2026-01-24 02:13:55,803 | INFO | Item Price Changed | awp-atheris|Minimal Wear|1|None | 1.00 -> 33.06
+2026-01-24 02:13:58,892 | INFO | Item Price Changed | awp-atheris|Well-Worn|0|None | 1.00 -> 8.19
+2026-01-24 02:14:01,833 | INFO | Item Price Changed | awp-atheris|Well-Worn|1|None | 1.00 -> 15.05
+2026-01-24 02:14:04,720 | INFO | Item Price Changed | awp-black-nile|Battle-Scarred|0|None | 1.00 -> 7.24
+2026-01-24 02:14:07,368 | INFO | Item Price Changed | awp-black-nile|Factory New|0|None | 1.00 -> 36.37
+2026-01-24 02:15:13,944 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:17:02,344 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:18:04,834 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:20:04,154 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:21:02,440 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:23:01,974 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:24:05,432 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:25:05,164 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:26:07,352 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:28:04,608 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:29:07,504 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:30:11,548 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:31:08,726 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:33:02,508 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:34:04,489 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:35:57,501 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:36:58,079 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:38:52,942 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:39:49,079 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:41:50,830 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:42:48,995 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:44:52,164 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:45:59,630 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:46:59,095 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:47:59,517 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:49:00,860 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:50:00,817 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:51:08,027 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:52:03,476 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:53:58,451 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:54:53,755 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:56:56,249 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:57:56,130 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 02:58:58,555 | INFO | Provider Steam back online; resuming.
+2026-01-24 02:59:59,760 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:01:00,653 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:02:00,226 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:03:01,573 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:04:05,913 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:05:09,229 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:06:11,859 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:08:02,087 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:08:58,630 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:10:56,855 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:11:55,362 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:12:57,371 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:13:58,376 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:15:02,774 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:16:01,508 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:17:58,777 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:19:04,804 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:20:04,885 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:21:04,399 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:22:59,777 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:23:57,157 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:25:57,180 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:26:55,813 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:28:55,454 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:29:54,109 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:30:55,489 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:31:51,133 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:32:55,898 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:33:53,272 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:34:56,764 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:35:53,689 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:36:58,701 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:38:00,706 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:38:58,877 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:40:03,611 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:41:04,387 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:42:02,854 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:43:09,141 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:44:14,333 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:45:16,303 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:46:17,564 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:47:18,571 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:48:18,363 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:50:13,072 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:51:13,551 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:52:13,126 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:53:07,907 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:55:10,160 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:56:10,899 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 03:57:10,435 | INFO | Provider Steam back online; resuming.
+2026-01-24 03:58:11,038 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:00:05,346 | WARNING | Variant Requires Override | awp-crakow-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 04:00:05,346 | WARNING | Variant Requires Override | awp-crakow-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 04:00:05,347 | WARNING | Variant Requires Override | awp-crakow-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 04:00:05,347 | WARNING | Variant Requires Override | awp-crakow-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 04:00:05,347 | WARNING | Variant Requires Override | awp-crakow-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 04:00:05,347 | WARNING | Variant Requires Override | awp-dragon-lore-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 04:00:05,347 | WARNING | Variant Requires Override | awp-dragon-lore-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 04:00:05,347 | WARNING | Variant Requires Override | awp-dragon-lore-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 04:00:05,347 | WARNING | Variant Requires Override | awp-dragon-lore-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 04:00:05,347 | WARNING | Variant Requires Override | awp-dragon-lore-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 04:00:05,347 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:01:07,993 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:02:13,902 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:03:09,841 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:05:09,320 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:06:08,005 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:08:09,120 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:09:07,342 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:11:04,210 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:12:06,907 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:13:07,466 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:14:11,243 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:15:09,558 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:16:06,590 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:18:04,355 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:18:58,253 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:20:52,558 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:21:51,984 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:22:55,549 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:23:55,645 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:25:48,050 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:26:42,226 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:28:42,768 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:29:48,160 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:30:47,448 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:31:46,221 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:32:47,926 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:33:42,864 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:35:39,003 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:36:39,465 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:37:46,334 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:38:51,909 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:39:47,781 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:40:42,453 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:42:36,303 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:43:35,230 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:45:37,615 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:46:38,509 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:48:30,494 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:49:37,160 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:50:31,537 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:51:35,681 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:52:37,691 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:53:41,905 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:54:47,733 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:55:56,309 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:56:53,252 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:57:57,141 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 04:59:00,317 | INFO | Provider Steam back online; resuming.
+2026-01-24 04:59:56,176 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:01:48,734 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:02:53,589 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:03:51,039 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:04:50,926 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:05:57,115 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:06:54,773 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:09:02,930 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:10:04,793 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:11:56,603 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:12:59,816 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:13:59,680 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:14:54,628 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:16:57,308 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:17:54,882 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:19:54,300 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:20:59,006 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:22:02,906 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:23:04,305 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:24:07,846 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:25:09,491 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:27:08,399 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:28:07,022 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:30:04,102 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:31:02,456 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:33:04,411 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:34:03,700 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:35:08,574 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:36:07,487 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:37:09,862 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:38:07,456 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:40:12,537 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:41:13,596 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:43:14,631 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:44:11,686 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:45:15,778 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:46:20,109 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:47:19,994 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:48:25,178 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:49:30,559 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:50:28,403 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:51:34,688 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:52:33,524 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:53:39,993 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:54:42,269 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:55:42,475 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:56:37,598 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 05:58:38,292 | INFO | Provider Steam back online; resuming.
+2026-01-24 05:59:38,727 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:01:42,037 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:02:37,654 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:04:37,206 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:05:34,353 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:07:35,573 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:08:34,941 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:09:39,051 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:10:38,407 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:12:40,400 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:13:41,372 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:14:44,694 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:15:43,981 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:16:45,506 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:17:45,170 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:18:47,874 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:19:51,131 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:20:50,635 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:21:47,441 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:23:43,194 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:24:46,578 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:25:43,877 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:26:48,773 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:27:46,852 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:28:42,495 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:30:45,670 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:31:41,547 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:32:39,274 | WARNING | Variant Requires Override | awp-longdog-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-24 06:32:39,275 | WARNING | Variant Requires Override | awp-longdog-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-24 06:32:39,275 | WARNING | Variant Requires Override | awp-longdog-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-24 06:32:39,275 | WARNING | Variant Requires Override | awp-longdog-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-24 06:32:39,275 | WARNING | Variant Requires Override | awp-longdog-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-24 06:33:34,490 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:34:35,537 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:36:39,838 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:37:40,145 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:38:44,720 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:39:43,736 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:40:46,328 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:41:47,025 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:42:46,427 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:43:39,629 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:45:41,653 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:46:41,781 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:47:44,846 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:48:43,133 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:50:41,996 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:51:46,549 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:52:49,861 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:53:49,907 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:55:50,681 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:56:43,913 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 06:58:55,097 | INFO | Provider Steam back online; resuming.
+2026-01-24 06:59:49,331 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:01:49,025 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:02:51,342 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:03:52,570 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:04:48,437 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:06:49,464 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:07:44,250 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:09:44,255 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:10:40,130 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:12:33,381 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:13:36,639 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:14:43,552 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:15:43,341 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:17:47,402 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:18:45,828 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:20:37,960 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:21:36,657 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:23:32,727 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:24:32,404 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:25:36,368 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:26:30,554 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:28:29,680 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:29:28,635 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:30:32,491 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:31:37,828 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:32:35,822 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:33:34,778 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:35:33,154 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:36:36,895 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:38:37,053 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:39:36,999 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:40:37,255 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:41:34,491 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:43:27,910 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:44:25,985 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:46:26,009 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:47:27,925 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:49:22,988 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:50:22,390 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:51:24,612 | INFO | Provider Steam back online; resuming.
+2026-01-24 07:57:33,958 | INFO | Price Refresher Starting.
+2026-01-24 07:57:33,958 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-24 07:57:34,373 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-24 07:57:34,374 | INFO | Refreshing Cases | Total=44
+2026-01-24 07:58:40,911 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 07:59:32,147 | INFO | Price Refresher Starting.
+2026-01-24 07:59:32,147 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-24 07:59:32,376 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-24 07:59:32,377 | INFO | Refreshing Cases | Total=44
+2026-01-24 08:00:31,452 | WARNING | Provider Steam paused for 120s after 1 failures.
+2026-01-24 08:02:46,000 | INFO | Provider Steam back online; resuming.
+2026-01-24 08:03:42,084 | WARNING | Provider Steam paused for 120s after 1 failures.

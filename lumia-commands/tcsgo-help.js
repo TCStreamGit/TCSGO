@@ -53,7 +53,12 @@ async function () {
     if (site === "tiktok") {
       try { callCommand({ name: TIKTOK_SEND_COMMAND, variableValues: { message: msg } }); return; } catch (_) {}
     }
-    try { chatbot({ message: msg, platform: site, site }); } catch (_) {}
+    let sent = false;
+    try { chatbot({ message: msg, platform: site, site }); sent = true; } catch (_) {}
+    if (!sent) {
+      try { triggerAction({ action: "chatbot-message", variableValues: { value: msg, platform: site } }); sent = true; } catch (_) {}
+    }
+    if (!sent) logMsg(`[HELP] Reply failed | site=${site} | msg="${msg.slice(0, 120)}"`);
   }
 
   const rawMessage = cleanTemplateValue(await getVariable("message") ?? "{{message}}");

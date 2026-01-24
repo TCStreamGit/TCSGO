@@ -1,0 +1,389 @@
+2026-01-23 13:35:16,926 | INFO | Price Refresher Starting.
+2026-01-23 13:35:16,926 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 13:35:17,221 | INFO | USD->CAD FXUSDCAD=1.379800
+2026-01-23 13:35:17,221 | ERROR | Unhandled Error: name 'user_agent' is not defined
+2026-01-23 13:35:17,222 | ERROR | Traceback (most recent call last):
+  File "A:\Development\Version Control\Github\TCSGO\services\price-refresher.py", line 623, in refresh_once
+    user_agent=user_agent,
+               ^^^^^^^^^^
+NameError: name 'user_agent' is not defined
+
+2026-01-23 13:39:23,675 | INFO | Price Refresher Starting.
+2026-01-23 13:39:23,676 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 13:39:23,886 | INFO | USD->CAD FXUSDCAD=1.379800
+2026-01-23 13:39:23,886 | WARNING | Case Market Hash Missing: chroma-case
+2026-01-23 13:39:23,886 | WARNING | Case Market Hash Missing: chroma-2-case
+2026-01-23 13:39:23,886 | WARNING | Case Market Hash Missing: chroma-3-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: clutch-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: cs20-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: csgo-weapon-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: csgo-weapon-case-2
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: csgo-weapon-case-3
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: danger-zone-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: dreams-nightmares-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: esports-2013-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: esports-2013-winter-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: esports-2014-summer-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: falchion-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: fever-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: fracture-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: gallery-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: gamma-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: gamma-2-case
+2026-01-23 13:39:23,887 | WARNING | Case Market Hash Missing: glove-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: horizon-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: huntsman-weapon-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: kilowatt-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-bravo-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-breakout-weapon-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-broken-fang-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-hydra-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-phoenix-weapon-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-riptide-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-vanguard-weapon-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: operation-wildfire-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: shattered-web-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: prisma-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: prisma-2-case
+2026-01-23 13:39:23,888 | WARNING | Case Market Hash Missing: recoil-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: revolution-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: revolver-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: shadow-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: snakebite-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: spectrum-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: spectrum-2-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: winter-offensive-weapon-case
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: anubis-collection-package
+2026-01-23 13:39:23,889 | WARNING | Case Market Hash Missing: x-ray-p250-package
+2026-01-23 13:39:23,889 | WARNING | Key Market Hash Missing: default
+2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): ak-47-steel-delta
+2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): awp-black-nile
+2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): mag-7-copper-coated
+2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): tec-9-mummys-rot
+2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): mac-10-echoing-sands
+2026-01-23 13:39:23,889 | WARNING | Unknown ItemId (No displayName Found): m4a1-s-mud-spec
+2026-01-23 13:39:23,890 | WARNING | Unknown ItemId (No displayName Found): ssg-08-azure-glyph
+2026-01-23 13:39:23,890 | WARNING | Unknown ItemId (No displayName Found): usp-s-desert-tactical
+2026-01-23 13:39:23,890 | WARNING | Unknown ItemId (No displayName Found): aug-snake-pit
+2026-01-23 13:39:23,890 | WARNING | Unknown ItemId (No displayName Found): m249-submerged
+2026-01-23 13:39:23,890 | INFO | Summary | Cases 0/44 Updated | Keys 0/1 Updated | Items 0/10 Updated | Steam Ok/Fail 0/0 | CSFloat Ok/Fail 0/0
+2026-01-23 13:39:23,890 | INFO | Dry Run Enabled; No Files Were Written.
+2026-01-23 13:43:51,062 | INFO | Price Refresher Starting.
+2026-01-23 13:43:51,062 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 13:43:51,312 | INFO | USD->CAD FXUSDCAD=1.379800
+2026-01-23 13:43:51,602 | INFO | Case Price Changed | chroma-case | 2.00 -> 8.58
+2026-01-23 13:43:54,325 | INFO | Case Price Changed | chroma-2-case | 1.50 -> 7.00
+2026-01-23 13:43:57,259 | INFO | Case Price Changed | chroma-3-case | 1.25 -> 6.53
+2026-01-23 13:43:59,834 | INFO | Case Price Changed | clutch-case | 1.00 -> 1.58
+2026-01-23 13:44:03,225 | INFO | Case Price Changed | cs20-case | 0.75 -> 2.40
+2026-01-23 13:44:06,654 | INFO | Case Price Changed | csgo-weapon-case | 15.00 -> 192.04
+2026-01-23 13:44:10,039 | INFO | Case Price Changed | csgo-weapon-case-2 | 12.00 -> 26.23
+2026-01-23 13:44:12,645 | INFO | Case Price Changed | csgo-weapon-case-3 | 10.00 -> 21.64
+2026-01-23 13:44:15,307 | INFO | Case Price Changed | danger-zone-case | 1.50 -> 2.75
+2026-01-23 13:44:15,307 | WARNING | Case Market Hash Missing: dreams-nightmares-case
+2026-01-23 13:44:18,341 | INFO | Case Price Changed | esports-2013-case | 8.00 -> 94.57
+2026-01-23 13:44:21,591 | INFO | Case Price Changed | esports-2013-winter-case | 6.00 -> 20.47
+2026-01-23 13:44:24,495 | INFO | Case Price Changed | esports-2014-summer-case | 5.00 -> 19.62
+2026-01-23 13:44:27,622 | INFO | Case Price Changed | falchion-case | 1.75 -> 3.43
+2026-01-23 13:44:30,666 | INFO | Case Price Changed | fever-case | 3.00 -> 1.35
+2026-01-23 13:44:34,070 | INFO | Case Price Changed | fracture-case | 1.25 -> 0.99
+2026-01-23 13:44:36,994 | INFO | Case Price Changed | gallery-case | 2.00 -> 2.04
+2026-01-23 13:44:40,417 | INFO | Case Price Changed | gamma-case | 2.00 -> 6.59
+2026-01-23 13:44:43,442 | INFO | Case Price Changed | gamma-2-case | 1.50 -> 6.38
+2026-01-23 13:44:46,590 | INFO | Case Price Changed | glove-case | 3.50 -> 29.31
+2026-01-23 13:44:49,368 | INFO | Case Price Changed | horizon-case | 1.25 -> 3.11
+2026-01-23 13:44:52,440 | INFO | Case Price Changed | huntsman-weapon-case | 3.00 -> 17.36
+2026-01-23 13:44:55,325 | INFO | Case Price Changed | kilowatt-case | 4.00 -> 0.45
+2026-01-23 13:44:58,430 | INFO | Case Price Changed | operation-bravo-case | 25.00 -> 88.41
+2026-01-23 13:45:01,669 | INFO | Case Price Changed | operation-breakout-weapon-case | 4.00 -> 16.72
+2026-01-23 13:45:04,287 | INFO | Case Price Changed | operation-broken-fang-case | 2.50 -> 14.38
+2026-01-23 13:45:07,168 | INFO | Case Price Changed | operation-hydra-case | 8.00 -> 61.56
+2026-01-23 13:45:10,484 | INFO | Case Price Changed | operation-phoenix-weapon-case | 5.00 -> 8.16
+2026-01-23 13:45:13,324 | INFO | Case Price Changed | operation-riptide-case | 2.00 -> 25.12
+2026-01-23 13:45:16,303 | INFO | Case Price Changed | operation-vanguard-weapon-case | 4.50 -> 8.38
+2026-01-23 13:45:18,952 | INFO | Case Price Changed | operation-wildfire-case | 6.00 -> 6.60
+2026-01-23 13:45:21,713 | INFO | Case Price Changed | shattered-web-case | 3.00 -> 11.74
+2026-01-23 13:45:24,983 | INFO | Case Price Changed | prisma-case | 1.25 -> 2.75
+2026-01-23 13:45:27,750 | INFO | Case Price Changed | prisma-2-case | 1.00 -> 2.85
+2026-01-23 13:45:30,667 | INFO | Case Price Changed | recoil-case | 1.50 -> 0.53
+2026-01-23 13:45:33,702 | INFO | Case Price Changed | revolution-case | 2.00 -> 0.54
+2026-01-23 13:45:36,901 | INFO | Case Price Changed | revolver-case | 2.50 -> 5.54
+2026-01-23 13:45:39,617 | INFO | Case Price Changed | shadow-case | 1.75 -> 3.21
+2026-01-23 13:45:42,636 | INFO | Case Price Changed | snakebite-case | 2.00 -> 1.20
+2026-01-23 13:45:45,564 | INFO | Case Price Changed | spectrum-case | 2.00 -> 7.40
+2026-01-23 13:45:48,658 | INFO | Case Price Changed | spectrum-2-case | 1.50 -> 6.26
+2026-01-23 13:46:02,377 | INFO | Case Price Changed | winter-offensive-weapon-case | 6.00 -> 16.31
+2026-01-23 13:46:05,114 | INFO | Case Price Changed | anubis-collection-package | 5.00 -> 4.18
+2026-01-23 13:46:08,375 | INFO | Case Price Changed | x-ray-p250-package | 2.00 -> 3.39
+2026-01-23 13:46:11,511 | INFO | Key Price Changed | default | 3.50 -> 10.97
+2026-01-23 13:46:14,859 | INFO | Item Price Changed | ak-47-steel-delta|Field-Tested|0|None | 3.13 -> 4.30
+2026-01-23 13:46:18,076 | INFO | Item Price Changed | awp-black-nile|Field-Tested|0|None | 4.87 -> 6.51
+2026-01-23 13:46:21,205 | INFO | Item Price Changed | mag-7-copper-coated|Field-Tested|0|None | 3.21 -> 3.97
+2026-01-23 13:46:24,460 | INFO | Item Price Changed | tec-9-mummys-rot|Field-Tested|0|None | 3.44 -> 4.53
+2026-01-23 13:46:27,565 | INFO | Item Price Changed | mac-10-echoing-sands|Field-Tested|0|None | 0.41 -> 0.57
+2026-01-23 13:46:30,774 | INFO | Item Price Changed | m4a1-s-mud-spec|Field-Tested|0|None | 0.48 -> 0.74
+2026-01-23 13:46:33,437 | INFO | Item Price Changed | ssg-08-azure-glyph|Field-Tested|0|None | 0.41 -> 0.59
+2026-01-23 13:46:36,637 | INFO | Item Price Changed | usp-s-desert-tactical|Field-Tested|0|None | 0.44 -> 0.61
+2026-01-23 13:46:39,681 | INFO | Item Price Changed | aug-snake-pit|Field-Tested|0|None | 0.07 -> 0.09
+2026-01-23 13:46:42,809 | INFO | Item Price Changed | m249-submerged|Field-Tested|0|None | 0.05 -> 0.07
+2026-01-23 13:46:42,809 | INFO | Progress | Items 10/10 | Updated=10 | Skipped=0
+2026-01-23 13:46:42,810 | INFO | Summary | Cases 43/44 Updated | Keys 1/1 Updated | Items 10/10 Updated | Steam Ok/Fail 54/0 | CSFloat Ok/Fail 0/0
+2026-01-23 13:46:42,810 | INFO | Dry Run Enabled; No Files Were Written.
+2026-01-23 20:49:40,691 | INFO | Price Refresher Starting.
+2026-01-23 20:49:40,691 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 20:49:41,292 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-23 20:49:41,522 | INFO | Case Price Changed | anubis-collection-package | 5.00 -> 4.23
+2026-01-23 20:49:44,477 | INFO | Case Price Changed | chroma-2-case | 1.50 -> 7.68
+2026-01-23 20:49:47,460 | INFO | Case Price Changed | chroma-3-case | 1.25 -> 7.02
+2026-01-23 20:49:50,529 | INFO | Case Price Changed | chroma-case | 2.00 -> 9.24
+2026-01-23 20:49:53,314 | INFO | Case Price Changed | clutch-case | 1.00 -> 1.55
+2026-01-23 20:49:56,546 | INFO | Case Price Changed | cs20-case | 0.75 -> 2.46
+2026-01-23 20:49:59,209 | INFO | Case Price Changed | csgo-weapon-case | 15.00 -> 191.47
+2026-01-23 20:50:02,045 | INFO | Case Price Changed | csgo-weapon-case-2 | 12.00 -> 26.89
+2026-01-23 20:50:05,213 | INFO | Case Price Changed | csgo-weapon-case-3 | 10.00 -> 20.63
+2026-01-23 20:50:08,001 | INFO | Case Price Changed | danger-zone-case | 1.50 -> 2.77
+2026-01-23 20:50:08,001 | WARNING | Case Market Hash Missing: dreams-nightmares-case
+2026-01-23 20:50:10,975 | INFO | Case Price Changed | esports-2013-case | 8.00 -> 89.54
+2026-01-23 20:50:14,141 | INFO | Case Price Changed | esports-2013-winter-case | 6.00 -> 20.89
+2026-01-23 20:50:17,085 | INFO | Case Price Changed | esports-2014-summer-case | 5.00 -> 20.98
+2026-01-23 20:50:20,436 | INFO | Case Price Changed | falchion-case | 1.75 -> 3.45
+2026-01-23 20:50:23,135 | INFO | Case Price Changed | fever-case | 3.00 -> 1.35
+2026-01-23 20:50:26,288 | INFO | Case Price Changed | fracture-case | 1.25 -> 1.01
+2026-01-23 20:50:29,467 | INFO | Case Price Changed | gallery-case | 2.00 -> 2.04
+2026-01-23 20:50:32,149 | INFO | Case Price Changed | gamma-2-case | 1.50 -> 6.91
+2026-01-23 20:50:34,910 | INFO | Case Price Changed | gamma-case | 2.00 -> 7.10
+2026-01-23 20:50:37,541 | INFO | Case Price Changed | glove-case | 3.50 -> 28.59
+2026-01-23 20:50:49,502 | INFO | Case Price Changed | horizon-case | 1.25 -> 3.19
+2026-01-23 20:50:52,420 | INFO | Case Price Changed | huntsman-weapon-case | 3.00 -> 16.01
+2026-01-23 20:50:55,482 | INFO | Case Price Changed | kilowatt-case | 4.00 -> 0.47
+2026-01-23 20:50:58,858 | INFO | Case Price Changed | operation-bravo-case | 25.00 -> 88.78
+2026-01-23 20:51:02,185 | INFO | Case Price Changed | operation-breakout-weapon-case | 4.00 -> 15.01
+2026-01-23 20:51:05,273 | INFO | Case Price Changed | operation-broken-fang-case | 2.50 -> 14.52
+2026-01-23 20:51:08,362 | INFO | Case Price Changed | operation-hydra-case | 8.00 -> 66.23
+2026-01-23 20:51:10,974 | INFO | Case Price Changed | operation-phoenix-weapon-case | 5.00 -> 8.23
+2026-01-23 20:51:14,059 | INFO | Case Price Changed | operation-riptide-case | 2.00 -> 24.67
+2026-01-23 20:51:16,715 | INFO | Case Price Changed | operation-vanguard-weapon-case | 4.50 -> 8.09
+2026-01-23 20:51:19,623 | INFO | Case Price Changed | operation-wildfire-case | 6.00 -> 6.59
+2026-01-23 20:51:22,635 | INFO | Case Price Changed | prisma-2-case | 1.00 -> 2.90
+2026-01-23 20:51:25,540 | INFO | Case Price Changed | prisma-case | 1.25 -> 2.76
+2026-01-23 20:51:28,257 | INFO | Case Price Changed | recoil-case | 1.50 -> 0.55
+2026-01-23 20:51:31,249 | INFO | Case Price Changed | revolution-case | 2.00 -> 0.56
+2026-01-23 20:51:34,550 | INFO | Case Price Changed | revolver-case | 2.50 -> 5.67
+2026-01-23 20:51:37,231 | INFO | Case Price Changed | shadow-case | 1.75 -> 3.20
+2026-01-23 20:51:40,231 | INFO | Case Price Changed | shattered-web-case | 3.00 -> 11.83
+2026-01-23 20:51:42,894 | INFO | Case Price Changed | snakebite-case | 2.00 -> 1.20
+2026-01-23 20:51:46,209 | INFO | Case Price Changed | spectrum-2-case | 1.50 -> 6.34
+2026-01-23 20:51:49,537 | INFO | Case Price Changed | spectrum-case | 2.00 -> 7.69
+2026-01-23 20:51:52,275 | INFO | Case Price Changed | winter-offensive-weapon-case | 6.00 -> 16.09
+2026-01-23 20:51:54,913 | INFO | Case Price Changed | x-ray-p250-package | 2.00 -> 3.45
+2026-01-23 20:51:57,962 | INFO | Key Price Changed | default | 3.50 -> 13.02
+2026-01-23 20:52:01,114 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Battle-Scarred|0|None | 1.00 -> 73.76
+2026-01-23 20:52:04,154 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Battle-Scarred|1|None | 1.00 -> 125.17
+2026-01-23 20:52:07,544 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Factory New|0|None | 1.00 -> 565.22
+2026-01-23 20:52:10,729 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Factory New|1|None | 1.00 -> 688.74
+2026-01-23 20:52:13,644 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Field-Tested|0|None | 1.00 -> 89.25
+2026-01-23 20:52:17,023 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Field-Tested|1|None | 1.00 -> 199.74
+2026-01-23 20:52:19,659 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Minimal Wear|0|None | 1.00 -> 144.65
+2026-01-23 20:52:22,502 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Minimal Wear|1|None | 1.00 -> 314.27
+2026-01-23 20:52:25,700 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Well-Worn|0|None | 1.00 -> 75.55
+2026-01-23 20:52:29,046 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Well-Worn|1|None | 1.00 -> 130.29
+2026-01-23 20:52:29,046 | INFO | Progress | Items 10/10 | Updated=10 | Skipped=0
+2026-01-23 20:52:29,046 | INFO | Summary | Cases 43/44 Updated | Keys 1/1 Updated | Items 10/10 Updated | Steam Ok/Fail 54/0 | CSFloat Ok/Fail 0/0
+2026-01-23 20:52:29,049 | INFO | Backup Created: A:\Development\Version Control\Github\TCSGO\data/prices.json.backup.20260123_205229
+2026-01-23 20:52:29,075 | INFO | prices.json Updated Successfully.
+2026-01-23 20:52:29,678 | INFO | Git Commit Created.
+2026-01-23 23:35:36,916 | INFO | Price Refresher Starting.
+2026-01-23 23:35:36,916 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 23:35:37,581 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-23 23:35:37,582 | WARNING | Case Market Hash Missing: dreams-nightmares-case
+2026-01-23 23:35:37,755 | INFO | Item Price Changed | ak-47-asiimov|Battle-Scarred|0|None | 1.00 -> 76.02
+2026-01-23 23:35:40,576 | INFO | Item Price Changed | ak-47-asiimov|Battle-Scarred|1|None | 1.00 -> 116.83
+2026-01-23 23:35:43,552 | INFO | Item Price Changed | ak-47-asiimov|Factory New|0|None | 1.00 -> 1253.51
+2026-01-23 23:35:46,765 | INFO | Item Price Changed | ak-47-asiimov|Factory New|1|None | 1.00 -> 1080.25
+2026-01-23 23:35:49,624 | INFO | Item Price Changed | ak-47-asiimov|Field-Tested|0|None | 1.00 -> 76.80
+2026-01-23 23:35:52,245 | INFO | Item Price Changed | ak-47-asiimov|Field-Tested|1|None | 1.00 -> 128.32
+2026-01-23 23:35:55,396 | INFO | Item Price Changed | ak-47-asiimov|Minimal Wear|0|None | 1.00 -> 117.85
+2026-01-23 23:35:58,385 | INFO | Item Price Changed | ak-47-asiimov|Minimal Wear|1|None | 1.00 -> 201.11
+2026-01-23 23:36:01,442 | INFO | Item Price Changed | ak-47-asiimov|Well-Worn|0|None | 1.00 -> 77.65
+2026-01-23 23:36:04,130 | INFO | Item Price Changed | ak-47-asiimov|Well-Worn|1|None | 1.00 -> 136.00
+2026-01-23 23:36:04,130 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-23 23:36:04,130 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-23 23:36:04,130 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-23 23:36:04,130 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-23 23:36:04,130 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-23 23:41:02,431 | INFO | Price Refresher Starting.
+2026-01-23 23:41:02,431 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 23:41:02,741 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-23 23:41:02,946 | INFO | Case Price Changed | anubis-collection-package | 4.23 -> 4.21
+2026-01-23 23:41:09,592 | INFO | Case Price Changed | chroma-3-case | 7.02 -> 7.15
+2026-01-23 23:41:12,887 | INFO | Case Price Changed | chroma-case | 9.24 -> 9.36
+2026-01-23 23:41:15,516 | INFO | Case Price Changed | clutch-case | 1.55 -> 1.59
+2026-01-23 23:41:21,556 | INFO | Case Price Changed | csgo-weapon-case | 191.47 -> 195.67
+2026-01-23 23:41:24,502 | INFO | Case Price Changed | csgo-weapon-case-2 | 26.89 -> 26.39
+2026-01-23 23:41:27,628 | INFO | Case Price Changed | csgo-weapon-case-3 | 20.63 -> 21.60
+2026-01-23 23:41:30,872 | INFO | Case Price Changed | danger-zone-case | 2.77 -> 2.76
+2026-01-23 23:41:30,872 | WARNING | Case Market Hash Missing: dreams-nightmares-case
+2026-01-23 23:41:37,154 | INFO | Case Price Changed | esports-2013-winter-case | 20.89 -> 20.95
+2026-01-23 23:41:39,969 | INFO | Case Price Changed | esports-2014-summer-case | 20.98 -> 21.03
+2026-01-23 23:41:51,609 | INFO | Case Price Changed | gallery-case | 2.04 -> 2.07
+2026-01-23 23:41:54,634 | INFO | Case Price Changed | gamma-2-case | 6.91 -> 7.18
+2026-01-23 23:41:57,648 | INFO | Case Price Changed | gamma-case | 7.10 -> 7.52
+2026-01-23 23:42:00,319 | INFO | Case Price Changed | glove-case | 28.59 -> 29.58
+2026-01-23 23:42:03,479 | INFO | Case Price Changed | horizon-case | 3.19 -> 3.21
+2026-01-23 23:42:06,716 | INFO | Case Price Changed | huntsman-weapon-case | 16.01 -> 17.51
+2026-01-23 23:42:12,988 | INFO | Case Price Changed | operation-bravo-case | 88.78 -> 88.19
+2026-01-23 23:42:16,259 | INFO | Case Price Changed | operation-breakout-weapon-case | 15.01 -> 17.34
+2026-01-23 23:42:21,952 | INFO | Case Price Changed | operation-hydra-case | 66.23 -> 66.10
+2026-01-23 23:42:25,112 | INFO | Case Price Changed | operation-phoenix-weapon-case | 8.23 -> 8.10
+2026-01-23 23:42:27,762 | INFO | Case Price Changed | operation-riptide-case | 24.67 -> 25.14
+2026-01-23 23:42:31,019 | INFO | Case Price Changed | operation-vanguard-weapon-case | 8.09 -> 8.48
+2026-01-23 23:42:33,725 | INFO | Case Price Changed | operation-wildfire-case | 6.59 -> 6.62
+2026-01-23 23:42:36,674 | INFO | Case Price Changed | prisma-2-case | 2.90 -> 2.93
+2026-01-23 23:42:43,116 | INFO | Case Price Changed | recoil-case | 0.55 -> 0.54
+2026-01-23 23:42:49,854 | INFO | Case Price Changed | revolver-case | 5.67 -> 5.70
+2026-01-23 23:42:58,638 | INFO | Case Price Changed | snakebite-case | 1.20 -> 1.22
+2026-01-23 23:43:04,992 | INFO | Case Price Changed | spectrum-case | 7.69 -> 7.73
+2026-01-23 23:43:08,318 | INFO | Case Price Changed | winter-offensive-weapon-case | 16.09 -> 16.53
+2026-01-23 23:43:11,230 | INFO | Case Price Changed | x-ray-p250-package | 3.45 -> 3.01
+2026-01-23 23:43:25,973 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Factory New|1|None | 688.74 -> 776.18
+2026-01-23 23:43:29,003 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Field-Tested|0|None | 89.25 -> 88.93
+2026-01-23 23:43:32,160 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Field-Tested|1|None | 199.74 -> 202.13
+2026-01-23 23:43:46,884 | INFO | Item Price Changed | ak-47-asiimov|Battle-Scarred|0|None | 1.00 -> 76.02
+2026-01-23 23:43:49,753 | INFO | Item Price Changed | ak-47-asiimov|Battle-Scarred|1|None | 1.00 -> 116.83
+2026-01-23 23:43:52,687 | INFO | Item Price Changed | ak-47-asiimov|Factory New|0|None | 1.00 -> 1253.51
+2026-01-23 23:43:55,751 | INFO | Item Price Changed | ak-47-asiimov|Factory New|1|None | 1.00 -> 1080.25
+2026-01-23 23:43:58,575 | INFO | Item Price Changed | ak-47-asiimov|Field-Tested|0|None | 1.00 -> 76.80
+2026-01-23 23:44:01,384 | INFO | Item Price Changed | ak-47-asiimov|Field-Tested|1|None | 1.00 -> 128.32
+2026-01-23 23:44:04,744 | INFO | Item Price Changed | ak-47-asiimov|Minimal Wear|0|None | 1.00 -> 117.85
+2026-01-23 23:44:07,846 | INFO | Item Price Changed | ak-47-asiimov|Minimal Wear|1|None | 1.00 -> 201.11
+2026-01-23 23:44:10,511 | INFO | Item Price Changed | ak-47-asiimov|Well-Worn|0|None | 1.00 -> 77.65
+2026-01-23 23:44:13,618 | INFO | Item Price Changed | ak-47-asiimov|Well-Worn|1|None | 1.00 -> 136.00
+2026-01-23 23:44:13,618 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-23 23:44:13,618 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-23 23:44:13,618 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-23 23:44:13,619 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-23 23:44:13,619 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-23 23:44:48,030 | INFO | Price Refresher Starting.
+2026-01-23 23:44:48,031 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 23:44:48,321 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-23 23:44:48,486 | INFO | Case Price Changed | anubis-collection-package | 4.23 -> 4.21
+2026-01-23 23:44:54,758 | INFO | Case Price Changed | chroma-3-case | 7.02 -> 7.15
+2026-01-23 23:44:56,575 | INFO | Price Refresher Starting.
+2026-01-23 23:44:56,576 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 23:44:56,786 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-23 23:44:56,912 | INFO | Case Price Changed | anubis-collection-package | 4.23 -> 4.21
+2026-01-23 23:45:03,360 | INFO | Case Price Changed | chroma-3-case | 7.02 -> 7.15
+2026-01-23 23:45:06,430 | INFO | Case Price Changed | chroma-case | 9.24 -> 9.36
+2026-01-23 23:45:09,869 | INFO | Case Price Changed | clutch-case | 1.55 -> 1.59
+2026-01-23 23:45:15,800 | INFO | Case Price Changed | csgo-weapon-case | 191.47 -> 195.67
+2026-01-23 23:45:18,748 | INFO | Case Price Changed | csgo-weapon-case-2 | 26.89 -> 26.39
+2026-01-23 23:45:21,775 | INFO | Case Price Changed | csgo-weapon-case-3 | 20.63 -> 21.60
+2026-01-23 23:45:25,080 | INFO | Case Price Changed | danger-zone-case | 2.77 -> 2.76
+2026-01-23 23:45:25,081 | WARNING | Case Market Hash Missing: dreams-nightmares-case
+2026-01-23 23:45:30,987 | INFO | Case Price Changed | esports-2013-winter-case | 20.89 -> 20.95
+2026-01-23 23:45:33,703 | INFO | Case Price Changed | esports-2014-summer-case | 20.98 -> 21.03
+2026-01-23 23:45:45,635 | INFO | Case Price Changed | gallery-case | 2.04 -> 2.07
+2026-01-23 23:45:48,307 | INFO | Case Price Changed | gamma-2-case | 6.91 -> 7.18
+2026-01-23 23:45:51,042 | INFO | Case Price Changed | gamma-case | 7.10 -> 7.52
+2026-01-23 23:45:53,812 | INFO | Case Price Changed | glove-case | 28.59 -> 29.58
+2026-01-23 23:45:58,446 | INFO | Price Refresher Starting.
+2026-01-23 23:45:58,447 | INFO | Repo Base: A:\Development\Version Control\Github\TCSGO
+2026-01-23 23:45:58,656 | INFO | USD->CAD FXUSDCAD=1.373200
+2026-01-23 23:45:58,878 | INFO | Case Price Changed | anubis-collection-package | 4.23 -> 4.21
+2026-01-23 23:46:04,481 | INFO | Case Price Changed | chroma-3-case | 7.02 -> 7.15
+2026-01-23 23:46:07,492 | INFO | Case Price Changed | chroma-case | 9.24 -> 9.36
+2026-01-23 23:46:10,943 | INFO | Case Price Changed | clutch-case | 1.55 -> 1.59
+2026-01-23 23:46:17,138 | INFO | Case Price Changed | csgo-weapon-case | 191.47 -> 195.67
+2026-01-23 23:46:20,026 | INFO | Case Price Changed | csgo-weapon-case-2 | 26.89 -> 26.39
+2026-01-23 23:46:22,784 | INFO | Case Price Changed | csgo-weapon-case-3 | 20.63 -> 21.60
+2026-01-23 23:46:26,162 | INFO | Case Price Changed | danger-zone-case | 2.77 -> 2.76
+2026-01-23 23:46:29,347 | INFO | Case Price Changed | dreams-nightmares-case | 2.50 -> 2.57
+2026-01-23 23:46:36,040 | INFO | Case Price Changed | esports-2013-winter-case | 20.89 -> 20.95
+2026-01-23 23:46:38,920 | INFO | Case Price Changed | esports-2014-summer-case | 20.98 -> 21.03
+2026-01-23 23:46:51,055 | INFO | Case Price Changed | gallery-case | 2.04 -> 2.07
+2026-01-23 23:46:54,227 | INFO | Case Price Changed | gamma-2-case | 6.91 -> 7.18
+2026-01-23 23:46:56,920 | INFO | Case Price Changed | gamma-case | 7.10 -> 7.52
+2026-01-23 23:46:59,644 | INFO | Case Price Changed | glove-case | 28.59 -> 29.58
+2026-01-23 23:47:03,077 | INFO | Case Price Changed | horizon-case | 3.19 -> 3.21
+2026-01-23 23:47:06,195 | INFO | Case Price Changed | huntsman-weapon-case | 16.01 -> 17.51
+2026-01-23 23:47:12,488 | INFO | Case Price Changed | operation-bravo-case | 88.78 -> 88.19
+2026-01-23 23:47:15,157 | INFO | Case Price Changed | operation-breakout-weapon-case | 15.01 -> 17.34
+2026-01-23 23:47:21,465 | INFO | Case Price Changed | operation-hydra-case | 66.23 -> 66.10
+2026-01-23 23:47:24,423 | INFO | Case Price Changed | operation-phoenix-weapon-case | 8.23 -> 8.10
+2026-01-23 23:47:27,833 | INFO | Case Price Changed | operation-riptide-case | 24.67 -> 25.14
+2026-01-23 23:47:30,694 | INFO | Case Price Changed | operation-vanguard-weapon-case | 8.09 -> 8.48
+2026-01-23 23:47:33,804 | INFO | Case Price Changed | operation-wildfire-case | 6.59 -> 6.62
+2026-01-23 23:47:37,087 | INFO | Case Price Changed | prisma-2-case | 2.90 -> 2.93
+2026-01-23 23:47:42,777 | INFO | Case Price Changed | recoil-case | 0.55 -> 0.54
+2026-01-23 23:47:48,214 | INFO | Case Price Changed | revolver-case | 5.67 -> 5.70
+2026-01-23 23:47:56,757 | INFO | Case Price Changed | snakebite-case | 1.20 -> 1.22
+2026-01-23 23:48:03,068 | INFO | Case Price Changed | spectrum-case | 7.69 -> 7.73
+2026-01-23 23:48:06,422 | INFO | Case Price Changed | winter-offensive-weapon-case | 16.09 -> 16.53
+2026-01-23 23:48:09,027 | INFO | Case Price Changed | x-ray-p250-package | 3.45 -> 3.01
+2026-01-23 23:48:23,426 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Factory New|1|None | 688.74 -> 776.18
+2026-01-23 23:48:26,279 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Field-Tested|0|None | 89.25 -> 88.93
+2026-01-23 23:48:29,724 | INFO | Item Price Changed | ak-47-aquamarine-revenge|Field-Tested|1|None | 199.74 -> 202.13
+2026-01-23 23:48:44,444 | INFO | Item Price Changed | ak-47-asiimov|Battle-Scarred|0|None | 1.00 -> 76.02
+2026-01-23 23:48:47,315 | INFO | Item Price Changed | ak-47-asiimov|Battle-Scarred|1|None | 1.00 -> 116.83
+2026-01-23 23:48:50,157 | INFO | Item Price Changed | ak-47-asiimov|Factory New|0|None | 1.00 -> 1267.26
+2026-01-23 23:48:53,321 | INFO | Item Price Changed | ak-47-asiimov|Factory New|1|None | 1.00 -> 1080.25
+2026-01-23 23:48:56,229 | INFO | Item Price Changed | ak-47-asiimov|Field-Tested|0|None | 1.00 -> 76.80
+2026-01-23 23:48:58,863 | INFO | Item Price Changed | ak-47-asiimov|Field-Tested|1|None | 1.00 -> 128.32
+2026-01-23 23:49:01,795 | INFO | Item Price Changed | ak-47-asiimov|Minimal Wear|0|None | 1.00 -> 117.85
+2026-01-23 23:49:04,513 | INFO | Item Price Changed | ak-47-asiimov|Minimal Wear|1|None | 1.00 -> 201.11
+2026-01-23 23:49:16,448 | INFO | Item Price Changed | ak-47-asiimov|Well-Worn|0|None | 1.00 -> 77.65
+2026-01-23 23:49:19,124 | INFO | Item Price Changed | ak-47-asiimov|Well-Worn|1|None | 1.00 -> 136.00
+2026-01-23 23:49:19,124 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Battle-Scarred|0|Souvenir | Variant=Souvenir
+2026-01-23 23:49:19,124 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Factory New|0|Souvenir | Variant=Souvenir
+2026-01-23 23:49:19,124 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Field-Tested|0|Souvenir | Variant=Souvenir
+2026-01-23 23:49:19,124 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Minimal Wear|0|Souvenir | Variant=Souvenir
+2026-01-23 23:49:19,124 | WARNING | Variant Requires Override | ak-47-b-the-monster-souvenir|Well-Worn|0|Souvenir | Variant=Souvenir
+2026-01-23 23:51:20,610 | INFO | Item Price Changed | ak-47-bloodsport|Factory New|0|None | 1.00 -> 442.33
+2026-01-23 23:51:23,883 | INFO | Item Price Changed | ak-47-bloodsport|Factory New|1|None | 1.00 -> 801.94
+2026-01-23 23:51:26,651 | INFO | Item Price Changed | ak-47-bloodsport|Field-Tested|0|None | 1.00 -> 254.55
+2026-01-23 23:51:29,824 | INFO | Item Price Changed | ak-47-bloodsport|Field-Tested|1|None | 1.00 -> 530.56
+2026-01-23 23:51:33,112 | INFO | Item Price Changed | ak-47-bloodsport|Minimal Wear|0|None | 1.00 -> 371.91
+2026-01-23 23:51:35,958 | INFO | Item Price Changed | ak-47-bloodsport|Minimal Wear|1|None | 1.00 -> 625.11
+2026-01-23 23:51:38,528 | INFO | Item Price Changed | ak-47-bloodsport|Well-Worn|0|None | 1.00 -> 236.44
+2026-01-23 23:51:41,421 | INFO | Item Price Changed | ak-47-bloodsport|Well-Worn|1|None | 1.00 -> 552.37
+2026-01-23 23:53:35,975 | INFO | Item Price Changed | ak-47-blue-laminate|Factory New|0|None | 1.00 -> 46.59
+2026-01-23 23:53:39,116 | INFO | Item Price Changed | ak-47-blue-laminate|Factory New|1|None | 1.00 -> 95.62
+2026-01-23 23:53:42,533 | INFO | Item Price Changed | ak-47-blue-laminate|Field-Tested|0|None | 1.00 -> 30.43
+2026-01-23 23:53:45,261 | INFO | Item Price Changed | ak-47-blue-laminate|Field-Tested|1|None | 1.00 -> 63.95
+2026-01-23 23:53:48,544 | INFO | Item Price Changed | ak-47-blue-laminate|Minimal Wear|0|None | 1.00 -> 30.91
+2026-01-23 23:53:51,295 | INFO | Item Price Changed | ak-47-blue-laminate|Minimal Wear|1|None | 1.00 -> 66.39
+2026-01-23 23:53:54,209 | INFO | Item Price Changed | ak-47-blue-laminate|Well-Worn|0|None | 1.00 -> 40.76
+2026-01-23 23:53:57,154 | INFO | Item Price Changed | ak-47-blue-laminate|Well-Worn|1|None | 1.00 -> 98.73
+2026-01-23 23:54:00,021 | INFO | Item Price Changed | ak-47-cartel|Battle-Scarred|0|None | 1.00 -> 31.56
+2026-01-23 23:54:03,096 | INFO | Item Price Changed | ak-47-cartel|Battle-Scarred|1|None | 1.00 -> 63.50
+2026-01-23 23:54:06,244 | INFO | Item Price Changed | ak-47-cartel|Factory New|0|None | 1.00 -> 163.22
+2026-01-23 23:54:09,637 | INFO | Item Price Changed | ak-47-cartel|Factory New|1|None | 1.00 -> 181.33
+2026-01-23 23:54:12,780 | INFO | Item Price Changed | ak-47-cartel|Field-Tested|0|None | 1.00 -> 34.18
+2026-01-23 23:54:16,052 | INFO | Item Price Changed | ak-47-cartel|Field-Tested|1|None | 1.00 -> 87.08
+2026-01-23 23:54:18,873 | INFO | Item Price Changed | ak-47-cartel|Minimal Wear|0|None | 1.00 -> 44.37
+2026-01-23 23:54:22,077 | INFO | Item Price Changed | ak-47-cartel|Minimal Wear|1|None | 1.00 -> 113.85
+2026-01-23 23:54:25,123 | INFO | Item Price Changed | ak-47-cartel|Well-Worn|0|None | 1.00 -> 55.45
+2026-01-23 23:54:28,007 | INFO | Item Price Changed | ak-47-cartel|Well-Worn|1|None | 1.00 -> 94.96
+2026-01-23 23:54:30,888 | INFO | Item Price Changed | ak-47-case-hardened|Battle-Scarred|0|None | 1.00 -> 298.88
+2026-01-23 23:54:33,510 | INFO | Item Price Changed | ak-47-case-hardened|Battle-Scarred|1|None | 1.00 -> 705.23
+2026-01-23 23:54:36,783 | INFO | Item Price Changed | ak-47-case-hardened|Factory New|0|None | 1.00 -> 1756.27
+2026-01-23 23:54:39,950 | INFO | Item Price Changed | ak-47-case-hardened|Factory New|1|None | 1.00 -> 1831.74
+2026-01-23 23:54:43,238 | INFO | Item Price Changed | ak-47-case-hardened|Field-Tested|0|None | 1.00 -> 475.23
+2026-01-23 23:54:46,281 | INFO | Item Price Changed | ak-47-case-hardened|Field-Tested|1|None | 1.00 -> 929.81
+2026-01-23 23:54:49,509 | INFO | Item Price Changed | ak-47-case-hardened|Minimal Wear|0|None | 1.00 -> 520.90
+2026-01-23 23:54:52,589 | INFO | Item Price Changed | ak-47-case-hardened|Minimal Wear|1|None | 1.00 -> 1212.83
+2026-01-23 23:54:55,300 | INFO | Item Price Changed | ak-47-case-hardened|Well-Worn|0|None | 1.00 -> 334.02
+2026-01-23 23:54:57,866 | INFO | Item Price Changed | ak-47-case-hardened|Well-Worn|1|None | 1.00 -> 691.51
+2026-01-23 23:55:01,351 | INFO | Item Price Changed | ak-47-elite-build|Battle-Scarred|0|None | 1.00 -> 2.97
+2026-01-23 23:55:04,110 | INFO | Item Price Changed | ak-47-elite-build|Battle-Scarred|1|None | 1.00 -> 9.03
+2026-01-23 23:55:07,156 | INFO | Item Price Changed | ak-47-elite-build|Factory New|0|None | 1.00 -> 18.53
+2026-01-23 23:55:10,049 | INFO | Item Price Changed | ak-47-elite-build|Factory New|1|None | 1.00 -> 64.57
+2026-01-23 23:55:12,978 | INFO | Item Price Changed | ak-47-elite-build|Field-Tested|0|None | 1.00 -> 4.27
+2026-01-23 23:55:16,271 | INFO | Item Price Changed | ak-47-elite-build|Field-Tested|1|None | 1.00 -> 11.78
+2026-01-23 23:55:19,416 | INFO | Item Price Changed | ak-47-elite-build|Minimal Wear|0|None | 1.00 -> 5.94
+2026-01-23 23:55:22,342 | INFO | Item Price Changed | ak-47-elite-build|Minimal Wear|1|None | 1.00 -> 18.17
+2026-01-23 23:55:25,243 | INFO | Item Price Changed | ak-47-elite-build|Well-Worn|0|None | 1.00 -> 3.25
+2026-01-23 23:55:28,236 | INFO | Item Price Changed | ak-47-elite-build|Well-Worn|1|None | 1.00 -> 9.60
+2026-01-23 23:55:31,184 | INFO | Item Price Changed | ak-47-fire-serpent|Battle-Scarred|0|None | 1.00 -> 1318.26
+2026-01-23 23:58:31,965 | INFO | Item Price Changed | ak-47-fire-serpent|Field-Tested|0|None | 1.00 -> 1819.22
+2026-01-23 23:59:32,764 | INFO | Item Price Changed | ak-47-fire-serpent|Minimal Wear|0|None | 1.00 -> 2767.22

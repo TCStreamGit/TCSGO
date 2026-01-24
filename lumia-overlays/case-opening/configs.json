@@ -29,6 +29,12 @@
     "order": 5,
     "value": 3500
   },
+  "cadToCoinsOverride": {
+    "type": "number",
+    "label": "CAD To Coins Override (0 = Use prices.json)",
+    "order": 5.1,
+    "value": 1000
+  },
   "codeId": {
     "type": "input",
     "label": "Overlay Code Id (For Routing)",

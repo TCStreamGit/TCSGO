@@ -74,6 +74,7 @@
     tiktokCommandName: "tiktok_chat_send",
     feePercent: 10,
     defaultKeyPriceCoins: 3500,
+    cadToCoinsOverride: 1000,
     codeId: "tcsgo-controller",
     winnerDisplayMs: 8000,
     caseIntroMs: 200,
@@ -345,6 +346,7 @@
     CONFIG.ackTimeoutMs = clampNum(cfgNumFrom(src, "ackTimeoutMs", DEFAULT_CONFIG.ackTimeoutMs), 250, 30000, DEFAULT_CONFIG.ackTimeoutMs);
     CONFIG.feePercent = clampNum(cfgNumFrom(src, "feePercent", DEFAULT_CONFIG.feePercent), 0, 100, DEFAULT_CONFIG.feePercent);
     CONFIG.defaultKeyPriceCoins = clampNum(cfgNumFrom(src, "defaultKeyPriceCoins", DEFAULT_CONFIG.defaultKeyPriceCoins), 0, 1e12, DEFAULT_CONFIG.defaultKeyPriceCoins);
+    CONFIG.cadToCoinsOverride = clampNum(cfgNumFrom(src, "cadToCoinsOverride", DEFAULT_CONFIG.cadToCoinsOverride), 0, 1e12, DEFAULT_CONFIG.cadToCoinsOverride);
     CONFIG.winnerDisplayMs = clampNum(cfgNumFrom(src, "winnerDisplayMs", DEFAULT_CONFIG.winnerDisplayMs), 500, 60000, DEFAULT_CONFIG.winnerDisplayMs);
     CONFIG.caseIntroMs = clampNum(cfgNumFrom(src, "caseIntroMs", DEFAULT_CONFIG.caseIntroMs), 0, 10000, DEFAULT_CONFIG.caseIntroMs);
     CONFIG.caseSpinPauseMs = clampNum(cfgNumFrom(src, "caseSpinPauseMs", DEFAULT_CONFIG.caseSpinPauseMs), 0, 10000, DEFAULT_CONFIG.caseSpinPauseMs);
@@ -693,7 +695,7 @@
             debugEmit("[Router] Ignored Stale Open Result On Boot", "warning", "debugRouter");
             return;
           }
-          showRevealOnly(payload.data, payload.username || "Unknown");
+          showRevealOnly(payload.data, payload.username || "Unknown", null, false);
         }
         break;
 
@@ -967,7 +969,7 @@
     try {
       if (pricesCache && pricesCache.cases && pricesCache.cases[caseId] !== undefined) {
         const cadPrice = Number(pricesCache.cases[caseId]);
-        const cadToCoins = Number(pricesCache.cadToCoins || 1000);
+        const cadToCoins = getCadToCoins();
         const coins = Math.round(cadPrice * cadToCoins);
         return Number.isFinite(coins) ? coins : 2000;
       }
@@ -977,11 +979,18 @@
     return 2000;
   }
 
+  function getCadToCoins() {
+    const override = Number(CONFIG.cadToCoinsOverride || 0);
+    if (Number.isFinite(override) && override > 0) return override;
+    const v = Number(pricesCache?.cadToCoins || 1000);
+    return Number.isFinite(v) && v > 0 ? v : 1000;
+  }
+
   function getKeyPrice() {
     try {
       if (pricesCache && pricesCache.keys && pricesCache.keys.default !== undefined) {
         const cadPrice = Number(pricesCache.keys.default);
-        const cadToCoins = Number(pricesCache.cadToCoins || 1000);
+        const cadToCoins = getCadToCoins();
         const coins = Math.round(cadPrice * cadToCoins);
         return Number.isFinite(coins) ? coins : CONFIG.defaultKeyPriceCoins;
       }
@@ -1440,10 +1449,7 @@
     try {
       const result = await callCommitCommand(CONFIG.commitOpen, { eventId, platform, username, alias }, eventId);
       if (result.ok && result.data) {
-        enqueueCaseOpening({ resultData: result.data, username, caseInfo });
-        const winner = result.data.winner || {};
-        const stStr = winner.statTrak ? "StatTrak™ " : "";
-        await sendChatMessage(`@${username} Opened ${stStr}${winner.displayName} (${winner.wear})!`, platform);
+        enqueueCaseOpening({ resultData: result.data, username, platform, caseInfo, chatAfterOpen: true });
       }
     } catch (errPayload) {
       const errMsg = errPayload?.error?.message || "Open failed";
@@ -1623,6 +1629,7 @@
 
     const resultData = job?.resultData || {};
     const username = job?.username || "Unknown";
+    const platform = job?.platform || "twitch";
     const caseInfo = job?.caseInfo || null;
     const winner = resultData?.winner || {};
     const winnerRarity = normalizeRarity(winner.tier || winner.rarity);
@@ -1633,7 +1640,7 @@
 
     const caseJson = caseInfo ? await loadCaseJson(caseInfo) : null;
     if (!caseJson) {
-      await showRevealOnly(resultData, username);
+      await showRevealOnly(resultData, username, platform, job?.chatAfterOpen);
       return;
     }
 
@@ -1679,9 +1686,14 @@
 
     setOverlayActive(false);
     setOverlayState("idle");
+
+    if (job?.chatAfterOpen) {
+      const stStr = winner.statTrak ? "StatTrak™ " : "";
+      await sendChatMessage(`@${username} Opened ${stStr}${winner.displayName} (${winner.wear})!`, platform);
+    }
   }
 
-  async function showRevealOnly(resultData, username) {
+  async function showRevealOnly(resultData, username, platform, chatAfterOpen) {
     if (!UI.caseOpening) return;
 
     const winner = resultData?.winner || {};
@@ -1700,6 +1712,12 @@
 
     setOverlayActive(false);
     setOverlayState("idle");
+
+    if (chatAfterOpen) {
+      const winner = resultData?.winner || {};
+      const stStr = winner.statTrak ? "StatTrak™ " : "";
+      await sendChatMessage(`@${username} Opened ${stStr}${winner.displayName} (${winner.wear})!`, platform || "twitch");
+    }
   }
 
   function playRevealSound(rarity) {

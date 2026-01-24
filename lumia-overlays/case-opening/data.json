@@ -94,6 +94,7 @@
   "debugFetch": true,
   "debugToast": false,
   "feePercent": 10,
+  "cadToCoinsOverride": 1000,
   "debugBuyKey": true,
   "debugChatIn": false,
   "debugCommit": true,

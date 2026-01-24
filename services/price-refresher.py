@@ -26,6 +26,7 @@ import time
 import traceback
 import urllib.parse
 import urllib.request
+from dataclasses import dataclass
 from typing import Any, Dict, Optional, Tuple
 
 
@@ -69,6 +70,14 @@ def write_json_atomic(path: str, data: Any) -> None:
         json.dump(data, f, ensure_ascii=False, indent=2, sort_keys=True)
         f.write("\n")
     os.replace(tmp_path, path)
+
+
+def checkpoint_save(path: str, data: Any, logger: logging.Logger) -> None:
+    try:
+        write_json_atomic(path, data)
+        logger.info("Checkpoint Saved: prices.json")
+    except Exception as e:
+        logger.warning(f"Checkpoint Save Failed: {e}")
 
 
 def safe_copy(src: str, dst: str) -> None:
@@ -152,22 +161,37 @@ class SingleInstanceLock:
 
 
     def release(self) -> None:
-        if not self.fp:
+        fp = self.fp
+        if not fp:
             return
+
         try:
+            # Windows Unlock Must Target The Same Region (Offset 0, Length 1)
+            try:
+                fp.seek(0)
+            except Exception:
+                pass
+
             if os.name == "nt":
                 import msvcrt  # type: ignore
-                self.fp.seek(0)
-                msvcrt.locking(self.fp.fileno(), msvcrt.LK_UNLCK, 1)
+                try:
+                    msvcrt.locking(fp.fileno(), msvcrt.LK_UNLCK, 1)
+                except OSError:
+                    # If Already Unlocked Or Region Moved, Don’t Crash The Whole Run
+                    pass
             else:
                 import fcntl  # type: ignore
-                fcntl.flock(self.fp.fileno(), fcntl.LOCK_UN)
+                try:
+                    fcntl.flock(fp.fileno(), fcntl.LOCK_UN)
+                except OSError:
+                    pass
         finally:
             try:
-                self.fp.close()
+                fp.close()
             except Exception:
                 pass
             self.fp = None
+
 
 
 # ---------------------------
@@ -227,7 +251,7 @@ class SteamProvider:
             time.sleep(jitter(wait_for))
         self._last_call_ts = time.time()
 
-    def fetch_cad(self, market_hash_name: str, retries: int, backoff_seconds: float) -> Optional[float]:
+    def fetch_cad(self, market_hash_name: str, retries: int, backoff_seconds: float) -> Tuple[Optional[float], str]:
         base = "https://steamcommunity.com/market/priceoverview/"
         params = {
             "appid": str(self.appid),
@@ -243,18 +267,21 @@ class SteamProvider:
         }
 
         attempt = 0
+        last_error = "unknown"
         while attempt < max(1, retries):
             attempt += 1
             self._rate_limit()
             try:
                 status, data = http_get_json(url, headers=headers, timeout=self.timeout)
                 if status == 429:
+                    last_error = "rate_limited"
                     sleep_for = backoff_seconds * attempt
                     time.sleep(jitter(sleep_for))
                     continue
 
                 if not isinstance(data, dict) or not data.get("success", False):
                     # Steam Can Return {"success":false}
+                    last_error = "no_price"
                     time.sleep(jitter(backoff_seconds * attempt))
                     continue
 
@@ -269,17 +296,21 @@ class SteamProvider:
                     v = parse_price_text_to_float(lowest)
 
                 if v is None:
-                    return None
-                return money_round(v)
+                    last_error = "no_price"
+                    return None, last_error
+                return money_round(v), "ok"
             except urllib.error.HTTPError as e:
                 if e.code == 429:
+                    last_error = "rate_limited"
                     time.sleep(jitter(backoff_seconds * attempt))
                     continue
+                last_error = "http_error"
                 time.sleep(jitter(backoff_seconds * attempt))
             except Exception:
+                last_error = "network_error"
                 time.sleep(jitter(backoff_seconds * attempt))
 
-        return None
+        return None, last_error
 
 
 class BankOfCanadaFx:
@@ -335,7 +366,7 @@ class CSFloatProvider:
             time.sleep(jitter(wait_for))
         self._last_call_ts = time.time()
 
-    def fetch_usd_lowest(self, market_hash_name: str, retries: int, backoff_seconds: float) -> Optional[float]:
+    def fetch_usd_lowest(self, market_hash_name: str, retries: int, backoff_seconds: float) -> Tuple[Optional[float], str]:
         base = "https://csfloat.com/api/v1/listings"
         params = {
             "market_hash_name": market_hash_name,
@@ -353,39 +384,87 @@ class CSFloatProvider:
             headers["Authorization"] = self.api_key
 
         attempt = 0
+        last_error = "unknown"
         while attempt < max(1, retries):
             attempt += 1
             self._rate_limit()
             try:
                 status, data = http_get_json(url, headers=headers, timeout=self.timeout)
                 if status == 429:
+                    last_error = "rate_limited"
                     time.sleep(jitter(backoff_seconds * attempt))
                     continue
                 if status in (401, 403):
                     # Missing/Invalid Key Or Not Allowed
-                    return None
+                    last_error = "unauthorized"
+                    return None, last_error
                 if status != 200 or not isinstance(data, list) or not data:
+                    last_error = "no_price"
                     time.sleep(jitter(backoff_seconds * attempt))
                     continue
 
                 listing = data[0]
                 if not isinstance(listing, dict):
-                    return None
+                    last_error = "no_price"
+                    return None, last_error
                 cents = listing.get("price")
                 if not isinstance(cents, int):
-                    return None
+                    last_error = "no_price"
+                    return None, last_error
                 if cents <= 0:
-                    return None
-                return cents / 100.0
+                    last_error = "no_price"
+                    return None, last_error
+                return cents / 100.0, "ok"
             except urllib.error.HTTPError as e:
                 if e.code == 429:
+                    last_error = "rate_limited"
                     time.sleep(jitter(backoff_seconds * attempt))
                     continue
+                last_error = "http_error"
                 time.sleep(jitter(backoff_seconds * attempt))
             except Exception:
+                last_error = "network_error"
                 time.sleep(jitter(backoff_seconds * attempt))
 
-        return None
+        return None, last_error
+
+
+@dataclass
+class ProviderState:
+    name: str
+    enabled: bool
+    cooldown_until: float = 0.0
+    consecutive_hard_failures: int = 0
+
+    def is_available(self, now_ts: float, logger: logging.Logger) -> bool:
+        if not self.enabled:
+            return False
+        if self.cooldown_until <= 0.0:
+            return True
+        if now_ts >= self.cooldown_until:
+            self.cooldown_until = 0.0
+            self.consecutive_hard_failures = 0
+            logger.info(f"Provider {self.name} back online; resuming.")
+            return True
+        return False
+
+    def record_success(self) -> None:
+        self.consecutive_hard_failures = 0
+
+    def record_hard_failure(
+        self,
+        now_ts: float,
+        fail_threshold: int,
+        cooldown_seconds: float,
+        logger: logging.Logger,
+    ) -> None:
+        self.consecutive_hard_failures += 1
+        if self.consecutive_hard_failures >= fail_threshold:
+            self.cooldown_until = now_ts + cooldown_seconds
+            self.consecutive_hard_failures = 0
+            logger.warning(
+                f"Provider {self.name} paused for {int(cooldown_seconds)}s after {fail_threshold} failures."
+            )
 
 
 # ---------------------------
@@ -435,8 +514,8 @@ def load_case_index(case_odds_dir: str) -> Dict[str, str]:
                 for c in cases:
                     if not isinstance(c, dict):
                         continue
-                    cid = c.get("id")
-                    name = c.get("name")
+                    cid = c.get("id") or c.get("Id") or c.get("ID")
+                    name = c.get("name") or c.get("Name")
                     if isinstance(cid, str) and isinstance(name, str):
                         out[cid] = name
         except Exception:
@@ -489,7 +568,7 @@ def load_item_id_to_display_name(case_odds_dir: str) -> Dict[str, str]:
                 for c in cases:
                     if not isinstance(c, dict):
                         continue
-                    filename = c.get("filename")
+                    filename = c.get("filename") or c.get("Filename")
                     if isinstance(filename, str) and filename.lower().endswith(".json"):
                         files.append(os.path.join(case_odds_dir, filename))
         except Exception:
@@ -599,7 +678,12 @@ def should_refresh(updated_at_iso: Optional[str], max_age_hours: float, force: b
     dt = parse_iso_dt(updated_at_iso)
     if not dt:
         return True
-    age = ( _dt.datetime.utcnow() - dt ).total_seconds() / 3600.0
+    tz = getattr(_dt, "UTC", _dt.timezone.utc)
+    tz = getattr(_dt, "UTC", _dt.timezone.utc)
+    now_utc = _dt.datetime.now(tz)
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=tz)
+    age = (now_utc - dt).total_seconds() / 3600.0
     return age >= max_age_hours
 
 
@@ -751,11 +835,33 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             api_key=api_key,
         )
 
+        steam_enabled = bool(steam_cfg.get("enabled", True))
+        csfloat_enabled = bool(csf_cfg.get("enabled", True)) and (usd_to_cad is not None)
+        if bool(csf_cfg.get("enabled", True)) and usd_to_cad is None:
+            logger.warning("CSFloat Disabled For This Run (Missing USD->CAD FX Rate).")
+
+        failover_cfg = config.get("providers", {}).get("failover", {})
+        fail_threshold = int(failover_cfg.get("consecutiveHardFailures", 1))
+        cooldown_seconds = float(failover_cfg.get("cooldownSeconds", 120.0))
+        fail_threshold = max(1, fail_threshold)
+        cooldown_seconds = max(10.0, cooldown_seconds)
+
+        steam_state = ProviderState(name="Steam", enabled=steam_enabled)
+        csfloat_state = ProviderState(name="CSFloat", enabled=csfloat_enabled)
+        hard_fail_reasons = {"rate_limited", "http_error", "network_error", "unauthorized"}
+        provider_order = []
+        if steam_enabled:
+            provider_order.append("steam")
+        if csfloat_enabled:
+            provider_order.append("csfloat")
+        rr_index = 0
 
         retries = int(config["api"]["retries"]["maxAttempts"])
         backoff = float(config["api"]["retries"]["backoffSeconds"])
         max_age_hours = float(config["cache"]["maxAgeHours"])
         force = bool(args.force) or bool(config["cache"].get("forceRefresh", False))
+        checkpoint_every_items = int(config["cache"].get("checkpointEveryItems", 250))
+        checkpoint_every_items = max(0, checkpoint_every_items)
 
         updated_at = get_updated_at_bucket(prices)
 
@@ -767,28 +873,53 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             "csfloat_ok": 0, "csfloat_fail": 0,
         }
 
-        def fetch_with_fallback(market_hash: str) -> Optional[float]:
-            v = steam.fetch_cad(market_hash, retries=retries, backoff_seconds=backoff)
-            if v is not None:
-                stats["steam_ok"] += 1
-                return v
-            stats["steam_fail"] += 1
+        def fetch_with_fallback(market_hash: str) -> Tuple[Optional[float], Optional[str]]:
+            nonlocal rr_index
+            if not provider_order:
+                return None, None
 
-            if not config["providers"]["csfloat"]["enabled"]:
-                return None
-            if usd_to_cad is None:
-                return None
+            start = rr_index % len(provider_order)
+            rr_index = (rr_index + 1) % len(provider_order)
 
-            usd = csfloat.fetch_usd_lowest(market_hash, retries=retries, backoff_seconds=backoff)
-            if usd is None:
-                stats["csfloat_fail"] += 1
-                return None
-            stats["csfloat_ok"] += 1
-            return money_round(usd * usd_to_cad)
+            ordered = provider_order[start:] + provider_order[:start]
+            for provider in ordered:
+                now_ts = time.time()
+                if provider == "steam":
+                    if not steam_state.is_available(now_ts, logger):
+                        continue
+                    v, reason = steam.fetch_cad(market_hash, retries=retries, backoff_seconds=backoff)
+                    if v is not None:
+                        steam_state.record_success()
+                        stats["steam_ok"] += 1
+                        return v, "Steam"
+                    stats["steam_fail"] += 1
+                    if reason in hard_fail_reasons:
+                        steam_state.record_hard_failure(now_ts, fail_threshold, cooldown_seconds, logger)
+                    continue
+
+                if provider == "csfloat":
+                    if not csfloat_state.is_available(now_ts, logger):
+                        continue
+                    if not csfloat_enabled or usd_to_cad is None:
+                        continue
+                    usd, reason = csfloat.fetch_usd_lowest(market_hash, retries=retries, backoff_seconds=backoff)
+                    if usd is None:
+                        stats["csfloat_fail"] += 1
+                        if reason in hard_fail_reasons:
+                            csfloat_state.record_hard_failure(now_ts, fail_threshold, cooldown_seconds, logger)
+                        continue
+                    csfloat_state.record_success()
+                    stats["csfloat_ok"] += 1
+                    return money_round(usd * usd_to_cad), "CSFloat"
+
+            return None, None
 
         # Refresh Cases
         cases = prices.get("cases", {})
         if isinstance(cases, dict):
+            total = len(cases)
+            if total:
+                logger.info(f"Refreshing Cases | Total={total}")
             for cid in list(cases.keys()):
                 stats["cases_total"] += 1
                 existing = cases.get(cid)
@@ -806,24 +937,33 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     stats["cases_skipped"] += 1
                     continue
 
-                new_price = fetch_with_fallback(market_hash)
+                new_price, used_provider = fetch_with_fallback(market_hash)
                 if new_price is None:
                     stats["cases_skipped"] += 1
                     continue
 
                 if abs(float(existing) - new_price) >= 0.01:
-                    logger.info(f"Case Price Changed | {cid} | {existing:.2f} -> {new_price:.2f}")
+                    provider_tag = f" | Provider={used_provider}" if used_provider else ""
+                    logger.info(f"Case Price Changed | {cid} | {existing:.2f} -> {new_price:.2f}{provider_tag}")
                     cases[cid] = new_price
                     updated_at["cases"][cid] = utc_now_iso()
                     stats["cases_updated"] += 1
                 else:
                     stats["cases_skipped"] += 1
+                if stats["cases_total"] % 5 == 0 or stats["cases_total"] == total:
+                    logger.info(
+                        f"Progress | Cases {stats['cases_total']}/{total} | "
+                        f"Updated={stats['cases_updated']} | Skipped={stats['cases_skipped']}"
+                    )
         else:
             logger.warning("prices.cases Is Not An Object; Skipping Cases.")
 
         # Refresh Keys
         keys = prices.get("keys", {})
         if isinstance(keys, dict):
+            total = len(keys)
+            if total:
+                logger.info(f"Refreshing Keys | Total={total}")
             for kid in list(keys.keys()):
                 stats["keys_total"] += 1
                 existing = keys.get(kid)
@@ -842,18 +982,24 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     stats["keys_skipped"] += 1
                     continue
 
-                new_price = fetch_with_fallback(market_hash)
+                new_price, used_provider = fetch_with_fallback(market_hash)
                 if new_price is None:
                     stats["keys_skipped"] += 1
                     continue
 
                 if abs(float(existing) - new_price) >= 0.01:
-                    logger.info(f"Key Price Changed | {kid} | {existing:.2f} -> {new_price:.2f}")
+                    provider_tag = f" | Provider={used_provider}" if used_provider else ""
+                    logger.info(f"Key Price Changed | {kid} | {existing:.2f} -> {new_price:.2f}{provider_tag}")
                     keys[kid] = new_price
                     updated_at["keys"][kid] = utc_now_iso()
                     stats["keys_updated"] += 1
                 else:
                     stats["keys_skipped"] += 1
+                if stats["keys_total"] % 5 == 0 or stats["keys_total"] == total:
+                    logger.info(
+                        f"Progress | Keys {stats['keys_total']}/{total} | "
+                        f"Updated={stats['keys_updated']} | Skipped={stats['keys_skipped']}"
+                    )
         else:
             logger.warning("prices.keys Is Not An Object; Skipping Keys.")
 
@@ -866,6 +1012,8 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                 item_keys = item_keys[: max(0, int(args.max_items))]
 
             total = len(item_keys)
+            if total:
+                logger.info(f"Refreshing Items | Total={total}")
             for i, ik in enumerate(item_keys, start=1):
                 stats["items_total"] += 1
                 existing = items.get(ik)
@@ -900,21 +1048,24 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     continue
 
                 market_hash = override_mh or build_item_market_hash(display, wear, is_st)
-                new_price = fetch_with_fallback(market_hash)
+                new_price, used_provider = fetch_with_fallback(market_hash)
                 if new_price is None:
                     stats["items_skipped"] += 1
                     continue
 
                 if abs(float(existing) - new_price) >= 0.01:
-                    logger.info(f"Item Price Changed | {ik} | {existing:.2f} -> {new_price:.2f}")
+                    provider_tag = f" | Provider={used_provider}" if used_provider else ""
+                    logger.info(f"Item Price Changed | {ik} | {existing:.2f} -> {new_price:.2f}{provider_tag}")
                     items[ik] = new_price
                     updated_at["items"][ik] = utc_now_iso()
                     stats["items_updated"] += 1
                 else:
                     stats["items_skipped"] += 1
 
-                if i % 100 == 0 or i == total:
+                if i % 25 == 0 or i == total:
                     logger.info(f"Progress | Items {i}/{total} | Updated={stats['items_updated']} | Skipped={stats['items_skipped']}")
+                if checkpoint_every_items and (i % checkpoint_every_items == 0):
+                    checkpoint_save(prices_path, prices, logger)
         else:
             logger.warning("prices.items Is Not An Object; Skipping Items.")
 
