@@ -2,13 +2,14 @@ async function () {
   "use strict";
 
   const LOG_ENABLED = true;
+  const STORE_KEY = "tcsgo_link_dedupe_v1";
 
   const DEFAULT_LINKING_BASE = "Z:\\home\\nike\\Streaming\\TCSGO\\Linking";
   const DISCORD_INDEX_FILE = "discord-user-index.json";
   const USER_LINKS_FILE = "user-links.json";
   const LINK_SESSIONS_FILE = "link-sessions.json";
-  const DEFAULT_CODE_ID = "tcsgo-link-controller";
   const CODE_TTL_MS = 5 * 60 * 1000;
+  const TIKTOK_SEND_COMMAND = "tiktok_chat_send";
 
   function logMsg(message) {
     if (!LOG_ENABLED) return;
@@ -26,6 +27,29 @@ async function () {
     if (s.includes("twitch")) return "twitch";
     if (s.includes("kick")) return "kick";
     return s || "twitch";
+  }
+
+  function cleanTemplateValue(raw) {
+    const v = String(raw ?? "").trim();
+    if (!v) return "";
+    if (v.startsWith("{{") && v.endsWith("}}")) return "";
+    return v;
+  }
+
+  function parseArgs(rawMessage, message) {
+    const rm = String(rawMessage ?? "").trim();
+    if (rm) {
+      const parts = rm.split(/\s+/);
+      return parts.length > 1 ? parts.slice(1) : [];
+    }
+    const msg = String(message ?? "").trim();
+    if (!msg) return [];
+    const parts = msg.split(/\s+/);
+    return parts.length > 1 ? parts.slice(1) : parts;
+  }
+
+  function sanitizeTarget(raw) {
+    return String(raw ?? "").trim().replace(/^@+/, "");
   }
 
   async function resolveLinkingBase() {
@@ -176,31 +200,73 @@ async function () {
     return name ? `@${name} ${message}` : message;
   }
 
-  function sendAck(payload, codeId) {
-    const payloadStr = JSON.stringify(payload);
+  async function sendToTikTok(message) {
     try {
-      overlaySendCustomContent({ codeId, content: payloadStr });
+      await callCommand({ name: TIKTOK_SEND_COMMAND, variableValues: { message } });
+      return true;
     } catch (_) {}
-    logMsg(payloadStr);
+    return false;
+  }
+
+  async function replyToCaller(site, message) {
+    const msg = String(message ?? "").trim();
+    if (!msg) return;
+    if (site === "tiktok") {
+      const ok = await sendToTikTok(msg);
+      if (!ok) logMsg(`[UNLINK] TikTok send failed | msg="${msg.slice(0, 120)}"`);
+      return;
+    }
+    try {
+      await chatbot({ message: msg, site });
+      return;
+    } catch (_) {}
+    logMsg(`[UNLINK] chatbot failed | site=${site} | msg="${msg.slice(0, 120)}"`);
   }
 
   const t0 = Date.now();
-  const eventId = String(await getVariable("eventId") ?? "");
-  const codeId = String(await getVariable("codeId") ?? DEFAULT_CODE_ID);
-  const platform = normSite(String(await getVariable("platform") ?? ""));
-  const platformUsername = String(await getVariable("username") ?? "");
-  const targetRaw = String(await getVariable("targetDiscordUsername") ?? "");
+  const rawMessage = cleanTemplateValue(await getVariable("rawMessage") ?? "{{rawMessage}}");
+  const message = cleanTemplateValue(await getVariable("message") ?? "{{message}}");
+  const args = parseArgs(rawMessage, message);
 
-  const targetDiscordUsername = String(targetRaw || "").trim().replace(/^@+/, "");
-  const platformUsernameLower = lowerTrim(platformUsername);
+  const targetRaw = args[0] || "";
+  const targetDiscordUsername = sanitizeTarget(targetRaw);
   const targetLower = lowerTrim(targetDiscordUsername);
 
-  logMsg(`[LINK] Vars | eventId=${eventId} | platform=${platform} | username=${platformUsername} | target=${targetDiscordUsername}`);
+  const siteRaw =
+    (await getVariable("site")) ||
+    (await getVariable("platform")) ||
+    (await getVariable("origin")) ||
+    "{{site}}";
+  const platform = normSite(siteRaw);
+
+  const usernameRaw =
+    cleanTemplateValue(await getVariable("username") ?? "{{username}}") ||
+    cleanTemplateValue(await getVariable("displayname") ?? "{{displayname}}") ||
+    cleanTemplateValue(await getVariable("displayName") ?? "{{displayName}}");
+
+  const platformUsername = String(usernameRaw ?? "").trim();
+  const platformUsernameLower = lowerTrim(platformUsername);
+
+  const messageId = cleanTemplateValue(await getVariable("messageId") ?? "{{messageId}}");
+
+  logMsg(`[UNLINK] Vars | platform=${platform} | username=${platformUsername} | target=${targetDiscordUsername}`);
+
+  if (messageId && platform && platformUsernameLower) {
+    let store = await getStoreItem(STORE_KEY);
+    if (!store || typeof store !== "object") store = {};
+    store._msgIds = (store._msgIds && typeof store._msgIds === "object") ? store._msgIds : {};
+    const msgKey = `${platform}|${platformUsernameLower}`;
+    if (store._msgIds[msgKey] === messageId) {
+      done({ shouldStop: true });
+      return;
+    }
+    store._msgIds[msgKey] = messageId;
+    await setStore({ name: STORE_KEY, value: store });
+  }
 
   let result;
 
   try {
-    if (!eventId) throw mkError("MISSING_EVENT_ID", "Missing eventId.");
     if (!platform) throw mkError("MISSING_PLATFORM", "Missing platform.");
     if (!platformUsernameLower) throw mkError("MISSING_USERNAME", "Missing username.");
     if (!targetLower) throw mkError("MISSING_TARGET", "Missing target Discord username.");
@@ -230,14 +296,19 @@ async function () {
     const entry = userLinks.users[String(discordId)];
     const linkedAccounts = entry && typeof entry.linkedAccounts === "object" ? entry.linkedAccounts : {};
     const existingAccount = linkedAccounts ? linkedAccounts[platform] : null;
-    if (existingAccount && typeof existingAccount === "object" && existingAccount.usernameLower) {
-      throw mkError("ALREADY_LINKED", `Discord user already linked on ${platform}.`);
+    if (!existingAccount || typeof existingAccount !== "object" || !existingAccount.usernameLower) {
+      throw mkError("NOT_LINKED", `Discord user has no ${platform} link to remove.`);
+    }
+
+    const linkedUsername = lowerTrim(existingAccount.usernameLower || "");
+    if (linkedUsername !== platformUsernameLower) {
+      throw mkError("USERNAME_MISMATCH", `That ${platform} account is not linked to this Discord user.`);
     }
 
     const reverseMap = userLinks.reverse && userLinks.reverse[platform] ? userLinks.reverse[platform] : {};
     const linkedDiscord = reverseMap[platformUsernameLower];
     if (linkedDiscord && String(linkedDiscord) !== String(discordId)) {
-      throw mkError("USERNAME_TAKEN", `That ${platform} username is already linked.`);
+      throw mkError("USERNAME_TAKEN", `That ${platform} username is linked elsewhere.`);
     }
 
     const sessions = linkSessions.sessions;
@@ -269,7 +340,7 @@ async function () {
     let code;
     let expiresAt;
     let ok = true;
-    let message;
+    let messageToSend;
     let error = null;
 
     if (activeSession) {
@@ -278,31 +349,31 @@ async function () {
       const activeAction = lowerTrim(activeSession.action || "link");
       const activePlatform = normSite(activeSession.platform || "");
       const activeUser = lowerTrim(activeSession.platformUsernameLower || "");
-      if (activeAction !== "link") {
-        ok = false;
-        error = {
-          code: "PENDING_UNLINK",
-          message: `An unlink is already pending for Discord ${targetDiscordUsername}. Use code ${code} or wait for it to expire.`
-        };
-        message = buildMessage(platformUsername, error.message);
-      } else if (activePlatform !== platform || activeUser !== platformUsernameLower) {
+      if (activeAction !== "unlink") {
         ok = false;
         error = {
           code: "PENDING_LINK",
           message: `A link is already pending for Discord ${targetDiscordUsername}. Use code ${code} or wait for it to expire.`
         };
-        message = buildMessage(platformUsername, error.message);
+        messageToSend = buildMessage(platformUsername, error.message);
+      } else if (activePlatform !== platform || activeUser !== platformUsernameLower) {
+        ok = false;
+        error = {
+          code: "PENDING_UNLINK",
+          message: `An unlink is already pending for Discord ${targetDiscordUsername}. Use code ${code} or wait for it to expire.`
+        };
+        messageToSend = buildMessage(platformUsername, error.message);
       } else {
-        message = buildMessage(
+        messageToSend = buildMessage(
           platformUsername,
-          `Link already pending for Discord ${targetDiscordUsername}. Code: ${code}.`
+          `Unlink already pending for Discord ${targetDiscordUsername}. Code: ${code}.`
         );
       }
     } else {
       code = generateCode(sessions);
       expiresAt = new Date(nowMs + CODE_TTL_MS).toISOString();
       sessions[code] = {
-        action: "link",
+        action: "unlink",
         targetDiscordUsername,
         platform,
         platformUsernameLower,
@@ -311,9 +382,9 @@ async function () {
       };
       linkSessions.lastModified = nowIso();
       sessionsChanged = true;
-      message = buildMessage(
+      messageToSend = buildMessage(
         platformUsername,
-        `Link code for Discord ${targetDiscordUsername}: ${code}. Post it in Discord to confirm (expires in 5m).`
+        `Unlink code for Discord ${targetDiscordUsername}: ${code}. Post it in Discord to confirm (expires in 5m).`
       );
     }
 
@@ -323,38 +394,40 @@ async function () {
     }
 
     result = {
-      type: "link-start-result",
-      action: "link",
+      type: "unlink-start-result",
+      action: "unlink",
       ok,
-      eventId,
       platform,
       platformUsername,
       targetDiscordUsername,
       code,
       expiresAt,
       error: error || undefined,
-      messageToSend: message,
+      messageToSend,
       data: { timings: { msTotal: Date.now() - t0 } }
     };
   } catch (err) {
     const error = err && err.code
       ? { code: err.code, message: err.message }
-      : mkError("LINK_ERROR", err?.message || String(err));
-    const message = buildMessage(platformUsername, error.message);
+      : mkError("UNLINK_ERROR", err?.message || String(err));
+    const messageToSend = buildMessage(platformUsername, error.message);
     result = {
-      type: "link-start-result",
-      action: "link",
+      type: "unlink-start-result",
+      action: "unlink",
       ok: false,
-      eventId,
       platform,
       platformUsername,
       targetDiscordUsername,
       error,
-      messageToSend: message,
+      messageToSend,
       data: { timings: { msTotal: Date.now() - t0 } }
     };
   }
 
-  sendAck(result, codeId || DEFAULT_CODE_ID);
+  if (result?.messageToSend) {
+    await replyToCaller(platform, result.messageToSend);
+  }
+
+  logMsg(JSON.stringify(result));
   done();
 }
