@@ -236,6 +236,20 @@ def aggregate_prices(prices: List[float], method: str) -> Optional[float]:
     return sum(prices) / float(len(prices))
 
 
+_WEAR_SUFFIX_RE = re.compile(r"\s*\([^)]*\)\s*$")
+
+
+def normalize_market_hash_base(mh: str) -> str:
+    if not mh or not isinstance(mh, str):
+        return ""
+    s = mh.strip()
+    for prefix in ("StatTrak™ ", "Souvenir "):
+        if s.lower().startswith(prefix.lower()):
+            s = s[len(prefix):]
+    s = _WEAR_SUFFIX_RE.sub("", s).strip()
+    return s
+
+
 # ---------------------------
 # Cross-Platform File Lock
 # ---------------------------
@@ -1445,6 +1459,13 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                 if skinport_bulk:
                     bulk_sources.append(("skinport", skinport_bulk))
                     bulk_source_counts["skinport"] = len(skinport_bulk)
+                    skinport_bulk_cache_file = str(skinport_cfg.get("bulkCacheFile", "")).strip()
+                    if skinport_bulk_cache_file:
+                        out_path = skinport_bulk_cache_file
+                        if not os.path.isabs(out_path):
+                            out_path = os.path.join(base, out_path)
+                        write_json_atomic(out_path, skinport_bulk)
+                        logger.info(f"Skinport Bulk Cache Written: {out_path}")
 
         if bulk_source_counts:
             logger.info(
@@ -1453,6 +1474,57 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
             )
         else:
             logger.warning("Bulk Sources Loaded | None (Will Use Per-Item Providers).")
+
+        bulk_all_keys = set()
+        for _, source_prices in bulk_sources:
+            bulk_all_keys.update(source_prices.keys())
+
+        bulk_debug_cfg = config.get("providers", {}).get("bulkDebug", {})
+        log_missing_candidates = bool(bulk_debug_cfg.get("logMissingCandidates", True))
+        max_missing_logs = int(bulk_debug_cfg.get("maxMissingLogs", 100))
+        max_suggestions = int(bulk_debug_cfg.get("maxSuggestions", 3))
+        missing_log_count = 0
+        bulk_base_map: Dict[str, List[str]] = {}
+        if log_missing_candidates and bulk_all_keys:
+            for key in bulk_all_keys:
+                base = normalize_market_hash_base(key)
+                if not base:
+                    continue
+                bucket = bulk_base_map.setdefault(base, [])
+                if len(bucket) < max_suggestions:
+                    bucket.append(key)
+
+        def log_bulk_missing_hints(item_key: str, market_hash: str) -> None:
+            nonlocal missing_log_count
+            if not log_missing_candidates or missing_log_count >= max_missing_logs:
+                return
+            hints: List[str] = []
+            lower = market_hash.lower()
+            if lower.startswith("stattrak\u2122 "):
+                cand = market_hash[len("StatTrak\u2122 "):]
+                if cand in bulk_all_keys:
+                    hints.append(cand)
+            else:
+                cand = "StatTrak\u2122 " + market_hash
+                if cand in bulk_all_keys:
+                    hints.append(cand)
+            if lower.startswith("souvenir "):
+                cand = market_hash[len("Souvenir "):]
+                if cand in bulk_all_keys and cand not in hints:
+                    hints.append(cand)
+            else:
+                cand = "Souvenir " + market_hash
+                if cand in bulk_all_keys and cand not in hints:
+                    hints.append(cand)
+            base = normalize_market_hash_base(market_hash)
+            for cand in bulk_base_map.get(base, []):
+                if cand not in hints:
+                    hints.append(cand)
+                if len(hints) >= max_suggestions:
+                    break
+            if hints:
+                logger.info(f"Bulk Missing Hints | {item_key} | " + " | ".join(hints))
+            missing_log_count += 1
 
         csf_cfg = config["providers"]["csfloat"]
 
@@ -1579,6 +1651,13 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
         variant_cfg = config.get("providers", {}).get("variantHandling", {})
         allow_souvenir_auto = bool(variant_cfg.get("allowSouvenirAuto", True))
         souvenir_prefix = str(variant_cfg.get("souvenirPrefix", "Souvenir "))
+        auto_match_variants = bool(variant_cfg.get("autoMatchVariantsFromBulk", True))
+        suffix_formats = variant_cfg.get(
+            "variantSuffixFormats",
+            ["{base} - {variant}", "{base} ({variant})", "{base} {variant}"],
+        )
+        if not isinstance(suffix_formats, list) or not suffix_formats:
+            suffix_formats = ["{base} - {variant}", "{base} ({variant})", "{base} {variant}"]
 
         def bulk_price_for(market_hash: str) -> Tuple[Optional[float], int]:
             vals = []
@@ -1746,6 +1825,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     reason = "ok"
                 else:
                     logger.info(f"Bulk Missing | {cid} | Sources={bulk_count} | Falling Back")
+                    log_bulk_missing_hints(cid, market_hash)
                     stats["bulk_missing_cases"] += 1
                     case_fallback.append((cid, market_hash))
                     continue
@@ -1855,6 +1935,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     reason = "ok"
                 else:
                     logger.info(f"Bulk Missing | {kid} | Sources={bulk_count} | Falling Back")
+                    log_bulk_missing_hints(kid, market_hash)
                     stats["bulk_missing_keys"] += 1
                     key_fallback.append((kid, market_hash))
                     continue
@@ -1962,16 +2043,6 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
 
                 item_id, wear, is_st, variant = parsed
                 override_mh = overrides["items"].get(ik)
-                variant_norm = variant.lower()
-                auto_variant_prefix = ""
-                if variant and variant_norm not in ("none", "na", "n/a") and not override_mh:
-                    if allow_souvenir_auto and variant_norm == "souvenir":
-                        auto_variant_prefix = souvenir_prefix
-                    else:
-                        logger.warning(f"Variant Requires Override | {ik} | Variant={variant}")
-                        record_skip(skipped, "items", ik, "variant_requires_override")
-                        stats["items_skipped"] += 1
-                        continue
 
                 display = item_id_to_display.get(item_id)
                 if not display and not override_mh:
@@ -1980,7 +2051,36 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     stats["items_skipped"] += 1
                     continue
 
-                market_hash = override_mh or build_item_market_hash(display, wear, is_st)
+                market_hash_base = override_mh or build_item_market_hash(display, wear, is_st)
+                variant_norm = variant.lower()
+                auto_variant_prefix = ""
+                auto_variant_match = None
+                if variant and variant_norm not in ("none", "na", "n/a") and not override_mh:
+                    if allow_souvenir_auto and variant_norm == "souvenir":
+                        auto_variant_prefix = souvenir_prefix
+                    elif auto_match_variants and bulk_all_keys:
+                        for fmt in suffix_formats:
+                            try:
+                                cand = str(fmt).format(base=market_hash_base, variant=variant)
+                            except Exception:
+                                continue
+                            if cand in bulk_all_keys:
+                                auto_variant_match = cand
+                                break
+                        if auto_variant_match:
+                            logger.info(f"Variant Auto-Matched | {ik} | {auto_variant_match}")
+                        else:
+                            logger.warning(f"Variant Requires Override | {ik} | Variant={variant}")
+                            record_skip(skipped, "items", ik, "variant_requires_override")
+                            stats["items_skipped"] += 1
+                            continue
+                    else:
+                        logger.warning(f"Variant Requires Override | {ik} | Variant={variant}")
+                        record_skip(skipped, "items", ik, "variant_requires_override")
+                        stats["items_skipped"] += 1
+                        continue
+
+                market_hash = auto_variant_match or market_hash_base
                 if auto_variant_prefix:
                     if not market_hash.lower().startswith(auto_variant_prefix.lower()):
                         market_hash = f"{auto_variant_prefix}{market_hash}"
@@ -1993,6 +2093,7 @@ def refresh_once(config: Dict[str, Any], args: argparse.Namespace, logger: loggi
                     reason = "ok"
                 else:
                     logger.info(f"Bulk Missing | {ik} | Sources={bulk_count} | Falling Back")
+                    log_bulk_missing_hints(ik, market_hash)
                     stats["bulk_missing_items"] += 1
                     items_fallback.append((ik, market_hash))
                     continue

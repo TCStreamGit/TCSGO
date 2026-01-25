@@ -1,0 +1,68 @@
+{
+  "codeId": {
+    "type": "input",
+    "label": "Overlay Code Id",
+    "order": 1,
+    "value": "tcsgo-link-controller"
+  },
+  "commandLinkStart": {
+    "type": "input",
+    "label": "Link Start Command",
+    "order": 2,
+    "value": "tcsgo-link-start"
+  },
+  "commandUnlinkStart": {
+    "type": "input",
+    "label": "Unlink Start Command",
+    "order": 3,
+    "value": "tcsgo-unlink-start"
+  },
+  "commandCoins": {
+    "type": "input",
+    "label": "Coins Command",
+    "order": 4,
+    "value": "tcsgo-coins"
+  },
+  "tiktokCommandName": {
+    "type": "input",
+    "label": "TikTok Chat Send Command",
+    "order": 5,
+    "value": "tiktok_chat_send"
+  },
+  "commandPrefix": {
+    "type": "input",
+    "label": "Command Prefix",
+    "order": 6,
+    "value": "!"
+  },
+  "ackTimeoutMs": {
+    "type": "number",
+    "label": "Command Ack Timeout (ms)",
+    "order": 7,
+    "value": 3000
+  },
+  "chatAsSelf": {
+    "type": "checkbox",
+    "label": "Chat As Self",
+    "order": 8,
+    "value": false
+  },
+  "allowUnlink": {
+    "type": "checkbox",
+    "label": "Enable !unlink (requires command)",
+    "order": 9,
+    "value": true
+  },
+  "allowCoins": {
+    "type": "checkbox",
+    "label": "Enable !coins (requires command)",
+    "order": 10,
+    "value": true
+  },
+  "debug": {
+    "type": "checkbox",
+    "label": "Debug Logging",
+    "order": 11,
+    "value": false
+  }
+}

@@ -23,14 +23,19 @@
     "rotationMode": "round_robin",
     "fallbackOnFailure": true,
     "skipRoundsOnFailure": 10,
-    "itemDelaySecondsMin": 3.0,
-    "itemDelaySecondsMax": 5.0,
+    "itemDelaySecondsMin": 10.0,
+    "itemDelaySecondsMax": 30.0,
     "bulkCache": {
       "dir": "services\\bulk-cache",
       "maxAgeHours": 12,
       "timeoutSeconds": 120,
       "staggerDelaySecondsMin": 2.0,
       "staggerDelaySecondsMax": 6.0
+    },
+    "bulkDebug": {
+      "logMissingCandidates": true,
+      "maxMissingLogs": 200,
+      "maxSuggestions": 3
     },
     "aggregator": {
       "method": "mean",
@@ -60,11 +65,18 @@
     },
     "variantHandling": {
       "allowSouvenirAuto": true,
-      "souvenirPrefix": "Souvenir "
+      "souvenirPrefix": "Souvenir ",
+      "autoMatchVariantsFromBulk": true,
+      "variantSuffixFormats": [
+        "{base} - {variant}",
+        "{base} ({variant})",
+        "{base} {variant}"
+      ]
     },
     "skinport": {
       "enabled": true,
       "bulkEnabled": true,
+      "bulkCacheFile": "services\\bulk-cache\\skinport-bulk.json",
       "baseUrl": "https://api.skinport.com/v1",
       "appid": 730,
       "currency": "CAD",
