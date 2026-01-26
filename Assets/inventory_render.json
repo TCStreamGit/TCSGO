@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "grid": {
+    "columns": 5,
+    "rows": 2,
+    "start_x": 140,
+    "start_y": 240,
+    "slot_w": 300,
+    "slot_h": 180,
+    "gap_x": 20,
+    "gap_y": 220,
+    "text_offset_y": 190,
+    "text_height": 52,
+    "label_width": 300
+  },
+  "image_padding": 10,
+  "rarity_line": {
+    "height": 4,
+    "offset_y": -2
+  },
+  "text": {
+    "name_size": 22,
+    "subtitle_size": 18,
+    "color": "#E6E6E6",
+    "shadow": [0, 0, 0, 0, 0, 160],
+    "line_spacing": 2
+  },
+  "display_name": {
+    "x": 1840,
+    "y": 48,
+    "max_w": 360,
+    "size": 32,
+    "color": "#6FB7FF"
+  },
+  "page_indicator": {
+    "x": 1840,
+    "y": 1028,
+    "max_w": 220,
+    "size": 20,
+    "color": "#D8D8D8",
+    "shadow": [0, 0, 0, 0, 0, 160]
+  },
+  "rarity_colors": {
+    "consumer": "#B0C3D9",
+    "industrial": "#5E98D9",
+    "mil-spec": "#4B69FF",
+    "restricted": "#8847FF",
+    "classified": "#D32CE6",
+    "covert": "#EB4B4B",
+    "extraordinary": "#E4AE39",
+    "contraband": "#E4AE39"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.0-inventories",
-  "lastModified": "2026-01-25T01:16:32.092Z",
+  "lastModified": "2026-01-26T23:21:38.873Z",
   "inventoriesById": {
     "inv_8f8dbf8f-5174-4318-b2ad-8f0fdf12f10b": {
       "createdAt": "2026-01-23T22:39:14.916Z",
@@ -60,10 +60,10 @@
     },
     "inv_385591ae-e803-4899-9dca-353c23a4c1ed": {
       "createdAt": "2026-01-23T21:42:26.569Z",
-      "cases": {},
-      "keys": {
-        "csgo-case-key": 1
+      "cases": {
+        "cs20-case": 1
       },
+      "keys": {},
       "items": [
         {
           "oid": "oid_mkrepgy1_deqivejc1",
@@ -589,6 +589,27 @@
             "chosenCoins": 100
           },
           "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--mil-spec--tec-9-flash-out--03.png"
+        },
+        {
+          "oid": "oid_mkvsjuwm_cvo76qo9j",
+          "itemId": "mp9-hydra",
+          "displayName": "MP9 | Hydra",
+          "rarity": "classified",
+          "tier": "pink",
+          "category": "weapon_skin",
+          "weapon": "MP9",
+          "skin": "Hydra",
+          "variant": "None",
+          "statTrak": true,
+          "wear": "Field-Tested",
+          "acquiredAt": "2026-01-26T23:21:04.054Z",
+          "lockedUntil": "2026-02-02T23:21:04.054Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 5,
+            "chosenCoins": 5000
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--mp9-hydra--02.png"
         }
       ],
       "identities": [

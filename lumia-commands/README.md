@@ -28,6 +28,11 @@ Commit commands (overlay-facing):
 - `tcsgo-commit-sell-start.js` -> command name: `tcsgo-commit-sell-start`
 - `tcsgo-commit-sell-confirm.js` -> command name: `tcsgo-commit-sell-confirm`
 
+Discord bot helper commands (REST chat-command):
+- `discord-coins.js` -> command name: `discord-coins`
+- `discord-add-loyalty.js` -> command name: `discord-add-loyalty`
+- `discord-remove-loyalty.js` -> command name: `discord-remove-loyalty`
+
 Helper (not a command):
 - `tcsgo-core.js`
 
