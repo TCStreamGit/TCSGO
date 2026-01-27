@@ -1,6 +1,11 @@
 async function () {
   "use strict";
 
+  /*
+   * Command: !coins
+   * Description: Show a viewer's current coin balance.
+   * Aliases: !coins, !balance, !points
+   */
   const LOG_ENABLED = true;                 // Logs To Lumia Logs
   const CHAT_DEBUG_ENABLED = false;         // If True, Sends A Debug Line To Twitch Chat
   const STORE_KEY = "tcsgo_link_dedupe_v1";

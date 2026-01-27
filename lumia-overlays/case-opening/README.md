@@ -1,15 +1,49 @@
 # Case Opening Overlay (TCSGO)
 
-This document describes the case-opening overlay only. It is meant for layout, timing, and animation tuning.
+This document describes the case-opening overlay only. It covers the animation, routing, and configuration used by `lumia-overlays/case-opening/`.
+
+## Purpose
+
+The overlay provides the visual roulette spin and winner reveal for `!open`. It is not required for buying or selling; those flows run in chat commands. When the overlay is active, it can handle `!open` directly and play the animation.
+
+## Files in this overlay
+
+- `overlay.html` — DOM structure and element IDs.
+- `style.css` — layout, colors, animations, and marker line styles.
+- `script.js` — controller, chat parsing, commit calls, animation timing, audio.
+- `configs.json` — configurable settings (Lumia UI fields).
+- `data.json` — metadata, variables, and routing notes.
 
 ## Visual states
 
-- idle: overlay hidden, no winner card shown
-- intro: case intro card and key card visible
-- roulette: reel visible (pause, spin, slowdown, lock)
-- reveal: winner card and glow visible
+State is controlled via `data-state` on `#case-opening`:
+- `idle` — overlay hidden.
+- `intro` — case intro card and key card visible.
+- `roulette` — reel visible (pause, spin, slowdown, lock).
+- `reveal` — winner card and glow visible.
 
-State is controlled via `data-state` on `#case-opening`.
+## Chat handling (open only)
+
+- The overlay only handles the **open** command from chat.
+- It ignores buy/sell commands in chat.
+- It marks handled chat using `tcsgo_last_chat_handled_v1` so `lumia-commands/open.js` can avoid double-handling.
+
+## Routing and ACKs
+
+Primary routing:
+- Commit commands send results to the overlay via `overlaySendCustomContent` with `codeId: "tcsgo-controller"`.
+
+Fallback routing:
+- Commit commands also write `tcsgo_last_event_json`, which the overlay polls and deduplicates.
+
+Overlay completion ACK:
+- After an open animation completes, the overlay writes `tcsgo_open_overlay_done_v1`.
+- Payload shape:
+  - `type`: `"open-overlay-complete"`
+  - `id` and `eventId` when available
+  - `platform`, `username`, `ts`, `ok`
+
+This is used by Lumia queues so the next command can wait until the animation finishes.
 
 ## Timing table (default)
 
@@ -42,41 +76,53 @@ Tick timing slows with the reel using `SPIN_TIMING_DEFAULT.tickCurve` in `script
 
 ## Master timer behavior
 
-The reel is driven by a single `requestAnimationFrame` loop in `animateRoulette`:
-- Elapsed time determines progress through spin-up, cruise, and decel phases
-- Distance allocation uses `spinUpMs`, `highSpeedMs`, `decelMs`, and `cruiseBoost`
-- Final lock applies an overshoot and a snap-back using `finalLockMs`
-
-This keeps the movement deterministic and in sync with audio.
+The reel uses a single `requestAnimationFrame` loop in `animateRoulette`:
+- Elapsed time determines progress through spin-up, cruise, and decel phases.
+- Distance allocation uses `spinUpMs`, `highSpeedMs`, `decelMs`, and `cruiseBoost`.
+- Final lock applies an overshoot and a snap-back using `finalLockMs`.
 
 ## Reel position calculation
 
 The final translateX is computed from live DOM measurements:
-- Measure winner tile center and marker center
-- Compute delta: `targetX = stripX + (markerX - winnerCenter)`
-- Overshoot: `overshootX = targetX + direction * overshootPx`
-- Snap back to `targetX` during the lock phase
+- Measure winner tile center and marker center.
+- Compute delta: `targetX = stripX + (markerX - winnerCenter)`.
+- Overshoot: `overshootX = targetX + direction * overshootPx`.
+- Snap back to `targetX` during the lock phase.
 
 The marker line is `#roulette-center-line` in `style.css`.
 
-## Overshoot and snap
+## Config highlights (`configs.json`)
 
-Overshoot and snap are controlled by:
-- `SPIN_TIMING_DEFAULT.overshootPx` (script.js)
-- `SPIN_TIMING_DEFAULT.finalLockMs` (script.js)
+Important categories:
+- **Routing**: `codeId`, `pollIntervalMs`, `ackTimeoutMs`.
+- **Commands**: `cmdOpen`, `cmdSell`, `cmdBuyCase`, `cmdBuyKey`, `commandPrefix`.
+- **Commit names**: `commitOpen`, `commitBuyCase`, `commitBuyKey`, `commitSellStart`, `commitSellConfirm`, `commitSellAllStart`, `commitSellAllConfirm`.
+- **Timing**: `caseIntroMs`, `caseSpinPauseMs`, `caseSpinMs`, `caseSpinItems`, `caseWinnerIndex`.
+- **Sound**: `sfxAccept`, `sfxOpen`, `sfxTick`, `sfxReveal`, `sfxRare`, `sfxGold`, `sfxVolume`, `sfxTickVolume`.
+- **Debug**: `debugEnabled`, `debugOutput`, and per-feature toggles like `debugRouter`, `debugOpen`, `debugEventsPoll`.
 
-Increase overshoot for a more dramatic snap, or reduce for a tighter lock.
+## Leader election
+
+The overlay uses a lightweight leader election to avoid duplicate chat handling across multiple browser sources.
+- Variable: `tcsgo_controller_leader_v1`
+- TTL: 6 seconds
+- Only the leader processes chat.
 
 ## Debugging alignment issues
 
 If the winner stops in the wrong place:
-- Confirm `#roulette-center-line` exists in `overlay.html` and is visible
-- Check `#roulette-center-line { left: 50%; }` in `style.css`
-- Verify tile size and spacing: `--tile-width`, `--tile-gap`, `#roulette-strip` padding
-- Ensure OBS/browser scaling is not distorting layout
-- Confirm `caseSpinItems` and `caseWinnerIndex` are not forcing too-short reels
-- Enable `debugWinnerCard` and `debugRouter` in configs to see timing and routing info
+- Confirm `#roulette-center-line` exists in `overlay.html` and is visible.
+- Check `#roulette-center-line { left: 50%; }` in `style.css`.
+- Verify tile size and spacing: `--tile-width`, `--tile-gap`, `#roulette-strip` padding.
+- Ensure OBS/browser scaling is not distorting layout.
+- Confirm `caseSpinItems` and `caseWinnerIndex` are not forcing too-short reels.
+- Enable `debugWinnerCard` and `debugRouter` in configs to see timing and routing info.
 
 If ticks feel out of sync:
-- Adjust `SPIN_TIMING_DEFAULT.tickCurve` in `script.js`
-- Verify `--tile-width` and `--tile-gap` so ticks align with item passes
+- Adjust `SPIN_TIMING_DEFAULT.tickCurve` in `script.js`.
+- Verify `--tile-width` and `--tile-gap` so ticks align with item passes.
+
+## Fallback spin behavior
+
+- If case JSON cannot be loaded, the overlay builds a fallback roulette strip and still spins instead of instantly revealing.
+- Keeping `baseRawUrl` valid is recommended so the roulette can use real case data.

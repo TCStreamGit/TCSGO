@@ -9,28 +9,60 @@
     "slot_h": 180,
     "gap_x": 20,
     "gap_y": 220,
+    "text_offset_x": 0,
     "text_offset_y": 190,
     "text_height": 52,
     "label_width": 300
   },
   "image_padding": 10,
+  "image_offset_x": 0,
+  "image_offset_y": 0,
+  "image_scale": 1,
   "rarity_line": {
     "height": 4,
-    "offset_y": -2
+    "offset_y": -2,
+    "offset_x": 0,
+    "inset": 0,
+    "width": 0,
+    "align": "center",
+    "opacity": 255,
+    "corner_radius": 0
   },
   "text": {
     "name_size": 22,
     "subtitle_size": 18,
     "color": "#E6E6E6",
-    "shadow": [0, 0, 0, 0, 0, 160],
-    "line_spacing": 2
+    "align": "center",
+    "offset_x": 0,
+    "offset_y": 0,
+    "line_spacing": 2,
+    "shadow": {
+      "offset_x": 0,
+      "offset_y": 0,
+      "color": "#000000",
+      "opacity": 160,
+      "blur": 0
+    },
+    "stroke_width": 0,
+    "stroke_color": "#000000",
+    "stroke_opacity": 255
   },
   "display_name": {
     "x": 1840,
     "y": 48,
     "max_w": 360,
     "size": 32,
-    "color": "#6FB7FF"
+    "color": "#6FB7FF",
+    "align": "right",
+    "offset_x": 0,
+    "offset_y": 0,
+    "shadow": {
+      "offset_x": 0,
+      "offset_y": 0,
+      "color": "#000000",
+      "opacity": 160,
+      "blur": 0
+    }
   },
   "page_indicator": {
     "x": 1840,
@@ -38,7 +70,16 @@
     "max_w": 220,
     "size": 20,
     "color": "#D8D8D8",
-    "shadow": [0, 0, 0, 0, 0, 160]
+    "align": "right",
+    "offset_x": 0,
+    "offset_y": 0,
+    "shadow": {
+      "offset_x": 0,
+      "offset_y": 0,
+      "color": "#000000",
+      "opacity": 160,
+      "blur": 0
+    }
   },
   "rarity_colors": {
     "consumer": "#B0C3D9",

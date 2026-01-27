@@ -5,6 +5,11 @@ async function () {
 
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";
+  const ACK_VAR_SELL_CONFIRM = "tcsgo_last_sell_confirm_json";
+  const DEFAULT_LINKING_BASE = "Z:\\home\\nike\\Streaming\\TCSGO\\Linking";
+  const DISCORD_INDEX_FILE = "discord-user-index.json";
+  const USER_LINKS_FILE = "user-links.json";
+  const LINK_PLATFORM_PREFERENCE = ["twitch", "youtube", "tiktok"];
 
   // ============================================================
   // HELPERS
@@ -25,6 +30,7 @@ async function () {
     if (s.includes("youtube")) return "youtube";
     if (s.includes("twitch")) return "twitch";
     if (s.includes("kick")) return "kick";
+    if (s.includes("discord")) return "discord";
     return s || "twitch";
   }
 
@@ -118,6 +124,10 @@ async function () {
       setVariable({ name: ACK_VAR, value: payloadStr, global: true });
     } catch (_) {}
 
+    try {
+      setVariable({ name: ACK_VAR_SELL_CONFIRM, value: payloadStr, global: true });
+    } catch (_) {}
+
     logMsg(payloadStr);
   }
 
@@ -128,6 +138,115 @@ async function () {
       return JSON.parse(txt);
     } catch (e) {
       return fallbackObj;
+    }
+  }
+
+  function cleanUser(raw) {
+    return lowerTrim(raw).replace(/^@+/, "");
+  }
+
+  async function resolveLinkingBase() {
+    const base = String(await getVariable("TCSGO_LINKING_BASE") ?? "").trim();
+    if (base) return base;
+    const envBase = (typeof process !== "undefined" && process.env && process.env.TCSGO_LINKING_BASE)
+      ? String(process.env.TCSGO_LINKING_BASE).trim()
+      : "";
+    return envBase || DEFAULT_LINKING_BASE;
+  }
+
+  function pickLinkedAccount(entry) {
+    const linked = entry && typeof entry.linkedAccounts === "object" ? entry.linkedAccounts : null;
+    if (!linked) return null;
+    for (const platform of LINK_PLATFORM_PREFERENCE) {
+      const rec = linked[platform];
+      const usernameLower = cleanUser(rec?.usernameLower || rec?.username);
+      if (usernameLower) return { platform, username: usernameLower };
+    }
+    return null;
+  }
+
+  async function resolveLinkedIdentity(platformRaw, usernameRaw) {
+    const requestedPlatform = normSite(platformRaw || "twitch");
+    const requestedUsername = cleanUser(usernameRaw);
+
+    if (!requestedUsername) {
+      return {
+        requestedPlatform,
+        requestedUsername,
+        effectivePlatform: requestedPlatform,
+        effectiveUsername: requestedUsername,
+        linkedFromDiscord: false,
+        linkStatus: "missing-username"
+      };
+    }
+
+    if (requestedPlatform !== "discord") {
+      return {
+        requestedPlatform,
+        requestedUsername,
+        effectivePlatform: requestedPlatform,
+        effectiveUsername: requestedUsername,
+        linkedFromDiscord: false
+      };
+    }
+
+    try {
+      const linkingBase = await resolveLinkingBase();
+      const indexPath = joinPath(linkingBase, DISCORD_INDEX_FILE);
+      const linksPath = joinPath(linkingBase, USER_LINKS_FILE);
+
+      const [indexRaw, linksRaw] = await Promise.all([
+        safeReadJson(indexPath, null),
+        safeReadJson(linksPath, null)
+      ]);
+
+      const indexUsers = indexRaw && typeof indexRaw.users === "object" ? indexRaw.users : {};
+      const discordId = String(indexUsers[requestedUsername] || "").trim();
+      if (!discordId) {
+        return {
+          requestedPlatform,
+          requestedUsername,
+          effectivePlatform: requestedPlatform,
+          effectiveUsername: requestedUsername,
+          linkedFromDiscord: false,
+          linkStatus: "discord-not-found"
+        };
+      }
+
+      const usersMap = linksRaw && typeof linksRaw.users === "object" ? linksRaw.users : {};
+      const entry = usersMap[discordId];
+      const linked = pickLinkedAccount(entry);
+
+      if (!linked) {
+        return {
+          requestedPlatform,
+          requestedUsername,
+          effectivePlatform: requestedPlatform,
+          effectiveUsername: requestedUsername,
+          linkedFromDiscord: false,
+          linkStatus: "no-linked-account",
+          discordId
+        };
+      }
+
+      return {
+        requestedPlatform,
+        requestedUsername,
+        effectivePlatform: linked.platform,
+        effectiveUsername: linked.username,
+        linkedFromDiscord: true,
+        discordId
+      };
+    } catch (err) {
+      logMsg(`[SELLCONFIRM] Discord link resolve failed | ${err?.message || err}`);
+      return {
+        requestedPlatform,
+        requestedUsername,
+        effectivePlatform: requestedPlatform,
+        effectiveUsername: requestedUsername,
+        linkedFromDiscord: false,
+        linkStatus: "link-resolve-error"
+      };
     }
   }
 
@@ -183,7 +302,21 @@ async function () {
   const username = String(await getVariable("username") ?? "");
   const token = String(await getVariable("token") ?? "");
 
-  logMsg(`[SELLCONFIRM] Vars | eventId=${eventId} | platform=${platform} | username=${username} | token=${token}`);
+  const identity = await resolveLinkedIdentity(platform, username);
+  const effectivePlatform = identity.effectivePlatform;
+  const effectiveUsername = identity.effectiveUsername;
+
+  if (identity.linkedFromDiscord) {
+    logMsg(
+      `[SELLCONFIRM] Discord mapped | ${identity.requestedPlatform}:${identity.requestedUsername} -> ` +
+      `${effectivePlatform}:${effectiveUsername}`
+    );
+  }
+
+  logMsg(
+    `[SELLCONFIRM] Vars | eventId=${eventId} | platform=${platform} | username=${username} | ` +
+    `effective=${effectivePlatform}:${effectiveUsername} | token=${token}`
+  );
 
   let result;
 
@@ -208,7 +341,7 @@ async function () {
     }
 
     const invRoot = ensureInventoryRoot(inv);
-    const identityKey = `${lowerTrim(platform)}:${lowerTrim(username)}`;
+    const identityKey = `${lowerTrim(effectivePlatform)}:${lowerTrim(effectiveUsername)}`;
     const nowIso = new Date().toISOString();
     const { inventory: user } = getOrCreateInventory(invRoot, identityKey, nowIso);
 
@@ -250,6 +383,9 @@ async function () {
       username,
       data: {
         eventId,
+        effectivePlatform,
+        effectiveUsername,
+        linkedFromDiscord: identity.linkedFromDiscord,
         oid,
         item: soldItem,
         creditedCoins: credit,
@@ -259,7 +395,10 @@ async function () {
       }
     };
 
-    logMsg(`[SELLCONFIRM] Success | ${username} oid=${oid} | +${credit}`);
+    const successSuffix = identity.linkedFromDiscord
+      ? ` | effective=${effectivePlatform}:${effectiveUsername}`
+      : "";
+    logMsg(`[SELLCONFIRM] Success | ${username} oid=${oid} | +${credit}${successSuffix}`);
 
   } catch (err) {
     const e =

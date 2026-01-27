@@ -1,6 +1,11 @@
 async function () {
   "use strict";
 
+  /*
+   * Command: !link
+   * Description: Start linking a stream account to a Discord account.
+   * Aliases: !link, !link @discord, !link discordUser
+   */
   const LOG_ENABLED = true;                 // Logs To Lumia Logs
   const CHAT_DEBUG_ENABLED = false;         // If True, Sends A Debug Line To Twitch Chat
   const STORE_KEY = "tcsgo_link_dedupe_v1";
@@ -22,6 +27,7 @@ async function () {
   const TIKTOK_SEND_COMMAND = "tiktok_chat_send";
   const DISCORD_LINK_CHANNEL_ID = "1464686722993491979";
   const DISCORD_LINK_CHANNEL_NAME = "🤖｜𝑪𝒉𝒐𝒔𝒆𝒏-𝑩𝒐𝒕";
+  const DISCORD_LINK_CHANNEL_PLAIN = "Chosen Bot";
 
   const RUN_ID = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
 
@@ -277,6 +283,12 @@ async function () {
     const name = String(DISCORD_LINK_CHANNEL_NAME ?? "").trim();
     if (name) return name;
     return DISCORD_LINK_CHANNEL_ID ? `<#${DISCORD_LINK_CHANNEL_ID}>` : "the link-confirmation channel";
+  }
+
+  function buildLinkReply(platform, username, normalText, tiktokText) {
+    const useTikTok = String(platform || "").toLowerCase() === "tiktok";
+    const message = (useTikTok && tiktokText) ? tiktokText : normalText;
+    return buildMessage(username, message);
   }
 
   async function sendToTikTok(message) {
@@ -604,7 +616,14 @@ async function () {
           message: `An Unlink Is Already Pending For Discord ${targetDiscordUsername}. Please Wait For It To Expire Or Cancel It In ${formatDiscordChannel()}.`
         };
       }
-      messageToSend = buildMessage(platformUsername, error.message);
+      messageToSend = buildLinkReply(
+        platform,
+        platformUsername,
+        error.message,
+        pendingUnlinkCode
+          ? `Unlink pending for Discord ${targetDiscordUsername}. Code ${pendingUnlinkCode}. Send to ${DISCORD_LINK_CHANNEL_PLAIN}.`
+          : `Unlink pending for Discord ${targetDiscordUsername}. Wait or cancel in ${DISCORD_LINK_CHANNEL_PLAIN}.`
+      );
     } else if (activeSession) {
       code = activeCode;
       expiresAt = activeSession.expiresAt;
@@ -619,19 +638,33 @@ async function () {
           code: "PENDING_UNLINK",
           message: `An Unlink Is Already Pending For Discord ${targetDiscordUsername}. Use Code ${code} In ${formatDiscordChannel()} Or Wait For It To Expire.`
         };
-        messageToSend = buildMessage(platformUsername, error.message);
+        messageToSend = buildLinkReply(
+          platform,
+          platformUsername,
+          error.message,
+          code
+            ? `Unlink pending for Discord ${targetDiscordUsername}. Code ${code}. Send to ${DISCORD_LINK_CHANNEL_PLAIN}.`
+            : `Unlink pending for Discord ${targetDiscordUsername}. Wait in ${DISCORD_LINK_CHANNEL_PLAIN}.`
+        );
       } else if (activePlatform !== platform || activeUser !== platformUsernameLower) {
         ok = false;
         error = {
           code: "PENDING_LINK",
           message: `A Link Is Already Pending For Discord ${targetDiscordUsername} From Another Account. Please Wait For It To Expire Or Ask Them To Finish In ${formatDiscordChannel()}.`
         };
-        messageToSend = buildMessage(platformUsername, error.message);
+        messageToSend = buildLinkReply(
+          platform,
+          platformUsername,
+          error.message,
+          `Link pending for Discord ${targetDiscordUsername}. Finish in ${DISCORD_LINK_CHANNEL_PLAIN}.`
+        );
         code = null;
       } else {
-        messageToSend = buildMessage(
+        messageToSend = buildLinkReply(
+          platform,
           platformUsername,
-          `Link Already Pending For Discord ${targetDiscordUsername}. Code: ${code}. Post It In ${formatDiscordChannel()} (Expires In 5m).`
+          `Link Already Pending For Discord ${targetDiscordUsername}. Code: ${code}. Post It In ${formatDiscordChannel()} (Expires In 5m).`,
+          `Link already pending for Discord ${targetDiscordUsername}. Code ${code}. Send to ${DISCORD_LINK_CHANNEL_PLAIN}. Expires in 5m.`
         );
       }
     } else {
@@ -652,9 +685,11 @@ async function () {
       linkSessions.lastModified = nowIso();
       sessionsChanged = true;
 
-      messageToSend = buildMessage(
+      messageToSend = buildLinkReply(
+        platform,
         platformUsername,
-        `Link Code For Discord ${targetDiscordUsername}: ${code}. Post It In ${formatDiscordChannel()} To Confirm (Expires In 5m).`
+        `Link Code For Discord ${targetDiscordUsername}: ${code}. Post It In ${formatDiscordChannel()} To Confirm (Expires In 5m).`,
+        `Link code for Discord ${targetDiscordUsername}: ${code}. Send to ${DISCORD_LINK_CHANNEL_PLAIN}. Expires in 5m.`
       );
     }
 

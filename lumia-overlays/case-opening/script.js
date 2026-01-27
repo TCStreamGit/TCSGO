@@ -68,7 +68,7 @@
   const DEFAULT_CONFIG = {
     baseRawUrl: "https://raw.githubusercontent.com/TCStreamGit/TCSGO/main",
     pollIntervalMs: 250,
-    ackTimeoutMs: 3000,
+    ackTimeoutMs: 8000,
     chatReplyMode: "chat",
     chatAsSelf: false,
     tiktokCommandName: "tiktok_chat_send",
@@ -106,6 +106,8 @@
     commitOpen: "tcsgo-commit-open",
     commitSellStart: "tcsgo-commit-sell-start",
     commitSellConfirm: "tcsgo-commit-sell-confirm",
+    commitSellAllStart: "tcsgo-commit-sell-all-start",
+    commitSellAllConfirm: "tcsgo-commit-sell-all-confirm",
     debugEnabled: true,
     debugOutput: "toast",
     debugAll: false,
@@ -225,6 +227,9 @@
   const COMMAND_QUEUE = [];
   let COMMAND_QUEUE_ACTIVE = false;
   const COOLDOWN_STORE_KEY = "tcsgo_command_cooldowns_v1";
+  const CHAT_HANDLED_VAR = "tcsgo_last_chat_handled_v1";
+  const OVERLAY_DONE_VAR = "tcsgo_open_overlay_done_v1";
+  const OVERLAY_DONE_TYPE = "open-overlay-complete";
 
   // =========================================================================
   // CONFIG HELPERS
@@ -379,6 +384,8 @@
     CONFIG.commitOpen = cfgStrFrom(src, "commitOpen", DEFAULT_CONFIG.commitOpen);
     CONFIG.commitSellStart = cfgStrFrom(src, "commitSellStart", DEFAULT_CONFIG.commitSellStart);
     CONFIG.commitSellConfirm = cfgStrFrom(src, "commitSellConfirm", DEFAULT_CONFIG.commitSellConfirm);
+    CONFIG.commitSellAllStart = cfgStrFrom(src, "commitSellAllStart", DEFAULT_CONFIG.commitSellAllStart);
+    CONFIG.commitSellAllConfirm = cfgStrFrom(src, "commitSellAllConfirm", DEFAULT_CONFIG.commitSellAllConfirm);
 
     CONFIG.debugEnabled = cfgBoolFrom(src, "debugEnabled", DEFAULT_CONFIG.debugEnabled);
     CONFIG.debugOutput = cfgStrFrom(src, "debugOutput", DEFAULT_CONFIG.debugOutput).toLowerCase();
@@ -425,6 +432,22 @@
     const pfx = getPrefixes()[0] || "!";
     const name = String(CONFIG[cmdKey] || "").trim();
     return `${pfx}${name}`;
+  }
+
+  function getRecognizedCommands() {
+    return new Set([
+      String(CONFIG.cmdBuyCase || "buycase").toLowerCase(),
+      String(CONFIG.cmdBuyKey || "buykey").toLowerCase(),
+      String(CONFIG.cmdOpen || "open").toLowerCase(),
+      String(CONFIG.cmdSell || "sell").toLowerCase(),
+      String(CONFIG.cmdSellConfirm || "sellconfirm").toLowerCase()
+    ]);
+  }
+
+  function isRecognizedCommand(command) {
+    const cmd = String(command || "").toLowerCase();
+    if (!cmd) return false;
+    return getRecognizedCommands().has(cmd);
   }
 
   // =========================================================================
@@ -628,6 +651,42 @@
   // ROUTER
   // =========================================================================
 
+  function findFallbackPendingEventId(payload) {
+    if (!payload || typeof payload !== "object") return "";
+    if (pendingEvents.size === 0) return "";
+
+    const payloadType = lowerTrim(payload.type);
+    if (!payloadType) return "";
+
+    const payloadUser = lowerTrim(payload.username || payload.data?.username);
+    const payloadPlatform = lowerTrim(payload.platform || payload.data?.platform);
+    const payloadAlias = lowerTrim(payload.alias || payload.data?.alias);
+    const payloadToken = lowerTrim(payload.token || payload.data?.token);
+
+    const matches = [];
+
+    for (const [pendingId, pending] of pendingEvents.entries()) {
+      const expectedType = lowerTrim(pending?.expectedType || "");
+      if (expectedType && expectedType !== payloadType) continue;
+
+      const params = pending?.params || {};
+      const pendingUser = lowerTrim(params.username);
+      const pendingPlatform = lowerTrim(params.platform);
+      const pendingAlias = lowerTrim(params.alias);
+      const pendingToken = lowerTrim(params.token);
+
+      if (payloadUser && pendingUser && payloadUser !== pendingUser) continue;
+      if (payloadPlatform && pendingPlatform && payloadPlatform !== pendingPlatform) continue;
+      if (payloadAlias && pendingAlias && payloadAlias !== pendingAlias) continue;
+      if (payloadToken && pendingToken && payloadToken !== pendingToken) continue;
+
+      matches.push(pendingId);
+      if (matches.length > 1) break;
+    }
+
+    return matches.length === 1 ? matches[0] : "";
+  }
+
   function handleIncomingEvent(payloadStr, sourceLabel) {
     if (!payloadStr) return;
 
@@ -666,6 +725,25 @@
       return;
     }
 
+    const fallbackPendingId = findFallbackPendingEventId(payload);
+    if (fallbackPendingId) {
+      const pending = pendingEvents.get(fallbackPendingId);
+      if (pending) {
+        clearTimeout(pending.timeoutId);
+        pendingEvents.delete(fallbackPendingId);
+
+        debugEmit(
+          `[Router] Matched Pending (Fallback) | pendingEventId=${fallbackPendingId} | payloadEventId=${eventId || "(none)"} | type=${type} | ok=${ok}`,
+          ok ? "success" : "warning",
+          "debugCommit"
+        );
+
+        if (payload.ok) pending.resolve(payload);
+        else pending.reject(payload);
+        return;
+      }
+    }
+
     handleUnsolicitedEvent(payload);
   }
 
@@ -695,7 +773,27 @@
             debugEmit("[Router] Ignored Stale Open Result On Boot", "warning", "debugRouter");
             return;
           }
-          showRevealOnly(payload.data, payload.username || "Unknown", null, false);
+          const eventId = payload.eventId || payload.data?.eventId || "";
+          const platform = payload.platform || payload.data?.platform || "twitch";
+          const username = payload.username || payload.data?.username || "Unknown";
+          const caseId = String(payload.data?.caseId || "").trim();
+          const caseFilename = String(payload.data?.caseFilename || "").trim();
+          const caseDisplayName = String(payload.data?.caseDisplayName || caseId || "Case").trim();
+
+          const caseInfoFromPayload =
+            caseId && caseFilename
+              ? { caseId, filename: caseFilename, displayName: caseDisplayName }
+              : null;
+
+          enqueueCaseOpening({
+            eventId,
+            resultData: payload.data,
+            username,
+            platform,
+            caseInfo: caseInfoFromPayload,
+            chatAfterOpen: false,
+            forceRevealOnly: !caseInfoFromPayload
+          });
         }
         break;
 
@@ -719,6 +817,24 @@
           studioToast(`Sold | +${formatNumber(d.creditedCoins)} Coins`, "success");
         } else {
           studioToast(payload?.error?.message || "Sell Failed", "error");
+        }
+        break;
+
+      case "sell-all-start-result":
+        if (payload.ok) {
+          const d = payload.data || {};
+          studioToast(`Sell All Ready | Confirm: ${getCmdFull("cmdSell")} all ${d.token}`, "info");
+        } else {
+          studioToast(payload?.error?.message || "Sell All Failed", "error");
+        }
+        break;
+
+      case "sell-all-confirm-result":
+        if (payload.ok) {
+          const d = payload.data || {};
+          studioToast(`Sold All | ${d.soldCount} Items | +${formatNumber(d.creditedCoins)} Coins`, "success");
+        } else {
+          studioToast(payload?.error?.message || "Sell All Failed", "error");
         }
         break;
 
@@ -777,6 +893,48 @@
       }
     }
     return true;
+  }
+
+  async function markChatHandled(command, chatData) {
+    const platform = String(chatData?.origin || chatData?.platform || chatData?.site || "").toLowerCase();
+    const username = String(chatData?.username || chatData?.displayname || "").toLowerCase();
+    const message = String(chatData?.message || "").trim();
+    const record = {
+      command: String(command || "").toLowerCase(),
+      platform,
+      username,
+      message,
+      ts: Date.now()
+    };
+    await safeSetVariable(CHAT_HANDLED_VAR, JSON.stringify(record));
+  }
+
+  async function emitOverlayDone(job, ok, error) {
+    const payload = {
+      type: OVERLAY_DONE_TYPE,
+      ok: !!ok,
+      ts: Date.now()
+    };
+
+    const eventId = String(job?.eventId || job?.resultData?.eventId || "");
+    if (eventId) {
+      payload.eventId = eventId;
+      payload.id = eventId;
+    }
+
+    const platform = String(job?.platform || job?.resultData?.platform || "");
+    const username = String(job?.username || job?.resultData?.username || "");
+    if (platform) payload.platform = platform;
+    if (username) payload.username = username;
+
+    if (error) {
+      const message = (error && error.message) ? error.message : String(error);
+      payload.error = { message };
+    }
+
+    try {
+      await safeSetVariable(OVERLAY_DONE_VAR, JSON.stringify(payload));
+    } catch (_) {}
   }
 
   function formatSecsShort(totalSecs) {
@@ -923,6 +1081,11 @@
     const parts = content.split(/\s+/);
     const command = String(parts[0] || "").toLowerCase();
     const args = parts.slice(1);
+
+    const cOpen = String(CONFIG.cmdOpen || "open").toLowerCase();
+    if (command !== cOpen) return;
+
+    markChatHandled(command, chatData).catch(() => {});
 
     debugEmit(
       `[Chat] Command Parsed | cmd=${command} | args=${JSON.stringify(args)} | user=${username} | platform=${platform}`,
@@ -1276,6 +1439,23 @@
   // COMMIT COMMAND INVOCATION
   // =========================================================================
 
+  function expectedResultTypeForCommitCommand(cmd) {
+    const c = lowerTrim(cmd);
+    if (!c) return "";
+
+    const eq = (name) => c === lowerTrim(name);
+
+    if (eq(CONFIG.commitOpen) || c.includes("commit-open")) return "open-result";
+    if (eq(CONFIG.commitBuyCase) || c.includes("commit-buycase")) return "buycase-result";
+    if (eq(CONFIG.commitBuyKey) || c.includes("commit-buykey")) return "buykey-result";
+    if (eq(CONFIG.commitSellStart) || c.includes("commit-sell-start")) return "sell-start-result";
+    if (eq(CONFIG.commitSellConfirm) || c.includes("commit-sell-confirm")) return "sell-confirm-result";
+    if (eq(CONFIG.commitSellAllStart) || c.includes("commit-sell-all-start")) return "sell-all-start-result";
+    if (eq(CONFIG.commitSellAllConfirm) || c.includes("commit-sell-all-confirm")) return "sell-all-confirm-result";
+
+    return "";
+  }
+
   function callCommitCommand(commandName, params, eventId) {
     return new Promise((resolve, reject) => {
       const cmd = String(commandName || "").trim();
@@ -1283,14 +1463,62 @@
 
       debugEmit(`[Commit] Call | cmd=${cmd} | eventId=${eventId}`, "info", "debugCommit");
 
+      const expectedType = expectedResultTypeForCommitCommand(cmd);
+      const paramsSnapshot = params && typeof params === "object" ? { ...params } : {};
+
       const timeoutId = setTimeout(() => {
         if (!pendingEvents.has(eventId)) return;
-        pendingEvents.delete(eventId);
-        debugEmit(`[Commit] Timeout | cmd=${cmd} | eventId=${eventId} | ms=${CONFIG.ackTimeoutMs}`, "error", "debugTimeouts");
-        reject({ ok: false, error: { code: "TIMEOUT", message: "Command timed out" } });
+
+        void (async () => {
+          const pending = pendingEvents.get(eventId);
+          if (!pending) return;
+
+          let payload = null;
+          try {
+            const raw = await safeGetVariable("tcsgo_last_event_json");
+            if (raw) payload = typeof raw === "string" ? JSON.parse(raw) : raw;
+          } catch (_) {
+            payload = null;
+          }
+
+          if (!pendingEvents.has(eventId)) return;
+
+          if (payload && typeof payload === "object") {
+            const payloadEventId = payload.eventId || payload.data?.eventId || "";
+            const fallbackPendingId = findFallbackPendingEventId(payload);
+            const matchesPending =
+              (payloadEventId && payloadEventId === eventId) ||
+              (fallbackPendingId && fallbackPendingId === eventId);
+
+            if (matchesPending) {
+              pendingEvents.delete(eventId);
+              debugEmit(
+                `[Commit] Timeout Recovered | cmd=${cmd} | eventId=${eventId} | type=${payload.type || "(none)"}`,
+                "warning",
+                "debugTimeouts"
+              );
+              if (payload.ok) pending.resolve(payload);
+              else pending.reject(payload);
+              return;
+            }
+          }
+
+          if (!pendingEvents.has(eventId)) return;
+          pendingEvents.delete(eventId);
+          debugEmit(`[Commit] Timeout | cmd=${cmd} | eventId=${eventId} | ms=${CONFIG.ackTimeoutMs}`, "error", "debugTimeouts");
+          reject({ ok: false, error: { code: "TIMEOUT", message: "Command timed out" } });
+        })();
       }, CONFIG.ackTimeoutMs);
 
-      pendingEvents.set(eventId, { resolve, reject, timeoutId });
+      pendingEvents.set(eventId, {
+        resolve,
+        reject,
+        timeoutId,
+        expectedType,
+        params: paramsSnapshot,
+        cmd,
+        createdAt: Date.now()
+      });
 
       if (typeof Overlay !== "undefined" && Overlay.callCommand) {
         try {
@@ -1463,11 +1691,74 @@
   // =========================================================================
 
   async function handleSell(username, platform, args) {
-    const rawArg = String(args[0] || "").trim();
-    if (!rawArg) return void sendChatMessage(`@${username} Usage: ${getCmdFull("cmdSell")} <oid|itemId|itemName>`, platform);
-    const isOid = rawArg.toLowerCase().startsWith("oid_");
-    const oid = isOid ? rawArg : "";
-    const query = isOid ? "" : rawArg;
+    const rawArg0 = String(args[0] || "").trim();
+    const rawArg1 = String(args[1] || "").trim();
+
+    if (!rawArg0) {
+      return void sendChatMessage(
+        `@${username} Usage: ${getCmdFull("cmdSell")} <oid|itemId|itemName> OR ${getCmdFull("cmdSell")} all [code]`,
+        platform
+      );
+    }
+
+    const arg0 = rawArg0.toLowerCase();
+
+    // SELL ALL FLOW: !sell all  -> start, !sell all <token> -> confirm
+    if (arg0 === "all") {
+      const token = rawArg1;
+      const isConfirm = !!token;
+      const eventId = generateEventId();
+
+      try {
+        if (!isConfirm) {
+          const result = await callCommitCommand(CONFIG.commitSellAllStart, { eventId, platform, username }, eventId);
+          if (result.ok && result.data) {
+            const d = result.data;
+            const counts = [];
+            if (Number(d.lockedCount) > 0) counts.push(`Locked: ${d.lockedCount}`);
+            if (Number(d.unsellableCount) > 0) counts.push(`Unsellable: ${d.unsellableCount}`);
+            const countsSuffix = counts.length ? ` (${counts.join(", ")})` : "";
+            await sendChatMessage(
+              `@${username} Sell All: ${formatNumber(d.eligibleCount)} Items${countsSuffix}. ` +
+              `+${formatNumber(d.creditAmount)} Coins (${d.marketFeePercent}% Fee). ` +
+              `Confirm: ${getCmdFull("cmdSell")} all ${d.token} (${d.expiresInSeconds}s)`,
+              platform
+            );
+            studioToast(`Sell All Ready | ${username} | ${d.eligibleCount} items`, "info");
+          }
+          return;
+        }
+
+        const result = await callCommitCommand(CONFIG.commitSellAllConfirm, { eventId, platform, username, token }, eventId);
+        if (result.ok && result.data) {
+          const d = result.data;
+          await adjustLoyaltyPoints(username, platform, d.creditedCoins);
+
+          const extras = [];
+          if (Number(d.lockedCount) > 0) extras.push(`Locked: ${d.lockedCount}`);
+          if (Number(d.unsellableCount) > 0) extras.push(`Unsellable: ${d.unsellableCount}`);
+          if (Number(d.missingCount) > 0) extras.push(`Missing: ${d.missingCount}`);
+          const extrasSuffix = extras.length ? ` (${extras.join(", ")})` : "";
+
+          await sendChatMessage(
+            `@${username} Sold ${formatNumber(d.soldCount)} Items! +${formatNumber(d.creditedCoins)} Coins.${extrasSuffix}`,
+            platform
+          );
+          studioToast(`Sold All | ${username} | ${d.soldCount} items | +${formatNumber(d.creditedCoins)}`, "success");
+        }
+      } catch (errPayload) {
+        const errMsg = errPayload?.error?.message || "Sell all failed";
+        await sendChatMessage(`@${username} ${errMsg}`, platform);
+        studioToast(`Sell All Failed | ${errMsg}`, "error");
+      }
+
+      return;
+    }
+
+    // SINGLE ITEM FLOW: !sell <oid|itemId|itemName>
+    const isOid = rawArg0.toLowerCase().startsWith("oid_");
+    const oid = isOid ? rawArg0 : "";
+    const query = isOid ? "" : rawArg0;
 
     const eventId = generateEventId();
     try {
@@ -1616,8 +1907,10 @@
     openBusy = true;
     try {
       await playCaseOpening(job);
+      await emitOverlayDone(job, true);
     } catch (err) {
       debugError("[CaseOpen] Failed", err, "debugWinnerCard");
+      await emitOverlayDone(job, false, err);
     } finally {
       openBusy = false;
       if (openQueue.length) processOpenQueue();
@@ -1633,22 +1926,29 @@
     const caseInfo = job?.caseInfo || null;
     const winner = resultData?.winner || {};
     const winnerRarity = normalizeRarity(winner.tier || winner.rarity);
+    const forceRevealOnly = !!job?.forceRevealOnly;
+
+    if (forceRevealOnly) {
+      await showRevealOnly(resultData, username, platform, job?.chatAfterOpen);
+      return;
+    }
 
     if (UI.caseOpening) UI.caseOpening.classList.remove("no-roulette");
     applyRarityClass(winnerRarity);
     updateReveal(resultData, username);
 
-    const caseJson = caseInfo ? await loadCaseJson(caseInfo) : null;
-    if (!caseJson) {
-      await showRevealOnly(resultData, username, platform, job?.chatAfterOpen);
-      return;
-    }
-
     updateCaseIntro(caseInfo);
     updateRouletteMeta(caseInfo, username);
 
     const timing = getSpinTiming();
-    const spinBuild = buildSpinSequence(caseJson, winner, resultData?.imagePath || "", timing);
+    const caseJson = caseInfo ? await loadCaseJson(caseInfo) : null;
+    if (!caseJson) {
+      debugEmit("[CaseOpen] Case JSON Missing | Using Fallback Spin Sequence", "warning", "debugWinnerCard");
+    }
+
+    const spinBuild = caseJson
+      ? buildSpinSequence(caseJson, winner, resultData?.imagePath || "", timing)
+      : buildFallbackSpinSequence(winner, resultData?.imagePath || "", timing);
     const winnerTile = renderRouletteItems(spinBuild.items);
     setStripX(0);
     setOverlayActive(true);
@@ -1666,7 +1966,7 @@
 
     const metrics = await ensureRouletteMetrics();
     if (!metrics) {
-      await showRevealOnly(resultData, username);
+      await showRevealOnly(resultData, username, platform, job?.chatAfterOpen);
       return;
     }
 
@@ -1939,7 +2239,7 @@
     return images.length ? images[Math.floor(Math.random() * images.length)] : "";
   }
 
-  function buildSpinSequence(caseJson, winner, winnerImagePath, timing) {
+  function computeSpinLayout(timing) {
     const requestedCount = Math.floor(CONFIG.caseSpinItems) || 0;
     const requestedWinnerIndex = Math.floor(CONFIG.caseWinnerIndex) || 0;
     const spinMs = timing
@@ -1952,6 +2252,76 @@
     count = Math.min(120, count);
     const maxWinnerIndex = Math.max(6, count - 6);
     winnerIndex = Math.min(Math.max(winnerIndex, 3), maxWinnerIndex);
+
+    return { count, winnerIndex };
+  }
+
+  function pickFallbackTier(winnerTier) {
+    const wt = normalizeRarity(winnerTier);
+    const tiers = [
+      { key: "blue", weight: 65 },
+      { key: "purple", weight: 20 },
+      { key: "pink", weight: 9 },
+      { key: "red", weight: 5 },
+      { key: "gold", weight: 1 }
+    ];
+
+    // If we know the winner is gold/red/pink, slightly bias upward.
+    if (wt === "gold") tiers[4].weight = 3;
+    if (wt === "red") tiers[3].weight = 8;
+    if (wt === "pink") tiers[2].weight = 14;
+
+    const total = tiers.reduce((sum, t) => sum + t.weight, 0);
+    let roll = Math.random() * total;
+    for (const t of tiers) {
+      roll -= t.weight;
+      if (roll <= 0) return t.key;
+    }
+    return "blue";
+  }
+
+  function buildFallbackSpinSequence(winner, winnerImagePath, timing) {
+    const layout = computeSpinLayout(timing);
+    const winnerTier = winner.tier || winner.rarity || "blue";
+    const winnerImage = String(winnerImagePath || "").trim();
+
+    const fillerNames = [
+      "Unknown Item",
+      "Classified Item",
+      "Rare Item",
+      "Mystery Item"
+    ];
+
+    const items = [];
+    for (let i = 0; i < layout.count; i++) {
+      if (i === layout.winnerIndex) {
+        items.push({
+          displayName: winner.displayName || "Unknown Item",
+          image: winnerImage,
+          tier: winnerTier,
+          rarity: winner.rarity,
+          isWinner: true
+        });
+        continue;
+      }
+
+      const tier = pickFallbackTier(winnerTier);
+      const name = fillerNames[Math.floor(Math.random() * fillerNames.length)];
+      items.push({
+        displayName: name,
+        image: winnerImage,
+        tier,
+        rarity: tier
+      });
+    }
+
+    return { items, winnerIndex: layout.winnerIndex, usedFallback: true };
+  }
+
+  function buildSpinSequence(caseJson, winner, winnerImagePath, timing) {
+    const layout = computeSpinLayout(timing);
+    const count = layout.count;
+    const winnerIndex = layout.winnerIndex;
 
     const winnerEntry = findCaseItem(caseJson, winner.itemId);
     const winnerTier = winner.tier || winnerEntry?.tier || winner.rarity || "blue";

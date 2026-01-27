@@ -1,6 +1,11 @@
 async function () {
   "use strict";
 
+  /*
+   * Command: !unlink
+   * Description: Start unlinking a stream account from a Discord account.
+   * Aliases: !unlink, !unlink @discord, !unlink discordUser
+   */
   const LOG_ENABLED = true;                 // Logs To Lumia Logs
   const CHAT_DEBUG_ENABLED = false;         // If True, Sends A Debug Line To Twitch Chat
   const STORE_KEY = "tcsgo_link_dedupe_v1";

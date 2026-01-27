@@ -5,6 +5,11 @@ async function () {
 
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";
+  const ACK_VAR_OPEN = "tcsgo_last_open_json";
+  const DEFAULT_LINKING_BASE = "Z:\\home\\nike\\Streaming\\TCSGO\\Linking";
+  const DISCORD_INDEX_FILE = "discord-user-index.json";
+  const USER_LINKS_FILE = "user-links.json";
+  const LINK_PLATFORM_PREFERENCE = ["twitch", "youtube", "tiktok"];
   const TRADE_LOCK_DAYS = 7;
   const WEAR_TABLE = [
     { name: "Factory New", weight: 3 },
@@ -34,6 +39,7 @@ async function () {
     if (s.includes("youtube")) return "youtube";
     if (s.includes("twitch")) return "twitch";
     if (s.includes("kick")) return "kick";
+    if (s.includes("discord")) return "discord";
     return s || "twitch";
   }
 
@@ -44,6 +50,15 @@ async function () {
       ? String(process.env.TCSGO_BASE).trim()
       : "";
     return envBase;
+  }
+
+  function safeCwd() {
+    try {
+      if (typeof process !== "undefined" && process.cwd) {
+        return String(process.cwd() || "").trim();
+      }
+    } catch (_) {}
+    return "";
   }
 
   function joinPath(base, rel) {
@@ -127,6 +142,10 @@ async function () {
       setVariable({ name: ACK_VAR, value: payloadStr, global: true });
     } catch (_) {}
 
+    try {
+      setVariable({ name: ACK_VAR_OPEN, value: payloadStr, global: true });
+    } catch (_) {}
+
     logMsg(payloadStr);
   }
 
@@ -137,6 +156,115 @@ async function () {
       return JSON.parse(txt);
     } catch (e) {
       return fallbackObj;
+    }
+  }
+
+  function cleanUser(raw) {
+    return lowerTrim(raw).replace(/^@+/, "");
+  }
+
+  async function resolveLinkingBase() {
+    const base = String(await getVariable("TCSGO_LINKING_BASE") ?? "").trim();
+    if (base) return base;
+    const envBase = (typeof process !== "undefined" && process.env && process.env.TCSGO_LINKING_BASE)
+      ? String(process.env.TCSGO_LINKING_BASE).trim()
+      : "";
+    return envBase || DEFAULT_LINKING_BASE;
+  }
+
+  function pickLinkedAccount(entry) {
+    const linked = entry && typeof entry.linkedAccounts === "object" ? entry.linkedAccounts : null;
+    if (!linked) return null;
+    for (const platform of LINK_PLATFORM_PREFERENCE) {
+      const rec = linked[platform];
+      const usernameLower = cleanUser(rec?.usernameLower || rec?.username);
+      if (usernameLower) return { platform, username: usernameLower };
+    }
+    return null;
+  }
+
+  async function resolveLinkedIdentity(platformRaw, usernameRaw) {
+    const requestedPlatform = normSite(platformRaw || "twitch");
+    const requestedUsername = cleanUser(usernameRaw);
+
+    if (!requestedUsername) {
+      return {
+        requestedPlatform,
+        requestedUsername,
+        effectivePlatform: requestedPlatform,
+        effectiveUsername: requestedUsername,
+        linkedFromDiscord: false,
+        linkStatus: "missing-username"
+      };
+    }
+
+    if (requestedPlatform !== "discord") {
+      return {
+        requestedPlatform,
+        requestedUsername,
+        effectivePlatform: requestedPlatform,
+        effectiveUsername: requestedUsername,
+        linkedFromDiscord: false
+      };
+    }
+
+    try {
+      const linkingBase = await resolveLinkingBase();
+      const indexPath = joinPath(linkingBase, DISCORD_INDEX_FILE);
+      const linksPath = joinPath(linkingBase, USER_LINKS_FILE);
+
+      const [indexRaw, linksRaw] = await Promise.all([
+        safeReadJson(indexPath, null),
+        safeReadJson(linksPath, null)
+      ]);
+
+      const indexUsers = indexRaw && typeof indexRaw.users === "object" ? indexRaw.users : {};
+      const discordId = String(indexUsers[requestedUsername] || "").trim();
+      if (!discordId) {
+        return {
+          requestedPlatform,
+          requestedUsername,
+          effectivePlatform: requestedPlatform,
+          effectiveUsername: requestedUsername,
+          linkedFromDiscord: false,
+          linkStatus: "discord-not-found"
+        };
+      }
+
+      const usersMap = linksRaw && typeof linksRaw.users === "object" ? linksRaw.users : {};
+      const entry = usersMap[discordId];
+      const linked = pickLinkedAccount(entry);
+
+      if (!linked) {
+        return {
+          requestedPlatform,
+          requestedUsername,
+          effectivePlatform: requestedPlatform,
+          effectiveUsername: requestedUsername,
+          linkedFromDiscord: false,
+          linkStatus: "no-linked-account",
+          discordId
+        };
+      }
+
+      return {
+        requestedPlatform,
+        requestedUsername,
+        effectivePlatform: linked.platform,
+        effectiveUsername: linked.username,
+        linkedFromDiscord: true,
+        discordId
+      };
+    } catch (err) {
+      logMsg(`[OPEN] Discord link resolve failed | ${err?.message || err}`);
+      return {
+        requestedPlatform,
+        requestedUsername,
+        effectivePlatform: requestedPlatform,
+        effectiveUsername: requestedUsername,
+        linkedFromDiscord: false,
+        linkStatus: "link-resolve-error"
+      };
     }
   }
 
@@ -273,13 +401,28 @@ async function () {
 
   const t0 = Date.now();
 
-  const basePath = await resolveBasePath();
+  const basePathRaw = await resolveBasePath();
+  const cwdPath = safeCwd();
   const eventId = String(await getVariable("eventId") ?? "");
   const platform = normSite(String(await getVariable("platform") ?? "twitch"));
   const username = String(await getVariable("username") ?? "");
   const alias = String(await getVariable("alias") ?? "");
 
-  logMsg(`[OPEN] Vars | eventId=${eventId} | platform=${platform} | username=${username} | alias=${alias}`);
+  const identity = await resolveLinkedIdentity(platform, username);
+  const effectivePlatform = identity.effectivePlatform;
+  const effectiveUsername = identity.effectiveUsername;
+
+  if (identity.linkedFromDiscord) {
+    logMsg(
+      `[OPEN] Discord mapped | ${identity.requestedPlatform}:${identity.requestedUsername} -> ` +
+      `${effectivePlatform}:${effectiveUsername}`
+    );
+  }
+
+  logMsg(
+    `[OPEN] Vars | eventId=${eventId} | platform=${platform} | username=${username} | alias=${alias} | ` +
+    `effective=${effectivePlatform}:${effectiveUsername} | baseRaw=${basePathRaw || "(empty)"} | cwd=${cwdPath || "(unknown)"}`
+  );
 
   let result;
 
@@ -288,22 +431,54 @@ async function () {
     if (!username) throw mkError("MISSING_USERNAME", "Missing username.");
     if (!alias) throw mkError("MISSING_ALIAS", "Missing alias.");
 
-    const aliasesPath = joinPath(basePath, "data/case-aliases.json");
-    const invPath = joinPath(basePath, "data/inventories.json");
-    const pricesPath = joinPath(basePath, "data/prices.json");
+    const baseCandidates = [];
+    if (basePathRaw) baseCandidates.push(basePathRaw);
+    baseCandidates.push(""); // allow relative paths from the current worker directory
+    if (cwdPath && !baseCandidates.includes(cwdPath)) baseCandidates.push(cwdPath);
 
-    const [aliasDb, inv, prices] = await Promise.all([
-      safeReadJson(aliasesPath, null),
-      safeReadJson(invPath, null),
-      safeReadJson(pricesPath, null)
-    ]);
+    let basePathUsed = "";
+    let aliasesPath = "";
+    let invPath = "";
+    let pricesPath = "";
+    let aliasDb = null;
+    let inv = null;
+    let prices = null;
+
+    for (const baseCandidate of baseCandidates) {
+      const aPath = joinPath(baseCandidate, "data/case-aliases.json");
+      const iPath = joinPath(baseCandidate, "data/inventories.json");
+      const pPath = joinPath(baseCandidate, "data/prices.json");
+
+      const [aDb, iDb, pDb] = await Promise.all([
+        safeReadJson(aPath, null),
+        safeReadJson(iPath, null),
+        safeReadJson(pPath, null)
+      ]);
+
+      if (aDb && iDb && pDb) {
+        basePathUsed = baseCandidate;
+        aliasesPath = aPath;
+        invPath = iPath;
+        pricesPath = pPath;
+        aliasDb = aDb;
+        inv = iDb;
+        prices = pDb;
+        break;
+      }
+    }
 
     if (!aliasDb || !inv || !prices) {
+      const baseLabel = basePathRaw ? `base=${basePathRaw}` : "base=(empty)";
+      const cwdLabel = cwdPath ? `cwd=${cwdPath}` : "cwd=(unknown)";
       throw mkError(
-        basePath ? "LOAD_ERROR" : "MISSING_TCSGO_BASE",
-        basePath ? "Failed to load data." : "Missing TCSGO_BASE or working directory is not TCSGO."
+        basePathRaw ? "LOAD_ERROR" : "MISSING_TCSGO_BASE",
+        basePathRaw
+          ? `Failed to load data. ${baseLabel} | ${cwdLabel}`
+          : `Missing TCSGO_BASE or working directory is not TCSGO. ${cwdLabel}`
       );
     }
+
+    logMsg(`[OPEN] Base Path | used=${basePathUsed || "(relative)"}`);
 
     const aliasKey = lowerTrim(alias);
     const ca = aliasDb?.aliases?.[aliasKey];
@@ -318,7 +493,7 @@ async function () {
     if (!filename) throw mkError("CASE_NOT_FOUND", `Missing filename for alias: ${aliasKey}`);
 
     const invRoot = ensureInventoryRoot(inv);
-    const identityKey = `${lowerTrim(platform)}:${lowerTrim(username)}`;
+    const identityKey = `${lowerTrim(effectivePlatform)}:${lowerTrim(effectiveUsername)}`;
     const nowIso = new Date().toISOString();
     const { inventory: user } = getOrCreateInventory(invRoot, identityKey, nowIso);
 
@@ -331,7 +506,7 @@ async function () {
       throw mkError("NO_KEY", "Key required");
     }
 
-    const caseJsonPath = joinPath(basePath, `Case-Odds/${filename}`);
+    const caseJsonPath = joinPath(basePathUsed, `Case-Odds/${filename}`);
     const caseJson = await safeReadJson(caseJsonPath, null);
     if (!caseJson) throw mkError("CASE_NOT_FOUND", `Load failed: ${filename}`);
 
@@ -383,6 +558,14 @@ async function () {
       username,
       data: {
         eventId,
+        alias: aliasKey,
+        caseId,
+        caseDisplayName: displayName,
+        caseFilename: filename,
+        requiresKey,
+        effectivePlatform,
+        effectiveUsername,
+        linkedFromDiscord: identity.linkedFromDiscord,
         winner: {
           oid: oi.oid,
           itemId: oi.itemId,
@@ -408,7 +591,10 @@ async function () {
       }
     };
 
-    logMsg(`[OPEN] Success | ${username} Opened ${oi.displayName} | oid=${oi.oid}`);
+    const successSuffix = identity.linkedFromDiscord
+      ? ` | effective=${effectivePlatform}:${effectiveUsername}`
+      : "";
+    logMsg(`[OPEN] Success | ${username} Opened ${oi.displayName} | oid=${oi.oid}${successSuffix}`);
 
   } catch (err) {
     const e =

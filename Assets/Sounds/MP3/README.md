@@ -1,32 +1,37 @@
 # TCSGO Sound Assets
 
-This folder should contain the following sound files for the case opening animation:
+This folder contains MP3 sound effects used by the case-opening overlay. The default file names are referenced by `lumia-overlays/case-opening/configs.json`.
 
-## Required Files
+## Required files
 
-| File | Description | Recommended Duration |
-|------|-------------|---------------------|
-| `tick.mp3` | Short tick sound when reel cards pass the marker | ~50-100ms |
-| `reveal.mp3` | Sound when final item is revealed (standard items) | ~1-2s |
-| `rare.mp3` | Special sound for pink/red tier items | ~2-3s |
-| `gold-reveal.mp3` | Epic sound for gold tier (knives/gloves) | ~3-5s |
+| File | Used by config key | Purpose | Recommended length |
+| --- | --- | --- | --- |
+| `tick.mp3` | `sfxTick` | Tick sound as items pass the marker | ~50-100ms |
+| `reveal.mp3` | `sfxReveal` | Normal item reveal | ~1-2s |
+| `rare.mp3` | `sfxRare` | Pink/red rarity reveal | ~2-3s |
+| `gold-reveal.mp3` | `sfxGold` | Gold rarity reveal | ~3-5s |
 
-## Sourcing Sounds
+Other sounds are referenced outside this folder:
+- `Assets/Sounds/TCSGO_Sound_Assets/menu_accept.mp3` (`sfxAccept`)
+- `Assets/Sounds/MP3/csgo_ui_crate_open.mp3` (`sfxOpen`)
 
-You can extract these sounds from:
-1. CS:GO/CS2 game files (search for case opening sounds)
-2. Free sound effect libraries (freesound.org, mixkit.co)
-3. Create custom sounds
-
-## File Format
+## File format guidance
 
 - Format: MP3
-- Sample Rate: 44100 Hz
+- Sample rate: 44.1 kHz
 - Bitrate: 128-192 kbps
 - Channels: Stereo or Mono
 
-## Notes
+## Usage notes
 
-- Keep file sizes small for fast loading
-- The tick sound will play rapidly during the spin, so it should be very short
-- Test sounds at various volumes as stream audio levels vary
+- Tick sounds fire rapidly and should be short with minimal tail.
+- Volume is controlled by `sfxVolume` and `sfxTickVolume` in `configs.json`.
+- If you change file names, update the config paths to match.
+- Keep file sizes small for fast overlay loading.
+
+## Quick verification
+
+To verify the overlay can load sounds:
+1. Open the overlay and run an `!open` command.
+2. Confirm tick sounds during spin and reveal sounds at the end.
+3. If no sound plays, check that the file paths in `configs.json` are valid relative to the repo root.

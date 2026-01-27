@@ -15,7 +15,7 @@
     "type": "number",
     "label": "Commit Ack Timeout (Ms)",
     "order": 3,
-    "value": 3000
+    "value": 8000
   },
   "feePercent": {
     "type": "number",
@@ -238,6 +238,18 @@
     "label": "Commit Command Name: Sell Confirm",
     "order": 19,
     "value": "tcsgo-commit-sell-confirm"
+  },
+  "commitSellAllStart": {
+    "type": "input",
+    "label": "Commit Command Name: Sell All Start (!sell all)",
+    "order": 19.1,
+    "value": "tcsgo-commit-sell-all-start"
+  },
+  "commitSellAllConfirm": {
+    "type": "input",
+    "label": "Commit Command Name: Sell All Confirm (!sell all <code>)",
+    "order": 19.2,
+    "value": "tcsgo-commit-sell-all-confirm"
   },
   "debugInit": {
     "type": "checkbox",

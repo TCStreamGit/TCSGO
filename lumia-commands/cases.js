@@ -1,6 +1,11 @@
 async function () {
   "use strict";
 
+  /*
+   * Command: !cases
+   * Description: List available cases with paging and optional filters.
+   * Aliases: !cases, !case-list, !tcsgo-cases
+   */
   const LOG_ENABLED = true;
   const PAGE_SIZE = 5;
   const TIKTOK_SEND_COMMAND = "tiktok_chat_send";

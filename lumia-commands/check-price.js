@@ -1,6 +1,11 @@
 async function () {
   "use strict";
 
+  /*
+   * Command: !check-price
+   * Description: Check the value and source case for an item or OID.
+   * Aliases: !checkprice, !check-price, !check price, !price
+   */
   const LOG_ENABLED = true;
   const TIKTOK_SEND_COMMAND = "tiktok_chat_send";
 

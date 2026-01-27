@@ -5,11 +5,12 @@ async function () {
 
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";
-  const ACK_VAR_BUYCASE = "tcsgo_last_buycase_json";
+  const ACK_VAR_SELL_ALL_START = "tcsgo_last_sell_all_start_json";
   const DEFAULT_LINKING_BASE = "Z:\\home\\nike\\Streaming\\TCSGO\\Linking";
   const DISCORD_INDEX_FILE = "discord-user-index.json";
   const USER_LINKS_FILE = "user-links.json";
   const LINK_PLATFORM_PREFERENCE = ["twitch", "youtube", "tiktok"];
+  const SELL_ALL_TOKEN_EXPIRATION_SECONDS = 60;
 
   // ============================================================
   // HELPERS
@@ -51,8 +52,10 @@ async function () {
     return b ? `${b}${sep}${r}` : r;
   }
 
-  function mkError(code, message) {
-    return { code: String(code || "ERROR"), message: String(message || "Unknown Error") };
+  function mkError(code, message, details = null) {
+    const err = { code: String(code || "ERROR"), message: String(message || "Unknown Error") };
+    if (details && typeof details === "object") err.details = details;
+    return err;
   }
 
   function uuidv4() {
@@ -125,7 +128,7 @@ async function () {
     } catch (_) {}
 
     try {
-      setVariable({ name: ACK_VAR_BUYCASE, value: payloadStr, global: true });
+      setVariable({ name: ACK_VAR_SELL_ALL_START, value: payloadStr, global: true });
     } catch (_) {}
 
     logMsg(payloadStr);
@@ -155,20 +158,32 @@ async function () {
   }
 
   function pickLinkedAccount(entry) {
-    const linkedAccounts = entry && typeof entry.linkedAccounts === "object" ? entry.linkedAccounts : {};
+    const linked = entry && typeof entry.linkedAccounts === "object" ? entry.linkedAccounts : null;
+    if (!linked) return null;
     for (const platform of LINK_PLATFORM_PREFERENCE) {
-      const acct = linkedAccounts[platform];
-      if (!acct || typeof acct !== "object") continue;
-      const username = String(acct.usernameLower || acct.username || acct.login || "").trim();
-      if (username) return { platform, username: cleanUser(username) };
+      const rec = linked[platform];
+      const usernameLower = cleanUser(rec?.usernameLower || rec?.username);
+      if (usernameLower) return { platform, username: usernameLower };
     }
     return null;
   }
 
   async function resolveLinkedIdentity(platformRaw, usernameRaw) {
-    const requestedPlatform = normSite(platformRaw);
+    const requestedPlatform = normSite(platformRaw || "twitch");
     const requestedUsername = cleanUser(usernameRaw);
-    if (requestedPlatform !== "discord" || !requestedUsername) {
+
+    if (!requestedUsername) {
+      return {
+        requestedPlatform,
+        requestedUsername,
+        effectivePlatform: requestedPlatform,
+        effectiveUsername: requestedUsername,
+        linkedFromDiscord: false,
+        linkStatus: "missing-username"
+      };
+    }
+
+    if (requestedPlatform !== "discord") {
       return {
         requestedPlatform,
         requestedUsername,
@@ -226,7 +241,7 @@ async function () {
         discordId
       };
     } catch (err) {
-      logMsg(`[BUYCASE] Discord link resolve failed | ${err?.message || err}`);
+      logMsg(`[SELLALLSTART] Discord link resolve failed | ${err?.message || err}`);
       return {
         requestedPlatform,
         requestedUsername,
@@ -250,7 +265,6 @@ async function () {
   }
 
   async function safeWriteFile(path, content) {
-    // Prefer the command-style signature first to avoid worker errors.
     const attempts = [
       () => writeFile({ path, message: content, append: false }),
       () => writeFile(path, content)
@@ -271,12 +285,33 @@ async function () {
     logMsg(`[WriteFile] Error | path=${path} | ${lastErr?.message ?? lastErr}`);
     return false;
   }
-  
 
   async function safeWriteJson(fullPath, obj) {
     const out = JSON.stringify(obj, null, 2) + "\n";
     const ok = await safeWriteFile(fullPath, out);
     if (!ok) throw new Error("Write Failed (All Methods)");
+  }
+
+  function generateSellAllToken() {
+    return `sellall_${Date.now().toString(36)}_${Math.random().toString(36).substring(2, 10)}`;
+  }
+
+  function checkLock(lu) {
+    const r = Math.max(0, new Date(lu).getTime() - Date.now());
+    return { locked: r > 0, remainingMs: r, remainingFormatted: formatDuration(r) };
+  }
+
+  function formatDuration(ms) {
+    if (ms <= 0) return "0s";
+    const s = Math.floor(ms / 1000), m = Math.floor(s / 60), h = Math.floor(m / 60), d = Math.floor(h / 24);
+    if (d > 0) return `${d}d ${h % 24}h`;
+    if (h > 0) return `${h}h ${m % 60}m`;
+    if (m > 0) return `${m}m ${s % 60}s`;
+    return `${s}s`;
+  }
+
+  function calculateCreditAfterFee(coins, fee) {
+    return Math.floor(coins * (1 - fee / 100));
   }
 
   // ============================================================
@@ -289,9 +324,6 @@ async function () {
   const eventId = String(await getVariable("eventId") ?? "");
   const platform = normSite(String(await getVariable("platform") ?? "twitch"));
   const username = String(await getVariable("username") ?? "");
-  const alias = String(await getVariable("alias") ?? "");
-  const qtyRaw = await getVariable("qty");
-  const qty = Math.max(1, parseInt(qtyRaw, 10) || 1);
 
   const identity = await resolveLinkedIdentity(platform, username);
   const effectivePlatform = identity.effectivePlatform;
@@ -299,12 +331,14 @@ async function () {
 
   if (identity.linkedFromDiscord) {
     logMsg(
-      `[BUYCASE] Discord mapped | ${identity.requestedPlatform}:${identity.requestedUsername} -> ${effectivePlatform}:${effectiveUsername}`
+      `[SELLALLSTART] Discord mapped | ${identity.requestedPlatform}:${identity.requestedUsername} -> ` +
+      `${effectivePlatform}:${effectiveUsername}`
     );
   }
 
   logMsg(
-    `[BUYCASE] Vars | eventId=${eventId} | platform=${platform} | username=${username} | alias=${alias} | qty=${qty} | effective=${effectivePlatform}:${effectiveUsername}`
+    `[SELLALLSTART] Vars | eventId=${eventId} | platform=${platform} | username=${username} | ` +
+    `effective=${effectivePlatform}:${effectiveUsername}`
   );
 
   let result;
@@ -312,54 +346,96 @@ async function () {
   try {
     if (!eventId) throw mkError("MISSING_EVENT_ID", "Missing eventId.");
     if (!username) throw mkError("MISSING_USERNAME", "Missing username.");
-    if (!alias) throw mkError("MISSING_ALIAS", "Missing alias.");
 
-    const aliasesPath = joinPath(basePath, "data/case-aliases.json");
     const invPath = joinPath(basePath, "data/inventories.json");
+    const pricesPath = joinPath(basePath, "data/prices.json");
 
-    const aliasDb = await safeReadJson(aliasesPath, null);
-    const aliasKey = lowerTrim(alias);
+    const [inv, prices] = await Promise.all([
+      safeReadJson(invPath, null),
+      safeReadJson(pricesPath, null)
+    ]);
 
-    if (!aliasDb) {
+    if (!inv || !prices) {
       throw mkError(
         basePath ? "LOAD_ERROR" : "MISSING_TCSGO_BASE",
         basePath ? "Failed to load data." : "Missing TCSGO_BASE or working directory is not TCSGO."
       );
     }
 
-    if (!aliasDb?.aliases?.[aliasKey]) {
-      throw mkError("ALIAS_NOT_FOUND", `Unknown Case Alias: ${aliasKey}`);
-    }
-
-    const hit = aliasDb.aliases[aliasKey];
-    const caseId = String(hit.caseId || "");
-    const displayName = String(hit.displayName || hit.name || caseId || aliasKey);
-
-    if (!caseId) throw mkError("BAD_ALIAS_RECORD", `Alias Missing caseId: ${aliasKey}`);
-
-    let inv = await safeReadJson(invPath, null);
-    if (!inv) {
-      if (!basePath) {
-        throw mkError("MISSING_TCSGO_BASE", "Missing TCSGO_BASE or working directory is not TCSGO.");
-      }
-      inv = createEmptyInventories();
-    }
-    inv = ensureInventoryRoot(inv);
-
+    const invRoot = ensureInventoryRoot(inv);
     const identityKey = `${lowerTrim(effectivePlatform)}:${lowerTrim(effectiveUsername)}`;
     const nowIso = new Date().toISOString();
-    const { inventory: u } = getOrCreateInventory(inv, identityKey, nowIso);
+    const { inventory: user } = getOrCreateInventory(invRoot, identityKey, nowIso);
 
-    const prev = parseInt(u.cases[caseId] ?? 0, 10) || 0;
-    const next = prev + qty;
-    u.cases[caseId] = next;
+    if (!Array.isArray(user.items)) user.items = [];
+    if (user.items.length === 0) {
+      throw mkError("NO_ITEMS", "No items in inventory.");
+    }
 
-    inv.lastModified = new Date().toISOString();
+    if (user.pendingSell && Date.now() < new Date(user.pendingSell.expiresAt).getTime()) {
+      throw mkError("PENDING_SELL_EXISTS", "Pending sell exists.", { existingOid: user.pendingSell.oid || "all" });
+    }
 
-    await safeWriteJson(invPath, inv);
+    const fee = prices.marketFeePercent || 10;
+
+    const eligibleOids = [];
+    let eligibleCount = 0;
+    let lockedCount = 0;
+    let unsellableCount = 0;
+    let totalCredit = 0;
+
+    for (const item of user.items) {
+      const lockStatus = checkLock(item?.lockedUntil);
+      if (lockStatus.locked) {
+        lockedCount += 1;
+        continue;
+      }
+
+      const coinsRaw = Number(item?.priceSnapshot?.chosenCoins ?? 0);
+      const coins = Number.isFinite(coinsRaw) ? coinsRaw : 0;
+      const credit = calculateCreditAfterFee(coins, fee);
+      if (!Number.isFinite(credit) || credit <= 0) {
+        unsellableCount += 1;
+        continue;
+      }
+
+      const oid = String(item?.oid || "");
+      if (!oid) continue;
+
+      eligibleOids.push(oid);
+      eligibleCount += 1;
+      totalCredit += credit;
+    }
+
+    if (eligibleCount === 0) {
+      const msgParts = [];
+      if (lockedCount > 0) msgParts.push(`${lockedCount} locked`);
+      if (unsellableCount > 0) msgParts.push(`${unsellableCount} unsellable`);
+      const suffix = msgParts.length ? ` (${msgParts.join(", ")})` : "";
+      throw mkError("NO_ELIGIBLE_ITEMS", `No eligible items to sell${suffix}.`, { lockedCount, unsellableCount });
+    }
+
+    const token = generateSellAllToken();
+    const expiresAt = new Date(Date.now() + SELL_ALL_TOKEN_EXPIRATION_SECONDS * 1000).toISOString();
+
+    user.pendingSell = {
+      token,
+      mode: "all",
+      oid: "all",
+      expiresAt,
+      oids: eligibleOids,
+      itemCount: eligibleCount,
+      lockedCount,
+      unsellableCount,
+      creditAmount: totalCredit,
+      feePercent: fee
+    };
+    invRoot.lastModified = new Date().toISOString();
+
+    await safeWriteJson(invPath, invRoot);
 
     result = {
-      type: "buycase-result",
+      type: "sell-all-start-result",
       ok: true,
       eventId,
       platform,
@@ -369,36 +445,48 @@ async function () {
         effectivePlatform,
         effectiveUsername,
         linkedFromDiscord: identity.linkedFromDiscord,
-        caseId,
-        displayName,
-        qty,
-        newCount: next,
+        token,
+        expiresAt,
+        expiresInSeconds: SELL_ALL_TOKEN_EXPIRATION_SECONDS,
+        eligibleCount,
+        lockedCount,
+        unsellableCount,
+        creditAmount: totalCredit,
+        marketFeePercent: fee,
         timings: { msTotal: Date.now() - t0 }
       }
     };
 
-    const successSuffix = identity.linkedFromDiscord ? ` | effective=${effectivePlatform}:${effectiveUsername}` : "";
-    logMsg(`[BUYCASE] Success | ${username} Bought ${qty}x ${displayName} | NewCount=${next}${successSuffix}`);
+    const successSuffix = identity.linkedFromDiscord
+      ? ` | effective=${effectivePlatform}:${effectiveUsername}`
+      : "";
+    logMsg(`[SELLALLSTART] Success | ${username} token=${token} | eligible=${eligibleCount} | +${totalCredit}${successSuffix}`);
 
   } catch (err) {
     const e =
       (err && typeof err === "object" && ("code" in err) && ("message" in err))
         ? err
-        : mkError("BUYCASE_FAILED", (err && err.message) ? err.message : String(err));
+        : mkError("SELL_ALL_START_FAILED", (err && err.message) ? err.message : String(err));
 
     result = {
-      type: "buycase-result",
+      type: "sell-all-start-result",
       ok: false,
-      eventId: eventId || "",
+      eventId,
       platform,
       username,
-      error: e,
-      data: { timings: { msTotal: Date.now() - t0 } }
+      error: {
+        code: e.code,
+        message: e.message,
+        details: e.details || null
+      },
+      data: {
+        eventId,
+        timings: { msTotal: Date.now() - t0 }
+      }
     };
 
-    logMsg(`[BUYCASE] Error | ${e.code} - ${e.message}`);
+    logMsg(`[SELLALLSTART] Error | ${e.code} | ${e.message}`);
   }
 
   dualAck(result);
-  done();
 }

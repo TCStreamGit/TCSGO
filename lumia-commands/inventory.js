@@ -1,6 +1,11 @@
 async function () {
   "use strict";
 
+  /*
+   * Command: !inventory
+   * Description: List a viewer's inventory with paging and lock status.
+   * Aliases: !inventory, !inv, !tcsgo-inventory
+   */
   const LOG_ENABLED = true;
   const PAGE_SIZE = 5;
   const TIKTOK_SEND_COMMAND = "tiktok_chat_send";

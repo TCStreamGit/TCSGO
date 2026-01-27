@@ -1,6 +1,11 @@
 async function () {
   "use strict";
 
+  /*
+   * Command: !help
+   * Description: Show the viewer command list in pages.
+   * Aliases: !help, !commands, !tcsgo-help
+   */
   const LOG_ENABLED = true;
   const COMMAND_PREFIX = "!";
   const PAGE_SIZE = 5;
@@ -88,12 +93,15 @@ async function () {
     { usage: `${COMMAND_PREFIX}help [page]`, desc: "Show command list (5 per page)." },
     { usage: `${COMMAND_PREFIX}cases [page] [tag]`, desc: "List available cases (paged, optional filter)." },
     { usage: `${COMMAND_PREFIX}inventory [page]`, desc: "List your owned items (paged)." },
-    { usage: `${COMMAND_PREFIX}checkprice [oid|itemId]`, desc: "Check item value and source case." },
-    { usage: `${COMMAND_PREFIX}buycase <alias> [qty]`, desc: "Buy cases with coins." },
-    { usage: `${COMMAND_PREFIX}buykey [qty]`, desc: "Buy keys with coins." },
+    { usage: `${COMMAND_PREFIX}coins`, desc: "Show your current coin balance." },
+    { usage: `${COMMAND_PREFIX}check-price [oid|itemId]`, desc: "Check item value and source case." },
+    { usage: `${COMMAND_PREFIX}buy-case <alias> [qty]`, desc: "Buy cases with coins." },
+    { usage: `${COMMAND_PREFIX}buy-key [qty]`, desc: "Buy keys with coins." },
     { usage: `${COMMAND_PREFIX}open <alias>`, desc: "Open a case you own." },
-    { usage: `${COMMAND_PREFIX}sell <oid>`, desc: "Start selling an item." },
-    { usage: `${COMMAND_PREFIX}sellconfirm <token>`, desc: "Confirm a sale token." }
+    { usage: `${COMMAND_PREFIX}sell <oid|itemId|itemName>`, desc: "Start selling a single item." },
+    { usage: `${COMMAND_PREFIX}sell all`, desc: "Start selling your entire inventory." },
+    { usage: `${COMMAND_PREFIX}sell all <code>`, desc: "Confirm a sell-all using its code." },
+    { usage: `${COMMAND_PREFIX}sell-confirm <token>`, desc: "Confirm a single-item sale token." }
   ];
 
   const totalPages = Math.max(1, Math.ceil(commands.length / PAGE_SIZE));

@@ -42,6 +42,10 @@
       {
         "name": "tcsgo_last_event_json",
         "purpose": "Fallback ACK Channel. Commit Commands Write The Latest Result Payload Here So The Overlay Can Poll And Deduplicate By eventId."
+      },
+      {
+        "name": "tcsgo_open_overlay_done_v1",
+        "purpose": "Overlay completion ACK for case openings so Lumia can queue the next command."
       }
     ],
     "eventSubscriptions": [
@@ -57,7 +61,8 @@
     "The Overlay Deduplicates Responses By eventId (Required).",
     "Viewer Command Names And Commit Command Names Are Now Configurable In configs.json.",
     "Set baseRawUrl In configs.json So The Overlay Can Fetch data/case-aliases.json And data/prices.json If Storage Is Empty.",
-    "Case openings fetch Case-Odds/<filename> to build the roulette strip; keep baseRawUrl set or cache the case JSON in storage."
+    "Case openings fetch Case-Odds/<filename> to build the roulette strip; keep baseRawUrl set or cache the case JSON in storage.",
+    "Sell All uses commitSellAllStart/commitSellAllConfirm and confirms via !sell all <code>."
   ],
   "codeId": "tcsgo-controller",
   "cmdOpen": "open",
@@ -104,7 +109,7 @@
   "debugPoints": true,
   "debugRouter": false,
   "description": "Chat-Driven CS:GO/CS2 Case System Controller For Buying, Opening, And Selling With Dual-Receive ACK Routing (OverlayContent + Variable Poll Fallback).",
-  "ackTimeoutMs": 3000,
+  "ackTimeoutMs": 8000,
   "commitBuyKey": "tcsgo-commit-buykey",
   "debugBuyCase": true,
   "debugEnabled": true,
@@ -145,6 +150,8 @@
   "debugSellConfirm": false,
   "debugUnsolicited": false,
   "commitSellConfirm": "tcsgo-commit-sell-confirm",
+  "commitSellAllStart": "tcsgo-commit-sell-all-start",
+  "commitSellAllConfirm": "tcsgo-commit-sell-all-confirm",
   "debugEventsPrimary": false,
   "configurableCommands": {
     "commit": {
@@ -152,7 +159,9 @@
       "buykeyKey": "commitBuyKey",
       "buycaseKey": "commitBuyCase",
       "sellStartKey": "commitSellStart",
-      "sellConfirmKey": "commitSellConfirm"
+      "sellConfirmKey": "commitSellConfirm",
+      "sellAllStartKey": "commitSellAllStart",
+      "sellAllConfirmKey": "commitSellAllConfirm"
     },
     "viewer": {
       "openKey": "cmdOpen",

@@ -1,0 +1,4376 @@
+{
+  "schemaVersion": "1.0-case-aliases",
+  "generatedAt": "2026-01-21T22:15:18.856629Z",
+  "aliases": {
+    "antwerp-2022-ancient": {
+      "caseId": "antwerp-2022-ancient-souvenir-package",
+      "filename": "Antwerp_2022_Ancient_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp-2022-ancient-souvenir-package": {
+      "caseId": "antwerp-2022-ancient-souvenir-package",
+      "filename": "Antwerp_2022_Ancient_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp-2022-dust-ii": {
+      "caseId": "antwerp-2022-dust-ii-souvenir-package",
+      "filename": "Antwerp_2022_Dust_II_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp-2022-dust-ii-souvenir-package": {
+      "caseId": "antwerp-2022-dust-ii-souvenir-package",
+      "filename": "Antwerp_2022_Dust_II_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp-2022-inferno": {
+      "caseId": "antwerp-2022-inferno-souvenir-package",
+      "filename": "Antwerp_2022_Inferno_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp-2022-inferno-souvenir-package": {
+      "caseId": "antwerp-2022-inferno-souvenir-package",
+      "filename": "Antwerp_2022_Inferno_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp-2022-nuke": {
+      "caseId": "antwerp-2022-nuke-souvenir-package",
+      "filename": "Antwerp_2022_Nuke_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp-2022-nuke-souvenir-package": {
+      "caseId": "antwerp-2022-nuke-souvenir-package",
+      "filename": "Antwerp_2022_Nuke_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp-2022-vertigo": {
+      "caseId": "antwerp-2022-vertigo-souvenir-package",
+      "filename": "Antwerp_2022_Vertigo_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp-2022-vertigo-souvenir-package": {
+      "caseId": "antwerp-2022-vertigo-souvenir-package",
+      "filename": "Antwerp_2022_Vertigo_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp2022ancient": {
+      "caseId": "antwerp-2022-ancient-souvenir-package",
+      "filename": "Antwerp_2022_Ancient_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp2022ancientsouvenirpackage": {
+      "caseId": "antwerp-2022-ancient-souvenir-package",
+      "filename": "Antwerp_2022_Ancient_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp2022dustii": {
+      "caseId": "antwerp-2022-dust-ii-souvenir-package",
+      "filename": "Antwerp_2022_Dust_II_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp2022dustiisouvenirpackage": {
+      "caseId": "antwerp-2022-dust-ii-souvenir-package",
+      "filename": "Antwerp_2022_Dust_II_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp2022inferno": {
+      "caseId": "antwerp-2022-inferno-souvenir-package",
+      "filename": "Antwerp_2022_Inferno_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp2022infernosouvenirpackage": {
+      "caseId": "antwerp-2022-inferno-souvenir-package",
+      "filename": "Antwerp_2022_Inferno_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp2022nuke": {
+      "caseId": "antwerp-2022-nuke-souvenir-package",
+      "filename": "Antwerp_2022_Nuke_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp2022nukesouvenirpackage": {
+      "caseId": "antwerp-2022-nuke-souvenir-package",
+      "filename": "Antwerp_2022_Nuke_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp2022vertigo": {
+      "caseId": "antwerp-2022-vertigo-souvenir-package",
+      "filename": "Antwerp_2022_Vertigo_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "antwerp2022vertigosouvenirpackage": {
+      "caseId": "antwerp-2022-vertigo-souvenir-package",
+      "filename": "Antwerp_2022_Vertigo_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "anubis": {
+      "caseId": "anubis-collection-package",
+      "filename": "Anubis_Collection_Package.json",
+      "displayName": "Anubis Collection Package",
+      "requiresKey": false
+    },
+    "anubis-collection-package": {
+      "caseId": "anubis-collection-package",
+      "filename": "Anubis_Collection_Package.json",
+      "displayName": "Anubis Collection Package",
+      "requiresKey": false
+    },
+    "anubiscollectionpackage": {
+      "caseId": "anubis-collection-package",
+      "filename": "Anubis_Collection_Package.json",
+      "displayName": "Anubis Collection Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-cache": {
+      "caseId": "atlanta-2017-cache-souvenir-package",
+      "filename": "Atlanta_2017_Cache_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-cache-souvenir-package": {
+      "caseId": "atlanta-2017-cache-souvenir-package",
+      "filename": "Atlanta_2017_Cache_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-cobblestone": {
+      "caseId": "atlanta-2017-cobblestone-souvenir-package",
+      "filename": "Atlanta_2017_Cobblestone_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-cobblestone-souvenir-package": {
+      "caseId": "atlanta-2017-cobblestone-souvenir-package",
+      "filename": "Atlanta_2017_Cobblestone_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-dust-ii": {
+      "caseId": "atlanta-2017-dust-ii-souvenir-package",
+      "filename": "Atlanta_2017_Dust_II_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-dust-ii-souvenir-package": {
+      "caseId": "atlanta-2017-dust-ii-souvenir-package",
+      "filename": "Atlanta_2017_Dust_II_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-mirage": {
+      "caseId": "atlanta-2017-mirage-souvenir-package",
+      "filename": "Atlanta_2017_Mirage_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-mirage-souvenir-package": {
+      "caseId": "atlanta-2017-mirage-souvenir-package",
+      "filename": "Atlanta_2017_Mirage_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-nuke": {
+      "caseId": "atlanta-2017-nuke-souvenir-package",
+      "filename": "Atlanta_2017_Nuke_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-nuke-souvenir-package": {
+      "caseId": "atlanta-2017-nuke-souvenir-package",
+      "filename": "Atlanta_2017_Nuke_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-overpass": {
+      "caseId": "atlanta-2017-overpass-souvenir-package",
+      "filename": "Atlanta_2017_Overpass_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-overpass-souvenir-package": {
+      "caseId": "atlanta-2017-overpass-souvenir-package",
+      "filename": "Atlanta_2017_Overpass_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-train": {
+      "caseId": "atlanta-2017-train-souvenir-package",
+      "filename": "Atlanta_2017_Train_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta-2017-train-souvenir-package": {
+      "caseId": "atlanta-2017-train-souvenir-package",
+      "filename": "Atlanta_2017_Train_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017cache": {
+      "caseId": "atlanta-2017-cache-souvenir-package",
+      "filename": "Atlanta_2017_Cache_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017cachesouvenirpackage": {
+      "caseId": "atlanta-2017-cache-souvenir-package",
+      "filename": "Atlanta_2017_Cache_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017cobblestone": {
+      "caseId": "atlanta-2017-cobblestone-souvenir-package",
+      "filename": "Atlanta_2017_Cobblestone_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017cobblestonesouvenirpackage": {
+      "caseId": "atlanta-2017-cobblestone-souvenir-package",
+      "filename": "Atlanta_2017_Cobblestone_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017dustii": {
+      "caseId": "atlanta-2017-dust-ii-souvenir-package",
+      "filename": "Atlanta_2017_Dust_II_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017dustiisouvenirpackage": {
+      "caseId": "atlanta-2017-dust-ii-souvenir-package",
+      "filename": "Atlanta_2017_Dust_II_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017mirage": {
+      "caseId": "atlanta-2017-mirage-souvenir-package",
+      "filename": "Atlanta_2017_Mirage_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017miragesouvenirpackage": {
+      "caseId": "atlanta-2017-mirage-souvenir-package",
+      "filename": "Atlanta_2017_Mirage_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017nuke": {
+      "caseId": "atlanta-2017-nuke-souvenir-package",
+      "filename": "Atlanta_2017_Nuke_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017nukesouvenirpackage": {
+      "caseId": "atlanta-2017-nuke-souvenir-package",
+      "filename": "Atlanta_2017_Nuke_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017overpass": {
+      "caseId": "atlanta-2017-overpass-souvenir-package",
+      "filename": "Atlanta_2017_Overpass_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017overpasssouvenirpackage": {
+      "caseId": "atlanta-2017-overpass-souvenir-package",
+      "filename": "Atlanta_2017_Overpass_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017train": {
+      "caseId": "atlanta-2017-train-souvenir-package",
+      "filename": "Atlanta_2017_Train_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "atlanta2017trainsouvenirpackage": {
+      "caseId": "atlanta-2017-train-souvenir-package",
+      "filename": "Atlanta_2017_Train_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "austin-2025-dust-ii": {
+      "caseId": "austin-2025-dust-ii-souvenir-package",
+      "filename": "Austin_2025_Dust_II_Souvenir_Package.json",
+      "displayName": "Austin 2025 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "austin-2025-dust-ii-souvenir-package": {
+      "caseId": "austin-2025-dust-ii-souvenir-package",
+      "filename": "Austin_2025_Dust_II_Souvenir_Package.json",
+      "displayName": "Austin 2025 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "austin-2025-inferno": {
+      "caseId": "austin-2025-inferno-souvenir-package",
+      "filename": "Austin_2025_Inferno_Souvenir_Package.json",
+      "displayName": "Austin 2025 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "austin-2025-inferno-souvenir-package": {
+      "caseId": "austin-2025-inferno-souvenir-package",
+      "filename": "Austin_2025_Inferno_Souvenir_Package.json",
+      "displayName": "Austin 2025 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "austin-2025-train": {
+      "caseId": "austin-2025-train-souvenir-package",
+      "filename": "Austin_2025_Train_Souvenir_Package.json",
+      "displayName": "Austin 2025 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "austin-2025-train-souvenir-package": {
+      "caseId": "austin-2025-train-souvenir-package",
+      "filename": "Austin_2025_Train_Souvenir_Package.json",
+      "displayName": "Austin 2025 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "austin2025dustii": {
+      "caseId": "austin-2025-dust-ii-souvenir-package",
+      "filename": "Austin_2025_Dust_II_Souvenir_Package.json",
+      "displayName": "Austin 2025 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "austin2025dustiisouvenirpackage": {
+      "caseId": "austin-2025-dust-ii-souvenir-package",
+      "filename": "Austin_2025_Dust_II_Souvenir_Package.json",
+      "displayName": "Austin 2025 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "austin2025inferno": {
+      "caseId": "austin-2025-inferno-souvenir-package",
+      "filename": "Austin_2025_Inferno_Souvenir_Package.json",
+      "displayName": "Austin 2025 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "austin2025infernosouvenirpackage": {
+      "caseId": "austin-2025-inferno-souvenir-package",
+      "filename": "Austin_2025_Inferno_Souvenir_Package.json",
+      "displayName": "Austin 2025 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "austin2025train": {
+      "caseId": "austin-2025-train-souvenir-package",
+      "filename": "Austin_2025_Train_Souvenir_Package.json",
+      "displayName": "Austin 2025 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "austin2025trainsouvenirpackage": {
+      "caseId": "austin-2025-train-souvenir-package",
+      "filename": "Austin_2025_Train_Souvenir_Package.json",
+      "displayName": "Austin 2025 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-dust-ii": {
+      "caseId": "berlin-2019-dust-ii-souvenir-package",
+      "filename": "Berlin_2019_Dust_II_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-dust-ii-souvenir-package": {
+      "caseId": "berlin-2019-dust-ii-souvenir-package",
+      "filename": "Berlin_2019_Dust_II_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-inferno": {
+      "caseId": "berlin-2019-inferno-souvenir-package",
+      "filename": "Berlin_2019_Inferno_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-inferno-souvenir-package": {
+      "caseId": "berlin-2019-inferno-souvenir-package",
+      "filename": "Berlin_2019_Inferno_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-mirage": {
+      "caseId": "berlin-2019-mirage-souvenir-package",
+      "filename": "Berlin_2019_Mirage_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-mirage-souvenir-package": {
+      "caseId": "berlin-2019-mirage-souvenir-package",
+      "filename": "Berlin_2019_Mirage_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-nuke": {
+      "caseId": "berlin-2019-nuke-souvenir-package",
+      "filename": "Berlin_2019_Nuke_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-nuke-souvenir-package": {
+      "caseId": "berlin-2019-nuke-souvenir-package",
+      "filename": "Berlin_2019_Nuke_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-overpass": {
+      "caseId": "berlin-2019-overpass-souvenir-package",
+      "filename": "Berlin_2019_Overpass_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-overpass-souvenir-package": {
+      "caseId": "berlin-2019-overpass-souvenir-package",
+      "filename": "Berlin_2019_Overpass_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-train": {
+      "caseId": "berlin-2019-train-souvenir-package",
+      "filename": "Berlin_2019_Train_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-train-souvenir-package": {
+      "caseId": "berlin-2019-train-souvenir-package",
+      "filename": "Berlin_2019_Train_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-vertigo": {
+      "caseId": "berlin-2019-vertigo-souvenir-package",
+      "filename": "Berlin_2019_Vertigo_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin-2019-vertigo-souvenir-package": {
+      "caseId": "berlin-2019-vertigo-souvenir-package",
+      "filename": "Berlin_2019_Vertigo_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019dustii": {
+      "caseId": "berlin-2019-dust-ii-souvenir-package",
+      "filename": "Berlin_2019_Dust_II_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019dustiisouvenirpackage": {
+      "caseId": "berlin-2019-dust-ii-souvenir-package",
+      "filename": "Berlin_2019_Dust_II_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019inferno": {
+      "caseId": "berlin-2019-inferno-souvenir-package",
+      "filename": "Berlin_2019_Inferno_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019infernosouvenirpackage": {
+      "caseId": "berlin-2019-inferno-souvenir-package",
+      "filename": "Berlin_2019_Inferno_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019mirage": {
+      "caseId": "berlin-2019-mirage-souvenir-package",
+      "filename": "Berlin_2019_Mirage_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019miragesouvenirpackage": {
+      "caseId": "berlin-2019-mirage-souvenir-package",
+      "filename": "Berlin_2019_Mirage_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019nuke": {
+      "caseId": "berlin-2019-nuke-souvenir-package",
+      "filename": "Berlin_2019_Nuke_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019nukesouvenirpackage": {
+      "caseId": "berlin-2019-nuke-souvenir-package",
+      "filename": "Berlin_2019_Nuke_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019overpass": {
+      "caseId": "berlin-2019-overpass-souvenir-package",
+      "filename": "Berlin_2019_Overpass_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019overpasssouvenirpackage": {
+      "caseId": "berlin-2019-overpass-souvenir-package",
+      "filename": "Berlin_2019_Overpass_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019train": {
+      "caseId": "berlin-2019-train-souvenir-package",
+      "filename": "Berlin_2019_Train_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019trainsouvenirpackage": {
+      "caseId": "berlin-2019-train-souvenir-package",
+      "filename": "Berlin_2019_Train_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019vertigo": {
+      "caseId": "berlin-2019-vertigo-souvenir-package",
+      "filename": "Berlin_2019_Vertigo_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "berlin2019vertigosouvenirpackage": {
+      "caseId": "berlin-2019-vertigo-souvenir-package",
+      "filename": "Berlin_2019_Vertigo_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "boston-2018-cache": {
+      "caseId": "boston-2018-cache-souvenir-package",
+      "filename": "Boston_2018_Cache_Souvenir_Package.json",
+      "displayName": "Boston 2018 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "boston-2018-cache-souvenir-package": {
+      "caseId": "boston-2018-cache-souvenir-package",
+      "filename": "Boston_2018_Cache_Souvenir_Package.json",
+      "displayName": "Boston 2018 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "boston-2018-cobblestone": {
+      "caseId": "boston-2018-cobblestone-souvenir-package",
+      "filename": "Boston_2018_Cobblestone_Souvenir_Package.json",
+      "displayName": "Boston 2018 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "boston-2018-cobblestone-souvenir-package": {
+      "caseId": "boston-2018-cobblestone-souvenir-package",
+      "filename": "Boston_2018_Cobblestone_Souvenir_Package.json",
+      "displayName": "Boston 2018 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "boston-2018-mirage": {
+      "caseId": "boston-2018-mirage-souvenir-package",
+      "filename": "Boston_2018_Mirage_Souvenir_Package.json",
+      "displayName": "Boston 2018 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "boston-2018-mirage-souvenir-package": {
+      "caseId": "boston-2018-mirage-souvenir-package",
+      "filename": "Boston_2018_Mirage_Souvenir_Package.json",
+      "displayName": "Boston 2018 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "boston-2018-nuke": {
+      "caseId": "boston-2018-nuke-souvenir-package",
+      "filename": "Boston_2018_Nuke_Souvenir_Package.json",
+      "displayName": "Boston 2018 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "boston-2018-nuke-souvenir-package": {
+      "caseId": "boston-2018-nuke-souvenir-package",
+      "filename": "Boston_2018_Nuke_Souvenir_Package.json",
+      "displayName": "Boston 2018 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "boston-2018-overpass": {
+      "caseId": "boston-2018-overpass-souvenir-package",
+      "filename": "Boston_2018_Overpass_Souvenir_Package.json",
+      "displayName": "Boston 2018 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "boston-2018-overpass-souvenir-package": {
+      "caseId": "boston-2018-overpass-souvenir-package",
+      "filename": "Boston_2018_Overpass_Souvenir_Package.json",
+      "displayName": "Boston 2018 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "boston-2018-train": {
+      "caseId": "boston-2018-train-souvenir-package",
+      "filename": "Boston_2018_Train_Souvenir_Package.json",
+      "displayName": "Boston 2018 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "boston-2018-train-souvenir-package": {
+      "caseId": "boston-2018-train-souvenir-package",
+      "filename": "Boston_2018_Train_Souvenir_Package.json",
+      "displayName": "Boston 2018 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "boston2018cache": {
+      "caseId": "boston-2018-cache-souvenir-package",
+      "filename": "Boston_2018_Cache_Souvenir_Package.json",
+      "displayName": "Boston 2018 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "boston2018cachesouvenirpackage": {
+      "caseId": "boston-2018-cache-souvenir-package",
+      "filename": "Boston_2018_Cache_Souvenir_Package.json",
+      "displayName": "Boston 2018 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "boston2018cobblestone": {
+      "caseId": "boston-2018-cobblestone-souvenir-package",
+      "filename": "Boston_2018_Cobblestone_Souvenir_Package.json",
+      "displayName": "Boston 2018 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "boston2018cobblestonesouvenirpackage": {
+      "caseId": "boston-2018-cobblestone-souvenir-package",
+      "filename": "Boston_2018_Cobblestone_Souvenir_Package.json",
+      "displayName": "Boston 2018 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "boston2018mirage": {
+      "caseId": "boston-2018-mirage-souvenir-package",
+      "filename": "Boston_2018_Mirage_Souvenir_Package.json",
+      "displayName": "Boston 2018 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "boston2018miragesouvenirpackage": {
+      "caseId": "boston-2018-mirage-souvenir-package",
+      "filename": "Boston_2018_Mirage_Souvenir_Package.json",
+      "displayName": "Boston 2018 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "boston2018nuke": {
+      "caseId": "boston-2018-nuke-souvenir-package",
+      "filename": "Boston_2018_Nuke_Souvenir_Package.json",
+      "displayName": "Boston 2018 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "boston2018nukesouvenirpackage": {
+      "caseId": "boston-2018-nuke-souvenir-package",
+      "filename": "Boston_2018_Nuke_Souvenir_Package.json",
+      "displayName": "Boston 2018 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "boston2018overpass": {
+      "caseId": "boston-2018-overpass-souvenir-package",
+      "filename": "Boston_2018_Overpass_Souvenir_Package.json",
+      "displayName": "Boston 2018 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "boston2018overpasssouvenirpackage": {
+      "caseId": "boston-2018-overpass-souvenir-package",
+      "filename": "Boston_2018_Overpass_Souvenir_Package.json",
+      "displayName": "Boston 2018 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "boston2018train": {
+      "caseId": "boston-2018-train-souvenir-package",
+      "filename": "Boston_2018_Train_Souvenir_Package.json",
+      "displayName": "Boston 2018 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "boston2018trainsouvenirpackage": {
+      "caseId": "boston-2018-train-souvenir-package",
+      "filename": "Boston_2018_Train_Souvenir_Package.json",
+      "displayName": "Boston 2018 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest-2025-ancient": {
+      "caseId": "budapest-2025-ancient-souvenir-package",
+      "filename": "Budapest_2025_Ancient_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest-2025-ancient-souvenir-package": {
+      "caseId": "budapest-2025-ancient-souvenir-package",
+      "filename": "Budapest_2025_Ancient_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest-2025-dust-ii": {
+      "caseId": "budapest-2025-dust-ii-souvenir-package",
+      "filename": "Budapest_2025_Dust_II_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest-2025-dust-ii-souvenir-package": {
+      "caseId": "budapest-2025-dust-ii-souvenir-package",
+      "filename": "Budapest_2025_Dust_II_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest-2025-inferno": {
+      "caseId": "budapest-2025-inferno-souvenir-package",
+      "filename": "Budapest_2025_Inferno_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest-2025-inferno-souvenir-package": {
+      "caseId": "budapest-2025-inferno-souvenir-package",
+      "filename": "Budapest_2025_Inferno_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest-2025-mirage": {
+      "caseId": "budapest-2025-mirage-souvenir-package",
+      "filename": "Budapest_2025_Mirage_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest-2025-mirage-souvenir-package": {
+      "caseId": "budapest-2025-mirage-souvenir-package",
+      "filename": "Budapest_2025_Mirage_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest-2025-nuke": {
+      "caseId": "budapest-2025-nuke-souvenir-package",
+      "filename": "Budapest_2025_Nuke_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest-2025-nuke-souvenir-package": {
+      "caseId": "budapest-2025-nuke-souvenir-package",
+      "filename": "Budapest_2025_Nuke_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest-2025-overpass": {
+      "caseId": "budapest-2025-overpass-souvenir-package",
+      "filename": "Budapest_2025_Overpass_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest-2025-overpass-souvenir-package": {
+      "caseId": "budapest-2025-overpass-souvenir-package",
+      "filename": "Budapest_2025_Overpass_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest2025ancient": {
+      "caseId": "budapest-2025-ancient-souvenir-package",
+      "filename": "Budapest_2025_Ancient_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest2025ancientsouvenirpackage": {
+      "caseId": "budapest-2025-ancient-souvenir-package",
+      "filename": "Budapest_2025_Ancient_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest2025dustii": {
+      "caseId": "budapest-2025-dust-ii-souvenir-package",
+      "filename": "Budapest_2025_Dust_II_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest2025dustiisouvenirpackage": {
+      "caseId": "budapest-2025-dust-ii-souvenir-package",
+      "filename": "Budapest_2025_Dust_II_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest2025inferno": {
+      "caseId": "budapest-2025-inferno-souvenir-package",
+      "filename": "Budapest_2025_Inferno_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest2025infernosouvenirpackage": {
+      "caseId": "budapest-2025-inferno-souvenir-package",
+      "filename": "Budapest_2025_Inferno_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest2025mirage": {
+      "caseId": "budapest-2025-mirage-souvenir-package",
+      "filename": "Budapest_2025_Mirage_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest2025miragesouvenirpackage": {
+      "caseId": "budapest-2025-mirage-souvenir-package",
+      "filename": "Budapest_2025_Mirage_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest2025nuke": {
+      "caseId": "budapest-2025-nuke-souvenir-package",
+      "filename": "Budapest_2025_Nuke_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest2025nukesouvenirpackage": {
+      "caseId": "budapest-2025-nuke-souvenir-package",
+      "filename": "Budapest_2025_Nuke_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest2025overpass": {
+      "caseId": "budapest-2025-overpass-souvenir-package",
+      "filename": "Budapest_2025_Overpass_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "budapest2025overpasssouvenirpackage": {
+      "caseId": "budapest-2025-overpass-souvenir-package",
+      "filename": "Budapest_2025_Overpass_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "c2": {
+      "caseId": "chroma-2-case",
+      "filename": "Chroma_2_Case.json",
+      "displayName": "Chroma 2 Case",
+      "requiresKey": true
+    },
+    "c3": {
+      "caseId": "chroma-3-case",
+      "filename": "Chroma_3_Case.json",
+      "displayName": "Chroma 3 Case",
+      "requiresKey": true
+    },
+    "chroma": {
+      "caseId": "chroma-case",
+      "filename": "Chroma_Case.json",
+      "displayName": "Chroma Case",
+      "requiresKey": true
+    },
+    "chroma-2": {
+      "caseId": "chroma-2-case",
+      "filename": "Chroma_2_Case.json",
+      "displayName": "Chroma 2 Case",
+      "requiresKey": true
+    },
+    "chroma-2-case": {
+      "caseId": "chroma-2-case",
+      "filename": "Chroma_2_Case.json",
+      "displayName": "Chroma 2 Case",
+      "requiresKey": true
+    },
+    "chroma-3": {
+      "caseId": "chroma-3-case",
+      "filename": "Chroma_3_Case.json",
+      "displayName": "Chroma 3 Case",
+      "requiresKey": true
+    },
+    "chroma-3-case": {
+      "caseId": "chroma-3-case",
+      "filename": "Chroma_3_Case.json",
+      "displayName": "Chroma 3 Case",
+      "requiresKey": true
+    },
+    "chroma-case": {
+      "caseId": "chroma-case",
+      "filename": "Chroma_Case.json",
+      "displayName": "Chroma Case",
+      "requiresKey": true
+    },
+    "chroma2": {
+      "caseId": "chroma-2-case",
+      "filename": "Chroma_2_Case.json",
+      "displayName": "Chroma 2 Case",
+      "requiresKey": true
+    },
+    "chroma2case": {
+      "caseId": "chroma-2-case",
+      "filename": "Chroma_2_Case.json",
+      "displayName": "Chroma 2 Case",
+      "requiresKey": true
+    },
+    "chroma3": {
+      "caseId": "chroma-3-case",
+      "filename": "Chroma_3_Case.json",
+      "displayName": "Chroma 3 Case",
+      "requiresKey": true
+    },
+    "chroma3case": {
+      "caseId": "chroma-3-case",
+      "filename": "Chroma_3_Case.json",
+      "displayName": "Chroma 3 Case",
+      "requiresKey": true
+    },
+    "chromacase": {
+      "caseId": "chroma-case",
+      "filename": "Chroma_Case.json",
+      "displayName": "Chroma Case",
+      "requiresKey": true
+    },
+    "clutch": {
+      "caseId": "clutch-case",
+      "filename": "Clutch_Case.json",
+      "displayName": "Clutch Case",
+      "requiresKey": true
+    },
+    "clutch-case": {
+      "caseId": "clutch-case",
+      "filename": "Clutch_Case.json",
+      "displayName": "Clutch Case",
+      "requiresKey": true
+    },
+    "clutchcase": {
+      "caseId": "clutch-case",
+      "filename": "Clutch_Case.json",
+      "displayName": "Clutch Case",
+      "requiresKey": true
+    },
+    "cologne-2016-cache": {
+      "caseId": "cologne-2016-cache-souvenir-package",
+      "filename": "Cologne_2016_Cache_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne-2016-cache-souvenir-package": {
+      "caseId": "cologne-2016-cache-souvenir-package",
+      "filename": "Cologne_2016_Cache_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne-2016-cobblestone": {
+      "caseId": "cologne-2016-cobblestone-souvenir-package",
+      "filename": "Cologne_2016_Cobblestone_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne-2016-cobblestone-souvenir-package": {
+      "caseId": "cologne-2016-cobblestone-souvenir-package",
+      "filename": "Cologne_2016_Cobblestone_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne-2016-nuke": {
+      "caseId": "cologne-2016-nuke-souvenir-package",
+      "filename": "Cologne_2016_Nuke_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne-2016-nuke-souvenir-package": {
+      "caseId": "cologne-2016-nuke-souvenir-package",
+      "filename": "Cologne_2016_Nuke_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne-2016-train": {
+      "caseId": "cologne-2016-train-souvenir-package",
+      "filename": "Cologne_2016_Train_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne-2016-train-souvenir-package": {
+      "caseId": "cologne-2016-train-souvenir-package",
+      "filename": "Cologne_2016_Train_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne2016cache": {
+      "caseId": "cologne-2016-cache-souvenir-package",
+      "filename": "Cologne_2016_Cache_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne2016cachesouvenirpackage": {
+      "caseId": "cologne-2016-cache-souvenir-package",
+      "filename": "Cologne_2016_Cache_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne2016cobblestone": {
+      "caseId": "cologne-2016-cobblestone-souvenir-package",
+      "filename": "Cologne_2016_Cobblestone_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne2016cobblestonesouvenirpackage": {
+      "caseId": "cologne-2016-cobblestone-souvenir-package",
+      "filename": "Cologne_2016_Cobblestone_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne2016nuke": {
+      "caseId": "cologne-2016-nuke-souvenir-package",
+      "filename": "Cologne_2016_Nuke_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne2016nukesouvenirpackage": {
+      "caseId": "cologne-2016-nuke-souvenir-package",
+      "filename": "Cologne_2016_Nuke_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne2016train": {
+      "caseId": "cologne-2016-train-souvenir-package",
+      "filename": "Cologne_2016_Train_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "cologne2016trainsouvenirpackage": {
+      "caseId": "cologne-2016-train-souvenir-package",
+      "filename": "Cologne_2016_Train_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen-2024-ancient": {
+      "caseId": "copenhagen-2024-ancient-souvenir-package",
+      "filename": "Copenhagen_2024_Ancient_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen-2024-ancient-souvenir-package": {
+      "caseId": "copenhagen-2024-ancient-souvenir-package",
+      "filename": "Copenhagen_2024_Ancient_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen-2024-anubis": {
+      "caseId": "copenhagen-2024-anubis-souvenir-package",
+      "filename": "Copenhagen_2024_Anubis_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Anubis Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen-2024-anubis-souvenir-package": {
+      "caseId": "copenhagen-2024-anubis-souvenir-package",
+      "filename": "Copenhagen_2024_Anubis_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Anubis Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen-2024-inferno": {
+      "caseId": "copenhagen-2024-inferno-souvenir-package",
+      "filename": "Copenhagen_2024_Inferno_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen-2024-inferno-souvenir-package": {
+      "caseId": "copenhagen-2024-inferno-souvenir-package",
+      "filename": "Copenhagen_2024_Inferno_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen-2024-overpass": {
+      "caseId": "copenhagen-2024-overpass-souvenir-package",
+      "filename": "Copenhagen_2024_Overpass_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen-2024-overpass-souvenir-package": {
+      "caseId": "copenhagen-2024-overpass-souvenir-package",
+      "filename": "Copenhagen_2024_Overpass_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen2024ancient": {
+      "caseId": "copenhagen-2024-ancient-souvenir-package",
+      "filename": "Copenhagen_2024_Ancient_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen2024ancientsouvenirpackage": {
+      "caseId": "copenhagen-2024-ancient-souvenir-package",
+      "filename": "Copenhagen_2024_Ancient_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen2024anubis": {
+      "caseId": "copenhagen-2024-anubis-souvenir-package",
+      "filename": "Copenhagen_2024_Anubis_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Anubis Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen2024anubissouvenirpackage": {
+      "caseId": "copenhagen-2024-anubis-souvenir-package",
+      "filename": "Copenhagen_2024_Anubis_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Anubis Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen2024inferno": {
+      "caseId": "copenhagen-2024-inferno-souvenir-package",
+      "filename": "Copenhagen_2024_Inferno_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen2024infernosouvenirpackage": {
+      "caseId": "copenhagen-2024-inferno-souvenir-package",
+      "filename": "Copenhagen_2024_Inferno_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen2024overpass": {
+      "caseId": "copenhagen-2024-overpass-souvenir-package",
+      "filename": "Copenhagen_2024_Overpass_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "copenhagen2024overpasssouvenirpackage": {
+      "caseId": "copenhagen-2024-overpass-souvenir-package",
+      "filename": "Copenhagen_2024_Overpass_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "cs20": {
+      "caseId": "cs20-case",
+      "filename": "CS20_Case.json",
+      "displayName": "CS20 Case",
+      "requiresKey": true
+    },
+    "cs20-case": {
+      "caseId": "cs20-case",
+      "filename": "CS20_Case.json",
+      "displayName": "CS20 Case",
+      "requiresKey": true
+    },
+    "cs20case": {
+      "caseId": "cs20-case",
+      "filename": "CS20_Case.json",
+      "displayName": "CS20 Case",
+      "requiresKey": true
+    },
+    "csgo": {
+      "caseId": "csgo-weapon-case",
+      "filename": "CS_GO_Weapon_Case.json",
+      "displayName": "CS:GO Weapon Case",
+      "requiresKey": true
+    },
+    "csgo-weapon-case": {
+      "caseId": "csgo-weapon-case",
+      "filename": "CS_GO_Weapon_Case.json",
+      "displayName": "CS:GO Weapon Case",
+      "requiresKey": true
+    },
+    "csgo-weapon-case-2": {
+      "caseId": "csgo-weapon-case-2",
+      "filename": "CS_GO_Weapon_Case_2.json",
+      "displayName": "CS:GO Weapon Case 2",
+      "requiresKey": true
+    },
+    "csgo-weapon-case-3": {
+      "caseId": "csgo-weapon-case-3",
+      "filename": "CS_GO_Weapon_Case_3.json",
+      "displayName": "CS:GO Weapon Case 3",
+      "requiresKey": true
+    },
+    "csgoweaponcase": {
+      "caseId": "csgo-weapon-case",
+      "filename": "CS_GO_Weapon_Case.json",
+      "displayName": "CS:GO Weapon Case",
+      "requiresKey": true
+    },
+    "csgoweaponcase2": {
+      "caseId": "csgo-weapon-case-2",
+      "filename": "CS_GO_Weapon_Case_2.json",
+      "displayName": "CS:GO Weapon Case 2",
+      "requiresKey": true
+    },
+    "csgoweaponcase3": {
+      "caseId": "csgo-weapon-case-3",
+      "filename": "CS_GO_Weapon_Case_3.json",
+      "displayName": "CS:GO Weapon Case 3",
+      "requiresKey": true
+    },
+    "danger-zone": {
+      "caseId": "danger-zone-case",
+      "filename": "Danger_Zone_Case.json",
+      "displayName": "Danger Zone Case",
+      "requiresKey": true
+    },
+    "danger-zone-case": {
+      "caseId": "danger-zone-case",
+      "filename": "Danger_Zone_Case.json",
+      "displayName": "Danger Zone Case",
+      "requiresKey": true
+    },
+    "dangerzone": {
+      "caseId": "danger-zone-case",
+      "filename": "Danger_Zone_Case.json",
+      "displayName": "Danger Zone Case",
+      "requiresKey": true
+    },
+    "dangerzonecase": {
+      "caseId": "danger-zone-case",
+      "filename": "Danger_Zone_Case.json",
+      "displayName": "Danger Zone Case",
+      "requiresKey": true
+    },
+    "dreamhack-2013": {
+      "caseId": "dreamhack-2013-souvenir-package",
+      "filename": "DreamHack_2013_Souvenir_Package.json",
+      "displayName": "DreamHack 2013 Souvenir Package",
+      "requiresKey": false
+    },
+    "dreamhack-2013-souvenir-package": {
+      "caseId": "dreamhack-2013-souvenir-package",
+      "filename": "DreamHack_2013_Souvenir_Package.json",
+      "displayName": "DreamHack 2013 Souvenir Package",
+      "requiresKey": false
+    },
+    "dreamhack-2014-dust-ii": {
+      "caseId": "dreamhack-2014-dust-ii-souvenir-package",
+      "filename": "DreamHack_2014_Dust_II_Souvenir_Package.json",
+      "displayName": "DreamHack 2014 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "dreamhack-2014-dust-ii-souvenir-package": {
+      "caseId": "dreamhack-2014-dust-ii-souvenir-package",
+      "filename": "DreamHack_2014_Dust_II_Souvenir_Package.json",
+      "displayName": "DreamHack 2014 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "dreamhack-cluj-napoca-2015-overpass": {
+      "caseId": "dreamhack-cluj-napoca-2015-overpass-souvenir-package",
+      "filename": "DreamHack_Cluj_Napoca_2015_Overpass_Souvenir_Package.json",
+      "displayName": "DreamHack Cluj-Napoca 2015 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "dreamhack-cluj-napoca-2015-overpass-souvenir-package": {
+      "caseId": "dreamhack-cluj-napoca-2015-overpass-souvenir-package",
+      "filename": "DreamHack_Cluj_Napoca_2015_Overpass_Souvenir_Package.json",
+      "displayName": "DreamHack Cluj-Napoca 2015 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "dreamhack2013": {
+      "caseId": "dreamhack-2013-souvenir-package",
+      "filename": "DreamHack_2013_Souvenir_Package.json",
+      "displayName": "DreamHack 2013 Souvenir Package",
+      "requiresKey": false
+    },
+    "dreamhack2013souvenirpackage": {
+      "caseId": "dreamhack-2013-souvenir-package",
+      "filename": "DreamHack_2013_Souvenir_Package.json",
+      "displayName": "DreamHack 2013 Souvenir Package",
+      "requiresKey": false
+    },
+    "dreamhack2014dustii": {
+      "caseId": "dreamhack-2014-dust-ii-souvenir-package",
+      "filename": "DreamHack_2014_Dust_II_Souvenir_Package.json",
+      "displayName": "DreamHack 2014 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "dreamhack2014dustiisouvenirpackage": {
+      "caseId": "dreamhack-2014-dust-ii-souvenir-package",
+      "filename": "DreamHack_2014_Dust_II_Souvenir_Package.json",
+      "displayName": "DreamHack 2014 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "dreamhackclujnapoca2015overpass": {
+      "caseId": "dreamhack-cluj-napoca-2015-overpass-souvenir-package",
+      "filename": "DreamHack_Cluj_Napoca_2015_Overpass_Souvenir_Package.json",
+      "displayName": "DreamHack Cluj-Napoca 2015 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "dreamhackclujnapoca2015overpasssouvenirpackage": {
+      "caseId": "dreamhack-cluj-napoca-2015-overpass-souvenir-package",
+      "filename": "DreamHack_Cluj_Napoca_2015_Overpass_Souvenir_Package.json",
+      "displayName": "DreamHack Cluj-Napoca 2015 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "dreams-and-nightmares": {
+      "caseId": "dreams-and-nightmares-case",
+      "filename": "Dreams_Nightmares_Case.json",
+      "displayName": "Dreams & Nightmares Case",
+      "requiresKey": true
+    },
+    "dreams-and-nightmares-case": {
+      "caseId": "dreams-and-nightmares-case",
+      "filename": "Dreams_Nightmares_Case.json",
+      "displayName": "Dreams & Nightmares Case",
+      "requiresKey": true
+    },
+    "dreamsandnightmares": {
+      "caseId": "dreams-and-nightmares-case",
+      "filename": "Dreams_Nightmares_Case.json",
+      "displayName": "Dreams & Nightmares Case",
+      "requiresKey": true
+    },
+    "dreamsnightmarescase": {
+      "caseId": "dreams-and-nightmares-case",
+      "filename": "Dreams_Nightmares_Case.json",
+      "displayName": "Dreams & Nightmares Case",
+      "requiresKey": true
+    },
+    "dz": {
+      "caseId": "danger-zone-case",
+      "filename": "Danger_Zone_Case.json",
+      "displayName": "Danger Zone Case",
+      "requiresKey": true
+    },
+    "ems-one-2014": {
+      "caseId": "ems-one-2014-souvenir-package",
+      "filename": "EMS_One_2014_Souvenir_Package.json",
+      "displayName": "EMS One 2014 Souvenir Package",
+      "requiresKey": false
+    },
+    "ems-one-2014-souvenir-package": {
+      "caseId": "ems-one-2014-souvenir-package",
+      "filename": "EMS_One_2014_Souvenir_Package.json",
+      "displayName": "EMS One 2014 Souvenir Package",
+      "requiresKey": false
+    },
+    "emsone2014": {
+      "caseId": "ems-one-2014-souvenir-package",
+      "filename": "EMS_One_2014_Souvenir_Package.json",
+      "displayName": "EMS One 2014 Souvenir Package",
+      "requiresKey": false
+    },
+    "emsone2014souvenirpackage": {
+      "caseId": "ems-one-2014-souvenir-package",
+      "filename": "EMS_One_2014_Souvenir_Package.json",
+      "displayName": "EMS One 2014 Souvenir Package",
+      "requiresKey": false
+    },
+    "esl-one-cologne-2014-cobblestone": {
+      "caseId": "esl-one-cologne-2014-cobblestone-souvenir-package",
+      "filename": "ESL_One_Cologne_2014_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "esl-one-cologne-2014-cobblestone-souvenir-package": {
+      "caseId": "esl-one-cologne-2014-cobblestone-souvenir-package",
+      "filename": "ESL_One_Cologne_2014_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "esl-one-cologne-2015-cobblestone": {
+      "caseId": "esl-one-cologne-2015-cobblestone-souvenir-package",
+      "filename": "ESL_One_Cologne_2015_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "esl-one-cologne-2015-cobblestone-souvenir-package": {
+      "caseId": "esl-one-cologne-2015-cobblestone-souvenir-package",
+      "filename": "ESL_One_Cologne_2015_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "esl-one-katowice-2015-cache": {
+      "caseId": "esl-one-katowice-2015-cache-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Cache_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "esl-one-katowice-2015-cache-souvenir-package": {
+      "caseId": "esl-one-katowice-2015-cache-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Cache_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "esl-one-katowice-2015-cobblestone": {
+      "caseId": "esl-one-katowice-2015-cobblestone-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "esl-one-katowice-2015-cobblestone-souvenir-package": {
+      "caseId": "esl-one-katowice-2015-cobblestone-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "esl-one-katowice-2015-dust-ii": {
+      "caseId": "esl-one-katowice-2015-dust-ii-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Dust_II_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "esl-one-katowice-2015-dust-ii-souvenir-package": {
+      "caseId": "esl-one-katowice-2015-dust-ii-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Dust_II_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "esl-one-katowice-2015-mirage": {
+      "caseId": "esl-one-katowice-2015-mirage-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Mirage_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "esl-one-katowice-2015-mirage-souvenir-package": {
+      "caseId": "esl-one-katowice-2015-mirage-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Mirage_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "eslonecologne2014cobblestone": {
+      "caseId": "esl-one-cologne-2014-cobblestone-souvenir-package",
+      "filename": "ESL_One_Cologne_2014_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "eslonecologne2014cobblestonesouvenirpackage": {
+      "caseId": "esl-one-cologne-2014-cobblestone-souvenir-package",
+      "filename": "ESL_One_Cologne_2014_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "eslonecologne2015cobblestone": {
+      "caseId": "esl-one-cologne-2015-cobblestone-souvenir-package",
+      "filename": "ESL_One_Cologne_2015_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "eslonecologne2015cobblestonesouvenirpackage": {
+      "caseId": "esl-one-cologne-2015-cobblestone-souvenir-package",
+      "filename": "ESL_One_Cologne_2015_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "eslonekatowice2015cache": {
+      "caseId": "esl-one-katowice-2015-cache-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Cache_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "eslonekatowice2015cachesouvenirpackage": {
+      "caseId": "esl-one-katowice-2015-cache-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Cache_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "eslonekatowice2015cobblestone": {
+      "caseId": "esl-one-katowice-2015-cobblestone-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "eslonekatowice2015cobblestonesouvenirpackage": {
+      "caseId": "esl-one-katowice-2015-cobblestone-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "eslonekatowice2015dustii": {
+      "caseId": "esl-one-katowice-2015-dust-ii-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Dust_II_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "eslonekatowice2015dustiisouvenirpackage": {
+      "caseId": "esl-one-katowice-2015-dust-ii-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Dust_II_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "eslonekatowice2015mirage": {
+      "caseId": "esl-one-katowice-2015-mirage-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Mirage_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "eslonekatowice2015miragesouvenirpackage": {
+      "caseId": "esl-one-katowice-2015-mirage-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Mirage_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "esports-2013": {
+      "caseId": "esports-2013-case",
+      "filename": "eSports_2013_Case.json",
+      "displayName": "eSports 2013 Case",
+      "requiresKey": true
+    },
+    "esports-2013-case": {
+      "caseId": "esports-2013-case",
+      "filename": "eSports_2013_Case.json",
+      "displayName": "eSports 2013 Case",
+      "requiresKey": true
+    },
+    "esports-2013-winter": {
+      "caseId": "esports-2013-winter-case",
+      "filename": "eSports_2013_Winter_Case.json",
+      "displayName": "eSports 2013 Winter Case",
+      "requiresKey": true
+    },
+    "esports-2013-winter-case": {
+      "caseId": "esports-2013-winter-case",
+      "filename": "eSports_2013_Winter_Case.json",
+      "displayName": "eSports 2013 Winter Case",
+      "requiresKey": true
+    },
+    "esports-2014-summer": {
+      "caseId": "esports-2014-summer-case",
+      "filename": "eSports_2014_Summer_Case.json",
+      "displayName": "eSports 2014 Summer Case",
+      "requiresKey": true
+    },
+    "esports-2014-summer-case": {
+      "caseId": "esports-2014-summer-case",
+      "filename": "eSports_2014_Summer_Case.json",
+      "displayName": "eSports 2014 Summer Case",
+      "requiresKey": true
+    },
+    "esports2013": {
+      "caseId": "esports-2013-case",
+      "filename": "eSports_2013_Case.json",
+      "displayName": "eSports 2013 Case",
+      "requiresKey": true
+    },
+    "esports2013case": {
+      "caseId": "esports-2013-case",
+      "filename": "eSports_2013_Case.json",
+      "displayName": "eSports 2013 Case",
+      "requiresKey": true
+    },
+    "esports2013winter": {
+      "caseId": "esports-2013-winter-case",
+      "filename": "eSports_2013_Winter_Case.json",
+      "displayName": "eSports 2013 Winter Case",
+      "requiresKey": true
+    },
+    "esports2013wintercase": {
+      "caseId": "esports-2013-winter-case",
+      "filename": "eSports_2013_Winter_Case.json",
+      "displayName": "eSports 2013 Winter Case",
+      "requiresKey": true
+    },
+    "esports2014summer": {
+      "caseId": "esports-2014-summer-case",
+      "filename": "eSports_2014_Summer_Case.json",
+      "displayName": "eSports 2014 Summer Case",
+      "requiresKey": true
+    },
+    "esports2014summercase": {
+      "caseId": "esports-2014-summer-case",
+      "filename": "eSports_2014_Summer_Case.json",
+      "displayName": "eSports 2014 Summer Case",
+      "requiresKey": true
+    },
+    "falchion": {
+      "caseId": "falchion-case",
+      "filename": "Falchion_Case.json",
+      "displayName": "Falchion Case",
+      "requiresKey": true
+    },
+    "falchion-case": {
+      "caseId": "falchion-case",
+      "filename": "Falchion_Case.json",
+      "displayName": "Falchion Case",
+      "requiresKey": true
+    },
+    "falchioncase": {
+      "caseId": "falchion-case",
+      "filename": "Falchion_Case.json",
+      "displayName": "Falchion Case",
+      "requiresKey": true
+    },
+    "fever": {
+      "caseId": "fever-case",
+      "filename": "Fever_Case.json",
+      "displayName": "Fever Case",
+      "requiresKey": true
+    },
+    "fever-case": {
+      "caseId": "fever-case",
+      "filename": "Fever_Case.json",
+      "displayName": "Fever Case",
+      "requiresKey": true
+    },
+    "fevercase": {
+      "caseId": "fever-case",
+      "filename": "Fever_Case.json",
+      "displayName": "Fever Case",
+      "requiresKey": true
+    },
+    "fracture": {
+      "caseId": "fracture-case",
+      "filename": "Fracture_Case.json",
+      "displayName": "Fracture Case",
+      "requiresKey": true
+    },
+    "fracture-case": {
+      "caseId": "fracture-case",
+      "filename": "Fracture_Case.json",
+      "displayName": "Fracture Case",
+      "requiresKey": true
+    },
+    "fracturecase": {
+      "caseId": "fracture-case",
+      "filename": "Fracture_Case.json",
+      "displayName": "Fracture Case",
+      "requiresKey": true
+    },
+    "gallery": {
+      "caseId": "gallery-case",
+      "filename": "Gallery_Case.json",
+      "displayName": "Gallery Case",
+      "requiresKey": true
+    },
+    "gallery-case": {
+      "caseId": "gallery-case",
+      "filename": "Gallery_Case.json",
+      "displayName": "Gallery Case",
+      "requiresKey": true
+    },
+    "gallerycase": {
+      "caseId": "gallery-case",
+      "filename": "Gallery_Case.json",
+      "displayName": "Gallery Case",
+      "requiresKey": true
+    },
+    "gamma": {
+      "caseId": "gamma-case",
+      "filename": "Gamma_Case.json",
+      "displayName": "Gamma Case",
+      "requiresKey": true
+    },
+    "gamma-2": {
+      "caseId": "gamma-2-case",
+      "filename": "Gamma_2_Case.json",
+      "displayName": "Gamma 2 Case",
+      "requiresKey": true
+    },
+    "gamma-2-case": {
+      "caseId": "gamma-2-case",
+      "filename": "Gamma_2_Case.json",
+      "displayName": "Gamma 2 Case",
+      "requiresKey": true
+    },
+    "gamma-case": {
+      "caseId": "gamma-case",
+      "filename": "Gamma_Case.json",
+      "displayName": "Gamma Case",
+      "requiresKey": true
+    },
+    "gamma2": {
+      "caseId": "gamma-2-case",
+      "filename": "Gamma_2_Case.json",
+      "displayName": "Gamma 2 Case",
+      "requiresKey": true
+    },
+    "gamma2case": {
+      "caseId": "gamma-2-case",
+      "filename": "Gamma_2_Case.json",
+      "displayName": "Gamma 2 Case",
+      "requiresKey": true
+    },
+    "gammacase": {
+      "caseId": "gamma-case",
+      "filename": "Gamma_Case.json",
+      "displayName": "Gamma Case",
+      "requiresKey": true
+    },
+    "glove": {
+      "caseId": "glove-case",
+      "filename": "Glove_Case.json",
+      "displayName": "Glove Case",
+      "requiresKey": true
+    },
+    "glove-case": {
+      "caseId": "glove-case",
+      "filename": "Glove_Case.json",
+      "displayName": "Glove Case",
+      "requiresKey": true
+    },
+    "glovecase": {
+      "caseId": "glove-case",
+      "filename": "Glove_Case.json",
+      "displayName": "Glove Case",
+      "requiresKey": true
+    },
+    "horizon": {
+      "caseId": "horizon-case",
+      "filename": "Horizon_Case.json",
+      "displayName": "Horizon Case",
+      "requiresKey": true
+    },
+    "horizon-case": {
+      "caseId": "horizon-case",
+      "filename": "Horizon_Case.json",
+      "displayName": "Horizon Case",
+      "requiresKey": true
+    },
+    "horizoncase": {
+      "caseId": "horizon-case",
+      "filename": "Horizon_Case.json",
+      "displayName": "Horizon Case",
+      "requiresKey": true
+    },
+    "huntsman": {
+      "caseId": "huntsman-weapon-case",
+      "filename": "Huntsman_Weapon_Case.json",
+      "displayName": "Huntsman Weapon Case",
+      "requiresKey": true
+    },
+    "huntsman-weapon-case": {
+      "caseId": "huntsman-weapon-case",
+      "filename": "Huntsman_Weapon_Case.json",
+      "displayName": "Huntsman Weapon Case",
+      "requiresKey": true
+    },
+    "huntsmanweaponcase": {
+      "caseId": "huntsman-weapon-case",
+      "filename": "Huntsman_Weapon_Case.json",
+      "displayName": "Huntsman Weapon Case",
+      "requiresKey": true
+    },
+    "katowice-2019-cache": {
+      "caseId": "katowice-2019-cache-souvenir-package",
+      "filename": "Katowice_2019_Cache_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-cache-souvenir-package": {
+      "caseId": "katowice-2019-cache-souvenir-package",
+      "filename": "Katowice_2019_Cache_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-dust-ii": {
+      "caseId": "katowice-2019-dust-ii-souvenir-package",
+      "filename": "Katowice_2019_Dust_II_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-dust-ii-souvenir-package": {
+      "caseId": "katowice-2019-dust-ii-souvenir-package",
+      "filename": "Katowice_2019_Dust_II_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-inferno": {
+      "caseId": "katowice-2019-inferno-souvenir-package",
+      "filename": "Katowice_2019_Inferno_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-inferno-souvenir-package": {
+      "caseId": "katowice-2019-inferno-souvenir-package",
+      "filename": "Katowice_2019_Inferno_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-mirage": {
+      "caseId": "katowice-2019-mirage-souvenir-package",
+      "filename": "Katowice_2019_Mirage_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-mirage-souvenir-package": {
+      "caseId": "katowice-2019-mirage-souvenir-package",
+      "filename": "Katowice_2019_Mirage_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-nuke": {
+      "caseId": "katowice-2019-nuke-souvenir-package",
+      "filename": "Katowice_2019_Nuke_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-nuke-souvenir-package": {
+      "caseId": "katowice-2019-nuke-souvenir-package",
+      "filename": "Katowice_2019_Nuke_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-overpass": {
+      "caseId": "katowice-2019-overpass-souvenir-package",
+      "filename": "Katowice_2019_Overpass_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-overpass-souvenir-package": {
+      "caseId": "katowice-2019-overpass-souvenir-package",
+      "filename": "Katowice_2019_Overpass_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-train": {
+      "caseId": "katowice-2019-train-souvenir-package",
+      "filename": "Katowice_2019_Train_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice-2019-train-souvenir-package": {
+      "caseId": "katowice-2019-train-souvenir-package",
+      "filename": "Katowice_2019_Train_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019cache": {
+      "caseId": "katowice-2019-cache-souvenir-package",
+      "filename": "Katowice_2019_Cache_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019cachesouvenirpackage": {
+      "caseId": "katowice-2019-cache-souvenir-package",
+      "filename": "Katowice_2019_Cache_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019dustii": {
+      "caseId": "katowice-2019-dust-ii-souvenir-package",
+      "filename": "Katowice_2019_Dust_II_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019dustiisouvenirpackage": {
+      "caseId": "katowice-2019-dust-ii-souvenir-package",
+      "filename": "Katowice_2019_Dust_II_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019inferno": {
+      "caseId": "katowice-2019-inferno-souvenir-package",
+      "filename": "Katowice_2019_Inferno_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019infernosouvenirpackage": {
+      "caseId": "katowice-2019-inferno-souvenir-package",
+      "filename": "Katowice_2019_Inferno_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019mirage": {
+      "caseId": "katowice-2019-mirage-souvenir-package",
+      "filename": "Katowice_2019_Mirage_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019miragesouvenirpackage": {
+      "caseId": "katowice-2019-mirage-souvenir-package",
+      "filename": "Katowice_2019_Mirage_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019nuke": {
+      "caseId": "katowice-2019-nuke-souvenir-package",
+      "filename": "Katowice_2019_Nuke_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019nukesouvenirpackage": {
+      "caseId": "katowice-2019-nuke-souvenir-package",
+      "filename": "Katowice_2019_Nuke_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019overpass": {
+      "caseId": "katowice-2019-overpass-souvenir-package",
+      "filename": "Katowice_2019_Overpass_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019overpasssouvenirpackage": {
+      "caseId": "katowice-2019-overpass-souvenir-package",
+      "filename": "Katowice_2019_Overpass_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019train": {
+      "caseId": "katowice-2019-train-souvenir-package",
+      "filename": "Katowice_2019_Train_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "katowice2019trainsouvenirpackage": {
+      "caseId": "katowice-2019-train-souvenir-package",
+      "filename": "Katowice_2019_Train_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "kilowatt": {
+      "caseId": "kilowatt-case",
+      "filename": "Kilowatt_Case.json",
+      "displayName": "Kilowatt Case",
+      "requiresKey": true
+    },
+    "kilowatt-case": {
+      "caseId": "kilowatt-case",
+      "filename": "Kilowatt_Case.json",
+      "displayName": "Kilowatt Case",
+      "requiresKey": true
+    },
+    "kilowattcase": {
+      "caseId": "kilowatt-case",
+      "filename": "Kilowatt_Case.json",
+      "displayName": "Kilowatt Case",
+      "requiresKey": true
+    },
+    "krakow-2017-cache": {
+      "caseId": "krakow-2017-cache-souvenir-package",
+      "filename": "Krakow_2017_Cache_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-cache-souvenir-package": {
+      "caseId": "krakow-2017-cache-souvenir-package",
+      "filename": "Krakow_2017_Cache_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-cobblestone": {
+      "caseId": "krakow-2017-cobblestone-souvenir-package",
+      "filename": "Krakow_2017_Cobblestone_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-cobblestone-souvenir-package": {
+      "caseId": "krakow-2017-cobblestone-souvenir-package",
+      "filename": "Krakow_2017_Cobblestone_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-inferno": {
+      "caseId": "krakow-2017-inferno-souvenir-package",
+      "filename": "Krakow_2017_Inferno_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-inferno-souvenir-package": {
+      "caseId": "krakow-2017-inferno-souvenir-package",
+      "filename": "Krakow_2017_Inferno_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-mirage": {
+      "caseId": "krakow-2017-mirage-souvenir-package",
+      "filename": "Krakow_2017_Mirage_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-mirage-souvenir-package": {
+      "caseId": "krakow-2017-mirage-souvenir-package",
+      "filename": "Krakow_2017_Mirage_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-nuke": {
+      "caseId": "krakow-2017-nuke-souvenir-package",
+      "filename": "Krakow_2017_Nuke_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-nuke-souvenir-package": {
+      "caseId": "krakow-2017-nuke-souvenir-package",
+      "filename": "Krakow_2017_Nuke_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-overpass": {
+      "caseId": "krakow-2017-overpass-souvenir-package",
+      "filename": "Krakow_2017_Overpass_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-overpass-souvenir-package": {
+      "caseId": "krakow-2017-overpass-souvenir-package",
+      "filename": "Krakow_2017_Overpass_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-train": {
+      "caseId": "krakow-2017-train-souvenir-package",
+      "filename": "Krakow_2017_Train_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow-2017-train-souvenir-package": {
+      "caseId": "krakow-2017-train-souvenir-package",
+      "filename": "Krakow_2017_Train_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017cache": {
+      "caseId": "krakow-2017-cache-souvenir-package",
+      "filename": "Krakow_2017_Cache_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017cachesouvenirpackage": {
+      "caseId": "krakow-2017-cache-souvenir-package",
+      "filename": "Krakow_2017_Cache_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017cobblestone": {
+      "caseId": "krakow-2017-cobblestone-souvenir-package",
+      "filename": "Krakow_2017_Cobblestone_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017cobblestonesouvenirpackage": {
+      "caseId": "krakow-2017-cobblestone-souvenir-package",
+      "filename": "Krakow_2017_Cobblestone_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Cobblestone Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017inferno": {
+      "caseId": "krakow-2017-inferno-souvenir-package",
+      "filename": "Krakow_2017_Inferno_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017infernosouvenirpackage": {
+      "caseId": "krakow-2017-inferno-souvenir-package",
+      "filename": "Krakow_2017_Inferno_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017mirage": {
+      "caseId": "krakow-2017-mirage-souvenir-package",
+      "filename": "Krakow_2017_Mirage_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017miragesouvenirpackage": {
+      "caseId": "krakow-2017-mirage-souvenir-package",
+      "filename": "Krakow_2017_Mirage_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017nuke": {
+      "caseId": "krakow-2017-nuke-souvenir-package",
+      "filename": "Krakow_2017_Nuke_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017nukesouvenirpackage": {
+      "caseId": "krakow-2017-nuke-souvenir-package",
+      "filename": "Krakow_2017_Nuke_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017overpass": {
+      "caseId": "krakow-2017-overpass-souvenir-package",
+      "filename": "Krakow_2017_Overpass_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017overpasssouvenirpackage": {
+      "caseId": "krakow-2017-overpass-souvenir-package",
+      "filename": "Krakow_2017_Overpass_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017train": {
+      "caseId": "krakow-2017-train-souvenir-package",
+      "filename": "Krakow_2017_Train_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "krakow2017trainsouvenirpackage": {
+      "caseId": "krakow-2017-train-souvenir-package",
+      "filename": "Krakow_2017_Train_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-cache": {
+      "caseId": "london-2018-cache-souvenir-package",
+      "filename": "London_2018_Cache_Souvenir_Package.json",
+      "displayName": "London 2018 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-cache-souvenir-package": {
+      "caseId": "london-2018-cache-souvenir-package",
+      "filename": "London_2018_Cache_Souvenir_Package.json",
+      "displayName": "London 2018 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-dust-ii": {
+      "caseId": "london-2018-dust-ii-souvenir-package",
+      "filename": "London_2018_Dust_II_Souvenir_Package.json",
+      "displayName": "London 2018 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-dust-ii-souvenir-package": {
+      "caseId": "london-2018-dust-ii-souvenir-package",
+      "filename": "London_2018_Dust_II_Souvenir_Package.json",
+      "displayName": "London 2018 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-inferno": {
+      "caseId": "london-2018-inferno-souvenir-package",
+      "filename": "London_2018_Inferno_Souvenir_Package.json",
+      "displayName": "London 2018 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-inferno-souvenir-package": {
+      "caseId": "london-2018-inferno-souvenir-package",
+      "filename": "London_2018_Inferno_Souvenir_Package.json",
+      "displayName": "London 2018 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-mirage": {
+      "caseId": "london-2018-mirage-souvenir-package",
+      "filename": "London_2018_Mirage_Souvenir_Package.json",
+      "displayName": "London 2018 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-mirage-souvenir-package": {
+      "caseId": "london-2018-mirage-souvenir-package",
+      "filename": "London_2018_Mirage_Souvenir_Package.json",
+      "displayName": "London 2018 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-nuke": {
+      "caseId": "london-2018-nuke-souvenir-package",
+      "filename": "London_2018_Nuke_Souvenir_Package.json",
+      "displayName": "London 2018 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-nuke-souvenir-package": {
+      "caseId": "london-2018-nuke-souvenir-package",
+      "filename": "London_2018_Nuke_Souvenir_Package.json",
+      "displayName": "London 2018 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-overpass": {
+      "caseId": "london-2018-overpass-souvenir-package",
+      "filename": "London_2018_Overpass_Souvenir_Package.json",
+      "displayName": "London 2018 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-overpass-souvenir-package": {
+      "caseId": "london-2018-overpass-souvenir-package",
+      "filename": "London_2018_Overpass_Souvenir_Package.json",
+      "displayName": "London 2018 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-train": {
+      "caseId": "london-2018-train-souvenir-package",
+      "filename": "London_2018_Train_Souvenir_Package.json",
+      "displayName": "London 2018 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "london-2018-train-souvenir-package": {
+      "caseId": "london-2018-train-souvenir-package",
+      "filename": "London_2018_Train_Souvenir_Package.json",
+      "displayName": "London 2018 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018cache": {
+      "caseId": "london-2018-cache-souvenir-package",
+      "filename": "London_2018_Cache_Souvenir_Package.json",
+      "displayName": "London 2018 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018cachesouvenirpackage": {
+      "caseId": "london-2018-cache-souvenir-package",
+      "filename": "London_2018_Cache_Souvenir_Package.json",
+      "displayName": "London 2018 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018dustii": {
+      "caseId": "london-2018-dust-ii-souvenir-package",
+      "filename": "London_2018_Dust_II_Souvenir_Package.json",
+      "displayName": "London 2018 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018dustiisouvenirpackage": {
+      "caseId": "london-2018-dust-ii-souvenir-package",
+      "filename": "London_2018_Dust_II_Souvenir_Package.json",
+      "displayName": "London 2018 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018inferno": {
+      "caseId": "london-2018-inferno-souvenir-package",
+      "filename": "London_2018_Inferno_Souvenir_Package.json",
+      "displayName": "London 2018 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018infernosouvenirpackage": {
+      "caseId": "london-2018-inferno-souvenir-package",
+      "filename": "London_2018_Inferno_Souvenir_Package.json",
+      "displayName": "London 2018 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018mirage": {
+      "caseId": "london-2018-mirage-souvenir-package",
+      "filename": "London_2018_Mirage_Souvenir_Package.json",
+      "displayName": "London 2018 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018miragesouvenirpackage": {
+      "caseId": "london-2018-mirage-souvenir-package",
+      "filename": "London_2018_Mirage_Souvenir_Package.json",
+      "displayName": "London 2018 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018nuke": {
+      "caseId": "london-2018-nuke-souvenir-package",
+      "filename": "London_2018_Nuke_Souvenir_Package.json",
+      "displayName": "London 2018 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018nukesouvenirpackage": {
+      "caseId": "london-2018-nuke-souvenir-package",
+      "filename": "London_2018_Nuke_Souvenir_Package.json",
+      "displayName": "London 2018 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018overpass": {
+      "caseId": "london-2018-overpass-souvenir-package",
+      "filename": "London_2018_Overpass_Souvenir_Package.json",
+      "displayName": "London 2018 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018overpasssouvenirpackage": {
+      "caseId": "london-2018-overpass-souvenir-package",
+      "filename": "London_2018_Overpass_Souvenir_Package.json",
+      "displayName": "London 2018 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018train": {
+      "caseId": "london-2018-train-souvenir-package",
+      "filename": "London_2018_Train_Souvenir_Package.json",
+      "displayName": "London 2018 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "london2018trainsouvenirpackage": {
+      "caseId": "london-2018-train-souvenir-package",
+      "filename": "London_2018_Train_Souvenir_Package.json",
+      "displayName": "London 2018 Train Souvenir Package",
+      "requiresKey": false
+    },
+    "mlg-columbus-2016-cache": {
+      "caseId": "mlg-columbus-2016-cache-souvenir-package",
+      "filename": "MLG_Columbus_2016_Cache_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "mlg-columbus-2016-cache-souvenir-package": {
+      "caseId": "mlg-columbus-2016-cache-souvenir-package",
+      "filename": "MLG_Columbus_2016_Cache_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "mlg-columbus-2016-inferno": {
+      "caseId": "mlg-columbus-2016-inferno-souvenir-package",
+      "filename": "MLG_Columbus_2016_Inferno_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "mlg-columbus-2016-inferno-souvenir-package": {
+      "caseId": "mlg-columbus-2016-inferno-souvenir-package",
+      "filename": "MLG_Columbus_2016_Inferno_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "mlg-columbus-2016-mirage": {
+      "caseId": "mlg-columbus-2016-mirage-souvenir-package",
+      "filename": "MLG_Columbus_2016_Mirage_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "mlg-columbus-2016-mirage-souvenir-package": {
+      "caseId": "mlg-columbus-2016-mirage-souvenir-package",
+      "filename": "MLG_Columbus_2016_Mirage_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "mlgcolumbus2016cache": {
+      "caseId": "mlg-columbus-2016-cache-souvenir-package",
+      "filename": "MLG_Columbus_2016_Cache_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "mlgcolumbus2016cachesouvenirpackage": {
+      "caseId": "mlg-columbus-2016-cache-souvenir-package",
+      "filename": "MLG_Columbus_2016_Cache_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Cache Souvenir Package",
+      "requiresKey": false
+    },
+    "mlgcolumbus2016inferno": {
+      "caseId": "mlg-columbus-2016-inferno-souvenir-package",
+      "filename": "MLG_Columbus_2016_Inferno_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "mlgcolumbus2016infernosouvenirpackage": {
+      "caseId": "mlg-columbus-2016-inferno-souvenir-package",
+      "filename": "MLG_Columbus_2016_Inferno_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "mlgcolumbus2016mirage": {
+      "caseId": "mlg-columbus-2016-mirage-souvenir-package",
+      "filename": "MLG_Columbus_2016_Mirage_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "mlgcolumbus2016miragesouvenirpackage": {
+      "caseId": "mlg-columbus-2016-mirage-souvenir-package",
+      "filename": "MLG_Columbus_2016_Mirage_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "operation-bravo": {
+      "caseId": "operation-bravo-case",
+      "filename": "Operation_Bravo_Case.json",
+      "displayName": "Operation Bravo Case",
+      "requiresKey": true
+    },
+    "operation-bravo-case": {
+      "caseId": "operation-bravo-case",
+      "filename": "Operation_Bravo_Case.json",
+      "displayName": "Operation Bravo Case",
+      "requiresKey": true
+    },
+    "operation-breakout": {
+      "caseId": "operation-breakout-weapon-case",
+      "filename": "Operation_Breakout_Weapon_Case.json",
+      "displayName": "Operation Breakout Weapon Case",
+      "requiresKey": true
+    },
+    "operation-breakout-weapon-case": {
+      "caseId": "operation-breakout-weapon-case",
+      "filename": "Operation_Breakout_Weapon_Case.json",
+      "displayName": "Operation Breakout Weapon Case",
+      "requiresKey": true
+    },
+    "operation-broken-fang": {
+      "caseId": "operation-broken-fang-case",
+      "filename": "Operation_Broken_Fang_Case.json",
+      "displayName": "Operation Broken Fang Case",
+      "requiresKey": true
+    },
+    "operation-broken-fang-case": {
+      "caseId": "operation-broken-fang-case",
+      "filename": "Operation_Broken_Fang_Case.json",
+      "displayName": "Operation Broken Fang Case",
+      "requiresKey": true
+    },
+    "operation-hydra": {
+      "caseId": "operation-hydra-case",
+      "filename": "Operation_Hydra_Case.json",
+      "displayName": "Operation Hydra Case",
+      "requiresKey": true
+    },
+    "operation-hydra-case": {
+      "caseId": "operation-hydra-case",
+      "filename": "Operation_Hydra_Case.json",
+      "displayName": "Operation Hydra Case",
+      "requiresKey": true
+    },
+    "operation-phoenix": {
+      "caseId": "operation-phoenix-weapon-case",
+      "filename": "Operation_Phoenix_Weapon_Case.json",
+      "displayName": "Operation Phoenix Weapon Case",
+      "requiresKey": true
+    },
+    "operation-phoenix-weapon-case": {
+      "caseId": "operation-phoenix-weapon-case",
+      "filename": "Operation_Phoenix_Weapon_Case.json",
+      "displayName": "Operation Phoenix Weapon Case",
+      "requiresKey": true
+    },
+    "operation-riptide": {
+      "caseId": "operation-riptide-case",
+      "filename": "Operation_Riptide_Case.json",
+      "displayName": "Operation Riptide Case",
+      "requiresKey": true
+    },
+    "operation-riptide-case": {
+      "caseId": "operation-riptide-case",
+      "filename": "Operation_Riptide_Case.json",
+      "displayName": "Operation Riptide Case",
+      "requiresKey": true
+    },
+    "operation-shattered-web": {
+      "caseId": "operation-shattered-web-case",
+      "filename": "Operation_Shattered_Web_Case.json",
+      "displayName": "Operation Shattered Web Case",
+      "requiresKey": true
+    },
+    "operation-shattered-web-case": {
+      "caseId": "operation-shattered-web-case",
+      "filename": "Operation_Shattered_Web_Case.json",
+      "displayName": "Operation Shattered Web Case",
+      "requiresKey": true
+    },
+    "operation-vanguard": {
+      "caseId": "operation-vanguard-weapon-case",
+      "filename": "Operation_Vanguard_Weapon_Case.json",
+      "displayName": "Operation Vanguard Weapon Case",
+      "requiresKey": true
+    },
+    "operation-vanguard-weapon-case": {
+      "caseId": "operation-vanguard-weapon-case",
+      "filename": "Operation_Vanguard_Weapon_Case.json",
+      "displayName": "Operation Vanguard Weapon Case",
+      "requiresKey": true
+    },
+    "operation-wildfire": {
+      "caseId": "operation-wildfire-case",
+      "filename": "Operation_Wildfire_Case.json",
+      "displayName": "Operation Wildfire Case",
+      "requiresKey": true
+    },
+    "operation-wildfire-case": {
+      "caseId": "operation-wildfire-case",
+      "filename": "Operation_Wildfire_Case.json",
+      "displayName": "Operation Wildfire Case",
+      "requiresKey": true
+    },
+    "operationbravo": {
+      "caseId": "operation-bravo-case",
+      "filename": "Operation_Bravo_Case.json",
+      "displayName": "Operation Bravo Case",
+      "requiresKey": true
+    },
+    "operationbravocase": {
+      "caseId": "operation-bravo-case",
+      "filename": "Operation_Bravo_Case.json",
+      "displayName": "Operation Bravo Case",
+      "requiresKey": true
+    },
+    "operationbreakout": {
+      "caseId": "operation-breakout-weapon-case",
+      "filename": "Operation_Breakout_Weapon_Case.json",
+      "displayName": "Operation Breakout Weapon Case",
+      "requiresKey": true
+    },
+    "operationbreakoutweaponcase": {
+      "caseId": "operation-breakout-weapon-case",
+      "filename": "Operation_Breakout_Weapon_Case.json",
+      "displayName": "Operation Breakout Weapon Case",
+      "requiresKey": true
+    },
+    "operationbrokenfang": {
+      "caseId": "operation-broken-fang-case",
+      "filename": "Operation_Broken_Fang_Case.json",
+      "displayName": "Operation Broken Fang Case",
+      "requiresKey": true
+    },
+    "operationbrokenfangcase": {
+      "caseId": "operation-broken-fang-case",
+      "filename": "Operation_Broken_Fang_Case.json",
+      "displayName": "Operation Broken Fang Case",
+      "requiresKey": true
+    },
+    "operationhydra": {
+      "caseId": "operation-hydra-case",
+      "filename": "Operation_Hydra_Case.json",
+      "displayName": "Operation Hydra Case",
+      "requiresKey": true
+    },
+    "operationhydracase": {
+      "caseId": "operation-hydra-case",
+      "filename": "Operation_Hydra_Case.json",
+      "displayName": "Operation Hydra Case",
+      "requiresKey": true
+    },
+    "operationphoenix": {
+      "caseId": "operation-phoenix-weapon-case",
+      "filename": "Operation_Phoenix_Weapon_Case.json",
+      "displayName": "Operation Phoenix Weapon Case",
+      "requiresKey": true
+    },
+    "operationphoenixweaponcase": {
+      "caseId": "operation-phoenix-weapon-case",
+      "filename": "Operation_Phoenix_Weapon_Case.json",
+      "displayName": "Operation Phoenix Weapon Case",
+      "requiresKey": true
+    },
+    "operationriptide": {
+      "caseId": "operation-riptide-case",
+      "filename": "Operation_Riptide_Case.json",
+      "displayName": "Operation Riptide Case",
+      "requiresKey": true
+    },
+    "operationriptidecase": {
+      "caseId": "operation-riptide-case",
+      "filename": "Operation_Riptide_Case.json",
+      "displayName": "Operation Riptide Case",
+      "requiresKey": true
+    },
+    "operationshatteredweb": {
+      "caseId": "operation-shattered-web-case",
+      "filename": "Operation_Shattered_Web_Case.json",
+      "displayName": "Operation Shattered Web Case",
+      "requiresKey": true
+    },
+    "operationshatteredwebcase": {
+      "caseId": "operation-shattered-web-case",
+      "filename": "Operation_Shattered_Web_Case.json",
+      "displayName": "Operation Shattered Web Case",
+      "requiresKey": true
+    },
+    "operationvanguard": {
+      "caseId": "operation-vanguard-weapon-case",
+      "filename": "Operation_Vanguard_Weapon_Case.json",
+      "displayName": "Operation Vanguard Weapon Case",
+      "requiresKey": true
+    },
+    "operationvanguardweaponcase": {
+      "caseId": "operation-vanguard-weapon-case",
+      "filename": "Operation_Vanguard_Weapon_Case.json",
+      "displayName": "Operation Vanguard Weapon Case",
+      "requiresKey": true
+    },
+    "operationwildfire": {
+      "caseId": "operation-wildfire-case",
+      "filename": "Operation_Wildfire_Case.json",
+      "displayName": "Operation Wildfire Case",
+      "requiresKey": true
+    },
+    "operationwildfirecase": {
+      "caseId": "operation-wildfire-case",
+      "filename": "Operation_Wildfire_Case.json",
+      "displayName": "Operation Wildfire Case",
+      "requiresKey": true
+    },
+    "paris-2023-ancient": {
+      "caseId": "paris-2023-ancient-souvenir-package",
+      "filename": "Paris_2023_Ancient_Souvenir_Package.json",
+      "displayName": "Paris 2023 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-ancient-souvenir-package": {
+      "caseId": "paris-2023-ancient-souvenir-package",
+      "filename": "Paris_2023_Ancient_Souvenir_Package.json",
+      "displayName": "Paris 2023 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-anubis": {
+      "caseId": "paris-2023-anubis-souvenir-package",
+      "filename": "Paris_2023_Anubis_Souvenir_Package.json",
+      "displayName": "Paris 2023 Anubis Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-anubis-souvenir-package": {
+      "caseId": "paris-2023-anubis-souvenir-package",
+      "filename": "Paris_2023_Anubis_Souvenir_Package.json",
+      "displayName": "Paris 2023 Anubis Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-inferno": {
+      "caseId": "paris-2023-inferno-souvenir-package",
+      "filename": "Paris_2023_Inferno_Souvenir_Package.json",
+      "displayName": "Paris 2023 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-inferno-souvenir-package": {
+      "caseId": "paris-2023-inferno-souvenir-package",
+      "filename": "Paris_2023_Inferno_Souvenir_Package.json",
+      "displayName": "Paris 2023 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-mirage": {
+      "caseId": "paris-2023-mirage-souvenir-package",
+      "filename": "Paris_2023_Mirage_Souvenir_Package.json",
+      "displayName": "Paris 2023 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-mirage-souvenir-package": {
+      "caseId": "paris-2023-mirage-souvenir-package",
+      "filename": "Paris_2023_Mirage_Souvenir_Package.json",
+      "displayName": "Paris 2023 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-nuke": {
+      "caseId": "paris-2023-nuke-souvenir-package",
+      "filename": "Paris_2023_Nuke_Souvenir_Package.json",
+      "displayName": "Paris 2023 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-nuke-souvenir-package": {
+      "caseId": "paris-2023-nuke-souvenir-package",
+      "filename": "Paris_2023_Nuke_Souvenir_Package.json",
+      "displayName": "Paris 2023 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-overpass": {
+      "caseId": "paris-2023-overpass-souvenir-package",
+      "filename": "Paris_2023_Overpass_Souvenir_Package.json",
+      "displayName": "Paris 2023 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-overpass-souvenir-package": {
+      "caseId": "paris-2023-overpass-souvenir-package",
+      "filename": "Paris_2023_Overpass_Souvenir_Package.json",
+      "displayName": "Paris 2023 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-vertigo": {
+      "caseId": "paris-2023-vertigo-souvenir-package",
+      "filename": "Paris_2023_Vertigo_Souvenir_Package.json",
+      "displayName": "Paris 2023 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "paris-2023-vertigo-souvenir-package": {
+      "caseId": "paris-2023-vertigo-souvenir-package",
+      "filename": "Paris_2023_Vertigo_Souvenir_Package.json",
+      "displayName": "Paris 2023 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023ancient": {
+      "caseId": "paris-2023-ancient-souvenir-package",
+      "filename": "Paris_2023_Ancient_Souvenir_Package.json",
+      "displayName": "Paris 2023 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023ancientsouvenirpackage": {
+      "caseId": "paris-2023-ancient-souvenir-package",
+      "filename": "Paris_2023_Ancient_Souvenir_Package.json",
+      "displayName": "Paris 2023 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023anubis": {
+      "caseId": "paris-2023-anubis-souvenir-package",
+      "filename": "Paris_2023_Anubis_Souvenir_Package.json",
+      "displayName": "Paris 2023 Anubis Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023anubissouvenirpackage": {
+      "caseId": "paris-2023-anubis-souvenir-package",
+      "filename": "Paris_2023_Anubis_Souvenir_Package.json",
+      "displayName": "Paris 2023 Anubis Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023inferno": {
+      "caseId": "paris-2023-inferno-souvenir-package",
+      "filename": "Paris_2023_Inferno_Souvenir_Package.json",
+      "displayName": "Paris 2023 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023infernosouvenirpackage": {
+      "caseId": "paris-2023-inferno-souvenir-package",
+      "filename": "Paris_2023_Inferno_Souvenir_Package.json",
+      "displayName": "Paris 2023 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023mirage": {
+      "caseId": "paris-2023-mirage-souvenir-package",
+      "filename": "Paris_2023_Mirage_Souvenir_Package.json",
+      "displayName": "Paris 2023 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023miragesouvenirpackage": {
+      "caseId": "paris-2023-mirage-souvenir-package",
+      "filename": "Paris_2023_Mirage_Souvenir_Package.json",
+      "displayName": "Paris 2023 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023nuke": {
+      "caseId": "paris-2023-nuke-souvenir-package",
+      "filename": "Paris_2023_Nuke_Souvenir_Package.json",
+      "displayName": "Paris 2023 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023nukesouvenirpackage": {
+      "caseId": "paris-2023-nuke-souvenir-package",
+      "filename": "Paris_2023_Nuke_Souvenir_Package.json",
+      "displayName": "Paris 2023 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023overpass": {
+      "caseId": "paris-2023-overpass-souvenir-package",
+      "filename": "Paris_2023_Overpass_Souvenir_Package.json",
+      "displayName": "Paris 2023 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023overpasssouvenirpackage": {
+      "caseId": "paris-2023-overpass-souvenir-package",
+      "filename": "Paris_2023_Overpass_Souvenir_Package.json",
+      "displayName": "Paris 2023 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023vertigo": {
+      "caseId": "paris-2023-vertigo-souvenir-package",
+      "filename": "Paris_2023_Vertigo_Souvenir_Package.json",
+      "displayName": "Paris 2023 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "paris2023vertigosouvenirpackage": {
+      "caseId": "paris-2023-vertigo-souvenir-package",
+      "filename": "Paris_2023_Vertigo_Souvenir_Package.json",
+      "displayName": "Paris 2023 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "prisma": {
+      "caseId": "prisma-case",
+      "filename": "Prisma_Case.json",
+      "displayName": "Prisma Case",
+      "requiresKey": true
+    },
+    "prisma-2": {
+      "caseId": "prisma-2-case",
+      "filename": "Prisma_2_Case.json",
+      "displayName": "Prisma 2 Case",
+      "requiresKey": true
+    },
+    "prisma-2-case": {
+      "caseId": "prisma-2-case",
+      "filename": "Prisma_2_Case.json",
+      "displayName": "Prisma 2 Case",
+      "requiresKey": true
+    },
+    "prisma-case": {
+      "caseId": "prisma-case",
+      "filename": "Prisma_Case.json",
+      "displayName": "Prisma Case",
+      "requiresKey": true
+    },
+    "prisma2": {
+      "caseId": "prisma-2-case",
+      "filename": "Prisma_2_Case.json",
+      "displayName": "Prisma 2 Case",
+      "requiresKey": true
+    },
+    "prisma2case": {
+      "caseId": "prisma-2-case",
+      "filename": "Prisma_2_Case.json",
+      "displayName": "Prisma 2 Case",
+      "requiresKey": true
+    },
+    "prismacase": {
+      "caseId": "prisma-case",
+      "filename": "Prisma_Case.json",
+      "displayName": "Prisma Case",
+      "requiresKey": true
+    },
+    "recoil": {
+      "caseId": "recoil-case",
+      "filename": "Recoil_Case.json",
+      "displayName": "Recoil Case",
+      "requiresKey": true
+    },
+    "recoil-case": {
+      "caseId": "recoil-case",
+      "filename": "Recoil_Case.json",
+      "displayName": "Recoil Case",
+      "requiresKey": true
+    },
+    "recoilcase": {
+      "caseId": "recoil-case",
+      "filename": "Recoil_Case.json",
+      "displayName": "Recoil Case",
+      "requiresKey": true
+    },
+    "revolution": {
+      "caseId": "revolution-case",
+      "filename": "Revolution_Case.json",
+      "displayName": "Revolution Case",
+      "requiresKey": true
+    },
+    "revolution-case": {
+      "caseId": "revolution-case",
+      "filename": "Revolution_Case.json",
+      "displayName": "Revolution Case",
+      "requiresKey": true
+    },
+    "revolutioncase": {
+      "caseId": "revolution-case",
+      "filename": "Revolution_Case.json",
+      "displayName": "Revolution Case",
+      "requiresKey": true
+    },
+    "revolver": {
+      "caseId": "revolver-case",
+      "filename": "Revolver_Case.json",
+      "displayName": "Revolver Case",
+      "requiresKey": true
+    },
+    "revolver-case": {
+      "caseId": "revolver-case",
+      "filename": "Revolver_Case.json",
+      "displayName": "Revolver Case",
+      "requiresKey": true
+    },
+    "revolvercase": {
+      "caseId": "revolver-case",
+      "filename": "Revolver_Case.json",
+      "displayName": "Revolver Case",
+      "requiresKey": true
+    },
+    "rio-2022-dust-ii": {
+      "caseId": "rio-2022-dust-ii-souvenir-package",
+      "filename": "Rio_2022_Dust_II_Souvenir_Package.json",
+      "displayName": "Rio 2022 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "rio-2022-dust-ii-souvenir-package": {
+      "caseId": "rio-2022-dust-ii-souvenir-package",
+      "filename": "Rio_2022_Dust_II_Souvenir_Package.json",
+      "displayName": "Rio 2022 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "rio-2022-mirage": {
+      "caseId": "rio-2022-mirage-souvenir-package",
+      "filename": "Rio_2022_Mirage_Souvenir_Package.json",
+      "displayName": "Rio 2022 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "rio-2022-mirage-souvenir-package": {
+      "caseId": "rio-2022-mirage-souvenir-package",
+      "filename": "Rio_2022_Mirage_Souvenir_Package.json",
+      "displayName": "Rio 2022 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "rio-2022-vertigo": {
+      "caseId": "rio-2022-vertigo-souvenir-package",
+      "filename": "Rio_2022_Vertigo_Souvenir_Package.json",
+      "displayName": "Rio 2022 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "rio-2022-vertigo-souvenir-package": {
+      "caseId": "rio-2022-vertigo-souvenir-package",
+      "filename": "Rio_2022_Vertigo_Souvenir_Package.json",
+      "displayName": "Rio 2022 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "rio2022dustii": {
+      "caseId": "rio-2022-dust-ii-souvenir-package",
+      "filename": "Rio_2022_Dust_II_Souvenir_Package.json",
+      "displayName": "Rio 2022 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "rio2022dustiisouvenirpackage": {
+      "caseId": "rio-2022-dust-ii-souvenir-package",
+      "filename": "Rio_2022_Dust_II_Souvenir_Package.json",
+      "displayName": "Rio 2022 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "rio2022mirage": {
+      "caseId": "rio-2022-mirage-souvenir-package",
+      "filename": "Rio_2022_Mirage_Souvenir_Package.json",
+      "displayName": "Rio 2022 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "rio2022miragesouvenirpackage": {
+      "caseId": "rio-2022-mirage-souvenir-package",
+      "filename": "Rio_2022_Mirage_Souvenir_Package.json",
+      "displayName": "Rio 2022 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "rio2022vertigo": {
+      "caseId": "rio-2022-vertigo-souvenir-package",
+      "filename": "Rio_2022_Vertigo_Souvenir_Package.json",
+      "displayName": "Rio 2022 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "rio2022vertigosouvenirpackage": {
+      "caseId": "rio-2022-vertigo-souvenir-package",
+      "filename": "Rio_2022_Vertigo_Souvenir_Package.json",
+      "displayName": "Rio 2022 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "sealed-genesis-terminal": {
+      "caseId": "sealed-genesis-terminal",
+      "filename": "Sealed_Genesis_Terminal_Case.json",
+      "displayName": "Sealed Genesis Terminal",
+      "requiresKey": true
+    },
+    "sealedgenesisterminalcase": {
+      "caseId": "sealed-genesis-terminal",
+      "filename": "Sealed_Genesis_Terminal_Case.json",
+      "displayName": "Sealed Genesis Terminal",
+      "requiresKey": true
+    },
+    "shadow": {
+      "caseId": "shadow-case",
+      "filename": "Shadow_Case.json",
+      "displayName": "Shadow Case",
+      "requiresKey": true
+    },
+    "shadow-case": {
+      "caseId": "shadow-case",
+      "filename": "Shadow_Case.json",
+      "displayName": "Shadow Case",
+      "requiresKey": true
+    },
+    "shadowcase": {
+      "caseId": "shadow-case",
+      "filename": "Shadow_Case.json",
+      "displayName": "Shadow Case",
+      "requiresKey": true
+    },
+    "shanghai-2024-anubis": {
+      "caseId": "shanghai-2024-anubis-souvenir-package",
+      "filename": "Shanghai_2024_Anubis_Souvenir_Package.json",
+      "displayName": "Shanghai 2024 Anubis Souvenir Package",
+      "requiresKey": false
+    },
+    "shanghai-2024-anubis-souvenir-package": {
+      "caseId": "shanghai-2024-anubis-souvenir-package",
+      "filename": "Shanghai_2024_Anubis_Souvenir_Package.json",
+      "displayName": "Shanghai 2024 Anubis Souvenir Package",
+      "requiresKey": false
+    },
+    "shanghai-2024-mirage": {
+      "caseId": "shanghai-2024-mirage-souvenir-package",
+      "filename": "Shanghai_2024_Mirage_Souvenir_Package.json",
+      "displayName": "Shanghai 2024 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "shanghai-2024-mirage-souvenir-package": {
+      "caseId": "shanghai-2024-mirage-souvenir-package",
+      "filename": "Shanghai_2024_Mirage_Souvenir_Package.json",
+      "displayName": "Shanghai 2024 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "shanghai2024anubis": {
+      "caseId": "shanghai-2024-anubis-souvenir-package",
+      "filename": "Shanghai_2024_Anubis_Souvenir_Package.json",
+      "displayName": "Shanghai 2024 Anubis Souvenir Package",
+      "requiresKey": false
+    },
+    "shanghai2024anubissouvenirpackage": {
+      "caseId": "shanghai-2024-anubis-souvenir-package",
+      "filename": "Shanghai_2024_Anubis_Souvenir_Package.json",
+      "displayName": "Shanghai 2024 Anubis Souvenir Package",
+      "requiresKey": false
+    },
+    "shanghai2024mirage": {
+      "caseId": "shanghai-2024-mirage-souvenir-package",
+      "filename": "Shanghai_2024_Mirage_Souvenir_Package.json",
+      "displayName": "Shanghai 2024 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "shanghai2024miragesouvenirpackage": {
+      "caseId": "shanghai-2024-mirage-souvenir-package",
+      "filename": "Shanghai_2024_Mirage_Souvenir_Package.json",
+      "displayName": "Shanghai 2024 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "shattered-web": {
+      "caseId": "shattered-web-case",
+      "filename": "Shattered_Web_Case.json",
+      "displayName": "Shattered Web Case",
+      "requiresKey": true
+    },
+    "shattered-web-case": {
+      "caseId": "shattered-web-case",
+      "filename": "Shattered_Web_Case.json",
+      "displayName": "Shattered Web Case",
+      "requiresKey": true
+    },
+    "shatteredweb": {
+      "caseId": "shattered-web-case",
+      "filename": "Shattered_Web_Case.json",
+      "displayName": "Shattered Web Case",
+      "requiresKey": true
+    },
+    "shatteredwebcase": {
+      "caseId": "shattered-web-case",
+      "filename": "Shattered_Web_Case.json",
+      "displayName": "Shattered Web Case",
+      "requiresKey": true
+    },
+    "snakebite": {
+      "caseId": "snakebite-case",
+      "filename": "Snakebite_Case.json",
+      "displayName": "Snakebite Case",
+      "requiresKey": true
+    },
+    "snakebite-case": {
+      "caseId": "snakebite-case",
+      "filename": "Snakebite_Case.json",
+      "displayName": "Snakebite Case",
+      "requiresKey": true
+    },
+    "snakebitecase": {
+      "caseId": "snakebite-case",
+      "filename": "Snakebite_Case.json",
+      "displayName": "Snakebite Case",
+      "requiresKey": true
+    },
+    "spectrum": {
+      "caseId": "spectrum-case",
+      "filename": "Spectrum_Case.json",
+      "displayName": "Spectrum Case",
+      "requiresKey": true
+    },
+    "spectrum-2": {
+      "caseId": "spectrum-2-case",
+      "filename": "Spectrum_2_Case.json",
+      "displayName": "Spectrum 2 Case",
+      "requiresKey": true
+    },
+    "spectrum-2-case": {
+      "caseId": "spectrum-2-case",
+      "filename": "Spectrum_2_Case.json",
+      "displayName": "Spectrum 2 Case",
+      "requiresKey": true
+    },
+    "spectrum-case": {
+      "caseId": "spectrum-case",
+      "filename": "Spectrum_Case.json",
+      "displayName": "Spectrum Case",
+      "requiresKey": true
+    },
+    "spectrum2": {
+      "caseId": "spectrum-2-case",
+      "filename": "Spectrum_2_Case.json",
+      "displayName": "Spectrum 2 Case",
+      "requiresKey": true
+    },
+    "spectrum2case": {
+      "caseId": "spectrum-2-case",
+      "filename": "Spectrum_2_Case.json",
+      "displayName": "Spectrum 2 Case",
+      "requiresKey": true
+    },
+    "spectrumcase": {
+      "caseId": "spectrum-case",
+      "filename": "Spectrum_Case.json",
+      "displayName": "Spectrum Case",
+      "requiresKey": true
+    },
+    "stockholm-2021-ancient": {
+      "caseId": "stockholm-2021-ancient-souvenir-package",
+      "filename": "Stockholm_2021_Ancient_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-ancient-souvenir-package": {
+      "caseId": "stockholm-2021-ancient-souvenir-package",
+      "filename": "Stockholm_2021_Ancient_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-dust-ii": {
+      "caseId": "stockholm-2021-dust-ii-souvenir-package",
+      "filename": "Stockholm_2021_Dust_II_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-dust-ii-souvenir-package": {
+      "caseId": "stockholm-2021-dust-ii-souvenir-package",
+      "filename": "Stockholm_2021_Dust_II_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-inferno": {
+      "caseId": "stockholm-2021-inferno-souvenir-package",
+      "filename": "Stockholm_2021_Inferno_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-inferno-souvenir-package": {
+      "caseId": "stockholm-2021-inferno-souvenir-package",
+      "filename": "Stockholm_2021_Inferno_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-mirage": {
+      "caseId": "stockholm-2021-mirage-souvenir-package",
+      "filename": "Stockholm_2021_Mirage_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-mirage-souvenir-package": {
+      "caseId": "stockholm-2021-mirage-souvenir-package",
+      "filename": "Stockholm_2021_Mirage_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-nuke": {
+      "caseId": "stockholm-2021-nuke-souvenir-package",
+      "filename": "Stockholm_2021_Nuke_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-nuke-souvenir-package": {
+      "caseId": "stockholm-2021-nuke-souvenir-package",
+      "filename": "Stockholm_2021_Nuke_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-overpass": {
+      "caseId": "stockholm-2021-overpass-souvenir-package",
+      "filename": "Stockholm_2021_Overpass_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-overpass-souvenir-package": {
+      "caseId": "stockholm-2021-overpass-souvenir-package",
+      "filename": "Stockholm_2021_Overpass_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-vertigo": {
+      "caseId": "stockholm-2021-vertigo-souvenir-package",
+      "filename": "Stockholm_2021_Vertigo_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm-2021-vertigo-souvenir-package": {
+      "caseId": "stockholm-2021-vertigo-souvenir-package",
+      "filename": "Stockholm_2021_Vertigo_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021ancient": {
+      "caseId": "stockholm-2021-ancient-souvenir-package",
+      "filename": "Stockholm_2021_Ancient_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021ancientsouvenirpackage": {
+      "caseId": "stockholm-2021-ancient-souvenir-package",
+      "filename": "Stockholm_2021_Ancient_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Ancient Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021dustii": {
+      "caseId": "stockholm-2021-dust-ii-souvenir-package",
+      "filename": "Stockholm_2021_Dust_II_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021dustiisouvenirpackage": {
+      "caseId": "stockholm-2021-dust-ii-souvenir-package",
+      "filename": "Stockholm_2021_Dust_II_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Dust II Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021inferno": {
+      "caseId": "stockholm-2021-inferno-souvenir-package",
+      "filename": "Stockholm_2021_Inferno_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021infernosouvenirpackage": {
+      "caseId": "stockholm-2021-inferno-souvenir-package",
+      "filename": "Stockholm_2021_Inferno_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Inferno Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021mirage": {
+      "caseId": "stockholm-2021-mirage-souvenir-package",
+      "filename": "Stockholm_2021_Mirage_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021miragesouvenirpackage": {
+      "caseId": "stockholm-2021-mirage-souvenir-package",
+      "filename": "Stockholm_2021_Mirage_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Mirage Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021nuke": {
+      "caseId": "stockholm-2021-nuke-souvenir-package",
+      "filename": "Stockholm_2021_Nuke_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021nukesouvenirpackage": {
+      "caseId": "stockholm-2021-nuke-souvenir-package",
+      "filename": "Stockholm_2021_Nuke_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Nuke Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021overpass": {
+      "caseId": "stockholm-2021-overpass-souvenir-package",
+      "filename": "Stockholm_2021_Overpass_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021overpasssouvenirpackage": {
+      "caseId": "stockholm-2021-overpass-souvenir-package",
+      "filename": "Stockholm_2021_Overpass_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Overpass Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021vertigo": {
+      "caseId": "stockholm-2021-vertigo-souvenir-package",
+      "filename": "Stockholm_2021_Vertigo_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "stockholm2021vertigosouvenirpackage": {
+      "caseId": "stockholm-2021-vertigo-souvenir-package",
+      "filename": "Stockholm_2021_Vertigo_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Vertigo Souvenir Package",
+      "requiresKey": false
+    },
+    "winter-offensive": {
+      "caseId": "winter-offensive-weapon-case",
+      "filename": "Winter_Offensive_Weapon_Case.json",
+      "displayName": "Winter Offensive Weapon Case",
+      "requiresKey": true
+    },
+    "winter-offensive-weapon-case": {
+      "caseId": "winter-offensive-weapon-case",
+      "filename": "Winter_Offensive_Weapon_Case.json",
+      "displayName": "Winter Offensive Weapon Case",
+      "requiresKey": true
+    },
+    "winteroffensive": {
+      "caseId": "winter-offensive-weapon-case",
+      "filename": "Winter_Offensive_Weapon_Case.json",
+      "displayName": "Winter Offensive Weapon Case",
+      "requiresKey": true
+    },
+    "winteroffensiveweaponcase": {
+      "caseId": "winter-offensive-weapon-case",
+      "filename": "Winter_Offensive_Weapon_Case.json",
+      "displayName": "Winter Offensive Weapon Case",
+      "requiresKey": true
+    },
+    "x-ray-p250": {
+      "caseId": "x-ray-p250-package",
+      "filename": "X_Ray_P250_Package.json",
+      "displayName": "X-Ray P250 Package",
+      "requiresKey": false
+    },
+    "x-ray-p250-package": {
+      "caseId": "x-ray-p250-package",
+      "filename": "X_Ray_P250_Package.json",
+      "displayName": "X-Ray P250 Package",
+      "requiresKey": false
+    },
+    "xrayp250": {
+      "caseId": "x-ray-p250-package",
+      "filename": "X_Ray_P250_Package.json",
+      "displayName": "X-Ray P250 Package",
+      "requiresKey": false
+    },
+    "xrayp250package": {
+      "caseId": "x-ray-p250-package",
+      "filename": "X_Ray_P250_Package.json",
+      "displayName": "X-Ray P250 Package",
+      "requiresKey": false
+    }
+  },
+  "cases": {
+    "antwerp-2022-ancient-souvenir-package": {
+      "caseId": "antwerp-2022-ancient-souvenir-package",
+      "filename": "Antwerp_2022_Ancient_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Ancient Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "antwerp-2022-dust-ii-souvenir-package": {
+      "caseId": "antwerp-2022-dust-ii-souvenir-package",
+      "filename": "Antwerp_2022_Dust_II_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Dust II Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "antwerp-2022-inferno-souvenir-package": {
+      "caseId": "antwerp-2022-inferno-souvenir-package",
+      "filename": "Antwerp_2022_Inferno_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Inferno Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "antwerp-2022-nuke-souvenir-package": {
+      "caseId": "antwerp-2022-nuke-souvenir-package",
+      "filename": "Antwerp_2022_Nuke_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Nuke Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "antwerp-2022-vertigo-souvenir-package": {
+      "caseId": "antwerp-2022-vertigo-souvenir-package",
+      "filename": "Antwerp_2022_Vertigo_Souvenir_Package.json",
+      "displayName": "Antwerp 2022 Vertigo Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "anubis-collection-package": {
+      "caseId": "anubis-collection-package",
+      "filename": "Anubis_Collection_Package.json",
+      "displayName": "Anubis Collection Package",
+      "requiresKey": false,
+      "caseType": "other",
+      "schemaVersion": "3.0-case-export"
+    },
+    "atlanta-2017-cache-souvenir-package": {
+      "caseId": "atlanta-2017-cache-souvenir-package",
+      "filename": "Atlanta_2017_Cache_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Cache Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "atlanta-2017-cobblestone-souvenir-package": {
+      "caseId": "atlanta-2017-cobblestone-souvenir-package",
+      "filename": "Atlanta_2017_Cobblestone_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Cobblestone Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "atlanta-2017-dust-ii-souvenir-package": {
+      "caseId": "atlanta-2017-dust-ii-souvenir-package",
+      "filename": "Atlanta_2017_Dust_II_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Dust II Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "atlanta-2017-mirage-souvenir-package": {
+      "caseId": "atlanta-2017-mirage-souvenir-package",
+      "filename": "Atlanta_2017_Mirage_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "atlanta-2017-nuke-souvenir-package": {
+      "caseId": "atlanta-2017-nuke-souvenir-package",
+      "filename": "Atlanta_2017_Nuke_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Nuke Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "atlanta-2017-overpass-souvenir-package": {
+      "caseId": "atlanta-2017-overpass-souvenir-package",
+      "filename": "Atlanta_2017_Overpass_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Overpass Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "atlanta-2017-train-souvenir-package": {
+      "caseId": "atlanta-2017-train-souvenir-package",
+      "filename": "Atlanta_2017_Train_Souvenir_Package.json",
+      "displayName": "Atlanta 2017 Train Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "austin-2025-dust-ii-souvenir-package": {
+      "caseId": "austin-2025-dust-ii-souvenir-package",
+      "filename": "Austin_2025_Dust_II_Souvenir_Package.json",
+      "displayName": "Austin 2025 Dust II Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "austin-2025-inferno-souvenir-package": {
+      "caseId": "austin-2025-inferno-souvenir-package",
+      "filename": "Austin_2025_Inferno_Souvenir_Package.json",
+      "displayName": "Austin 2025 Inferno Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "austin-2025-train-souvenir-package": {
+      "caseId": "austin-2025-train-souvenir-package",
+      "filename": "Austin_2025_Train_Souvenir_Package.json",
+      "displayName": "Austin 2025 Train Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "berlin-2019-dust-ii-souvenir-package": {
+      "caseId": "berlin-2019-dust-ii-souvenir-package",
+      "filename": "Berlin_2019_Dust_II_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Dust II Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "berlin-2019-inferno-souvenir-package": {
+      "caseId": "berlin-2019-inferno-souvenir-package",
+      "filename": "Berlin_2019_Inferno_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Inferno Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "berlin-2019-mirage-souvenir-package": {
+      "caseId": "berlin-2019-mirage-souvenir-package",
+      "filename": "Berlin_2019_Mirage_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "berlin-2019-nuke-souvenir-package": {
+      "caseId": "berlin-2019-nuke-souvenir-package",
+      "filename": "Berlin_2019_Nuke_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Nuke Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "berlin-2019-overpass-souvenir-package": {
+      "caseId": "berlin-2019-overpass-souvenir-package",
+      "filename": "Berlin_2019_Overpass_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Overpass Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "berlin-2019-train-souvenir-package": {
+      "caseId": "berlin-2019-train-souvenir-package",
+      "filename": "Berlin_2019_Train_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Train Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "berlin-2019-vertigo-souvenir-package": {
+      "caseId": "berlin-2019-vertigo-souvenir-package",
+      "filename": "Berlin_2019_Vertigo_Souvenir_Package.json",
+      "displayName": "Berlin 2019 Vertigo Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "boston-2018-cache-souvenir-package": {
+      "caseId": "boston-2018-cache-souvenir-package",
+      "filename": "Boston_2018_Cache_Souvenir_Package.json",
+      "displayName": "Boston 2018 Cache Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "boston-2018-cobblestone-souvenir-package": {
+      "caseId": "boston-2018-cobblestone-souvenir-package",
+      "filename": "Boston_2018_Cobblestone_Souvenir_Package.json",
+      "displayName": "Boston 2018 Cobblestone Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "boston-2018-mirage-souvenir-package": {
+      "caseId": "boston-2018-mirage-souvenir-package",
+      "filename": "Boston_2018_Mirage_Souvenir_Package.json",
+      "displayName": "Boston 2018 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "boston-2018-nuke-souvenir-package": {
+      "caseId": "boston-2018-nuke-souvenir-package",
+      "filename": "Boston_2018_Nuke_Souvenir_Package.json",
+      "displayName": "Boston 2018 Nuke Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "boston-2018-overpass-souvenir-package": {
+      "caseId": "boston-2018-overpass-souvenir-package",
+      "filename": "Boston_2018_Overpass_Souvenir_Package.json",
+      "displayName": "Boston 2018 Overpass Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "boston-2018-train-souvenir-package": {
+      "caseId": "boston-2018-train-souvenir-package",
+      "filename": "Boston_2018_Train_Souvenir_Package.json",
+      "displayName": "Boston 2018 Train Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "budapest-2025-ancient-souvenir-package": {
+      "caseId": "budapest-2025-ancient-souvenir-package",
+      "filename": "Budapest_2025_Ancient_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Ancient Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "budapest-2025-dust-ii-souvenir-package": {
+      "caseId": "budapest-2025-dust-ii-souvenir-package",
+      "filename": "Budapest_2025_Dust_II_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Dust II Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "budapest-2025-inferno-souvenir-package": {
+      "caseId": "budapest-2025-inferno-souvenir-package",
+      "filename": "Budapest_2025_Inferno_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Inferno Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "budapest-2025-mirage-souvenir-package": {
+      "caseId": "budapest-2025-mirage-souvenir-package",
+      "filename": "Budapest_2025_Mirage_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "budapest-2025-nuke-souvenir-package": {
+      "caseId": "budapest-2025-nuke-souvenir-package",
+      "filename": "Budapest_2025_Nuke_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Nuke Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "budapest-2025-overpass-souvenir-package": {
+      "caseId": "budapest-2025-overpass-souvenir-package",
+      "filename": "Budapest_2025_Overpass_Souvenir_Package.json",
+      "displayName": "Budapest 2025 Overpass Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "chroma-2-case": {
+      "caseId": "chroma-2-case",
+      "filename": "Chroma_2_Case.json",
+      "displayName": "Chroma 2 Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "chroma-3-case": {
+      "caseId": "chroma-3-case",
+      "filename": "Chroma_3_Case.json",
+      "displayName": "Chroma 3 Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "chroma-case": {
+      "caseId": "chroma-case",
+      "filename": "Chroma_Case.json",
+      "displayName": "Chroma Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "clutch-case": {
+      "caseId": "clutch-case",
+      "filename": "Clutch_Case.json",
+      "displayName": "Clutch Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "cologne-2016-cache-souvenir-package": {
+      "caseId": "cologne-2016-cache-souvenir-package",
+      "filename": "Cologne_2016_Cache_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Cache Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "cologne-2016-cobblestone-souvenir-package": {
+      "caseId": "cologne-2016-cobblestone-souvenir-package",
+      "filename": "Cologne_2016_Cobblestone_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Cobblestone Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "cologne-2016-nuke-souvenir-package": {
+      "caseId": "cologne-2016-nuke-souvenir-package",
+      "filename": "Cologne_2016_Nuke_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Nuke Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "cologne-2016-train-souvenir-package": {
+      "caseId": "cologne-2016-train-souvenir-package",
+      "filename": "Cologne_2016_Train_Souvenir_Package.json",
+      "displayName": "Cologne 2016 Train Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "copenhagen-2024-ancient-souvenir-package": {
+      "caseId": "copenhagen-2024-ancient-souvenir-package",
+      "filename": "Copenhagen_2024_Ancient_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Ancient Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "copenhagen-2024-anubis-souvenir-package": {
+      "caseId": "copenhagen-2024-anubis-souvenir-package",
+      "filename": "Copenhagen_2024_Anubis_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Anubis Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "copenhagen-2024-inferno-souvenir-package": {
+      "caseId": "copenhagen-2024-inferno-souvenir-package",
+      "filename": "Copenhagen_2024_Inferno_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Inferno Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "copenhagen-2024-overpass-souvenir-package": {
+      "caseId": "copenhagen-2024-overpass-souvenir-package",
+      "filename": "Copenhagen_2024_Overpass_Souvenir_Package.json",
+      "displayName": "Copenhagen 2024 Overpass Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "cs20-case": {
+      "caseId": "cs20-case",
+      "filename": "CS20_Case.json",
+      "displayName": "CS20 Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "csgo-weapon-case": {
+      "caseId": "csgo-weapon-case",
+      "filename": "CS_GO_Weapon_Case.json",
+      "displayName": "CS:GO Weapon Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "csgo-weapon-case-2": {
+      "caseId": "csgo-weapon-case-2",
+      "filename": "CS_GO_Weapon_Case_2.json",
+      "displayName": "CS:GO Weapon Case 2",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "csgo-weapon-case-3": {
+      "caseId": "csgo-weapon-case-3",
+      "filename": "CS_GO_Weapon_Case_3.json",
+      "displayName": "CS:GO Weapon Case 3",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "danger-zone-case": {
+      "caseId": "danger-zone-case",
+      "filename": "Danger_Zone_Case.json",
+      "displayName": "Danger Zone Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "dreamhack-2013-souvenir-package": {
+      "caseId": "dreamhack-2013-souvenir-package",
+      "filename": "DreamHack_2013_Souvenir_Package.json",
+      "displayName": "DreamHack 2013 Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "dreamhack-2014-dust-ii-souvenir-package": {
+      "caseId": "dreamhack-2014-dust-ii-souvenir-package",
+      "filename": "DreamHack_2014_Dust_II_Souvenir_Package.json",
+      "displayName": "DreamHack 2014 Dust II Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "dreamhack-cluj-napoca-2015-overpass-souvenir-package": {
+      "caseId": "dreamhack-cluj-napoca-2015-overpass-souvenir-package",
+      "filename": "DreamHack_Cluj_Napoca_2015_Overpass_Souvenir_Package.json",
+      "displayName": "DreamHack Cluj-Napoca 2015 Overpass Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "dreams-and-nightmares-case": {
+      "caseId": "dreams-and-nightmares-case",
+      "filename": "Dreams_Nightmares_Case.json",
+      "displayName": "Dreams & Nightmares Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "ems-one-2014-souvenir-package": {
+      "caseId": "ems-one-2014-souvenir-package",
+      "filename": "EMS_One_2014_Souvenir_Package.json",
+      "displayName": "EMS One 2014 Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "esl-one-cologne-2014-cobblestone-souvenir-package": {
+      "caseId": "esl-one-cologne-2014-cobblestone-souvenir-package",
+      "filename": "ESL_One_Cologne_2014_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Cologne 2014 Cobblestone Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "esl-one-cologne-2015-cobblestone-souvenir-package": {
+      "caseId": "esl-one-cologne-2015-cobblestone-souvenir-package",
+      "filename": "ESL_One_Cologne_2015_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Cologne 2015 Cobblestone Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "esl-one-katowice-2015-cache-souvenir-package": {
+      "caseId": "esl-one-katowice-2015-cache-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Cache_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Cache Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "esl-one-katowice-2015-cobblestone-souvenir-package": {
+      "caseId": "esl-one-katowice-2015-cobblestone-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Cobblestone_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Cobblestone Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "esl-one-katowice-2015-dust-ii-souvenir-package": {
+      "caseId": "esl-one-katowice-2015-dust-ii-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Dust_II_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Dust II Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "esl-one-katowice-2015-mirage-souvenir-package": {
+      "caseId": "esl-one-katowice-2015-mirage-souvenir-package",
+      "filename": "ESL_One_Katowice_2015_Mirage_Souvenir_Package.json",
+      "displayName": "ESL One Katowice 2015 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "esports-2013-case": {
+      "caseId": "esports-2013-case",
+      "filename": "eSports_2013_Case.json",
+      "displayName": "eSports 2013 Case",
+      "requiresKey": true,
+      "caseType": "esports_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "esports-2013-winter-case": {
+      "caseId": "esports-2013-winter-case",
+      "filename": "eSports_2013_Winter_Case.json",
+      "displayName": "eSports 2013 Winter Case",
+      "requiresKey": true,
+      "caseType": "esports_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "esports-2014-summer-case": {
+      "caseId": "esports-2014-summer-case",
+      "filename": "eSports_2014_Summer_Case.json",
+      "displayName": "eSports 2014 Summer Case",
+      "requiresKey": true,
+      "caseType": "esports_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "falchion-case": {
+      "caseId": "falchion-case",
+      "filename": "Falchion_Case.json",
+      "displayName": "Falchion Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "fever-case": {
+      "caseId": "fever-case",
+      "filename": "Fever_Case.json",
+      "displayName": "Fever Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "fracture-case": {
+      "caseId": "fracture-case",
+      "filename": "Fracture_Case.json",
+      "displayName": "Fracture Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "gallery-case": {
+      "caseId": "gallery-case",
+      "filename": "Gallery_Case.json",
+      "displayName": "Gallery Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "gamma-2-case": {
+      "caseId": "gamma-2-case",
+      "filename": "Gamma_2_Case.json",
+      "displayName": "Gamma 2 Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "gamma-case": {
+      "caseId": "gamma-case",
+      "filename": "Gamma_Case.json",
+      "displayName": "Gamma Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "glove-case": {
+      "caseId": "glove-case",
+      "filename": "Glove_Case.json",
+      "displayName": "Glove Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "horizon-case": {
+      "caseId": "horizon-case",
+      "filename": "Horizon_Case.json",
+      "displayName": "Horizon Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "huntsman-weapon-case": {
+      "caseId": "huntsman-weapon-case",
+      "filename": "Huntsman_Weapon_Case.json",
+      "displayName": "Huntsman Weapon Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "katowice-2019-cache-souvenir-package": {
+      "caseId": "katowice-2019-cache-souvenir-package",
+      "filename": "Katowice_2019_Cache_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Cache Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "katowice-2019-dust-ii-souvenir-package": {
+      "caseId": "katowice-2019-dust-ii-souvenir-package",
+      "filename": "Katowice_2019_Dust_II_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Dust II Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "katowice-2019-inferno-souvenir-package": {
+      "caseId": "katowice-2019-inferno-souvenir-package",
+      "filename": "Katowice_2019_Inferno_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Inferno Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "katowice-2019-mirage-souvenir-package": {
+      "caseId": "katowice-2019-mirage-souvenir-package",
+      "filename": "Katowice_2019_Mirage_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "katowice-2019-nuke-souvenir-package": {
+      "caseId": "katowice-2019-nuke-souvenir-package",
+      "filename": "Katowice_2019_Nuke_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Nuke Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "katowice-2019-overpass-souvenir-package": {
+      "caseId": "katowice-2019-overpass-souvenir-package",
+      "filename": "Katowice_2019_Overpass_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Overpass Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "katowice-2019-train-souvenir-package": {
+      "caseId": "katowice-2019-train-souvenir-package",
+      "filename": "Katowice_2019_Train_Souvenir_Package.json",
+      "displayName": "Katowice 2019 Train Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "kilowatt-case": {
+      "caseId": "kilowatt-case",
+      "filename": "Kilowatt_Case.json",
+      "displayName": "Kilowatt Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "krakow-2017-cache-souvenir-package": {
+      "caseId": "krakow-2017-cache-souvenir-package",
+      "filename": "Krakow_2017_Cache_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Cache Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "krakow-2017-cobblestone-souvenir-package": {
+      "caseId": "krakow-2017-cobblestone-souvenir-package",
+      "filename": "Krakow_2017_Cobblestone_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Cobblestone Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "krakow-2017-inferno-souvenir-package": {
+      "caseId": "krakow-2017-inferno-souvenir-package",
+      "filename": "Krakow_2017_Inferno_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Inferno Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "krakow-2017-mirage-souvenir-package": {
+      "caseId": "krakow-2017-mirage-souvenir-package",
+      "filename": "Krakow_2017_Mirage_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "krakow-2017-nuke-souvenir-package": {
+      "caseId": "krakow-2017-nuke-souvenir-package",
+      "filename": "Krakow_2017_Nuke_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Nuke Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "krakow-2017-overpass-souvenir-package": {
+      "caseId": "krakow-2017-overpass-souvenir-package",
+      "filename": "Krakow_2017_Overpass_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Overpass Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "krakow-2017-train-souvenir-package": {
+      "caseId": "krakow-2017-train-souvenir-package",
+      "filename": "Krakow_2017_Train_Souvenir_Package.json",
+      "displayName": "Krakow 2017 Train Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "london-2018-cache-souvenir-package": {
+      "caseId": "london-2018-cache-souvenir-package",
+      "filename": "London_2018_Cache_Souvenir_Package.json",
+      "displayName": "London 2018 Cache Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "london-2018-dust-ii-souvenir-package": {
+      "caseId": "london-2018-dust-ii-souvenir-package",
+      "filename": "London_2018_Dust_II_Souvenir_Package.json",
+      "displayName": "London 2018 Dust II Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "london-2018-inferno-souvenir-package": {
+      "caseId": "london-2018-inferno-souvenir-package",
+      "filename": "London_2018_Inferno_Souvenir_Package.json",
+      "displayName": "London 2018 Inferno Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "london-2018-mirage-souvenir-package": {
+      "caseId": "london-2018-mirage-souvenir-package",
+      "filename": "London_2018_Mirage_Souvenir_Package.json",
+      "displayName": "London 2018 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "london-2018-nuke-souvenir-package": {
+      "caseId": "london-2018-nuke-souvenir-package",
+      "filename": "London_2018_Nuke_Souvenir_Package.json",
+      "displayName": "London 2018 Nuke Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "london-2018-overpass-souvenir-package": {
+      "caseId": "london-2018-overpass-souvenir-package",
+      "filename": "London_2018_Overpass_Souvenir_Package.json",
+      "displayName": "London 2018 Overpass Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "london-2018-train-souvenir-package": {
+      "caseId": "london-2018-train-souvenir-package",
+      "filename": "London_2018_Train_Souvenir_Package.json",
+      "displayName": "London 2018 Train Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "mlg-columbus-2016-cache-souvenir-package": {
+      "caseId": "mlg-columbus-2016-cache-souvenir-package",
+      "filename": "MLG_Columbus_2016_Cache_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Cache Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "mlg-columbus-2016-inferno-souvenir-package": {
+      "caseId": "mlg-columbus-2016-inferno-souvenir-package",
+      "filename": "MLG_Columbus_2016_Inferno_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Inferno Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "mlg-columbus-2016-mirage-souvenir-package": {
+      "caseId": "mlg-columbus-2016-mirage-souvenir-package",
+      "filename": "MLG_Columbus_2016_Mirage_Souvenir_Package.json",
+      "displayName": "MLG Columbus 2016 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "operation-bravo-case": {
+      "caseId": "operation-bravo-case",
+      "filename": "Operation_Bravo_Case.json",
+      "displayName": "Operation Bravo Case",
+      "requiresKey": true,
+      "caseType": "operation_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "operation-breakout-weapon-case": {
+      "caseId": "operation-breakout-weapon-case",
+      "filename": "Operation_Breakout_Weapon_Case.json",
+      "displayName": "Operation Breakout Weapon Case",
+      "requiresKey": true,
+      "caseType": "operation_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "operation-broken-fang-case": {
+      "caseId": "operation-broken-fang-case",
+      "filename": "Operation_Broken_Fang_Case.json",
+      "displayName": "Operation Broken Fang Case",
+      "requiresKey": true,
+      "caseType": "operation_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "operation-hydra-case": {
+      "caseId": "operation-hydra-case",
+      "filename": "Operation_Hydra_Case.json",
+      "displayName": "Operation Hydra Case",
+      "requiresKey": true,
+      "caseType": "operation_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "operation-phoenix-weapon-case": {
+      "caseId": "operation-phoenix-weapon-case",
+      "filename": "Operation_Phoenix_Weapon_Case.json",
+      "displayName": "Operation Phoenix Weapon Case",
+      "requiresKey": true,
+      "caseType": "operation_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "operation-riptide-case": {
+      "caseId": "operation-riptide-case",
+      "filename": "Operation_Riptide_Case.json",
+      "displayName": "Operation Riptide Case",
+      "requiresKey": true,
+      "caseType": "operation_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "operation-shattered-web-case": {
+      "caseId": "operation-shattered-web-case",
+      "filename": "Operation_Shattered_Web_Case.json",
+      "displayName": "Operation Shattered Web Case",
+      "requiresKey": true,
+      "caseType": "operation_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "operation-vanguard-weapon-case": {
+      "caseId": "operation-vanguard-weapon-case",
+      "filename": "Operation_Vanguard_Weapon_Case.json",
+      "displayName": "Operation Vanguard Weapon Case",
+      "requiresKey": true,
+      "caseType": "operation_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "operation-wildfire-case": {
+      "caseId": "operation-wildfire-case",
+      "filename": "Operation_Wildfire_Case.json",
+      "displayName": "Operation Wildfire Case",
+      "requiresKey": true,
+      "caseType": "operation_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "paris-2023-ancient-souvenir-package": {
+      "caseId": "paris-2023-ancient-souvenir-package",
+      "filename": "Paris_2023_Ancient_Souvenir_Package.json",
+      "displayName": "Paris 2023 Ancient Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "paris-2023-anubis-souvenir-package": {
+      "caseId": "paris-2023-anubis-souvenir-package",
+      "filename": "Paris_2023_Anubis_Souvenir_Package.json",
+      "displayName": "Paris 2023 Anubis Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "paris-2023-inferno-souvenir-package": {
+      "caseId": "paris-2023-inferno-souvenir-package",
+      "filename": "Paris_2023_Inferno_Souvenir_Package.json",
+      "displayName": "Paris 2023 Inferno Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "paris-2023-mirage-souvenir-package": {
+      "caseId": "paris-2023-mirage-souvenir-package",
+      "filename": "Paris_2023_Mirage_Souvenir_Package.json",
+      "displayName": "Paris 2023 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "paris-2023-nuke-souvenir-package": {
+      "caseId": "paris-2023-nuke-souvenir-package",
+      "filename": "Paris_2023_Nuke_Souvenir_Package.json",
+      "displayName": "Paris 2023 Nuke Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "paris-2023-overpass-souvenir-package": {
+      "caseId": "paris-2023-overpass-souvenir-package",
+      "filename": "Paris_2023_Overpass_Souvenir_Package.json",
+      "displayName": "Paris 2023 Overpass Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "paris-2023-vertigo-souvenir-package": {
+      "caseId": "paris-2023-vertigo-souvenir-package",
+      "filename": "Paris_2023_Vertigo_Souvenir_Package.json",
+      "displayName": "Paris 2023 Vertigo Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "prisma-2-case": {
+      "caseId": "prisma-2-case",
+      "filename": "Prisma_2_Case.json",
+      "displayName": "Prisma 2 Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "prisma-case": {
+      "caseId": "prisma-case",
+      "filename": "Prisma_Case.json",
+      "displayName": "Prisma Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "recoil-case": {
+      "caseId": "recoil-case",
+      "filename": "Recoil_Case.json",
+      "displayName": "Recoil Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "revolution-case": {
+      "caseId": "revolution-case",
+      "filename": "Revolution_Case.json",
+      "displayName": "Revolution Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "revolver-case": {
+      "caseId": "revolver-case",
+      "filename": "Revolver_Case.json",
+      "displayName": "Revolver Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "rio-2022-dust-ii-souvenir-package": {
+      "caseId": "rio-2022-dust-ii-souvenir-package",
+      "filename": "Rio_2022_Dust_II_Souvenir_Package.json",
+      "displayName": "Rio 2022 Dust II Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "rio-2022-mirage-souvenir-package": {
+      "caseId": "rio-2022-mirage-souvenir-package",
+      "filename": "Rio_2022_Mirage_Souvenir_Package.json",
+      "displayName": "Rio 2022 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "rio-2022-vertigo-souvenir-package": {
+      "caseId": "rio-2022-vertigo-souvenir-package",
+      "filename": "Rio_2022_Vertigo_Souvenir_Package.json",
+      "displayName": "Rio 2022 Vertigo Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "sealed-genesis-terminal": {
+      "caseId": "sealed-genesis-terminal",
+      "filename": "Sealed_Genesis_Terminal_Case.json",
+      "displayName": "Sealed Genesis Terminal",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "shadow-case": {
+      "caseId": "shadow-case",
+      "filename": "Shadow_Case.json",
+      "displayName": "Shadow Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "shanghai-2024-anubis-souvenir-package": {
+      "caseId": "shanghai-2024-anubis-souvenir-package",
+      "filename": "Shanghai_2024_Anubis_Souvenir_Package.json",
+      "displayName": "Shanghai 2024 Anubis Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "shanghai-2024-mirage-souvenir-package": {
+      "caseId": "shanghai-2024-mirage-souvenir-package",
+      "filename": "Shanghai_2024_Mirage_Souvenir_Package.json",
+      "displayName": "Shanghai 2024 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "shattered-web-case": {
+      "caseId": "shattered-web-case",
+      "filename": "Shattered_Web_Case.json",
+      "displayName": "Shattered Web Case",
+      "requiresKey": true,
+      "caseType": "operation_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "snakebite-case": {
+      "caseId": "snakebite-case",
+      "filename": "Snakebite_Case.json",
+      "displayName": "Snakebite Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "spectrum-2-case": {
+      "caseId": "spectrum-2-case",
+      "filename": "Spectrum_2_Case.json",
+      "displayName": "Spectrum 2 Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "spectrum-case": {
+      "caseId": "spectrum-case",
+      "filename": "Spectrum_Case.json",
+      "displayName": "Spectrum Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "stockholm-2021-ancient-souvenir-package": {
+      "caseId": "stockholm-2021-ancient-souvenir-package",
+      "filename": "Stockholm_2021_Ancient_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Ancient Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "stockholm-2021-dust-ii-souvenir-package": {
+      "caseId": "stockholm-2021-dust-ii-souvenir-package",
+      "filename": "Stockholm_2021_Dust_II_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Dust II Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "stockholm-2021-inferno-souvenir-package": {
+      "caseId": "stockholm-2021-inferno-souvenir-package",
+      "filename": "Stockholm_2021_Inferno_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Inferno Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "stockholm-2021-mirage-souvenir-package": {
+      "caseId": "stockholm-2021-mirage-souvenir-package",
+      "filename": "Stockholm_2021_Mirage_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Mirage Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "stockholm-2021-nuke-souvenir-package": {
+      "caseId": "stockholm-2021-nuke-souvenir-package",
+      "filename": "Stockholm_2021_Nuke_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Nuke Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "stockholm-2021-overpass-souvenir-package": {
+      "caseId": "stockholm-2021-overpass-souvenir-package",
+      "filename": "Stockholm_2021_Overpass_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Overpass Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "stockholm-2021-vertigo-souvenir-package": {
+      "caseId": "stockholm-2021-vertigo-souvenir-package",
+      "filename": "Stockholm_2021_Vertigo_Souvenir_Package.json",
+      "displayName": "Stockholm 2021 Vertigo Souvenir Package",
+      "requiresKey": false,
+      "caseType": "souvenir_package",
+      "schemaVersion": "3.1-container-export"
+    },
+    "winter-offensive-weapon-case": {
+      "caseId": "winter-offensive-weapon-case",
+      "filename": "Winter_Offensive_Weapon_Case.json",
+      "displayName": "Winter Offensive Weapon Case",
+      "requiresKey": true,
+      "caseType": "weapon_case",
+      "schemaVersion": "3.0-case-export"
+    },
+    "x-ray-p250-package": {
+      "caseId": "x-ray-p250-package",
+      "filename": "X_Ray_P250_Package.json",
+      "displayName": "X-Ray P250 Package",
+      "requiresKey": false,
+      "caseType": "other",
+      "schemaVersion": "3.0-case-export"
+    }
+  }
+}

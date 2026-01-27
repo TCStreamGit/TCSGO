@@ -3,30 +3,122 @@
 ## Overview
 
 TCSGO is a CS:GO/CS2-style case opening system built for Lumia Stream. It combines:
-- A custom overlay that handles chat commands and animation
-- Lumia custom JavaScript commands that mutate local JSON data
-- Deterministic case odds using local Case-Odds data
-- Inventory, pricing, and trade-lock handling
+- A custom overlay that plays the roulette spin and winner reveal.
+- Lumia custom JavaScript chat commands for buy/open/sell, inventory, pricing, and coins.
+- Commit commands that mutate local JSON data (inventories, prices, pending sells).
+- Deterministic case odds stored locally in `Case-Odds/`.
+- Optional Discord bot (`TheChosenBot/`) for Discord-side linking, inventory, and coins.
 
-This repository is designed for local, low-latency use during stream. All data is stored in JSON files under the repo.
+Everything runs locally for low latency. All persistent state is JSON under this repo (or the linking folder described below).
 
-## How the system works
+## Repository layout
 
-1) Viewer types a chat command (for example: !open cs20)
-2) Overlay listens to chat and parses the command
-3) Overlay checks and adjusts loyalty points (buy/open/sell flows)
-4) Overlay calls a backend Lumia command (tcsgo-commit-*)
-5) Command updates local JSON and returns a payload
-6) Overlay receives the payload via overlaycontent and/or variable polling
-7) Overlay animates the case opening and shows the winner
+Key folders and files:
+- `lumia-overlays/case-opening/` — overlay HTML/CSS/JS/configs/data for the open animation.
+- `lumia-commands/` — Lumia custom JavaScript commands (chat + commit + Discord helper).
+- `data/` — inventories, prices, case aliases.
+- `Case-Odds/` — case JSON definitions and odds.
+- `Assets/` — images and audio used by the overlay and inventory renderer.
+- `TheChosenBot/` — Discord bot for account linking, inventory, and coins (optional, ignored by git).
 
-The overlay is the controller. The commit commands only mutate data and never touch points.
+## System architecture (high level)
 
-## Case opening flow (visual)
+There are two distinct layers:
+- Chat commands (viewer-facing) handle parsing, cooldowns, queues, and coin adjustments.
+- Commit commands (backend) mutate local JSON and return a structured ACK payload.
 
-Click -> Pause -> Fast Spin -> Slowdown -> Lock -> Reveal
+The overlay is **only required for the open animation**. Buy and sell flows run entirely from chat commands.
 
-Default timing (from configs and script):
+## Open flow (chat + overlay)
+
+When the overlay is active:
+1. Viewer runs `!open <alias>` in chat.
+2. The overlay listens for chat messages and handles **open** only.
+3. Overlay calls `tcsgo-commit-open` with an `eventId`.
+4. Commit command writes inventory updates and returns an `open-result` payload.
+5. Overlay animates the roulette and reveal using that payload.
+6. Overlay writes `tcsgo_open_overlay_done_v1` when the animation finishes (for Lumia queues).
+
+When the overlay is not active:
+- `lumia-commands/open.js` still handles `!open`, calls the commit command, and replies in chat.
+- It uses `tcsgo_last_chat_handled_v1` to avoid double-handling when the overlay did handle the command.
+
+ACK channels used by open:
+- `overlaySendCustomContent` (primary route; codeId `tcsgo-controller`).
+- `tcsgo_last_open_json` and `tcsgo_last_event_json` (polling fallback).
+- `tcsgo_open_overlay_done_v1` (overlay completion marker).
+
+## Buy flow (chat only)
+
+`!buy-case` and `!buy-key` are handled by chat commands:
+1. Parse args + apply cooldown tiers.
+2. Precheck points via `{{get_user_loyalty_points=...}}` when possible.
+3. Adjust points using `addLoyaltyPoints` or REST `add-loyalty-points`.
+4. Dispatch commit command (`tcsgo-commit-buycase` / `tcsgo-commit-buykey`).
+5. Poll for ACK (`tcsgo_last_buycase_json` / `tcsgo_last_buykey_json`).
+6. Refund points on failure.
+
+## Sell flow (chat only)
+
+`!sell` has two paths:
+- Single item: `!sell <oid|itemId|itemName>` → commit start → token returned → `!sell-confirm <token>` to finalize.
+- Sell all: `!sell all` → token returned → `!sell all <token>` to finalize.
+
+Sell confirmations credit coins via REST `add-loyalty-points` and update inventory state.
+
+## Data files and schemas
+
+Core data files:
+- `data/inventories.json` — schema `2.0-inventories`.
+- `data/prices.json` — case and item pricing + `marketFeePercent`.
+- `data/case-aliases.json` — case aliases and metadata (generated).
+- `Case-Odds/<case>.json` — case odds, item pools, wear weights.
+
+Linking data (for Discord → stream identity mapping):
+- `discord-user-index.json`
+- `user-links.json`
+- `link-sessions.json`
+
+## Setup
+
+1. Build case aliases:
+   - Run `python tools/build_case_aliases.py`.
+   - This generates `data/case-aliases.json`.
+
+2. Create Lumia commands:
+   - In Lumia Stream, create custom JavaScript commands and paste each file.
+   - Required commit commands:
+     - `lumia-commands/tcsgo-commit-buycase.js`
+     - `lumia-commands/tcsgo-commit-buykey.js`
+     - `lumia-commands/tcsgo-commit-open.js`
+     - `lumia-commands/tcsgo-commit-sell-start.js`
+     - `lumia-commands/tcsgo-commit-sell-confirm.js`
+     - `lumia-commands/tcsgo-commit-sell-all-start.js`
+     - `lumia-commands/tcsgo-commit-sell-all-confirm.js`
+   - Common chat commands:
+     - `lumia-commands/buy-case.js`, `buy-key.js`, `open.js`, `sell.js`, `sell-confirm.js`
+     - Optional: `help.js`, `cases.js`, `inventory.js`, `check-price.js`, `coins.js`
+
+3. Set command base paths:
+   - Most commands require a base repo path. Set `TCSGO_BASE` in Lumia variables or environment variables.
+   - Linking commands use `TCSGO_LINKING_BASE` to locate `user-links.json` and `link-sessions.json`.
+   - REST-based point adjustments use `LUMIA_REST_BASE_URL` and `LUMIA_REST_TOKEN` when needed.
+
+4. Import overlay into Lumia:
+   - Create a custom overlay layer named `case-opening`.
+   - Copy HTML/CSS/JS/Configs/Data from `lumia-overlays/case-opening/`.
+   - Ensure the overlay `codeId` remains `tcsgo-controller` unless you update the commands.
+
+5. Add to OBS:
+   - Use the Lumia overlay browser source URL for this overlay layer.
+   - Add a Browser Source in OBS and paste the URL.
+   - Set width/height to match your overlay layout.
+
+## Open animation timing (default)
+
+Click → Pause → Spin → Slowdown → Lock → Reveal
+
+Default timing from `configs.json` and `script.js`:
 - Intro: 200 ms
 - Pause before spin: 1000 ms
 - Spin up: 250 ms
@@ -35,126 +127,37 @@ Default timing (from configs and script):
 - Final lock: 400 ms
 - Reveal display: 8000 ms
 
-Total click to reveal (excluding reveal display): ~7250 ms
+Total click-to-reveal (excluding reveal display): ~7250 ms.
 
 ## Sound cues (default)
 
-- 0 ms: menu_accept.mp3 (sfxAccept)
-- ~200 ms: csgo_ui_crate_open.mp3 (sfxOpen)
-- Spin start: tick.mp3 begins and slows with the reel
-- After final lock: reveal.mp3, rare.mp3, or gold-reveal.mp3
+- 0 ms: `menu_accept.mp3` (`sfxAccept`)
+- ~200 ms: `csgo_ui_crate_open.mp3` (`sfxOpen`)
+- Spin: `tick.mp3` (`sfxTick`, timed to reel movement)
+- Reveal: `reveal.mp3`, `rare.mp3`, or `gold-reveal.mp3`
 
-Sound files are configurable in `lumia-overlays/case-opening/configs.json`.
+## Customization quick list
 
-## How the overlay is triggered from Lumia
+Overlay configs (`lumia-overlays/case-opening/configs.json`) cover:
+- Command names (`cmdOpen`, `cmdSell`, etc.)
+- Commit command names (`commitOpen`, `commitBuyCase`, etc.)
+- Timing and spin duration (`caseSpinMs`, `caseSpinItems`, `caseWinnerIndex`)
+- Sound files and volumes
+- Debug flags for routing, storage, and UI
 
-The overlay listens to chat events and reacts to these commands (configurable):
-- buycase, buykey, open, sell, sellconfirm
+Inventory rendering (Discord bot):
+- `TheChosenBot/inventory_render.json` controls grid, text, rarity line, and colors.
 
-The overlay calls backend commands using `Overlay.callCommand`:
-- tcsgo-commit-buycase
-- tcsgo-commit-buykey
-- tcsgo-commit-open
-- tcsgo-commit-sell-start
-- tcsgo-commit-sell-confirm
+## Troubleshooting
 
-Results are returned through two channels:
-- `overlaySendCustomContent` (overlaycontent event)
-- `tcsgo_last_event_json` global variable (polling fallback)
+Common issues:
+- Overlay does not spin: confirm `tcsgo-commit-open` exists and the overlay is active.
+- Duplicate open responses: ensure `tcsgo_last_chat_handled_v1` is being set by the overlay.
+- ACK timeouts: verify `tcsgo_last_event_json` is being written by commit commands.
+- Missing cases: rebuild `data/case-aliases.json` and confirm `Case-Odds/` files exist.
 
-The overlay uses `codeId = tcsgo-controller` to route responses.
-
-## File layout
-
-Key folders and files:
-- `lumia-overlays/case-opening/overlay.html`: DOM for the overlay
-- `lumia-overlays/case-opening/style.css`: visuals, marker line, tile sizing
-- `lumia-overlays/case-opening/script.js`: controller, animation, audio, chat parsing
-- `lumia-overlays/case-opening/configs.json`: overlay config schema and defaults
-- `lumia-overlays/case-opening/data.json`: overlay metadata and notes
-- `lumia-commands/`: Lumia custom JavaScript command scripts
-- `data/`: inventories, prices, case aliases
-- `Case-Odds/`: case JSON definitions with odds and item pools
-- `Assets/`: images and sounds used by the overlay
-
-## Install and run in OBS
-
-1) Build case aliases:
-   - Run `python tools/build_case_aliases.py`
-   - This generates `data/case-aliases.json`
-
-2) Create Lumia commands:
-   - In Lumia Stream, create custom JavaScript commands and paste each file
-   - Required commit commands:
-     - `lumia-commands/tcsgo-commit-buycase.js`
-     - `lumia-commands/tcsgo-commit-buykey.js`
-     - `lumia-commands/tcsgo-commit-open.js`
-     - `lumia-commands/tcsgo-commit-sell-start.js`
-     - `lumia-commands/tcsgo-commit-sell-confirm.js`
-   - Optional chat commands:
-     - `lumia-commands/tcsgo-help.js`
-     - `lumia-commands/tcsgo-cases.js`
-     - `lumia-commands/tcsgo-inventory.js`
-     - `lumia-commands/tcsgo-checkprice.js`
-   - Make sure `TCSGO_BASE` in each command file points to your repo path
-
-3) Import overlay into Lumia:
-   - Create a custom overlay layer named `case-opening`
-   - Copy HTML/CSS/JS/Configs/Data from `lumia-overlays/case-opening/`
-
-4) Add to OBS:
-   - Use the Lumia overlay browser source URL for this overlay layer
-   - Add a Browser Source in OBS and paste the URL
-   - Set width/height to match your overlay layout
-
-## How random outcomes are selected
-
-The open command reads the case JSON from `Case-Odds/<filename>` and:
-- Selects a rarity tier using `case.oddsWeights`
-- Selects an item within that tier using `item.weights.base`
-- Rolls wear using a weighted wear table
-- Rolls StatTrak when eligible
-
-The result is stored in `data/inventories.json` with:
-- `oid`, `displayName`, `wear`, `statTrak`, `rarity`, `fromCaseId`
-- `lockedUntil` for trade-lock enforcement
-- `priceSnapshot` derived from `data/prices.json`
-
-## Final item alignment
-
-The overlay aligns the winning tile by matching its center to the marker line:
-- `computeTargetX` measures the marker center and winning tile center
-- It computes the translateX delta so centers align
-- The reel overshoots by `overshootPx` and snaps back during `finalLockMs`
-
-The marker line is `#roulette-center-line` in `lumia-overlays/case-opening/style.css`.
-
-## Tuning and customization
-
-Speed and timing:
-- `caseIntroMs` (configs.json): intro duration
-- `caseSpinPauseMs` (configs.json): pause before spin
-- `caseSpinMs` (configs.json): total spin time
-- `winnerDisplayMs` (configs.json): reveal display duration
-- `cruiseBoost` (script.js): increases distance in the high-speed phase
-
-Tick rate:
-- `SPIN_TIMING_DEFAULT.tickCurve` (script.js) controls tick intervals over time
-- Tick cadence is synced to item spacing using tile width + gap
-
-Reel density (pixels per item):
-- `--tile-width`, `--tile-gap` (style.css) affect items-per-second feel
-- Smaller tiles and gaps make the reel feel faster
-
-Sounds:
-- `sfxAccept`, `sfxOpen`, `sfxTick`, `sfxReveal`, `sfxRare`, `sfxGold` (configs.json)
-- `sfxVolume`, `sfxTickVolume` (configs.json)
-
-Marker position:
-- `#roulette-center-line { left: 50%; }` (style.css)
-- Move the marker line and the reel will align to it automatically
-
-## Command documentation and overlay details
+## Further documentation
 
 - Command specs: `lumia-commands/README.md`
-- Overlay deep-dive (timing tables, alignment math, debug): `lumia-overlays/case-opening/README.md`
+- Overlay deep-dive: `lumia-overlays/case-opening/README.md`
+- Discord bot: `TheChosenBot/README.md`
