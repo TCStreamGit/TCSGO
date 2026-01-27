@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.0-inventories",
-  "lastModified": "2026-01-26T23:21:38.873Z",
+  "lastModified": "2026-01-26T23:36:08.738Z",
   "inventoriesById": {
     "inv_8f8dbf8f-5174-4318-b2ad-8f0fdf12f10b": {
       "createdAt": "2026-01-23T22:39:14.916Z",
@@ -60,10 +60,10 @@
     },
     "inv_385591ae-e803-4899-9dca-353c23a4c1ed": {
       "createdAt": "2026-01-23T21:42:26.569Z",
-      "cases": {
-        "cs20-case": 1
+      "cases": {},
+      "keys": {
+        "csgo-case-key": 9
       },
-      "keys": {},
       "items": [
         {
           "oid": "oid_mkrepgy1_deqivejc1",
@@ -610,6 +610,27 @@
             "chosenCoins": 5000
           },
           "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--classified--mp9-hydra--02.png"
+        },
+        {
+          "oid": "oid_mkvt38yq_f2vviyp0f",
+          "itemId": "mp5-sd-agent",
+          "displayName": "MP5-SD | Agent",
+          "rarity": "restricted",
+          "tier": "purple",
+          "category": "weapon_skin",
+          "weapon": "MP5-SD",
+          "skin": "Agent",
+          "variant": "None",
+          "statTrak": false,
+          "wear": "Minimal Wear",
+          "acquiredAt": "2026-01-26T23:36:08.737Z",
+          "lockedUntil": "2026-02-02T23:36:08.737Z",
+          "fromCaseId": "cs20-case",
+          "priceSnapshot": {
+            "cad": 0.6,
+            "chosenCoins": 600
+          },
+          "imagePath": "Assets/Cases/Cs20-Case/Weapons/cs20-case--restricted--mp5-sd-agent--02.png"
         }
       ],
       "identities": [
