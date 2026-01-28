@@ -2,11 +2,13 @@ async function () {
   "use strict";
 
   /*
-   * Command: !check-price
-   * Description: Check the value and source case for an item or OID.
-   * Aliases: !checkprice, !check-price, !check price, !price
+   * Description: Check The Value And Source Case For An Item Or OID.
+   * Command Name: !check-price
+   * Aliases: !check price, !Check Price, !CHECK PRICE, !check Price, !Check price, !checkprice, !CHECKPRICE, !CheckPrice, !check-price, !Check-Price, !CHECK-PRICE, !check_price, !Check_Price, !CHECK_PRICE, !price, !Price, !PRICE
+   * Usage Examples:
+   * - !check-price 12345
    */
-  const LOG_ENABLED = true;
+  const LOG_ENABLED = false;
   const TIKTOK_SEND_COMMAND = "tiktok_chat_send";
 
   const TCSGO_BASE = "A:\\Development\\Version Control\\Github\\TCSGO";

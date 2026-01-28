@@ -2,11 +2,14 @@ async function () {
   "use strict";
 
   /*
-   * Command: !help
-   * Description: Show the viewer command list in pages.
-   * Aliases: !help, !commands, !tcsgo-help
+   * Description: Show The Viewer Command List In Pages.
+   * Command Name: !help
+   * Aliases: !help, !Help, !HELP, !commands, !Commands, !COMMANDS, !tcsgo help, !Tcsgo Help, !TCSGO HELP, !tcsgo Help, !Tcsgo help, !tcsgohelp, !TCSGOHELP, !TcsgoHelp, !tcsgo-help, !Tcsgo-Help, !TCSGO-HELP, !tcsgo_help, !Tcsgo_Help, !TCSGO_HELP
+   * Usage Examples:
+   * - !help
+   * - !help 2
    */
-  const LOG_ENABLED = true;
+  const LOG_ENABLED = false;
   const COMMAND_PREFIX = "!";
   const PAGE_SIZE = 5;
   const TIKTOK_SEND_COMMAND = "tiktok_chat_send";

@@ -1,7 +1,14 @@
 async function () {
   "use strict";
 
-  const LOG_ENABLED = true;
+  /*
+   * Description: Commit Key Purchases And Update Inventory.
+   * Command Name: tcsgo-commit-buykey
+   * Aliases: None
+   * Usage Examples:
+   * - tcsgo-commit-buykey
+   */
+  const LOG_ENABLED = false;
 
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";

@@ -2,11 +2,14 @@ async function () {
   "use strict";
 
   /*
-   * Command: !cases
-   * Description: List available cases with paging and optional filters.
-   * Aliases: !cases, !case-list, !tcsgo-cases
+   * Description: List Available Cases With Paging And Optional Filters.
+   * Command Name: !cases
+   * Aliases: !cases, !Cases, !CASES, !case list, !Case List, !CASE LIST, !case List, !Case list, !caselist, !CASELIST, !CaseList, !case-list, !Case-List, !CASE-LIST, !case_list, !Case_List, !CASE_LIST, !tcsgo cases, !Tcsgo Cases, !TCSGO CASES, !tcsgo Cases, !Tcsgo cases, !tcsgocases, !TCSGOCASES, !TcsgoCases, !tcsgo-cases, !Tcsgo-Cases, !TCSGO-CASES, !tcsgo_cases, !Tcsgo_Cases, !TCSGO_CASES
+   * Usage Examples:
+   * - !cases
+   * - !cases 2
    */
-  const LOG_ENABLED = true;
+  const LOG_ENABLED = false;
   const PAGE_SIZE = 5;
   const TIKTOK_SEND_COMMAND = "tiktok_chat_send";
   const TCSGO_BASE = "A:\\Development\\Version Control\\Github\\TCSGO";

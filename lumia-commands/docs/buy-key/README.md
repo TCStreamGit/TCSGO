@@ -6,7 +6,7 @@ Primary chat handler for buying keys. It runs entirely as a Lumia chat command a
 
 - Command name: `buy-key`
 - Primary chat command: `!buy-key`
-- Aliases: `!buykey`, `!buy key`, `!buy-key`
+- Aliases: `!buy key`, `!Buy Key`, `!BUY KEY`, `!buy Key`, `!Buy key`, `!buykey`, `!BUYKEY`, `!BuyKey`, `!buy-key`, `!Buy-Key`, `!BUY-KEY`, `!buy_key`, `!Buy_Key`, `!BUY_KEY`
 
 ## Chat usage (with `!`)
 
@@ -32,9 +32,9 @@ Primary chat handler for buying keys. It runs entirely as a Lumia chat command a
 2. Apply cooldown tiers (streamer/mod/supporter/default).
 3. Load key price from `data/prices.json` or use default fallback.
 4. Precheck points via `{{get_user_loyalty_points={{username}},{{platform}}}}` when available.
-5. Adjust points using:
-   - Native `addLoyaltyPoints` if available.
-   - REST `add-loyalty-points` otherwise.
+5. Adjust points using `actions` → `lumiaActions.setUserLoyaltyPoint` when available.
+   - Falls back to native `addLoyaltyPoints` when `actions` is unavailable.
+   - If neither helper is available, the command cancels the purchase.
 6. Dispatch commit command `tcsgo-commit-buykey` with an `eventId`.
 7. Poll for ACK (`tcsgo_last_buykey_json`, fallback `tcsgo_last_event_json`).
 8. On failure, refund points and reply with an error.

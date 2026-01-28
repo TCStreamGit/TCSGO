@@ -1,7 +1,14 @@
 async function () {
   "use strict";
 
-  const LOG_ENABLED = true;
+  /*
+   * Description: Confirm A Single-Item Sell Token And Credit Coins.
+   * Command Name: tcsgo-commit-sell-confirm
+   * Aliases: None
+   * Usage Examples:
+   * - tcsgo-commit-sell-confirm
+   */
+  const LOG_ENABLED = false;
 
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";

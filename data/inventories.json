@@ -1,12 +1,14 @@
 {
   "schemaVersion": "2.0-inventories",
-  "lastModified": "2026-01-26T23:36:08.738Z",
+  "lastModified": "2026-01-28T18:05:58.116Z",
   "inventoriesById": {
     "inv_8f8dbf8f-5174-4318-b2ad-8f0fdf12f10b": {
       "createdAt": "2026-01-23T22:39:14.916Z",
-      "cases": {},
+      "cases": {
+        "cs20-case": 1
+      },
       "keys": {
-        "csgo-case-key": 3
+        "csgo-case-key": 5
       },
       "items": [
         {

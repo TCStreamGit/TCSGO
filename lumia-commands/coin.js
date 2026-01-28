@@ -2,11 +2,13 @@ async function () {
   "use strict";
 
   /*
-   * Command: !coins
-   * Description: Show a viewer's current coin balance.
-   * Aliases: !coins, !balance, !points
+   * Description: Show A Viewer's Current Coin Balance.
+   * Command Name: !coins
+   * Aliases: !coins, !Coins, !COINS, !balance, !Balance, !BALANCE, !points, !Points, !POINTS
+   * Usage Examples:
+   * - !coins
    */
-  const LOG_ENABLED = true;                 // Logs To Lumia Logs
+  const LOG_ENABLED = false;                 // Logs To Lumia Logs
   const CHAT_DEBUG_ENABLED = false;         // If True, Sends A Debug Line To Twitch Chat
   const STORE_KEY = "tcsgo_link_dedupe_v1";
 

@@ -1,7 +1,14 @@
 async function () {
   "use strict";
 
-  const LOG_ENABLED = true;
+  /*
+   * Description: Start An Unlink Session For A Discord Account.
+   * Command Name: tcsgo-unlink-start
+   * Aliases: None
+   * Usage Examples:
+   * - tcsgo-unlink-start
+   */
+  const LOG_ENABLED = false;
 
   const DEFAULT_LINKING_BASE = "Z:\\home\\nike\\Streaming\\TCSGO\\Linking";
   const DISCORD_INDEX_FILE = "discord-user-index.json";

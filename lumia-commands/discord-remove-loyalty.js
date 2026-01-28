@@ -1,7 +1,14 @@
 async function () {
   "use strict";
 
-  const LOG_ENABLED = true;                 // Logs To Lumia Logs
+  /*
+   * Description: Remove Loyalty Points For A User Via REST.
+   * Command Name: discord-remove-loyalty
+   * Aliases: None
+   * Usage Examples:
+   * - discord-remove-loyalty
+   */
+  const LOG_ENABLED = false;                 // Logs To Lumia Logs
   const VALUE_SIGN = -1;                    // -1 for remove
   const DEFAULT_REST_BASE_URL = "http://127.0.0.1:39231";
 

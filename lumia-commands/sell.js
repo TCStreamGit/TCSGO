@@ -2,16 +2,51 @@ async function () {
   "use strict";
 
   /*
-   * Command: !sell
-   * Description: Sell single items or your whole inventory without requiring the overlay.
-   * Aliases: !sell, !sell item, !sell-item, !sell-all, !sell all
+   * Description: Sell Single Items Or Your Whole Inventory Without Requiring The Overlay.
+   * Command Name: !sell
+   * Aliases: !sell, !Sell, !SELL, !sell item, !Sell Item, !SELL ITEM, !sell Item, !Sell item, !sellitem, !SELLITEM, !SellItem, !sell-item, !Sell-Item, !SELL-ITEM, !sell_item, !Sell_Item, !SELL_ITEM, !sell all, !Sell All, !SELL ALL, !sell All, !Sell all, !sellall, !SELLALL, !SellAll, !sell-all, !Sell-All, !SELL-ALL, !sell_all, !Sell_All, !SELL_ALL
+   * Usage Examples:
+   * - !sell 12345
+   * - !sell all
    */
-  const LOG_ENABLED = true;
+  const LOG_ENABLED = false;
 
   const COMMAND_PREFIX = "!";
   const COMMAND_PRIMARY = "sell";
   const COMMAND_KEY = "sell";
-  const COMMAND_ALIASES = ["sell", "sell item", "sell-item", "sell-all", "sell all"];
+  const COMMAND_ALIASES = [
+    "sell",
+    "Sell",
+    "SELL",
+    "sell item",
+    "Sell Item",
+    "SELL ITEM",
+    "sell Item",
+    "Sell item",
+    "sellitem",
+    "SELLITEM",
+    "SellItem",
+    "sell-item",
+    "Sell-Item",
+    "SELL-ITEM",
+    "sell_item",
+    "Sell_Item",
+    "SELL_ITEM",
+    "sell all",
+    "Sell All",
+    "SELL ALL",
+    "sell All",
+    "Sell all",
+    "sellall",
+    "SELLALL",
+    "SellAll",
+    "sell-all",
+    "Sell-All",
+    "SELL-ALL",
+    "sell_all",
+    "Sell_All",
+    "SELL_ALL"
+  ];
   const SELL_CONFIRM_PRIMARY = "sell-confirm";
 
   const COMMIT_SELL_START = "tcsgo-commit-sell-start";
@@ -799,4 +834,3 @@ async function () {
   await processQueue();
   done({ shouldStop: true });
 }
-

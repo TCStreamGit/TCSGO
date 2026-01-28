@@ -16,7 +16,7 @@
 // CONFIGURATION - PORTABLE PATH SETUP
 // =============================================================================
 
-const LOG_ENABLED = true;
+const LOG_ENABLED = false;
 
 function logMsg(message) {
     if (!LOG_ENABLED) return;

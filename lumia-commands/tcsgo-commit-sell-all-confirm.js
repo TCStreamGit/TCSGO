@@ -1,7 +1,14 @@
 async function () {
   "use strict";
 
-  const LOG_ENABLED = true;
+  /*
+   * Description: Confirm A Sell-All Request And Credit Coins.
+   * Command Name: tcsgo-commit-sell-all-confirm
+   * Aliases: None
+   * Usage Examples:
+   * - tcsgo-commit-sell-all-confirm
+   */
+  const LOG_ENABLED = false;
 
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";

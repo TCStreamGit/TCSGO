@@ -1,7 +1,14 @@
 async function () {
   "use strict";
 
-  const LOG_ENABLED = true;
+  /*
+   * Description: Start A Sell-All Request And Issue A Confirmation Code.
+   * Command Name: tcsgo-commit-sell-all-start
+   * Aliases: None
+   * Usage Examples:
+   * - tcsgo-commit-sell-all-start
+   */
+  const LOG_ENABLED = false;
 
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";

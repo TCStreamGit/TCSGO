@@ -1,7 +1,14 @@
 async function () {
   "use strict";
 
-  const LOG_ENABLED = true;                 // Logs To Lumia Logs
+  /*
+   * Description: Fetch Discord Coin Balances And Write The Response.
+   * Command Name: discord-coins
+   * Aliases: None
+   * Usage Examples:
+   * - discord-coins
+   */
+  const LOG_ENABLED = false;                 // Logs To Lumia Logs
   const CHAT_DEBUG_ENABLED = false;         // If True, Sends A Debug Line To Twitch Chat
   const RESULT_DEBUG_ENABLED = true;        // Include Debug Info In Result JSON
 

@@ -1,7 +1,14 @@
 async function () {
   "use strict";
 
-  const LOG_ENABLED = true;
+  /*
+   * Description: Start A Single-Item Sell And Issue A Token.
+   * Command Name: tcsgo-commit-sell-start
+   * Aliases: None
+   * Usage Examples:
+   * - tcsgo-commit-sell-start
+   */
+  const LOG_ENABLED = false;
 
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";

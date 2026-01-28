@@ -6,7 +6,7 @@ Primary chat handler for selling items, including sell-all, without requiring th
 
 - Command name: `sell`
 - Primary chat command: `!sell`
-- Aliases: `!sell-item`, `!sell item`, `!sell-all`, `!sell all`
+- Aliases: `!sell`, `!Sell`, `!SELL`, `!sell item`, `!Sell Item`, `!SELL ITEM`, `!sell Item`, `!Sell item`, `!sellitem`, `!SELLITEM`, `!SellItem`, `!sell-item`, `!Sell-Item`, `!SELL-ITEM`, `!sell_item`, `!Sell_Item`, `!SELL_ITEM`, `!sell all`, `!Sell All`, `!SELL ALL`, `!sell All`, `!Sell all`, `!sellall`, `!SELLALL`, `!SellAll`, `!sell-all`, `!Sell-All`, `!SELL-ALL`, `!sell_all`, `!Sell_All`, `!SELL_ALL`
 
 ## Chat usage (with `!`)
 

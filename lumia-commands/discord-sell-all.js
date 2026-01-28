@@ -1,7 +1,14 @@
 async function () {
   "use strict";
 
-  const LOG_ENABLED = true;
+  /*
+   * Description: Start Or Confirm Sell-All For Discord Requests.
+   * Command Name: discord-sell-all
+   * Aliases: None
+   * Usage Examples:
+   * - discord-sell-all
+   */
+  const LOG_ENABLED = false;
   const DEFAULT_REST_BASE_URL = "http://127.0.0.1:39231";
 
   const COMMIT_SELL_ALL_START = "tcsgo-commit-sell-all-start";

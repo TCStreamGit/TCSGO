@@ -2,16 +2,36 @@ async function () {
   "use strict";
 
   /*
-   * Command: !open
-   * Description: Open a case. The overlay is only required for the animation/spin.
-   * Aliases: !open, !open-case, !open case, !OpenCase, !Open Case
+   * Description: Open A Case. The Overlay Is Only Required For The Animation/Spin.
+   * Command Name: !open
+   * Aliases: !open, !Open, !OPEN, !open case, !Open Case, !OPEN CASE, !open Case, !Open case, !opencase, !OPENCASE, !OpenCase, !open-case, !Open-Case, !OPEN-CASE, !open_case, !Open_Case, !OPEN_CASE
+   * Usage Examples:
+   * - !open cs20
    */
-  const LOG_ENABLED = true;
+  const LOG_ENABLED = false;
 
   const COMMAND_PREFIX = "!";
   const COMMAND_PRIMARY = "open";
   const COMMAND_KEY = "open";
-  const COMMAND_ALIASES = ["open", "open-case", "open case"];
+  const COMMAND_ALIASES = [
+    "open",
+    "Open",
+    "OPEN",
+    "open case",
+    "Open Case",
+    "OPEN CASE",
+    "open Case",
+    "Open case",
+    "opencase",
+    "OPENCASE",
+    "OpenCase",
+    "open-case",
+    "Open-Case",
+    "OPEN-CASE",
+    "open_case",
+    "Open_Case",
+    "OPEN_CASE"
+  ];
   const COMMIT_OPEN_COMMAND = "tcsgo-commit-open";
   const TIKTOK_SEND_COMMAND = "tiktok_chat_send";
 

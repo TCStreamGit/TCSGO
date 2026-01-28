@@ -6,7 +6,7 @@ Primary chat handler for opening cases. It works without the overlay, but the ov
 
 - Command name: `open`
 - Primary chat command: `!open`
-- Aliases: `!open-case`, `!open case`, `!open`
+- Aliases: `!open`, `!Open`, `!OPEN`, `!open case`, `!Open Case`, `!OPEN CASE`, `!open Case`, `!Open case`, `!opencase`, `!OPENCASE`, `!OpenCase`, `!open-case`, `!Open-Case`, `!OPEN-CASE`, `!open_case`, `!Open_Case`, `!OPEN_CASE`
 
 ## Chat usage (with `!`)
 

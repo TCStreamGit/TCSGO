@@ -6,7 +6,7 @@ Primary chat handler for confirming single-item sells without requiring the over
 
 - Command name: `sell-confirm`
 - Primary chat command: `!sell-confirm`
-- Aliases: `!sellconfirm`, `!sell confirm`, `!sell-confirm`
+- Aliases: `!sell confirm`, `!Sell Confirm`, `!SELL CONFIRM`, `!sell Confirm`, `!Sell confirm`, `!sellconfirm`, `!SELLCONFIRM`, `!SellConfirm`, `!sell-confirm`, `!Sell-Confirm`, `!SELL-CONFIRM`, `!sell_confirm`, `!Sell_Confirm`, `!SELL_CONFIRM`
 
 ## Chat usage (with `!`)
 

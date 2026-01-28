@@ -2,16 +2,33 @@ async function () {
   "use strict";
 
   /*
-   * Command: !sell-confirm
-   * Description: Confirm a pending single-item sale without requiring the overlay.
-   * Aliases: !sellconfirm, !sell confirm, !sell-confirm
+   * Description: Confirm A Pending Single-Item Sale Without Requiring The Overlay.
+   * Command Name: !sell-confirm
+   * Aliases: !sell confirm, !Sell Confirm, !SELL CONFIRM, !sell Confirm, !Sell confirm, !sellconfirm, !SELLCONFIRM, !SellConfirm, !sell-confirm, !Sell-Confirm, !SELL-CONFIRM, !sell_confirm, !Sell_Confirm, !SELL_CONFIRM
+   * Usage Examples:
+   * - !sell-confirm ABC123
    */
-  const LOG_ENABLED = true;
+  const LOG_ENABLED = false;
 
   const COMMAND_PREFIX = "!";
   const COMMAND_PRIMARY = "sell-confirm";
   const COMMAND_KEY = "sell-confirm";
-  const COMMAND_ALIASES = ["sellconfirm", "sell confirm", "sell-confirm"];
+  const COMMAND_ALIASES = [
+    "sell confirm",
+    "Sell Confirm",
+    "SELL CONFIRM",
+    "sell Confirm",
+    "Sell confirm",
+    "sellconfirm",
+    "SELLCONFIRM",
+    "SellConfirm",
+    "sell-confirm",
+    "Sell-Confirm",
+    "SELL-CONFIRM",
+    "sell_confirm",
+    "Sell_Confirm",
+    "SELL_CONFIRM"
+  ];
 
   const COMMIT_SELL_CONFIRM = "tcsgo-commit-sell-confirm";
   const TIKTOK_SEND_COMMAND = "tiktok_chat_send";

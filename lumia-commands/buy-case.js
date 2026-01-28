@@ -2,16 +2,34 @@ async function () {
   "use strict";
 
   /*
-   * Command: !buy-case
-   * Description: Buy one or more cases using loyalty points without requiring the overlay.
-   * Aliases: !buycase, !buy case, !buy-case, !BuyCase, !Buy Case
+   * Description: Buy One Or More Cases Using Loyalty Points Without Requiring The Overlay.
+   * Command Name: !buy-case
+   * Aliases: !buy case, !Buy Case, !BUY CASE, !buy Case, !Buy case, !buycase, !BUYCASE, !BuyCase, !buy-case, !Buy-Case, !BUY-CASE, !buy_case, !Buy_Case, !BUY_CASE
+   * Usage Examples:
+   * - !buy-case cs20
+   * - !buy-case cs20 2
    */
-  const LOG_ENABLED = true;
+  const LOG_ENABLED = false;
 
   const COMMAND_PREFIX = "!";
   const COMMAND_PRIMARY = "buy-case";
   const COMMAND_KEY = "buy-case";
-  const COMMAND_ALIASES = ["buycase", "buy-case", "buy case"];
+  const COMMAND_ALIASES = [
+    "buy case",
+    "Buy Case",
+    "BUY CASE",
+    "buy Case",
+    "Buy case",
+    "buycase",
+    "BUYCASE",
+    "BuyCase",
+    "buy-case",
+    "Buy-Case",
+    "BUY-CASE",
+    "buy_case",
+    "Buy_Case",
+    "BUY_CASE"
+  ];
   const COMMIT_BUYCASE_COMMAND = "tcsgo-commit-buycase";
   const TIKTOK_SEND_COMMAND = "tiktok_chat_send";
 
@@ -34,6 +52,9 @@ async function () {
   const ACK_VARS = ["tcsgo_last_buycase_json", "tcsgo_last_event_json"];
   const ACK_TIMEOUT_MS = 8000;
   const ACK_POLL_INTERVAL_MS = 200;
+
+  // Disable REST fallback; require native addLoyaltyPoints in Lumia chat context.
+  const ALLOW_REST_FALLBACK = false;
 
   const DEFAULT_LINKING_BASE = "Z:\\home\\nike\\Streaming\\TCSGO\\Linking";
   const DISCORD_INDEX_FILE = "discord-user-index.json";
@@ -111,6 +132,11 @@ async function () {
 
   function formatNumber(num) {
     return (Number(num) || 0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
+  function formatSignedNumber(num) {
+    const n = Math.trunc(Number(num) || 0);
+    return n >= 0 ? `+${n}` : `${n}`;
   }
 
   function coerceBool(value) {
@@ -470,10 +496,28 @@ async function () {
   }
 
   async function getRestConfig() {
+    const extraSettingsRaw =
+      (await safeGetVar("extraSettings")) ??
+      (await safeGetVar("extra_settings")) ??
+      "";
+
+    let extraSettings = null;
+    if (extraSettingsRaw && typeof extraSettingsRaw === "object") {
+      extraSettings = extraSettingsRaw;
+    } else if (typeof extraSettingsRaw === "string" && extraSettingsRaw.trim()) {
+      try { extraSettings = JSON.parse(extraSettingsRaw); } catch (_) { extraSettings = null; }
+    }
+    if (!extraSettings || typeof extraSettings !== "object") extraSettings = null;
+
     const token = pickFirstNonEmptyRaw(
+      extraSettings?.restToken,
+      extraSettings?.token,
+      extraSettings?.lumiaToken,
+      extraSettings?.authToken,
       await safeGetVar("restToken"),
       await safeGetVar("rest_token"),
       await safeGetVar("lumiaToken"),
+      await safeGetVar("authToken"),
       await safeGetVar("token"),
       (typeof process !== "undefined" && process && process.env && process.env.LUMIA_REST_TOKEN)
         ? String(process.env.LUMIA_REST_TOKEN).trim()
@@ -481,6 +525,9 @@ async function () {
     );
 
     const baseUrl = pickFirstNonEmptyRaw(
+      extraSettings?.restBaseUrl,
+      extraSettings?.baseUrl,
+      extraSettings?.base_url,
       await safeGetVar("restBaseUrl"),
       await safeGetVar("rest_base_url"),
       await safeGetVar("baseUrl"),
@@ -525,6 +572,37 @@ async function () {
     }
   }
 
+  async function actionsAdjustLoyaltyPoints(delta, username) {
+    if (typeof actions !== "function") {
+      return { ok: false, response: null };
+    }
+
+    const value = formatSignedNumber(delta);
+    const payload = {
+      base: "lumiaActions",
+      type: "setUserLoyaltyPoint",
+      value: {
+        message: String(username || "").trim(),
+        value,
+        options: [],
+        on: false,
+        duration: 1000,
+        voice: "",
+        volume: 100,
+        color: "",
+        chatas: "chatbot"
+      }
+    };
+
+    try {
+      const response = await actions(payload);
+      return { ok: true, response };
+    } catch (err) {
+      logMsg(`[BUY-CASE] actions setUserLoyaltyPoint failed | ${err?.message || err}`);
+      return { ok: false, response: null };
+    }
+  }
+
   async function adjustCoins(delta, username, platform, pointsBefore) {
     const value = Math.trunc(Number(delta) || 0);
     if (!value) {
@@ -532,6 +610,15 @@ async function () {
         ok: true,
         pointsAfter: Number.isFinite(pointsBefore) ? pointsBefore : null,
         method: "none"
+      };
+    }
+
+    const actionsResult = await actionsAdjustLoyaltyPoints(value, username);
+    if (actionsResult.ok) {
+      return {
+        ok: true,
+        pointsAfter: Number.isFinite(pointsBefore) ? pointsBefore + value : null,
+        method: "actions"
       };
     }
 
@@ -547,6 +634,14 @@ async function () {
       } catch (err) {
         logMsg(`[BUY-CASE] native addLoyaltyPoints failed | ${err?.message || err}`);
       }
+    }
+
+    if (!ALLOW_REST_FALLBACK) {
+      return {
+        ok: false,
+        pointsAfter: Number.isFinite(pointsBefore) ? pointsBefore : null,
+        method: "loyalty-unavailable"
+      };
     }
 
     const restResult = await restAddLoyaltyPoints(value, username, platform);
@@ -660,7 +755,7 @@ async function () {
     }
 
     if (!hasPoints && totalCost > 0 && linkedFromDiscord) {
-      logMsg("[BUY-CASE] Points precheck unavailable for linked Discord request; proceeding with REST adjustment.");
+      logMsg("[BUY-CASE] Points precheck unavailable for linked Discord request; proceeding with loyalty adjustment.");
     }
 
     let pointsAfter = hasPoints ? pointsBefore : null;
@@ -669,7 +764,11 @@ async function () {
     if (totalCost > 0) {
       const adjust = await adjustCoins(-totalCost, effectiveUsername, effectivePlatform, pointsBefore);
       if (!adjust.ok) {
-        await reply(site, `@${usernameRaw} Coins deduction failed. Purchase canceled.`);
+        const errMsg =
+          adjust.method === "loyalty-unavailable"
+            ? "Coins system unavailable right now."
+            : "Coins deduction failed.";
+        await reply(site, `@${usernameRaw} ${errMsg} Purchase canceled.`);
         return;
       }
       coinsAdjusted = true;

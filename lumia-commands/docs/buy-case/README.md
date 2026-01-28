@@ -6,7 +6,7 @@ Primary chat handler for buying cases. It runs entirely as a Lumia chat command 
 
 - Command name: `buy-case`
 - Primary chat command: `!buy-case`
-- Aliases: `!buycase`, `!buy case`, `!buy-case`
+- Aliases: `!buy case`, `!Buy Case`, `!BUY CASE`, `!buy Case`, `!Buy case`, `!buycase`, `!BUYCASE`, `!BuyCase`, `!buy-case`, `!Buy-Case`, `!BUY-CASE`, `!buy_case`, `!Buy_Case`, `!BUY_CASE`
 
 ## Chat usage (with `!`)
 
@@ -36,9 +36,9 @@ Primary chat handler for buying cases. It runs entirely as a Lumia chat command 
 3. Load case aliases and pricing (`data/case-aliases.json`, `data/prices.json`).
 4. Validate alias and quantity; suggest similar aliases when possible.
 5. Precheck points via `{{get_user_loyalty_points={{username}},{{platform}}}}` when available.
-6. Adjust points using:
-   - Native `addLoyaltyPoints` if available.
-   - REST `add-loyalty-points` otherwise.
+6. Adjust points using `actions` → `lumiaActions.setUserLoyaltyPoint` when available.
+   - Falls back to native `addLoyaltyPoints` when `actions` is unavailable.
+   - If neither helper is available, the command cancels the purchase.
 7. Dispatch commit command `tcsgo-commit-buycase` with an `eventId`.
 8. Poll for ACK (`tcsgo_last_buycase_json`, fallback `tcsgo_last_event_json`).
 9. On failure, refund points and reply with an error.

@@ -2,11 +2,14 @@ async function () {
   "use strict";
 
   /*
-   * Command: !inventory
-   * Description: List a viewer's inventory with paging and lock status.
-   * Aliases: !inventory, !inv, !tcsgo-inventory
+   * Description: List A Viewer's Inventory With Paging And Lock Status.
+   * Command Name: !inventory
+   * Aliases: !inventory, !Inventory, !INVENTORY, !inv, !Inv, !INV, !tcsgo inventory, !Tcsgo Inventory, !TCSGO INVENTORY, !tcsgo Inventory, !Tcsgo inventory, !tcsgoinventory, !TCSGOINVENTORY, !TcsgoInventory, !tcsgo-inventory, !Tcsgo-Inventory, !TCSGO-INVENTORY, !tcsgo_inventory, !Tcsgo_Inventory, !TCSGO_INVENTORY
+   * Usage Examples:
+   * - !inventory
+   * - !inventory 2
    */
-  const LOG_ENABLED = true;
+  const LOG_ENABLED = false;
   const PAGE_SIZE = 5;
   const TIKTOK_SEND_COMMAND = "tiktok_chat_send";
   const TCSGO_BASE = "A:\\Development\\Version Control\\Github\\TCSGO";

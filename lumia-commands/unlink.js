@@ -2,11 +2,13 @@ async function () {
   "use strict";
 
   /*
-   * Command: !unlink
-   * Description: Start unlinking a stream account from a Discord account.
-   * Aliases: !unlink, !unlink @discord, !unlink discordUser
+   * Description: Start Unlinking A Stream Account From A Discord Account.
+   * Command Name: !unlink
+   * Aliases: !unlink, !Unlink, !UNLINK, !unlink @discord, !Unlink @discord, !UNLINK @discord, !unlink discordUser, !Unlink discordUser, !UNLINK discordUser
+   * Usage Examples:
+   * - !unlink @discordUser
    */
-  const LOG_ENABLED = true;                 // Logs To Lumia Logs
+  const LOG_ENABLED = false;                 // Logs To Lumia Logs
   const CHAT_DEBUG_ENABLED = false;         // If True, Sends A Debug Line To Twitch Chat
   const STORE_KEY = "tcsgo_link_dedupe_v1";
 

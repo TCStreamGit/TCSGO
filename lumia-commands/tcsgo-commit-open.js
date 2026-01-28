@@ -1,7 +1,14 @@
 async function () {
   "use strict";
 
-  const LOG_ENABLED = true;
+  /*
+   * Description: Commit Case Open Results And Grant Items.
+   * Command Name: tcsgo-commit-open
+   * Aliases: None
+   * Usage Examples:
+   * - tcsgo-commit-open
+   */
+  const LOG_ENABLED = false;
 
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";

@@ -1,7 +1,14 @@
 async function () {
   "use strict";
 
-  const LOG_ENABLED = true;
+  /*
+   * Description: Commit Case Purchases And Update Inventory.
+   * Command Name: tcsgo-commit-buycase
+   * Aliases: None
+   * Usage Examples:
+   * - tcsgo-commit-buycase
+   */
+  const LOG_ENABLED = false;
 
   const CODE_ID = "tcsgo-controller";
   const ACK_VAR = "tcsgo_last_event_json";

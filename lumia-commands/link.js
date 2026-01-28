@@ -2,11 +2,13 @@ async function () {
   "use strict";
 
   /*
-   * Command: !link
-   * Description: Start linking a stream account to a Discord account.
-   * Aliases: !link, !link @discord, !link discordUser
+   * Description: Start Linking A Stream Account To A Discord Account.
+   * Command Name: !link
+   * Aliases: !link, !Link, !LINK, !link @discord, !Link @discord, !LINK @discord, !link discordUser, !Link discordUser, !LINK discordUser
+   * Usage Examples:
+   * - !link @discordUser
    */
-  const LOG_ENABLED = true;                 // Logs To Lumia Logs
+  const LOG_ENABLED = false;                 // Logs To Lumia Logs
   const CHAT_DEBUG_ENABLED = false;         // If True, Sends A Debug Line To Twitch Chat
   const STORE_KEY = "tcsgo_link_dedupe_v1";
 
